@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <rect width="700" height="420" fill="#0a2043"/>
+  <rect x="86" y="84" width="528" height="246" rx="18" fill="#102a55"/>
+  <path d="M142 254l90-92 82 66 104-126 126 152" fill="none" stroke="#18d4ff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="544" cy="254" r="28" fill="#f4c95d"/>
+  <text x="86" y="374" fill="#fff" font-family="Arial" font-size="34" font-weight="700">Solución digital</text>
+</svg>

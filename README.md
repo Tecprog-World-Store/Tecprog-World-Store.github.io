@@ -1,8 +1,8 @@
 # Tecprog World E.I.R.L. - Sitio GitHub Pages
 
-Primera versión profesional del sitio corporativo y comercial de Tecprog World E.I.R.L. para publicar en GitHub Pages.
+Sitio corporativo y comercial estático de Tecprog World E.I.R.L. para publicar en GitHub Pages. Usa HTML, CSS y JavaScript puro, sin backend, claves API ni dependencias pesadas.
 
-## Estructura
+## Estructura principal
 
 ```text
 /
@@ -11,96 +11,126 @@ Primera versión profesional del sitio corporativo y comercial de Tecprog World 
 │   ├── img/
 │   │   ├── logos/
 │   │   ├── banners/
+│   │   ├── lineas/
 │   │   ├── cursos/
 │   │   ├── servicios/
 │   │   ├── productos/
+│   │   ├── software/
+│   │   ├── descargas/
 │   │   └── qr/
 │   ├── icons/
 │   ├── css/styles.css
 │   └── js/main.js
-├── legal/
-│   ├── libro-reclamaciones.html
-│   ├── terminos-condiciones.html
-│   └── politicas-privacidad.html
-└── data/
-    ├── servicios.json
-    ├── productos.json
-    └── cursos.json
+├── data/
+│   ├── cursos.json
+│   ├── servicios.json
+│   ├── productos.json
+│   ├── software.json
+│   └── descargas.json
+└── legal/
+    ├── libro-reclamaciones.html
+    ├── terminos-condiciones.html
+    └── politicas-privacidad.html
 ```
 
-## Editar productos, cursos y servicios
+## Editar contenido comercial
 
-Los contenidos comerciales se administran en archivos JSON:
+Los catálogos se editan desde la carpeta `data/`:
 
-- `data/productos.json`
 - `data/cursos.json`
 - `data/servicios.json`
+- `data/productos.json`
+- `data/software.json`
+- `data/descargas.json`
 
-Cada elemento acepta estos campos:
+Para cursos, servicios y productos usa esta base:
 
 ```json
 {
   "nombre": "Nombre visible",
-  "categoria": "Categoria",
-  "descripcion": "Descripcion comercial breve",
+  "categoria": "Categoría",
+  "descripcion": "Descripción comercial breve",
   "precio": "Desde S/ 00.00",
-  "imagen": "assets/img/productos/archivo.jpg",
-  "paypal": "https://www.paypal.com/paypalme/tu-enlace"
+  "imagen": "assets/img/productos/archivo.svg",
+  "paypal": "https://www.paypal.com/paypalme/editar-enlace"
 }
 ```
 
-Si no tienes una imagen todavia, deja el campo `imagen` vacio o apunta a una ruta futura. El sitio mostrara un bloque visual de respaldo.
+Para descargas:
 
-## Cambiar datos de contacto
+```json
+{
+  "nombre": "Nombre de la descarga",
+  "tipo": "Software open-source",
+  "linea_negocio": "TW Innova",
+  "descripcion": "Descripción breve",
+  "version": "0.1.0",
+  "sistema_operativo": "Web / multiplataforma",
+  "licencia": "MIT",
+  "url_descarga": "https://github.com/",
+  "url_documentacion": "https://github.com/",
+  "imagen": "assets/img/descargas/archivo.svg",
+  "etiqueta": "open-source"
+}
+```
 
-Edita las constantes al inicio de `assets/js/main.js`:
+## WhatsApp, PayPal y Yape
+
+Edita al inicio de `assets/js/main.js`:
 
 ```js
 const WHATSAPP_NUMBER = "51999999999";
 const CONTACT_EMAIL = "contacto@tecprogworld.com";
+const DEFAULT_PAYPAL_URL = "https://www.paypal.com/paypalme/editar-enlace";
 ```
 
-Usa el numero de WhatsApp en formato internacional, sin espacios ni simbolos.
+El mensaje de WhatsApp se genera así:
 
-## Agregar imagenes
+```text
+Hola, deseo información sobre: [nombre]. Vengo desde la web de Tecprog World.
+```
 
-Coloca archivos livianos en estas carpetas:
+Para Yape, coloca el QR real en:
 
-- Logos: `assets/img/logos/`
-- Banners: `assets/img/banners/`
-- Cursos: `assets/img/cursos/`
-- Servicios: `assets/img/servicios/`
-- Productos: `assets/img/productos/`
-- QR Yape: `assets/img/qr/yape.png`
+```text
+assets/img/qr/yape.png
+```
 
-El sitio ya reserva una zona para `assets/img/qr/yape.png`. Cuando tengas el QR real, guarda la imagen con ese nombre.
+## Imágenes
 
-## PayPal y Yape
+El sitio incluye placeholders SVG propios, livianos y editables. Puedes reemplazarlos por imágenes optimizadas en:
 
-Los botones de PayPal quedan como enlaces editables en cada archivo JSON. Cambia el valor `paypal` por el enlace real de pago o checkout.
+- `assets/img/banners/`
+- `assets/img/lineas/`
+- `assets/img/software/`
+- `assets/img/descargas/`
+- `assets/img/cursos/`
+- `assets/img/servicios/`
+- `assets/img/productos/`
 
-La zona Yape es informativa y debe actualizarse con el QR real antes de usarla comercialmente.
-
-## Libro de reclamaciones
-
-`legal/libro-reclamaciones.html` contiene una maqueta visual estatica. Para uso operativo debe conectarse luego a correo, Google Forms, Formspree o un backend propio.
+Usa nombres en minúsculas y sin espacios, por ejemplo `software-comercial-dashboard.png`.
 
 ## Publicar en GitHub Pages
 
 1. Sube los archivos al repositorio.
-2. En GitHub, entra a `Settings > Pages`.
-3. En `Build and deployment`, selecciona `Deploy from a branch`.
+2. En GitHub entra a `Settings > Pages`.
+3. Selecciona `Deploy from a branch`.
 4. Elige la rama `main` y la carpeta `/root`.
 5. Guarda los cambios.
 
-GitHub Pages publicara el sitio como una web estatica sin backend.
-
 ## Probar localmente
 
-Como el sitio carga datos JSON con `fetch`, es mejor probarlo con un servidor local:
+Como el sitio carga JSON con `fetch`, pruébalo con un servidor local:
 
 ```powershell
 python -m http.server 8080
 ```
 
 Luego abre `http://localhost:8080`.
+
+## Pendientes recomendados
+
+- Reemplazar enlaces temporales de Facebook, PayPal, GitHub y documentación.
+- Confirmar correo empresarial y número real de WhatsApp.
+- Colocar el QR Yape real.
+- Revisar textos legales antes de iniciar ventas formales.

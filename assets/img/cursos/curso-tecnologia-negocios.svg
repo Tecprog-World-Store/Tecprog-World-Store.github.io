@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <rect width="700" height="420" fill="#07152f"/>
+  <rect x="82" y="86" width="360" height="218" rx="18" fill="#102a55"/>
+  <path d="M125 148h190M125 194h250M125 240h130" stroke="#18d4ff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="522" cy="184" r="78" fill="#f4c95d" opacity=".92"/>
+  <path d="M488 184h68M522 150v68" stroke="#07152f" stroke-width="18" stroke-linecap="round"/>
+  <text x="84" y="356" fill="#fff" font-family="Arial" font-size="34" font-weight="700">Tecnología para negocios</text>
+</svg>

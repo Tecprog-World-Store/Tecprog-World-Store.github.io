@@ -1,0 +1,40 @@
+[
+  {
+    "nombre": "TW Business Control",
+    "modelo": "comercial",
+    "linea": "TW Innova",
+    "descripcion": "Sistema modular para ventas, inventario, clientes, reportes y seguimiento operativo en pequeños negocios.",
+    "licencia": "Licencia comercial / implementación",
+    "imagen": "assets/img/software/software-comercial-dashboard.svg"
+  },
+  {
+    "nombre": "TW Educa Campus",
+    "modelo": "comercial",
+    "linea": "TW Educa",
+    "descripcion": "Plataforma base para organizar cursos, materiales, inscripciones y seguimiento de participantes.",
+    "licencia": "Servicio configurable",
+    "imagen": "assets/img/software/software-comercial-campus.svg"
+  },
+  {
+    "nombre": "TW Open Tools",
+    "modelo": "open-source",
+    "linea": "TW Innova",
+    "descripcion": "Colección preparada para herramientas libres, scripts educativos, utilidades web y ejemplos técnicos.",
+    "licencia": "MIT o licencia por definir",
+    "repositorio": "https://github.com/",
+    "descarga": "https://github.com/",
+    "documentacion": "https://github.com/",
+    "imagen": "assets/img/software/software-open-source-tools.svg"
+  },
+  {
+    "nombre": "TW Lab Starter",
+    "modelo": "open-source",
+    "linea": "TW Educa",
+    "descripcion": "Plantillas de laboratorio, ejercicios y recursos para cursos de programación, software y tecnología.",
+    "licencia": "Open-source educativa",
+    "repositorio": "https://github.com/",
+    "descarga": "https://github.com/",
+    "documentacion": "https://github.com/",
+    "imagen": "assets/img/software/software-open-source-lab.svg"
+  }
+]

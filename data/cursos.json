@@ -2,25 +2,25 @@
   {
     "nombre": "Curso de tecnología para negocios",
     "categoria": "TW Educa",
-    "descripcion": "Aprende herramientas digitales para ventas, atencion al cliente, organizacion y crecimiento comercial.",
+    "descripcion": "Herramientas digitales para ventas, atención al cliente, organización y crecimiento comercial.",
     "precio": "Desde S/ 79.00",
-    "imagen": "assets/img/cursos/tecnologia-negocios.jpg",
+    "imagen": "assets/img/cursos/curso-tecnologia-negocios.svg",
     "paypal": "https://www.paypal.com/paypalme/editar-enlace"
   },
   {
     "nombre": "Taller de innovación y prototipado",
-    "categoria": "Innovacion",
-    "descripcion": "Programa practico para convertir ideas en prototipos, servicios o soluciones listas para validar.",
+    "categoria": "Innovación",
+    "descripcion": "Programa práctico para convertir ideas en prototipos, servicios o soluciones listas para validar.",
     "precio": "Desde S/ 120.00",
-    "imagen": "assets/img/cursos/innovacion-prototipado.jpg",
+    "imagen": "assets/img/cursos/taller-innovacion-prototipado.svg",
     "paypal": "https://www.paypal.com/paypalme/editar-enlace"
   },
   {
-    "nombre": "Capacitacion empresarial personalizada",
+    "nombre": "Capacitación empresarial personalizada",
     "categoria": "Empresas",
     "descripcion": "Cursos a medida para instituciones, equipos de trabajo y proyectos de transformación digital.",
     "precio": "Cotizar",
-    "imagen": "assets/img/cursos/capacitacion-empresarial.jpg",
+    "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
     "paypal": "https://www.paypal.com/paypalme/editar-enlace"
   }
 ]

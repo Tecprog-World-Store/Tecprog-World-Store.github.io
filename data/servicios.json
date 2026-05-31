@@ -2,25 +2,25 @@
   {
     "nombre": "Soporte técnico y mantenimiento",
     "categoria": "TW Taller",
-    "descripcion": "Diagnostico, mantenimiento preventivo, reparacion y asistencia tecnica para equipos y operaciones.",
+    "descripcion": "Diagnóstico, mantenimiento preventivo, reparación y asistencia técnica para equipos y operaciones.",
     "precio": "Desde S/ 60.00",
-    "imagen": "assets/img/servicios/soporte-tecnico.jpg",
+    "imagen": "assets/img/servicios/servicio-soporte-tecnico.svg",
     "paypal": "https://www.paypal.com/paypalme/editar-enlace"
   },
   {
-    "nombre": "Desarrollo web y catalogos digitales",
+    "nombre": "Desarrollo web y catálogos digitales",
     "categoria": "TW Innova",
-    "descripcion": "Sitios web estaticos, landing pages, catalogos comerciales y flujos de contacto por WhatsApp.",
+    "descripcion": "Sitios web estáticos, landing pages, catálogos comerciales y flujos de contacto por WhatsApp.",
     "precio": "Desde S/ 450.00",
-    "imagen": "assets/img/servicios/desarrollo-web.jpg",
+    "imagen": "assets/img/servicios/servicio-desarrollo-software.svg",
     "paypal": "https://www.paypal.com/paypalme/editar-enlace"
   },
   {
-    "nombre": "Implementacion tecnologica institucional",
+    "nombre": "Implementación tecnológica institucional",
     "categoria": "Empresarial",
-    "descripcion": "Acompanamiento para proyectos, compras, instalacion, capacitacion y puesta en marcha de soluciones.",
+    "descripcion": "Acompañamiento para proyectos, compras, instalación, capacitación y puesta en marcha de soluciones.",
     "precio": "Cotizar",
-    "imagen": "assets/img/servicios/implementacion.jpg",
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "paypal": "https://www.paypal.com/paypalme/editar-enlace"
   }
 ]

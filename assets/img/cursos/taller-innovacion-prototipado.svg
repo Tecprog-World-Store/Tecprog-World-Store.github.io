@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <rect width="700" height="420" fill="#0a2043"/>
+  <path d="M150 280c60-120 160-170 300-150" fill="none" stroke="#18d4ff" stroke-width="20" stroke-linecap="round"/>
+  <rect x="420" y="92" width="130" height="130" rx="24" fill="#f4c95d"/>
+  <rect x="120" y="218" width="150" height="110" rx="18" fill="#102f5f"/>
+  <circle cx="322" cy="190" r="52" fill="#fff" opacity=".16"/>
+  <text x="78" y="360" fill="#fff" font-family="Arial" font-size="34" font-weight="700">Innovación y prototipado</text>
+</svg>

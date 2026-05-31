@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <rect width="700" height="420" fill="#07152f"/>
+  <path d="M430 84a92 92 0 0 0-82 128L172 388l70 70 176-176A92 92 0 0 0 544 168l-70 70-60-60 70-70a92 92 0 0 0-54-24z" fill="#18d4ff" opacity=".45"/>
+  <circle cx="206" cy="308" r="44" fill="#f4c95d"/>
+  <text x="72" y="358" fill="#fff" font-family="Arial" font-size="34" font-weight="700">Soporte técnico</text>
+</svg>

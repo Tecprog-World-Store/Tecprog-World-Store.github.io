@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <rect width="700" height="420" fill="#061326"/>
+  <rect x="88" y="84" width="524" height="250" rx="20" fill="#102a55"/>
+  <path d="M190 210l-46 42 46 42M510 210l46 42-46 42M390 174l-80 156" fill="none" stroke="#18d4ff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="88" y="374" fill="#f4c95d" font-family="Arial" font-size="34" font-weight="700">Desarrollo de software</text>
+</svg>

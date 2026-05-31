@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
+  <rect width="700" height="420" fill="#07152f"/>
+  <path d="M222 68h190l80 80v198H222z" fill="#fff" opacity=".16"/>
+  <path d="M412 68v80h80" fill="#f4c95d"/>
+  <path d="M270 190h160M270 238h120M270 286h170" stroke="#18d4ff" stroke-width="16" stroke-linecap="round"/>
+  <text x="104" y="376" fill="#fff" font-family="Arial" font-size="34" font-weight="700">Manual PDF</text>
+</svg>
