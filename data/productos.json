@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Kit tecnologico para emprendedores",
+    "categoria": "Store",
+    "descripcion": "Paquete inicial de accesorios y herramientas digitales para atencion, ventas y productividad.",
+    "precio": "Desde S/ 149.00",
+    "imagen": "assets/img/productos/kit-emprendedor.jpg",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  },
+  {
+    "nombre": "Accesorios y componentes tecnologicos",
+    "categoria": "Productos",
+    "descripcion": "Catálogo editable para periféricos, repuestos, componentes, dispositivos y artículos de tecnología.",
+    "precio": "Cotizar",
+    "imagen": "assets/img/productos/accesorios.jpg",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  },
+  {
+    "nombre": "Solucion digital para negocios",
+    "categoria": "Paquetes",
+    "descripcion": "Implementacion basica de presencia digital, formularios, catalogos y canales de venta por WhatsApp.",
+    "precio": "Desde S/ 399.00",
+    "imagen": "assets/img/productos/solucion-digital.jpg",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  }
+]

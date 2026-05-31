@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Libro de Reclamaciones | Tecprog World E.I.R.L.</title>
+    <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html#inicio" aria-label="Volver al inicio">
+        <img src="../assets/img/logos/tecprog-logo.svg" alt="" width="44" height="44">
+        <span>
+          <strong>Tecprog World</strong>
+          <small>E.I.R.L. Perú</small>
+        </span>
+      </a>
+      <nav class="site-nav is-static">
+        <a href="../index.html">Inicio</a>
+        <a href="terminos-condiciones.html">Términos</a>
+        <a href="politicas-privacidad.html">Privacidad</a>
+      </nav>
+    </header>
+
+    <main class="legal-main">
+      <section class="legal-card">
+        <p class="eyebrow">Atención al consumidor</p>
+        <h1>Libro de Reclamaciones</h1>
+        <p class="notice">
+          Esta pagina es una maqueta inicial estatica. Para recibir reclamos de forma operativa debe conectarse luego a correo, Google Forms, Formspree o un backend autorizado por la empresa.
+        </p>
+
+        <form class="claim-form" action="#" method="post">
+          <label>
+            Nombre completo
+            <input type="text" name="nombre" placeholder="Nombre y apellidos">
+          </label>
+          <label>
+            Documento
+            <input type="text" name="documento" placeholder="DNI, CE o RUC">
+          </label>
+          <label>
+            Correo electrónico
+            <input type="email" name="correo" placeholder="correo@ejemplo.com">
+          </label>
+          <label>
+            Telefono
+            <input type="tel" name="telefono" placeholder="+51 999 999 999">
+          </label>
+          <label>
+            Tipo
+            <select name="tipo">
+              <option>Reclamo</option>
+              <option>Queja</option>
+            </select>
+          </label>
+          <label>
+            Producto o servicio
+            <input type="text" name="producto" placeholder="Indica el producto, curso o servicio">
+          </label>
+          <label class="full">
+            Detalle del caso
+            <textarea name="detalle" placeholder="Describe los hechos y tu solicitud"></textarea>
+          </label>
+          <label class="full">
+            Pedido del consumidor
+            <textarea name="pedido" placeholder="Indica la solucion solicitada"></textarea>
+          </label>
+          <div class="full">
+            <button class="btn btn-primary" type="button">Enviar maqueta</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

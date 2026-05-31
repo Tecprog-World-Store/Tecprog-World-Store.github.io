@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Tecprog World</title>
+  <rect width="120" height="120" rx="24" fill="#07152f"/>
+  <path d="M25 33h70v13H67v45H53V46H25z" fill="#f1c95b"/>
+  <path d="M29 73c10-18 25-27 45-27h21c-6 24-23 40-48 45l8-18H29z" fill="#18d4ff" opacity=".88"/>
+  <circle cx="87" cy="33" r="7" fill="#fff"/>
+</svg>
