@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Libro de Reclamaciones | Tecprog World E.I.R.L.</title>
-    <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../assets/img/logos/logo-tecprog-world.png" type="image/png">
     <link rel="stylesheet" href="../assets/css/styles.css">
   </head>
   <body>
@@ -27,26 +27,60 @@
       <section class="legal-card">
         <p class="eyebrow">Atención al consumidor</p>
         <h1>Libro de Reclamaciones</h1>
+        <p><strong>Razón social:</strong> Tecprog World E.I.R.L.</p>
+        <p><strong>País:</strong> Perú</p>
+        <p><strong>Correo:</strong> grupotecprog@gmail.com</p>
+        <p><strong>WhatsApp:</strong> +51 952 354 282</p>
         <p class="notice">
-          Esta pagina es una maqueta inicial estatica. Para recibir reclamos de forma operativa debe conectarse luego a correo, Google Forms, Formspree o un backend autorizado por la empresa.
+          Esta primera versión del Libro de Reclamaciones es una maqueta visual estática. Para operación formal debe conectarse a un sistema de almacenamiento, correo, Google Forms, Formspree o backend validado.
         </p>
 
         <form class="claim-form" action="#" method="post">
+          <label>
+            Fecha
+            <input type="date" name="fecha">
+          </label>
           <label>
             Nombre completo
             <input type="text" name="nombre" placeholder="Nombre y apellidos">
           </label>
           <label>
-            Documento
-            <input type="text" name="documento" placeholder="DNI, CE o RUC">
+            Tipo de documento
+            <select name="tipo_documento">
+              <option>DNI</option>
+              <option>RUC</option>
+              <option>Carné de extranjería</option>
+              <option>Pasaporte</option>
+            </select>
           </label>
           <label>
-            Correo electrónico
+            Número de documento
+            <input type="text" name="documento" placeholder="Número de documento">
+          </label>
+          <label class="full">
+            Domicilio
+            <input type="text" name="domicilio" placeholder="Dirección del consumidor">
+          </label>
+          <label>
+            Teléfono
+            <input type="tel" name="telefono" placeholder="+51 999 999 999">
+          </label>
+          <label>
+            Correo
             <input type="email" name="correo" placeholder="correo@ejemplo.com">
           </label>
           <label>
-            Telefono
-            <input type="tel" name="telefono" placeholder="+51 999 999 999">
+            Bien contratado
+            <select name="bien">
+              <option>Producto</option>
+              <option>Servicio</option>
+              <option>Curso</option>
+              <option>Software</option>
+            </select>
+          </label>
+          <label>
+            Monto reclamado
+            <input type="text" name="monto" placeholder="S/ 0.00">
           </label>
           <label>
             Tipo
@@ -55,17 +89,13 @@
               <option>Queja</option>
             </select>
           </label>
-          <label>
-            Producto o servicio
-            <input type="text" name="producto" placeholder="Indica el producto, curso o servicio">
-          </label>
           <label class="full">
-            Detalle del caso
-            <textarea name="detalle" placeholder="Describe los hechos y tu solicitud"></textarea>
+            Descripción
+            <textarea name="descripcion" placeholder="Describe los hechos relacionados al reclamo o queja"></textarea>
           </label>
           <label class="full">
             Pedido del consumidor
-            <textarea name="pedido" placeholder="Indica la solucion solicitada"></textarea>
+            <textarea name="pedido" placeholder="Indica la solución solicitada"></textarea>
           </label>
           <div class="full">
             <button class="btn btn-primary" type="button">Enviar maqueta</button>

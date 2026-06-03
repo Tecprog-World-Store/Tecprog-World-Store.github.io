@@ -1,122 +1,107 @@
-# Tecprog World E.I.R.L. - Sitio GitHub Pages
+# Tecprog World E.I.R.L. - Sitio web para GitHub Pages
 
-Sitio corporativo y comercial estático de Tecprog World E.I.R.L. para publicar en GitHub Pages. Usa HTML, CSS y JavaScript puro, sin backend, claves API ni dependencias pesadas.
+Primera versión profesional del sitio corporativo y comercial estático de Tecprog World E.I.R.L. El sitio usa HTML, CSS y JavaScript puro, no requiere backend, no usa claves API y funciona directamente en GitHub Pages.
 
-## Estructura principal
+## Estructura
 
 ```text
 /
 ├── index.html
+├── README.md
 ├── assets/
 │   ├── img/
 │   │   ├── logos/
 │   │   ├── banners/
-│   │   ├── lineas/
 │   │   ├── cursos/
 │   │   ├── servicios/
 │   │   ├── productos/
-│   │   ├── software/
-│   │   ├── descargas/
 │   │   └── qr/
 │   ├── icons/
-│   ├── css/styles.css
-│   └── js/main.js
-├── data/
-│   ├── cursos.json
-│   ├── servicios.json
-│   ├── productos.json
-│   ├── software.json
-│   └── descargas.json
-└── legal/
-    ├── libro-reclamaciones.html
-    ├── terminos-condiciones.html
-    └── politicas-privacidad.html
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── main.js
+├── legal/
+│   ├── libro-reclamaciones.html
+│   ├── terminos-condiciones.html
+│   └── politicas-privacidad.html
+└── data/
+    ├── servicios.json
+    ├── productos.json
+    └── cursos.json
 ```
 
-## Editar contenido comercial
+## Editar cursos, servicios y productos
 
-Los catálogos se editan desde la carpeta `data/`:
+Los catálogos se cargan desde archivos JSON:
 
 - `data/cursos.json`
 - `data/servicios.json`
 - `data/productos.json`
-- `data/software.json`
-- `data/descargas.json`
 
-Para cursos, servicios y productos usa esta base:
+Cada elemento puede usar esta estructura:
 
 ```json
 {
   "nombre": "Nombre visible",
+  "linea": "TW Educa",
   "categoria": "Categoría",
-  "descripcion": "Descripción comercial breve",
-  "precio": "Desde S/ 00.00",
-  "imagen": "assets/img/productos/archivo.svg",
+  "descripcion": "Texto comercial breve",
+  "precio": "Desde S/ 149",
+  "modalidad": "Virtual",
+  "imagen": "assets/img/cursos/archivo.svg",
+  "etiqueta": "Etiqueta",
   "paypal": "https://www.paypal.com/paypalme/editar-enlace"
 }
 ```
 
-Para descargas:
-
-```json
-{
-  "nombre": "Nombre de la descarga",
-  "tipo": "Software open-source",
-  "linea_negocio": "TW Innova",
-  "descripcion": "Descripción breve",
-  "version": "0.1.0",
-  "sistema_operativo": "Web / multiplataforma",
-  "licencia": "MIT",
-  "url_descarga": "https://github.com/",
-  "url_documentacion": "https://github.com/",
-  "imagen": "assets/img/descargas/archivo.svg",
-  "etiqueta": "open-source"
-}
-```
+Después de editar un JSON, valida que no falten comas, comillas o corchetes. Un JSON inválido impedirá que se renderice esa sección.
 
 ## WhatsApp, PayPal y Yape
 
-Edita al inicio de `assets/js/main.js`:
+El número oficial está configurado en `assets/js/main.js`:
 
 ```js
-const WHATSAPP_NUMBER = "51999999999";
-const CONTACT_EMAIL = "contacto@tecprogworld.com";
-const DEFAULT_PAYPAL_URL = "https://www.paypal.com/paypalme/editar-enlace";
+const WHATSAPP_NUMBER = "51952354282";
 ```
 
-El mensaje de WhatsApp se genera así:
+Los botones de compra generan este mensaje:
 
 ```text
-Hola, deseo información sobre: [nombre]. Vengo desde la web de Tecprog World.
+Hola, deseo información para comprar: [nombre del producto/servicio]
 ```
 
-Para Yape, coloca el QR real en:
+Para PayPal, reemplaza `https://www.paypal.com/paypalme/editar-enlace` en cada elemento JSON por el enlace real de pago.
+
+Para Yape o Plin, coloca el QR real en:
 
 ```text
 assets/img/qr/yape.png
 ```
 
-## Imágenes
+La web ya tiene una zona visual preparada para ese archivo.
 
-El sitio incluye placeholders SVG propios, livianos y editables. Puedes reemplazarlos por imágenes optimizadas en:
+## Editar imágenes
 
-- `assets/img/banners/`
-- `assets/img/lineas/`
-- `assets/img/software/`
-- `assets/img/descargas/`
-- `assets/img/cursos/`
-- `assets/img/servicios/`
-- `assets/img/productos/`
+Usa imágenes optimizadas, livianas y con nombres sin espacios. Ejemplos:
 
-Usa nombres en minúsculas y sin espacios, por ejemplo `software-comercial-dashboard.png`.
+- `assets/img/logos/logo-tecprog-world.png`
+- `assets/img/banners/hero-tech.svg`
+- `assets/img/cursos/qgis-cuencas.png`
+- `assets/img/servicios/desarrollo-web.png`
+- `assets/img/productos/plantilla-web.png`
 
-## Publicar en GitHub Pages
+Si una imagen de catálogo no existe, el sitio mantiene una tarjeta visual con placeholder local.
 
-1. Sube los archivos al repositorio.
-2. En GitHub entra a `Settings > Pages`.
-3. Selecciona `Deploy from a branch`.
-4. Elige la rama `main` y la carpeta `/root`.
-5. Guarda los cambios.
+## Páginas legales
+
+Las páginas legales iniciales están en `legal/`:
+
+- `legal/libro-reclamaciones.html`
+- `legal/terminos-condiciones.html`
+- `legal/politicas-privacidad.html`
+
+El Libro de Reclamaciones es una maqueta visual estática. Para operación formal debe conectarse luego a correo, Google Forms, Formspree o un backend validado.
 
 ## Probar localmente
 
@@ -126,11 +111,24 @@ Como el sitio carga JSON con `fetch`, pruébalo con un servidor local:
 python -m http.server 8080
 ```
 
-Luego abre `http://localhost:8080`.
+Luego abre:
+
+```text
+http://localhost:8080
+```
+
+## Publicar en GitHub Pages
+
+1. Sube los archivos al repositorio.
+2. En GitHub, entra a `Settings > Pages`.
+3. Selecciona `Deploy from a branch`.
+4. Elige la rama `main` y la carpeta `/root`.
+5. Guarda los cambios.
 
 ## Pendientes recomendados
 
-- Reemplazar enlaces temporales de Facebook, PayPal, GitHub y documentación.
-- Confirmar correo empresarial y número real de WhatsApp.
-- Colocar el QR Yape real.
-- Revisar textos legales antes de iniciar ventas formales.
+- Reemplazar los enlaces temporales de Facebook y PayPal por enlaces oficiales.
+- Colocar el QR real de Yape o Plin.
+- Revisar textos legales con asesoría antes de operación formal.
+- Agregar fotos, banners o mockups propios cuando estén disponibles.
+- Ampliar catálogos y crear páginas internas de detalle en una siguiente versión.

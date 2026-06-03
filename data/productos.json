@@ -1,26 +1,68 @@
 [
   {
-    "nombre": "Kit tecnológico para emprendedores",
-    "categoria": "Store",
-    "descripcion": "Paquete inicial de accesorios y herramientas digitales para atención, ventas y productividad.",
-    "precio": "Desde S/ 149.00",
-    "imagen": "assets/img/productos/producto-kit-emprendedor.svg",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
-  },
-  {
-    "nombre": "Accesorios y componentes tecnológicos",
-    "categoria": "Productos",
-    "descripcion": "Catálogo editable para periféricos, repuestos, componentes, dispositivos y artículos de tecnología.",
-    "precio": "Cotizar",
-    "imagen": "assets/img/productos/producto-accesorios-componentes.svg",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
-  },
-  {
-    "nombre": "Solución digital para negocios",
-    "categoria": "Paquetes",
-    "descripcion": "Implementación básica de presencia digital, formularios, catálogos y canales de venta por WhatsApp.",
-    "precio": "Desde S/ 399.00",
+    "nombre": "Plantilla web estática para GitHub Pages",
+    "linea": "Tecprog World Store",
+    "categoria": "Recurso digital",
+    "descripcion": "Plantilla editable para publicar una web ligera con HTML, CSS y JavaScript puro.",
+    "precio": "Desde S/ 49",
+    "modalidad": "Entrega digital",
     "imagen": "assets/img/productos/producto-solucion-digital.svg",
+    "etiqueta": "Plantilla",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  },
+  {
+    "nombre": "Pack de recursos para emprendedores tecnológicos",
+    "linea": "Tecprog World Store",
+    "categoria": "Pack digital",
+    "descripcion": "Archivos base, guías, plantillas y recursos editables para organizar una oferta comercial digital.",
+    "precio": "Desde S/ 49",
+    "modalidad": "Entrega digital",
+    "imagen": "assets/img/productos/producto-kit-emprendedor.svg",
+    "etiqueta": "Pack",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  },
+  {
+    "nombre": "Manual técnico PDF editable",
+    "linea": "TW Educa",
+    "categoria": "Material educativo",
+    "descripcion": "Material técnico en PDF preparado para acompañar cursos, talleres o asesorías especializadas.",
+    "precio": "Desde S/ 29",
+    "modalidad": "Descarga digital",
+    "imagen": "assets/img/productos/producto-solucion-digital.svg",
+    "etiqueta": "PDF",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  },
+  {
+    "nombre": "Kit de accesorios y componentes tecnológicos",
+    "linea": "Tecprog World Store",
+    "categoria": "Producto físico",
+    "descripcion": "Espacio editable para publicar accesorios, repuestos, componentes, dispositivos y herramientas tecnológicas.",
+    "precio": "Cotizar",
+    "modalidad": "Entrega coordinada",
+    "imagen": "assets/img/productos/producto-accesorios-componentes.svg",
+    "etiqueta": "Hardware",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  },
+  {
+    "nombre": "Licencia de software comercial Tecprog",
+    "linea": "TW Innova",
+    "categoria": "Software comercial",
+    "descripcion": "Licencia editable para sistemas, paneles, herramientas internas o aplicaciones de escritorio desarrolladas por Tecprog.",
+    "precio": "Desde S/ 99 mensual",
+    "modalidad": "Licencia / soporte",
+    "imagen": "assets/img/productos/producto-solucion-digital.svg",
+    "etiqueta": "Licencia",
+    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+  },
+  {
+    "nombre": "Instalador o demo comercial",
+    "linea": "TW Innova",
+    "categoria": "Demo",
+    "descripcion": "Producto preparado para publicar demos, instaladores, pruebas funcionales o versiones de evaluación.",
+    "precio": "Desde S/ 0",
+    "modalidad": "Descarga / demo",
+    "imagen": "assets/img/productos/producto-kit-emprendedor.svg",
+    "etiqueta": "Demo",
     "paypal": "https://www.paypal.com/paypalme/editar-enlace"
   }
 ]
