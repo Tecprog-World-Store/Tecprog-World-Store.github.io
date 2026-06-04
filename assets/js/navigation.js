@@ -3,7 +3,7 @@ const TW_OFFICIAL = {
   email: "grupotecprog@gmail.com",
   web: "https://tecprog-world-store.github.io",
   ruc: "20608743252",
-  address: "Mz. C Lote. 43 Urb. Los Nísperos, San Martín de Porres, Lima, Perú",
+  address: "Mz. C Lote. 43 Urb. Los Nisperos, San Martin de Porres, Lima, Peru",
   maps: "https://www.google.com/maps/search/?api=1&query=Mz.%20C%20Lote.%2043%20Urb.%20Los%20Nisperos%20San%20Martin%20de%20Porres%20Lima%20Peru"
 };
 
@@ -23,7 +23,7 @@ function twExternalAttrs() {
   });
 }
 
-function twWhatsappHref(text = "Hola, deseo información desde la web de Tecprog World E.I.R.L.") {
+function twWhatsappHref(text = "Hola, deseo informacion desde la web de Tecprog World E.I.R.L.") {
   return `https://wa.me/${TW_OFFICIAL.whatsapp}?text=${encodeURIComponent(text)}`;
 }
 
@@ -33,17 +33,14 @@ function renderStandardTopNav() {
     nav.innerHTML = `
       <a href="${twPath("index.html")}#inicio">Inicio</a>
       <a href="${twPath("empresa/nosotros.html")}">Empresa</a>
-      <a href="${twPath("index.html")}#lineas">Líneas de negocio</a>
-      <a href="${twPath("catalogo/cursos.html")}">Cursos</a>
-      <a href="${twPath("index.html")}#software">Software</a>
-      <a href="${twPath("index.html")}#servicios">Servicios</a>
-      <a href="${twPath("index.html")}#productos">Productos</a>
-      <a href="${twPath("catalogo/materiales-educativos.html")}">Materiales</a>
-      <a href="${twPath("catalogo/compendios.html")}">Compendios</a>
-      <a href="${twPath("catalogo/descargas.html")}">Descargas</a>
-      <a href="${twPath("index.html")}#proyectos">Proyectos</a>
-      <a href="${twPath("empresa/contacto.html")}">Contacto</a>
-      <a href="${twPath("legal/libro-reclamaciones.html")}">Libro de Reclamaciones</a>
+      <a href="${twPath("lineas/tw-investiga.html")}">TW Investiga</a>
+      <a href="${twPath("lineas/tw-innova.html")}">TW Innova</a>
+      <a href="${twPath("lineas/tw-educa.html")}">TW Educa</a>
+      <a href="${twPath("lineas/tw-construye.html")}">TW Construye</a>
+      <a href="${twPath("lineas/tw-inox.html")}">TW Inox</a>
+      <a href="${twPath("lineas/tw-protesis-ortesis.html")}">TW Protesis y Ortesis</a>
+      <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
+      <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
     `;
   });
 }
@@ -54,7 +51,7 @@ function setupMobileSideIndex() {
     const button = document.createElement("button");
     button.className = "side-index-toggle";
     button.type = "button";
-    button.textContent = "Índice de esta página";
+    button.textContent = "Indice de esta pagina";
     button.addEventListener("click", () => nav.classList.toggle("is-open"));
     nav.before(button);
   });
@@ -89,42 +86,72 @@ function renderInstitutionalFooter() {
           <img class="footer-logo" src="${twPath("assets/img/logos/logo-tecprog-world.png")}" alt="Tecprog World E.I.R.L." width="72" height="72">
           <div><strong>Tecprog World E.I.R.L.</strong><p>RUC: ${TW_OFFICIAL.ruc}</p></div>
         </div>
-        <p>Empresa peruana de tecnología aplicada.</p>
-        <p>Estado: Activo y Habido. Emisor electrónico desde 26/04/2023. Comprobantes electrónicos: Factura.</p>
+        <p>Empresa peruana de tecnologia aplicada.</p>
+        <p>${TW_OFFICIAL.address}</p>
       </div>
       <div>
         <h2>Contacto</h2>
         <a href="${twWhatsappHref()}">WhatsApp: +51 952 354 282</a>
         <a href="mailto:${TW_OFFICIAL.email}">${TW_OFFICIAL.email}</a>
         <a href="${TW_OFFICIAL.web}">${TW_OFFICIAL.web}</a>
-        <p>${TW_OFFICIAL.address}</p>
+        <a href="${twPath("empresa/contacto.html")}">Contacto</a>
+        <a href="${TW_OFFICIAL.maps}">Google Maps</a>
       </div>
       <div>
-        <h2>Redes y legales</h2>
+        <h2>Redes sociales</h2>
         <div class="footer-socials">
-          <a href="https://www.facebook.com/tecprogworld">Facebook</a>
+          <a href="https://www.facebook.com/tecprogworld">Facebook principal</a>
+          <a href="https://www.facebook.com/tecprogworld.educa">Facebook TW Educa</a>
+          <a href="https://www.facebook.com/tecprogworld.innova">Facebook TW Innova</a>
+          <a href="https://www.facebook.com/tecprogworld.taller">Facebook TW Taller</a>
+          <a href="https://www.facebook.com/tecprogworld.construye">Facebook TW Construye</a>
+          <a href="https://www.facebook.com/twbionic/">Facebook TW Protesis y Ortesis</a>
           <a href="https://www.tiktok.com/@tecprogworld">TikTok</a>
           <a href="https://www.youtube.com/@tecprogworld">YouTube</a>
           <a href="https://www.linkedin.com/company/tecprog-world">LinkedIn</a>
-          <a href="https://www.facebook.com/tecprogworld.educa">Facebook TW Educa</a>
-          <a href="https://www.facebook.com/tecprogworld.innova">Facebook TW Innova</a>
-          <a href="https://www.facebook.com/tecprogworld.construye">Facebook TW Construye</a>
-          <a href="https://www.facebook.com/twbionic/">Facebook TW Prótesis y Órtesis</a>
         </div>
-        <a href="${twPath("empresa/mapa-del-sitio.html")}">Mapa del sitio</a>
-        <a href="${twPath("legal/libro-reclamaciones.html")}">Libro de Reclamaciones</a>
-        <a href="${twPath("legal/terminos-condiciones.html")}">Términos y Condiciones</a>
-        <a href="${twPath("legal/politicas-privacidad.html")}">Políticas de Privacidad</a>
-        <a href="${twPath("legal/politicas-pagos-reembolsos.html")}">Políticas de Pagos y Reembolsos</a>
       </div>
       <div>
-        <h2>Ubicación</h2>
-        <iframe class="footer-map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Mz.%20C%20Lote.%2043%20Urb.%20Los%20Nisperos%20San%20Martin%20de%20Porres%20Lima%20Peru&output=embed" title="Ubicación aproximada de Tecprog World E.I.R.L."></iframe>
-        <a href="${TW_OFFICIAL.maps}">Ver ubicación en Google Maps</a>
+        <h2>Legales y recursos</h2>
+        <a href="${twPath("legal/libro-reclamaciones.html")}">Libro de Reclamaciones</a>
+        <a href="${twPath("legal/terminos-condiciones.html")}">Terminos y Condiciones</a>
+        <a href="${twPath("legal/politicas-privacidad.html")}">Politicas de Privacidad</a>
+        <a href="${twPath("legal/politicas-pagos-reembolsos.html")}">Politicas de Pagos y Reembolsos</a>
+        <a href="${twPath("empresa/mapa-del-sitio.html")}">Mapa del sitio</a>
+        <a href="${twPath("catalogo/catalogo-mensual.html")}">Catalogo mensual</a>
+        <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
+        <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
       </div>
     </div>
   `;
   twExternalAttrs();
+}
+
+async function setupPayPalButtons() {
+  const buttons = [...document.querySelectorAll("[data-paypal-offer]")];
+  if (!buttons.length) return;
+  let payments = [];
+  try {
+    const response = await fetch(twPath("data/pagos.json"));
+    payments = response.ok ? await response.json() : [];
+  } catch {
+    payments = [];
+  }
+  buttons.forEach((button) => {
+    const offer = payments.find((item) => item.id === button.dataset.paypalOffer);
+    const name = offer?.nombre || button.dataset.offerName || "Tecprog World E.I.R.L.";
+    if (offer?.paypal_link) {
+      button.href = offer.paypal_link;
+      button.target = "_blank";
+      button.rel = "noopener noreferrer";
+      button.textContent = button.dataset.paypalLabel || "Pagar con PayPal";
+    } else {
+      button.href = twWhatsappHref(`Hola, deseo solicitar enlace PayPal para ${name}. Soy cliente internacional.`);
+      button.target = "_blank";
+      button.rel = "noopener noreferrer";
+      button.textContent = button.dataset.paypalFallback || "Solicitar enlace PayPal";
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -132,5 +159,6 @@ document.addEventListener("DOMContentLoaded", () => {
   setupMobileSideIndex();
   renderFloatingWhatsApp();
   renderInstitutionalFooter();
+  setupPayPalButtons();
   twExternalAttrs();
 });

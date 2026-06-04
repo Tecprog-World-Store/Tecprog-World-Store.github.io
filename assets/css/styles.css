@@ -14,6 +14,7 @@
   --dark-line: rgba(6, 19, 38, 0.12);
   --shadow: 0 24px 70px rgba(2, 10, 31, 0.18);
   --radius: 8px;
+  --header-height: 78px;
 }
 
 * { box-sizing: border-box; }
@@ -75,7 +76,7 @@ ul { margin: 0; padding-left: 1.1rem; }
 
 .side-nav {
   position: sticky;
-  top: 98px;
+  top: calc(var(--header-height) + 1rem);
   z-index: 20;
   align-self: start;
   display: grid;
@@ -108,11 +109,13 @@ ul { margin: 0; padding-left: 1.1rem; }
 
 .side-panel-right {
   position: sticky;
-  top: 98px;
+  top: calc(var(--header-height) + 1rem);
   z-index: 15;
   align-self: start;
   display: grid;
   gap: 12px;
+  max-height: calc(100vh - var(--header-height) - 2rem);
+  overflow-y: auto;
 }
 
 .quick-panel-card {
@@ -248,8 +251,8 @@ ul { margin: 0; padding-left: 1.1rem; }
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: clamp(10px, 1.25vw, 17px);
-  font-size: 0.82rem;
+  gap: clamp(7px, 0.85vw, 12px);
+  font-size: clamp(0.68rem, 0.72vw, 0.8rem);
   font-weight: 800;
 }
 
@@ -1303,6 +1306,7 @@ ul { margin: 0; padding-left: 1.1rem; }
   .site-header {
     min-height: 70px;
     padding-inline: 14px;
+    --header-height: 70px;
   }
 
   .brand { min-width: 0; }

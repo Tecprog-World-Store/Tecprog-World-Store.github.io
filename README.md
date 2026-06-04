@@ -149,3 +149,28 @@ rg -n "patrones_de_codificacion_rota" -g "*.html" -g "*.css" -g "*.js" -g "*.jso
 3. Verificar que `index.html` y las páginas internas carguen CSS, JS, imágenes y PDF.
 4. Confirmar que no existan textos de prueba visibles.
 5. Subir cambios al repositorio publicado con GitHub Pages.
+
+## Estrategia PayPal y precios
+
+Etapa inicial recomendada:
+
+- Usar enlaces de pago y codigos QR de PayPal por oferta frecuente: curso especifico, material digital, compendio PDF, servicio empaquetado o reserva de proyecto.
+- En paginas publicas, los botones pueden abrir el enlace PayPal externo cuando `paypal_link` exista en `data/pagos.json`.
+- Si `paypal_link` esta vacio, el boton debe abrir WhatsApp con el mensaje: `Hola, deseo solicitar enlace PayPal para [NOMBRE]. Soy cliente internacional.`
+- Para servicios a medida no usar enlace fijo; usar solicitud de cotizacion o solicitud de enlace PayPal.
+- Para proyectos grandes usar pagos por hitos: inicio, avance, entrega y soporte.
+- Para pagos recurrentes dejar como futuro: suscripciones o membresias.
+
+Archivos de referencia:
+
+- `data/pagos.json`
+- `data/precios.json`
+- `data/ofertas.json`
+- `herramientas/calculadora-precios.html`
+
+Notas de calculo:
+
+- Peru: calcular precio final con IGV 18% cuando corresponda.
+- Internacional: no asumir IGV 18%.
+- PayPal 5.40% + USD 0.30 es referencial y debe verificarse porque las tarifas pueden cambiar.
+- No inventar comisiones bancarias; dejar campos configurables y verificar tarifario BCP vigente si aplica.

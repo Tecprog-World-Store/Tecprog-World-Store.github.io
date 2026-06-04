@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hp-50g-compendio",
+    "nombre": "Compendio Programacion HP 50G",
+    "tipo": "material",
+    "linea": "TW Educa",
+    "precio_soles_igv": "Desde S/ 29",
+    "precio_usd_base": "Desde USD 10",
+    "paypal_link": "",
+    "paypal_qr": "",
+    "estado": "pendiente",
+    "nota": "Solicitar enlace PayPal para cliente internacional."
+  },
+  {
+    "id": "qgis-basico-compendio",
+    "nombre": "Compendio QGIS Basico",
+    "tipo": "material",
+    "linea": "TW Educa",
+    "precio_soles_igv": "Desde S/ 29",
+    "precio_usd_base": "Desde USD 10",
+    "paypal_link": "",
+    "paypal_qr": "",
+    "estado": "pendiente",
+    "nota": "Solicitar enlace PayPal para cliente internacional."
+  },
+  {
+    "id": "reserva-proyecto-software",
+    "nombre": "Reserva de proyecto de software",
+    "tipo": "proyecto",
+    "linea": "TW Innova",
+    "precio_soles_igv": "Segun cotizacion",
+    "precio_usd_base": "Segun cotizacion",
+    "paypal_link": "",
+    "paypal_qr": "",
+    "estado": "pendiente",
+    "nota": "No usar enlace fijo para servicios a medida."
+  }
+]

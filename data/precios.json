@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hp-50g-compendio",
+    "nombre": "Compendio Programacion HP 50G",
+    "tipo": "material",
+    "linea": "TW Educa",
+    "precio_base_soles_sin_igv": 24.58,
+    "igv_peru": 0.18,
+    "precio_final_soles_con_igv": 29,
+    "precio_base_usd": 10,
+    "paypal_porcentaje_referencial": 0.054,
+    "paypal_fijo_usd": 0.3,
+    "banco_retiro_porcentaje_referencial": 0,
+    "banco_retiro_fijo_usd": 0,
+    "precio_usd_sugerido": 11,
+    "nota": "PayPal 5.40% + USD 0.30 es referencial y debe verificarse. Verificar tarifario BCP vigente si aplica retiro local."
+  },
+  {
+    "id": "qgis-basico-compendio",
+    "nombre": "Compendio QGIS Basico",
+    "tipo": "material",
+    "linea": "TW Educa",
+    "precio_base_soles_sin_igv": 24.58,
+    "igv_peru": 0.18,
+    "precio_final_soles_con_igv": 29,
+    "precio_base_usd": 10,
+    "paypal_porcentaje_referencial": 0.054,
+    "paypal_fijo_usd": 0.3,
+    "banco_retiro_porcentaje_referencial": 0,
+    "banco_retiro_fijo_usd": 0,
+    "precio_usd_sugerido": 11,
+    "nota": "Internacional no asume IGV 18%. Verificar tarifas PayPal y tarifario BCP vigente."
+  }
+]
