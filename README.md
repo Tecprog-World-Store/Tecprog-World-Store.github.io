@@ -200,3 +200,52 @@ http://localhost:8080
 - Normalizar nombres de archivos nuevos cuando sea posible.
 - Agregar más fotos, banners o mockups propios cuando estén disponibles.
 - Conectar el Libro de Reclamaciones a un mecanismo real cuando se inicie operación formal.
+
+## Produccion de compendios LaTeX
+
+Los fuentes LaTeX, capitulos, referencias, figuras de trabajo, logs y archivos auxiliares de compendios deben mantenerse fuera del repositorio web en:
+
+```text
+D:\DiskE01\Organizacionies\E-TW\Produccion_LaTeX_TW
+```
+
+El repositorio GitHub Pages debe mantenerse liviano. No subir fuentes LaTeX pesadas, bibliotecas completas, libros, papers protegidos, imagenes originales muy pesadas ni archivos auxiliares de compilacion. Solo subir PDF finales optimizados, imagenes web comprimidas, archivos JSON, HTML, CSS y JS.
+
+Compendios publicados:
+
+- `assets/pdf/compendios/hp-50g-programacion-ingenieria.pdf`
+- `assets/pdf/compendios/qgis-basico-ingenieria-gestion-territorial.pdf`
+
+Paginas relacionadas:
+
+- `catalogo/compendios.html`
+- `detalle/compendio.html?id=hp-50g-programacion-ingenieria`
+- `detalle/compendio.html?id=qgis-basico-ingenieria-gestion-territorial`
+- `data/compendios.json`
+
+Para revisar el peso de carpetas publicas:
+
+```bat
+scripts\revisar_peso_repo.bat
+```
+
+## Optimizacion de imagenes web
+
+Formatos recomendados:
+
+- PNG: logos, QR o graficos con transparencia.
+- JPG: fotos.
+- WEBP: banners, tarjetas, miniaturas y web.
+- SVG: iconos simples.
+
+El flujo externo de conversion WebP esta en:
+
+```text
+D:\DiskE01\Organizacionies\E-TW\Produccion_LaTeX_TW\scripts\optimizar_imagenes_web.bat
+```
+
+Si Pillow no esta instalado:
+
+```bat
+pip install pillow
+```

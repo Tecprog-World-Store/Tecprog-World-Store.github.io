@@ -1319,6 +1319,19 @@ ul { margin: 0; padding-left: 1.1rem; }
   font-size: 0.82rem;
 }
 
+.pdf-viewer-block {
+  display: grid;
+  gap: 12px;
+}
+
+.pdf-viewer {
+  width: 100%;
+  min-height: 720px;
+  border: 1px solid rgba(6, 19, 38, 0.16);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
 @media (max-width: 980px) {
   .split-info,
   .detail-hero-grid,

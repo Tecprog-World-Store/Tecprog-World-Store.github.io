@@ -1,0 +1,36 @@
+[
+  {
+    "id": "hp-50g-programacion-ingenieria",
+    "titulo": "Programacion en Calculadora HP 50G para Ingenieria",
+    "curso_relacionado": "Programacion HP 50G",
+    "linea": "TW Educa",
+    "categoria": "Calculadoras cientificas",
+    "nivel": "Basico a intermedio",
+    "descripcion": "Compendio tecnico de apoyo para aprender modos de operacion, variables, matrices, ecuaciones y rutinas User RPL introductorias aplicadas a ingenieria.",
+    "paginas_estimadas": "20",
+    "archivo_pdf": "assets/pdf/compendios/hp-50g-programacion-ingenieria.pdf",
+    "imagen_portada": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Programacion_HP50G.JPG",
+    "fecha_publicacion": "2026-06-04",
+    "version": "v1.0 piloto",
+    "precio_material_soles": "Desde S/ 29",
+    "incluido_en_curso": true,
+    "whatsapp_message": "Hola, deseo informacion sobre el compendio Programacion en Calculadora HP 50G para Ingenieria. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "qgis-basico-ingenieria-gestion-territorial",
+    "titulo": "QGIS Basico para Ingenieria y Gestion Territorial",
+    "curso_relacionado": "QGIS Basico",
+    "linea": "TW Educa",
+    "categoria": "GIS e ingenieria",
+    "nivel": "Basico",
+    "descripcion": "Guia tecnica de apoyo para introducir SIG, interfaz QGIS, sistemas de coordenadas, capas, simbologia, tablas, geoprocesamiento y diseno de mapas.",
+    "paginas_estimadas": "20",
+    "archivo_pdf": "assets/pdf/compendios/qgis-basico-ingenieria-gestion-territorial.pdf",
+    "imagen_portada": "assets/img/cursos/curso-tecnologia-negocios.svg",
+    "fecha_publicacion": "2026-06-04",
+    "version": "v1.0 piloto",
+    "precio_material_soles": "Desde S/ 29",
+    "incluido_en_curso": true,
+    "whatsapp_message": "Hola, deseo informacion sobre el compendio QGIS Basico para Ingenieria y Gestion Territorial. Vengo desde la web de Tecprog World E.I.R.L."
+  }
+]
