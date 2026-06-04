@@ -14,26 +14,39 @@ Primera versión profesional del sitio corporativo y comercial estático de Tecp
 │   │   ├── banners/
 │   │   ├── cursos/
 │   │   ├── servicios/
+│   │   │   ├── protesis_y_ortesis/
+│   │   │   └── cursos_ingenieros_y_cientificos/
 │   │   ├── productos/
 │   │   └── qr/
 │   ├── icons/
 │   ├── css/
 │   │   └── styles.css
 │   └── js/
-│       └── main.js
+│       ├── main.js
+│       └── materiales.js
+├── catalogo/
+│   ├── materiales-educativos.html
+│   └── hp-50g.html
+├── detalle/
+│   └── material.html
+├── servicios/
+│   └── protesis-y-ortesis.html
 ├── legal/
 │   ├── libro-reclamaciones.html
 │   ├── terminos-condiciones.html
 │   └── politicas-privacidad.html
+├── temario_cursos/
+│   └── hp_50g/
 └── data/
     ├── servicios.json
     ├── productos.json
-    └── cursos.json
+    ├── cursos.json
+    └── materiales.json
 ```
 
 ## Editar cursos, servicios y productos
 
-Los catálogos se cargan desde archivos JSON:
+Los catálogos principales se cargan desde:
 
 - `data/cursos.json`
 - `data/servicios.json`
@@ -57,29 +70,86 @@ Cada elemento puede usar esta estructura:
 
 Después de editar un JSON, valida que no falten comas, comillas o corchetes. Un JSON inválido impedirá que se renderice esa sección.
 
+## Materiales y páginas individuales
+
+El catálogo ampliado vive en:
+
+```text
+data/materiales.json
+```
+
+Este archivo alimenta:
+
+- `detalle/material.html?id=material-id`
+- `servicios/protesis-y-ortesis.html`
+- `catalogo/materiales-educativos.html`
+- `catalogo/hp-50g.html`
+
+Para agregar nuevos materiales, coloca imágenes o archivos en una de estas carpetas y luego agrega o actualiza el registro correspondiente en `data/materiales.json`:
+
+- `assets/img/servicios/protesis_y_ortesis/`
+- `assets/img/servicios/cursos_ingenieros_y_cientificos/`
+- `temario_cursos/hp_50g/`
+
+Cada registro de `data/materiales.json` usa campos como `id`, `titulo`, `tipo`, `linea`, `categoria`, `descripcion_corta`, `descripcion_larga`, `imagen`, `beneficios`, `incluye`, `entregables`, `precio_desde_soles_igv`, `precio_exterior_usd`, `seo_title`, `seo_description`, `keywords` y `whatsapp_message`.
+
+Para abrir una página individual:
+
+```text
+detalle/material.html?id=temario-programacion-hp-50g
+```
+
+Si una imagen no carga, el sitio muestra un placeholder visual elegante. Si el archivo tiene espacios, mayúsculas o caracteres especiales, JavaScript aplica codificación de ruta al mostrarlo; aun así se recomienda normalizar nombres.
+
+## Nombres de archivo recomendados
+
+Usa nombres:
+
+- en minúsculas
+- sin espacios
+- sin tildes
+- con guiones medios
+
+Ejemplos:
+
+```text
+protesis-mano-prototipo-01.png
+curso-qgis-basico.png
+hp50g-programacion-matrices.png
+```
+
 ## WhatsApp, PayPal y Yape
 
-El número oficial está configurado en `assets/js/main.js`:
+El número oficial está configurado en:
+
+- `assets/js/main.js`
+- `assets/js/materiales.js`
 
 ```js
 const WHATSAPP_NUMBER = "51952354282";
 ```
 
-Los botones de compra generan este mensaje:
+Los botones de detalle generan este mensaje:
 
 ```text
-Hola, deseo información para comprar: [nombre del producto/servicio]
+Hola, deseo información sobre [TÍTULO]. Vengo desde la web de Tecprog World E.I.R.L.
 ```
 
-Para PayPal, reemplaza `https://www.paypal.com/paypalme/editar-enlace` en cada elemento JSON por el enlace real de pago.
+Para PayPal, reemplaza `https://www.paypal.com/paypalme/editar-enlace` por el enlace real de pago.
 
 Para Yape o Plin, coloca el QR real en:
 
 ```text
-assets/img/qr/yape.png
+assets/img/qr/
 ```
 
-La web ya tiene una zona visual preparada para ese archivo.
+Si hay varias imágenes de QR, se recomienda usar una sola principal o actualizar `qrPath` en `assets/js/materiales.js`. Actualmente se usa:
+
+```text
+assets/img/qr/QR_Yape.jpeg
+```
+
+No publiques datos bancarios sensibles si no corresponde mostrarlos en la web.
 
 ## Editar imágenes
 
@@ -90,8 +160,6 @@ Usa imágenes optimizadas, livianas y con nombres sin espacios. Ejemplos:
 - `assets/img/cursos/qgis-cuencas.png`
 - `assets/img/servicios/desarrollo-web.png`
 - `assets/img/productos/plantilla-web.png`
-
-Si una imagen de catálogo no existe, el sitio mantiene una tarjeta visual con placeholder local.
 
 ## Páginas legales
 
@@ -128,7 +196,7 @@ http://localhost:8080
 ## Pendientes recomendados
 
 - Reemplazar los enlaces temporales de Facebook y PayPal por enlaces oficiales.
-- Colocar el QR real de Yape o Plin.
 - Revisar textos legales con asesoría antes de operación formal.
-- Agregar fotos, banners o mockups propios cuando estén disponibles.
-- Ampliar catálogos y crear páginas internas de detalle en una siguiente versión.
+- Normalizar nombres de archivos nuevos cuando sea posible.
+- Agregar más fotos, banners o mockups propios cuando estén disponibles.
+- Conectar el Libro de Reclamaciones a un mecanismo real cuando se inicie operación formal.

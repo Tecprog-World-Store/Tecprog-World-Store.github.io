@@ -1,0 +1,776 @@
+[
+  {
+    "id": "bionic-tw-salud-prtesis-manos",
+    "titulo": "TW Salud Pr?Tesis Manos",
+    "tipo": "Servicio",
+    "linea": "TW Salud y Vida / TW Bionic",
+    "categoria": "Pr?tesis, ?rtesis y tecnolog?a m?dica",
+    "subcategoria": "Pr?tesis de mano y miembro superior",
+    "descripcion_corta": "Servicio de desarrollo tecnol?gico, dise?o, prototipado y soporte de ingenier?a para soluciones de asistencia y salud.",
+    "descripcion_larga": "Tecprog World E.I.R.L. acompa?a iniciativas de tecnolog?a de asistencia mediante dise?o conceptual, modelado CAD, prototipado, documentaci?n t?cnica y revisi?n de ingenier?a. El enfoque combina criterios de ergonom?a, resistencia, fabricaci?n digital, iteraci?n de prototipos y comunicaci?n clara con el cliente. El servicio est? orientado a explorar soluciones funcionales, piezas de apoyo, dispositivos de asistencia, componentes personalizados o mantenimiento t?cnico relacionado con entornos de salud. La adaptaci?n cl?nica, prescripci?n, evaluaci?n m?dica y validaci?n final deben realizarse con profesionales de salud competentes cuando corresponda.",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "archivo_fuente": "TW_Salud_prtesis_manos.jpg",
+    "publico_objetivo": [
+      "Profesionales de salud que requieren soporte t?cnico",
+      "Ingenieros biom?dicos, mec?nicos o mecatr?nicos",
+      "Instituciones educativas o laboratorios de prototipado",
+      "Personas o familias que buscan orientaci?n t?cnica responsable"
+    ],
+    "problema_que_resuelve": [
+      "Convierte una idea o necesidad en un concepto t?cnico evaluable",
+      "Permite visualizar, medir y mejorar componentes antes de fabricar",
+      "Reduce incertidumbre en prototipos mediante documentaci?n e iteraci?n",
+      "Integra criterios de ingenier?a con acompa?amiento humano y responsable"
+    ],
+    "beneficios": [
+      "Modelado CAD y prototipado orientado a fabricaci?n",
+      "Acompa?amiento t?cnico por etapas",
+      "Posibilidad de impresi?n 3D o fabricaci?n digital seg?n alcance",
+      "Documentaci?n clara para revisi?n y toma de decisiones",
+      "Enfoque independiente, responsable y centrado en la persona"
+    ],
+    "incluye": [
+      "Reuni?n inicial de diagn?stico t?cnico",
+      "Levantamiento de requerimientos y restricciones",
+      "Propuesta conceptual o ruta de trabajo",
+      "Modelado o revisi?n t?cnica seg?n alcance",
+      "Recomendaciones para prototipado o mejora"
+    ],
+    "entregables": [
+      "Informe t?cnico breve o ficha de propuesta",
+      "Archivos CAD o referencias t?cnicas cuando aplique",
+      "Im?genes, renders o evidencias del prototipo",
+      "Lista de recomendaciones y pr?ximos pasos"
+    ],
+    "metodologia": "Trabajo por etapas: reuni?n inicial, definici?n de requerimientos, dise?o conceptual, modelado CAD, prototipado, revisi?n t?cnica e iteraci?n.",
+    "duracion_referencial": "Desde 1 sesi?n para asesor?a inicial hasta 2 a 6 semanas para prototipos personalizados, seg?n alcance.",
+    "modalidad": "Remoto, presencial coordinado en Per? o h?brido seg?n disponibilidad y tipo de proyecto.",
+    "precio_desde_soles_igv": "Asesor?a inicial desde S/ 120 con IGV incluido; modelado CAD desde S/ 250; prototipo b?sico no cl?nico desde S/ 450; prototipo funcional personalizado desde S/ 900; soluci?n biom?dica a medida desde S/ 1,800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 80.",
+    "nota_comercial": "Los precios son referenciales y dependen de complejidad, materiales, iteraciones, urgencia, documentaci?n y validaci?n requerida. No reemplaza evaluaci?n m?dica ni prescripci?n profesional.",
+    "seo_title": "TW Salud Pr?Tesis Manos | Pr?tesis, ?rtesis y tecnolog?a m?dica | Tecprog World",
+    "seo_description": "Dise?o, prototipado y soporte t?cnico para tecnolog?a de asistencia, pr?tesis, ?rtesis y soluciones biom?dicas desarrolladas de manera independiente en Per?.",
+    "keywords": [
+      "pr?tesis",
+      "?rtesis",
+      "tecnolog?a m?dica",
+      "ingenier?a biom?dica",
+      "prototipado",
+      "modelado CAD",
+      "impresi?n 3D",
+      "Tecprog World Per?"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre TW Salud Pr?Tesis Manos. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "bionic-tw-salud-y-vida-mantenimiento-unidad-dental",
+    "titulo": "TW Salud Y Vida Mantenimiento Unidad Dental",
+    "tipo": "Servicio",
+    "linea": "TW Salud y Vida / TW Bionic",
+    "categoria": "Pr?tesis, ?rtesis y tecnolog?a m?dica",
+    "subcategoria": "Mantenimiento e instrumentaci?n de salud",
+    "descripcion_corta": "Servicio de desarrollo tecnol?gico, dise?o, prototipado y soporte de ingenier?a para soluciones de asistencia y salud.",
+    "descripcion_larga": "Tecprog World E.I.R.L. acompa?a iniciativas de tecnolog?a de asistencia mediante dise?o conceptual, modelado CAD, prototipado, documentaci?n t?cnica y revisi?n de ingenier?a. El enfoque combina criterios de ergonom?a, resistencia, fabricaci?n digital, iteraci?n de prototipos y comunicaci?n clara con el cliente. El servicio est? orientado a explorar soluciones funcionales, piezas de apoyo, dispositivos de asistencia, componentes personalizados o mantenimiento t?cnico relacionado con entornos de salud. La adaptaci?n cl?nica, prescripci?n, evaluaci?n m?dica y validaci?n final deben realizarse con profesionales de salud competentes cuando corresponda.",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.jpg",
+    "archivo_fuente": "TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.jpg",
+    "publico_objetivo": [
+      "Profesionales de salud que requieren soporte t?cnico",
+      "Ingenieros biom?dicos, mec?nicos o mecatr?nicos",
+      "Instituciones educativas o laboratorios de prototipado",
+      "Personas o familias que buscan orientaci?n t?cnica responsable"
+    ],
+    "problema_que_resuelve": [
+      "Convierte una idea o necesidad en un concepto t?cnico evaluable",
+      "Permite visualizar, medir y mejorar componentes antes de fabricar",
+      "Reduce incertidumbre en prototipos mediante documentaci?n e iteraci?n",
+      "Integra criterios de ingenier?a con acompa?amiento humano y responsable"
+    ],
+    "beneficios": [
+      "Modelado CAD y prototipado orientado a fabricaci?n",
+      "Acompa?amiento t?cnico por etapas",
+      "Posibilidad de impresi?n 3D o fabricaci?n digital seg?n alcance",
+      "Documentaci?n clara para revisi?n y toma de decisiones",
+      "Enfoque independiente, responsable y centrado en la persona"
+    ],
+    "incluye": [
+      "Reuni?n inicial de diagn?stico t?cnico",
+      "Levantamiento de requerimientos y restricciones",
+      "Propuesta conceptual o ruta de trabajo",
+      "Modelado o revisi?n t?cnica seg?n alcance",
+      "Recomendaciones para prototipado o mejora"
+    ],
+    "entregables": [
+      "Informe t?cnico breve o ficha de propuesta",
+      "Archivos CAD o referencias t?cnicas cuando aplique",
+      "Im?genes, renders o evidencias del prototipo",
+      "Lista de recomendaciones y pr?ximos pasos"
+    ],
+    "metodologia": "Trabajo por etapas: reuni?n inicial, definici?n de requerimientos, dise?o conceptual, modelado CAD, prototipado, revisi?n t?cnica e iteraci?n.",
+    "duracion_referencial": "Desde 1 sesi?n para asesor?a inicial hasta 2 a 6 semanas para prototipos personalizados, seg?n alcance.",
+    "modalidad": "Remoto, presencial coordinado en Per? o h?brido seg?n disponibilidad y tipo de proyecto.",
+    "precio_desde_soles_igv": "Asesor?a inicial desde S/ 120 con IGV incluido; modelado CAD desde S/ 250; prototipo b?sico no cl?nico desde S/ 450; prototipo funcional personalizado desde S/ 900; soluci?n biom?dica a medida desde S/ 1,800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 80.",
+    "nota_comercial": "Los precios son referenciales y dependen de complejidad, materiales, iteraciones, urgencia, documentaci?n y validaci?n requerida. No reemplaza evaluaci?n m?dica ni prescripci?n profesional.",
+    "seo_title": "TW Salud Y Vida Mantenimiento Unidad Dental | Pr?tesis, ?rtesis y tecnolog?a m?dica | Tecprog World",
+    "seo_description": "Dise?o, prototipado y soporte t?cnico para tecnolog?a de asistencia, pr?tesis, ?rtesis y soluciones biom?dicas desarrolladas de manera independiente en Per?.",
+    "keywords": [
+      "pr?tesis",
+      "?rtesis",
+      "tecnolog?a m?dica",
+      "ingenier?a biom?dica",
+      "prototipado",
+      "modelado CAD",
+      "impresi?n 3D",
+      "Tecprog World Per?"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre TW Salud Y Vida Mantenimiento Unidad Dental. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "bionic-tw-salud-y-vida-prtesis-de-pierna01",
+    "titulo": "TW Salud Y Vida Pr?Tesis De Pierna01",
+    "tipo": "Servicio",
+    "linea": "TW Salud y Vida / TW Bionic",
+    "categoria": "Pr?tesis, ?rtesis y tecnolog?a m?dica",
+    "subcategoria": "Pr?tesis de miembro inferior",
+    "descripcion_corta": "Servicio de desarrollo tecnol?gico, dise?o, prototipado y soporte de ingenier?a para soluciones de asistencia y salud.",
+    "descripcion_larga": "Tecprog World E.I.R.L. acompa?a iniciativas de tecnolog?a de asistencia mediante dise?o conceptual, modelado CAD, prototipado, documentaci?n t?cnica y revisi?n de ingenier?a. El enfoque combina criterios de ergonom?a, resistencia, fabricaci?n digital, iteraci?n de prototipos y comunicaci?n clara con el cliente. El servicio est? orientado a explorar soluciones funcionales, piezas de apoyo, dispositivos de asistencia, componentes personalizados o mantenimiento t?cnico relacionado con entornos de salud. La adaptaci?n cl?nica, prescripci?n, evaluaci?n m?dica y validaci?n final deben realizarse con profesionales de salud competentes cuando corresponda.",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Prtesis_de_Pierna01.jpg",
+    "archivo_fuente": "TW_Salud_y_Vida_Prtesis_de_Pierna01.jpg",
+    "publico_objetivo": [
+      "Profesionales de salud que requieren soporte t?cnico",
+      "Ingenieros biom?dicos, mec?nicos o mecatr?nicos",
+      "Instituciones educativas o laboratorios de prototipado",
+      "Personas o familias que buscan orientaci?n t?cnica responsable"
+    ],
+    "problema_que_resuelve": [
+      "Convierte una idea o necesidad en un concepto t?cnico evaluable",
+      "Permite visualizar, medir y mejorar componentes antes de fabricar",
+      "Reduce incertidumbre en prototipos mediante documentaci?n e iteraci?n",
+      "Integra criterios de ingenier?a con acompa?amiento humano y responsable"
+    ],
+    "beneficios": [
+      "Modelado CAD y prototipado orientado a fabricaci?n",
+      "Acompa?amiento t?cnico por etapas",
+      "Posibilidad de impresi?n 3D o fabricaci?n digital seg?n alcance",
+      "Documentaci?n clara para revisi?n y toma de decisiones",
+      "Enfoque independiente, responsable y centrado en la persona"
+    ],
+    "incluye": [
+      "Reuni?n inicial de diagn?stico t?cnico",
+      "Levantamiento de requerimientos y restricciones",
+      "Propuesta conceptual o ruta de trabajo",
+      "Modelado o revisi?n t?cnica seg?n alcance",
+      "Recomendaciones para prototipado o mejora"
+    ],
+    "entregables": [
+      "Informe t?cnico breve o ficha de propuesta",
+      "Archivos CAD o referencias t?cnicas cuando aplique",
+      "Im?genes, renders o evidencias del prototipo",
+      "Lista de recomendaciones y pr?ximos pasos"
+    ],
+    "metodologia": "Trabajo por etapas: reuni?n inicial, definici?n de requerimientos, dise?o conceptual, modelado CAD, prototipado, revisi?n t?cnica e iteraci?n.",
+    "duracion_referencial": "Desde 1 sesi?n para asesor?a inicial hasta 2 a 6 semanas para prototipos personalizados, seg?n alcance.",
+    "modalidad": "Remoto, presencial coordinado en Per? o h?brido seg?n disponibilidad y tipo de proyecto.",
+    "precio_desde_soles_igv": "Asesor?a inicial desde S/ 120 con IGV incluido; modelado CAD desde S/ 250; prototipo b?sico no cl?nico desde S/ 450; prototipo funcional personalizado desde S/ 900; soluci?n biom?dica a medida desde S/ 1,800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 80.",
+    "nota_comercial": "Los precios son referenciales y dependen de complejidad, materiales, iteraciones, urgencia, documentaci?n y validaci?n requerida. No reemplaza evaluaci?n m?dica ni prescripci?n profesional.",
+    "seo_title": "TW Salud Y Vida Pr?Tesis De Pierna01 | Pr?tesis, ?rtesis y tecnolog?a m?dica | Tecprog World",
+    "seo_description": "Dise?o, prototipado y soporte t?cnico para tecnolog?a de asistencia, pr?tesis, ?rtesis y soluciones biom?dicas desarrolladas de manera independiente en Per?.",
+    "keywords": [
+      "pr?tesis",
+      "?rtesis",
+      "tecnolog?a m?dica",
+      "ingenier?a biom?dica",
+      "prototipado",
+      "modelado CAD",
+      "impresi?n 3D",
+      "Tecprog World Per?"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre TW Salud Y Vida Pr?Tesis De Pierna01. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "bionic-tw-salud-y-vida-servicio-de-mantenimiento",
+    "titulo": "TW Salud Y Vida Servicio De Mantenimiento",
+    "tipo": "Servicio",
+    "linea": "TW Salud y Vida / TW Bionic",
+    "categoria": "Pr?tesis, ?rtesis y tecnolog?a m?dica",
+    "subcategoria": "Tecnolog?a de asistencia",
+    "descripcion_corta": "Servicio de desarrollo tecnol?gico, dise?o, prototipado y soporte de ingenier?a para soluciones de asistencia y salud.",
+    "descripcion_larga": "Tecprog World E.I.R.L. acompa?a iniciativas de tecnolog?a de asistencia mediante dise?o conceptual, modelado CAD, prototipado, documentaci?n t?cnica y revisi?n de ingenier?a. El enfoque combina criterios de ergonom?a, resistencia, fabricaci?n digital, iteraci?n de prototipos y comunicaci?n clara con el cliente. El servicio est? orientado a explorar soluciones funcionales, piezas de apoyo, dispositivos de asistencia, componentes personalizados o mantenimiento t?cnico relacionado con entornos de salud. La adaptaci?n cl?nica, prescripci?n, evaluaci?n m?dica y validaci?n final deben realizarse con profesionales de salud competentes cuando corresponda.",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_salud_y_vida_servicio_de_mantenimiento.png",
+    "archivo_fuente": "TW_salud_y_vida_servicio_de_mantenimiento.png",
+    "publico_objetivo": [
+      "Profesionales de salud que requieren soporte t?cnico",
+      "Ingenieros biom?dicos, mec?nicos o mecatr?nicos",
+      "Instituciones educativas o laboratorios de prototipado",
+      "Personas o familias que buscan orientaci?n t?cnica responsable"
+    ],
+    "problema_que_resuelve": [
+      "Convierte una idea o necesidad en un concepto t?cnico evaluable",
+      "Permite visualizar, medir y mejorar componentes antes de fabricar",
+      "Reduce incertidumbre en prototipos mediante documentaci?n e iteraci?n",
+      "Integra criterios de ingenier?a con acompa?amiento humano y responsable"
+    ],
+    "beneficios": [
+      "Modelado CAD y prototipado orientado a fabricaci?n",
+      "Acompa?amiento t?cnico por etapas",
+      "Posibilidad de impresi?n 3D o fabricaci?n digital seg?n alcance",
+      "Documentaci?n clara para revisi?n y toma de decisiones",
+      "Enfoque independiente, responsable y centrado en la persona"
+    ],
+    "incluye": [
+      "Reuni?n inicial de diagn?stico t?cnico",
+      "Levantamiento de requerimientos y restricciones",
+      "Propuesta conceptual o ruta de trabajo",
+      "Modelado o revisi?n t?cnica seg?n alcance",
+      "Recomendaciones para prototipado o mejora"
+    ],
+    "entregables": [
+      "Informe t?cnico breve o ficha de propuesta",
+      "Archivos CAD o referencias t?cnicas cuando aplique",
+      "Im?genes, renders o evidencias del prototipo",
+      "Lista de recomendaciones y pr?ximos pasos"
+    ],
+    "metodologia": "Trabajo por etapas: reuni?n inicial, definici?n de requerimientos, dise?o conceptual, modelado CAD, prototipado, revisi?n t?cnica e iteraci?n.",
+    "duracion_referencial": "Desde 1 sesi?n para asesor?a inicial hasta 2 a 6 semanas para prototipos personalizados, seg?n alcance.",
+    "modalidad": "Remoto, presencial coordinado en Per? o h?brido seg?n disponibilidad y tipo de proyecto.",
+    "precio_desde_soles_igv": "Asesor?a inicial desde S/ 120 con IGV incluido; modelado CAD desde S/ 250; prototipo b?sico no cl?nico desde S/ 450; prototipo funcional personalizado desde S/ 900; soluci?n biom?dica a medida desde S/ 1,800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 80.",
+    "nota_comercial": "Los precios son referenciales y dependen de complejidad, materiales, iteraciones, urgencia, documentaci?n y validaci?n requerida. No reemplaza evaluaci?n m?dica ni prescripci?n profesional.",
+    "seo_title": "TW Salud Y Vida Servicio De Mantenimiento | Pr?tesis, ?rtesis y tecnolog?a m?dica | Tecprog World",
+    "seo_description": "Dise?o, prototipado y soporte t?cnico para tecnolog?a de asistencia, pr?tesis, ?rtesis y soluciones biom?dicas desarrolladas de manera independiente en Per?.",
+    "keywords": [
+      "pr?tesis",
+      "?rtesis",
+      "tecnolog?a m?dica",
+      "ingenier?a biom?dica",
+      "prototipado",
+      "modelado CAD",
+      "impresi?n 3D",
+      "Tecprog World Per?"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre TW Salud Y Vida Servicio De Mantenimiento. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "curso-curso-de-coastsat",
+    "titulo": "Curso De CoastSAT",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Formaci?n t?cnica especializada",
+    "subcategoria": "Teledetecci?n costera y CoastSAT",
+    "descripcion_corta": "Curso o recurso t?cnico para fortalecer capacidades de ingenier?a, ciencia aplicada, programaci?n y an?lisis num?rico.",
+    "descripcion_larga": "Programa de formaci?n independiente orientado a estudiantes, profesionales y equipos t?cnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programaci?n cient?fica, an?lisis de datos, GIS, modelamiento num?rico, CFD, documentaci?n t?cnica con LaTeX, automatizaci?n y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formaci?n t?cnica independiente, sin representaci?n oficial de marcas o instituciones.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_de_CoastSAT.jpg",
+    "archivo_fuente": "Curso_de_CoastSAT.jpg",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a y ciencias",
+      "Profesionales t?cnicos que desean actualizar habilidades",
+      "Docentes, consultores y equipos de investigaci?n aplicada",
+      "Empresas o instituciones que requieren capacitaci?n interna"
+    ],
+    "problema_que_resuelve": [
+      "Reduce la curva de aprendizaje en herramientas t?cnicas",
+      "Ordena conceptos dispersos en una ruta pr?ctica",
+      "Permite automatizar c?lculos, reportes o an?lisis repetitivos",
+      "Conecta teor?a con ejercicios y casos aplicados"
+    ],
+    "beneficios": [
+      "Enfoque pr?ctico y orientado a resultados",
+      "Materiales editables seg?n disponibilidad",
+      "Ejercicios aplicados a problemas de ingenier?a",
+      "Atenci?n por WhatsApp para inscripci?n o cotizaci?n",
+      "Modalidad adaptable a estudiantes, profesionales o instituciones"
+    ],
+    "incluye": [
+      "Sesiones o material guiado seg?n modalidad",
+      "Temario base y ruta de aprendizaje",
+      "Ejemplos aplicados y recomendaciones de pr?ctica",
+      "Orientaci?n para instalaci?n o uso de herramientas cuando aplique"
+    ],
+    "entregables": [
+      "Material digital de apoyo",
+      "Archivos de pr?ctica cuando corresponda",
+      "Constancia interna solo si se acuerda comercialmente, sin car?cter oficial externo",
+      "Grabaci?n o recursos complementarios cuando formen parte de la oferta"
+    ],
+    "metodologia": "Aprendizaje aplicado por m?dulos, demostraciones, ejercicios guiados y resoluci?n de problemas representativos de ingenier?a o ciencia.",
+    "duracion_referencial": "Desde cursos cortos de 2 a 4 horas hasta programas t?cnicos de 12 a 24 horas.",
+    "modalidad": "Virtual en vivo, grabado, taller personalizado o capacitaci?n institucional.",
+    "precio_desde_soles_igv": "Curso corto grabado desde S/ 49 con IGV incluido; curso virtual b?sico desde S/ 89; curso t?cnico especializado desde S/ 149; curso profesional avanzado desde S/ 249; capacitaci?n institucional desde S/ 800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "Los precios son referenciales y pueden variar seg?n modalidad, n?mero de participantes, personalizaci?n, soporte, materiales y duraci?n.",
+    "seo_title": "Curso De CoastSAT | Cursos para ingenieros y cient?ficos | Tecprog World",
+    "seo_description": "Formaci?n t?cnica independiente para ingenier?a, ciencia aplicada, programaci?n cient?fica, GIS, CFD, LaTeX, Python, MATLAB, Fortran, OpenFOAM y HP 50G.",
+    "keywords": [
+      "cursos para ingenieros",
+      "cursos para cient?ficos",
+      "programaci?n cient?fica",
+      "QGIS",
+      "Python",
+      "MATLAB",
+      "Fortran",
+      "OpenFOAM",
+      "LaTeX",
+      "CFD",
+      "Tecprog World"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre Curso De CoastSAT. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "curso-curso-delft3d-transportedeparticulas",
+    "titulo": "Curso Delft3D TransporteDeParticulas",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Formaci?n t?cnica especializada",
+    "subcategoria": "Modelamiento num?rico y Delft3D",
+    "descripcion_corta": "Curso o recurso t?cnico para fortalecer capacidades de ingenier?a, ciencia aplicada, programaci?n y an?lisis num?rico.",
+    "descripcion_larga": "Programa de formaci?n independiente orientado a estudiantes, profesionales y equipos t?cnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programaci?n cient?fica, an?lisis de datos, GIS, modelamiento num?rico, CFD, documentaci?n t?cnica con LaTeX, automatizaci?n y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formaci?n t?cnica independiente, sin representaci?n oficial de marcas o instituciones.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Delft3D_TransporteDeParticulas.jpg",
+    "archivo_fuente": "Curso_Delft3D_TransporteDeParticulas.jpg",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a y ciencias",
+      "Profesionales t?cnicos que desean actualizar habilidades",
+      "Docentes, consultores y equipos de investigaci?n aplicada",
+      "Empresas o instituciones que requieren capacitaci?n interna"
+    ],
+    "problema_que_resuelve": [
+      "Reduce la curva de aprendizaje en herramientas t?cnicas",
+      "Ordena conceptos dispersos en una ruta pr?ctica",
+      "Permite automatizar c?lculos, reportes o an?lisis repetitivos",
+      "Conecta teor?a con ejercicios y casos aplicados"
+    ],
+    "beneficios": [
+      "Enfoque pr?ctico y orientado a resultados",
+      "Materiales editables seg?n disponibilidad",
+      "Ejercicios aplicados a problemas de ingenier?a",
+      "Atenci?n por WhatsApp para inscripci?n o cotizaci?n",
+      "Modalidad adaptable a estudiantes, profesionales o instituciones"
+    ],
+    "incluye": [
+      "Sesiones o material guiado seg?n modalidad",
+      "Temario base y ruta de aprendizaje",
+      "Ejemplos aplicados y recomendaciones de pr?ctica",
+      "Orientaci?n para instalaci?n o uso de herramientas cuando aplique"
+    ],
+    "entregables": [
+      "Material digital de apoyo",
+      "Archivos de pr?ctica cuando corresponda",
+      "Constancia interna solo si se acuerda comercialmente, sin car?cter oficial externo",
+      "Grabaci?n o recursos complementarios cuando formen parte de la oferta"
+    ],
+    "metodologia": "Aprendizaje aplicado por m?dulos, demostraciones, ejercicios guiados y resoluci?n de problemas representativos de ingenier?a o ciencia.",
+    "duracion_referencial": "Desde cursos cortos de 2 a 4 horas hasta programas t?cnicos de 12 a 24 horas.",
+    "modalidad": "Virtual en vivo, grabado, taller personalizado o capacitaci?n institucional.",
+    "precio_desde_soles_igv": "Curso corto grabado desde S/ 49 con IGV incluido; curso virtual b?sico desde S/ 89; curso t?cnico especializado desde S/ 149; curso profesional avanzado desde S/ 249; capacitaci?n institucional desde S/ 800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "Los precios son referenciales y pueden variar seg?n modalidad, n?mero de participantes, personalizaci?n, soporte, materiales y duraci?n.",
+    "seo_title": "Curso Delft3D TransporteDeParticulas | Cursos para ingenieros y cient?ficos | Tecprog World",
+    "seo_description": "Formaci?n t?cnica independiente para ingenier?a, ciencia aplicada, programaci?n cient?fica, GIS, CFD, LaTeX, Python, MATLAB, Fortran, OpenFOAM y HP 50G.",
+    "keywords": [
+      "cursos para ingenieros",
+      "cursos para cient?ficos",
+      "programaci?n cient?fica",
+      "QGIS",
+      "Python",
+      "MATLAB",
+      "Fortran",
+      "OpenFOAM",
+      "LaTeX",
+      "CFD",
+      "Tecprog World"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre Curso Delft3D TransporteDeParticulas. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "curso-curso-programacion-hp50g",
+    "titulo": "Curso Programacion HP 50G",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Formaci?n t?cnica especializada",
+    "subcategoria": "HP 50G",
+    "descripcion_corta": "Curso o recurso t?cnico para fortalecer capacidades de ingenier?a, ciencia aplicada, programaci?n y an?lisis num?rico.",
+    "descripcion_larga": "Programa de formaci?n independiente orientado a estudiantes, profesionales y equipos t?cnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programaci?n cient?fica, an?lisis de datos, GIS, modelamiento num?rico, CFD, documentaci?n t?cnica con LaTeX, automatizaci?n y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formaci?n t?cnica independiente, sin representaci?n oficial de marcas o instituciones.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Programacion_HP50G.JPG",
+    "archivo_fuente": "Curso_Programacion_HP50G.JPG",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a y ciencias",
+      "Profesionales t?cnicos que desean actualizar habilidades",
+      "Docentes, consultores y equipos de investigaci?n aplicada",
+      "Empresas o instituciones que requieren capacitaci?n interna"
+    ],
+    "problema_que_resuelve": [
+      "Reduce la curva de aprendizaje en herramientas t?cnicas",
+      "Ordena conceptos dispersos en una ruta pr?ctica",
+      "Permite automatizar c?lculos, reportes o an?lisis repetitivos",
+      "Conecta teor?a con ejercicios y casos aplicados"
+    ],
+    "beneficios": [
+      "Enfoque pr?ctico y orientado a resultados",
+      "Materiales editables seg?n disponibilidad",
+      "Ejercicios aplicados a problemas de ingenier?a",
+      "Atenci?n por WhatsApp para inscripci?n o cotizaci?n",
+      "Modalidad adaptable a estudiantes, profesionales o instituciones"
+    ],
+    "incluye": [
+      "Sesiones o material guiado seg?n modalidad",
+      "Temario base y ruta de aprendizaje",
+      "Ejemplos aplicados y recomendaciones de pr?ctica",
+      "Orientaci?n para instalaci?n o uso de herramientas cuando aplique"
+    ],
+    "entregables": [
+      "Material digital de apoyo",
+      "Archivos de pr?ctica cuando corresponda",
+      "Constancia interna solo si se acuerda comercialmente, sin car?cter oficial externo",
+      "Grabaci?n o recursos complementarios cuando formen parte de la oferta"
+    ],
+    "metodologia": "Aprendizaje aplicado por m?dulos, demostraciones, ejercicios guiados y resoluci?n de problemas representativos de ingenier?a o ciencia.",
+    "duracion_referencial": "De 4 a 12 horas seg?n modalidad b?sica, taller intensivo o asesor?a personalizada.",
+    "modalidad": "Virtual en vivo, grabado, taller personalizado o capacitaci?n institucional.",
+    "precio_desde_soles_igv": "Curso HP 50G b?sico desde S/ 129 con IGV incluido; taller intensivo desde S/ 89; pack de programas o plantillas desde S/ 49; asesor?a personalizada desde S/ 80 por sesi?n.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "Los precios son referenciales y pueden variar seg?n modalidad, n?mero de participantes, personalizaci?n, soporte, materiales y duraci?n.",
+    "seo_title": "Curso Programacion HP 50G | Cursos para ingenieros y cient?ficos | Tecprog World",
+    "seo_description": "Formaci?n t?cnica independiente para ingenier?a, ciencia aplicada, programaci?n cient?fica, GIS, CFD, LaTeX, Python, MATLAB, Fortran, OpenFOAM y HP 50G.",
+    "keywords": [
+      "cursos para ingenieros",
+      "cursos para cient?ficos",
+      "programaci?n cient?fica",
+      "QGIS",
+      "Python",
+      "MATLAB",
+      "Fortran",
+      "OpenFOAM",
+      "LaTeX",
+      "CFD",
+      "Tecprog World",
+      "HP 50G",
+      "User RPL",
+      "calculadora cient?fica"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre Curso Programacion HP 50G. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "curso-curso-python00",
+    "titulo": "Curso Python00",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Formaci?n t?cnica especializada",
+    "subcategoria": "Python cient?fico",
+    "descripcion_corta": "Curso o recurso t?cnico para fortalecer capacidades de ingenier?a, ciencia aplicada, programaci?n y an?lisis num?rico.",
+    "descripcion_larga": "Programa de formaci?n independiente orientado a estudiantes, profesionales y equipos t?cnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programaci?n cient?fica, an?lisis de datos, GIS, modelamiento num?rico, CFD, documentaci?n t?cnica con LaTeX, automatizaci?n y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formaci?n t?cnica independiente, sin representaci?n oficial de marcas o instituciones.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Python00.jpg",
+    "archivo_fuente": "Curso_Python00.jpg",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a y ciencias",
+      "Profesionales t?cnicos que desean actualizar habilidades",
+      "Docentes, consultores y equipos de investigaci?n aplicada",
+      "Empresas o instituciones que requieren capacitaci?n interna"
+    ],
+    "problema_que_resuelve": [
+      "Reduce la curva de aprendizaje en herramientas t?cnicas",
+      "Ordena conceptos dispersos en una ruta pr?ctica",
+      "Permite automatizar c?lculos, reportes o an?lisis repetitivos",
+      "Conecta teor?a con ejercicios y casos aplicados"
+    ],
+    "beneficios": [
+      "Enfoque pr?ctico y orientado a resultados",
+      "Materiales editables seg?n disponibilidad",
+      "Ejercicios aplicados a problemas de ingenier?a",
+      "Atenci?n por WhatsApp para inscripci?n o cotizaci?n",
+      "Modalidad adaptable a estudiantes, profesionales o instituciones"
+    ],
+    "incluye": [
+      "Sesiones o material guiado seg?n modalidad",
+      "Temario base y ruta de aprendizaje",
+      "Ejemplos aplicados y recomendaciones de pr?ctica",
+      "Orientaci?n para instalaci?n o uso de herramientas cuando aplique"
+    ],
+    "entregables": [
+      "Material digital de apoyo",
+      "Archivos de pr?ctica cuando corresponda",
+      "Constancia interna solo si se acuerda comercialmente, sin car?cter oficial externo",
+      "Grabaci?n o recursos complementarios cuando formen parte de la oferta"
+    ],
+    "metodologia": "Aprendizaje aplicado por m?dulos, demostraciones, ejercicios guiados y resoluci?n de problemas representativos de ingenier?a o ciencia.",
+    "duracion_referencial": "Desde cursos cortos de 2 a 4 horas hasta programas t?cnicos de 12 a 24 horas.",
+    "modalidad": "Virtual en vivo, grabado, taller personalizado o capacitaci?n institucional.",
+    "precio_desde_soles_igv": "Curso corto grabado desde S/ 49 con IGV incluido; curso virtual b?sico desde S/ 89; curso t?cnico especializado desde S/ 149; curso profesional avanzado desde S/ 249; capacitaci?n institucional desde S/ 800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "Los precios son referenciales y pueden variar seg?n modalidad, n?mero de participantes, personalizaci?n, soporte, materiales y duraci?n.",
+    "seo_title": "Curso Python00 | Cursos para ingenieros y cient?ficos | Tecprog World",
+    "seo_description": "Formaci?n t?cnica independiente para ingenier?a, ciencia aplicada, programaci?n cient?fica, GIS, CFD, LaTeX, Python, MATLAB, Fortran, OpenFOAM y HP 50G.",
+    "keywords": [
+      "cursos para ingenieros",
+      "cursos para cient?ficos",
+      "programaci?n cient?fica",
+      "QGIS",
+      "Python",
+      "MATLAB",
+      "Fortran",
+      "OpenFOAM",
+      "LaTeX",
+      "CFD",
+      "Tecprog World"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre Curso Python00. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "curso-curso-python01",
+    "titulo": "Curso Python01",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Formaci?n t?cnica especializada",
+    "subcategoria": "Python cient?fico",
+    "descripcion_corta": "Curso o recurso t?cnico para fortalecer capacidades de ingenier?a, ciencia aplicada, programaci?n y an?lisis num?rico.",
+    "descripcion_larga": "Programa de formaci?n independiente orientado a estudiantes, profesionales y equipos t?cnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programaci?n cient?fica, an?lisis de datos, GIS, modelamiento num?rico, CFD, documentaci?n t?cnica con LaTeX, automatizaci?n y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formaci?n t?cnica independiente, sin representaci?n oficial de marcas o instituciones.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Python01.png",
+    "archivo_fuente": "Curso_Python01.png",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a y ciencias",
+      "Profesionales t?cnicos que desean actualizar habilidades",
+      "Docentes, consultores y equipos de investigaci?n aplicada",
+      "Empresas o instituciones que requieren capacitaci?n interna"
+    ],
+    "problema_que_resuelve": [
+      "Reduce la curva de aprendizaje en herramientas t?cnicas",
+      "Ordena conceptos dispersos en una ruta pr?ctica",
+      "Permite automatizar c?lculos, reportes o an?lisis repetitivos",
+      "Conecta teor?a con ejercicios y casos aplicados"
+    ],
+    "beneficios": [
+      "Enfoque pr?ctico y orientado a resultados",
+      "Materiales editables seg?n disponibilidad",
+      "Ejercicios aplicados a problemas de ingenier?a",
+      "Atenci?n por WhatsApp para inscripci?n o cotizaci?n",
+      "Modalidad adaptable a estudiantes, profesionales o instituciones"
+    ],
+    "incluye": [
+      "Sesiones o material guiado seg?n modalidad",
+      "Temario base y ruta de aprendizaje",
+      "Ejemplos aplicados y recomendaciones de pr?ctica",
+      "Orientaci?n para instalaci?n o uso de herramientas cuando aplique"
+    ],
+    "entregables": [
+      "Material digital de apoyo",
+      "Archivos de pr?ctica cuando corresponda",
+      "Constancia interna solo si se acuerda comercialmente, sin car?cter oficial externo",
+      "Grabaci?n o recursos complementarios cuando formen parte de la oferta"
+    ],
+    "metodologia": "Aprendizaje aplicado por m?dulos, demostraciones, ejercicios guiados y resoluci?n de problemas representativos de ingenier?a o ciencia.",
+    "duracion_referencial": "Desde cursos cortos de 2 a 4 horas hasta programas t?cnicos de 12 a 24 horas.",
+    "modalidad": "Virtual en vivo, grabado, taller personalizado o capacitaci?n institucional.",
+    "precio_desde_soles_igv": "Curso corto grabado desde S/ 49 con IGV incluido; curso virtual b?sico desde S/ 89; curso t?cnico especializado desde S/ 149; curso profesional avanzado desde S/ 249; capacitaci?n institucional desde S/ 800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "Los precios son referenciales y pueden variar seg?n modalidad, n?mero de participantes, personalizaci?n, soporte, materiales y duraci?n.",
+    "seo_title": "Curso Python01 | Cursos para ingenieros y cient?ficos | Tecprog World",
+    "seo_description": "Formaci?n t?cnica independiente para ingenier?a, ciencia aplicada, programaci?n cient?fica, GIS, CFD, LaTeX, Python, MATLAB, Fortran, OpenFOAM y HP 50G.",
+    "keywords": [
+      "cursos para ingenieros",
+      "cursos para cient?ficos",
+      "programaci?n cient?fica",
+      "QGIS",
+      "Python",
+      "MATLAB",
+      "Fortran",
+      "OpenFOAM",
+      "LaTeX",
+      "CFD",
+      "Tecprog World"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre Curso Python01. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "curso-servicio-desarrollo-de-software-01",
+    "titulo": "Servicio Desarrollo De SofTW Are 01",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Formaci?n t?cnica especializada",
+    "subcategoria": "Herramientas t?cnicas aplicadas",
+    "descripcion_corta": "Curso o recurso t?cnico para fortalecer capacidades de ingenier?a, ciencia aplicada, programaci?n y an?lisis num?rico.",
+    "descripcion_larga": "Programa de formaci?n independiente orientado a estudiantes, profesionales y equipos t?cnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programaci?n cient?fica, an?lisis de datos, GIS, modelamiento num?rico, CFD, documentaci?n t?cnica con LaTeX, automatizaci?n y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formaci?n t?cnica independiente, sin representaci?n oficial de marcas o instituciones.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Servicio_desarrollo_de_software_01.jpg",
+    "archivo_fuente": "Servicio_desarrollo_de_software_01.jpg",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a y ciencias",
+      "Profesionales t?cnicos que desean actualizar habilidades",
+      "Docentes, consultores y equipos de investigaci?n aplicada",
+      "Empresas o instituciones que requieren capacitaci?n interna"
+    ],
+    "problema_que_resuelve": [
+      "Reduce la curva de aprendizaje en herramientas t?cnicas",
+      "Ordena conceptos dispersos en una ruta pr?ctica",
+      "Permite automatizar c?lculos, reportes o an?lisis repetitivos",
+      "Conecta teor?a con ejercicios y casos aplicados"
+    ],
+    "beneficios": [
+      "Enfoque pr?ctico y orientado a resultados",
+      "Materiales editables seg?n disponibilidad",
+      "Ejercicios aplicados a problemas de ingenier?a",
+      "Atenci?n por WhatsApp para inscripci?n o cotizaci?n",
+      "Modalidad adaptable a estudiantes, profesionales o instituciones"
+    ],
+    "incluye": [
+      "Sesiones o material guiado seg?n modalidad",
+      "Temario base y ruta de aprendizaje",
+      "Ejemplos aplicados y recomendaciones de pr?ctica",
+      "Orientaci?n para instalaci?n o uso de herramientas cuando aplique"
+    ],
+    "entregables": [
+      "Material digital de apoyo",
+      "Archivos de pr?ctica cuando corresponda",
+      "Constancia interna solo si se acuerda comercialmente, sin car?cter oficial externo",
+      "Grabaci?n o recursos complementarios cuando formen parte de la oferta"
+    ],
+    "metodologia": "Aprendizaje aplicado por m?dulos, demostraciones, ejercicios guiados y resoluci?n de problemas representativos de ingenier?a o ciencia.",
+    "duracion_referencial": "Desde cursos cortos de 2 a 4 horas hasta programas t?cnicos de 12 a 24 horas.",
+    "modalidad": "Virtual en vivo, grabado, taller personalizado o capacitaci?n institucional.",
+    "precio_desde_soles_igv": "Curso corto grabado desde S/ 49 con IGV incluido; curso virtual b?sico desde S/ 89; curso t?cnico especializado desde S/ 149; curso profesional avanzado desde S/ 249; capacitaci?n institucional desde S/ 800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "Los precios son referenciales y pueden variar seg?n modalidad, n?mero de participantes, personalizaci?n, soporte, materiales y duraci?n.",
+    "seo_title": "Servicio Desarrollo De SofTW Are 01 | Cursos para ingenieros y cient?ficos | Tecprog World",
+    "seo_description": "Formaci?n t?cnica independiente para ingenier?a, ciencia aplicada, programaci?n cient?fica, GIS, CFD, LaTeX, Python, MATLAB, Fortran, OpenFOAM y HP 50G.",
+    "keywords": [
+      "cursos para ingenieros",
+      "cursos para cient?ficos",
+      "programaci?n cient?fica",
+      "QGIS",
+      "Python",
+      "MATLAB",
+      "Fortran",
+      "OpenFOAM",
+      "LaTeX",
+      "CFD",
+      "Tecprog World"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre Servicio Desarrollo De SofTW Are 01. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "curso-tw-educa-mooc-delft3d",
+    "titulo": "TW EDUCA MOOC Delft3D",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Formaci?n t?cnica especializada",
+    "subcategoria": "Modelamiento num?rico y Delft3D",
+    "descripcion_corta": "Curso o recurso t?cnico para fortalecer capacidades de ingenier?a, ciencia aplicada, programaci?n y an?lisis num?rico.",
+    "descripcion_larga": "Programa de formaci?n independiente orientado a estudiantes, profesionales y equipos t?cnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programaci?n cient?fica, an?lisis de datos, GIS, modelamiento num?rico, CFD, documentaci?n t?cnica con LaTeX, automatizaci?n y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formaci?n t?cnica independiente, sin representaci?n oficial de marcas o instituciones.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/TW_EDUCA_MOOC_DELFT3D.jpg",
+    "archivo_fuente": "TW_EDUCA_MOOC_DELFT3D.jpg",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a y ciencias",
+      "Profesionales t?cnicos que desean actualizar habilidades",
+      "Docentes, consultores y equipos de investigaci?n aplicada",
+      "Empresas o instituciones que requieren capacitaci?n interna"
+    ],
+    "problema_que_resuelve": [
+      "Reduce la curva de aprendizaje en herramientas t?cnicas",
+      "Ordena conceptos dispersos en una ruta pr?ctica",
+      "Permite automatizar c?lculos, reportes o an?lisis repetitivos",
+      "Conecta teor?a con ejercicios y casos aplicados"
+    ],
+    "beneficios": [
+      "Enfoque pr?ctico y orientado a resultados",
+      "Materiales editables seg?n disponibilidad",
+      "Ejercicios aplicados a problemas de ingenier?a",
+      "Atenci?n por WhatsApp para inscripci?n o cotizaci?n",
+      "Modalidad adaptable a estudiantes, profesionales o instituciones"
+    ],
+    "incluye": [
+      "Sesiones o material guiado seg?n modalidad",
+      "Temario base y ruta de aprendizaje",
+      "Ejemplos aplicados y recomendaciones de pr?ctica",
+      "Orientaci?n para instalaci?n o uso de herramientas cuando aplique"
+    ],
+    "entregables": [
+      "Material digital de apoyo",
+      "Archivos de pr?ctica cuando corresponda",
+      "Constancia interna solo si se acuerda comercialmente, sin car?cter oficial externo",
+      "Grabaci?n o recursos complementarios cuando formen parte de la oferta"
+    ],
+    "metodologia": "Aprendizaje aplicado por m?dulos, demostraciones, ejercicios guiados y resoluci?n de problemas representativos de ingenier?a o ciencia.",
+    "duracion_referencial": "Desde cursos cortos de 2 a 4 horas hasta programas t?cnicos de 12 a 24 horas.",
+    "modalidad": "Virtual en vivo, grabado, taller personalizado o capacitaci?n institucional.",
+    "precio_desde_soles_igv": "Curso corto grabado desde S/ 49 con IGV incluido; curso virtual b?sico desde S/ 89; curso t?cnico especializado desde S/ 149; curso profesional avanzado desde S/ 249; capacitaci?n institucional desde S/ 800.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "Los precios son referenciales y pueden variar seg?n modalidad, n?mero de participantes, personalizaci?n, soporte, materiales y duraci?n.",
+    "seo_title": "TW EDUCA MOOC Delft3D | Cursos para ingenieros y cient?ficos | Tecprog World",
+    "seo_description": "Formaci?n t?cnica independiente para ingenier?a, ciencia aplicada, programaci?n cient?fica, GIS, CFD, LaTeX, Python, MATLAB, Fortran, OpenFOAM y HP 50G.",
+    "keywords": [
+      "cursos para ingenieros",
+      "cursos para cient?ficos",
+      "programaci?n cient?fica",
+      "QGIS",
+      "Python",
+      "MATLAB",
+      "Fortran",
+      "OpenFOAM",
+      "LaTeX",
+      "CFD",
+      "Tecprog World"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre TW EDUCA MOOC Delft3D. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "temario-programacion-hp-50g",
+    "titulo": "Temario de programaci?n en calculadora HP 50G",
+    "tipo": "Curso",
+    "linea": "TW Educa para Ingenieros y Cient?ficos",
+    "categoria": "Programaci?n en calculadoras cient?ficas",
+    "subcategoria": "HP 50G",
+    "descripcion_corta": "Ruta de aprendizaje para dominar fundamentos de uso, User RPL, variables, matrices, ecuaciones, c?lculo y aplicaciones de ingenier?a en HP 50G.",
+    "descripcion_larga": "Curso independiente para estudiantes y profesionales que desean aprovechar la calculadora HP 50G como herramienta de c?lculo t?cnico y automatizaci?n. El temario aborda familiarizaci?n con modos algebraico y RPN, listas, vectores, matrices, variables, funciones personalizadas, ecuaciones lineales y no lineales, c?lculo diferencial e integral, gr?ficos 2D/3D y uso de programas para ingenier?a. La formaci?n se enfoca en pr?ctica guiada, comprensi?n de procedimientos y creaci?n de rutinas ?tiles para matem?tica, f?sica, ingenier?a civil, mec?nica, hidr?ulica y fluidos. Tecprog World no representa a HP; la marca se menciona ?nicamente como referencia t?cnica al equipo compatible con el curso.",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Programacion_HP50G.JPG",
+    "archivo_fuente": "temario_propuesto.txt",
+    "publico_objetivo": [
+      "Estudiantes de ingenier?a civil, mec?nica, el?ctrica, ambiental o afines",
+      "Profesionales que usan calculadoras cient?ficas en campo",
+      "Usuarios de HP 50G que desean aprender User RPL",
+      "Docentes o asesores que preparan ejercicios t?cnicos"
+    ],
+    "problema_que_resuelve": [
+      "Automatiza c?lculos repetitivos",
+      "Mejora el uso de RPN, variables, listas y matrices",
+      "Ordena procedimientos para resolver problemas de ingenier?a",
+      "Ayuda a convertir ejercicios frecuentes en rutinas reutilizables"
+    ],
+    "beneficios": [
+      "Temario progresivo desde fundamentos hasta aplicaciones",
+      "Pr?cticas guiadas con problemas t?cnicos",
+      "Orientaci?n para programas, variables y funciones",
+      "Aplicaci?n en c?lculo, ?lgebra lineal, gr?ficos y ecuaciones",
+      "Ideal para estudiantes que ya tienen una HP 50G"
+    ],
+    "incluye": [
+      "Sesiones sobre modo algebraico y RPN",
+      "Introducci?n a programaci?n y funciones personalizadas",
+      "Matrices, vectores, complejos y sistemas de ecuaciones",
+      "C?lculo diferencial e integral",
+      "Gr?ficas 2D/3D y programas para ingenier?a"
+    ],
+    "entregables": [
+      "Temario base editable",
+      "Ejercicios propuestos",
+      "Archivos o programas de ejemplo cuando se acuerde",
+      "Asesor?a por sesi?n o taller completo"
+    ],
+    "metodologia": "Clases pr?cticas por sesiones, demostraci?n directa en calculadora, ejercicios guiados y resoluci?n de problemas por especialidad.",
+    "duracion_referencial": "Taller intensivo de 4 a 6 horas o curso completo de 10 a 16 horas seg?n alcance.",
+    "modalidad": "Virtual en vivo, asesor?a personalizada o taller grupal.",
+    "precio_desde_soles_igv": "Curso HP 50G b?sico desde S/ 129 con IGV incluido; taller intensivo desde S/ 89; pack de programas o plantillas desde S/ 49; asesor?a personalizada desde S/ 80 por sesi?n.",
+    "precio_exterior_usd": "Servicio internacional v?a PayPal desde USD 39.",
+    "nota_comercial": "La oferta es independiente y no constituye certificaci?n oficial de HP. El contenido puede adaptarse al nivel del estudiante.",
+    "seo_title": "Curso HP 50G y User RPL para ingenier?a | Tecprog World",
+    "seo_description": "Curso independiente de programaci?n en calculadora HP 50G, User RPL, matrices, ecuaciones, c?lculo, gr?ficas y aplicaciones para ingenier?a.",
+    "keywords": [
+      "HP 50G",
+      "User RPL",
+      "programaci?n calculadora cient?fica",
+      "ingenier?a",
+      "matrices",
+      "ecuaciones",
+      "c?lculo",
+      "RPN",
+      "Tecprog World"
+    ],
+    "whatsapp_message": "Hola, deseo informaci?n sobre Temario de programaci?n en calculadora HP 50G. Vengo desde la web de Tecprog World E.I.R.L."
+  }
+]
