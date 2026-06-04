@@ -1,8 +1,8 @@
-const TEC_SITE = {
+﻿const TEC_SITE = {
   whatsapp: "51952354282",
   email: "grupotecprog@gmail.com",
   qrPath: "assets/img/qr/QR_Yape.png",
-  paypalRequestUrl: "https://www.paypal.com/paypalme/editar-enlace"
+  paypalRequestUrl: "https://www.paypal.com/paypalme/grupotecprog"
 };
 
 const MATERIALS_JSON = "data/materiales.json";
@@ -52,7 +52,7 @@ async function loadMaterials() {
 
 function listMarkup(items) {
   if (!items.length) {
-    return `<p class="loading">No hay materiales disponibles todavía.</p>`;
+    return `<p class="loading">No hay materiales disponibles todavÃ­a.</p>`;
   }
 
   return items.map((item) => `
@@ -62,7 +62,7 @@ function listMarkup(items) {
         <span>${escapeHtml(item.tipo)}</span>
       </a>
       <div class="material-card-body">
-        <p class="catalog-category">${escapeHtml(item.linea)} · ${escapeHtml(item.subcategoria || item.categoria)}</p>
+        <p class="catalog-category">${escapeHtml(item.linea)} Â· ${escapeHtml(item.subcategoria || item.categoria)}</p>
         <h3>${escapeHtml(item.titulo)}</h3>
         <p>${escapeHtml(item.descripcion_corta)}</p>
         <strong>${escapeHtml(item.precio_desde_soles_igv || "Cotizar")}</strong>
@@ -96,7 +96,7 @@ function renderQrBlock() {
         <img src="${encodePath(sitePath(TEC_SITE.qrPath))}" alt="QR de pago Yape Tecprog World" loading="lazy" onerror="this.closest('.qr-frame').classList.add('has-fallback'); this.remove();">
         <span>QR de pago no disponible</span>
       </div>
-      <p class="microcopy">No se muestran datos bancarios sensibles. Solicita confirmación antes de pagar.</p>
+      <p class="microcopy">No se muestran datos bancarios sensibles. Solicita confirmaciÃ³n antes de pagar.</p>
     </aside>
   `;
 }
@@ -121,8 +121,8 @@ async function renderMaterialDetail() {
         <section class="legal-card">
           <p class="eyebrow">Material no encontrado</p>
           <h1>No encontramos este recurso</h1>
-          <p>Revisa el enlace o vuelve al catálogo de materiales.</p>
-          <a class="btn btn-primary" href="${sitePath("catalogo/materiales-educativos.html")}">Volver al catálogo</a>
+          <p>Revisa el enlace o vuelve al catÃ¡logo de materiales.</p>
+          <a class="btn btn-primary" href="${sitePath("catalogo/materiales-educativos.html")}">Volver al catÃ¡logo</a>
         </section>
       `;
       return;
@@ -138,14 +138,14 @@ async function renderMaterialDetail() {
             <p>${escapeHtml(item.descripcion_corta)}</p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="${whatsappUrl(item.whatsapp_message)}" target="_blank" rel="noopener">Consultar por WhatsApp</a>
-              <a class="btn btn-secondary" href="${whatsappUrl(`Hola, deseo solicitar una cotización sobre ${item.titulo}. Vengo desde la web de Tecprog World E.I.R.L.`)}" target="_blank" rel="noopener">Solicitar cotización</a>
+              <a class="btn btn-secondary" href="${whatsappUrl(`Hola, deseo solicitar una cotizaciÃ³n sobre ${item.titulo}. Vengo desde la web de Tecprog World E.I.R.L.`)}" target="_blank" rel="noopener">Solicitar cotizaciÃ³n</a>
               <a class="btn btn-gold" href="${TEC_SITE.paypalRequestUrl}" target="_blank" rel="noopener">Pedir pago por PayPal</a>
-              <a class="btn btn-ghost" href="${sitePath("index.html")}#productos">Volver al catálogo</a>
+              <a class="btn btn-ghost" href="${sitePath("index.html")}#productos">Volver al catÃ¡logo</a>
             </div>
           </div>
           <figure class="detail-media">
             ${item.imagen ? `<img src="${encodePath(sitePath(item.imagen))}" alt="${escapeHtml(item.titulo)}" onerror="this.parentElement.classList.add('has-fallback'); this.remove();">` : ""}
-            <figcaption>${escapeHtml(item.categoria)}${item.subcategoria ? ` · ${escapeHtml(item.subcategoria)}` : ""}</figcaption>
+            <figcaption>${escapeHtml(item.categoria)}${item.subcategoria ? ` Â· ${escapeHtml(item.subcategoria)}` : ""}</figcaption>
           </figure>
         </div>
       </section>
@@ -154,30 +154,30 @@ async function renderMaterialDetail() {
         <div class="section-shell detail-layout">
           <div class="detail-content">
             <section class="detail-block">
-              <h2>Descripción técnica y comercial</h2>
+              <h2>DescripciÃ³n tÃ©cnica y comercial</h2>
               <p>${escapeHtml(item.descripcion_larga)}</p>
             </section>
             ${renderFeatureList("Problema que resuelve", item.problema_que_resuelve)}
-            ${renderFeatureList("Público objetivo", item.publico_objetivo)}
+            ${renderFeatureList("PÃºblico objetivo", item.publico_objetivo)}
             ${renderFeatureList("Beneficios", item.beneficios)}
-            ${renderFeatureList("Qué incluye", item.incluye)}
+            ${renderFeatureList("QuÃ© incluye", item.incluye)}
             ${renderFeatureList("Entregables", item.entregables)}
             <section class="detail-block">
-              <h2>Metodología</h2>
+              <h2>MetodologÃ­a</h2>
               <p>${escapeHtml(item.metodologia)}</p>
             </section>
             <section class="detail-block">
               <h2>Nota independiente</h2>
-              <p>Tecprog World E.I.R.L. desarrolla formación, servicios y materiales de manera independiente. Las marcas, softwares o instituciones mencionadas pertenecen a sus respectivos titulares y se emplean únicamente como referencia técnica o académica.</p>
+              <p>Tecprog World E.I.R.L. desarrolla formaciÃ³n, servicios y materiales de manera independiente. Las marcas, softwares o instituciones mencionadas pertenecen a sus respectivos titulares y se emplean Ãºnicamente como referencia tÃ©cnica o acadÃ©mica.</p>
             </section>
           </div>
           <aside class="detail-sidebar">
             <div class="price-panel">
-              <h2>Información comercial</h2>
+              <h2>InformaciÃ³n comercial</h2>
               <dl>
-                <div><dt>Duración</dt><dd>${escapeHtml(item.duracion_referencial)}</dd></div>
+                <div><dt>DuraciÃ³n</dt><dd>${escapeHtml(item.duracion_referencial)}</dd></div>
                 <div><dt>Modalidad</dt><dd>${escapeHtml(item.modalidad)}</dd></div>
-                <div><dt>Precio Perú</dt><dd>${escapeHtml(item.precio_desde_soles_igv)}</dd></div>
+                <div><dt>Precio PerÃº</dt><dd>${escapeHtml(item.precio_desde_soles_igv)}</dd></div>
                 <div><dt>Exterior</dt><dd>${escapeHtml(item.precio_exterior_usd)}</dd></div>
               </dl>
               <p>${escapeHtml(item.nota_comercial)}</p>
@@ -225,14 +225,14 @@ async function renderMaterialIndex() {
     const filtered = materials.filter((item) => {
       if (type === "protesis") return item.linea === "TW Salud y Vida / TW Bionic";
       if (type === "hp50g") return item.subcategoria === "HP 50G" || item.id.includes("hp-50g");
-      if (type === "educativos") return item.linea === "TW Educa para Ingenieros y Científicos";
+      if (type === "educativos") return item.linea === "TW Educa para Ingenieros y CientÃ­ficos";
       return true;
     });
     grid.innerHTML = listMarkup(filtered);
     if (filterBox) createFilters(filterBox, filtered, grid);
     observeMaterialReveals();
   } catch (error) {
-    grid.innerHTML = `<article class="catalog-card"><div class="catalog-body"><h3>No se pudo cargar el catálogo</h3><p>${escapeHtml(error.message)}</p></div></article>`;
+    grid.innerHTML = `<article class="catalog-card"><div class="catalog-body"><h3>No se pudo cargar el catÃ¡logo</h3><p>${escapeHtml(error.message)}</p></div></article>`;
   }
 }
 
@@ -257,3 +257,4 @@ document.addEventListener("DOMContentLoaded", () => {
   renderMaterialDetail();
   renderMaterialIndex();
 });
+

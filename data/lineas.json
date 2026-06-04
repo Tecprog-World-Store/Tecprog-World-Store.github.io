@@ -1,0 +1,47 @@
+[
+  {
+    "id": "tw-educa",
+    "titulo": "TW Educa",
+    "linea": "Educación tecnológica",
+    "categoria": "Formación",
+    "tipo": "unidad",
+    "descripcion_corta": "Cursos técnicos, científicos y digitales para profesionales, estudiantes, empresas e instituciones.",
+    "descripcion_larga": "Unidad de formación especializada en ingeniería, software, GIS, programación, modelamiento, datos y herramientas digitales.",
+    "precio_desde": "Desde S/ 49",
+    "precio_usd": "Desde USD 15 vía PayPal",
+    "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
+    "url_detalle": "lineas/tw-educa.html",
+    "whatsapp_message": "Hola, deseo información sobre TW Educa. Vengo desde la web de Tecprog World E.I.R.L.",
+    "estado": "activo"
+  },
+  {
+    "id": "tw-innova",
+    "titulo": "TW Innova",
+    "linea": "Software e innovación",
+    "categoria": "Desarrollo",
+    "tipo": "unidad",
+    "descripcion_corta": "Software a medida, automatización, dashboards, plugins y sistemas web empresariales.",
+    "descripcion_larga": "Unidad orientada al desarrollo de soluciones digitales para empresas, instituciones, equipos técnicos y proyectos especializados.",
+    "precio_desde": "Desde S/ 600",
+    "precio_usd": "Desde USD 180 vía PayPal",
+    "imagen": "assets/img/software/software-comercial-dashboard.svg",
+    "url_detalle": "lineas/tw-innova.html",
+    "whatsapp_message": "Hola, deseo información sobre TW Innova. Vengo desde la web de Tecprog World E.I.R.L.",
+    "estado": "activo"
+  },
+  {
+    "id": "tw-store",
+    "titulo": "Tecprog World Store",
+    "linea": "Comercio tecnológico",
+    "categoria": "Productos",
+    "tipo": "unidad",
+    "descripcion_corta": "Productos tecnológicos, recursos digitales, materiales, licencias, demos y packs comerciales.",
+    "descripcion_larga": "Unidad comercial para recursos descargables, productos tecnológicos y soluciones listas para consulta o compra.",
+    "precio_desde": "Desde S/ 29",
+    "precio_usd": "Desde USD 10 vía PayPal",
+    "imagen": "assets/img/productos/producto-kit-emprendedor.svg",
+    "url_detalle": "lineas/tw-store.html",
+    "whatsapp_message": "Hola, deseo información sobre Tecprog World Store. Vengo desde la web de Tecprog World E.I.R.L.",
+    "estado": "activo"
+  }
+]

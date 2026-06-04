@@ -175,6 +175,13 @@ ul { margin: 0; padding-left: 1.1rem; }
   font-size: clamp(1rem, 1.7vw, 1.2rem);
 }
 
+.hero-note {
+  max-width: 720px;
+  margin: 18px 0 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-weight: 750;
+}
+
 .hero-actions,
 .card-actions,
 .catalog-actions,
@@ -420,10 +427,10 @@ ul { margin: 0; padding-left: 1.1rem; }
 .business-card {
   position: relative;
   display: flex;
-  min-height: 284px;
+  min-height: 420px;
   flex-direction: column;
   gap: 14px;
-  padding: 24px;
+  padding: 0 0 22px;
   overflow: hidden;
 }
 
@@ -438,9 +445,71 @@ ul { margin: 0; padding-left: 1.1rem; }
   background: rgba(23, 215, 255, 0.1);
 }
 
-.business-card img {
+.business-card > img {
   width: 42px;
   height: 42px;
+}
+
+.business-card-link,
+.catalog-card-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.business-media {
+  height: 150px;
+  overflow: hidden;
+  background: var(--soft);
+}
+
+.business-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.business-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 22px 0;
+}
+
+.business-head img {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+}
+
+.business-card p,
+.business-card .chip-row,
+.business-card .card-actions {
+  margin-inline: 22px;
+}
+
+.business-card .card-actions,
+.catalog-actions,
+.catalog-card .catalog-actions a,
+.business-card .card-actions a {
+  position: relative;
+  z-index: 2;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip-row span {
+  padding: 5px 9px;
+  color: var(--navy);
+  background: #edf8ff;
+  border: 1px solid rgba(23, 215, 255, 0.3);
+  border-radius: var(--radius);
+  font-size: 0.74rem;
+  font-weight: 850;
 }
 
 .business-card h3,
@@ -465,7 +534,10 @@ ul { margin: 0; padding-left: 1.1rem; }
 
 .card-actions { margin-top: auto; }
 
-.catalog-card { overflow: hidden; }
+.catalog-card {
+  position: relative;
+  overflow: hidden;
+}
 
 .catalog-media {
   position: relative;
@@ -538,6 +610,57 @@ ul { margin: 0; padding-left: 1.1rem; }
 .catalog-meta strong {
   color: var(--navy);
   font-size: 1.05rem;
+}
+
+.usd-price {
+  margin-top: -4px !important;
+  color: #1d6b80 !important;
+  font-size: 0.86rem;
+  font-weight: 850;
+}
+
+.carousel-shell {
+  position: relative;
+}
+
+.commerce-carousel {
+  display: grid;
+  grid-auto-columns: minmax(260px, 31%);
+  grid-auto-flow: column;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 4px 4px 18px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+
+.commerce-carousel .catalog-card {
+  scroll-snap-align: start;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: -54px 0 18px;
+}
+
+.carousel-button {
+  width: 42px;
+  height: 42px;
+  color: var(--navy);
+  background: var(--white);
+  border: 1px solid rgba(6, 19, 38, 0.16);
+  border-radius: var(--radius);
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carousel-button:hover {
+  background: var(--cyan-soft);
+  border-color: rgba(23, 215, 255, 0.5);
 }
 
 .loading { color: var(--muted); }
@@ -626,7 +749,7 @@ ul { margin: 0; padding-left: 1.1rem; }
   border-radius: var(--radius);
 }
 
-.qr-placeholder {
+.qr-box {
   display: grid;
   min-height: 180px;
   place-items: center;
@@ -636,7 +759,21 @@ ul { margin: 0; padding-left: 1.1rem; }
   text-align: center;
 }
 
-.qr-placeholder img { max-height: 160px; }
+.qr-box img {
+  max-height: 220px;
+  object-fit: contain;
+}
+
+.qr-box img + span {
+  margin-top: 10px;
+  color: var(--navy);
+  font-weight: 850;
+}
+
+.contact-mini {
+  margin-top: 16px !important;
+  font-size: 0.92rem !important;
+}
 
 .site-footer {
   padding: 48px 0;
@@ -830,6 +967,10 @@ ul { margin: 0; padding-left: 1.1rem; }
   .steps-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .commerce-carousel {
+    grid-auto-columns: minmax(280px, 48%);
+  }
 }
 
 @media (max-width: 640px) {
@@ -868,6 +1009,15 @@ ul { margin: 0; padding-left: 1.1rem; }
   .banner-controls {
     left: 28px;
     right: auto;
+  }
+
+  .carousel-controls {
+    justify-content: flex-start;
+    margin: 0 0 16px;
+  }
+
+  .commerce-carousel {
+    grid-auto-columns: minmax(250px, 88%);
   }
 }
 

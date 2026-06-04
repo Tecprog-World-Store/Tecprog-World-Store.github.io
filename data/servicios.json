@@ -1,68 +1,69 @@
-[
+﻿[
   {
     "nombre": "Desarrollo de sitios web corporativos",
     "linea": "TW Innova",
     "categoria": "Desarrollo web",
-    "descripcion": "Diseño e implementación de sitios institucionales rápidos, responsive y preparados para GitHub Pages o hosting tradicional.",
+    "descripcion": "DiseÃ±o e implementaciÃ³n de sitios institucionales rÃ¡pidos, responsive y preparados para GitHub Pages o hosting tradicional.",
     "precio": "Desde S/ 900",
     "modalidad": "Proyecto por alcance",
     "imagen": "assets/img/servicios/servicio-desarrollo-software.svg",
     "etiqueta": "Web corporativa",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+    "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
     "nombre": "Landing pages comerciales",
     "linea": "TW Innova",
     "categoria": "Ventas digitales",
-    "descripcion": "Páginas de venta para campañas, servicios, productos, cursos o captación de clientes por WhatsApp.",
+    "descripcion": "PÃ¡ginas de venta para campaÃ±as, servicios, productos, cursos o captaciÃ³n de clientes por WhatsApp.",
     "precio": "Desde S/ 450",
     "modalidad": "Entrega digital",
     "imagen": "assets/img/servicios/servicio-desarrollo-software.svg",
     "etiqueta": "Landing",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+    "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
     "nombre": "Plugins personalizados para QGIS",
     "linea": "TW Innova",
-    "categoria": "GIS y automatización",
+    "categoria": "GIS y automatizaciÃ³n",
     "descripcion": "Desarrollo de plugins a medida para procesamiento geoespacial, formularios, validaciones, reportes y automatizaciones.",
     "precio": "Desde S/ 1,200",
-    "modalidad": "Cotización técnica",
+    "modalidad": "CotizaciÃ³n tÃ©cnica",
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "etiqueta": "QGIS",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+    "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "Automatización con Python",
+    "nombre": "AutomatizaciÃ³n con Python",
     "linea": "TW Innova",
-    "categoria": "Automatización",
-    "descripcion": "Scripts, flujos de datos, procesamiento de archivos, reportes, web scraping y tareas repetitivas para equipos técnicos.",
+    "categoria": "AutomatizaciÃ³n",
+    "descripcion": "Scripts, flujos de datos, procesamiento de archivos, reportes, web scraping y tareas repetitivas para equipos tÃ©cnicos.",
     "precio": "Desde S/ 700",
     "modalidad": "Remoto",
     "imagen": "assets/img/servicios/servicio-soporte-tecnico.svg",
     "etiqueta": "Python",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+    "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "Simulaciones hidráulicas CFD",
+    "nombre": "Simulaciones hidrÃ¡ulicas CFD",
     "linea": "TW Interactive / TW Innova",
-    "categoria": "Ingeniería aplicada",
-    "descripcion": "Modelamiento preliminar, análisis técnico y visualización de resultados para estudios hidráulicos y proyectos especializados.",
+    "categoria": "IngenierÃ­a aplicada",
+    "descripcion": "Modelamiento preliminar, anÃ¡lisis tÃ©cnico y visualizaciÃ³n de resultados para estudios hidrÃ¡ulicos y proyectos especializados.",
     "precio": "Desde S/ 1,500",
-    "modalidad": "Consultoría",
+    "modalidad": "ConsultorÃ­a",
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "etiqueta": "CFD",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+    "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "Asesoría en proyectos de construcción civil",
+    "nombre": "AsesorÃ­a en proyectos de construcciÃ³n civil",
     "linea": "TW Construye",
-    "categoria": "Construcción",
-    "descripcion": "Soporte en metrados, presupuestos, lectura de planos, modelamiento, revisión técnica y asistencia para obras.",
+    "categoria": "ConstrucciÃ³n",
+    "descripcion": "Soporte en metrados, presupuestos, lectura de planos, modelamiento, revisiÃ³n tÃ©cnica y asistencia para obras.",
     "precio": "Desde S/ 120",
     "modalidad": "Por hora o proyecto",
     "imagen": "assets/img/servicios/servicio-soporte-tecnico.svg",
-    "etiqueta": "Construcción",
-    "paypal": "https://www.paypal.com/paypalme/editar-enlace"
+    "etiqueta": "ConstrucciÃ³n",
+    "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   }
 ]
+
