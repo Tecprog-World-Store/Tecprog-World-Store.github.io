@@ -1,20 +1,20 @@
-﻿[
+[
   {
-    "nombre": "Plantilla web estÃ¡tica para GitHub Pages",
-    "linea": "Tecprog World Store",
+    "nombre": "Paquete de presencia digital institucional",
+    "linea": "TW Innova",
     "categoria": "Recurso digital",
-    "descripcion": "Plantilla digital para publicar una presencia web ligera, comercial y adaptable.",
+    "descripcion": "Diseño de estructura, contenidos base y recursos visuales para publicar una presencia web comercial y adaptable.",
     "precio": "Desde S/ 49",
     "modalidad": "Entrega digital",
     "imagen": "assets/img/productos/producto-solucion-digital.svg",
-    "etiqueta": "Plantilla",
+    "etiqueta": "Web",
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "Pack de recursos para emprendedores tecnolÃ³gicos",
+    "nombre": "Pack de recursos para emprendedores tecnológicos",
     "linea": "Tecprog World Store",
     "categoria": "Pack digital",
-    "descripcion": "Archivos base, guÃ­as, plantillas y recursos adaptables para organizar una oferta comercial digital.",
+    "descripcion": "Archivos base, guías, plantillas y recursos adaptables para organizar una oferta comercial digital.",
     "precio": "Desde S/ 49",
     "modalidad": "Entrega digital",
     "imagen": "assets/img/productos/producto-kit-emprendedor.svg",
@@ -22,10 +22,10 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "Manual tÃ©cnico PDF",
+    "nombre": "Manual técnico PDF",
     "linea": "TW Educa",
     "categoria": "Material educativo",
-    "descripcion": "Material tÃ©cnico en PDF preparado para acompaÃ±ar cursos, talleres o asesorÃ­as especializadas.",
+    "descripcion": "Material técnico en PDF preparado para acompañar cursos, talleres o asesorías especializadas.",
     "precio": "Desde S/ 29",
     "modalidad": "Descarga digital",
     "imagen": "assets/img/productos/producto-solucion-digital.svg",
@@ -33,10 +33,10 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "Kit de accesorios y componentes tecnolÃ³gicos",
-    "linea": "Tecprog World Store",
-    "categoria": "Producto fÃ­sico",
-    "descripcion": "Oferta para publicar accesorios, repuestos, componentes, dispositivos y herramientas tecnolÃ³gicas segÃºn disponibilidad.",
+    "nombre": "Kit de accesorios y componentes tecnológicos",
+    "linea": "TW Inox / TW Innova",
+    "categoria": "Producto físico",
+    "descripcion": "Accesorios, repuestos, componentes, dispositivos y herramientas tecnológicas según disponibilidad.",
     "precio": "Cotizar",
     "modalidad": "Entrega coordinada",
     "imagen": "assets/img/productos/producto-accesorios-componentes.svg",
@@ -58,7 +58,7 @@
     "nombre": "Instalador o demo comercial",
     "linea": "TW Innova",
     "categoria": "Demo",
-    "descripcion": "Producto preparado para publicar demos, instaladores, pruebas funcionales o versiones de evaluaciÃ³n.",
+    "descripcion": "Producto preparado para publicar demos, instaladores, pruebas funcionales o versiones de evaluación.",
     "precio": "Desde S/ 0",
     "modalidad": "Descarga / demo",
     "imagen": "assets/img/productos/producto-kit-emprendedor.svg",
@@ -66,4 +66,3 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   }
 ]
-

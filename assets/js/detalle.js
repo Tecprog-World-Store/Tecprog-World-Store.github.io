@@ -32,6 +32,11 @@ const detailItems = {
   "licencias-demos": detail("Licencias o demos", "TW Innova", "Software", "Software", "Acceso a versiones comerciales, demos, instaladores o soluciones configurables.", "Permite evaluar o implementar soluciones digitales según necesidad.", "assets/img/descargas/descarga-instalador-demo.svg", "Desde S/ 99", "Desde USD 30 vía PayPal", "Digital")
 };
 
+const compendiosPorCurso = {
+  hp50g: "hp-50g-programacion-ingenieria",
+  "qgis-basico": "qgis-basico-ingenieria-gestion-territorial"
+};
+
 function detail(title, line, type, category, description, problem, image, price, usd, modality) {
   return { title, line, type, category, description, problem, image, price, usd, modality };
 }
@@ -60,6 +65,7 @@ function renderDetail() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id") || "software-medida";
   const current = detailItems[id] || detailItems["software-medida"];
+  const compendioId = compendiosPorCurso[id];
 
   document.title = `${current.title} | Tecprog World E.I.R.L.`;
   root.innerHTML = `
@@ -70,9 +76,10 @@ function renderDetail() {
           <h1>${esc(current.title)}</h1>
           <p>${esc(current.description)}</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="${detailWhatsapp(current.title)}" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-primary" href="${detailWhatsapp(current.title)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             <a class="btn btn-secondary" href="mailto:grupotecprog@gmail.com">Solicitar cotización</a>
-            <a class="btn btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener">Solicitar pago por PayPal</a>
+            ${compendioId ? `<a class="btn btn-secondary" href="../detalle/compendio.html?id=${compendioId}">Ver compendio PDF</a>` : ""}
+            <a class="btn btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">Solicitar pago por PayPal</a>
           </div>
         </div>
         <figure class="detail-media">
@@ -120,8 +127,8 @@ function renderDetail() {
               <div><dt>Internacional</dt><dd>${esc(current.usd)}</dd></div>
             </dl>
             <div class="catalog-actions">
-              <a class="btn btn-small btn-primary" href="${detailWhatsapp(current.title)}" target="_blank" rel="noopener">WhatsApp</a>
-              <a class="btn btn-small btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener">PayPal</a>
+              <a class="btn btn-small btn-primary" href="${detailWhatsapp(current.title)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a class="btn btn-small btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">PayPal</a>
               <a class="btn btn-small" href="../index.html#productos">Volver al catálogo</a>
             </div>
             <p class="microcopy">Los precios son referenciales y pueden variar según alcance, modalidad, fecha de inscripción, requerimientos y promociones vigentes.</p>

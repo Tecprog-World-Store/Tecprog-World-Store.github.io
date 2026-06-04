@@ -4,40 +4,31 @@ const DEFAULT_PAYPAL_URL = "https://www.paypal.com/paypalme/grupotecprog";
 
 const businessLines = [
   {
-    id: "tw-educa",
-    name: "TW Educa",
-    icon: "assets/icons/education.svg",
-    image: "assets/img/cursos/capacitacion-empresarial.svg",
-    description: "Cursos técnicos, científicos y profesionales para ingeniería, software, GIS, datos, programación y herramientas digitales.",
-    url: "lineas/tw-educa.html",
-    chips: ["Cursos", "Materiales", "Software"]
+    id: "tw-investiga",
+    name: "TW Investiga",
+    icon: "assets/icons/innovation.svg",
+    image: "assets/img/banners/hero-tech.svg",
+    description: "Investigación aplicada, desarrollo experimental, prototipos, estudios técnicos, documentación científica y transferencia tecnológica.",
+    url: "lineas/tw-investiga.html",
+    chips: ["Investigación", "Prototipos", "I+D"]
   },
   {
     id: "tw-innova",
     name: "TW Innova",
     icon: "assets/icons/innovation.svg",
     image: "assets/img/software/software-comercial-dashboard.svg",
-    description: "Desarrollo de software, automatización, portales web, plugins, dashboards y soluciones digitales empresariales.",
+    description: "Desarrollo de software comercial y open-source, hardware aplicado, automatización, visión artificial, plugins y sistemas web.",
     url: "lineas/tw-innova.html",
-    chips: ["Software", "Servicios", "Proyectos"]
+    chips: ["Software", "Hardware", "Automatización"]
   },
   {
-    id: "tw-store",
-    name: "Tecprog World Store",
-    icon: "assets/icons/store.svg",
-    image: "assets/img/productos/producto-kit-emprendedor.svg",
-    description: "Productos tecnológicos, recursos digitales, licencias, plantillas, materiales descargables y packs comerciales.",
-    url: "lineas/tw-store.html",
-    chips: ["Productos", "Materiales", "Licencias"]
-  },
-  {
-    id: "tw-taller",
-    name: "TW Taller",
-    icon: "assets/icons/workshop.svg",
-    image: "assets/img/servicios/servicio-soporte-tecnico.svg",
-    description: "Soporte técnico, mantenimiento, diagnóstico, implementación y asistencia operativa para equipos y procesos.",
-    url: "lineas/tw-taller.html",
-    chips: ["Servicios", "Soporte", "Proyectos"]
+    id: "tw-educa",
+    name: "TW Educa",
+    icon: "assets/icons/education.svg",
+    image: "assets/img/cursos/capacitacion-empresarial.svg",
+    description: "Cursos técnicos, científicos y profesionales para ingeniería, programación, GIS, CFD, métodos numéricos y herramientas aplicadas.",
+    url: "lineas/tw-educa.html",
+    chips: ["Cursos", "Compendios", "Ingeniería"]
   },
   {
     id: "tw-construye",
@@ -49,31 +40,22 @@ const businessLines = [
     chips: ["Servicios", "Proyectos", "Consultoría"]
   },
   {
-    id: "tw-salud-vida",
-    name: "TW Salud y Vida / TW Bionic",
-    icon: "assets/icons/health.svg",
-    image: "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
-    description: "Innovación médica, prótesis, órtesis, prototipado biomédico, instrumentación aplicada y soluciones inclusivas.",
-    url: "lineas/tw-salud-vida.html",
-    chips: ["Salud", "Prototipos", "Servicios"]
-  },
-  {
-    id: "tw-interactive",
-    name: "TW Interactive",
-    icon: "assets/icons/innovation.svg",
-    image: "assets/img/banners/software-suite.svg",
-    description: "Experiencias interactivas, visualización técnica, laboratorios digitales, simuladores y herramientas educativas.",
-    url: "lineas/tw-interactive.html",
-    chips: ["Software", "Proyectos", "Cursos"]
-  },
-  {
     id: "tw-inox",
     name: "TW Inox",
     icon: "assets/icons/build.svg",
     image: "assets/img/banners/card-pattern.svg",
-    description: "Soluciones técnicas, fabricación, diseño y apoyo comercial para aplicaciones con enfoque industrial y funcional.",
+    description: "Proyectos en metales, estructuras, soportes, fabricación, pintura, automatización de procesos y prototipado.",
     url: "lineas/tw-inox.html",
-    chips: ["Productos", "Servicios", "Proyectos"]
+    chips: ["Metalmecánica", "Fabricación", "Prototipos"]
+  },
+  {
+    id: "tw-protesis-ortesis",
+    name: "TW Prótesis y Órtesis",
+    icon: "assets/icons/health.svg",
+    image: "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    description: "Diseño, prototipado, modelado CAD, impresión 3D, tecnología médica, asistencia técnica y dispositivos de apoyo.",
+    url: "lineas/tw-protesis-ortesis.html",
+    chips: ["Prótesis", "Órtesis", "Impresión 3D"]
   }
 ];
 
@@ -158,8 +140,40 @@ function setupWhatsAppLinks() {
     const topic = link.getAttribute("data-whatsapp") || "Tecprog World";
     link.href = whatsappUrl(topic);
     link.target = "_blank";
-    link.rel = "noopener";
+    link.rel = "noopener noreferrer";
   });
+}
+
+function setupExternalLinks() {
+  document.querySelectorAll('a[href^="http"], a[href^="https://wa.me"]').forEach((link) => {
+    const url = new URL(link.href, window.location.href);
+    if (url.origin !== window.location.origin) {
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
+  });
+}
+
+function setupContextNav() {
+  const items = document.querySelectorAll("[data-side-nav] a[href^='#']");
+  if (!items.length) return;
+
+  const sections = [...items]
+    .map((link) => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
+
+  if (!sections.length || !("IntersectionObserver" in window)) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      items.forEach((link) => {
+        link.classList.toggle("is-active", link.getAttribute("href") === `#${entry.target.id}`);
+      });
+    });
+  }, { rootMargin: "-35% 0px -55% 0px", threshold: 0.01 });
+
+  sections.forEach((section) => observer.observe(section));
 }
 
 function setupBannerCarousel() {
@@ -209,7 +223,7 @@ function renderBusinessLines() {
       <div class="card-actions">
         <a class="btn btn-small btn-primary" href="${safeText(line.url)}">Explorar unidad</a>
         <a class="btn btn-small" href="${safeText(line.url)}#ofertas">Ver ofertas</a>
-        <a class="btn btn-small btn-gold" href="${whatsappUrl(line.name)}" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn-small btn-gold" href="${whatsappUrl(line.name)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </div>
     </article>
   `).join("");
@@ -251,7 +265,7 @@ function carouselCard(entry) {
         <p class="usd-price">${safeText(entry.usd)}</p>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="${safeText(entry.detailUrl)}">Ver más</a>
-          <a class="btn btn-small btn-gold" href="${whatsappUrl(entry.title)}" target="_blank" rel="noopener">Comprar / consultar</a>
+          <a class="btn btn-small btn-gold" href="${whatsappUrl(entry.title)}" target="_blank" rel="noopener noreferrer">Comprar / consultar</a>
         </div>
       </div>
     </article>
@@ -294,6 +308,8 @@ function observeReveals() {
 document.addEventListener("DOMContentLoaded", () => {
   setupNavigation();
   setupWhatsAppLinks();
+  setupExternalLinks();
+  setupContextNav();
   setupBannerCarousel();
   renderBusinessLines();
   setupCommerceCarousels();

@@ -1,9 +1,9 @@
-﻿[
+[
   {
-    "nombre": "QGIS aplicado a cuencas hidrogrÃ¡ficas",
+    "nombre": "QGIS aplicado a cuencas hidrográficas",
     "linea": "TW Educa",
-    "categoria": "GIS e ingenierÃ­a",
-    "descripcion": "Curso prÃ¡ctico para analizar cuencas, preparar mapas, procesar datos geoespaciales y generar entregables tÃ©cnicos.",
+    "categoria": "GIS e ingeniería",
+    "descripcion": "Curso práctico para analizar cuencas, preparar mapas, procesar datos geoespaciales y generar entregables técnicos.",
     "precio": "Desde S/ 149",
     "modalidad": "Virtual en vivo o grabado",
     "imagen": "assets/img/cursos/curso-tecnologia-negocios.svg",
@@ -11,10 +11,10 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "Python para cientÃ­ficos de datos",
+    "nombre": "Python para científicos de datos",
     "linea": "TW Educa",
     "categoria": "Ciencia de datos",
-    "descripcion": "Fundamentos de Python, anÃ¡lisis de datos, visualizaciÃ³n, automatizaciÃ³n y preparaciÃ³n para machine learning.",
+    "descripcion": "Fundamentos de Python, análisis de datos, visualización, automatización y preparación para machine learning.",
     "precio": "Desde S/ 249",
     "modalidad": "Virtual",
     "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
@@ -25,7 +25,7 @@
     "nombre": "Desarrollo web con HTML, CSS, PHP y MySQL",
     "linea": "TW Educa",
     "categoria": "Desarrollo de software",
-    "descripcion": "Ruta inicial para crear sitios y aplicaciones web con fundamentos frontend, backend bÃ¡sico y bases de datos.",
+    "descripcion": "Ruta inicial para crear sitios y aplicaciones web con fundamentos frontend, backend básico y bases de datos.",
     "precio": "Desde S/ 149",
     "modalidad": "Virtual / taller",
     "imagen": "assets/img/cursos/taller-innovacion-prototipado.svg",
@@ -33,7 +33,7 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "ProgramaciÃ³n de plugins para QGIS",
+    "nombre": "Programación de plugins para QGIS",
     "linea": "TW Educa",
     "categoria": "GIS y software",
     "descripcion": "Curso especializado para crear herramientas, formularios y automatizaciones dentro de QGIS con Python.",
@@ -44,10 +44,10 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "OpenFOAM bÃ¡sico para simulaciÃ³n CFD",
+    "nombre": "OpenFOAM básico para simulación CFD",
     "linea": "TW Educa",
-    "categoria": "CFD e ingenierÃ­a",
-    "descripcion": "IntroducciÃ³n guiada al flujo de trabajo de OpenFOAM para simulaciones preliminares y casos educativos.",
+    "categoria": "CFD e ingeniería",
+    "descripcion": "Introducción guiada al flujo de trabajo de OpenFOAM para simulaciones preliminares y casos educativos.",
     "precio": "Desde S/ 149",
     "modalidad": "Virtual",
     "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
@@ -55,10 +55,10 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   },
   {
-    "nombre": "OfimÃ¡tica para emprendedores",
+    "nombre": "Ofimática para emprendedores",
     "linea": "TW Educa",
     "categoria": "Herramientas digitales",
-    "descripcion": "Curso corto para organizar ventas, reportes, documentos, presupuestos y atenciÃ³n al cliente con herramientas accesibles.",
+    "descripcion": "Curso corto para organizar ventas, reportes, documentos, presupuestos y atención al cliente con herramientas accesibles.",
     "precio": "Desde S/ 49",
     "modalidad": "Grabado / virtual",
     "imagen": "assets/img/cursos/taller-innovacion-prototipado.svg",
@@ -66,4 +66,3 @@
     "paypal": "https://www.paypal.com/paypalme/grupotecprog"
   }
 ]
-

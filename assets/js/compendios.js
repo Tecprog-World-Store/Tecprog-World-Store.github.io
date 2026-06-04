@@ -35,13 +35,13 @@ function renderCompendioCard(item) {
         <h3>${twEscape(item.titulo)}</h3>
         <p>${twEscape(item.descripcion)}</p>
         <div class="catalog-meta">
-          <span>${twEscape(item.paginas_estimadas)} paginas · ${twEscape(item.version)}</span>
+          <span>${twEscape(item.páginas_estimadas)} páginas · ${twEscape(item.version)}</span>
           <strong>${twEscape(item.precio_material_soles)}</strong>
         </div>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="../detalle/compendio.html?id=${encodeURIComponent(item.id)}">Ver PDF</a>
           <a class="btn btn-small" href="${fromSubdir(item.archivo_pdf)}" download>Descargar PDF</a>
-          <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener">Inscribirme</a>
+          <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Inscribirme</a>
         </div>
       </div>
     </article>
@@ -95,7 +95,7 @@ async function renderCompendioDetail() {
           <div class="hero-actions">
             <a class="btn btn-primary" href="#visor-pdf">Ver PDF embebido</a>
             <a class="btn btn-secondary" href="${fromSubdir(item.archivo_pdf)}" download>Descargar</a>
-            <a class="btn btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </div>
         </div>
         <figure class="detail-media">
@@ -108,22 +108,22 @@ async function renderCompendioDetail() {
       <div class="section-shell detail-layout">
         <div class="detail-content">
           <article class="detail-block">
-            <h2>Indice resumido</h2>
+            <h2>Índice resumido</h2>
             <ul class="check-list">
-              <li>Presentacion, objetivos, resultados de aprendizaje y publico objetivo.</li>
-              <li>Fundamentos teoricos, modulos desarrollados y ejemplos practicos.</li>
-              <li>Ejercicios propuestos, proyecto final, anexos y bibliografia.</li>
+              <li>Presentación, objetivos, resultados de aprendizaje y público objetivo.</li>
+              <li>Fundamentos teóricos, módulos desarrollados y ejemplos prácticos.</li>
+              <li>Ejercicios propuestos, proyecto final, anexos y bibliografía.</li>
             </ul>
           </article>
           <article class="detail-block">
             <h2>Notas legales y comerciales</h2>
-            <p>Este material forma parte del ecosistema educativo de Tecprog World E.I.R.L. y puede ser usado como apoyo en cursos en vivo, cursos grabados o asesorias. Su venta, distribucion o reutilizacion no autorizada puede estar restringida segun las condiciones comerciales del servicio.</p>
+            <p>Este material forma parte del ecosistema educativo de Tecprog World E.I.R.L. y puede ser usado como apoyo en cursos en vivo, cursos grabados o asesorías. Su venta, distribución o reutilización no autorizada puede estar restringida según las condiciones comerciales del servicio.</p>
             <p class="microcopy">Las marcas, softwares e instituciones mencionadas pertenecen a sus respectivos titulares.</p>
           </article>
           <article id="visor-pdf" class="detail-block pdf-viewer-block">
             <h2>Visor PDF</h2>
             <iframe class="pdf-viewer" src="${fromSubdir(item.archivo_pdf)}" title="${twEscape(item.titulo)}"></iframe>
-            <p class="microcopy">Si el visor no carga, <a href="${fromSubdir(item.archivo_pdf)}" download>descarga el PDF aqui</a>.</p>
+            <p class="microcopy">Si el visor no carga, <a href="${fromSubdir(item.archivo_pdf)}" download>descarga el PDF aquí</a>.</p>
           </article>
         </div>
         <aside class="detail-sidebar">
@@ -131,14 +131,14 @@ async function renderCompendioDetail() {
             <h2>Datos del compendio</h2>
             <dl>
               <div><dt>Curso asociado</dt><dd>${twEscape(item.curso_relacionado)}</dd></div>
-              <div><dt>Paginas</dt><dd>${twEscape(item.paginas_estimadas)}</dd></div>
+              <div><dt>Páginas</dt><dd>${twEscape(item.páginas_estimadas)}</dd></div>
               <div><dt>Version</dt><dd>${twEscape(item.version)}</dd></div>
               <div><dt>Fecha</dt><dd>${twEscape(item.fecha_publicacion)}</dd></div>
-              <div><dt>Material</dt><dd>${item.incluido_en_curso ? "Incluido en el curso segun promocion o alcance" : twEscape(item.precio_material_soles)}</dd></div>
+              <div><dt>Material</dt><dd>${item.incluido_en_curso ? "Incluido en el curso según promoción o alcance" : twEscape(item.precio_material_soles)}</dd></div>
             </dl>
             <div class="catalog-actions">
-              <a class="btn btn-small btn-primary" href="../catalogo/compendios.html">Volver al catalogo</a>
-              <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener">Solicitar material completo</a>
+              <a class="btn btn-small btn-primary" href="../catálogo/compendios.html">Volver al catálogo</a>
+              <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Solicitar material completo</a>
             </div>
           </article>
         </aside>

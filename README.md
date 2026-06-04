@@ -1,251 +1,151 @@
-# Tecprog World E.I.R.L. - Sitio web para GitHub Pages
+# Tecprog World E.I.R.L.
 
-Primera versión profesional del sitio corporativo y comercial estático de Tecprog World E.I.R.L. El sitio usa HTML, CSS y JavaScript puro, no requiere backend, no usa claves API y funciona directamente en GitHub Pages.
+Sitio web oficial estático de Tecprog World E.I.R.L., empresa peruana de tecnología aplicada. Publicación objetivo: GitHub Pages en `https://tecprog-world-store.github.io`.
 
-## Estructura
+## Datos Oficiales
 
-```text
-/
-├── index.html
-├── README.md
-├── assets/
-│   ├── img/
-│   │   ├── logos/
-│   │   ├── banners/
-│   │   ├── cursos/
-│   │   ├── servicios/
-│   │   │   ├── protesis_y_ortesis/
-│   │   │   └── cursos_ingenieros_y_cientificos/
-│   │   ├── productos/
-│   │   └── qr/
-│   ├── icons/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       ├── main.js
-│       └── materiales.js
-├── catalogo/
-│   ├── materiales-educativos.html
-│   └── hp-50g.html
-├── detalle/
-│   └── material.html
-├── servicios/
-│   └── protesis-y-ortesis.html
-├── legal/
-│   ├── libro-reclamaciones.html
-│   ├── terminos-condiciones.html
-│   └── politicas-privacidad.html
-├── temario_cursos/
-│   └── hp_50g/
-└── data/
-    ├── servicios.json
-    ├── productos.json
-    ├── cursos.json
-    └── materiales.json
-```
+- Empresa: Tecprog World E.I.R.L.
+- País: Perú
+- WhatsApp: `+51 952 354 282` (`51952354282` para enlaces `wa.me`)
+- Correo: `grupotecprog@gmail.com`
+- Logo: `assets/img/logos/logo-tecprog-world.png`
+- QR de pago: `assets/img/qr/`
 
-## Editar cursos, servicios y productos
+## Líneas De Negocio
 
-Los catálogos principales se cargan desde:
+Las seis líneas principales se editan en `data/lineas.json`:
+
+- TW Investiga
+- TW Innova para el desarrollo del software y el hardware
+- TW Educa para ingenieros y científicos
+- TW Construye
+- TW Inox
+- TW Prótesis y Órtesis
+
+Cada entrada debe conservar los campos `id`, `nombre`, `nombre_corto`, `descripcion_corta`, `descripcion_larga`, `servicios_principales`, `categorias`, `pagina`, `facebook`, `imagen`, `icono` y `whatsapp_message`.
+
+## Redes Sociales
+
+Enlaces oficiales:
+
+- Web: `https://tecprog-world-store.github.io`
+- Facebook principal: `https://www.facebook.com/tecprogworld`
+- Facebook TW Educa: `https://www.facebook.com/tecprogworld.educa`
+- Facebook TW Innova: `https://www.facebook.com/tecprogworld.innova`
+- Facebook TW Construye: `https://www.facebook.com/tecprogworld.construye`
+- Facebook TW Prótesis y Órtesis / TW Bionic: `https://www.facebook.com/twbionic/`
+- TikTok: `https://www.tiktok.com/@tecprogworld`
+- YouTube: `https://www.youtube.com/@tecprogworld`
+- LinkedIn: `https://www.linkedin.com/company/tecprog-world`
+
+Los enlaces externos deben abrir con `target="_blank"` y `rel="noopener noreferrer"`.
+
+## Navegación
+
+La plataforma usa tres niveles:
+
+- Menú superior: navegación global entre áreas principales.
+- Índice izquierdo: navegación dentro de la página actual.
+- Panel derecho: acciones rápidas, recursos, redes, video destacado y compartición.
+
+Los componentes reutilizables están en:
+
+- `assets/js/navigation.js`: menú global, footer institucional, botón flotante de WhatsApp e índice móvil.
+- `assets/js/right-panel.js`: panel derecho, copiar enlace, compartir página y recursos destacados.
+
+Las páginas internas que requieran índice deben usar `main.with-side-nav` y un `aside.side-nav`.
+
+## Cursos
+
+Los cursos se administran en:
 
 - `data/cursos.json`
-- `data/servicios.json`
-- `data/productos.json`
+- `data/cursos/2026-06.json`
+- Páginas de catálogo: `catalogo/cursos.html` y `catalogo/cursos-junio-2026.html`
 
-Cada elemento puede usar esta estructura:
+Para asociar un compendio, agregar un enlace a `detalle/compendio.html?id=ID_DEL_COMPENDIO` o al PDF final en `assets/pdf/compendios/`.
 
-```json
-{
-  "nombre": "Nombre visible",
-  "linea": "TW Educa",
-  "categoria": "Categoría",
-  "descripcion": "Texto comercial breve",
-  "precio": "Desde S/ 149",
-  "modalidad": "Virtual",
-  "imagen": "assets/img/cursos/archivo.svg",
-  "etiqueta": "Etiqueta",
-  "paypal": "https://www.paypal.com/paypalme/editar-enlace"
-}
-```
+## Compendios PDF
 
-Después de editar un JSON, valida que no falten comas, comillas o corchetes. Un JSON inválido impedirá que se renderice esa sección.
+El catálogo se alimenta desde `data/compendios.json`. Cada registro debe incluir título, curso asociado, descripción, páginas estimadas, PDF, imagen, versión, precio referencial y mensaje WhatsApp.
 
-## Materiales y páginas individuales
-
-El catálogo ampliado vive en:
+Los PDF finales van en:
 
 ```text
-data/materiales.json
+assets/pdf/compendios/
 ```
 
-Este archivo alimenta:
-
-- `detalle/material.html?id=material-id`
-- `servicios/protesis-y-ortesis.html`
-- `catalogo/materiales-educativos.html`
-- `catalogo/hp-50g.html`
-
-Para agregar nuevos materiales, coloca imágenes o archivos en una de estas carpetas y luego agrega o actualiza el registro correspondiente en `data/materiales.json`:
-
-- `assets/img/servicios/protesis_y_ortesis/`
-- `assets/img/servicios/cursos_ingenieros_y_cientificos/`
-- `temario_cursos/hp_50g/`
-
-Cada registro de `data/materiales.json` usa campos como `id`, `titulo`, `tipo`, `linea`, `categoria`, `descripcion_corta`, `descripcion_larga`, `imagen`, `beneficios`, `incluye`, `entregables`, `precio_desde_soles_igv`, `precio_exterior_usd`, `seo_title`, `seo_description`, `keywords` y `whatsapp_message`.
-
-Para abrir una página individual:
-
-```text
-detalle/material.html?id=temario-programacion-hp-50g
-```
-
-Si una imagen no carga, el sitio muestra un placeholder visual elegante. Si el archivo tiene espacios, mayúsculas o caracteres especiales, JavaScript aplica codificación de ruta al mostrarlo; aun así se recomienda normalizar nombres.
-
-## Nombres de archivo recomendados
-
-Usa nombres:
-
-- en minúsculas
-- sin espacios
-- sin tildes
-- con guiones medios
-
-Ejemplos:
-
-```text
-protesis-mano-prototipo-01.png
-curso-qgis-basico.png
-hp50g-programacion-matrices.png
-```
-
-## WhatsApp, PayPal y Yape
-
-El número oficial está configurado en:
-
-- `assets/js/main.js`
-- `assets/js/materiales.js`
-
-```js
-const WHATSAPP_NUMBER = "51952354282";
-```
-
-Los botones de detalle generan este mensaje:
-
-```text
-Hola, deseo información sobre [TÍTULO]. Vengo desde la web de Tecprog World E.I.R.L.
-```
-
-Para PayPal, reemplaza `https://www.paypal.com/paypalme/editar-enlace` por el enlace real de pago.
-
-Para Yape o Plin, coloca el QR real en:
-
-```text
-assets/img/qr/
-```
-
-Si hay varias imágenes de QR, se recomienda usar una sola principal o actualizar `qrPath` en `assets/js/materiales.js`. Actualmente se usa:
-
-```text
-assets/img/qr/QR_Yape.png
-```
-
-No publiques datos bancarios sensibles si no corresponde mostrarlos en la web.
-
-## Editar imágenes
-
-Usa imágenes optimizadas, livianas y con nombres sin espacios. Ejemplos:
-
-- `assets/img/logos/logo-tecprog-world.png`
-- `assets/img/banners/hero-tech.svg`
-- `assets/img/cursos/qgis-cuencas.png`
-- `assets/img/servicios/desarrollo-web.png`
-- `assets/img/productos/plantilla-web.png`
-
-## Páginas legales
-
-Las páginas legales iniciales están en `legal/`:
-
-- `legal/libro-reclamaciones.html`
-- `legal/terminos-condiciones.html`
-- `legal/politicas-privacidad.html`
-
-El Libro de Reclamaciones es una maqueta visual estática. Para operación formal debe conectarse luego a correo, Google Forms, Formspree o un backend validado.
-
-## Probar localmente
-
-Como el sitio carga JSON con `fetch`, pruébalo con un servidor local:
-
-```powershell
-python -m http.server 8080
-```
-
-Luego abre:
-
-```text
-http://localhost:8080
-```
-
-## Publicar en GitHub Pages
-
-1. Sube los archivos al repositorio.
-2. En GitHub, entra a `Settings > Pages`.
-3. Selecciona `Deploy from a branch`.
-4. Elige la rama `main` y la carpeta `/root`.
-5. Guarda los cambios.
-
-## Pendientes recomendados
-
-- Reemplazar los enlaces temporales de Facebook y PayPal por enlaces oficiales.
-- Revisar textos legales con asesoría antes de operación formal.
-- Normalizar nombres de archivos nuevos cuando sea posible.
-- Agregar más fotos, banners o mockups propios cuando estén disponibles.
-- Conectar el Libro de Reclamaciones a un mecanismo real cuando se inicie operación formal.
-
-## Produccion de compendios LaTeX
-
-Los fuentes LaTeX, capitulos, referencias, figuras de trabajo, logs y archivos auxiliares de compendios deben mantenerse fuera del repositorio web en:
+Los fuentes LaTeX deben mantenerse fuera del repositorio web:
 
 ```text
 D:\DiskE01\Organizacionies\E-TW\Produccion_LaTeX_TW
 ```
 
-El repositorio GitHub Pages debe mantenerse liviano. No subir fuentes LaTeX pesadas, bibliotecas completas, libros, papers protegidos, imagenes originales muy pesadas ni archivos auxiliares de compilacion. Solo subir PDF finales optimizados, imagenes web comprimidas, archivos JSON, HTML, CSS y JS.
+Compilar cada proyecto LaTeX fuera del repositorio y copiar solo el PDF final optimizado a `assets/pdf/compendios/`.
 
-Compendios publicados:
+## Imágenes
 
-- `assets/pdf/compendios/hp-50g-programacion-ingenieria.pdf`
-- `assets/pdf/compendios/qgis-basico-ingenieria-gestion-territorial.pdf`
+- PNG: logos y QR.
+- SVG: iconos y gráficos livianos.
+- WebP: tarjetas, banners y miniaturas.
+- JPG: fotos cuando no exista WebP.
 
-Paginas relacionadas:
-
-- `catalogo/compendios.html`
-- `detalle/compendio.html?id=hp-50g-programacion-ingenieria`
-- `detalle/compendio.html?id=qgis-basico-ingenieria-gestion-territorial`
-- `data/compendios.json`
-
-Para revisar el peso de carpetas publicas:
-
-```bat
-scripts\revisar_peso_repo.bat
-```
-
-## Optimizacion de imagenes web
-
-Formatos recomendados:
-
-- PNG: logos, QR o graficos con transparencia.
-- JPG: fotos.
-- WEBP: banners, tarjetas, miniaturas y web.
-- SVG: iconos simples.
-
-El flujo externo de conversion WebP esta en:
+El banner institucional principal está en:
 
 ```text
-D:\DiskE01\Organizacionies\E-TW\Produccion_LaTeX_TW\scripts\optimizar_imagenes_web.bat
+assets/img/banner_horizontal_tw/figuraHorizontal01.png
+assets/img/banner_horizontal_tw/figuraHorizontal01.webp
 ```
 
-Si Pillow no esta instalado:
+Para convertir imágenes sin borrar originales:
 
 ```bat
-pip install pillow
+scripts\optimizar_imagenes_web.bat
 ```
+
+El script omite `assets/img/qr/` y `assets/img/logos/` para proteger legibilidad y transparencias.
+
+Si Pillow no está instalado:
+
+```bat
+python -m pip install pillow
+```
+
+## QR De Pago
+
+Usar las clases:
+
+- `payment-qr-card`
+- `payment-qr-frame`
+- `payment-qr-image`
+
+El QR debe mantenerse cuadrado, centrado, grande y con `object-fit: contain`. Debajo debe mostrarse “Pago nacional por QR” y la nota de confirmación antes de operar.
+
+## Footer Institucional
+
+El footer se renderiza desde `assets/js/navigation.js` e incluye identidad, RUC, estado, contacto, dirección fiscal, redes, legales y mapa/enlace de Google Maps.
+
+## UTF-8
+
+Todos los HTML deben incluir:
+
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+Guardar archivos como UTF-8. Si aparecen textos como `razón`, `país` o `teléfono`, corregirlos antes de publicar.
+
+Validación rápida:
+
+```powershell
+rg -n "patrones_de_codificacion_rota" -g "*.html" -g "*.css" -g "*.js" -g "*.json" -g "*.md"
+```
+
+## Publicación En GitHub Pages
+
+1. Confirmar que los JSON sean válidos.
+2. Revisar rutas relativas en páginas dentro de subcarpetas.
+3. Verificar que `index.html` y las páginas internas carguen CSS, JS, imágenes y PDF.
+4. Confirmar que no existan textos de prueba visibles.
+5. Subir cambios al repositorio publicado con GitHub Pages.
