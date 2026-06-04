@@ -146,7 +146,7 @@ assets/img/qr/
 Si hay varias imágenes de QR, se recomienda usar una sola principal o actualizar `qrPath` en `assets/js/materiales.js`. Actualmente se usa:
 
 ```text
-assets/img/qr/QR_Yape.jpeg
+assets/img/qr/QR_Yape.png
 ```
 
 No publiques datos bancarios sensibles si no corresponde mostrarlos en la web.

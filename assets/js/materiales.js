@@ -1,7 +1,7 @@
 const TEC_SITE = {
   whatsapp: "51952354282",
   email: "grupotecprog@gmail.com",
-  qrPath: "assets/img/qr/QR_Yape.jpeg",
+  qrPath: "assets/img/qr/QR_Yape.png",
   paypalRequestUrl: "https://www.paypal.com/paypalme/editar-enlace"
 };
 
