@@ -7,6 +7,8 @@ const TW_OFFICIAL = {
   maps: "https://www.google.com/maps/search/?api=1&query=Mz.%20C%20Lote.%2043%20Urb.%20Los%20Nisperos%20San%20Martin%20de%20Porres%20Lima%20Peru"
 };
 
+window.TW_OFFICIAL = TW_OFFICIAL;
+
 function twPath(path) {
   const depth = location.pathname.split("/").filter(Boolean).length - 1;
   const prefix = depth > 0 ? "../".repeat(depth) : "";
@@ -118,6 +120,7 @@ function renderInstitutionalFooter() {
         <a href="${twPath("legal/politicas-privacidad.html")}">Politicas de Privacidad</a>
         <a href="${twPath("legal/politicas-pagos-reembolsos.html")}">Politicas de Pagos y Reembolsos</a>
         <a href="${twPath("empresa/mapa-del-sitio.html")}">Mapa del sitio</a>
+        <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
         <a href="${twPath("catalogo/catalogo-mensual.html")}">Catalogo mensual</a>
         <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
         <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>

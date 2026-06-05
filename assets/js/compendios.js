@@ -137,7 +137,7 @@ async function renderCompendioDetail() {
               <div><dt>Material</dt><dd>${item.incluido_en_curso ? "Incluido en el curso según promoción o alcance" : twEscape(item.precio_material_soles)}</dd></div>
             </dl>
             <div class="catalog-actions">
-              <a class="btn btn-small btn-primary" href="../catálogo/compendios.html">Volver al catálogo</a>
+              <a class="btn btn-small btn-primary" href="../catalogo/compendios.html">Volver al catálogo</a>
               <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Solicitar material completo</a>
             </div>
           </article>

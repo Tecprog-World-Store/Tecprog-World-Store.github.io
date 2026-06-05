@@ -18,11 +18,12 @@ function renderRightPanel() {
       <article class="quick-panel-card">
         <h2>Recursos destacados</h2>
         <div class="quick-link-grid">
+          <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
           <a href="${twPath("catalogo/descargas.html")}">Zona de Descargas</a>
-          <a href="${twPath("catalogo/compendios.html")}">Libros y guias tecnicas</a>
+          <a href="${twPath("lineas/tw-innova.html#opensource")}">Software open-source</a>
+          <a href="${twPath("catalogo/compendios.html")}">Compendios y libros</a>
           <a href="${twPath("catalogo/catalogo-mensual.html")}">Catalogo mensual</a>
           <a href="${twPath("catalogo/cursos-junio-2026.html")}">Cursos vigentes</a>
-          <a href="${twPath("lineas/tw-innova.html#opensource")}">Software open-source</a>
           <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
           <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
           <a href="${twPath("empresa/mapa-del-sitio.html")}">Mapa del sitio</a>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">OpenShot en Linux Mint con FFmpeg</title>
+  <desc id="desc">Portada sintetica para guia de video, OpenShot y FFmpeg.</desc>
+  <rect width="900" height="560" fill="#0b2448"/>
+  <rect x="72" y="92" width="510" height="300" rx="18" fill="#061326" stroke="#17d7ff" stroke-width="5"/>
+  <path d="M286 180v124l112-62z" fill="#f3c45e"/>
+  <rect x="628" y="124" width="172" height="42" rx="10" fill="#ffffff"/>
+  <rect x="628" y="202" width="116" height="42" rx="10" fill="#17d7ff"/>
+  <rect x="628" y="280" width="196" height="42" rx="10" fill="#d5a12f"/>
+  <rect x="112" y="430" width="676" height="12" rx="6" fill="#17d7ff"/>
+  <text x="72" y="490" fill="#ffffff" font-family="Arial, sans-serif" font-size="44" font-weight="700">OpenShot + FFmpeg</text>
+  <text x="72" y="532" fill="#f3c45e" font-family="Arial, sans-serif" font-size="26" font-weight="700">Linux Mint · exportacion · render</text>
+</svg>

@@ -119,7 +119,7 @@ Usar las clases:
 - `payment-qr-frame`
 - `payment-qr-image`
 
-El QR debe mantenerse cuadrado, centrado, grande y con `object-fit: contain`. Debajo debe mostrarse “Pago nacional por QR” y la nota de confirmación antes de operar.
+El QR debe mantenerse cuadrado, centrado, grande y con `object-fit: contain`. Debajo debe mostrarse "Pago nacional por QR" y la nota de confirmación antes de operar.
 
 ## Footer Institucional
 
@@ -174,3 +174,71 @@ Notas de calculo:
 - Internacional: no asumir IGV 18%.
 - PayPal 5.40% + USD 0.30 es referencial y debe verificarse porque las tarifas pueden cambiar.
 - No inventar comisiones bancarias; dejar campos configurables y verificar tarifario BCP vigente si aplica.
+
+## Guias Tecnicas PDF
+
+Las guias tecnicas publicas se administran con:
+
+- `data/guias.json`
+- `catalogo/guias.html`
+- `detalle/guia.html?id=ID_DE_LA_GUIA`
+- `assets/pdf/guias/`
+- `assets/img/guias/`
+
+Para publicar una nueva guia PDF:
+
+1. Compilar el documento fuente fuera del repositorio web, en `D:\DiskE01\Organizacionies\E-TW\Produccion_LaTeX_TW`.
+2. Copiar solo el PDF final optimizado a `assets/pdf/guias/`.
+3. Usar nombre en minusculas, sin espacios y sin tildes.
+4. Crear o actualizar una portada liviana en `assets/img/guias/`.
+5. Agregar el registro completo en `data/guias.json`.
+6. Validar el detalle con `detalle/guia.html?id=ID_DE_LA_GUIA`.
+
+## Actualizar `data/guias.json`
+
+Cada guia debe incluir `id`, `titulo`, `linea`, `categoria`, `descripcion_corta`, `descripcion_larga`, `archivo_pdf`, `imagen_portada`, `fecha`, `version`, `paginas`, `tipo`, `nivel`, `software_relacionado`, `sistema_operativo`, `precio`, `estado`, `keywords` y `whatsapp_message`.
+
+Validar antes de publicar:
+
+```powershell
+python -m json.tool data\guias.json > $null
+```
+
+## Revisar UTF-8
+
+Ejecutar:
+
+```bat
+scripts\revisar_utf8.bat
+```
+
+El script revisa HTML, CSS, JS, JSON, MD, TEX y BIB. Por defecto solo reporta patrones prohibidos. Para correcciones conocidas:
+
+```bat
+python scripts\revisar_utf8.py --fix
+```
+
+## Evitar Auxiliares LaTeX
+
+El `.gitignore` bloquea auxiliares LaTeX como `.aux`, `.log`, `.out`, `.toc`, `.synctex.gz`, `.fls`, `.fdb_latexmk`, `.bbl`, `.bcf`, `.blg`, `.run.xml` y `.xdv`.
+
+Los PDF finales dentro de `assets/pdf/` no estan bloqueados.
+
+## Revisar Peso Del Repositorio
+
+Antes de subir muchos PDF o imagenes, revisar el peso de `assets/pdf/` y optimizar archivos pesados cuando sea posible. No publicar libros ni papers completos con copyright.
+
+## Validar Visor PDF
+
+Abrir:
+
+```text
+catalogo/guias.html
+detalle/guia.html?id=appimage-launcher-creator
+```
+
+Confirmar que el iframe PDF carga y que el enlace de fallback permite descargar el documento.
+
+## Panel Lateral Derecho
+
+Las paginas con `main.with-side-nav` reciben el panel lateral derecho desde `assets/js/right-panel.js`. El panel forma parte del grid principal, usa `position: sticky`, respeta la altura del header y pasa debajo del contenido en pantallas pequenas.
