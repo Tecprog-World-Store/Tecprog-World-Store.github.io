@@ -242,3 +242,93 @@ Confirmar que el iframe PDF carga y que el enlace de fallback permite descargar 
 ## Panel Lateral Derecho
 
 Las paginas con `main.with-side-nav` reciben el panel lateral derecho desde `assets/js/right-panel.js`. El panel forma parte del grid principal, usa `position: sticky`, respeta la altura del header y pasa debajo del contenido en pantallas pequenas.
+
+## Catalogo General TW Educa
+
+El insumo base esta en:
+
+```text
+data/fuentes/catalogo_base_cursos_tw_educa.txt
+```
+
+El archivo usa filas delimitadas por pipes con esta estructura:
+
+```text
+id | linea | categoria | curso | fuente_base | modalidad | horas_certificables | duracion_referencial | precio_peru_igv_soles | precio_internacional_usd | nivel | prioridad_web | descripcion_corta
+```
+
+Para regenerar el JSON:
+
+```bat
+python scripts\generar_catalogo_general_tw_educa.py
+```
+
+Salida:
+
+```text
+data/catalogo-general-cursos.json
+```
+
+La pagina web principal del catalogo es:
+
+```text
+catalogo/catalogo-general-tw-educa.html
+```
+
+El detalle dinamico soporta:
+
+```text
+detalle/curso.html?id=qgis-basico&catalogo=general
+```
+
+## Catalogo LaTeX TW Educa
+
+Los fuentes LaTeX del catalogo mensual se generan fuera del repositorio web:
+
+```text
+D:\DiskE01\Organizacionies\E-TW\Produccion_LaTeX_TW\catalogos_mensuales\2026-06
+```
+
+Para regenerar y compilar:
+
+```bat
+python scripts\generar_latex_catalogo_general_tw_educa.py
+```
+
+El PDF final publico se copia a:
+
+```text
+assets/pdf/catalogos/catalogo-general-tw-educa-2026-06.pdf
+```
+
+En Texmaker, abrir `main.tex` desde la carpeta externa y compilar con pdfLaTeX. No copiar auxiliares `.aux`, `.log`, `.out`, `.toc`, `.fls`, `.fdb_latexmk` ni carpetas temporales al repositorio web.
+
+## Validar Panel Sticky
+
+Abrir una pagina con `main.with-side-nav`, por ejemplo:
+
+```text
+lineas/tw-educa.html
+catalogo/catalogo-general-tw-educa.html
+```
+
+Confirmar que `assets/js/right-panel.js` cree:
+
+```html
+<div class="page-shell page-shell-three-columns">
+  <aside class="side-nav"></aside>
+  <div class="page-main"></div>
+  <aside class="side-panel-right"></aside>
+</div>
+```
+
+El panel derecho debe estar visible desde la parte superior del contenido, usar `position: sticky` en escritorio y pasar debajo del contenido en pantallas pequenas.
+
+## Publicar Catalogo General En GitHub Pages
+
+1. Actualizar `data/fuentes/catalogo_base_cursos_tw_educa.txt`.
+2. Ejecutar `python scripts\generar_catalogo_general_tw_educa.py`.
+3. Ejecutar `python scripts\generar_latex_catalogo_general_tw_educa.py`.
+4. Ejecutar `scripts\revisar_utf8.bat`.
+5. Validar `catalogo/catalogo-general-tw-educa.html`, `detalle/curso.html?id=qgis-basico&catalogo=general` y `catalogo/catalogo-general-tw-educa-pdf.html`.
+6. Publicar en GitHub Pages sin subir auxiliares LaTeX.

@@ -51,7 +51,7 @@ function setupMobileSideIndex() {
   document.querySelectorAll(".with-side-nav > .side-nav").forEach((nav) => {
     if (nav.previousElementSibling?.classList.contains("side-index-toggle")) return;
     const button = document.createElement("button");
-    button.className = "side-index-toggle";
+    button.className = "side-index-toggle side-nav-toggle";
     button.type = "button";
     button.textContent = "Indice de esta pagina";
     button.addEventListener("click", () => nav.classList.toggle("is-open"));

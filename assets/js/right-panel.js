@@ -1,5 +1,33 @@
+function ensureThreeColumnShell(main) {
+  let shell = main.querySelector(":scope > .page-shell-three-columns");
+  if (shell) return shell;
+
+  const toggle = main.querySelector(":scope > .side-index-toggle, :scope > .side-nav-toggle");
+  const sideNav = main.querySelector(":scope > .side-nav");
+  const panel = main.querySelector(":scope > .side-panel-right");
+  const pageMain = document.createElement("div");
+  pageMain.className = "page-main";
+  shell = document.createElement("div");
+  shell.className = "page-shell page-shell-three-columns";
+
+  const children = [...main.children];
+  children.forEach((child) => {
+    if (child === toggle) return;
+    if (child === sideNav || child === panel) return;
+    pageMain.appendChild(child);
+  });
+
+  if (toggle) toggle.after(shell);
+  else main.appendChild(shell);
+  if (sideNav) shell.appendChild(sideNav);
+  shell.appendChild(pageMain);
+  if (panel) shell.appendChild(panel);
+  return shell;
+}
+
 function renderRightPanel() {
-  document.querySelectorAll(".with-side-nav").forEach((shell) => {
+  document.querySelectorAll(".with-side-nav").forEach((main) => {
+    const shell = ensureThreeColumnShell(main);
     if (shell.querySelector(".side-panel-right")) return;
     const panel = document.createElement("aside");
     panel.className = "side-panel-right";
@@ -18,6 +46,8 @@ function renderRightPanel() {
       <article class="quick-panel-card">
         <h2>Recursos destacados</h2>
         <div class="quick-link-grid">
+          <a href="${twPath("catalogo/catalogo-general-tw-educa.html")}">Catalogo general TW Educa</a>
+          <a href="${twPath("catalogo/catalogo-general-tw-educa-pdf.html")}">Catalogo mensual PDF</a>
           <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
           <a href="${twPath("catalogo/descargas.html")}">Zona de Descargas</a>
           <a href="${twPath("lineas/tw-innova.html#opensource")}">Software open-source</a>
