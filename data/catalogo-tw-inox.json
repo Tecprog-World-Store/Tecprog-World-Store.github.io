@@ -1,0 +1,492 @@
+[
+  {
+    "id": "tw-inox-barandas",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Arquitectura metálica",
+    "oferta": "Barandas y pasamanos en acero inoxidable",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Viviendas",
+      "edificios",
+      "locales",
+      "clínicas",
+      "colegios"
+    ],
+    "entregables": [
+      "visita técnica",
+      "diseño",
+      "fabricación",
+      "instalación coordinada"
+    ],
+    "precio_desde_soles_igv": 350,
+    "precio_internacional_usd": 120,
+    "precio_soles_texto": "Desde S/ 350",
+    "precio_usd_texto": "Desde USD 120",
+    "prioridad": "alta",
+    "descripcion_corta": "Diseño y coordinación de barandas, pasamanos y elementos inoxidables para seguridad, durabilidad y acabado arquitectónico.",
+    "descripcion_larga": "Barandas y pasamanos en acero inoxidable es una oferta de TW Inox orientada a Viviendas, edificios, locales, clínicas, colegios. Se entrega mediante un alcance coordinado que puede incluir visita técnica, diseño, fabricación, instalación coordinada. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-barandas&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Barandas y pasamanos en acero inoxidable de TW Inox."
+  },
+  {
+    "id": "tw-inox-mesas-trabajo",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Mobiliario inox",
+    "oferta": "Mesas de trabajo en acero inoxidable",
+    "tipo": "Servicio/Producto",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Restaurantes",
+      "laboratorios",
+      "panaderías",
+      "clínicas",
+      "talleres"
+    ],
+    "entregables": [
+      "diseño",
+      "fabricación",
+      "entrega",
+      "instalación opcional"
+    ],
+    "precio_desde_soles_igv": 600,
+    "precio_internacional_usd": 190,
+    "precio_soles_texto": "Desde S/ 600",
+    "precio_usd_texto": "Desde USD 190",
+    "prioridad": "alta",
+    "descripcion_corta": "Mesas inoxidables para trabajo, preparación, laboratorio o producción ligera, con dimensiones a pedido.",
+    "descripcion_larga": "Mesas de trabajo en acero inoxidable es una oferta de TW Inox orientada a Restaurantes, laboratorios, panaderías, clínicas, talleres. Se entrega mediante un alcance coordinado que puede incluir diseño, fabricación, entrega, instalación opcional. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-mesas-trabajo&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Mesas de trabajo en acero inoxidable de TW Inox."
+  },
+  {
+    "id": "tw-inox-racks-estanterias",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Almacenamiento",
+    "oferta": "Racks, repisas y estanterías inoxidables",
+    "tipo": "Servicio/Producto",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Cocinas",
+      "laboratorios",
+      "almacenes",
+      "comercios"
+    ],
+    "entregables": [
+      "diseño",
+      "fabricación",
+      "instalación"
+    ],
+    "precio_desde_soles_igv": 480,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 480",
+    "precio_usd_texto": "Desde USD 150",
+    "prioridad": "alta",
+    "descripcion_corta": "Estanterías y repisas resistentes para ambientes donde se requiere limpieza, orden y durabilidad.",
+    "descripcion_larga": "Racks, repisas y estanterías inoxidables es una oferta de TW Inox orientada a Cocinas, laboratorios, almacenes, comercios. Se entrega mediante un alcance coordinado que puede incluir diseño, fabricación, instalación. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-racks-estanterias&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Racks, repisas y estanterías inoxidables de TW Inox."
+  },
+  {
+    "id": "tw-inox-campanas-extraccion",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Cocina e industria",
+    "oferta": "Campanas de extracción y ductos inoxidables",
+    "tipo": "Servicio",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Restaurantes",
+      "dark kitchens",
+      "panaderías",
+      "negocios gastronómicos"
+    ],
+    "entregables": [
+      "levantamiento",
+      "diseño",
+      "fabricación coordinada",
+      "instalación"
+    ],
+    "precio_desde_soles_igv": 1200,
+    "precio_internacional_usd": 360,
+    "precio_soles_texto": "Desde S/ 1200",
+    "precio_usd_texto": "Desde USD 360",
+    "prioridad": "alta",
+    "descripcion_corta": "Campanas, ductos y soluciones inox para ventilación de cocinas, sujeto a evaluación técnica del local.",
+    "descripcion_larga": "Campanas de extracción y ductos inoxidables es una oferta de TW Inox orientada a Restaurantes, dark kitchens, panaderías, negocios gastronómicos. Se entrega mediante un alcance coordinado que puede incluir levantamiento, diseño, fabricación coordinada, instalación. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-campanas-extraccion&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Campanas de extracción y ductos inoxidables de TW Inox."
+  },
+  {
+    "id": "tw-inox-lavaderos",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Sanitarios y cocina",
+    "oferta": "Lavaderos y módulos inoxidables a medida",
+    "tipo": "Servicio/Producto",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Restaurantes",
+      "consultorios",
+      "laboratorios",
+      "hogares"
+    ],
+    "entregables": [
+      "diseño",
+      "fabricación",
+      "accesorios",
+      "instalación"
+    ],
+    "precio_desde_soles_igv": 650,
+    "precio_internacional_usd": 200,
+    "precio_soles_texto": "Desde S/ 650",
+    "precio_usd_texto": "Desde USD 200",
+    "prioridad": "alta",
+    "descripcion_corta": "Lavaderos, pozas y módulos de lavado en acero inoxidable para higiene, durabilidad y mantenimiento simple.",
+    "descripcion_larga": "Lavaderos y módulos inoxidables a medida es una oferta de TW Inox orientada a Restaurantes, consultorios, laboratorios, hogares. Se entrega mediante un alcance coordinado que puede incluir diseño, fabricación, accesorios, instalación. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-lavaderos&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Lavaderos y módulos inoxidables a medida de TW Inox."
+  },
+  {
+    "id": "tw-inox-carros-bandejas",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Equipamiento operativo",
+    "oferta": "Carros, bandejas y soportes inoxidables",
+    "tipo": "Producto/Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Clínicas",
+      "restaurantes",
+      "talleres",
+      "laboratorios"
+    ],
+    "entregables": [
+      "diseño",
+      "fabricación",
+      "ruedas/accesorios",
+      "entrega"
+    ],
+    "precio_desde_soles_igv": 450,
+    "precio_internacional_usd": 140,
+    "precio_soles_texto": "Desde S/ 450",
+    "precio_usd_texto": "Desde USD 140",
+    "prioridad": "media",
+    "descripcion_corta": "Carros auxiliares, bandejas y soportes para operación, traslado o almacenamiento.",
+    "descripcion_larga": "Carros, bandejas y soportes inoxidables es una oferta de TW Inox orientada a Clínicas, restaurantes, talleres, laboratorios. Se entrega mediante un alcance coordinado que puede incluir diseño, fabricación, ruedas/accesorios, entrega. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-carros-bandejas&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Carros, bandejas y soportes inoxidables de TW Inox."
+  },
+  {
+    "id": "tw-inox-protecciones",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Seguridad y protección",
+    "oferta": "Rejas, protecciones y cerramientos metálicos",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Viviendas",
+      "negocios",
+      "colegios",
+      "almacenes"
+    ],
+    "entregables": [
+      "diseño",
+      "fabricación",
+      "instalación"
+    ],
+    "precio_desde_soles_igv": 450,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 450",
+    "precio_usd_texto": "Desde USD 150",
+    "prioridad": "media",
+    "descripcion_corta": "Soluciones metálicas para protección, cerramiento y seguridad con acero inoxidable o acero pintado según presupuesto.",
+    "descripcion_larga": "Rejas, protecciones y cerramientos metálicos es una oferta de TW Inox orientada a Viviendas, negocios, colegios, almacenes. Se entrega mediante un alcance coordinado que puede incluir diseño, fabricación, instalación. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-protecciones&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Rejas, protecciones y cerramientos metálicos de TW Inox."
+  },
+  {
+    "id": "tw-inox-estructuras-ligeras",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Metalmecánica ligera",
+    "oferta": "Estructuras metálicas ligeras",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Negocios",
+      "talleres",
+      "proyectos técnicos",
+      "prototipos"
+    ],
+    "entregables": [
+      "diseño",
+      "planos básicos",
+      "fabricación",
+      "instalación coordinada"
+    ],
+    "precio_desde_soles_igv": 950,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 950",
+    "precio_usd_texto": "Desde USD 280",
+    "prioridad": "alta",
+    "descripcion_corta": "Estructuras ligeras, soportes, bases y armazones para proyectos técnicos o comerciales.",
+    "descripcion_larga": "Estructuras metálicas ligeras es una oferta de TW Inox orientada a Negocios, talleres, proyectos técnicos, prototipos. Se entrega mediante un alcance coordinado que puede incluir diseño, planos básicos, fabricación, instalación coordinada. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-estructuras-ligeras&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Estructuras metálicas ligeras de TW Inox."
+  },
+  {
+    "id": "tw-inox-soldadura-tig",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Soldadura",
+    "oferta": "Soldadura TIG/MIG para piezas inoxidables",
+    "tipo": "Servicio técnico",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Talleres",
+      "negocios",
+      "hogares",
+      "prototipos"
+    ],
+    "entregables": [
+      "diagnóstico",
+      "reparación",
+      "soldadura",
+      "acabado básico"
+    ],
+    "precio_desde_soles_igv": 120,
+    "precio_internacional_usd": 50,
+    "precio_soles_texto": "Desde S/ 120",
+    "precio_usd_texto": "Desde USD 50",
+    "prioridad": "alta",
+    "descripcion_corta": "Servicio de reparación o fabricación de piezas inoxidables con soldadura especializada mediante aliados técnicos.",
+    "descripcion_larga": "Soldadura TIG/MIG para piezas inoxidables es una oferta de TW Inox orientada a Talleres, negocios, hogares, prototipos. Se entrega mediante un alcance coordinado que puede incluir diagnóstico, reparación, soldadura, acabado básico. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-soldadura-tig&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Soldadura TIG/MIG para piezas inoxidables de TW Inox."
+  },
+  {
+    "id": "tw-inox-mantenimiento",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Mantenimiento",
+    "oferta": "Mantenimiento y pulido de acero inoxidable",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Restaurantes",
+      "laboratorios",
+      "hogares",
+      "comercios"
+    ],
+    "entregables": [
+      "limpieza técnica",
+      "pulido",
+      "ajuste",
+      "recomendaciones"
+    ],
+    "precio_desde_soles_igv": 180,
+    "precio_internacional_usd": 65,
+    "precio_soles_texto": "Desde S/ 180",
+    "precio_usd_texto": "Desde USD 65",
+    "prioridad": "media",
+    "descripcion_corta": "Recuperación estética y funcional de superficies inoxidables, piezas y mobiliario metálico.",
+    "descripcion_larga": "Mantenimiento y pulido de acero inoxidable es una oferta de TW Inox orientada a Restaurantes, laboratorios, hogares, comercios. Se entrega mediante un alcance coordinado que puede incluir limpieza técnica, pulido, ajuste, recomendaciones. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-mantenimiento&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Mantenimiento y pulido de acero inoxidable de TW Inox."
+  },
+  {
+    "id": "tw-inox-prototipos",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Prototipado",
+    "oferta": "Prototipos metálicos para ingeniería y hardware",
+    "tipo": "Servicio I+D",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Ingenieros",
+      "makers",
+      "tesistas",
+      "startups"
+    ],
+    "entregables": [
+      "diseño CAD",
+      "fabricación coordinada",
+      "pruebas básicas"
+    ],
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "prioridad": "media",
+    "descripcion_corta": "Desarrollo de carcasas, soportes, bastidores y estructuras para prototipos de hardware e ingeniería.",
+    "descripcion_larga": "Prototipos metálicos para ingeniería y hardware es una oferta de TW Inox orientada a Ingenieros, makers, tesistas, startups. Se entrega mediante un alcance coordinado que puede incluir diseño CAD, fabricación coordinada, pruebas básicas. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-prototipos&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Prototipos metálicos para ingeniería y hardware de TW Inox."
+  },
+  {
+    "id": "tw-inox-equipos-medicos-soportes",
+    "linea_slug": "tw-inox",
+    "linea": "TW Inox",
+    "categoria": "Salud y soporte",
+    "oferta": "Soportes inoxidables para equipos y accesorios médicos no críticos",
+    "tipo": "Servicio",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Consultorios",
+      "laboratorios",
+      "técnicos biomédicos"
+    ],
+    "entregables": [
+      "diseño",
+      "fabricación",
+      "documentación",
+      "validación de uso no crítico"
+    ],
+    "precio_desde_soles_igv": 500,
+    "precio_internacional_usd": 160,
+    "precio_soles_texto": "Desde S/ 500",
+    "precio_usd_texto": "Desde USD 160",
+    "prioridad": "media",
+    "descripcion_corta": "Soportes, carros y accesorios no críticos para organización de equipos, con criterios de limpieza y durabilidad.",
+    "descripcion_larga": "Soportes inoxidables para equipos y accesorios médicos no críticos es una oferta de TW Inox orientada a Consultorios, laboratorios, técnicos biomédicos. Se entrega mediante un alcance coordinado que puede incluir diseño, fabricación, documentación, validación de uso no crítico. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios coordinados con tecnicos, soldadores o talleres competentes segun alcance, ubicacion y requerimientos del proyecto.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-inox-equipos-medicos-soportes&linea=tw-inox",
+    "whatsapp_message": "Hola, deseo cotizar Soportes inoxidables para equipos y accesorios médicos no críticos de TW Inox."
+  }
+]

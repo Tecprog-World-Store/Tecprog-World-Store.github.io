@@ -1,0 +1,622 @@
+[
+  {
+    "id": "tw-salud-protesis-prototipo",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Prótesis y tecnología de asistencia",
+    "oferta": "Diseño y prototipado de prótesis no clínicas",
+    "tipo": "Servicio I+D",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Personas con requerimientos de apoyo",
+      "terapeutas",
+      "estudiantes",
+      "instituciones",
+      "proyectos sociales"
+    ],
+    "entregables": [
+      "entrevista técnica",
+      "requerimientos",
+      "modelo CAD",
+      "prototipo no clínico",
+      "informe de iteración"
+    ],
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 260,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 260",
+    "prioridad": "alta",
+    "descripcion_corta": "Diseño y prototipado de componentes de apoyo funcional con enfoque de ingeniería, sujeto a evaluación profesional y validación clínica cuando corresponda.",
+    "descripcion_larga": "Diseño y prototipado de prótesis no clínicas es una oferta de TW Salud orientada a Personas con requerimientos de apoyo, terapeutas, estudiantes, instituciones, proyectos sociales. Se entrega mediante un alcance coordinado que puede incluir entrevista técnica, requerimientos, modelo CAD, prototipo no clínico, informe de iteración. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-protesis-prototipo&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Diseño y prototipado de prótesis no clínicas de TW Salud."
+  },
+  {
+    "id": "tw-salud-ortesis-prototipo",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Órtesis y soporte funcional",
+    "oferta": "Diseño y prototipado de órtesis no clínicas",
+    "tipo": "Servicio I+D",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Pacientes referidos",
+      "terapeutas",
+      "estudiantes",
+      "laboratorios",
+      "proyectos sociales"
+    ],
+    "entregables": [
+      "toma de requerimientos",
+      "diseño CAD",
+      "impresión 3D o fabricación tercerizada",
+      "informe técnico"
+    ],
+    "precio_desde_soles_igv": 750,
+    "precio_internacional_usd": 220,
+    "precio_soles_texto": "Desde S/ 750",
+    "precio_usd_texto": "Desde USD 220",
+    "prioridad": "alta",
+    "descripcion_corta": "Desarrollo de prototipos de órtesis y soportes personalizados con base en biomecánica, ergonomía y manufactura digital.",
+    "descripcion_larga": "Diseño y prototipado de órtesis no clínicas es una oferta de TW Salud orientada a Pacientes referidos, terapeutas, estudiantes, laboratorios, proyectos sociales. Se entrega mediante un alcance coordinado que puede incluir toma de requerimientos, diseño CAD, impresión 3D o fabricación tercerizada, informe técnico. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-ortesis-prototipo&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Diseño y prototipado de órtesis no clínicas de TW Salud."
+  },
+  {
+    "id": "tw-salud-cad-3d-biomedico",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Modelado CAD biomédico",
+    "oferta": "Modelado CAD de componentes biomédicos",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Emprendedores",
+      "investigadores",
+      "estudiantes",
+      "diseñadores",
+      "clínicas aliadas"
+    ],
+    "entregables": [
+      "archivo CAD",
+      "planos básicos",
+      "render",
+      "ficha técnica"
+    ],
+    "precio_desde_soles_igv": 250,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 250",
+    "precio_usd_texto": "Desde USD 80",
+    "prioridad": "alta",
+    "descripcion_corta": "Modelado de piezas, carcasas, soportes y adaptadores para proyectos biomédicos, prototipos y tecnología de asistencia.",
+    "descripcion_larga": "Modelado CAD de componentes biomédicos es una oferta de TW Salud orientada a Emprendedores, investigadores, estudiantes, diseñadores, clínicas aliadas. Se entrega mediante un alcance coordinado que puede incluir archivo CAD, planos básicos, render, ficha técnica. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-cad-3d-biomedico&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Modelado CAD de componentes biomédicos de TW Salud."
+  },
+  {
+    "id": "tw-salud-impresion-3d-asistencia",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Manufactura digital",
+    "oferta": "Impresión 3D para prototipos de accesibilidad",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Proyectos inclusivos",
+      "estudiantes",
+      "investigadores",
+      "usuarios finales con acompañamiento profesional"
+    ],
+    "entregables": [
+      "preparación de archivo",
+      "impresión",
+      "acabado básico",
+      "recomendaciones"
+    ],
+    "precio_desde_soles_igv": 120,
+    "precio_internacional_usd": 45,
+    "precio_soles_texto": "Desde S/ 120",
+    "precio_usd_texto": "Desde USD 45",
+    "prioridad": "media",
+    "descripcion_corta": "Fabricación de prototipos y piezas de prueba para soluciones de accesibilidad, educación e investigación.",
+    "descripcion_larga": "Impresión 3D para prototipos de accesibilidad es una oferta de TW Salud orientada a Proyectos inclusivos, estudiantes, investigadores, usuarios finales con acompañamiento profesional. Se entrega mediante un alcance coordinado que puede incluir preparación de archivo, impresión, acabado básico, recomendaciones. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-impresion-3d-asistencia&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Impresión 3D para prototipos de accesibilidad de TW Salud."
+  },
+  {
+    "id": "tw-salud-mantenimiento-equipos-medicos",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Mantenimiento de equipos médicos",
+    "oferta": "Diagnóstico y mantenimiento técnico de equipos médicos no invasivos",
+    "tipo": "Servicio técnico",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Consultorios",
+      "instituciones",
+      "técnicos",
+      "emprendedores biomédicos"
+    ],
+    "entregables": [
+      "inspección visual",
+      "diagnóstico técnico",
+      "limpieza externa",
+      "reporte de fallas",
+      "recomendación de servicio autorizado"
+    ],
+    "precio_desde_soles_igv": 180,
+    "precio_internacional_usd": 70,
+    "precio_soles_texto": "Desde S/ 180",
+    "precio_usd_texto": "Desde USD 70",
+    "prioridad": "alta",
+    "descripcion_corta": "Servicio técnico de apoyo para equipos médicos, con trazabilidad, gestión de riesgos y derivación a servicio autorizado cuando corresponda.",
+    "descripcion_larga": "Diagnóstico y mantenimiento técnico de equipos médicos no invasivos es una oferta de TW Salud orientada a Consultorios, instituciones, técnicos, emprendedores biomédicos. Se entrega mediante un alcance coordinado que puede incluir inspección visual, diagnóstico técnico, limpieza externa, reporte de fallas, recomendación de servicio autorizado. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-mantenimiento-equipos-medicos&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Diagnóstico y mantenimiento técnico de equipos médicos no invasivos de TW Salud."
+  },
+  {
+    "id": "tw-salud-inventario-biomedico",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Gestión tecnológica hospitalaria",
+    "oferta": "Inventario técnico y plan básico de mantenimiento biomédico",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Consultorios",
+      "centros pequeños",
+      "proyectos de gestión"
+    ],
+    "entregables": [
+      "inventario",
+      "ficha por equipo",
+      "estado",
+      "criticidad",
+      "plan preventivo básico"
+    ],
+    "precio_desde_soles_igv": 450,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 450",
+    "precio_usd_texto": "Desde USD 150",
+    "prioridad": "alta",
+    "descripcion_corta": "Organización del inventario de equipos y planificación de mantenimiento preventivo con enfoque de ingeniería clínica.",
+    "descripcion_larga": "Inventario técnico y plan básico de mantenimiento biomédico es una oferta de TW Salud orientada a Consultorios, centros pequeños, proyectos de gestión. Se entrega mediante un alcance coordinado que puede incluir inventario, ficha por equipo, estado, criticidad, plan preventivo básico. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-inventario-biomedico&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Inventario técnico y plan básico de mantenimiento biomédico de TW Salud."
+  },
+  {
+    "id": "tw-salud-vehiculos-inclusivos",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Vehículos inclusivos",
+    "oferta": "Adaptación y mantenimiento de vehículos inclusivos",
+    "tipo": "Servicio I+D",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Usuarios",
+      "familias",
+      "instituciones",
+      "talleres aliados"
+    ],
+    "entregables": [
+      "evaluación mecánica preliminar",
+      "propuesta de adaptación",
+      "diseño de soporte",
+      "coordinación con taller"
+    ],
+    "precio_desde_soles_igv": 1200,
+    "precio_internacional_usd": 350,
+    "precio_soles_texto": "Desde S/ 1200",
+    "precio_usd_texto": "Desde USD 350",
+    "prioridad": "alta",
+    "descripcion_corta": "Diseño y coordinación técnica de adaptaciones para movilidad inclusiva, sujeto a normativa de transporte y validación de seguridad.",
+    "descripcion_larga": "Adaptación y mantenimiento de vehículos inclusivos es una oferta de TW Salud orientada a Usuarios, familias, instituciones, talleres aliados. Se entrega mediante un alcance coordinado que puede incluir evaluación mecánica preliminar, propuesta de adaptación, diseño de soporte, coordinación con taller. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-vehiculos-inclusivos&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Adaptación y mantenimiento de vehículos inclusivos de TW Salud."
+  },
+  {
+    "id": "tw-salud-silla-ruedas-mantenimiento",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Movilidad asistida",
+    "oferta": "Mantenimiento de sillas de ruedas y ayudas mecánicas",
+    "tipo": "Servicio técnico",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Usuarios",
+      "familias",
+      "instituciones",
+      "adultos mayores"
+    ],
+    "entregables": [
+      "diagnóstico",
+      "ajuste mecánico",
+      "limpieza",
+      "cambio de partes disponibles",
+      "recomendaciones"
+    ],
+    "precio_desde_soles_igv": 120,
+    "precio_internacional_usd": 45,
+    "precio_soles_texto": "Desde S/ 120",
+    "precio_usd_texto": "Desde USD 45",
+    "prioridad": "alta",
+    "descripcion_corta": "Servicio de mantenimiento mecánico y ajuste básico para ayudas de movilidad, priorizando seguridad, trazabilidad y comodidad.",
+    "descripcion_larga": "Mantenimiento de sillas de ruedas y ayudas mecánicas es una oferta de TW Salud orientada a Usuarios, familias, instituciones, adultos mayores. Se entrega mediante un alcance coordinado que puede incluir diagnóstico, ajuste mecánico, limpieza, cambio de partes disponibles, recomendaciones. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-silla-ruedas-mantenimiento&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Mantenimiento de sillas de ruedas y ayudas mecánicas de TW Salud."
+  },
+  {
+    "id": "tw-salud-eeg-bci-intro",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "EEG y BCI",
+    "oferta": "Programación introductoria con EEG y Brain Computer Interface",
+    "tipo": "Curso/Proyecto",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Estudiantes",
+      "ingenieros",
+      "investigadores",
+      "makers",
+      "terapeutas tecnológicos"
+    ],
+    "entregables": [
+      "temario",
+      "dataset de práctica",
+      "scripts Python",
+      "demo conceptual"
+    ],
+    "precio_desde_soles_igv": 249,
+    "precio_internacional_usd": 79,
+    "precio_soles_texto": "Desde S/ 249",
+    "precio_usd_texto": "Desde USD 79",
+    "prioridad": "alta",
+    "descripcion_corta": "Curso-laboratorio para explorar señales EEG, paradigmas BCI no invasivos y prototipos de interacción accesible.",
+    "descripcion_larga": "Programación introductoria con EEG y Brain Computer Interface es una oferta de TW Salud orientada a Estudiantes, ingenieros, investigadores, makers, terapeutas tecnológicos. Se entrega mediante un alcance coordinado que puede incluir temario, dataset de práctica, scripts Python, demo conceptual. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-eeg-bci-intro&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Programación introductoria con EEG y Brain Computer Interface de TW Salud."
+  },
+  {
+    "id": "tw-salud-bci-accesibilidad",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Accesibilidad digital",
+    "oferta": "Prototipos BCI para accesibilidad y control asistido",
+    "tipo": "Servicio I+D",
+    "madurez": "idea",
+    "publico_objetivo": [
+      "Personas con discapacidad",
+      "laboratorios",
+      "universidades",
+      "centros de investigación"
+    ],
+    "entregables": [
+      "propuesta técnica",
+      "prototipo conceptual",
+      "demo con datos",
+      "informe de viabilidad"
+    ],
+    "precio_desde_soles_igv": 1800,
+    "precio_internacional_usd": 520,
+    "precio_soles_texto": "Desde S/ 1800",
+    "precio_usd_texto": "Desde USD 520",
+    "prioridad": "alta",
+    "descripcion_corta": "Desarrollo experimental de prototipos de control asistido mediante señales EEG, interfaces accesibles y aprendizaje automático.",
+    "descripcion_larga": "Prototipos BCI para accesibilidad y control asistido es una oferta de TW Salud orientada a Personas con discapacidad, laboratorios, universidades, centros de investigación. Se entrega mediante un alcance coordinado que puede incluir propuesta técnica, prototipo conceptual, demo con datos, informe de viabilidad. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-bci-accesibilidad&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Prototipos BCI para accesibilidad y control asistido de TW Salud."
+  },
+  {
+    "id": "tw-salud-comunicador-accesible",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Software de accesibilidad",
+    "oferta": "Comunicadores accesibles y tableros digitales personalizados",
+    "tipo": "Software/Servicio",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Personas con limitación motora",
+      "familias",
+      "terapeutas",
+      "instituciones educativas"
+    ],
+    "entregables": [
+      "interfaz web/app",
+      "configuración de frases",
+      "entrenamiento de uso",
+      "manual"
+    ],
+    "precio_desde_soles_igv": 650,
+    "precio_internacional_usd": 190,
+    "precio_soles_texto": "Desde S/ 650",
+    "precio_usd_texto": "Desde USD 190",
+    "prioridad": "media",
+    "descripcion_corta": "Desarrollo de interfaces de comunicación alternativa y aumentativa adaptadas a necesidades de accesibilidad.",
+    "descripcion_larga": "Comunicadores accesibles y tableros digitales personalizados es una oferta de TW Salud orientada a Personas con limitación motora, familias, terapeutas, instituciones educativas. Se entrega mediante un alcance coordinado que puede incluir interfaz web/app, configuración de frases, entrenamiento de uso, manual. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-comunicador-accesible&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Comunicadores accesibles y tableros digitales personalizados de TW Salud."
+  },
+  {
+    "id": "tw-salud-dialisis-calidad-vida",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Enfermedad crónica e innovación",
+    "oferta": "Proyectos I+D para apoyo a personas en diálisis",
+    "tipo": "Investigación aplicada",
+    "madurez": "idea",
+    "publico_objetivo": [
+      "Pacientes",
+      "familias",
+      "clínicas aliadas",
+      "investigadores",
+      "instituciones"
+    ],
+    "entregables": [
+      "revisión bibliográfica",
+      "propuesta",
+      "prototipo no invasivo",
+      "dashboard o app de apoyo"
+    ],
+    "precio_desde_soles_igv": 2500,
+    "precio_internacional_usd": 720,
+    "precio_soles_texto": "Desde S/ 2500",
+    "precio_usd_texto": "Desde USD 720",
+    "prioridad": "media",
+    "descripcion_corta": "Línea de investigación aplicada para herramientas no invasivas de educación, seguimiento, accesibilidad y calidad de vida en personas con enfermedad renal.",
+    "descripcion_larga": "Proyectos I+D para apoyo a personas en diálisis es una oferta de TW Salud orientada a Pacientes, familias, clínicas aliadas, investigadores, instituciones. Se entrega mediante un alcance coordinado que puede incluir revisión bibliográfica, propuesta, prototipo no invasivo, dashboard o app de apoyo. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-dialisis-calidad-vida&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Proyectos I+D para apoyo a personas en diálisis de TW Salud."
+  },
+  {
+    "id": "tw-salud-dashboard-paciente",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Salud digital",
+    "oferta": "Dashboard de seguimiento no clínico para hábitos y citas",
+    "tipo": "Software/Servicio",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Pacientes crónicos",
+      "cuidadores",
+      "clínicas aliadas"
+    ],
+    "entregables": [
+      "dashboard",
+      "formularios",
+      "recordatorios",
+      "reportes no diagnósticos"
+    ],
+    "precio_desde_soles_igv": 950,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 950",
+    "precio_usd_texto": "Desde USD 280",
+    "prioridad": "media",
+    "descripcion_corta": "Sistema informativo no diagnóstico para organizar hábitos, citas, registros personales y comunicación con cuidadores.",
+    "descripcion_larga": "Dashboard de seguimiento no clínico para hábitos y citas es una oferta de TW Salud orientada a Pacientes crónicos, cuidadores, clínicas aliadas. Se entrega mediante un alcance coordinado que puede incluir dashboard, formularios, recordatorios, reportes no diagnósticos. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-dashboard-paciente&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Dashboard de seguimiento no clínico para hábitos y citas de TW Salud."
+  },
+  {
+    "id": "tw-salud-instrumentacion-basica",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Instrumentación biomédica",
+    "oferta": "Prototipos de instrumentación biomédica educativa",
+    "tipo": "Curso/Proyecto",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Estudiantes de electrónica",
+      "biomédica",
+      "sistemas y mecánica"
+    ],
+    "entregables": [
+      "circuito educativo",
+      "código",
+      "informe",
+      "guía de seguridad"
+    ],
+    "precio_desde_soles_igv": 280,
+    "precio_internacional_usd": 90,
+    "precio_soles_texto": "Desde S/ 280",
+    "precio_usd_texto": "Desde USD 90",
+    "prioridad": "media",
+    "descripcion_corta": "Taller de sensores, adquisición de señales y prototipos educativos para formación en instrumentación biomédica.",
+    "descripcion_larga": "Prototipos de instrumentación biomédica educativa es una oferta de TW Salud orientada a Estudiantes de electrónica, biomédica, sistemas y mecánica. Se entrega mediante un alcance coordinado que puede incluir circuito educativo, código, informe, guía de seguridad. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-instrumentacion-basica&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Prototipos de instrumentación biomédica educativa de TW Salud."
+  },
+  {
+    "id": "tw-salud-gestion-riesgo-dispositivo",
+    "linea_slug": "tw-salud",
+    "linea": "TW Salud",
+    "categoria": "Calidad y regulación",
+    "oferta": "Gestión de riesgos para prototipos de tecnología médica",
+    "tipo": "Asesoría",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Emprendedores",
+      "tesistas",
+      "startups",
+      "laboratorios"
+    ],
+    "entregables": [
+      "matriz de riesgos",
+      "criterios de seguridad",
+      "documentación inicial"
+    ],
+    "precio_desde_soles_igv": 700,
+    "precio_internacional_usd": 220,
+    "precio_soles_texto": "Desde S/ 700",
+    "precio_usd_texto": "Desde USD 220",
+    "prioridad": "alta",
+    "descripcion_corta": "Asesoría para documentar riesgos técnicos, uso previsto, límites, ensayos y trazabilidad de prototipos biomédicos.",
+    "descripcion_larga": "Gestión de riesgos para prototipos de tecnología médica es una oferta de TW Salud orientada a Emprendedores, tesistas, startups, laboratorios. Se entrega mediante un alcance coordinado que puede incluir matriz de riesgos, criterios de seguridad, documentación inicial. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de diseno, prototipado, investigacion aplicada y soporte tecnico. No sustituyen evaluacion clinica, indicacion medica ni validacion por profesionales competentes cuando corresponda.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "url_detalle": "detalle/oferta.html?id=tw-salud-gestion-riesgo-dispositivo&linea=tw-salud",
+    "whatsapp_message": "Hola, deseo cotizar Gestión de riesgos para prototipos de tecnología médica de TW Salud."
+  }
+]

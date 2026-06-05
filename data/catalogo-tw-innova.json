@@ -1,0 +1,823 @@
+[
+  {
+    "id": "tw-innova-software-medida",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Desarrollo de software",
+    "oferta": "Desarrollo de software a medida",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "MYPES",
+      "profesionales",
+      "instituciones",
+      "investigadores"
+    ],
+    "entregables": [
+      "análisis",
+      "prototipo",
+      "código",
+      "manual",
+      "despliegue"
+    ],
+    "precio_desde_soles_igv": 1800,
+    "precio_internacional_usd": 520,
+    "precio_soles_texto": "Desde S/ 1800",
+    "precio_usd_texto": "Desde USD 520",
+    "prioridad": "alta",
+    "descripcion_corta": "Desarrollo de aplicaciones web, escritorio o automatización para resolver procesos específicos de negocio, ingeniería o investigación.",
+    "descripcion_larga": "Desarrollo de software a medida es una oferta de TW Innova orientada a MYPES, profesionales, instituciones, investigadores. Se entrega mediante un alcance coordinado que puede incluir análisis, prototipo, código, manual, despliegue. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-software-medida&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Desarrollo de software a medida de TW Innova."
+  },
+  {
+    "id": "tw-innova-web-empresarial",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Desarrollo web",
+    "oferta": "Sitio web empresarial en GitHub Pages",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Empresas",
+      "emprendimientos",
+      "profesionales"
+    ],
+    "entregables": [
+      "sitio estático",
+      "catálogo",
+      "SEO básico",
+      "README",
+      "despliegue"
+    ],
+    "precio_desde_soles_igv": 950,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 950",
+    "precio_usd_texto": "Desde USD 280",
+    "prioridad": "alta",
+    "descripcion_corta": "Construcción de sitios corporativos rápidos, ligeros y mantenibles con HTML, CSS, JavaScript y GitHub Pages.",
+    "descripcion_larga": "Sitio web empresarial en GitHub Pages es una oferta de TW Innova orientada a Empresas, emprendimientos, profesionales. Se entrega mediante un alcance coordinado que puede incluir sitio estático, catálogo, SEO básico, README, despliegue. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-web-empresarial&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Sitio web empresarial en GitHub Pages de TW Innova."
+  },
+  {
+    "id": "tw-innova-catalogo-whatsapp",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Comercio digital",
+    "oferta": "Catálogo web con flujo de compra por WhatsApp",
+    "tipo": "Producto/Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Tiendas",
+      "cursos",
+      "servicios",
+      "negocios locales"
+    ],
+    "entregables": [
+      "catálogo JSON",
+      "botones WhatsApp",
+      "pagos",
+      "PDF",
+      "manual"
+    ],
+    "precio_desde_soles_igv": 1200,
+    "precio_internacional_usd": 350,
+    "precio_soles_texto": "Desde S/ 1200",
+    "precio_usd_texto": "Desde USD 350",
+    "prioridad": "alta",
+    "descripcion_corta": "Plataforma estática para mostrar productos, cursos y servicios con mensajes de compra prellenados por WhatsApp.",
+    "descripcion_larga": "Catálogo web con flujo de compra por WhatsApp es una oferta de TW Innova orientada a Tiendas, cursos, servicios, negocios locales. Se entrega mediante un alcance coordinado que puede incluir catálogo JSON, botones WhatsApp, pagos, PDF, manual. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-catalogo-whatsapp&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Catálogo web con flujo de compra por WhatsApp de TW Innova."
+  },
+  {
+    "id": "tw-innova-dashboard-datos",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Dashboards",
+    "oferta": "Dashboard interactivo con datos JSON/CSV",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Investigadores",
+      "empresas",
+      "tesistas",
+      "instituciones"
+    ],
+    "entregables": [
+      "tablero",
+      "filtros",
+      "gráficos",
+      "documentación"
+    ],
+    "precio_desde_soles_igv": 1500,
+    "precio_internacional_usd": 450,
+    "precio_soles_texto": "Desde S/ 1500",
+    "precio_usd_texto": "Desde USD 450",
+    "prioridad": "alta",
+    "descripcion_corta": "Desarrollo de dashboards web para análisis, visualización, ranking, filtros y lectura automática de datos.",
+    "descripcion_larga": "Dashboard interactivo con datos JSON/CSV es una oferta de TW Innova orientada a Investigadores, empresas, tesistas, instituciones. Se entrega mediante un alcance coordinado que puede incluir tablero, filtros, gráficos, documentación. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-dashboard-datos&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Dashboard interactivo con datos JSON/CSV de TW Innova."
+  },
+  {
+    "id": "tw-innova-qgis-plugin",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "GIS y geocómputo",
+    "oferta": "Desarrollo de plugin QGIS",
+    "tipo": "Servicio",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Ingenieros",
+      "consultoras",
+      "investigadores",
+      "instituciones"
+    ],
+    "entregables": [
+      "plugin PyQGIS",
+      "interfaz",
+      "manual",
+      "instalador ZIP"
+    ],
+    "precio_desde_soles_igv": 2500,
+    "precio_internacional_usd": 720,
+    "precio_soles_texto": "Desde S/ 2500",
+    "precio_usd_texto": "Desde USD 720",
+    "prioridad": "alta",
+    "descripcion_corta": "Desarrollo de herramientas geoespaciales dentro de QGIS para automatizar procesos técnicos.",
+    "descripcion_larga": "Desarrollo de plugin QGIS es una oferta de TW Innova orientada a Ingenieros, consultoras, investigadores, instituciones. Se entrega mediante un alcance coordinado que puede incluir plugin PyQGIS, interfaz, manual, instalador ZIP. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-qgis-plugin&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Desarrollo de plugin QGIS de TW Innova."
+  },
+  {
+    "id": "tw-innova-python-automatizacion",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Automatización",
+    "oferta": "Automatización con Python",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Oficinas",
+      "investigadores",
+      "MYPES",
+      "ingenieros"
+    ],
+    "entregables": [
+      "scripts",
+      "GUI opcional",
+      "manual",
+      "capacitación"
+    ],
+    "precio_desde_soles_igv": 550,
+    "precio_internacional_usd": 170,
+    "precio_soles_texto": "Desde S/ 550",
+    "precio_usd_texto": "Desde USD 170",
+    "prioridad": "alta",
+    "descripcion_corta": "Automatización de tareas repetitivas, procesamiento de archivos, reportes, conversiones y flujos de datos.",
+    "descripcion_larga": "Automatización con Python es una oferta de TW Innova orientada a Oficinas, investigadores, MYPES, ingenieros. Se entrega mediante un alcance coordinado que puede incluir scripts, GUI opcional, manual, capacitación. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-python-automatizacion&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Automatización con Python de TW Innova."
+  },
+  {
+    "id": "tw-innova-ia-aplicada",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Inteligencia artificial",
+    "oferta": "Prototipos de IA aplicada",
+    "tipo": "Servicio I+D",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Empresas",
+      "tesistas",
+      "investigadores",
+      "instituciones"
+    ],
+    "entregables": [
+      "notebook",
+      "demo",
+      "informe",
+      "dataset de prueba"
+    ],
+    "precio_desde_soles_igv": 2200,
+    "precio_internacional_usd": 650,
+    "precio_soles_texto": "Desde S/ 2200",
+    "precio_usd_texto": "Desde USD 650",
+    "prioridad": "alta",
+    "descripcion_corta": "Prototipos de visión computacional, clasificación, procesamiento de lenguaje o analítica predictiva para casos específicos.",
+    "descripcion_larga": "Prototipos de IA aplicada es una oferta de TW Innova orientada a Empresas, tesistas, investigadores, instituciones. Se entrega mediante un alcance coordinado que puede incluir notebook, demo, informe, dataset de prueba. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-ia-aplicada&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Prototipos de IA aplicada de TW Innova."
+  },
+  {
+    "id": "tw-innova-huggingface-space",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Demos IA",
+    "oferta": "Despliegue de demo en Hugging Face Spaces",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Investigadores",
+      "startups",
+      "tesistas",
+      "empresas"
+    ],
+    "entregables": [
+      "Space",
+      "README",
+      "app Gradio/Streamlit",
+      "instrucciones"
+    ],
+    "precio_desde_soles_igv": 950,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 950",
+    "precio_usd_texto": "Desde USD 280",
+    "prioridad": "media",
+    "descripcion_corta": "Publicación de prototipos interactivos de IA o dashboards en Hugging Face Spaces.",
+    "descripcion_larga": "Despliegue de demo en Hugging Face Spaces es una oferta de TW Innova orientada a Investigadores, startups, tesistas, empresas. Se entrega mediante un alcance coordinado que puede incluir Space, README, app Gradio/Streamlit, instrucciones. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-huggingface-space&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Despliegue de demo en Hugging Face Spaces de TW Innova."
+  },
+  {
+    "id": "tw-innova-metaquest-mantenimiento",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "XR y realidad virtual",
+    "oferta": "Diagnóstico y mantenimiento preventivo Meta Quest 2, 3S y 3",
+    "tipo": "Servicio técnico",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Usuarios VR",
+      "instituciones educativas",
+      "laboratorios XR"
+    ],
+    "entregables": [
+      "diagnóstico",
+      "limpieza externa",
+      "revisión accesorios",
+      "informe",
+      "guía de cuidado"
+    ],
+    "precio_desde_soles_igv": 120,
+    "precio_internacional_usd": 45,
+    "precio_soles_texto": "Desde S/ 120",
+    "precio_usd_texto": "Desde USD 45",
+    "prioridad": "alta",
+    "descripcion_corta": "Servicio técnico de diagnóstico, limpieza, configuración y mantenimiento preventivo de visores Meta Quest, sin intervención no autorizada sobre garantía.",
+    "descripcion_larga": "Diagnóstico y mantenimiento preventivo Meta Quest 2, 3S y 3 es una oferta de TW Innova orientada a Usuarios VR, instituciones educativas, laboratorios XR. Se entrega mediante un alcance coordinado que puede incluir diagnóstico, limpieza externa, revisión accesorios, informe, guía de cuidado. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-metaquest-mantenimiento&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Diagnóstico y mantenimiento preventivo Meta Quest 2, 3S y 3 de TW Innova."
+  },
+  {
+    "id": "tw-innova-metaquest-capacitacion",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "XR y realidad virtual",
+    "oferta": "Capacitación Meta Quest para educación y empresa",
+    "tipo": "Curso/Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Docentes",
+      "empresas",
+      "estudiantes",
+      "laboratorios"
+    ],
+    "entregables": [
+      "sesión guiada",
+      "configuración",
+      "apps",
+      "manual de uso"
+    ],
+    "precio_desde_soles_igv": 180,
+    "precio_internacional_usd": 60,
+    "precio_soles_texto": "Desde S/ 180",
+    "precio_usd_texto": "Desde USD 60",
+    "prioridad": "media",
+    "descripcion_corta": "Capacitación para uso productivo de visores de realidad virtual y mixta en educación, prototipado y demostraciones.",
+    "descripcion_larga": "Capacitación Meta Quest para educación y empresa es una oferta de TW Innova orientada a Docentes, empresas, estudiantes, laboratorios. Se entrega mediante un alcance coordinado que puede incluir sesión guiada, configuración, apps, manual de uso. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-metaquest-capacitacion&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Capacitación Meta Quest para educación y empresa de TW Innova."
+  },
+  {
+    "id": "tw-innova-gpu-mantenimiento",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Hardware especializado",
+    "oferta": "Diagnóstico y mantenimiento preventivo de GPU",
+    "tipo": "Servicio técnico",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Gamers",
+      "editores",
+      "laboratorios IA",
+      "diseñadores"
+    ],
+    "entregables": [
+      "diagnóstico térmico",
+      "limpieza",
+      "revisión visual",
+      "reporte",
+      "recomendaciones"
+    ],
+    "precio_desde_soles_igv": 160,
+    "precio_internacional_usd": 55,
+    "precio_soles_texto": "Desde S/ 160",
+    "precio_usd_texto": "Desde USD 55",
+    "prioridad": "alta",
+    "descripcion_corta": "Servicio de diagnóstico y mantenimiento preventivo de tarjetas gráficas, priorizando limpieza, temperatura, ventilación y cuidado eléctrico.",
+    "descripcion_larga": "Diagnóstico y mantenimiento preventivo de GPU es una oferta de TW Innova orientada a Gamers, editores, laboratorios IA, diseñadores. Se entrega mediante un alcance coordinado que puede incluir diagnóstico térmico, limpieza, revisión visual, reporte, recomendaciones. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-gpu-mantenimiento&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Diagnóstico y mantenimiento preventivo de GPU de TW Innova."
+  },
+  {
+    "id": "tw-innova-estacion-ia",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Hardware IA",
+    "oferta": "Armado y optimización de estación de trabajo para IA",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Estudiantes",
+      "investigadores",
+      "creadores",
+      "empresas"
+    ],
+    "entregables": [
+      "recomendación hardware",
+      "instalación software",
+      "pruebas básicas"
+    ],
+    "precio_desde_soles_igv": 450,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 450",
+    "precio_usd_texto": "Desde USD 150",
+    "prioridad": "media",
+    "descripcion_corta": "Configuración de estaciones de trabajo para Python, CUDA, IA, visualización, desarrollo y cómputo técnico.",
+    "descripcion_larga": "Armado y optimización de estación de trabajo para IA es una oferta de TW Innova orientada a Estudiantes, investigadores, creadores, empresas. Se entrega mediante un alcance coordinado que puede incluir recomendación hardware, instalación software, pruebas básicas. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-estacion-ia&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Armado y optimización de estación de trabajo para IA de TW Innova."
+  },
+  {
+    "id": "tw-innova-arduino-robotica-basica",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Robótica educativa",
+    "oferta": "Robótica con Arduino UNO/Nano/Mega",
+    "tipo": "Curso/Proyecto",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Escolares",
+      "estudiantes",
+      "docentes",
+      "makers"
+    ],
+    "entregables": [
+      "kit sugerido",
+      "código",
+      "prácticas",
+      "guía PDF"
+    ],
+    "precio_desde_soles_igv": 199,
+    "precio_internacional_usd": 69,
+    "precio_soles_texto": "Desde S/ 199",
+    "precio_usd_texto": "Desde USD 69",
+    "prioridad": "alta",
+    "descripcion_corta": "Curso práctico de robótica con Arduino, sensores, actuadores y programación básica.",
+    "descripcion_larga": "Robótica con Arduino UNO/Nano/Mega es una oferta de TW Innova orientada a Escolares, estudiantes, docentes, makers. Se entrega mediante un alcance coordinado que puede incluir kit sugerido, código, prácticas, guía PDF. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-arduino-robotica-basica&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Robótica con Arduino UNO/Nano/Mega de TW Innova."
+  },
+  {
+    "id": "tw-innova-arduino-line-follower",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Robótica móvil",
+    "oferta": "Robot seguidor de línea con PID y sensor ultrasónico",
+    "tipo": "Curso/Proyecto",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Estudiantes",
+      "clubes",
+      "colegios",
+      "institutos"
+    ],
+    "entregables": [
+      "diseño",
+      "código",
+      "calibración",
+      "pruebas",
+      "informe"
+    ],
+    "precio_desde_soles_igv": 249,
+    "precio_internacional_usd": 79,
+    "precio_soles_texto": "Desde S/ 249",
+    "precio_usd_texto": "Desde USD 79",
+    "prioridad": "media",
+    "descripcion_corta": "Proyecto educativo de robot móvil con control PID, sensores infrarrojos y evitación de obstáculos.",
+    "descripcion_larga": "Robot seguidor de línea con PID y sensor ultrasónico es una oferta de TW Innova orientada a Estudiantes, clubes, colegios, institutos. Se entrega mediante un alcance coordinado que puede incluir diseño, código, calibración, pruebas, informe. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-arduino-line-follower&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Robot seguidor de línea con PID y sensor ultrasónico de TW Innova."
+  },
+  {
+    "id": "tw-innova-iot-sensores",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "IoT",
+    "oferta": "Prototipos IoT con sensores y dashboard",
+    "tipo": "Servicio/Curso",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "MYPES",
+      "estudiantes",
+      "laboratorios",
+      "agro",
+      "ambiente"
+    ],
+    "entregables": [
+      "sensor",
+      "microcontrolador",
+      "dashboard",
+      "reporte"
+    ],
+    "precio_desde_soles_igv": 850,
+    "precio_internacional_usd": 250,
+    "precio_soles_texto": "Desde S/ 850",
+    "precio_usd_texto": "Desde USD 250",
+    "prioridad": "alta",
+    "descripcion_corta": "Integración de sensores, microcontroladores y visualización web para monitoreo educativo o productivo.",
+    "descripcion_larga": "Prototipos IoT con sensores y dashboard es una oferta de TW Innova orientada a MYPES, estudiantes, laboratorios, agro, ambiente. Se entrega mediante un alcance coordinado que puede incluir sensor, microcontrolador, dashboard, reporte. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-iot-sensores&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Prototipos IoT con sensores y dashboard de TW Innova."
+  },
+  {
+    "id": "tw-innova-vision-opencv",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Visión artificial",
+    "oferta": "Visión por computadora con OpenCV",
+    "tipo": "Curso/Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Ingenieros",
+      "estudiantes",
+      "empresas",
+      "creadores"
+    ],
+    "entregables": [
+      "scripts Python",
+      "demos",
+      "guía",
+      "dataset de prueba"
+    ],
+    "precio_desde_soles_igv": 249,
+    "precio_internacional_usd": 79,
+    "precio_soles_texto": "Desde S/ 249",
+    "precio_usd_texto": "Desde USD 79",
+    "prioridad": "media",
+    "descripcion_corta": "Curso y prototipado de visión artificial para detección, segmentación, medición y automatización.",
+    "descripcion_larga": "Visión por computadora con OpenCV es una oferta de TW Innova orientada a Ingenieros, estudiantes, empresas, creadores. Se entrega mediante un alcance coordinado que puede incluir scripts Python, demos, guía, dataset de prueba. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-vision-opencv&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Visión por computadora con OpenCV de TW Innova."
+  },
+  {
+    "id": "tw-innova-open-source-pack",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Software open-source",
+    "oferta": "Publicación de software open-source con manual PDF",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Desarrolladores",
+      "tesistas",
+      "empresas"
+    ],
+    "entregables": [
+      "repositorio",
+      "README",
+      "licencia",
+      "guía PDF",
+      "release"
+    ],
+    "precio_desde_soles_igv": 700,
+    "precio_internacional_usd": 220,
+    "precio_soles_texto": "Desde S/ 700",
+    "precio_usd_texto": "Desde USD 220",
+    "prioridad": "media",
+    "descripcion_corta": "Preparación de repositorios open-source con documentación, empaquetado básico y publicación profesional.",
+    "descripcion_larga": "Publicación de software open-source con manual PDF es una oferta de TW Innova orientada a Desarrolladores, tesistas, empresas. Se entrega mediante un alcance coordinado que puede incluir repositorio, README, licencia, guía PDF, release. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-open-source-pack&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Publicación de software open-source con manual PDF de TW Innova."
+  },
+  {
+    "id": "tw-innova-appimage-launcher",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Linux",
+    "oferta": "AppImage Launcher Creator y Uninstaller",
+    "tipo": "Software/Guía",
+    "madurez": "publicado",
+    "publico_objetivo": [
+      "Usuarios Linux",
+      "estudiantes",
+      "makers"
+    ],
+    "entregables": [
+      "código",
+      ".deb",
+      "guía PDF",
+      "iconos"
+    ],
+    "precio_desde_soles_igv": 0,
+    "precio_internacional_usd": 0,
+    "precio_soles_texto": "Desde S/ 0",
+    "precio_usd_texto": "Desde USD 0",
+    "prioridad": "alta",
+    "descripcion_corta": "Herramientas para crear y desinstalar lanzadores de AppImage en Linux Mint con documentación técnica.",
+    "descripcion_larga": "AppImage Launcher Creator y Uninstaller es una oferta de TW Innova orientada a Usuarios Linux, estudiantes, makers. Se entrega mediante un alcance coordinado que puede incluir código, .deb, guía PDF, iconos. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-appimage-launcher&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar AppImage Launcher Creator y Uninstaller de TW Innova."
+  },
+  {
+    "id": "tw-innova-ciberseguridad-basica",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "Seguridad",
+    "oferta": "Auditoría técnica básica de sitio web estático",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Empresas",
+      "emprendimientos",
+      "creadores"
+    ],
+    "entregables": [
+      "checklist",
+      "reporte",
+      "recomendaciones",
+      "backup"
+    ],
+    "precio_desde_soles_igv": 350,
+    "precio_internacional_usd": 120,
+    "precio_soles_texto": "Desde S/ 350",
+    "precio_usd_texto": "Desde USD 120",
+    "prioridad": "media",
+    "descripcion_corta": "Revisión de buenas prácticas de seguridad, exposición de datos, enlaces, formularios y repositorios públicos.",
+    "descripcion_larga": "Auditoría técnica básica de sitio web estático es una oferta de TW Innova orientada a Empresas, emprendimientos, creadores. Se entrega mediante un alcance coordinado que puede incluir checklist, reporte, recomendaciones, backup. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-ciberseguridad-basica&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Auditoría técnica básica de sitio web estático de TW Innova."
+  },
+  {
+    "id": "tw-innova-git-github",
+    "linea_slug": "tw-innova",
+    "linea": "TW Innova",
+    "categoria": "DevOps básico",
+    "oferta": "Git, GitHub y GitHub Pages para proyectos profesionales",
+    "tipo": "Curso",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Estudiantes",
+      "profesionales",
+      "emprendedores"
+    ],
+    "entregables": [
+      "clases",
+      "prácticas",
+      "repositorio",
+      "guía PDF"
+    ],
+    "precio_desde_soles_igv": 159,
+    "precio_internacional_usd": 49,
+    "precio_soles_texto": "Desde S/ 159",
+    "precio_usd_texto": "Desde USD 49",
+    "prioridad": "alta",
+    "descripcion_corta": "Curso aplicado para publicar portafolios, sitios web, documentación y proyectos técnicos con GitHub.",
+    "descripcion_larga": "Git, GitHub y GitHub Pages para proyectos profesionales es una oferta de TW Innova orientada a Estudiantes, profesionales, emprendedores. Se entrega mediante un alcance coordinado que puede incluir clases, prácticas, repositorio, guía PDF. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios tecnologicos sujetos a diagnostico y alcance. No se realizan acciones que anulen garantias, comprometan seguridad electrica o impliquen manipulacion peligrosa sin habilitacion tecnica.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-innova-git-github&linea=tw-innova",
+    "whatsapp_message": "Hola, deseo cotizar Git, GitHub y GitHub Pages para proyectos profesionales de TW Innova."
+  }
+]

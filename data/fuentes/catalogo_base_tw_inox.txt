@@ -1,0 +1,26 @@
+# Catálogo base para CODEX — Tecprog World E.I.R.L.
+# Codificación: UTF-8
+# Archivo: catalogo_base_tw_inox.txt
+# Línea: TW Inox
+# Nombre público sugerido: TW Inox — acero inoxidable, metalmecánica ligera, fabricación, mantenimiento y soluciones a medida
+# Separador: |
+# Regla: publicar como servicio coordinado con soldadores/talleres aliados si la empresa aún no cuenta con taller propio.
+
+id | linea | categoria | oferta | tipo | madurez | publico_objetivo | entregables | precio_desde_soles_igv | precio_internacional_usd | prioridad | descripcion_corta
+tw-inox-barandas | TW Inox | Arquitectura metálica | Barandas y pasamanos en acero inoxidable | Servicio | vigente | Viviendas, edificios, locales, clínicas, colegios | visita técnica, diseño, fabricación, instalación coordinada | 350 | 120 | alta | Diseño y coordinación de barandas, pasamanos y elementos inoxidables para seguridad, durabilidad y acabado arquitectónico.
+tw-inox-mesas-trabajo | TW Inox | Mobiliario inox | Mesas de trabajo en acero inoxidable | Servicio/Producto | vigente | Restaurantes, laboratorios, panaderías, clínicas, talleres | diseño, fabricación, entrega, instalación opcional | 600 | 190 | alta | Mesas inoxidables para trabajo, preparación, laboratorio o producción ligera, con dimensiones a pedido.
+tw-inox-racks-estanterias | TW Inox | Almacenamiento | Racks, repisas y estanterías inoxidables | Servicio/Producto | vigente | Cocinas, laboratorios, almacenes, comercios | diseño, fabricación, instalación | 480 | 150 | alta | Estanterías y repisas resistentes para ambientes donde se requiere limpieza, orden y durabilidad.
+tw-inox-campanas-extraccion | TW Inox | Cocina e industria | Campanas de extracción y ductos inoxidables | Servicio | condicionado | Restaurantes, dark kitchens, panaderías, negocios gastronómicos | levantamiento, diseño, fabricación coordinada, instalación | 1200 | 360 | alta | Campanas, ductos y soluciones inox para ventilación de cocinas, sujeto a evaluación técnica del local.
+tw-inox-lavaderos | TW Inox | Sanitarios y cocina | Lavaderos y módulos inoxidables a medida | Servicio/Producto | vigente | Restaurantes, consultorios, laboratorios, hogares | diseño, fabricación, accesorios, instalación | 650 | 200 | alta | Lavaderos, pozas y módulos de lavado en acero inoxidable para higiene, durabilidad y mantenimiento simple.
+tw-inox-carros-bandejas | TW Inox | Equipamiento operativo | Carros, bandejas y soportes inoxidables | Producto/Servicio | vigente | Clínicas, restaurantes, talleres, laboratorios | diseño, fabricación, ruedas/accesorios, entrega | 450 | 140 | media | Carros auxiliares, bandejas y soportes para operación, traslado o almacenamiento.
+tw-inox-protecciones | TW Inox | Seguridad y protección | Rejas, protecciones y cerramientos metálicos | Servicio | vigente | Viviendas, negocios, colegios, almacenes | diseño, fabricación, instalación | 450 | 150 | media | Soluciones metálicas para protección, cerramiento y seguridad con acero inoxidable o acero pintado según presupuesto.
+tw-inox-estructuras-ligeras | TW Inox | Metalmecánica ligera | Estructuras metálicas ligeras | Servicio | vigente | Negocios, talleres, proyectos técnicos, prototipos | diseño, planos básicos, fabricación, instalación coordinada | 950 | 280 | alta | Estructuras ligeras, soportes, bases y armazones para proyectos técnicos o comerciales.
+tw-inox-soldadura-tig | TW Inox | Soldadura | Soldadura TIG/MIG para piezas inoxidables | Servicio técnico | condicionado | Talleres, negocios, hogares, prototipos | diagnóstico, reparación, soldadura, acabado básico | 120 | 50 | alta | Servicio de reparación o fabricación de piezas inoxidables con soldadura especializada mediante aliados técnicos.
+tw-inox-mantenimiento | TW Inox | Mantenimiento | Mantenimiento y pulido de acero inoxidable | Servicio | vigente | Restaurantes, laboratorios, hogares, comercios | limpieza técnica, pulido, ajuste, recomendaciones | 180 | 65 | media | Recuperación estética y funcional de superficies inoxidables, piezas y mobiliario metálico.
+tw-inox-prototipos | TW Inox | Prototipado | Prototipos metálicos para ingeniería y hardware | Servicio I+D | prototipo | Ingenieros, makers, tesistas, startups | diseño CAD, fabricación coordinada, pruebas básicas | 900 | 280 | media | Desarrollo de carcasas, soportes, bastidores y estructuras para prototipos de hardware e ingeniería.
+tw-inox-equipos-medicos-soportes | TW Inox | Salud y soporte | Soportes inoxidables para equipos y accesorios médicos no críticos | Servicio | condicionado | Consultorios, laboratorios, técnicos biomédicos | diseño, fabricación, documentación, validación de uso no crítico | 500 | 160 | media | Soportes, carros y accesorios no críticos para organización de equipos, con criterios de limpieza y durabilidad.
+
+FUENTES_REFERENCIA_SUGERIDAS |
+- Usos comerciales del acero inoxidable: cocina, salud, laboratorios, industria alimentaria, almacenamiento, arquitectura y mobiliario técnico.
+- Validar normas de seguridad, carga, soldadura y compatibilidad del material según uso.
+- Para instalaciones en locales comerciales, coordinar con profesionales o técnicos autorizados cuando corresponda.

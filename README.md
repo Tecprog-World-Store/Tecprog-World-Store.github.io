@@ -332,3 +332,64 @@ El panel derecho debe estar visible desde la parte superior del contenido, usar 
 4. Ejecutar `scripts\revisar_utf8.bat`.
 5. Validar `catalogo/catalogo-general-tw-educa.html`, `detalle/curso.html?id=qgis-basico&catalogo=general` y `catalogo/catalogo-general-tw-educa-pdf.html`.
 6. Publicar en GitHub Pages sin subir auxiliares LaTeX.
+
+## Catalogos Por Linea De Negocio
+
+Los catalogos de TW Salud, TW Innova, TW Inox y TW Construye se alimentan desde:
+
+```text
+data/fuentes/catalogo_base_tw_salud.txt
+data/fuentes/catalogo_base_tw_innova.txt
+data/fuentes/catalogo_base_tw_inox.txt
+data/fuentes/catalogo_base_tw_construye.txt
+```
+
+Para regenerar los JSON:
+
+```bat
+python scripts\generar_catalogos_lineas_negocio.py
+```
+
+Salidas:
+
+```text
+data/catalogo-tw-salud.json
+data/catalogo-tw-innova.json
+data/catalogo-tw-inox.json
+data/catalogo-tw-construye.json
+```
+
+Paginas publicas:
+
+```text
+catalogo/tw-salud.html
+catalogo/tw-innova.html
+catalogo/tw-inox.html
+catalogo/tw-construye.html
+detalle/oferta.html?id=ID&linea=tw-salud
+```
+
+Reglas comerciales:
+
+- TW Salud usa lenguaje de diseno, prototipado, soporte tecnico e investigacion aplicada; no afirmar uso clinico listo sin validacion competente.
+- TW Innova prioriza diagnostico, configuracion, software, capacitacion y mantenimiento preventivo sin anular garantias.
+- TW Inox y TW Construye deben indicar coordinacion con tecnicos o profesionales habilitados cuando corresponda.
+- Todos los precios son referenciales y se muestran como desde.
+
+Para generar el catalogo LaTeX mensual de lineas:
+
+```bat
+python scripts\generar_latex_catalogo_lineas_negocio.py
+```
+
+Fuentes externos:
+
+```text
+D:\DiskE01\Organizacionies\E-TW\Produccion_LaTeX_TW\catalogos_mensuales\2026-06\catalogo-lineas-negocio
+```
+
+PDF publico:
+
+```text
+assets/pdf/catalogos/catalogo-lineas-negocio-tecprog-world-2026-06.pdf
+```

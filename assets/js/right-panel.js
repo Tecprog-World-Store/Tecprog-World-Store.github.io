@@ -47,6 +47,10 @@ function renderRightPanel() {
         <h2>Recursos destacados</h2>
         <div class="quick-link-grid">
           <a href="${twPath("catalogo/catalogo-general-tw-educa.html")}">Catalogo general TW Educa</a>
+          <a href="${twPath("catalogo/tw-salud.html")}">Catalogo TW Salud</a>
+          <a href="${twPath("catalogo/tw-innova.html")}">Catalogo TW Innova</a>
+          <a href="${twPath("catalogo/tw-inox.html")}">Catalogo TW Inox</a>
+          <a href="${twPath("catalogo/tw-construye.html")}">Catalogo TW Construye</a>
           <a href="${twPath("catalogo/catalogo-general-tw-educa-pdf.html")}">Catalogo mensual PDF</a>
           <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
           <a href="${twPath("catalogo/descargas.html")}">Zona de Descargas</a>

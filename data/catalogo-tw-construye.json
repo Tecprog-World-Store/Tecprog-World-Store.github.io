@@ -1,0 +1,605 @@
+[
+  {
+    "id": "tw-construye-metrados",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Presupuestos",
+    "oferta": "Metrados de obra civil y arquitectura",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Arquitectos",
+      "ingenieros",
+      "contratistas",
+      "estudiantes",
+      "propietarios"
+    ],
+    "entregables": [
+      "hoja de metrados",
+      "criterios",
+      "resumen por partida"
+    ],
+    "precio_desde_soles_igv": 250,
+    "precio_internacional_usd": 90,
+    "precio_soles_texto": "Desde S/ 250",
+    "precio_usd_texto": "Desde USD 90",
+    "prioridad": "alta",
+    "descripcion_corta": "Elaboración de metrados para partidas de arquitectura, estructuras e instalaciones, según planos disponibles.",
+    "descripcion_larga": "Metrados de obra civil y arquitectura es una oferta de TW Construye orientada a Arquitectos, ingenieros, contratistas, estudiantes, propietarios. Se entrega mediante un alcance coordinado que puede incluir hoja de metrados, criterios, resumen por partida. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-metrados&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Metrados de obra civil y arquitectura de TW Construye."
+  },
+  {
+    "id": "tw-construye-presupuesto",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Presupuestos",
+    "oferta": "Presupuesto de obra y análisis de costos unitarios",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Contratistas",
+      "propietarios",
+      "estudiantes",
+      "MYPES"
+    ],
+    "entregables": [
+      "presupuesto",
+      "análisis unitario",
+      "insumos",
+      "resumen"
+    ],
+    "precio_desde_soles_igv": 350,
+    "precio_internacional_usd": 120,
+    "precio_soles_texto": "Desde S/ 350",
+    "precio_usd_texto": "Desde USD 120",
+    "prioridad": "alta",
+    "descripcion_corta": "Desarrollo de presupuestos de obra con partidas, costos unitarios y reporte técnico.",
+    "descripcion_larga": "Presupuesto de obra y análisis de costos unitarios es una oferta de TW Construye orientada a Contratistas, propietarios, estudiantes, MYPES. Se entrega mediante un alcance coordinado que puede incluir presupuesto, análisis unitario, insumos, resumen. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-presupuesto&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Presupuesto de obra y análisis de costos unitarios de TW Construye."
+  },
+  {
+    "id": "tw-construye-planos-basicos",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Planos",
+    "oferta": "Dibujo y digitalización de planos en CAD",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Propietarios",
+      "estudiantes",
+      "profesionales",
+      "negocios"
+    ],
+    "entregables": [
+      "plano CAD",
+      "PDF",
+      "capas",
+      "impresión digital"
+    ],
+    "precio_desde_soles_igv": 180,
+    "precio_internacional_usd": 65,
+    "precio_soles_texto": "Desde S/ 180",
+    "precio_usd_texto": "Desde USD 65",
+    "prioridad": "alta",
+    "descripcion_corta": "Digitalización, ordenamiento y presentación de planos básicos para proyectos, remodelaciones y documentación.",
+    "descripcion_larga": "Dibujo y digitalización de planos en CAD es una oferta de TW Construye orientada a Propietarios, estudiantes, profesionales, negocios. Se entrega mediante un alcance coordinado que puede incluir plano CAD, PDF, capas, impresión digital. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-planos-basicos&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Dibujo y digitalización de planos en CAD de TW Construye."
+  },
+  {
+    "id": "tw-construye-modelado-3d",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Visualización",
+    "oferta": "Modelado 3D arquitectónico básico",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Propietarios",
+      "arquitectos",
+      "inmobiliarias pequeñas"
+    ],
+    "entregables": [
+      "modelo 3D",
+      "vistas",
+      "renders básicos"
+    ],
+    "precio_desde_soles_igv": 450,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 450",
+    "precio_usd_texto": "Desde USD 150",
+    "prioridad": "media",
+    "descripcion_corta": "Modelado y visualización básica para comunicar propuestas de remodelación, distribución y diseño.",
+    "descripcion_larga": "Modelado 3D arquitectónico básico es una oferta de TW Construye orientada a Propietarios, arquitectos, inmobiliarias pequeñas. Se entrega mediante un alcance coordinado que puede incluir modelo 3D, vistas, renders básicos. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-modelado-3d&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Modelado 3D arquitectónico básico de TW Construye."
+  },
+  {
+    "id": "tw-construye-remodelacion",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Obra menor",
+    "oferta": "Remodelaciones y adecuaciones de espacios",
+    "tipo": "Servicio",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Hogares",
+      "oficinas",
+      "locales comerciales"
+    ],
+    "entregables": [
+      "visita",
+      "propuesta",
+      "presupuesto",
+      "cronograma",
+      "coordinación de cuadrilla"
+    ],
+    "precio_desde_soles_igv": 1200,
+    "precio_internacional_usd": 360,
+    "precio_soles_texto": "Desde S/ 1200",
+    "precio_usd_texto": "Desde USD 360",
+    "prioridad": "alta",
+    "descripcion_corta": "Servicio coordinado para remodelaciones, adecuaciones y mejoras de espacios con control técnico y presupuesto.",
+    "descripcion_larga": "Remodelaciones y adecuaciones de espacios es una oferta de TW Construye orientada a Hogares, oficinas, locales comerciales. Se entrega mediante un alcance coordinado que puede incluir visita, propuesta, presupuesto, cronograma, coordinación de cuadrilla. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-remodelacion&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Remodelaciones y adecuaciones de espacios de TW Construye."
+  },
+  {
+    "id": "tw-construye-supervision",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Control de obra",
+    "oferta": "Asistencia técnica y supervisión de obra menor",
+    "tipo": "Servicio",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Propietarios",
+      "contratistas",
+      "instituciones pequeñas"
+    ],
+    "entregables": [
+      "visitas",
+      "reporte fotográfico",
+      "observaciones",
+      "recomendaciones"
+    ],
+    "precio_desde_soles_igv": 300,
+    "precio_internacional_usd": 100,
+    "precio_soles_texto": "Desde S/ 300",
+    "precio_usd_texto": "Desde USD 100",
+    "prioridad": "alta",
+    "descripcion_corta": "Acompañamiento técnico para controlar avances, calidad, seguridad básica y cumplimiento de presupuesto.",
+    "descripcion_larga": "Asistencia técnica y supervisión de obra menor es una oferta de TW Construye orientada a Propietarios, contratistas, instituciones pequeñas. Se entrega mediante un alcance coordinado que puede incluir visitas, reporte fotográfico, observaciones, recomendaciones. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-supervision&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Asistencia técnica y supervisión de obra menor de TW Construye."
+  },
+  {
+    "id": "tw-construye-instalaciones-electricas",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Instalaciones",
+    "oferta": "Revisión y mejora de instalaciones eléctricas básicas",
+    "tipo": "Servicio técnico",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Viviendas",
+      "locales",
+      "aulas",
+      "talleres"
+    ],
+    "entregables": [
+      "diagnóstico",
+      "recomendaciones",
+      "coordinación de técnico electricista"
+    ],
+    "precio_desde_soles_igv": 180,
+    "precio_internacional_usd": 70,
+    "precio_soles_texto": "Desde S/ 180",
+    "precio_usd_texto": "Desde USD 70",
+    "prioridad": "alta",
+    "descripcion_corta": "Evaluación y coordinación de mejoras eléctricas básicas, priorizando seguridad y cumplimiento normativo.",
+    "descripcion_larga": "Revisión y mejora de instalaciones eléctricas básicas es una oferta de TW Construye orientada a Viviendas, locales, aulas, talleres. Se entrega mediante un alcance coordinado que puede incluir diagnóstico, recomendaciones, coordinación de técnico electricista. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-instalaciones-electricas&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Revisión y mejora de instalaciones eléctricas básicas de TW Construye."
+  },
+  {
+    "id": "tw-construye-instalaciones-sanitarias",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Instalaciones",
+    "oferta": "Revisión y mejora de instalaciones sanitarias básicas",
+    "tipo": "Servicio técnico",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Viviendas",
+      "locales",
+      "restaurantes",
+      "oficinas"
+    ],
+    "entregables": [
+      "diagnóstico",
+      "presupuesto",
+      "coordinación de técnico sanitario"
+    ],
+    "precio_desde_soles_igv": 180,
+    "precio_internacional_usd": 70,
+    "precio_soles_texto": "Desde S/ 180",
+    "precio_usd_texto": "Desde USD 70",
+    "prioridad": "media",
+    "descripcion_corta": "Revisión y coordinación de trabajos sanitarios básicos para mantenimiento y mejora de ambientes.",
+    "descripcion_larga": "Revisión y mejora de instalaciones sanitarias básicas es una oferta de TW Construye orientada a Viviendas, locales, restaurantes, oficinas. Se entrega mediante un alcance coordinado que puede incluir diagnóstico, presupuesto, coordinación de técnico sanitario. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-instalaciones-sanitarias&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Revisión y mejora de instalaciones sanitarias básicas de TW Construye."
+  },
+  {
+    "id": "tw-construye-expediente-menor",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Documentación técnica",
+    "oferta": "Expediente técnico simplificado para obra menor",
+    "tipo": "Servicio",
+    "madurez": "condicionado",
+    "publico_objetivo": [
+      "Propietarios",
+      "MYPES",
+      "instituciones pequeñas"
+    ],
+    "entregables": [
+      "memoria descriptiva",
+      "metrados",
+      "presupuesto",
+      "planos disponibles"
+    ],
+    "precio_desde_soles_igv": 950,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 950",
+    "precio_usd_texto": "Desde USD 280",
+    "prioridad": "alta",
+    "descripcion_corta": "Preparación de documentación técnica simplificada para organizar alcances, costos y entregables de obra menor.",
+    "descripcion_larga": "Expediente técnico simplificado para obra menor es una oferta de TW Construye orientada a Propietarios, MYPES, instituciones pequeñas. Se entrega mediante un alcance coordinado que puede incluir memoria descriptiva, metrados, presupuesto, planos disponibles. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-expediente-menor&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Expediente técnico simplificado para obra menor de TW Construye."
+  },
+  {
+    "id": "tw-construye-seguridad-obra",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Seguridad",
+    "oferta": "Checklist de seguridad para obra menor",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Propietarios",
+      "contratistas",
+      "cuadrillas",
+      "estudiantes"
+    ],
+    "entregables": [
+      "checklist",
+      "matriz de riesgos básica",
+      "recomendaciones"
+    ],
+    "precio_desde_soles_igv": 250,
+    "precio_internacional_usd": 90,
+    "precio_soles_texto": "Desde S/ 250",
+    "precio_usd_texto": "Desde USD 90",
+    "prioridad": "media",
+    "descripcion_corta": "Herramienta de control para identificar riesgos comunes y medidas preventivas en obras menores.",
+    "descripcion_larga": "Checklist de seguridad para obra menor es una oferta de TW Construye orientada a Propietarios, contratistas, cuadrillas, estudiantes. Se entrega mediante un alcance coordinado que puede incluir checklist, matriz de riesgos básica, recomendaciones. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-seguridad-obra&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Checklist de seguridad para obra menor de TW Construye."
+  },
+  {
+    "id": "tw-construye-bim-basico",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "BIM y digitalización",
+    "oferta": "Modelado BIM básico y coordinación visual",
+    "tipo": "Servicio",
+    "madurez": "prototipo",
+    "publico_objetivo": [
+      "Arquitectos",
+      "ingenieros",
+      "estudiantes",
+      "inmobiliarias pequeñas"
+    ],
+    "entregables": [
+      "modelo básico",
+      "vistas",
+      "cuantificación inicial"
+    ],
+    "precio_desde_soles_igv": 700,
+    "precio_internacional_usd": 220,
+    "precio_soles_texto": "Desde S/ 700",
+    "precio_usd_texto": "Desde USD 220",
+    "prioridad": "media",
+    "descripcion_corta": "Modelado digital básico para coordinación, visualización y estimación inicial de cantidades.",
+    "descripcion_larga": "Modelado BIM básico y coordinación visual es una oferta de TW Construye orientada a Arquitectos, ingenieros, estudiantes, inmobiliarias pequeñas. Se entrega mediante un alcance coordinado que puede incluir modelo básico, vistas, cuantificación inicial. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-bim-basico&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Modelado BIM básico y coordinación visual de TW Construye."
+  },
+  {
+    "id": "tw-construye-gestion-proyecto",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Gestión",
+    "oferta": "Gestión básica de proyecto de construcción",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Clientes particulares",
+      "MYPES",
+      "instituciones"
+    ],
+    "entregables": [
+      "cronograma",
+      "presupuesto",
+      "matriz de pendientes",
+      "seguimiento"
+    ],
+    "precio_desde_soles_igv": 600,
+    "precio_internacional_usd": 190,
+    "precio_soles_texto": "Desde S/ 600",
+    "precio_usd_texto": "Desde USD 190",
+    "prioridad": "media",
+    "descripcion_corta": "Organización del proyecto mediante cronograma, presupuesto, control de pendientes y comunicación con involucrados.",
+    "descripcion_larga": "Gestión básica de proyecto de construcción es una oferta de TW Construye orientada a Clientes particulares, MYPES, instituciones. Se entrega mediante un alcance coordinado que puede incluir cronograma, presupuesto, matriz de pendientes, seguimiento. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-gestion-proyecto&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Gestión básica de proyecto de construcción de TW Construye."
+  },
+  {
+    "id": "tw-construye-tasacion-referencial",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Evaluación técnica",
+    "oferta": "Evaluación referencial de costos de mejora o remodelación",
+    "tipo": "Servicio",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Propietarios",
+      "compradores",
+      "arrendadores"
+    ],
+    "entregables": [
+      "visita virtual/presencial",
+      "reporte",
+      "costo estimado"
+    ],
+    "precio_desde_soles_igv": 220,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 220",
+    "precio_usd_texto": "Desde USD 80",
+    "prioridad": "media",
+    "descripcion_corta": "Estimación referencial de inversión para mejorar, adecuar o remodelar espacios existentes.",
+    "descripcion_larga": "Evaluación referencial de costos de mejora o remodelación es una oferta de TW Construye orientada a Propietarios, compradores, arrendadores. Se entrega mediante un alcance coordinado que puede incluir visita virtual/presencial, reporte, costo estimado. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-tasacion-referencial&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Evaluación referencial de costos de mejora o remodelación de TW Construye."
+  },
+  {
+    "id": "tw-construye-capacitacion-costos",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Capacitación",
+    "oferta": "Curso de metrados, costos y presupuestos",
+    "tipo": "Curso",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Estudiantes",
+      "técnicos",
+      "profesionales",
+      "contratistas"
+    ],
+    "entregables": [
+      "clases",
+      "plantillas",
+      "ejercicios",
+      "certificado"
+    ],
+    "precio_desde_soles_igv": 189,
+    "precio_internacional_usd": 59,
+    "precio_soles_texto": "Desde S/ 189",
+    "precio_usd_texto": "Desde USD 59",
+    "prioridad": "alta",
+    "descripcion_corta": "Curso práctico para aprender metrados, análisis de costos unitarios y presupuestos de obra.",
+    "descripcion_larga": "Curso de metrados, costos y presupuestos es una oferta de TW Construye orientada a Estudiantes, técnicos, profesionales, contratistas. Se entrega mediante un alcance coordinado que puede incluir clases, plantillas, ejercicios, certificado. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-capacitacion-costos&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Curso de metrados, costos y presupuestos de TW Construye."
+  },
+  {
+    "id": "tw-construye-capacitacion-autocad",
+    "linea_slug": "tw-construye",
+    "linea": "TW Construye",
+    "categoria": "Capacitación",
+    "oferta": "Curso de AutoCAD aplicado a planos técnicos",
+    "tipo": "Curso",
+    "madurez": "vigente",
+    "publico_objetivo": [
+      "Estudiantes",
+      "técnicos",
+      "profesionales"
+    ],
+    "entregables": [
+      "clases",
+      "ejercicios",
+      "planos",
+      "guía PDF"
+    ],
+    "precio_desde_soles_igv": 189,
+    "precio_internacional_usd": 59,
+    "precio_soles_texto": "Desde S/ 189",
+    "precio_usd_texto": "Desde USD 59",
+    "prioridad": "media",
+    "descripcion_corta": "Curso aplicado para dibujo, edición y presentación de planos técnicos en CAD.",
+    "descripcion_larga": "Curso de AutoCAD aplicado a planos técnicos es una oferta de TW Construye orientada a Estudiantes, técnicos, profesionales. Se entrega mediante un alcance coordinado que puede incluir clases, ejercicios, planos, guía PDF. La disponibilidad, tiempos, condiciones tecnicas y precio final se confirman por cotizacion.",
+    "incluye": [
+      "Revision inicial del requerimiento y alcance.",
+      "Coordinacion por WhatsApp o correo institucional.",
+      "Documentacion o entregable acordado segun propuesta."
+    ],
+    "condiciones": [
+      "Servicios de asistencia tecnica y documentacion. Cuando se requiera firma, licencia, colegiatura o responsabilidad formal, se coordina con profesionales habilitados.",
+      "Precios referenciales. El precio final depende del alcance, ubicacion, materiales, modalidad, urgencia y validacion tecnica.",
+      "No se afirma representacion oficial, certificacion externa ni alianza con marcas o instituciones mencionadas."
+    ],
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-construye-capacitacion-autocad&linea=tw-construye",
+    "whatsapp_message": "Hola, deseo cotizar Curso de AutoCAD aplicado a planos técnicos de TW Construye."
+  }
+]

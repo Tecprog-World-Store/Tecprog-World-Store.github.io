@@ -121,6 +121,11 @@ function renderInstitutionalFooter() {
         <a href="${twPath("legal/politicas-pagos-reembolsos.html")}">Politicas de Pagos y Reembolsos</a>
         <a href="${twPath("empresa/mapa-del-sitio.html")}">Mapa del sitio</a>
         <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
+        <a href="${twPath("catalogo/tw-salud.html")}">Catalogo TW Salud</a>
+        <a href="${twPath("catalogo/tw-innova.html")}">Catalogo TW Innova</a>
+        <a href="${twPath("catalogo/tw-inox.html")}">Catalogo TW Inox</a>
+        <a href="${twPath("catalogo/tw-construye.html")}">Catalogo TW Construye</a>
+        <a href="${twPath("assets/pdf/catalogos/catalogo-lineas-negocio-tecprog-world-2026-06.pdf")}">PDF lineas de negocio</a>
         <a href="${twPath("catalogo/catalogo-mensual.html")}">Catalogo mensual</a>
         <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
         <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
