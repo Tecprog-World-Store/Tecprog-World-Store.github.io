@@ -13,14 +13,17 @@ Sitio web oficial estático de Tecprog World E.I.R.L., empresa peruana de tecnol
 
 ## Líneas De Negocio
 
-Las seis líneas principales se editan en `data/lineas.json`:
+Las siete lineas canonicas se editan en `data/lineas.json`:
 
 - TW Investiga
-- TW Innova para el desarrollo del software y el hardware
-- TW Educa para ingenieros y científicos
+- TW Innova
+- TW Educa
+- TW Interactive - Ingenieros Consultores
 - TW Construye
 - TW Inox
-- TW Prótesis y Órtesis
+- TW Salud
+
+TW Salud usa como nombre completo `TW Salud y Vida - Protesis y Tecnologia Medica`. Los nombres historicos `TW Protesis y Ortesis`, `TW Bionic`, `TW Salud y Vida`, `Protesis y Tecnologia Medica` y `Protesis y Ortesis` se conservan solo como alias o categorias de servicios, no como lineas independientes.
 
 Cada entrada debe conservar los campos `id`, `nombre`, `nombre_corto`, `descripcion_corta`, `descripcion_larga`, `servicios_principales`, `categorias`, `pagina`, `facebook`, `imagen`, `icono` y `whatsapp_message`.
 
@@ -33,7 +36,7 @@ Enlaces oficiales:
 - Facebook TW Educa: `https://www.facebook.com/tecprogworld.educa`
 - Facebook TW Innova: `https://www.facebook.com/tecprogworld.innova`
 - Facebook TW Construye: `https://www.facebook.com/tecprogworld.construye`
-- Facebook TW Prótesis y Órtesis / TW Bionic: `https://www.facebook.com/twbionic/`
+- Facebook TW Salud: `https://www.facebook.com/twbionic/`
 - TikTok: `https://www.tiktok.com/@tecprogworld`
 - YouTube: `https://www.youtube.com/@tecprogworld`
 - LinkedIn: `https://www.linkedin.com/company/tecprog-world`

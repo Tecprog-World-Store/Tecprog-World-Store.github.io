@@ -1,6 +1,7 @@
 const OFFER_DETAIL_SOURCES = {
   "tw-salud": "../data/catalogo-tw-salud.json",
   "tw-innova": "../data/catalogo-tw-innova.json",
+  "tw-interactive": "../data/catalogo-tw-interactive.json",
   "tw-inox": "../data/catalogo-tw-inox.json",
   "tw-construye": "../data/catalogo-tw-construye.json",
 };

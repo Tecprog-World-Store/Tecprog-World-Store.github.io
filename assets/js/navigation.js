@@ -38,9 +38,10 @@ function renderStandardTopNav() {
       <a href="${twPath("lineas/tw-investiga.html")}">TW Investiga</a>
       <a href="${twPath("lineas/tw-innova.html")}">TW Innova</a>
       <a href="${twPath("lineas/tw-educa.html")}">TW Educa</a>
+      <a href="${twPath("lineas/tw-interactive.html")}">TW Interactive</a>
       <a href="${twPath("lineas/tw-construye.html")}">TW Construye</a>
       <a href="${twPath("lineas/tw-inox.html")}">TW Inox</a>
-      <a href="${twPath("lineas/tw-protesis-ortesis.html")}">TW Protesis y Ortesis</a>
+      <a href="${twPath("lineas/tw-salud.html")}">TW Salud</a>
       <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
       <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
     `;
@@ -107,7 +108,7 @@ function renderInstitutionalFooter() {
           <a href="https://www.facebook.com/tecprogworld.innova">Facebook TW Innova</a>
           <a href="https://www.facebook.com/tecprogworld.taller">Facebook TW Taller</a>
           <a href="https://www.facebook.com/tecprogworld.construye">Facebook TW Construye</a>
-          <a href="https://www.facebook.com/twbionic/">Facebook TW Protesis y Ortesis</a>
+          <a href="https://www.facebook.com/twbionic/">Facebook TW Salud</a>
           <a href="https://www.tiktok.com/@tecprogworld">TikTok</a>
           <a href="https://www.youtube.com/@tecprogworld">YouTube</a>
           <a href="https://www.linkedin.com/company/tecprog-world">LinkedIn</a>
@@ -123,6 +124,7 @@ function renderInstitutionalFooter() {
         <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
         <a href="${twPath("catalogo/tw-salud.html")}">Catalogo TW Salud</a>
         <a href="${twPath("catalogo/tw-innova.html")}">Catalogo TW Innova</a>
+        <a href="${twPath("catalogo/tw-interactive.html")}">Catalogo TW Interactive</a>
         <a href="${twPath("catalogo/tw-inox.html")}">Catalogo TW Inox</a>
         <a href="${twPath("catalogo/tw-construye.html")}">Catalogo TW Construye</a>
         <a href="${twPath("assets/pdf/catalogos/catalogo-lineas-negocio-tecprog-world-2026-06.pdf")}">PDF lineas de negocio</a>

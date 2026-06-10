@@ -47,6 +47,18 @@ function priceBucket(price) {
   return "S/ 300 o mas";
 }
 
+function moocText(item) {
+  return item.mooc_texto || (item.acceso_mooc_gratuito ? "Acceso MOOC: Gratis" : "Acceso MOOC: Consultar");
+}
+
+function certificateText(item) {
+  return item.certificado_texto || (item.certificado_desde_soles ? `Certificado desde S/ ${item.certificado_desde_soles}` : "Certificado: consultar");
+}
+
+function modalityTagString(item) {
+  return (item.modalidad_tags || []).join(" ");
+}
+
 function hoursBucket(hours) {
   const value = Number(hours || 0);
   if (value <= 24) return "12 a 24 h";
@@ -66,8 +78,13 @@ function courseCard(item) {
       data-horas="${catalogEscape(hoursBucket(item.horas_certificables))}"
       data-fuente="${catalogEscape(item.fuente_base)}"
       data-precio="${catalogEscape(priceBucket(item.precio_peru_igv_soles))}"
+      data-mooc="${item.acceso_mooc_gratuito ? "MOOC gratuito" : ""}"
+      data-certificado="${item.certificado_desde_soles ? "Certificado pagado" : ""}"
+      data-en-vivo="${(item.modalidad_tags || []).includes("En vivo") ? "En vivo" : ""}"
+      data-grabado="${(item.modalidad_tags || []).includes("Grabado") ? "Grabado" : ""}"
+      data-especializacion="${(item.modalidad_tags || []).includes("Especializacion") ? "Especializacion" : ""}"
       data-prioridad="${catalogEscape(item.prioridad_web)}"
-      data-search="${catalogEscape(`${item.curso} ${item.categoria} ${item.descripcion_corta} ${item.fuente_base}`).toLowerCase()}">
+      data-search="${catalogEscape(`${item.curso} ${item.categoria} ${item.descripcion_corta} ${item.fuente_base} ${modalityTagString(item)}`).toLowerCase()}">
       <div class="catalog-media">
         <img src="${catalogAsset(item.imagen)}" alt="${catalogEscape(item.curso)}" loading="lazy">
         <span>${catalogEscape(item.horas_certificables)} h</span>
@@ -77,12 +94,18 @@ function courseCard(item) {
         <h3>${catalogEscape(item.curso)}</h3>
         <p>${catalogEscape(item.descripcion_corta)}</p>
         <div class="catalog-meta">
+          <span>${catalogEscape(moocText(item))}</span>
+          <strong>${catalogEscape(certificateText(item))}</strong>
+        </div>
+        <div class="catalog-meta">
           <span>${catalogEscape(item.modalidad)} · ${catalogEscape(item.duracion_referencial)}</span>
-          <strong>S/ ${catalogEscape(item.precio_peru_igv_soles)}</strong>
+          <strong>${catalogEscape(item.precio_pago_texto || `Curso desde S/ ${item.precio_peru_igv_soles}`)}</strong>
         </div>
         <p class="usd-price">Internacional: USD ${catalogEscape(item.precio_internacional_usd)}</p>
+        <p class="microcopy">${catalogEscape(item.nota_precio_mooc || "")}</p>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="${detailHref}">Ver detalle</a>
+          <a class="btn btn-small" href="${catalogWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${item.curso}.`)}" target="_blank" rel="noopener noreferrer">${catalogEscape(item.boton_mooc || "Acceder gratis")}</a>
           <a class="btn btn-small btn-gold" href="${catalogWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Solicitar inscripcion por WhatsApp</a>
           <a class="btn btn-small" href="${catalogWhatsapp(institutionalMessage)}" target="_blank" rel="noopener noreferrer">Cotizacion institucional</a>
           <a class="btn btn-small" href="${catalogWhatsapp(monthlyMessage)}" target="_blank" rel="noopener noreferrer">Agregar al catalogo mensual</a>
@@ -111,6 +134,17 @@ function renderCatalogFilters(items) {
     ${selectFilter(withBuckets, "fuente_base", "Fuente base")}
     ${selectFilter(withBuckets, "precio_bucket", "Precio")}
     ${selectFilter(withBuckets, "prioridad_web", "Prioridad")}
+    <label class="select-filter">
+      <span>Oferta</span>
+      <select data-course-filter="oferta_mooc">
+        <option value="">Todos</option>
+        <option value="MOOC gratuito">MOOC gratuito</option>
+        <option value="Certificado pagado">Certificado pagado</option>
+        <option value="En vivo">En vivo</option>
+        <option value="Grabado">Grabado</option>
+        <option value="Especializacion">Especializacion</option>
+      </select>
+    </label>
   `;
 }
 
@@ -133,6 +167,16 @@ function applyCourseFilters() {
     const textMatch = !search || card.dataset.search.includes(search);
     const filterMatch = filters.every((filter) => {
       if (!filter.value) return true;
+      if (filter.key === "oferta_mooc") {
+        const specialKey = {
+          "MOOC gratuito": "mooc",
+          "Certificado pagado": "certificado",
+          "En vivo": "enVivo",
+          "Grabado": "grabado",
+          "Especializacion": "especializacion",
+        }[filter.value];
+        return specialKey ? card.dataset[specialKey] === filter.value : true;
+      }
       return card.dataset[filter.key] === filter.value;
     });
     card.hidden = !(textMatch && filterMatch);

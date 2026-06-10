@@ -31,6 +31,15 @@ const businessLines = [
     chips: ["Cursos", "Compendios", "Ingeniería"]
   },
   {
+    id: "tw-interactive",
+    name: "TW Interactive",
+    icon: "assets/icons/innovation.svg",
+    image: "assets/img/banners/hero-tech.svg",
+    description: "Ingeniería mecánica de fluidos, hidrología, hidráulica, CFD, termofluidos, energía, aerodinámica y documentación técnica.",
+    url: "lineas/tw-interactive.html",
+    chips: ["Hidráulica", "CFD", "Python"]
+  },
+  {
     id: "tw-construye",
     name: "TW Construye",
     icon: "assets/icons/build.svg",
@@ -49,27 +58,27 @@ const businessLines = [
     chips: ["Metalmecánica", "Fabricación", "Prototipos"]
   },
   {
-    id: "tw-protesis-ortesis",
-    name: "TW Prótesis y Órtesis",
+    id: "tw-salud",
+    name: "TW Salud",
     icon: "assets/icons/health.svg",
     image: "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
-    description: "Diseño, prototipado, modelado CAD, impresión 3D, tecnología médica, asistencia técnica y dispositivos de apoyo.",
-    url: "lineas/tw-protesis-ortesis.html",
-    chips: ["Prótesis", "Órtesis", "Impresión 3D"]
+    description: "Diseño, prototipado, soporte técnico, accesibilidad, tecnología médica e investigación aplicada en salud.",
+    url: "lineas/tw-salud.html",
+    chips: ["Prótesis y órtesis", "Tecnología médica", "Accesibilidad"]
   }
 ];
 
 const carouselData = {
   cursos: [
-    item("delft3d-wave-flow", "Delft3D Wave and Flow", "TW Educa", "Modelamiento numérico", "Curso aplicado para modelamiento hidrodinámico, oleaje y análisis costero con enfoque técnico.", "Desde S/ 249", "Desde USD 75 vía PayPal", "Virtual en vivo", "assets/img/servicios/cursos_ingenieros_y_cientificos/TW_EDUCA_MOOC_DELFT3D.jpg", "detalle/curso.html?id=delft3d-wave-flow&periodo=2026-06"),
-    item("admision-unac", "Preparación examen de admisión UNAC", "TW Educa", "Preparación académica", "Programa para modalidades especiales con práctica guiada, materiales y orientación por objetivos.", "Desde S/ 149", "Desde USD 45 vía PayPal", "Virtual", "assets/img/cursos/capacitacion-empresarial.svg", "detalle/curso.html?id=admision-unac&periodo=2026-06"),
-    item("matlab-programacion", "Programación de MATLAB", "TW Educa", "Programación científica", "Fundamentos, scripts, funciones, gráficos y métodos de cálculo para ingeniería y ciencia.", "Desde S/ 199", "Desde USD 60 vía PayPal", "Virtual", "assets/img/cursos/curso-tecnologia-negocios.svg", "detalle/curso.html?id=matlab-programacion&periodo=2026-06"),
-    item("openfoam-cfd", "CFD con OpenFOAM", "TW Educa", "CFD e ingeniería", "Introducción práctica al flujo de trabajo CFD para casos educativos y simulación técnica.", "Desde S/ 249", "Desde USD 75 vía PayPal", "Virtual", "assets/img/cursos/capacitacion-empresarial.svg", "detalle/curso.html?id=openfoam-cfd&periodo=2026-06"),
-    item("python-poo", "Programación Orientada a Objetos con Python", "TW Educa", "Software", "Clases, objetos, módulos, buenas prácticas y automatización con ejemplos aplicados.", "Desde S/ 199", "Desde USD 60 vía PayPal", "Virtual", "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Python01.png", "detalle/curso.html?id=python-poo&periodo=2026-06"),
-    item("hp50g", "Programación HP 50G", "TW Educa", "Calculadoras científicas", "Programación aplicada para automatizar cálculos y rutinas técnicas en HP 50G.", "Desde S/ 99", "Desde USD 30 vía PayPal", "Virtual", "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Programacion_HP50G.JPG", "detalle/curso.html?id=hp50g&periodo=2026-06"),
-    item("latex", "LaTeX", "TW Educa", "Redacción técnica", "Documentos técnicos, tesis, informes, ecuaciones, tablas y plantillas profesionales.", "Desde S/ 99", "Desde USD 30 vía PayPal", "Virtual", "assets/img/cursos/taller-innovacion-prototipado.svg", "detalle/curso.html?id=latex&periodo=2026-06"),
-    item("odoo-erp", "Odoo ERP", "TW Educa", "Gestión empresarial", "Introducción a módulos, ventas, inventario, clientes y procesos para pequeños negocios.", "Desde S/ 199", "Desde USD 60 vía PayPal", "Virtual", "assets/img/software/software-comercial-campus.svg", "detalle/curso.html?id=odoo-erp&periodo=2026-06"),
-    item("qgis-basico", "QGIS Básico", "TW Educa", "GIS", "Mapas, capas, simbología, procesamiento espacial y entregables para proyectos.", "Desde S/ 149", "Desde USD 45 vía PayPal", "Virtual", "assets/img/cursos/curso-tecnologia-negocios.svg", "detalle/curso.html?id=qgis-basico&periodo=2026-06")
+    item("delft3d-wave-flow", "Delft3D Wave and Flow", "TW Educa", "Modelamiento numérico", "Curso aplicado para modelamiento hidrodinámico, oleaje y análisis costero con enfoque técnico.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual en vivo / grabado", "assets/img/servicios/cursos_ingenieros_y_cientificos/TW_EDUCA_MOOC_DELFT3D.jpg", "detalle/curso.html?id=delft3d-wave-flow&periodo=2026-06"),
+    item("admision-unac", "Preparación examen de admisión UNAC", "TW Educa", "Preparación académica", "Programa para modalidades especiales con práctica guiada, materiales y orientación por objetivos.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual / grabado", "assets/img/cursos/capacitacion-empresarial.svg", "detalle/curso.html?id=admision-unac&periodo=2026-06"),
+    item("matlab-programacion", "Programación de MATLAB", "TW Educa", "Programación científica", "Fundamentos, scripts, funciones, gráficos y métodos de cálculo para ingeniería y ciencia.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual / grabado", "assets/img/cursos/curso-tecnologia-negocios.svg", "detalle/curso.html?id=matlab-programacion&periodo=2026-06"),
+    item("openfoam-cfd", "CFD con OpenFOAM", "TW Educa", "CFD e ingeniería", "Introducción práctica al flujo de trabajo CFD para casos educativos y simulación técnica.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual / grabado", "assets/img/cursos/capacitacion-empresarial.svg", "detalle/curso.html?id=openfoam-cfd&periodo=2026-06"),
+    item("python-poo", "Programación Orientada a Objetos con Python", "TW Educa", "Software", "Clases, objetos, módulos, buenas prácticas y automatización con ejemplos aplicados.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual / grabado", "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Python01.png", "detalle/curso.html?id=python-poo&periodo=2026-06"),
+    item("hp50g", "Programación HP 50G", "TW Educa", "Calculadoras científicas", "Programación aplicada para automatizar cálculos y rutinas técnicas en HP 50G.", "Acceso MOOC: Gratis", "Certificado desde S/ 19", "Virtual / grabado", "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Programacion_HP50G.JPG", "detalle/curso.html?id=hp50g&periodo=2026-06"),
+    item("latex", "LaTeX", "TW Educa", "Redacción técnica", "Documentos técnicos, tesis, informes, ecuaciones, tablas y plantillas profesionales.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual / grabado", "assets/img/cursos/taller-innovacion-prototipado.svg", "detalle/curso.html?id=latex&periodo=2026-06"),
+    item("odoo-erp", "Odoo ERP", "TW Educa", "Gestión empresarial", "Introducción a módulos, ventas, inventario, clientes y procesos para pequeños negocios.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual / grabado", "assets/img/software/software-comercial-campus.svg", "detalle/curso.html?id=odoo-erp&periodo=2026-06"),
+    item("qgis-basico", "QGIS Básico", "TW Educa", "GIS", "Mapas, capas, simbología, procesamiento espacial y entregables para proyectos.", "Acceso MOOC: Gratis", "Certificado desde S/ 49", "Virtual / grabado", "assets/img/cursos/curso-tecnologia-negocios.svg", "detalle/curso.html?id=qgis-basico&periodo=2026-06")
   ],
   software: [
     item("software-medida", "Desarrollo de software a medida", "TW Innova", "Software empresarial", "Sistemas diseñados según procesos internos, usuarios, reportes y operación real.", "Desde S/ 1,200", "Desde USD 360 vía PayPal", "Proyecto por alcance", "assets/img/software/software-comercial-dashboard.svg", "detalle/software.html?id=software-medida"),
@@ -86,10 +95,10 @@ const carouselData = {
     item("expedientes-tecnicos", "Expedientes técnicos", "TW Construye", "Construcción", "Apoyo en documentación, metrados, presupuestos y revisión técnica por alcance.", "Desde S/ 900", "Desde USD 270 vía PayPal", "Cotización", "assets/img/servicios/servicio-desarrollo-software.svg", "detalle/servicio.html?id=expedientes-tecnicos")
   ],
   salud: [
-    item("protesis", "Diseño de prótesis", "TW Salud y Vida / TW Bionic", "Prototipado biomédico", "Diseño, modelado y apoyo técnico para soluciones protésicas personalizadas.", "Desde S/ 300", "Desde USD 90 vía PayPal", "Evaluación previa", "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg", "detalle/servicio.html?id=protesis"),
-    item("ortesis", "Diseño de órtesis", "TW Salud y Vida / TW Bionic", "Tecnología médica", "Soporte técnico para diseño de órtesis, ajustes funcionales y prototipos.", "Desde S/ 250", "Desde USD 75 vía PayPal", "Evaluación previa", "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Prtesis_de_Pierna01.jpg", "detalle/servicio.html?id=ortesis"),
-    item("cad-biomedico", "Modelado CAD biomédico", "TW Salud y Vida / TW Bionic", "CAD", "Modelado 3D, piezas funcionales y preparación para fabricación o impresión 3D.", "Desde S/ 180", "Desde USD 55 vía PayPal", "Remoto", "assets/img/servicios/protesis_y_ortesis/TW_salud_y_vida_servicio_de_mantenimiento.png", "detalle/servicio.html?id=cad-biomedico"),
-    item("impresion-3d", "Impresión 3D", "TW Salud y Vida / TW Bionic", "Prototipado", "Prototipos físicos, pruebas de forma y fabricación por coordinación técnica.", "Desde S/ 120", "Desde USD 40 vía PayPal", "Cotización", "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.jpg", "detalle/servicio.html?id=impresion-3d")
+    item("protesis", "Diseño de prótesis", "TW Salud", "Prototipado biomédico", "Diseño, modelado y apoyo técnico para soluciones protésicas personalizadas.", "Desde S/ 300", "Desde USD 90 vía PayPal", "Evaluación previa", "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg", "detalle/servicio.html?id=protesis"),
+    item("ortesis", "Diseño de órtesis", "TW Salud", "Tecnología médica", "Soporte técnico para diseño de órtesis, ajustes funcionales y prototipos.", "Desde S/ 250", "Desde USD 75 vía PayPal", "Evaluación previa", "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Prtesis_de_Pierna01.jpg", "detalle/servicio.html?id=ortesis"),
+    item("cad-biomedico", "Modelado CAD biomédico", "TW Salud", "CAD", "Modelado 3D, piezas funcionales y preparación para fabricación o impresión 3D.", "Desde S/ 180", "Desde USD 55 vía PayPal", "Remoto", "assets/img/servicios/protesis_y_ortesis/TW_salud_y_vida_servicio_de_mantenimiento.png", "detalle/servicio.html?id=cad-biomedico"),
+    item("impresion-3d", "Impresión 3D", "TW Salud", "Prototipado", "Prototipos físicos, pruebas de forma y fabricación por coordinación técnica.", "Desde S/ 120", "Desde USD 40 vía PayPal", "Cotización", "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.jpg", "detalle/servicio.html?id=impresion-3d")
   ],
   productos: [
     item("plantillas-digitales", "Plantillas digitales", "Tecprog World Store", "Recurso digital", "Plantillas para organizar cursos, ventas, reportes, presupuestos y entregables.", "Desde S/ 29", "Desde USD 10 vía PayPal", "Descarga digital", "assets/img/productos/producto-solucion-digital.svg", "detalle/producto.html?id=plantillas-digitales"),

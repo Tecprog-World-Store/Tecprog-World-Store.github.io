@@ -2,14 +2,20 @@ const LINE_CATALOGS = {
   "tw-salud": {
     data: "../data/catalogo-tw-salud.json",
     title: "Catalogo TW Salud",
-    subtitle: "Diseno, prototipado, soporte tecnico, accesibilidad e investigacion aplicada con validacion profesional cuando corresponda.",
-    legal: "No se ofrecen dispositivos medicos listos para uso clinico sin evaluacion, autorizacion o validacion competente.",
+    subtitle: "Diseno tecnico, prototipado, soporte tecnico, accesibilidad e investigacion aplicada en salud con validacion profesional cuando corresponda.",
+    legal: "Los servicios de TW Salud se orientan a diseño, prototipado, soporte técnico, accesibilidad e investigación aplicada. La evaluación clínica, prescripción, adaptación médica y validación de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
   },
   "tw-innova": {
     data: "../data/catalogo-tw-innova.json",
     title: "Catalogo TW Innova",
     subtitle: "Software, hardware, automatizacion, XR, IA, soporte tecnologico y mantenimiento preventivo especializado.",
     legal: "No se realizan acciones que anulen garantias ni manipulaciones peligrosas; se prioriza diagnostico, configuracion, software y mantenimiento preventivo.",
+  },
+  "tw-interactive": {
+    data: "../data/catalogo-tw-interactive.json",
+    title: "Catalogo TW Interactive",
+    subtitle: "Servicios de ingenieria mecanica de fluidos, hidrologia, hidraulica, CFD, termofluidos, energia, aerodinamica, automatizacion de calculos y documentacion tecnica.",
+    legal: "Servicio tecnico de ingenieria y consultoria. Los resultados son referenciales segun datos disponibles, alcance contratado, supuestos de calculo, normativa aplicable y revision profesional competente cuando corresponda.",
   },
   "tw-inox": {
     data: "../data/catalogo-tw-inox.json",

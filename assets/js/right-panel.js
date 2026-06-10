@@ -41,6 +41,7 @@ function renderRightPanel() {
           <button type="button" data-copy-current>Copiar enlace</button>
           <button type="button" data-share-current>Compartir pagina</button>
           <a href="${twWhatsappHref("Hola, deseo cotizar un proyecto con Tecprog World E.I.R.L.")}">Cotizar proyecto</a>
+          <a href="${twPath("catalogo/tw-interactive.html")}">Servicios de ingenieria</a>
         </div>
       </article>
       <article class="quick-panel-card">
@@ -49,6 +50,7 @@ function renderRightPanel() {
           <a href="${twPath("catalogo/catalogo-general-tw-educa.html")}">Catalogo general TW Educa</a>
           <a href="${twPath("catalogo/tw-salud.html")}">Catalogo TW Salud</a>
           <a href="${twPath("catalogo/tw-innova.html")}">Catalogo TW Innova</a>
+          <a href="${twPath("catalogo/tw-interactive.html")}">Catalogo TW Interactive</a>
           <a href="${twPath("catalogo/tw-inox.html")}">Catalogo TW Inox</a>
           <a href="${twPath("catalogo/tw-construye.html")}">Catalogo TW Construye</a>
           <a href="${twPath("catalogo/catalogo-general-tw-educa-pdf.html")}">Catalogo mensual PDF</a>

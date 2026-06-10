@@ -1,5 +1,6 @@
 const WHATSAPP_NUMBER_DETAIL = "51952354282";
 const PAYPAL_URL_DETAIL = "https://www.paypal.com/paypalme/grupotecprog";
+const EDUCA_PRICE_NOTE = "Puedes revisar material introductorio gratuito. La certificación, evaluación, clases en vivo o acompañamiento especializado tienen costo.";
 
 const DETAIL_SOURCES = [
   { url: "../data/catalogo-general-cursos.json", type: "general" },
@@ -53,6 +54,12 @@ function normalizeCourse(item, sourceType) {
       modality: item.modalidad,
       pricePen: item.precio_peru_igv_soles ? `S/ ${item.precio_peru_igv_soles} IGV incluido` : "Consultar",
       priceUsd: item.precio_internacional_usd ? `USD ${item.precio_internacional_usd}` : "Consultar",
+      moocText: item.mooc_texto || (item.acceso_mooc_gratuito ? "Acceso MOOC: Gratis" : "Acceso MOOC: consultar"),
+      moocButton: item.boton_mooc || "Acceder gratis",
+      certificateText: item.certificado_texto || (item.certificado_desde_soles ? `Certificado desde S/ ${item.certificado_desde_soles}` : "Certificado: consultar"),
+      paidText: item.precio_pago_texto || (item.precio_peru_igv_soles ? `Acceso completo desde S/ ${item.precio_peru_igv_soles}` : "Acceso completo: consultar"),
+      priceNote: item.nota_precio_mooc || item.politica_precio || EDUCA_PRICE_NOTE,
+      modalityTags: item.modalidad_tags || [],
       shortDescription: item.descripcion_corta,
       longDescription: item.descripcion_larga,
       syllabus: item.temario_base || [],
@@ -79,6 +86,12 @@ function normalizeCourse(item, sourceType) {
     modality: item.modalidad || "Virtual",
     pricePen: item.precio_desde || item.precio || "Consultar",
     priceUsd: item.precio_usd || "Consultar",
+    moocText: item.mooc_texto || (item.acceso_mooc_gratuito ? "Acceso MOOC: Gratis" : "Acceso MOOC: consultar"),
+    moocButton: item.boton_mooc || "Acceder gratis",
+    certificateText: item.certificado_texto || (item.certificado_desde_soles ? `Certificado desde S/ ${item.certificado_desde_soles}` : "Certificado: consultar"),
+    paidText: item.precio_pago_texto || item.precio_desde || item.precio || "Acceso completo: consultar",
+    priceNote: item.nota_precio_mooc || EDUCA_PRICE_NOTE,
+    modalityTags: item.modalidad_tags || [],
     shortDescription: item.descripcion_corta || item.descripcion || "",
     longDescription: item.descripcion_larga || item.descripcion || "",
     syllabus: buildFallbackSyllabus(title, item.horas_certificables || 24),
@@ -168,6 +181,7 @@ async function renderDetail() {
           <p>${esc(current.shortDescription)}</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="${detailWhatsapp(current.whatsappMessage)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a class="btn btn-secondary" href="${detailWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${current.title}.`)}" target="_blank" rel="noopener noreferrer">${esc(current.moocButton)}</a>
             <a class="btn btn-secondary" href="mailto:grupotecprog@gmail.com">Solicitar cotizacion</a>
             <a class="btn btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">Solicitar pago PayPal</a>
             <a class="btn btn-secondary" href="${current.backHref}">${current.backLabel}</a>
@@ -185,6 +199,15 @@ async function renderDetail() {
           <article class="detail-block">
             <h2>Descripcion</h2>
             <p>${esc(current.longDescription)}</p>
+          </article>
+          <article class="detail-block">
+            <h2>Acceso gratuito y certificacion</h2>
+            <p>${esc(current.priceNote)}</p>
+            <ul class="check-list">
+              <li>${esc(current.moocText)}: material introductorio, temario, recursos publicos o videos abiertos cuando esten disponibles.</li>
+              <li>${esc(current.certificateText)}: no incluido en el acceso gratuito.</li>
+              <li>${esc(current.paidText)}: clases, evaluacion, acompanamiento o acceso completo segun modalidad.</li>
+            </ul>
           </article>
           <article class="detail-block">
             <h2>Temario base</h2>
@@ -213,16 +236,20 @@ async function renderDetail() {
               <div><dt>Horas certificables</dt><dd>${esc(current.hours)}</dd></div>
               <div><dt>Duracion</dt><dd>${esc(current.duration)}</dd></div>
               <div><dt>Modalidad</dt><dd>${esc(current.modality)}</dd></div>
-              <div><dt>Precio Peru</dt><dd>${esc(current.pricePen)}</dd></div>
+              <div><dt>Acceso MOOC</dt><dd>${esc(current.moocText)}</dd></div>
+              <div><dt>Certificado</dt><dd>${esc(current.certificateText)}</dd></div>
+              <div><dt>Acceso completo</dt><dd>${esc(current.paidText)}</dd></div>
+              <div><dt>Precio Peru anterior/referencial</dt><dd>${esc(current.pricePen)}</dd></div>
               <div><dt>Internacional</dt><dd>${esc(current.priceUsd)}</dd></div>
             </dl>
             <div class="catalog-actions">
+              <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${current.title}.`)}" target="_blank" rel="noopener noreferrer">${esc(current.moocButton)}</a>
               <a class="btn btn-small btn-primary" href="${detailWhatsapp(current.whatsappMessage)}" target="_blank" rel="noopener noreferrer">Inscripcion por WhatsApp</a>
               <a class="btn btn-small btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">PayPal</a>
               <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo una cotizacion institucional para ${current.title}.`)}" target="_blank" rel="noopener noreferrer">Cotizacion institucional</a>
               <a class="btn btn-small" href="${current.backHref}">${current.backLabel}</a>
             </div>
-            <p class="microcopy">Los precios son referenciales y pueden variar segun alcance, modalidad, fecha de inscripcion, requerimientos y promociones vigentes.</p>
+            <p class="microcopy">${esc(current.priceNote)}</p>
           </article>
         </aside>
       </div>

@@ -2,121 +2,168 @@
   {
     "id": "tw-investiga",
     "nombre": "TW Investiga",
-    "nombre_corto": "Investiga",
-    "descripcion_corta": "Investigación aplicada, desarrollo experimental, prototipos y documentación científica.",
-    "descripcion_larga": "Unidad orientada a investigación aplicada, desarrollo experimental, estudios técnicos, documentación científica, proyectos de innovación y transferencia tecnológica para empresas, profesionales e instituciones.",
+    "nombre_corto": "TW Investiga",
+    "descripcion_corta": "Investigacion aplicada, desarrollo experimental, prototipos y documentacion cientifica.",
+    "descripcion_larga": "Unidad orientada a investigacion aplicada, desarrollo experimental, estudios tecnicos, documentacion cientifica, proyectos de innovacion y transferencia tecnologica para empresas, profesionales e instituciones.",
     "servicios_principales": [
-      "Investigación aplicada",
+      "Investigacion aplicada",
       "Desarrollo experimental",
-      "Prototipos y pruebas técnicas",
-      "Documentación científica",
-      "Proyectos de innovación"
+      "Prototipos y pruebas tecnicas",
+      "Documentacion cientifica",
+      "Proyectos de innovacion"
     ],
-    "categorias": ["Investigación", "I+D", "Prototipos", "Transferencia tecnológica"],
+    "categorias": ["Investigacion", "I+D", "Prototipos", "Transferencia tecnologica"],
     "pagina": "lineas/tw-investiga.html",
     "facebook": "https://www.facebook.com/tecprogworld",
     "imagen": "assets/img/banners/hero-tech.svg",
     "icono": "assets/icons/innovation.svg",
-    "whatsapp_message": "Hola, deseo información sobre TW Investiga. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo informacion sobre TW Investiga. Vengo desde la web de Tecprog World E.I.R.L."
   },
   {
     "id": "tw-innova",
-    "nombre": "TW Innova para el desarrollo del software y el hardware",
+    "nombre": "TW Innova",
     "nombre_corto": "TW Innova",
-    "descripcion_corta": "Software, hardware aplicado, automatización, visión artificial, plugins y sistemas web.",
-    "descripcion_larga": "Unidad dedicada al desarrollo de software comercial y open-source, hardware aplicado, automatización, visión artificial, plugins, aplicaciones de escritorio, sistemas web, dashboards e integración tecnológica.",
+    "descripcion_corta": "Software, hardware aplicado, automatizacion, vision artificial, plugins y sistemas web.",
+    "descripcion_larga": "Unidad dedicada al desarrollo de software comercial y open-source, hardware aplicado, automatizacion, vision artificial, plugins, aplicaciones de escritorio, sistemas web, dashboards e integracion tecnologica.",
     "servicios_principales": [
       "Desarrollo de software a medida",
       "Plugins y herramientas open-source",
       "Aplicaciones de escritorio y sistemas web",
-      "Dashboards e integración tecnológica",
-      "Hardware aplicado y automatización"
+      "Dashboards e integracion tecnologica",
+      "Hardware aplicado y automatizacion"
     ],
-    "categorias": ["Software", "Hardware", "Automatización", "Dashboards", "Open-source"],
+    "categorias": ["Software", "Hardware", "Automatizacion", "Dashboards", "Open-source"],
     "pagina": "lineas/tw-innova.html",
     "facebook": "https://www.facebook.com/tecprogworld.innova",
     "imagen": "assets/img/software/software-comercial-dashboard.svg",
     "icono": "assets/icons/innovation.svg",
-    "whatsapp_message": "Hola, deseo información sobre TW Innova. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo informacion sobre TW Innova. Vengo desde la web de Tecprog World E.I.R.L."
   },
   {
     "id": "tw-educa",
-    "nombre": "TW Educa para ingenieros y científicos",
+    "nombre": "TW Educa",
     "nombre_corto": "TW Educa",
-    "descripcion_corta": "Cursos técnicos, científicos y profesionales para ingeniería, programación, GIS, CFD y herramientas aplicadas.",
-    "descripcion_larga": "Unidad de formación especializada para ingeniería, programación, GIS, CFD, métodos numéricos, LaTeX, Fortran, Python, MATLAB, OpenFOAM, QGIS, HP 50G, Odoo ERP y herramientas aplicadas.",
+    "descripcion_corta": "Cursos tecnicos, cientificos y profesionales para ingenieria, programacion, GIS, CFD y herramientas aplicadas.",
+    "descripcion_larga": "Unidad de formacion especializada para ingenieria, programacion, GIS, CFD, metodos numericos, LaTeX, Fortran, Python, MATLAB, OpenFOAM, QGIS, HP 50G, Odoo ERP y herramientas aplicadas.",
     "servicios_principales": [
-      "Cursos técnicos y científicos",
-      "Capacitación para empresas e instituciones",
+      "Cursos tecnicos y cientificos",
+      "Capacitacion para empresas e instituciones",
       "Materiales y compendios PDF",
-      "Talleres de programación e ingeniería",
+      "Talleres de programacion e ingenieria",
       "Rutas de aprendizaje aplicadas"
     ],
-    "categorias": ["Cursos", "Ingeniería", "Ciencia", "Programación", "Compendios"],
+    "categorias": ["Cursos", "Ingenieria", "Ciencia", "Programacion", "Compendios"],
     "pagina": "lineas/tw-educa.html",
     "facebook": "https://www.facebook.com/tecprogworld.educa",
     "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
     "icono": "assets/icons/education.svg",
-    "whatsapp_message": "Hola, deseo información sobre TW Educa. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo informacion sobre TW Educa. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive",
+    "nombre": "TW Interactive - Ingenieros Consultores",
+    "nombre_corto": "TW Interactive",
+    "descripcion_corta": "Servicios de ingenieria mecanica de fluidos, hidrologia, hidraulica, CFD, termofluidos, energia y documentacion tecnica.",
+    "descripcion_larga": "Unidad de servicios tecnicos de ingenieria mecanica de fluidos, consultoria, simulacion, modelamiento, automatizacion de calculos y documentacion tecnica para aplicaciones en Peru.",
+    "servicios_principales": [
+      "Hidraulica e hidrologia",
+      "Hidraulica fluvial",
+      "CFD y simulacion",
+      "Termofluidos",
+      "Turbomaquinas y energia",
+      "Aerodinamica",
+      "Documentacion tecnica y Python"
+    ],
+    "categorias": ["Hidrologia", "Hidraulica", "CFD", "Termofluidos", "Energia", "Aerodinamica", "Python"],
+    "pagina": "lineas/tw-interactive.html",
+    "facebook": "https://www.facebook.com/tecprogworld",
+    "imagen": "assets/img/banners/card-pattern.svg",
+    "icono": "assets/icons/innovation.svg",
+    "whatsapp_message": "Hola, deseo informacion sobre servicios de ingenieria de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
   },
   {
     "id": "tw-construye",
     "nombre": "TW Construye",
-    "nombre_corto": "Construye",
-    "descripcion_corta": "Construcción civil, metrados, presupuestos, planos, modelamiento y asistencia técnica.",
-    "descripcion_larga": "Unidad para servicios de construcción civil, metrados, presupuestos, ingeniería, planos, modelamiento, asistencia técnica y proyectos de arquitectura e ingeniería.",
+    "nombre_corto": "TW Construye",
+    "descripcion_corta": "Construccion civil, metrados, presupuestos, planos, modelamiento y asistencia tecnica.",
+    "descripcion_larga": "Unidad para servicios de construccion civil, metrados, presupuestos, ingenieria, planos, modelamiento, asistencia tecnica y proyectos de arquitectura e ingenieria, coordinando con profesionales habilitados cuando corresponda.",
     "servicios_principales": [
       "Metrados y presupuestos",
       "Planos y modelamiento",
-      "Asistencia técnica en obra",
-      "Expedientes y documentación",
-      "Proyectos de arquitectura e ingeniería"
+      "Asistencia tecnica en obra",
+      "Expedientes y documentacion",
+      "Proyectos de arquitectura e ingenieria"
     ],
-    "categorias": ["Construcción", "Ingeniería civil", "Presupuestos", "Planos"],
+    "categorias": ["Construccion", "Ingenieria civil", "Presupuestos", "Planos"],
     "pagina": "lineas/tw-construye.html",
     "facebook": "https://www.facebook.com/tecprogworld.construye",
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "icono": "assets/icons/build.svg",
-    "whatsapp_message": "Hola, deseo información sobre TW Construye. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo informacion sobre TW Construye. Vengo desde la web de Tecprog World E.I.R.L."
   },
   {
     "id": "tw-inox",
     "nombre": "TW Inox",
-    "nombre_corto": "Inox",
-    "descripcion_corta": "Metales, estructuras, soportes, fabricación, pintura, automatización de procesos y prototipado.",
-    "descripcion_larga": "Unidad para proyectos en metales, estructuras, soportes, fabricación, pintura, automatización de procesos, soluciones metalmecánicas y prototipado funcional.",
+    "nombre_corto": "TW Inox",
+    "descripcion_corta": "Metales, estructuras, soportes, fabricacion, pintura, automatizacion de procesos y prototipado.",
+    "descripcion_larga": "Unidad para proyectos en metales, estructuras, soportes, fabricacion, pintura, automatizacion de procesos, soluciones metalmecanicas y prototipado funcional, coordinando con tecnicos o profesionales habilitados cuando corresponda.",
     "servicios_principales": [
-      "Diseño de estructuras y soportes",
-      "Fabricación por requerimiento",
+      "Diseno de estructuras y soportes",
+      "Fabricacion por requerimiento",
       "Pintura y acabados",
-      "Automatización de procesos",
-      "Prototipado metalmecánico"
+      "Automatizacion de procesos",
+      "Prototipado metalmecanico"
     ],
-    "categorias": ["Metalmecánica", "Fabricación", "Estructuras", "Prototipado"],
+    "categorias": ["Metalmecanica", "Fabricacion", "Estructuras", "Prototipado"],
     "pagina": "lineas/tw-inox.html",
     "facebook": "https://www.facebook.com/tecprogworld",
     "imagen": "assets/img/banners/card-pattern.svg",
     "icono": "assets/icons/build.svg",
-    "whatsapp_message": "Hola, deseo información sobre TW Inox. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo informacion sobre TW Inox. Vengo desde la web de Tecprog World E.I.R.L."
   },
   {
-    "id": "tw-protesis-ortesis",
-    "nombre": "TW Prótesis y Órtesis",
-    "nombre_corto": "Prótesis y Órtesis",
-    "descripcion_corta": "Diseño, prototipado, CAD, impresión 3D, tecnología médica y dispositivos de apoyo.",
-    "descripcion_larga": "Unidad para diseño, prototipado, modelado CAD, impresión 3D, tecnología médica, asistencia técnica, soluciones inclusivas, prótesis, órtesis y dispositivos de apoyo.",
+    "id": "tw-salud",
+    "nombre": "TW Salud y Vida - Protesis y Tecnologia Medica",
+    "nombre_corto": "TW Salud",
+    "descripcion_corta": "Diseno, prototipado, soporte tecnico, accesibilidad, tecnologia medica e investigacion aplicada en salud.",
+    "descripcion_larga": "Unidad para diseno, prototipado, modelado CAD, impresion 3D, tecnologia medica, asistencia tecnica, accesibilidad, soluciones inclusivas, mantenimiento preventivo y documentacion tecnica. No se ofrecen dispositivos medicos listos para uso clinico sin evaluacion, autorizacion o validacion competente.",
     "servicios_principales": [
-      "Diseño de prótesis y órtesis",
-      "Modelado CAD biomédico",
-      "Impresión 3D y prototipado",
-      "Asistencia técnica",
-      "Dispositivos de apoyo"
+      "Protesis y ortesis",
+      "Tecnologia medica",
+      "Mantenimiento de equipos medicos",
+      "Vehiculos inclusivos",
+      "Accesibilidad",
+      "Brain Computer Interface",
+      "EEG aplicado",
+      "Prototipos biomedicos",
+      "Investigacion aplicada en salud"
     ],
-    "categorias": ["Prótesis", "Órtesis", "CAD", "Impresión 3D", "Tecnología médica"],
-    "pagina": "lineas/tw-protesis-ortesis.html",
+    "categorias": [
+      "Protesis y ortesis",
+      "Tecnologia medica",
+      "Mantenimiento de equipos medicos",
+      "Vehiculos inclusivos",
+      "Accesibilidad",
+      "Brain Computer Interface",
+      "EEG aplicado",
+      "Prototipos biomedicos",
+      "Investigacion aplicada en salud"
+    ],
+    "aliases": [
+      "TW Protesis y Ortesis",
+      "TW Bionic",
+      "TW Salud y Vida",
+      "Protesis y Tecnologia Medica",
+      "Protesis y Ortesis"
+    ],
+    "pagina": "lineas/tw-salud.html",
+    "rutas_preservadas": [
+      "lineas/tw-protesis-ortesis.html",
+      "lineas/tw-salud-vida.html"
+    ],
     "facebook": "https://www.facebook.com/twbionic/",
     "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
     "icono": "assets/icons/health.svg",
-    "whatsapp_message": "Hola, deseo información sobre TW Prótesis y Órtesis. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo informacion sobre TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
   }
 ]

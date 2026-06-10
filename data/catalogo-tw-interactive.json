@@ -1,0 +1,2528 @@
+[
+  {
+    "id": "tw-interactive-hidrologia-cuencas",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "An?lisis hidrol?gico de cuencas",
+    "servicio_producto": "An?lisis hidrol?gico de cuencas",
+    "oferta": "An?lisis hidrol?gico de cuencas",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Evaluaci?n hidrol?gica de cuencas para diagn?stico, planificaci?n y soporte de proyectos hidr?ulicos en Per?.",
+    "descripcion_larga": "An?lisis hidrol?gico de cuencas es un servicio de TW Interactive - Ingenieros Consultores orientado a Municipalidades, consultores, tesistas, empresas de ingenier?a. Se entrega con Informe t?cnico breve; mapas; tablas de par?metros; criterios de c?lculo, utilizando herramientas como QGIS, Python, hojas de c?lculo, datos SENAMHI/ANA cuando est?n disponibles. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Municipalidades",
+      "consultores",
+      "tesistas",
+      "empresas de ingenier?a"
+    ],
+    "entregables": [
+      "Informe t?cnico breve",
+      "mapas",
+      "tablas de par?metros",
+      "criterios de c?lculo"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "Python",
+      "hojas de c?lculo",
+      "datos SENAMHI/ANA cuando est?n disponibles"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Depende de calidad de datos hidrometeorol?gicos y cartograf?a disponible.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-hidrologia-cuencas&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar An?lisis hidrol?gico de cuencas de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-precipitacion-temperatura",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "Procesamiento de precipitaci?n y temperatura",
+    "servicio_producto": "Procesamiento de precipitaci?n y temperatura",
+    "oferta": "Procesamiento de precipitaci?n y temperatura",
+    "tipo": "Procesamiento de datos",
+    "descripcion_corta": "Ordenamiento, depuraci?n y an?lisis exploratorio de series de precipitaci?n y temperatura para estudios t?cnicos.",
+    "descripcion_larga": "Procesamiento de precipitaci?n y temperatura es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultores, estudiantes, instituciones, equipos ambientales. Se entrega con Base depurada; gr?ficos; estad?sticas; reporte de consistencia, utilizando herramientas como Python, pandas, Excel/LibreOffice Calc. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultores",
+      "estudiantes",
+      "instituciones",
+      "equipos ambientales"
+    ],
+    "entregables": [
+      "Base depurada",
+      "gr?ficos",
+      "estad?sticas",
+      "reporte de consistencia"
+    ],
+    "software_herramientas": [
+      "Python",
+      "pandas",
+      "Excel/LibreOffice Calc"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 80,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 80",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "No sustituye control oficial de calidad de datos de entidades competentes.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-precipitacion-temperatura&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Procesamiento de precipitaci?n y temperatura de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-delimitacion-cuencas-qgis",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "Delimitaci?n de cuencas con QGIS",
+    "servicio_producto": "Delimitaci?n de cuencas con QGIS",
+    "oferta": "Delimitaci?n de cuencas con QGIS",
+    "tipo": "Servicio GIS",
+    "descripcion_corta": "Delimitaci?n de cuencas, subcuencas, red de drenaje y par?metros morfom?tricos usando herramientas GIS.",
+    "descripcion_larga": "Delimitaci?n de cuencas con QGIS es un servicio de TW Interactive - Ingenieros Consultores orientado a Tesistas, consultores, municipalidades, proyectos rurales. Se entrega con Shapefiles/GeoPackage; mapas; tabla morfom?trica; memoria breve, utilizando herramientas como QGIS, GRASS/SAGA, DEM SRTM/ALOS seg?n disponibilidad. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Tesistas",
+      "consultores",
+      "municipalidades",
+      "proyectos rurales"
+    ],
+    "entregables": [
+      "Shapefiles/GeoPackage",
+      "mapas",
+      "tabla morfom?trica",
+      "memoria breve"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "GRASS/SAGA",
+      "DEM SRTM/ALOS seg?n disponibilidad"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 90,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 90,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 90",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "La precisi?n depende del DEM, escala y validaci?n cartogr?fica local.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-delimitacion-cuencas-qgis&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Delimitaci?n de cuencas con QGIS de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-curvas-idf-tormentas",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "Curvas IDF y an?lisis de tormentas",
+    "servicio_producto": "Curvas IDF y an?lisis de tormentas",
+    "oferta": "Curvas IDF y an?lisis de tormentas",
+    "tipo": "Estudio t?cnico",
+    "descripcion_corta": "Estimaci?n y revisi?n de curvas intensidad-duraci?n-frecuencia y tormentas de dise?o para drenaje y obras hidr?ulicas.",
+    "descripcion_larga": "Curvas IDF y an?lisis de tormentas es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultores, proyectistas, estudiantes, municipalidades. Se entrega con C?lculos; gr?ficos IDF; tormenta de dise?o; reporte t?cnico, utilizando herramientas como Python, hojas de c?lculo, datos pluviom?tricos. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultores",
+      "proyectistas",
+      "estudiantes",
+      "municipalidades"
+    ],
+    "entregables": [
+      "C?lculos",
+      "gr?ficos IDF",
+      "tormenta de dise?o",
+      "reporte t?cnico"
+    ],
+    "software_herramientas": [
+      "Python",
+      "hojas de c?lculo",
+      "datos pluviom?tricos"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 150,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 150",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Requiere series representativas; resultados sujetos a supuestos estad?sticos.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-curvas-idf-tormentas&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Curvas IDF y an?lisis de tormentas de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-caudales-maximos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "Estimaci?n de caudales m?ximos",
+    "servicio_producto": "Estimaci?n de caudales m?ximos",
+    "oferta": "Estimaci?n de caudales m?ximos",
+    "tipo": "Estudio t?cnico",
+    "descripcion_corta": "Estimaci?n preliminar de caudales m?ximos mediante m?todos hidrol?gicos adecuados al nivel de informaci?n disponible.",
+    "descripcion_larga": "Estimaci?n de caudales m?ximos es un servicio de TW Interactive - Ingenieros Consultores orientado a Proyectistas, consultores, instituciones p?blicas, tesistas. Se entrega con Memoria de c?lculo; hidrogramas si aplica; tablas de caudal; recomendaciones, utilizando herramientas como Python, HEC-HMS opcional, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Proyectistas",
+      "consultores",
+      "instituciones p?blicas",
+      "tesistas"
+    ],
+    "entregables": [
+      "Memoria de c?lculo",
+      "hidrogramas si aplica",
+      "tablas de caudal",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Python",
+      "HEC-HMS opcional",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 150,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 150",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Los caudales no deben usarse para dise?o definitivo sin revisi?n y datos suficientes.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-caudales-maximos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Estimaci?n de caudales m?ximos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-modelamiento-hidrologico-semidistribuido",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "Modelamiento hidrol?gico semi-distribuido",
+    "servicio_producto": "Modelamiento hidrol?gico semi-distribuido",
+    "oferta": "Modelamiento hidrol?gico semi-distribuido",
+    "tipo": "Modelamiento",
+    "descripcion_corta": "Configuraci?n preliminar de modelos hidrol?gicos semi-distribuidos para evaluar respuesta de cuencas.",
+    "descripcion_larga": "Modelamiento hidrol?gico semi-distribuido es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultoras, universidades, proyectos de investigaci?n. Se entrega con Modelo base; par?metros; escenarios; reporte t?cnico, utilizando herramientas como HEC-HMS, QGIS, Python. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultoras",
+      "universidades",
+      "proyectos de investigaci?n"
+    ],
+    "entregables": [
+      "Modelo base",
+      "par?metros",
+      "escenarios",
+      "reporte t?cnico"
+    ],
+    "software_herramientas": [
+      "HEC-HMS",
+      "QGIS",
+      "Python"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "prototipo",
+    "madurez": "prototipo",
+    "prioridad": "alta",
+    "nota_tecnica": "Requiere calibraci?n/validaci?n con datos observados cuando sea posible.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-modelamiento-hidrologico-semidistribuido&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Modelamiento hidrol?gico semi-distribuido de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-drenaje-pluvial-preliminar",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "Evaluaci?n preliminar de drenaje pluvial",
+    "servicio_producto": "Evaluaci?n preliminar de drenaje pluvial",
+    "oferta": "Evaluaci?n preliminar de drenaje pluvial",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Revisi?n preliminar de drenaje pluvial urbano o rural para identificar riesgos, caudales y alternativas conceptuales.",
+    "descripcion_larga": "Evaluaci?n preliminar de drenaje pluvial es un servicio de TW Interactive - Ingenieros Consultores orientado a Municipalidades, proyectistas, propietarios, consultores. Se entrega con Informe breve; esquema de drenaje; caudales estimados; recomendaciones, utilizando herramientas como QGIS, hojas de c?lculo, SWMM preliminar opcional. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Municipalidades",
+      "proyectistas",
+      "propietarios",
+      "consultores"
+    ],
+    "entregables": [
+      "Informe breve",
+      "esquema de drenaje",
+      "caudales estimados",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "hojas de c?lculo",
+      "SWMM preliminar opcional"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 150,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 150",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "No reemplaza expediente definitivo ni firma profesional requerida por normativa.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-drenaje-pluvial-preliminar&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Evaluaci?n preliminar de drenaje pluvial de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-disponibilidad-hidrica",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "An?lisis de disponibilidad h?drica",
+    "servicio_producto": "An?lisis de disponibilidad h?drica",
+    "oferta": "An?lisis de disponibilidad h?drica",
+    "tipo": "Estudio t?cnico",
+    "descripcion_corta": "An?lisis preliminar de disponibilidad h?drica con series, demandas y escenarios de soporte para proyectos.",
+    "descripcion_larga": "An?lisis de disponibilidad h?drica es un servicio de TW Interactive - Ingenieros Consultores orientado a Proyectos agr?colas, consultores, instituciones, tesistas. Se entrega con Balance preliminar; gr?ficos; tablas; informe t?cnico, utilizando herramientas como Python, hojas de c?lculo, datos hidrol?gicos p?blicos. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Proyectos agr?colas",
+      "consultores",
+      "instituciones",
+      "tesistas"
+    ],
+    "entregables": [
+      "Balance preliminar",
+      "gr?ficos",
+      "tablas",
+      "informe t?cnico"
+    ],
+    "software_herramientas": [
+      "Python",
+      "hojas de c?lculo",
+      "datos hidrol?gicos p?blicos"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Debe contrastarse con criterios y autorizaciones de autoridad competente.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-disponibilidad-hidrica&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar An?lisis de disponibilidad h?drica de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-erosion-sedimentos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica e hidrolog?a",
+    "categoria": "Hidr?ulica e hidrolog?a",
+    "servicio": "Estudios de erosi?n y sedimentos",
+    "servicio_producto": "Estudios de erosi?n y sedimentos",
+    "oferta": "Estudios de erosi?n y sedimentos",
+    "tipo": "Estudio t?cnico",
+    "descripcion_corta": "Evaluaci?n preliminar de erosi?n, producci?n de sedimentos y zonas cr?ticas mediante datos disponibles y GIS.",
+    "descripcion_larga": "Estudios de erosi?n y sedimentos es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultores ambientales, municipalidades, tesistas. Se entrega con Mapas; par?metros; informe de zonas cr?ticas; recomendaciones, utilizando herramientas como QGIS, RUSLE referencial, Python. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultores ambientales",
+      "municipalidades",
+      "tesistas"
+    ],
+    "entregables": [
+      "Mapas",
+      "par?metros",
+      "informe de zonas cr?ticas",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "RUSLE referencial",
+      "Python"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Resultados sujetos a escala, cobertura de suelo y validaci?n de campo.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-erosion-sedimentos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Estudios de erosi?n y sedimentos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-evaluacion-cauces",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica fluvial",
+    "categoria": "Hidr?ulica fluvial",
+    "servicio": "Evaluaci?n de cauces",
+    "servicio_producto": "Evaluaci?n de cauces",
+    "oferta": "Evaluaci?n de cauces",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Evaluaci?n t?cnica preliminar de cauces, m?rgenes, pendientes, secciones y condiciones hidr?ulicas generales.",
+    "descripcion_larga": "Evaluaci?n de cauces es un servicio de TW Interactive - Ingenieros Consultores orientado a Municipalidades, comunidades, consultores, proyectistas. Se entrega con Ficha de cauce; mapas; diagn?stico preliminar; recomendaciones, utilizando herramientas como QGIS, hojas de c?lculo, im?genes satelitales. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Municipalidades",
+      "comunidades",
+      "consultores",
+      "proyectistas"
+    ],
+    "entregables": [
+      "Ficha de cauce",
+      "mapas",
+      "diagn?stico preliminar",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "hojas de c?lculo",
+      "im?genes satelitales"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 150,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 150",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Requiere verificaci?n de campo para decisiones de obra.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-evaluacion-cauces&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Evaluaci?n de cauces de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-inundabilidad",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica fluvial",
+    "categoria": "Hidr?ulica fluvial",
+    "servicio": "An?lisis de inundabilidad",
+    "servicio_producto": "An?lisis de inundabilidad",
+    "oferta": "An?lisis de inundabilidad",
+    "tipo": "Estudio t?cnico",
+    "descripcion_corta": "An?lisis preliminar de zonas inundables con topograf?a disponible, caudales y criterios hidr?ulicos.",
+    "descripcion_larga": "An?lisis de inundabilidad es un servicio de TW Interactive - Ingenieros Consultores orientado a Municipalidades, consultoras, propietarios, instituciones. Se entrega con Mapas de inundabilidad; memoria; escenarios; recomendaciones, utilizando herramientas como HEC-RAS, QGIS, RAS Mapper. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Municipalidades",
+      "consultoras",
+      "propietarios",
+      "instituciones"
+    ],
+    "entregables": [
+      "Mapas de inundabilidad",
+      "memoria",
+      "escenarios",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "HEC-RAS",
+      "QGIS",
+      "RAS Mapper"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "No sustituye estudio oficial de fajas marginales ni expediente definitivo.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-inundabilidad&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar An?lisis de inundabilidad de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-modelamiento-hidraulico-1d-2d",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica fluvial",
+    "categoria": "Hidr?ulica fluvial",
+    "servicio": "Modelamiento hidr?ulico 1D/2D",
+    "servicio_producto": "Modelamiento hidr?ulico 1D/2D",
+    "oferta": "Modelamiento hidr?ulico 1D/2D",
+    "tipo": "Modelamiento",
+    "descripcion_corta": "Configuraci?n y an?lisis de modelos hidr?ulicos 1D/2D para cauces, quebradas o estructuras hidr?ulicas.",
+    "descripcion_larga": "Modelamiento hidr?ulico 1D/2D es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultoras, entidades p?blicas, universidades. Se entrega con Modelo; mapas; perfiles; reporte t?cnico; archivos de simulaci?n, utilizando herramientas como HEC-RAS 1D/2D, QGIS, RAS Mapper. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultoras",
+      "entidades p?blicas",
+      "universidades"
+    ],
+    "entregables": [
+      "Modelo",
+      "mapas",
+      "perfiles",
+      "reporte t?cnico",
+      "archivos de simulaci?n"
+    ],
+    "software_herramientas": [
+      "HEC-RAS 1D/2D",
+      "QGIS",
+      "RAS Mapper"
+    ],
+    "precio_peru_desde_soles": 1500,
+    "precio_internacional_desde_usd": 450,
+    "precio_desde_soles_igv": 1500,
+    "precio_internacional_usd": 450,
+    "precio_soles_texto": "Desde S/ 1,500",
+    "precio_usd_texto": "Desde USD 450",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Requiere topograf?a adecuada y revisi?n de condiciones de borde.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-modelamiento-hidraulico-1d-2d&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Modelamiento hidr?ulico 1D/2D de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-socavacion-preliminar",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica fluvial",
+    "categoria": "Hidr?ulica fluvial",
+    "servicio": "Socavaci?n preliminar",
+    "servicio_producto": "Socavaci?n preliminar",
+    "oferta": "Socavaci?n preliminar",
+    "tipo": "Informe t?cnico",
+    "descripcion_corta": "Estimaci?n preliminar de socavaci?n general o local en cauces, puentes o estructuras expuestas.",
+    "descripcion_larga": "Socavaci?n preliminar es un servicio de TW Interactive - Ingenieros Consultores orientado a Proyectistas, consultores, municipalidades. Se entrega con Memoria de c?lculo; criterios; recomendaciones de estudio complementario, utilizando herramientas como HEC-RAS, hojas de c?lculo, bibliograf?a t?cnica. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Proyectistas",
+      "consultores",
+      "municipalidades"
+    ],
+    "entregables": [
+      "Memoria de c?lculo",
+      "criterios",
+      "recomendaciones de estudio complementario"
+    ],
+    "software_herramientas": [
+      "HEC-RAS",
+      "hojas de c?lculo",
+      "bibliograf?a t?cnica"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 150,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 150",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "C?lculo preliminar; requiere geotecnia, campo y dise?o especializado para obra.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-socavacion-preliminar&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Socavaci?n preliminar de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-defensas-riberenas",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica fluvial",
+    "categoria": "Hidr?ulica fluvial",
+    "servicio": "Encauzamiento y defensas ribere?as",
+    "servicio_producto": "Encauzamiento y defensas ribere?as",
+    "oferta": "Encauzamiento y defensas ribere?as",
+    "tipo": "Consultor?a conceptual",
+    "descripcion_corta": "Evaluaci?n conceptual de alternativas de encauzamiento, protecci?n de m?rgenes y defensas ribere?as.",
+    "descripcion_larga": "Encauzamiento y defensas ribere?as es un servicio de TW Interactive - Ingenieros Consultores orientado a Municipalidades, comunidades, consultores. Se entrega con Alternativas conceptuales; esquema; criterios hidr?ulicos; recomendaciones, utilizando herramientas como QGIS, HEC-RAS preliminar, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Municipalidades",
+      "comunidades",
+      "consultores"
+    ],
+    "entregables": [
+      "Alternativas conceptuales",
+      "esquema",
+      "criterios hidr?ulicos",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "HEC-RAS preliminar",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "No reemplaza expediente t?cnico ni dise?o estructural/geot?cnico.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-defensas-riberenas&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Encauzamiento y defensas ribere?as de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-puentes-pasos-hidraulicos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica fluvial",
+    "categoria": "Hidr?ulica fluvial",
+    "servicio": "Evaluaci?n de puentes y pasos hidr?ulicos",
+    "servicio_producto": "Evaluaci?n de puentes y pasos hidr?ulicos",
+    "oferta": "Evaluaci?n de puentes y pasos hidr?ulicos",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Revisi?n hidr?ulica preliminar de luz, tirante, borde libre y comportamiento de pasos hidr?ulicos o puentes.",
+    "descripcion_larga": "Evaluaci?n de puentes y pasos hidr?ulicos es un servicio de TW Interactive - Ingenieros Consultores orientado a Proyectistas, consultoras, entidades locales. Se entrega con Informe breve; secciones; perfiles; recomendaciones, utilizando herramientas como HEC-RAS, QGIS, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Proyectistas",
+      "consultoras",
+      "entidades locales"
+    ],
+    "entregables": [
+      "Informe breve",
+      "secciones",
+      "perfiles",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "HEC-RAS",
+      "QGIS",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Requiere topograf?a y datos de caudal confiables para conclusiones de dise?o.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-puentes-pasos-hidraulicos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Evaluaci?n de puentes y pasos hidr?ulicos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-transporte-sedimentos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Hidr?ulica fluvial",
+    "categoria": "Hidr?ulica fluvial",
+    "servicio": "Transporte de sedimentos",
+    "servicio_producto": "Transporte de sedimentos",
+    "oferta": "Transporte de sedimentos",
+    "tipo": "Estudio preliminar",
+    "descripcion_corta": "An?lisis preliminar de transporte de sedimentos y tendencias morfol?gicas en cauces.",
+    "descripcion_larga": "Transporte de sedimentos es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultores, universidades, proyectos de investigaci?n. Se entrega con C?lculos; revisi?n metodol?gica; gr?ficos; reporte t?cnico, utilizando herramientas como HEC-RAS sediment preliminar, Python, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultores",
+      "universidades",
+      "proyectos de investigaci?n"
+    ],
+    "entregables": [
+      "C?lculos",
+      "revisi?n metodol?gica",
+      "gr?ficos",
+      "reporte t?cnico"
+    ],
+    "software_herramientas": [
+      "HEC-RAS sediment preliminar",
+      "Python",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "prototipo",
+    "madurez": "prototipo",
+    "prioridad": "alta",
+    "nota_tecnica": "Alta incertidumbre si no existen aforos s?lidos, granulometr?a o batimetr?a.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-transporte-sedimentos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Transporte de sedimentos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-cfd-preliminar",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "Simulaci?n CFD preliminar",
+    "servicio_producto": "Simulaci?n CFD preliminar",
+    "oferta": "Simulaci?n CFD preliminar",
+    "tipo": "Simulaci?n",
+    "descripcion_corta": "Simulaci?n CFD preliminar para visualizar patrones de flujo, presi?n, velocidad y zonas de recirculaci?n.",
+    "descripcion_larga": "Simulaci?n CFD preliminar es un servicio de TW Interactive - Ingenieros Consultores orientado a Empresas, tesistas, dise?adores, equipos de I+D. Se entrega con Caso base; im?genes; campos principales; informe breve, utilizando herramientas como OpenFOAM, ParaView, Gmsh/Salome. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Empresas",
+      "tesistas",
+      "dise?adores",
+      "equipos de I+D"
+    ],
+    "entregables": [
+      "Caso base",
+      "im?genes",
+      "campos principales",
+      "informe breve"
+    ],
+    "software_herramientas": [
+      "OpenFOAM",
+      "ParaView",
+      "Gmsh/Salome"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Resultados sujetos a mallado, condiciones de borde y supuestos de turbulencia.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-cfd-preliminar&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Simulaci?n CFD preliminar de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-flujo-interno-ductos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "Flujo interno en ductos",
+    "servicio_producto": "Flujo interno en ductos",
+    "oferta": "Flujo interno en ductos",
+    "tipo": "Simulaci?n",
+    "descripcion_corta": "An?lisis de flujo interno en ductos, p?rdidas, distribuci?n de velocidad y presi?n para evaluaci?n preliminar.",
+    "descripcion_larga": "Flujo interno en ductos es un servicio de TW Interactive - Ingenieros Consultores orientado a Ingenieros, empresas, tesistas, proyectistas HVAC. Se entrega con Modelo; resultados; gr?ficos; recomendaciones, utilizando herramientas como OpenFOAM, ParaView, Python. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Ingenieros",
+      "empresas",
+      "tesistas",
+      "proyectistas HVAC"
+    ],
+    "entregables": [
+      "Modelo",
+      "resultados",
+      "gr?ficos",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "OpenFOAM",
+      "ParaView",
+      "Python"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "No reemplaza dise?o normativo ni balance final de sistemas.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-flujo-interno-ductos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Flujo interno en ductos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-flujo-externo-geometrias",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "Flujo externo alrededor de geometr?as",
+    "servicio_producto": "Flujo externo alrededor de geometr?as",
+    "oferta": "Flujo externo alrededor de geometr?as",
+    "tipo": "Simulaci?n",
+    "descripcion_corta": "Simulaci?n preliminar de flujo externo alrededor de cuerpos, perfiles, estructuras o geometr?as simples.",
+    "descripcion_larga": "Flujo externo alrededor de geometr?as es un servicio de TW Interactive - Ingenieros Consultores orientado a Dise?adores, investigadores, estudiantes, empresas. Se entrega con Dominio CFD; resultados visuales; coeficientes referenciales; reporte, utilizando herramientas como OpenFOAM, ParaView, Gmsh. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Dise?adores",
+      "investigadores",
+      "estudiantes",
+      "empresas"
+    ],
+    "entregables": [
+      "Dominio CFD",
+      "resultados visuales",
+      "coeficientes referenciales",
+      "reporte"
+    ],
+    "software_herramientas": [
+      "OpenFOAM",
+      "ParaView",
+      "Gmsh"
+    ],
+    "precio_peru_desde_soles": 699,
+    "precio_internacional_desde_usd": 220,
+    "precio_desde_soles_igv": 699,
+    "precio_internacional_usd": 220,
+    "precio_soles_texto": "Desde S/ 699",
+    "precio_usd_texto": "Desde USD 220",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Requiere validaci?n experimental o bibliogr?fica para decisiones cr?ticas.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-flujo-externo-geometrias&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Flujo externo alrededor de geometr?as de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-presion-velocidad",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "An?lisis de presi?n y velocidad",
+    "servicio_producto": "An?lisis de presi?n y velocidad",
+    "oferta": "An?lisis de presi?n y velocidad",
+    "tipo": "Postproceso CFD",
+    "descripcion_corta": "Postprocesamiento de campos de presi?n, velocidad, vorticidad y l?neas de corriente para interpretaci?n t?cnica.",
+    "descripcion_larga": "An?lisis de presi?n y velocidad es un servicio de TW Interactive - Ingenieros Consultores orientado a Tesistas, ingenieros, equipos de simulaci?n. Se entrega con Im?genes; gr?ficos; tablas; explicaci?n t?cnica, utilizando herramientas como ParaView, Python, OpenFOAM. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Tesistas",
+      "ingenieros",
+      "equipos de simulaci?n"
+    ],
+    "entregables": [
+      "Im?genes",
+      "gr?ficos",
+      "tablas",
+      "explicaci?n t?cnica"
+    ],
+    "software_herramientas": [
+      "ParaView",
+      "Python",
+      "OpenFOAM"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 100,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 100,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 100",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "La interpretaci?n depende de la calidad del modelo num?rico original.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-presion-velocidad&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar An?lisis de presi?n y velocidad de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-paraview",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "Visualizaci?n en ParaView",
+    "servicio_producto": "Visualizaci?n en ParaView",
+    "oferta": "Visualizaci?n en ParaView",
+    "tipo": "Capacitaci?n/Servicio",
+    "descripcion_corta": "Visualizaci?n t?cnica de resultados CFD o datos de simulaci?n en ParaView para informes y presentaciones.",
+    "descripcion_larga": "Visualizaci?n en ParaView es un servicio de TW Interactive - Ingenieros Consultores orientado a Estudiantes, docentes, consultores, equipos t?cnicos. Se entrega con Escenas; capturas; animaciones b?sicas; gu?a de visualizaci?n, utilizando herramientas como ParaView. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Estudiantes",
+      "docentes",
+      "consultores",
+      "equipos t?cnicos"
+    ],
+    "entregables": [
+      "Escenas",
+      "capturas",
+      "animaciones b?sicas",
+      "gu?a de visualizaci?n"
+    ],
+    "software_herramientas": [
+      "ParaView"
+    ],
+    "precio_peru_desde_soles": 199,
+    "precio_internacional_desde_usd": 80,
+    "precio_desde_soles_igv": 199,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 199",
+    "precio_usd_texto": "Desde USD 80",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Servicio de postproceso; no modifica la validez f?sica de la simulaci?n fuente.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-paraview&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Visualizaci?n en ParaView de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-mallado-preprocesamiento",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "Mallado y preprocesamiento",
+    "servicio_producto": "Mallado y preprocesamiento",
+    "oferta": "Mallado y preprocesamiento",
+    "tipo": "Servicio t?cnico",
+    "descripcion_corta": "Preparaci?n geom?trica, mallado preliminar y condiciones de borde para casos CFD educativos o exploratorios.",
+    "descripcion_larga": "Mallado y preprocesamiento es un servicio de TW Interactive - Ingenieros Consultores orientado a Tesistas, investigadores, ingenieros CFD. Se entrega con Malla base; archivos de caso; reporte de calidad; recomendaciones, utilizando herramientas como Gmsh, Salome, snappyHexMesh, OpenFOAM. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Tesistas",
+      "investigadores",
+      "ingenieros CFD"
+    ],
+    "entregables": [
+      "Malla base",
+      "archivos de caso",
+      "reporte de calidad",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Gmsh",
+      "Salome",
+      "snappyHexMesh",
+      "OpenFOAM"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "La malla debe verificarse con independencia de malla para estudios formales.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-mallado-preprocesamiento&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Mallado y preprocesamiento de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-openfoam-basicos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "Casos OpenFOAM b?sicos",
+    "servicio_producto": "Casos OpenFOAM b?sicos",
+    "oferta": "Casos OpenFOAM b?sicos",
+    "tipo": "Capacitaci?n/Proyecto",
+    "descripcion_corta": "Configuraci?n de casos b?sicos en OpenFOAM para aprendizaje, validaci?n conceptual o prototipos de simulaci?n.",
+    "descripcion_larga": "Casos OpenFOAM b?sicos es un servicio de TW Interactive - Ingenieros Consultores orientado a Estudiantes, docentes, investigadores, empresas en adopci?n tecnol?gica. Se entrega con Caso OpenFOAM; explicaci?n; scripts; reporte breve, utilizando herramientas como OpenFOAM, ParaView, Linux. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Estudiantes",
+      "docentes",
+      "investigadores",
+      "empresas en adopci?n tecnol?gica"
+    ],
+    "entregables": [
+      "Caso OpenFOAM",
+      "explicaci?n",
+      "scripts",
+      "reporte breve"
+    ],
+    "software_herramientas": [
+      "OpenFOAM",
+      "ParaView",
+      "Linux"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 100,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 100,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 100",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "No se afirma certificaci?n oficial de OpenFOAM; formaci?n independiente.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-openfoam-basicos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Casos OpenFOAM b?sicos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-reporte-cfd",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "CFD y simulaci?n",
+    "categoria": "CFD y simulaci?n",
+    "servicio": "Reporte t?cnico CFD",
+    "servicio_producto": "Reporte t?cnico CFD",
+    "oferta": "Reporte t?cnico CFD",
+    "tipo": "Documentaci?n t?cnica",
+    "descripcion_corta": "Elaboraci?n de reporte t?cnico CFD con metodolog?a, supuestos, dominio, malla, resultados y limitaciones.",
+    "descripcion_larga": "Reporte t?cnico CFD es un servicio de TW Interactive - Ingenieros Consultores orientado a Tesistas, consultores, equipos I+D. Se entrega con Informe t?cnico; figuras; tablas; anexos de configuraci?n, utilizando herramientas como LaTeX/Word, ParaView, Python. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Tesistas",
+      "consultores",
+      "equipos I+D"
+    ],
+    "entregables": [
+      "Informe t?cnico",
+      "figuras",
+      "tablas",
+      "anexos de configuraci?n"
+    ],
+    "software_herramientas": [
+      "LaTeX/Word",
+      "ParaView",
+      "Python"
+    ],
+    "precio_peru_desde_soles": 199,
+    "precio_internacional_desde_usd": 80,
+    "precio_desde_soles_igv": 199,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 199",
+    "precio_usd_texto": "Desde USD 80",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Reporte basado en informaci?n entregada; no certifica resultados sin auditor?a completa.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-reporte-cfd&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Reporte t?cnico CFD de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-transferencia-calor",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Termofluidos",
+    "categoria": "Termofluidos",
+    "servicio": "Transferencia de calor b?sica",
+    "servicio_producto": "Transferencia de calor b?sica",
+    "oferta": "Transferencia de calor b?sica",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "C?lculo y revisi?n b?sica de conducci?n, convecci?n o radiaci?n para equipos, piezas o procesos.",
+    "descripcion_larga": "Transferencia de calor b?sica es un servicio de TW Interactive - Ingenieros Consultores orientado a Estudiantes, empresas, dise?adores, t?cnicos. Se entrega con Memoria de c?lculo; gr?ficos; recomendaciones; supuestos, utilizando herramientas como Python, hojas de c?lculo, bibliograf?a t?cnica. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Estudiantes",
+      "empresas",
+      "dise?adores",
+      "t?cnicos"
+    ],
+    "entregables": [
+      "Memoria de c?lculo",
+      "gr?ficos",
+      "recomendaciones",
+      "supuestos"
+    ],
+    "software_herramientas": [
+      "Python",
+      "hojas de c?lculo",
+      "bibliograf?a t?cnica"
+    ],
+    "precio_peru_desde_soles": 199,
+    "precio_internacional_desde_usd": 80,
+    "precio_desde_soles_igv": 199,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 199",
+    "precio_usd_texto": "Desde USD 80",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "C?lculos preliminares sujetos a propiedades, geometr?a y condiciones reales.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-transferencia-calor&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Transferencia de calor b?sica de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-evaluacion-termica-equipos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Termofluidos",
+    "categoria": "Termofluidos",
+    "servicio": "Evaluaci?n t?rmica de equipos",
+    "servicio_producto": "Evaluaci?n t?rmica de equipos",
+    "oferta": "Evaluaci?n t?rmica de equipos",
+    "tipo": "Informe t?cnico",
+    "descripcion_corta": "Evaluaci?n preliminar de temperatura, disipaci?n, ventilaci?n o r?gimen t?rmico en equipos y gabinetes.",
+    "descripcion_larga": "Evaluaci?n t?rmica de equipos es un servicio de TW Interactive - Ingenieros Consultores orientado a Empresas, talleres, laboratorios, proyectos electr?nicos. Se entrega con Informe breve; mediciones si aplica; recomendaciones de mejora, utilizando herramientas como Python, termograf?a si disponible, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Empresas",
+      "talleres",
+      "laboratorios",
+      "proyectos electr?nicos"
+    ],
+    "entregables": [
+      "Informe breve",
+      "mediciones si aplica",
+      "recomendaciones de mejora"
+    ],
+    "software_herramientas": [
+      "Python",
+      "termograf?a si disponible",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "No sustituye certificaci?n de seguridad el?ctrica ni ensayos normalizados.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-evaluacion-termica-equipos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Evaluaci?n t?rmica de equipos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-intercambiadores-preliminares",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Termofluidos",
+    "categoria": "Termofluidos",
+    "servicio": "Intercambiadores de calor preliminares",
+    "servicio_producto": "Intercambiadores de calor preliminares",
+    "oferta": "Intercambiadores de calor preliminares",
+    "tipo": "Dise?o preliminar",
+    "descripcion_corta": "Dimensionamiento o revisi?n preliminar de intercambiadores de calor bajo supuestos de operaci?n disponibles.",
+    "descripcion_larga": "Intercambiadores de calor preliminares es un servicio de TW Interactive - Ingenieros Consultores orientado a Empresas, estudiantes, proyectistas, t?cnicos. Se entrega con Memoria de c?lculo; selecci?n preliminar; gr?ficos; recomendaciones, utilizando herramientas como Python, hojas de c?lculo, EES opcional. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Empresas",
+      "estudiantes",
+      "proyectistas",
+      "t?cnicos"
+    ],
+    "entregables": [
+      "Memoria de c?lculo",
+      "selecci?n preliminar",
+      "gr?ficos",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Python",
+      "hojas de c?lculo",
+      "EES opcional"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Requiere validaci?n con fabricante, normas y condiciones reales de operaci?n.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-intercambiadores-preliminares&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Intercambiadores de calor preliminares de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-ventilacion-industrial",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Termofluidos",
+    "categoria": "Termofluidos",
+    "servicio": "Ventilaci?n industrial",
+    "servicio_producto": "Ventilaci?n industrial",
+    "oferta": "Ventilaci?n industrial",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Evaluaci?n preliminar de ventilaci?n, renovaci?n de aire y extracci?n en espacios o procesos industriales.",
+    "descripcion_larga": "Ventilaci?n industrial es un servicio de TW Interactive - Ingenieros Consultores orientado a Talleres, peque?as industrias, consultores, instituciones. Se entrega con Diagn?stico; caudales preliminares; esquema; recomendaciones, utilizando herramientas como Hojas de c?lculo, QGIS opcional, CFD preliminar opcional. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Talleres",
+      "peque?as industrias",
+      "consultores",
+      "instituciones"
+    ],
+    "entregables": [
+      "Diagn?stico",
+      "caudales preliminares",
+      "esquema",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Hojas de c?lculo",
+      "QGIS opcional",
+      "CFD preliminar opcional"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "No reemplaza dise?o final ni cumplimiento normativo especializado.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-ventilacion-industrial&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Ventilaci?n industrial de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-refrigeracion-aire-acondicionado",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Termofluidos",
+    "categoria": "Termofluidos",
+    "servicio": "Refrigeraci?n y aire acondicionado",
+    "servicio_producto": "Refrigeraci?n y aire acondicionado",
+    "oferta": "Refrigeraci?n y aire acondicionado",
+    "tipo": "Revisi?n t?cnica",
+    "descripcion_corta": "Revisi?n preliminar de cargas t?rmicas, selecci?n conceptual y desempe?o de sistemas HVAC/R.",
+    "descripcion_larga": "Refrigeraci?n y aire acondicionado es un servicio de TW Interactive - Ingenieros Consultores orientado a Locales, consultores, t?cnicos, estudiantes. Se entrega con C?lculo preliminar; recomendaciones; reporte; supuestos, utilizando herramientas como Hojas de c?lculo, Python. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Locales",
+      "consultores",
+      "t?cnicos",
+      "estudiantes"
+    ],
+    "entregables": [
+      "C?lculo preliminar",
+      "recomendaciones",
+      "reporte",
+      "supuestos"
+    ],
+    "software_herramientas": [
+      "Hojas de c?lculo",
+      "Python"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "No sustituye dise?o firmado ni instalaci?n por t?cnico autorizado.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-refrigeracion-aire-acondicionado&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Refrigeraci?n y aire acondicionado de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-eficiencia-energetica",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Termofluidos",
+    "categoria": "Termofluidos",
+    "servicio": "An?lisis de eficiencia energ?tica",
+    "servicio_producto": "An?lisis de eficiencia energ?tica",
+    "oferta": "An?lisis de eficiencia energ?tica",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Revisi?n preliminar de consumos, oportunidades de mejora y eficiencia en sistemas t?rmicos o de bombeo.",
+    "descripcion_larga": "An?lisis de eficiencia energ?tica es un servicio de TW Interactive - Ingenieros Consultores orientado a Empresas, instituciones, talleres, consultores. Se entrega con Matriz de oportunidades; c?lculos; reporte; priorizaci?n, utilizando herramientas como Python, hojas de c?lculo, mediciones disponibles. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Empresas",
+      "instituciones",
+      "talleres",
+      "consultores"
+    ],
+    "entregables": [
+      "Matriz de oportunidades",
+      "c?lculos",
+      "reporte",
+      "priorizaci?n"
+    ],
+    "software_herramientas": [
+      "Python",
+      "hojas de c?lculo",
+      "mediciones disponibles"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Resultados dependen de datos de operaci?n y mediciones confiables.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-eficiencia-energetica&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar An?lisis de eficiencia energ?tica de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-evaluacion-bombas",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Turbom?quinas y energ?a",
+    "categoria": "Turbom?quinas y energ?a",
+    "servicio": "Evaluaci?n preliminar de bombas",
+    "servicio_producto": "Evaluaci?n preliminar de bombas",
+    "oferta": "Evaluaci?n preliminar de bombas",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Revisi?n preliminar de bombas, punto de operaci?n, altura din?mica, caudal y condiciones de instalaci?n.",
+    "descripcion_larga": "Evaluaci?n preliminar de bombas es un servicio de TW Interactive - Ingenieros Consultores orientado a Empresas, proyectistas, t?cnicos, agricultores. Se entrega con Memoria de c?lculo; curva referencial; recomendaciones; lista de datos faltantes, utilizando herramientas como Hojas de c?lculo, Python, curvas de fabricante. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Empresas",
+      "proyectistas",
+      "t?cnicos",
+      "agricultores"
+    ],
+    "entregables": [
+      "Memoria de c?lculo",
+      "curva referencial",
+      "recomendaciones",
+      "lista de datos faltantes"
+    ],
+    "software_herramientas": [
+      "Hojas de c?lculo",
+      "Python",
+      "curvas de fabricante"
+    ],
+    "precio_peru_desde_soles": 199,
+    "precio_internacional_desde_usd": 80,
+    "precio_desde_soles_igv": 199,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 199",
+    "precio_usd_texto": "Desde USD 80",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Requiere curva de fabricante y datos de sistema para selecci?n definitiva.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-evaluacion-bombas&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Evaluaci?n preliminar de bombas de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-curvas-bombas",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Turbom?quinas y energ?a",
+    "categoria": "Turbom?quinas y energ?a",
+    "servicio": "Curvas de operaci?n de bombas",
+    "servicio_producto": "Curvas de operaci?n de bombas",
+    "oferta": "Curvas de operaci?n de bombas",
+    "tipo": "Procesamiento t?cnico",
+    "descripcion_corta": "Digitalizaci?n, comparaci?n o interpretaci?n de curvas de bombas para an?lisis de operaci?n.",
+    "descripcion_larga": "Curvas de operaci?n de bombas es un servicio de TW Interactive - Ingenieros Consultores orientado a T?cnicos, empresas, estudiantes, proyectistas. Se entrega con Curvas procesadas; punto de operaci?n; gr?ficos; reporte breve, utilizando herramientas como Python, WebPlotDigitizer, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "T?cnicos",
+      "empresas",
+      "estudiantes",
+      "proyectistas"
+    ],
+    "entregables": [
+      "Curvas procesadas",
+      "punto de operaci?n",
+      "gr?ficos",
+      "reporte breve"
+    ],
+    "software_herramientas": [
+      "Python",
+      "WebPlotDigitizer",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 100,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 100,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 100",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "La precisi?n depende de la calidad de curva original y datos de instalaci?n.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-curvas-bombas&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Curvas de operaci?n de bombas de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-sistemas-bombeo",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Turbom?quinas y energ?a",
+    "categoria": "Turbom?quinas y energ?a",
+    "servicio": "Sistemas de bombeo",
+    "servicio_producto": "Sistemas de bombeo",
+    "oferta": "Sistemas de bombeo",
+    "tipo": "Estudio t?cnico",
+    "descripcion_corta": "An?lisis preliminar de sistema de bombeo, p?rdidas, altura din?mica, consumo energ?tico y alternativas.",
+    "descripcion_larga": "Sistemas de bombeo es un servicio de TW Interactive - Ingenieros Consultores orientado a Agricultura, saneamiento, edificios, peque?as industrias. Se entrega con Memoria; diagrama; c?lculos; recomendaciones, utilizando herramientas como Python, EPANET opcional, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Agricultura",
+      "saneamiento",
+      "edificios",
+      "peque?as industrias"
+    ],
+    "entregables": [
+      "Memoria",
+      "diagrama",
+      "c?lculos",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Python",
+      "EPANET opcional",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "No reemplaza expediente electromec?nico ni especificaci?n final de proveedor.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-sistemas-bombeo&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Sistemas de bombeo de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-ventiladores-compresores",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Turbom?quinas y energ?a",
+    "categoria": "Turbom?quinas y energ?a",
+    "servicio": "Ventiladores y compresores",
+    "servicio_producto": "Ventiladores y compresores",
+    "oferta": "Ventiladores y compresores",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "Evaluaci?n preliminar de ventiladores o compresores en t?rminos de caudal, presi?n, potencia y eficiencia.",
+    "descripcion_larga": "Ventiladores y compresores es un servicio de TW Interactive - Ingenieros Consultores orientado a Talleres, industrias, estudiantes, consultores. Se entrega con C?lculos; curvas referenciales; reporte; recomendaciones, utilizando herramientas como Hojas de c?lculo, Python, datos de fabricante. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Talleres",
+      "industrias",
+      "estudiantes",
+      "consultores"
+    ],
+    "entregables": [
+      "C?lculos",
+      "curvas referenciales",
+      "reporte",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Hojas de c?lculo",
+      "Python",
+      "datos de fabricante"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Requiere datos de fabricante y mediciones para conclusiones operativas.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-ventiladores-compresores&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Ventiladores y compresores de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-hidroelectricas-preliminares",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Turbom?quinas y energ?a",
+    "categoria": "Turbom?quinas y energ?a",
+    "servicio": "Centrales hidroel?ctricas preliminares",
+    "servicio_producto": "Centrales hidroel?ctricas preliminares",
+    "oferta": "Centrales hidroel?ctricas preliminares",
+    "tipo": "Prefactibilidad t?cnica",
+    "descripcion_corta": "Evaluaci?n preliminar de potencial hidroenerg?tico con caudal, salto, potencia estimada y restricciones t?cnicas.",
+    "descripcion_larga": "Centrales hidroel?ctricas preliminares es un servicio de TW Interactive - Ingenieros Consultores orientado a Comunidades, consultores, instituciones, tesistas. Se entrega con Estimaci?n de potencia; esquema; an?lisis preliminar; riesgos, utilizando herramientas como QGIS, Python, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Comunidades",
+      "consultores",
+      "instituciones",
+      "tesistas"
+    ],
+    "entregables": [
+      "Estimaci?n de potencia",
+      "esquema",
+      "an?lisis preliminar",
+      "riesgos"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "Python",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 1500,
+    "precio_internacional_desde_usd": 450,
+    "precio_desde_soles_igv": 1500,
+    "precio_internacional_usd": 450,
+    "precio_soles_texto": "Desde S/ 1,500",
+    "precio_usd_texto": "Desde USD 450",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Prefactibilidad t?cnica; requiere estudios ambientales, sociales y permisos aplicables.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-hidroelectricas-preliminares&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Centrales hidroel?ctricas preliminares de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-energias-no-convencionales",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Turbom?quinas y energ?a",
+    "categoria": "Turbom?quinas y energ?a",
+    "servicio": "Energ?as no convencionales",
+    "servicio_producto": "Energ?as no convencionales",
+    "oferta": "Energ?as no convencionales",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "An?lisis preliminar de alternativas energ?ticas no convencionales para proyectos rurales, educativos o productivos.",
+    "descripcion_larga": "Energ?as no convencionales es un servicio de TW Interactive - Ingenieros Consultores orientado a Instituciones, comunidades, emprendedores, consultores. Se entrega con Matriz comparativa; estimaci?n preliminar; recomendaciones; informe, utilizando herramientas como Python, hojas de c?lculo, datos meteorol?gicos p?blicos. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Instituciones",
+      "comunidades",
+      "emprendedores",
+      "consultores"
+    ],
+    "entregables": [
+      "Matriz comparativa",
+      "estimaci?n preliminar",
+      "recomendaciones",
+      "informe"
+    ],
+    "software_herramientas": [
+      "Python",
+      "hojas de c?lculo",
+      "datos meteorol?gicos p?blicos"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Resultados sujetos a datos locales, costos y normativa aplicable.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-energias-no-convencionales&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Energ?as no convencionales de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-aerodinamico-conceptual",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Aerodin?mica",
+    "categoria": "Aerodin?mica",
+    "servicio": "An?lisis aerodin?mico conceptual",
+    "servicio_producto": "An?lisis aerodin?mico conceptual",
+    "oferta": "An?lisis aerodin?mico conceptual",
+    "tipo": "Consultor?a t?cnica",
+    "descripcion_corta": "An?lisis conceptual de comportamiento aerodin?mico de cuerpos, perfiles o formas para decisiones tempranas de dise?o.",
+    "descripcion_larga": "An?lisis aerodin?mico conceptual es un servicio de TW Interactive - Ingenieros Consultores orientado a Dise?adores, estudiantes, investigadores, empresas. Se entrega con Informe breve; criterios; visualizaciones; recomendaciones, utilizando herramientas como CFD preliminar, Python, bibliograf?a t?cnica. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Dise?adores",
+      "estudiantes",
+      "investigadores",
+      "empresas"
+    ],
+    "entregables": [
+      "Informe breve",
+      "criterios",
+      "visualizaciones",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "CFD preliminar",
+      "Python",
+      "bibliograf?a t?cnica"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Conclusiones conceptuales; requiere validaci?n experimental o CFD refinado para dise?o final.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-aerodinamico-conceptual&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar An?lisis aerodin?mico conceptual de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-flujo-alrededor-cuerpos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Aerodin?mica",
+    "categoria": "Aerodin?mica",
+    "servicio": "Flujo alrededor de cuerpos",
+    "servicio_producto": "Flujo alrededor de cuerpos",
+    "oferta": "Flujo alrededor de cuerpos",
+    "tipo": "Simulaci?n",
+    "descripcion_corta": "Simulaci?n o an?lisis preliminar de flujo alrededor de cuerpos para visualizar separaci?n, estela y presiones.",
+    "descripcion_larga": "Flujo alrededor de cuerpos es un servicio de TW Interactive - Ingenieros Consultores orientado a Estudiantes, investigadores, dise?adores. Se entrega con Caso CFD; visualizaciones; reporte; recomendaciones, utilizando herramientas como OpenFOAM, ParaView, Gmsh. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Estudiantes",
+      "investigadores",
+      "dise?adores"
+    ],
+    "entregables": [
+      "Caso CFD",
+      "visualizaciones",
+      "reporte",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "OpenFOAM",
+      "ParaView",
+      "Gmsh"
+    ],
+    "precio_peru_desde_soles": 699,
+    "precio_internacional_desde_usd": 220,
+    "precio_desde_soles_igv": 699,
+    "precio_internacional_usd": 220,
+    "precio_soles_texto": "Desde S/ 699",
+    "precio_usd_texto": "Desde USD 220",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Resultados dependen de malla, turbulencia y condiciones de borde.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-flujo-alrededor-cuerpos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Flujo alrededor de cuerpos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-aerodinamica-construcciones",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Aerodin?mica",
+    "categoria": "Aerodin?mica",
+    "servicio": "Aerodin?mica de construcciones",
+    "servicio_producto": "Aerodin?mica de construcciones",
+    "oferta": "Aerodin?mica de construcciones",
+    "tipo": "Consultor?a preliminar",
+    "descripcion_corta": "Evaluaci?n conceptual de efectos de viento sobre formas constructivas, coberturas o elementos expuestos.",
+    "descripcion_larga": "Aerodin?mica de construcciones es un servicio de TW Interactive - Ingenieros Consultores orientado a Arquitectos, ingenieros, consultores, estudiantes. Se entrega con Informe conceptual; visualizaciones; criterios de revisi?n; recomendaciones, utilizando herramientas como CFD preliminar, normativa referencial, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Arquitectos",
+      "ingenieros",
+      "consultores",
+      "estudiantes"
+    ],
+    "entregables": [
+      "Informe conceptual",
+      "visualizaciones",
+      "criterios de revisi?n",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "CFD preliminar",
+      "normativa referencial",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "No reemplaza c?lculo estructural ni estudio normativo de viento.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-aerodinamica-construcciones&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Aerodin?mica de construcciones de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-cargas-viento-preliminares",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Aerodin?mica",
+    "categoria": "Aerodin?mica",
+    "servicio": "Cargas de viento preliminares",
+    "servicio_producto": "Cargas de viento preliminares",
+    "oferta": "Cargas de viento preliminares",
+    "tipo": "C?lculo preliminar",
+    "descripcion_corta": "Estimaci?n preliminar de cargas de viento para orientaci?n temprana de proyectos y revisi?n conceptual.",
+    "descripcion_larga": "Cargas de viento preliminares es un servicio de TW Interactive - Ingenieros Consultores orientado a Proyectistas, estudiantes, propietarios, consultores. Se entrega con Memoria de c?lculo; supuestos; tablas; recomendaciones, utilizando herramientas como Hojas de c?lculo, normativa referencial. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Proyectistas",
+      "estudiantes",
+      "propietarios",
+      "consultores"
+    ],
+    "entregables": [
+      "Memoria de c?lculo",
+      "supuestos",
+      "tablas",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Hojas de c?lculo",
+      "normativa referencial"
+    ],
+    "precio_peru_desde_soles": 199,
+    "precio_internacional_desde_usd": 80,
+    "precio_desde_soles_igv": 199,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 199",
+    "precio_usd_texto": "Desde USD 80",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Debe ser revisado por profesional responsable para dise?o estructural final.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-cargas-viento-preliminares&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Cargas de viento preliminares de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-visualizacion-cfd-educativa",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Aerodin?mica",
+    "categoria": "Aerodin?mica",
+    "servicio": "Visualizaci?n CFD educativa",
+    "servicio_producto": "Visualizaci?n CFD educativa",
+    "oferta": "Visualizaci?n CFD educativa",
+    "tipo": "Capacitaci?n/Simulaci?n",
+    "descripcion_corta": "Visualizaci?n CFD educativa de flujo, presi?n y vorticidad para clases, tesis o divulgaci?n t?cnica.",
+    "descripcion_larga": "Visualizaci?n CFD educativa es un servicio de TW Interactive - Ingenieros Consultores orientado a Docentes, estudiantes, instituciones, divulgadores. Se entrega con Animaciones b?sicas; im?genes; explicaci?n; archivos de pr?ctica, utilizando herramientas como OpenFOAM, ParaView. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Docentes",
+      "estudiantes",
+      "instituciones",
+      "divulgadores"
+    ],
+    "entregables": [
+      "Animaciones b?sicas",
+      "im?genes",
+      "explicaci?n",
+      "archivos de pr?ctica"
+    ],
+    "software_herramientas": [
+      "OpenFOAM",
+      "ParaView"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 100,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 100,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 100",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Material educativo; no implica validaci?n de dise?o industrial o estructural.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-visualizacion-cfd-educativa&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Visualizaci?n CFD educativa de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-informes-tecnicos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Ingenier?a aplicada y documentaci?n",
+    "categoria": "Ingenier?a aplicada y documentaci?n",
+    "servicio": "Elaboraci?n de informes t?cnicos",
+    "servicio_producto": "Elaboraci?n de informes t?cnicos",
+    "oferta": "Elaboraci?n de informes t?cnicos",
+    "tipo": "Documentaci?n t?cnica",
+    "descripcion_corta": "Redacci?n de informes t?cnicos de ingenier?a con metodolog?a, c?lculos, resultados, limitaciones y anexos.",
+    "descripcion_larga": "Elaboraci?n de informes t?cnicos es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultores, estudiantes, empresas, instituciones. Se entrega con Informe en Word/PDF; tablas; figuras; anexos, utilizando herramientas como LaTeX, Word, Python, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultores",
+      "estudiantes",
+      "empresas",
+      "instituciones"
+    ],
+    "entregables": [
+      "Informe en Word/PDF",
+      "tablas",
+      "figuras",
+      "anexos"
+    ],
+    "software_herramientas": [
+      "LaTeX",
+      "Word",
+      "Python",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 199,
+    "precio_internacional_desde_usd": 80,
+    "precio_desde_soles_igv": 199,
+    "precio_internacional_usd": 80,
+    "precio_soles_texto": "Desde S/ 199",
+    "precio_usd_texto": "Desde USD 80",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "El informe depende de la calidad de la informaci?n fuente y alcance acordado.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-informes-tecnicos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Elaboraci?n de informes t?cnicos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-revision-expedientes",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Ingenier?a aplicada y documentaci?n",
+    "categoria": "Ingenier?a aplicada y documentaci?n",
+    "servicio": "Revisi?n de expedientes",
+    "servicio_producto": "Revisi?n de expedientes",
+    "oferta": "Revisi?n de expedientes",
+    "tipo": "Revisi?n t?cnica",
+    "descripcion_corta": "Revisi?n t?cnica de expedientes, memorias o informes relacionados con hidr?ulica, fluidos, energ?a o simulaci?n.",
+    "descripcion_larga": "Revisi?n de expedientes es un servicio de TW Interactive - Ingenieros Consultores orientado a Consultoras, tesistas, instituciones, proyectistas. Se entrega con Lista de observaciones; reporte de revisi?n; recomendaciones, utilizando herramientas como Lectura t?cnica, hojas de c?lculo, normativa referencial. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Consultoras",
+      "tesistas",
+      "instituciones",
+      "proyectistas"
+    ],
+    "entregables": [
+      "Lista de observaciones",
+      "reporte de revisi?n",
+      "recomendaciones"
+    ],
+    "software_herramientas": [
+      "Lectura t?cnica",
+      "hojas de c?lculo",
+      "normativa referencial"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 100,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 100,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 100",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "No reemplaza responsabilidad del proyectista ni revisi?n oficial de entidades competentes.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-revision-expedientes&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Revisi?n de expedientes de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-python-calculos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Ingenier?a aplicada y documentaci?n",
+    "categoria": "Ingenier?a aplicada y documentaci?n",
+    "servicio": "Automatizaci?n de c?lculos con Python",
+    "servicio_producto": "Automatizaci?n de c?lculos con Python",
+    "oferta": "Automatizaci?n de c?lculos con Python",
+    "tipo": "Software t?cnico",
+    "descripcion_corta": "Automatizaci?n de c?lculos repetitivos de ingenier?a mediante scripts, notebooks o plantillas reproducibles.",
+    "descripcion_larga": "Automatizaci?n de c?lculos con Python es un servicio de TW Interactive - Ingenieros Consultores orientado a Ingenieros, consultores, estudiantes, empresas. Se entrega con Script Python; notebook; documentaci?n; ejemplo de uso, utilizando herramientas como Python, pandas, NumPy, matplotlib. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Ingenieros",
+      "consultores",
+      "estudiantes",
+      "empresas"
+    ],
+    "entregables": [
+      "Script Python",
+      "notebook",
+      "documentaci?n",
+      "ejemplo de uso"
+    ],
+    "software_herramientas": [
+      "Python",
+      "pandas",
+      "NumPy",
+      "matplotlib"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 180,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 180,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 180",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Se requiere validar resultados contra casos de referencia antes de uso productivo.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-python-calculos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Automatizaci?n de c?lculos con Python de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-dashboards-tecnicos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Ingenier?a aplicada y documentaci?n",
+    "categoria": "Ingenier?a aplicada y documentaci?n",
+    "servicio": "Dashboards t?cnicos",
+    "servicio_producto": "Dashboards t?cnicos",
+    "oferta": "Dashboards t?cnicos",
+    "tipo": "Software t?cnico",
+    "descripcion_corta": "Dashboards para visualizar indicadores t?cnicos, series, mapas, resultados de simulaci?n o avance de proyectos.",
+    "descripcion_larga": "Dashboards t?cnicos es un servicio de TW Interactive - Ingenieros Consultores orientado a Empresas, instituciones, consultores, equipos t?cnicos. Se entrega con Dashboard; datos de ejemplo; gu?a; documentaci?n, utilizando herramientas como Python, Streamlit/Plotly, hojas de c?lculo. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Empresas",
+      "instituciones",
+      "consultores",
+      "equipos t?cnicos"
+    ],
+    "entregables": [
+      "Dashboard",
+      "datos de ejemplo",
+      "gu?a",
+      "documentaci?n"
+    ],
+    "software_herramientas": [
+      "Python",
+      "Streamlit/Plotly",
+      "hojas de c?lculo"
+    ],
+    "precio_peru_desde_soles": 900,
+    "precio_internacional_desde_usd": 280,
+    "precio_desde_soles_igv": 900,
+    "precio_internacional_usd": 280,
+    "precio_soles_texto": "Desde S/ 900",
+    "precio_usd_texto": "Desde USD 280",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "alta",
+    "nota_tecnica": "Dashboard informativo; no sustituye criterio t?cnico ni control de calidad de datos.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-dashboards-tecnicos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Dashboards t?cnicos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-scripts-ingenieria",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Ingenier?a aplicada y documentaci?n",
+    "categoria": "Ingenier?a aplicada y documentaci?n",
+    "servicio": "Scripts para ingenier?a",
+    "servicio_producto": "Scripts para ingenier?a",
+    "oferta": "Scripts para ingenier?a",
+    "tipo": "Software t?cnico",
+    "descripcion_corta": "Desarrollo de scripts para procesamiento, c?lculo, gr?ficos, reportes o conversi?n de datos de ingenier?a.",
+    "descripcion_larga": "Scripts para ingenier?a es un servicio de TW Interactive - Ingenieros Consultores orientado a Ingenieros, tesistas, consultores, docentes. Se entrega con Script; README; ejemplo; recomendaciones de mantenimiento, utilizando herramientas como Python, Bash/PowerShell opcional, Git. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Ingenieros",
+      "tesistas",
+      "consultores",
+      "docentes"
+    ],
+    "entregables": [
+      "Script",
+      "README",
+      "ejemplo",
+      "recomendaciones de mantenimiento"
+    ],
+    "software_herramientas": [
+      "Python",
+      "Bash/PowerShell opcional",
+      "Git"
+    ],
+    "precio_peru_desde_soles": 299,
+    "precio_internacional_desde_usd": 100,
+    "precio_desde_soles_igv": 299,
+    "precio_internacional_usd": 100,
+    "precio_soles_texto": "Desde S/ 299",
+    "precio_usd_texto": "Desde USD 100",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "El usuario debe revisar resultados y supuestos antes de tomar decisiones.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-scripts-ingenieria&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Scripts para ingenier?a de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  },
+  {
+    "id": "tw-interactive-capacitacion-equipos-tecnicos",
+    "linea_slug": "tw-interactive",
+    "linea": "TW Interactive",
+    "linea_completa": "TW Interactive - Ingenieros Consultores",
+    "rama": "Ingenier?a aplicada y documentaci?n",
+    "categoria": "Ingenier?a aplicada y documentaci?n",
+    "servicio": "Capacitaci?n a equipos t?cnicos",
+    "servicio_producto": "Capacitaci?n a equipos t?cnicos",
+    "oferta": "Capacitaci?n a equipos t?cnicos",
+    "tipo": "Capacitaci?n",
+    "descripcion_corta": "Capacitaci?n aplicada para equipos t?cnicos en hidr?ulica, CFD, GIS, Python, documentaci?n o simulaci?n.",
+    "descripcion_larga": "Capacitaci?n a equipos t?cnicos es un servicio de TW Interactive - Ingenieros Consultores orientado a Empresas, municipalidades, universidades, equipos de proyecto. Se entrega con Sesi?n; material; ejercicios; grabaci?n si se acuerda, utilizando herramientas como QGIS, Python, OpenFOAM, HEC-RAS, ParaView. El alcance final, datos de entrada, supuestos y precio se confirman por cotizaci?n.",
+    "publico_objetivo": [
+      "Empresas",
+      "municipalidades",
+      "universidades",
+      "equipos de proyecto"
+    ],
+    "entregables": [
+      "Sesi?n",
+      "material",
+      "ejercicios",
+      "grabaci?n si se acuerda"
+    ],
+    "software_herramientas": [
+      "QGIS",
+      "Python",
+      "OpenFOAM",
+      "HEC-RAS",
+      "ParaView"
+    ],
+    "precio_peru_desde_soles": 499,
+    "precio_internacional_desde_usd": 150,
+    "precio_desde_soles_igv": 499,
+    "precio_internacional_usd": 150,
+    "precio_soles_texto": "Desde S/ 499",
+    "precio_usd_texto": "Desde USD 150",
+    "estado": "vigente",
+    "madurez": "vigente",
+    "prioridad": "media",
+    "nota_tecnica": "Formaci?n independiente; no implica certificaci?n oficial de software o instituci?n.",
+    "incluye": [
+      "Revisi?n inicial del alcance y datos disponibles.",
+      "Coordinaci?n t?cnica por WhatsApp o correo institucional.",
+      "Entregables documentados seg?n propuesta aprobada."
+    ],
+    "condiciones": [
+      "Servicio t?cnico de ingenier?a y consultor?a. Los resultados son referenciales seg?n datos disponibles, alcance contratado, supuestos de c?lculo, normativa aplicable y revisi?n profesional competente cuando corresponda.",
+      "Precios referenciales desde. El precio final depende del alcance, datos disponibles, urgencia, software requerido y nivel de detalle.",
+      "No se afirma aprobaci?n institucional, firma profesional obligatoria ni sustituci?n de revisi?n oficial cuando corresponda."
+    ],
+    "imagen": "assets/img/banners/hero-tech.svg",
+    "url_detalle": "detalle/oferta.html?id=tw-interactive-capacitacion-equipos-tecnicos&linea=tw-interactive",
+    "whatsapp_message": "Hola, deseo cotizar Capacitaci?n a equipos t?cnicos de TW Interactive - Ingenieros Consultores. Vengo desde la web de Tecprog World E.I.R.L."
+  }
+]

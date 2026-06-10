@@ -1,0 +1,1761 @@
+{
+  "linea": "TW Salud",
+  "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+  "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+  "total_servicios": 35,
+  "categorias": [
+    "Pr?tesis y ?rtesis",
+    "Tecnolog?a m?dica y mantenimiento",
+    "Veh?culos inclusivos",
+    "Accesibilidad y asistencia tecnol?gica",
+    "EEG y Brain Computer Interface",
+    "Investigaci?n aplicada en salud"
+  ],
+  "servicios": [
+    {
+      "id": "tw-salud-diseno-conceptual-protesis",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Pr?tesis y ?rtesis",
+      "servicio_producto": "Dise?o conceptual de pr?tesis",
+      "oferta": "Dise?o conceptual de pr?tesis",
+      "tipo": "Asesor?a t?cnica",
+      "modalidad": "Remoto o presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Personas con requerimientos de apoyo",
+        "familias",
+        "estudiantes",
+        "terapeutas",
+        "instituciones"
+      ],
+      "entregables": [
+        "Entrevista t?cnica",
+        "requerimientos preliminares",
+        "boceto conceptual",
+        "recomendaciones de validaci?n profesional"
+      ],
+      "precio_peru_desde_soles": 49,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 49,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 49",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Dise?o t?cnico inicial de una soluci?n prot?sica como concepto de ingenier?a, sin prescripci?n m?dica ni promesa de uso cl?nico.",
+      "descripcion_larga": "Dise?o conceptual de pr?tesis es una oferta de TW Salud orientada a Personas con requerimientos de apoyo, familias, estudiantes, terapeutas, instituciones. Se desarrolla como asesor?a t?cnica mediante remoto o presencial coordinado, con entregables como Entrevista t?cnica; requerimientos preliminares; boceto conceptual; recomendaciones de validaci?n profesional. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Concepto preliminar sujeto a evaluaci?n cl?nica y validaci?n con profesionales competentes.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-diseno-conceptual-protesis&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Dise?o conceptual de pr?tesis de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-modelado-cad-protesis",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Pr?tesis y ?rtesis",
+      "servicio_producto": "Modelado CAD para pr?tesis",
+      "oferta": "Modelado CAD para pr?tesis",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Remoto",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Estudiantes",
+        "investigadores",
+        "proyectos sociales",
+        "profesionales de apoyo"
+      ],
+      "entregables": [
+        "Archivo CAD b?sico",
+        "render",
+        "ficha t?cnica",
+        "recomendaciones de fabricaci?n"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Modelado 3D de componentes prot?sicos para revisi?n t?cnica, prototipado educativo o documentaci?n de ingenier?a.",
+      "descripcion_larga": "Modelado CAD para pr?tesis es una oferta de TW Salud orientada a Estudiantes, investigadores, proyectos sociales, profesionales de apoyo. Se desarrolla como servicio t?cnico mediante remoto, con entregables como Archivo CAD b?sico; render; ficha t?cnica; recomendaciones de fabricaci?n. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "El modelo CAD no constituye dispositivo m?dico aprobado ni reemplaza adaptaci?n cl?nica.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-modelado-cad-protesis&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Modelado CAD para pr?tesis de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-prototipado-no-clinico-protesis",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Pr?tesis y ?rtesis",
+      "servicio_producto": "Prototipado no cl?nico de pr?tesis",
+      "oferta": "Prototipado no cl?nico de pr?tesis",
+      "tipo": "Prototipo no cl?nico",
+      "modalidad": "Presencial coordinado o h?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Laboratorios",
+        "tesistas",
+        "instituciones",
+        "proyectos de innovaci?n"
+      ],
+      "entregables": [
+        "Prototipo educativo",
+        "ficha de iteraci?n",
+        "registro fotogr?fico",
+        "recomendaciones de riesgo"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Fabricaci?n o coordinaci?n de prototipos no cl?nicos para evaluaci?n de forma, ergonom?a preliminar y aprendizaje t?cnico.",
+      "descripcion_larga": "Prototipado no cl?nico de pr?tesis es una oferta de TW Salud orientada a Laboratorios, tesistas, instituciones, proyectos de innovaci?n. Se desarrolla como prototipo no cl?nico mediante presencial coordinado o h?brido, con entregables como Prototipo educativo; ficha de iteraci?n; registro fotogr?fico; recomendaciones de riesgo. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Uso restringido a pruebas no cl?nicas, educaci?n o investigaci?n aplicada.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-prototipado-no-clinico-protesis&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Prototipado no cl?nico de pr?tesis de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-diseno-conceptual-ortesis",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Pr?tesis y ?rtesis",
+      "servicio_producto": "Dise?o conceptual de ?rtesis",
+      "oferta": "Dise?o conceptual de ?rtesis",
+      "tipo": "Asesor?a t?cnica",
+      "modalidad": "Remoto o presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Personas con requerimientos de apoyo",
+        "terapeutas",
+        "estudiantes",
+        "cuidadores"
+      ],
+      "entregables": [
+        "Requerimientos",
+        "boceto t?cnico",
+        "criterios de material",
+        "advertencias de validaci?n"
+      ],
+      "precio_peru_desde_soles": 49,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 49,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 49",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Dise?o conceptual de soportes u ?rtesis como acompa?amiento de ingenier?a para revisi?n profesional posterior.",
+      "descripcion_larga": "Dise?o conceptual de ?rtesis es una oferta de TW Salud orientada a Personas con requerimientos de apoyo, terapeutas, estudiantes, cuidadores. Se desarrolla como asesor?a t?cnica mediante remoto o presencial coordinado, con entregables como Requerimientos; boceto t?cnico; criterios de material; advertencias de validaci?n. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No se prescribe ni adapta m?dicamente; requiere evaluaci?n competente cuando corresponda.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-diseno-conceptual-ortesis&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Dise?o conceptual de ?rtesis de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-modelado-cad-ortesis",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Pr?tesis y ?rtesis",
+      "servicio_producto": "Modelado CAD para ?rtesis",
+      "oferta": "Modelado CAD para ?rtesis",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Remoto",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Estudiantes",
+        "terapeutas con equipo profesional",
+        "proyectos de asistencia"
+      ],
+      "entregables": [
+        "Archivo CAD",
+        "render",
+        "ficha t?cnica",
+        "recomendaciones de impresi?n o fabricaci?n"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Modelado CAD de f?rulas, soportes o adaptadores con enfoque de documentaci?n y prototipado responsable.",
+      "descripcion_larga": "Modelado CAD para ?rtesis es una oferta de TW Salud orientada a Estudiantes, terapeutas con equipo profesional, proyectos de asistencia. Se desarrolla como servicio t?cnico mediante remoto, con entregables como Archivo CAD; render; ficha t?cnica; recomendaciones de impresi?n o fabricaci?n. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Debe revisarse con profesionales de salud antes de cualquier uso sobre una persona.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-modelado-cad-ortesis&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Modelado CAD para ?rtesis de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-prototipado-ferulas-soportes",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Pr?tesis y ?rtesis",
+      "servicio_producto": "Prototipado de f?rulas y soportes personalizados",
+      "oferta": "Prototipado de f?rulas y soportes personalizados",
+      "tipo": "Prototipo no cl?nico",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Instituciones educativas",
+        "laboratorios",
+        "proyectos inclusivos",
+        "familias con acompa?amiento profesional"
+      ],
+      "entregables": [
+        "Prototipo no cl?nico",
+        "ficha de materiales",
+        "recomendaciones de ajuste",
+        "informe breve"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Prototipos de f?rulas, soportes o ayudas de posicionamiento para revisi?n no cl?nica y mejora iterativa.",
+      "descripcion_larga": "Prototipado de f?rulas y soportes personalizados es una oferta de TW Salud orientada a Instituciones educativas, laboratorios, proyectos inclusivos, familias con acompa?amiento profesional. Se desarrolla como prototipo no cl?nico mediante h?brido, con entregables como Prototipo no cl?nico; ficha de materiales; recomendaciones de ajuste; informe breve. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Prototipo educativo o experimental; no usar como dispositivo m?dico sin validaci?n profesional.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-prototipado-ferulas-soportes&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Prototipado de f?rulas y soportes personalizados de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-adaptacion-mecanica-dispositivos-apoyo",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Pr?tesis y ?rtesis",
+      "servicio_producto": "Adaptaci?n mec?nica preliminar de dispositivos de apoyo",
+      "oferta": "Adaptaci?n mec?nica preliminar de dispositivos de apoyo",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Presencial coordinado",
+      "estado": "condicionado",
+      "madurez": "condicionado",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Usuarios",
+        "familias",
+        "cuidadores",
+        "instituciones"
+      ],
+      "entregables": [
+        "Revisi?n visual",
+        "ajuste preliminar",
+        "lista de riesgos",
+        "recomendaci?n de servicio especializado"
+      ],
+      "precio_peru_desde_soles": 79,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 79,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 79",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Revisi?n y ajuste mec?nico preliminar de dispositivos de apoyo desde una mirada de ingenier?a y seguridad b?sica.",
+      "descripcion_larga": "Adaptaci?n mec?nica preliminar de dispositivos de apoyo es una oferta de TW Salud orientada a Usuarios, familias, cuidadores, instituciones. Se desarrolla como servicio t?cnico mediante presencial coordinado, con entregables como Revisi?n visual; ajuste preliminar; lista de riesgos; recomendaci?n de servicio especializado. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No sustituye adaptaci?n cl?nica, ergon?mica ni certificaci?n de seguridad del fabricante.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-adaptacion-mecanica-dispositivos-apoyo&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Adaptaci?n mec?nica preliminar de dispositivos de apoyo de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-diagnostico-tecnico-equipos-no-invasivos",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Tecnolog?a m?dica y mantenimiento",
+      "servicio_producto": "Diagn?stico t?cnico de equipos m?dicos no invasivos",
+      "oferta": "Diagn?stico t?cnico de equipos m?dicos no invasivos",
+      "tipo": "Diagn?stico t?cnico",
+      "modalidad": "Presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Consultorios",
+        "centros peque?os",
+        "t?cnicos",
+        "administradores de equipos"
+      ],
+      "entregables": [
+        "Ficha de diagn?stico t?cnico",
+        "fotograf?as",
+        "lista de hallazgos",
+        "recomendaci?n de derivaci?n autorizada"
+      ],
+      "precio_peru_desde_soles": 79,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 79,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 79",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Inspecci?n t?cnica no m?dica de equipos no invasivos para identificar fallas visibles, conectores, fuente, perif?ricos y condiciones de uso.",
+      "descripcion_larga": "Diagn?stico t?cnico de equipos m?dicos no invasivos es una oferta de TW Salud orientada a Consultorios, centros peque?os, t?cnicos, administradores de equipos. Se desarrolla como diagn?stico t?cnico mediante presencial coordinado, con entregables como Ficha de diagn?stico t?cnico; fotograf?as; lista de hallazgos; recomendaci?n de derivaci?n autorizada. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No es diagn?stico m?dico ni reparaci?n certificada; derivar a servicio autorizado si corresponde.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-diagnostico-tecnico-equipos-no-invasivos&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Diagn?stico t?cnico de equipos m?dicos no invasivos de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-mantenimiento-preventivo-biomedico-basico",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Tecnolog?a m?dica y mantenimiento",
+      "servicio_producto": "Mantenimiento preventivo de equipos biom?dicos b?sicos",
+      "oferta": "Mantenimiento preventivo de equipos biom?dicos b?sicos",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Presencial coordinado",
+      "estado": "condicionado",
+      "madurez": "condicionado",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Consultorios",
+        "instituciones educativas",
+        "peque?os centros de atenci?n"
+      ],
+      "entregables": [
+        "Checklist preventivo",
+        "limpieza externa",
+        "reporte t?cnico",
+        "recomendaciones de cuidado"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 60,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 60,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 60",
+      "descripcion_corta": "Limpieza externa, revisi?n funcional b?sica y documentaci?n preventiva de equipos biom?dicos de bajo riesgo.",
+      "descripcion_larga": "Mantenimiento preventivo de equipos biom?dicos b?sicos es una oferta de TW Salud orientada a Consultorios, instituciones educativas, peque?os centros de atenci?n. Se desarrolla como servicio t?cnico mediante presencial coordinado, con entregables como Checklist preventivo; limpieza externa; reporte t?cnico; recomendaciones de cuidado. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No incluye calibraci?n certificada, intervenci?n interna riesgosa ni manipulaci?n que anule garant?as.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-mantenimiento-preventivo-biomedico-basico&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Mantenimiento preventivo de equipos biom?dicos b?sicos de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-revision-fuentes-conectores-perifericos",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Tecnolog?a m?dica y mantenimiento",
+      "servicio_producto": "Revisi?n de fuentes, conectores y perif?ricos",
+      "oferta": "Revisi?n de fuentes, conectores y perif?ricos",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Consultorios",
+        "laboratorios",
+        "usuarios institucionales"
+      ],
+      "entregables": [
+        "Checklist el?ctrico externo",
+        "inventario de accesorios",
+        "reporte de riesgos",
+        "recomendaci?n de reemplazo"
+      ],
+      "precio_peru_desde_soles": 79,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 79,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 79",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Revisi?n de alimentaci?n, cables, conectores y perif?ricos asociados a equipos no invasivos, priorizando seguridad b?sica.",
+      "descripcion_larga": "Revisi?n de fuentes, conectores y perif?ricos es una oferta de TW Salud orientada a Consultorios, laboratorios, usuarios institucionales. Se desarrolla como servicio t?cnico mediante presencial coordinado, con entregables como Checklist el?ctrico externo; inventario de accesorios; reporte de riesgos; recomendaci?n de reemplazo. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No intervenir circuitos internos sin alcance autorizado ni certificaci?n correspondiente.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-revision-fuentes-conectores-perifericos&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Revisi?n de fuentes, conectores y perif?ricos de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-documentacion-tecnica-mantenimiento",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Tecnolog?a m?dica y mantenimiento",
+      "servicio_producto": "Documentaci?n t?cnica de mantenimiento",
+      "oferta": "Documentaci?n t?cnica de mantenimiento",
+      "tipo": "Documentaci?n t?cnica",
+      "modalidad": "Remoto o presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Administradores",
+        "consultorios",
+        "docentes",
+        "t?cnicos"
+      ],
+      "entregables": [
+        "Formato de bit?cora",
+        "ficha t?cnica",
+        "matriz de estado",
+        "plan b?sico de seguimiento"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 60,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 60,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 60",
+      "descripcion_corta": "Elaboraci?n de fichas, bit?coras y formatos de mantenimiento para trazabilidad de equipos y accesorios.",
+      "descripcion_larga": "Documentaci?n t?cnica de mantenimiento es una oferta de TW Salud orientada a Administradores, consultorios, docentes, t?cnicos. Se desarrolla como documentaci?n t?cnica mediante remoto o presencial coordinado, con entregables como Formato de bit?cora; ficha t?cnica; matriz de estado; plan b?sico de seguimiento. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "La documentaci?n organiza informaci?n t?cnica y no certifica cumplimiento regulatorio por s? sola.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-documentacion-tecnica-mantenimiento&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Documentaci?n t?cnica de mantenimiento de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-inventario-tecnico-equipos-medicos",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Tecnolog?a m?dica y mantenimiento",
+      "servicio_producto": "Inventario t?cnico de equipos m?dicos",
+      "oferta": "Inventario t?cnico de equipos m?dicos",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Consultorios",
+        "centros peque?os",
+        "instituciones educativas"
+      ],
+      "entregables": [
+        "Inventario en hoja de c?lculo",
+        "fichas por equipo",
+        "sem?foro de estado",
+        "recomendaciones"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 100,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 100,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 100",
+      "descripcion_corta": "Levantamiento de inventario t?cnico, estado externo, ubicaci?n, accesorios y criticidad preliminar de equipos.",
+      "descripcion_larga": "Inventario t?cnico de equipos m?dicos es una oferta de TW Salud orientada a Consultorios, centros peque?os, instituciones educativas. Se desarrolla como servicio t?cnico mediante presencial coordinado, con entregables como Inventario en hoja de c?lculo; fichas por equipo; sem?foro de estado; recomendaciones. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "La criticidad es preliminar y debe complementarse con evaluaci?n de ingenier?a cl?nica cuando corresponda.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-inventario-tecnico-equipos-medicos&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Inventario t?cnico de equipos m?dicos de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-capacitacion-cuidado-equipos",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Tecnolog?a m?dica y mantenimiento",
+      "servicio_producto": "Capacitaci?n b?sica en cuidado de equipos",
+      "oferta": "Capacitaci?n b?sica en cuidado de equipos",
+      "tipo": "Capacitaci?n",
+      "modalidad": "Virtual o presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Personal administrativo",
+        "estudiantes",
+        "cuidadores t?cnicos",
+        "responsables de equipos"
+      ],
+      "entregables": [
+        "Sesi?n formativa",
+        "gu?a breve",
+        "checklist de cuidado",
+        "recomendaciones"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Capacitaci?n introductoria sobre cuidado externo, almacenamiento, limpieza no invasiva y buenas pr?cticas de registro.",
+      "descripcion_larga": "Capacitaci?n b?sica en cuidado de equipos es una oferta de TW Salud orientada a Personal administrativo, estudiantes, cuidadores t?cnicos, responsables de equipos. Se desarrolla como capacitaci?n mediante virtual o presencial coordinado, con entregables como Sesi?n formativa; gu?a breve; checklist de cuidado; recomendaciones. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No habilita a realizar reparaciones internas ni actos reservados a personal autorizado.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-capacitacion-cuidado-equipos&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Capacitaci?n b?sica en cuidado de equipos de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-evaluacion-tecnica-vehiculos-inclusivos",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Veh?culos inclusivos",
+      "servicio_producto": "Evaluaci?n t?cnica de veh?culos inclusivos",
+      "oferta": "Evaluaci?n t?cnica de veh?culos inclusivos",
+      "tipo": "Evaluaci?n t?cnica",
+      "modalidad": "Presencial coordinado",
+      "estado": "condicionado",
+      "madurez": "condicionado",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Usuarios",
+        "familias",
+        "instituciones",
+        "talleres aliados"
+      ],
+      "entregables": [
+        "Ficha de evaluaci?n",
+        "requerimientos",
+        "lista de riesgos",
+        "ruta de trabajo"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 60,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 60,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 60",
+      "descripcion_corta": "Revisi?n preliminar de necesidades mec?nicas, accesibilidad y seguridad para veh?culos o ayudas de movilidad inclusiva.",
+      "descripcion_larga": "Evaluaci?n t?cnica de veh?culos inclusivos es una oferta de TW Salud orientada a Usuarios, familias, instituciones, talleres aliados. Se desarrolla como evaluaci?n t?cnica mediante presencial coordinado, con entregables como Ficha de evaluaci?n; requerimientos; lista de riesgos; ruta de trabajo. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Debe coordinarse con t?cnicos habilitados y respetar normativa de transporte aplicable.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-evaluacion-tecnica-vehiculos-inclusivos&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Evaluaci?n t?cnica de veh?culos inclusivos de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-adaptacion-mecanica-soportes",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Veh?culos inclusivos",
+      "servicio_producto": "Adaptaci?n mec?nica preliminar de soportes",
+      "oferta": "Adaptaci?n mec?nica preliminar de soportes",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Usuarios",
+        "talleres",
+        "proyectos inclusivos"
+      ],
+      "entregables": [
+        "Propuesta de soporte",
+        "plano b?sico",
+        "recomendaciones de fabricaci?n",
+        "advertencias de seguridad"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Dise?o o ajuste preliminar de soportes mec?nicos para accesibilidad vehicular, sujeto a revisi?n de seguridad.",
+      "descripcion_larga": "Adaptaci?n mec?nica preliminar de soportes es una oferta de TW Salud orientada a Usuarios, talleres, proyectos inclusivos. Se desarrolla como servicio t?cnico mediante h?brido, con entregables como Propuesta de soporte; plano b?sico; recomendaciones de fabricaci?n; advertencias de seguridad. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No autoriza circulaci?n ni modifica homologaciones sin revisi?n profesional y normativa aplicable.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-adaptacion-mecanica-soportes&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Adaptaci?n mec?nica preliminar de soportes de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-accesorios-accesibilidad-vehicular",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Veh?culos inclusivos",
+      "servicio_producto": "Dise?o de accesorios de accesibilidad",
+      "oferta": "Dise?o de accesorios de accesibilidad",
+      "tipo": "Dise?o t?cnico",
+      "modalidad": "Remoto o h?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Personas con discapacidad",
+        "cuidadores",
+        "instituciones"
+      ],
+      "entregables": [
+        "Boceto t?cnico",
+        "modelo simple",
+        "lista de materiales",
+        "recomendaciones de validaci?n"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 60,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 60,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 60",
+      "descripcion_corta": "Dise?o t?cnico de accesorios de apoyo para ingreso, sujeci?n, organizaci?n o uso asistido en movilidad inclusiva.",
+      "descripcion_larga": "Dise?o de accesorios de accesibilidad es una oferta de TW Salud orientada a Personas con discapacidad, cuidadores, instituciones. Se desarrolla como dise?o t?cnico mediante remoto o h?brido, con entregables como Boceto t?cnico; modelo simple; lista de materiales; recomendaciones de validaci?n. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Accesorios deben probarse en condiciones seguras y con supervisi?n competente.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-accesorios-accesibilidad-vehicular&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Dise?o de accesorios de accesibilidad de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-mantenimiento-preventivo-vehiculos-inclusivos",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Veh?culos inclusivos",
+      "servicio_producto": "Mantenimiento preventivo de veh?culos inclusivos",
+      "oferta": "Mantenimiento preventivo de veh?culos inclusivos",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Presencial coordinado",
+      "estado": "condicionado",
+      "madurez": "condicionado",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Usuarios",
+        "familias",
+        "instituciones"
+      ],
+      "entregables": [
+        "Checklist preventivo",
+        "reporte fotogr?fico",
+        "recomendaciones de taller",
+        "bit?cora"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 60,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 60,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 60",
+      "descripcion_corta": "Revisi?n preventiva de soportes, puntos de ajuste, sujeciones y accesorios de movilidad asistida.",
+      "descripcion_larga": "Mantenimiento preventivo de veh?culos inclusivos es una oferta de TW Salud orientada a Usuarios, familias, instituciones. Se desarrolla como servicio t?cnico mediante presencial coordinado, con entregables como Checklist preventivo; reporte fotogr?fico; recomendaciones de taller; bit?cora. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No reemplaza inspecci?n vehicular reglamentaria ni certificaci?n de modificaciones.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-mantenimiento-preventivo-vehiculos-inclusivos&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Mantenimiento preventivo de veh?culos inclusivos de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-prototipos-movilidad-asistida",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Veh?culos inclusivos",
+      "servicio_producto": "Prototipos de movilidad asistida",
+      "oferta": "Prototipos de movilidad asistida",
+      "tipo": "Prototipo no cl?nico",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Universidades",
+        "makers",
+        "proyectos sociales",
+        "investigadores"
+      ],
+      "entregables": [
+        "Prototipo no cl?nico",
+        "informe de iteraci?n",
+        "c?digo o planos si aplica",
+        "matriz de riesgos"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Prototipos educativos o experimentales para movilidad asistida, control, soporte o adaptaci?n mec?nica preliminar.",
+      "descripcion_larga": "Prototipos de movilidad asistida es una oferta de TW Salud orientada a Universidades, makers, proyectos sociales, investigadores. Se desarrolla como prototipo no cl?nico mediante h?brido, con entregables como Prototipo no cl?nico; informe de iteraci?n; c?digo o planos si aplica; matriz de riesgos. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Prototipo no apto para uso operativo sin pruebas, validaci?n profesional y revisi?n normativa.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-prototipos-movilidad-asistida&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Prototipos de movilidad asistida de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-pulsadores-accesibles",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Accesibilidad y asistencia tecnol?gica",
+      "servicio_producto": "Dise?o de pulsadores accesibles",
+      "oferta": "Dise?o de pulsadores accesibles",
+      "tipo": "Prototipo de accesibilidad",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Personas con discapacidad",
+        "terapeutas",
+        "familias",
+        "instituciones educativas"
+      ],
+      "entregables": [
+        "Prototipo",
+        "ficha de conexi?n",
+        "gu?a de uso",
+        "recomendaciones de seguridad"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Dise?o y prototipado de pulsadores accesibles para interacci?n con computadoras, juguetes adaptados o dispositivos de apoyo.",
+      "descripcion_larga": "Dise?o de pulsadores accesibles es una oferta de TW Salud orientada a Personas con discapacidad, terapeutas, familias, instituciones educativas. Se desarrolla como prototipo de accesibilidad mediante h?brido, con entregables como Prototipo; ficha de conexi?n; gu?a de uso; recomendaciones de seguridad. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Debe probarse con acompa?amiento responsable y criterios de seguridad el?ctrica b?sica.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-pulsadores-accesibles&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Dise?o de pulsadores accesibles de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-interfaces-control-accesibilidad",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Accesibilidad y asistencia tecnol?gica",
+      "servicio_producto": "Interfaces de control para accesibilidad",
+      "oferta": "Interfaces de control para accesibilidad",
+      "tipo": "Software/Hardware",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Usuarios",
+        "terapeutas",
+        "docentes",
+        "laboratorios"
+      ],
+      "entregables": [
+        "Demo funcional",
+        "configuraci?n",
+        "gu?a breve",
+        "recomendaciones de mejora"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Interfaces simples de control por botones, sensores o perif?ricos adaptados para accesibilidad y comunicaci?n.",
+      "descripcion_larga": "Interfaces de control para accesibilidad es una oferta de TW Salud orientada a Usuarios, terapeutas, docentes, laboratorios. Se desarrolla como software/hardware mediante h?brido, con entregables como Demo funcional; configuraci?n; gu?a breve; recomendaciones de mejora. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No reemplaza evaluaci?n terap?utica ni validaci?n de usabilidad con profesionales competentes.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-interfaces-control-accesibilidad&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Interfaces de control para accesibilidad de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-adaptacion-perifericos-discapacidad",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Accesibilidad y asistencia tecnol?gica",
+      "servicio_producto": "Adaptaci?n de perif?ricos para personas con discapacidad",
+      "oferta": "Adaptaci?n de perif?ricos para personas con discapacidad",
+      "tipo": "Servicio t?cnico",
+      "modalidad": "Presencial o remoto seg?n alcance",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Personas con discapacidad",
+        "docentes",
+        "familias",
+        "instituciones"
+      ],
+      "entregables": [
+        "Perif?rico adaptado",
+        "configuraci?n",
+        "gu?a de uso",
+        "recomendaciones"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Adaptaci?n preliminar de mouse, teclado, joystick u otros perif?ricos para mejorar acceso digital.",
+      "descripcion_larga": "Adaptaci?n de perif?ricos para personas con discapacidad es una oferta de TW Salud orientada a Personas con discapacidad, docentes, familias, instituciones. Se desarrolla como servicio t?cnico mediante presencial o remoto seg?n alcance, con entregables como Perif?rico adaptado; configuraci?n; gu?a de uso; recomendaciones. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Toda adaptaci?n debe evaluarse con el usuario y profesionales de apoyo cuando corresponda.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-adaptacion-perifericos-discapacidad&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Adaptaci?n de perif?ricos para personas con discapacidad de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-prototipos-asistencia-comunicacion",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Accesibilidad y asistencia tecnol?gica",
+      "servicio_producto": "Prototipos de asistencia para comunicaci?n",
+      "oferta": "Prototipos de asistencia para comunicaci?n",
+      "tipo": "Software/Prototipo",
+      "modalidad": "Remoto o h?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Personas con limitaci?n motora o comunicativa",
+        "familias",
+        "terapeutas",
+        "docentes"
+      ],
+      "entregables": [
+        "Interfaz web o app simple",
+        "configuraci?n inicial",
+        "gu?a",
+        "reporte de iteraci?n"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Prototipos de comunicaci?n alternativa, tableros digitales o interfaces simples para apoyo comunicativo.",
+      "descripcion_larga": "Prototipos de asistencia para comunicaci?n es una oferta de TW Salud orientada a Personas con limitaci?n motora o comunicativa, familias, terapeutas, docentes. Se desarrolla como software/prototipo mediante remoto o h?brido, con entregables como Interfaz web o app simple; configuraci?n inicial; gu?a; reporte de iteraci?n. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Herramienta de apoyo no cl?nica; requiere validaci?n de uso con profesionales competentes.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-prototipos-asistencia-comunicacion&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Prototipos de asistencia para comunicaci?n de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-automatizacion-dispositivos-apoyo",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Accesibilidad y asistencia tecnol?gica",
+      "servicio_producto": "Automatizaci?n de dispositivos de apoyo",
+      "oferta": "Automatizaci?n de dispositivos de apoyo",
+      "tipo": "Proyecto t?cnico",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Laboratorios",
+        "makers",
+        "instituciones",
+        "proyectos inclusivos"
+      ],
+      "entregables": [
+        "Prototipo",
+        "c?digo",
+        "diagrama",
+        "matriz b?sica de riesgos",
+        "recomendaciones"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Automatizaci?n experimental de dispositivos de apoyo mediante microcontroladores, sensores o actuadores de bajo riesgo.",
+      "descripcion_larga": "Automatizaci?n de dispositivos de apoyo es una oferta de TW Salud orientada a Laboratorios, makers, instituciones, proyectos inclusivos. Se desarrolla como proyecto t?cnico mediante h?brido, con entregables como Prototipo; c?digo; diagrama; matriz b?sica de riesgos; recomendaciones. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No usar en condiciones cr?ticas o de seguridad personal sin validaci?n profesional y pruebas adecuadas.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-automatizacion-dispositivos-apoyo&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Automatizaci?n de dispositivos de apoyo de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-introduccion-eeg-aplicado",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "EEG y Brain Computer Interface",
+      "servicio_producto": "Introducci?n a EEG aplicado",
+      "oferta": "Introducci?n a EEG aplicado",
+      "tipo": "Capacitaci?n",
+      "modalidad": "Virtual o presencial coordinado",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Estudiantes",
+        "docentes",
+        "investigadores",
+        "makers"
+      ],
+      "entregables": [
+        "Sesi?n formativa",
+        "notebook de ejemplo",
+        "bibliograf?a inicial",
+        "gu?a de seguridad"
+      ],
+      "precio_peru_desde_soles": 149,
+      "precio_internacional_desde_usd": 49,
+      "precio_desde_soles_igv": 149,
+      "precio_internacional_usd": 49,
+      "precio_soles_texto": "Desde S/ 149",
+      "precio_usd_texto": "Desde USD 49",
+      "descripcion_corta": "Capacitaci?n introductoria sobre fundamentos de EEG no invasivo, adquisici?n, artefactos y aplicaciones educativas.",
+      "descripcion_larga": "Introducci?n a EEG aplicado es una oferta de TW Salud orientada a Estudiantes, docentes, investigadores, makers. Se desarrolla como capacitaci?n mediante virtual o presencial coordinado, con entregables como Sesi?n formativa; notebook de ejemplo; bibliograf?a inicial; gu?a de seguridad. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Contenido educativo; no interpreta se?ales con fines diagn?sticos m?dicos.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-introduccion-eeg-aplicado&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Introducci?n a EEG aplicado de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-prototipos-educativos-bci",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "EEG y Brain Computer Interface",
+      "servicio_producto": "Prototipos educativos de BCI",
+      "oferta": "Prototipos educativos de BCI",
+      "tipo": "Curso/Proyecto",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Estudiantes",
+        "universidades",
+        "laboratorios educativos"
+      ],
+      "entregables": [
+        "Demo conceptual",
+        "c?digo Python",
+        "reporte de resultados",
+        "recomendaciones de mejora"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Desarrollo de demos educativas de Brain Computer Interface usando se?ales o datasets no invasivos.",
+      "descripcion_larga": "Prototipos educativos de BCI es una oferta de TW Salud orientada a Estudiantes, universidades, laboratorios educativos. Se desarrolla como curso/proyecto mediante h?brido, con entregables como Demo conceptual; c?digo Python; reporte de resultados; recomendaciones de mejora. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Prototipo educativo; no apto para control cr?tico ni uso cl?nico.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-prototipos-educativos-bci&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Prototipos educativos de BCI de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-procesamiento-basico-eeg",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "EEG y Brain Computer Interface",
+      "servicio_producto": "Procesamiento b?sico de se?ales EEG",
+      "oferta": "Procesamiento b?sico de se?ales EEG",
+      "tipo": "Servicio educativo",
+      "modalidad": "Remoto",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Estudiantes",
+        "tesistas",
+        "investigadores iniciales"
+      ],
+      "entregables": [
+        "Scripts Python",
+        "notebook",
+        "gr?ficos",
+        "explicaci?n t?cnica"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Procesamiento b?sico de se?ales EEG con filtrado, visualizaci?n y extracci?n simple de caracter?sticas para aprendizaje.",
+      "descripcion_larga": "Procesamiento b?sico de se?ales EEG es una oferta de TW Salud orientada a Estudiantes, tesistas, investigadores iniciales. Se desarrolla como servicio educativo mediante remoto, con entregables como Scripts Python; notebook; gr?ficos; explicaci?n t?cnica. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No se entrega interpretaci?n diagn?stica ni conclusi?n m?dica.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-procesamiento-basico-eeg&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Procesamiento b?sico de se?ales EEG de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-clasificacion-senales-biomedicas",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "EEG y Brain Computer Interface",
+      "servicio_producto": "Clasificaci?n b?sica de se?ales biom?dicas",
+      "oferta": "Clasificaci?n b?sica de se?ales biom?dicas",
+      "tipo": "Servicio educativo",
+      "modalidad": "Remoto",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Estudiantes",
+        "tesistas",
+        "docentes",
+        "equipos de I+D"
+      ],
+      "entregables": [
+        "Notebook",
+        "modelo base",
+        "m?tricas",
+        "recomendaciones metodol?gicas"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Clasificaci?n b?sica con Python de se?ales biom?dicas o datasets abiertos para proyectos educativos y exploratorios.",
+      "descripcion_larga": "Clasificaci?n b?sica de se?ales biom?dicas es una oferta de TW Salud orientada a Estudiantes, tesistas, docentes, equipos de I+D. Se desarrolla como servicio educativo mediante remoto, con entregables como Notebook; modelo base; m?tricas; recomendaciones metodol?gicas. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Resultados exploratorios; no usar para decisi?n cl?nica.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-clasificacion-senales-biomedicas&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Clasificaci?n b?sica de se?ales biom?dicas de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-interfaces-experimentales-accesibilidad",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "EEG y Brain Computer Interface",
+      "servicio_producto": "Interfaces experimentales de accesibilidad",
+      "oferta": "Interfaces experimentales de accesibilidad",
+      "tipo": "Prototipo experimental",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Laboratorios",
+        "proyectos inclusivos",
+        "universidades"
+      ],
+      "entregables": [
+        "Demo",
+        "c?digo",
+        "reporte de pruebas",
+        "matriz b?sica de riesgos"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Interfaces experimentales para accesibilidad usando se?ales, botones, sensores o clasificadores b?sicos.",
+      "descripcion_larga": "Interfaces experimentales de accesibilidad es una oferta de TW Salud orientada a Laboratorios, proyectos inclusivos, universidades. Se desarrolla como prototipo experimental mediante h?brido, con entregables como Demo; c?digo; reporte de pruebas; matriz b?sica de riesgos. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Requiere evaluaci?n de usabilidad, seguridad y profesionales competentes antes de uso real.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-interfaces-experimentales-accesibilidad&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Interfaces experimentales de accesibilidad de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-python-bci",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "EEG y Brain Computer Interface",
+      "servicio_producto": "Programaci?n de prototipos BCI con Python",
+      "oferta": "Programaci?n de prototipos BCI con Python",
+      "tipo": "Capacitaci?n/Proyecto",
+      "modalidad": "Virtual o h?brido",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Estudiantes",
+        "investigadores",
+        "desarrolladores"
+      ],
+      "entregables": [
+        "Sesiones",
+        "notebooks",
+        "scripts",
+        "demo conceptual",
+        "gu?a de instalaci?n"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "Programaci?n de prototipos BCI con Python para adquisici?n simulada, procesamiento, visualizaci?n y control experimental.",
+      "descripcion_larga": "Programaci?n de prototipos BCI con Python es una oferta de TW Salud orientada a Estudiantes, investigadores, desarrolladores. Se desarrolla como capacitaci?n/proyecto mediante virtual o h?brido, con entregables como Sesiones; notebooks; scripts; demo conceptual; gu?a de instalaci?n. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Formaci?n t?cnica independiente, no certificaci?n cl?nica ni validaci?n sanitaria.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-python-bci&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Programaci?n de prototipos BCI con Python de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-revision-tecnologica-dialisis",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Investigaci?n aplicada en salud",
+      "servicio_producto": "Revisi?n tecnol?gica de soluciones para di?lisis",
+      "oferta": "Revisi?n tecnol?gica de soluciones para di?lisis",
+      "tipo": "Investigaci?n aplicada",
+      "modalidad": "Remoto",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Investigadores",
+        "estudiantes",
+        "instituciones",
+        "familias",
+        "proyectos sociales"
+      ],
+      "entregables": [
+        "Informe documental",
+        "matriz comparativa",
+        "referencias",
+        "oportunidades de I+D"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Revisi?n documental y tecnol?gica de soluciones de apoyo relacionadas con di?lisis, calidad de vida y seguimiento no cl?nico.",
+      "descripcion_larga": "Revisi?n tecnol?gica de soluciones para di?lisis es una oferta de TW Salud orientada a Investigadores, estudiantes, instituciones, familias, proyectos sociales. Se desarrolla como investigaci?n aplicada mediante remoto, con entregables como Informe documental; matriz comparativa; referencias; oportunidades de I+D. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No propone tratamiento ni reemplaza criterio nefrol?gico; enfoque documental y tecnol?gico.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-revision-tecnologica-dialisis&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Revisi?n tecnol?gica de soluciones para di?lisis de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-prototipos-monitoreo-no-clinico",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Investigaci?n aplicada en salud",
+      "servicio_producto": "Prototipos de monitoreo no cl?nico",
+      "oferta": "Prototipos de monitoreo no cl?nico",
+      "tipo": "Prototipo no cl?nico",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Pacientes con acompa?amiento",
+        "cuidadores",
+        "investigadores",
+        "instituciones"
+      ],
+      "entregables": [
+        "Prototipo web o hardware",
+        "ficha de variables",
+        "reporte de pruebas",
+        "advertencias"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Prototipos de registro o seguimiento informativo de variables de apoyo, h?bitos o adherencia no diagn?stica.",
+      "descripcion_larga": "Prototipos de monitoreo no cl?nico es una oferta de TW Salud orientada a Pacientes con acompa?amiento, cuidadores, investigadores, instituciones. Se desarrolla como prototipo no cl?nico mediante h?brido, con entregables como Prototipo web o hardware; ficha de variables; reporte de pruebas; advertencias. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "No mide, diagnostica ni alerta cl?nicamente sin validaci?n profesional y regulatoria.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-prototipos-monitoreo-no-clinico&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Prototipos de monitoreo no cl?nico de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-sensores-variables-apoyo",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Investigaci?n aplicada en salud",
+      "servicio_producto": "Sensores para seguimiento de variables de apoyo",
+      "oferta": "Sensores para seguimiento de variables de apoyo",
+      "tipo": "Prototipo educativo",
+      "modalidad": "H?brido",
+      "estado": "prototipo",
+      "madurez": "prototipo",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Estudiantes",
+        "laboratorios",
+        "proyectos de innovaci?n"
+      ],
+      "entregables": [
+        "Prototipo",
+        "c?digo",
+        "diagrama",
+        "registro de datos",
+        "recomendaciones"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Integraci?n educativa de sensores para variables ambientales o de apoyo en proyectos de salud digital no cl?nica.",
+      "descripcion_larga": "Sensores para seguimiento de variables de apoyo es una oferta de TW Salud orientada a Estudiantes, laboratorios, proyectos de innovaci?n. Se desarrolla como prototipo educativo mediante h?brido, con entregables como Prototipo; c?digo; diagrama; registro de datos; recomendaciones. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Datos orientativos para aprendizaje o investigaci?n; no usar como medici?n cl?nica.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-sensores-variables-apoyo&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Sensores para seguimiento de variables de apoyo de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-dashboards-proyectos-salud",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Investigaci?n aplicada en salud",
+      "servicio_producto": "Dashboards para proyectos de salud",
+      "oferta": "Dashboards para proyectos de salud",
+      "tipo": "Software/Servicio",
+      "modalidad": "Remoto",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Instituciones",
+        "investigadores",
+        "consultorios",
+        "equipos de proyecto"
+      ],
+      "entregables": [
+        "Dashboard",
+        "formularios",
+        "gr?ficos",
+        "gu?a de uso",
+        "documentaci?n"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Dashboards informativos para organizar datos de proyectos de salud, mantenimiento, h?bitos o investigaci?n aplicada.",
+      "descripcion_larga": "Dashboards para proyectos de salud es una oferta de TW Salud orientada a Instituciones, investigadores, consultorios, equipos de proyecto. Se desarrolla como software/servicio mediante remoto, con entregables como Dashboard; formularios; gr?ficos; gu?a de uso; documentaci?n. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "Herramienta informativa; no genera diagn?stico ni recomendaci?n m?dica autom?tica.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-dashboards-proyectos-salud&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Dashboards para proyectos de salud de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-analisis-documental-biomedicas",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Investigaci?n aplicada en salud",
+      "servicio_producto": "An?lisis documental de tecnolog?as biom?dicas",
+      "oferta": "An?lisis documental de tecnolog?as biom?dicas",
+      "tipo": "Investigaci?n aplicada",
+      "modalidad": "Remoto",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "media",
+      "requiere_validacion_profesional": "no",
+      "publico_objetivo": [
+        "Tesistas",
+        "investigadores",
+        "emprendedores",
+        "docentes"
+      ],
+      "entregables": [
+        "Informe",
+        "matriz de tecnolog?as",
+        "referencias",
+        "recomendaciones de factibilidad"
+      ],
+      "precio_peru_desde_soles": 299,
+      "precio_internacional_desde_usd": 90,
+      "precio_desde_soles_igv": 299,
+      "precio_internacional_usd": 90,
+      "precio_soles_texto": "Desde S/ 299",
+      "precio_usd_texto": "Desde USD 90",
+      "descripcion_corta": "An?lisis t?cnico-documental de tecnolog?as biom?dicas, tendencias, riesgos, componentes y oportunidades de prototipado.",
+      "descripcion_larga": "An?lisis documental de tecnolog?as biom?dicas es una oferta de TW Salud orientada a Tesistas, investigadores, emprendedores, docentes. Se desarrolla como investigaci?n aplicada mediante remoto, con entregables como Informe; matriz de tecnolog?as; referencias; recomendaciones de factibilidad. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "An?lisis documental sin certificaci?n regulatoria ni validaci?n cl?nica.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-analisis-documental-biomedicas&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar An?lisis documental de tecnolog?as biom?dicas de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    },
+    {
+      "id": "tw-salud-factibilidad-tecnica-salud",
+      "linea_slug": "tw-salud",
+      "linea": "TW Salud",
+      "linea_completa": "TW Salud y Vida - Pr?tesis y Tecnolog?a M?dica",
+      "categoria": "Investigaci?n aplicada en salud",
+      "servicio_producto": "Estudios de factibilidad t?cnica",
+      "oferta": "Estudios de factibilidad t?cnica",
+      "tipo": "Consultor?a t?cnica",
+      "modalidad": "Remoto o h?brido",
+      "estado": "vigente",
+      "madurez": "vigente",
+      "prioridad": "alta",
+      "requiere_validacion_profesional": "s?",
+      "publico_objetivo": [
+        "Emprendedores",
+        "instituciones",
+        "investigadores",
+        "proyectos sociales"
+      ],
+      "entregables": [
+        "Informe de factibilidad",
+        "alcance",
+        "riesgos",
+        "ruta de prototipado",
+        "estimaci?n preliminar"
+      ],
+      "precio_peru_desde_soles": 699,
+      "precio_internacional_desde_usd": 220,
+      "precio_desde_soles_igv": 699,
+      "precio_internacional_usd": 220,
+      "precio_soles_texto": "Desde S/ 699",
+      "precio_usd_texto": "Desde USD 220",
+      "descripcion_corta": "Evaluaci?n de factibilidad t?cnica para ideas, prototipos o proyectos de tecnolog?a de asistencia y salud digital.",
+      "descripcion_larga": "Estudios de factibilidad t?cnica es una oferta de TW Salud orientada a Emprendedores, instituciones, investigadores, proyectos sociales. Se desarrolla como consultor?a t?cnica mediante remoto o h?brido, con entregables como Informe de factibilidad; alcance; riesgos; ruta de prototipado; estimaci?n preliminar. El alcance final, tiempos, materiales y validaciones se confirman por cotizaci?n.",
+      "nota_tecnica": "La factibilidad t?cnica no implica autorizaci?n sanitaria ni aprobaci?n de uso cl?nico.",
+      "nota_obligatoria": "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+      "incluye": [
+        "Revisi?n inicial del requerimiento y alcance.",
+        "Coordinaci?n por WhatsApp o correo institucional.",
+        "Documentaci?n o entregable acordado seg?n propuesta."
+      ],
+      "condiciones": [
+        "Los servicios de TW Salud se orientan a dise?o, prototipado, soporte t?cnico, accesibilidad e investigaci?n aplicada. La evaluaci?n cl?nica, prescripci?n, adaptaci?n m?dica y validaci?n de uso deben realizarse con profesionales de salud competentes cuando corresponda.",
+        "Precios referenciales desde. El precio final depende del alcance, ubicaci?n, materiales, modalidad, urgencia y validaci?n t?cnica.",
+        "No se afirma diagn?stico m?dico, prescripci?n, aprobaci?n cl?nica, autorizaci?n sanitaria ni representaci?n de marcas o instituciones."
+      ],
+      "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+      "url_detalle": "detalle/oferta.html?id=tw-salud-factibilidad-tecnica-salud&linea=tw-salud",
+      "whatsapp_message": "Hola, deseo cotizar Estudios de factibilidad t?cnica de TW Salud. Vengo desde la web de Tecprog World E.I.R.L."
+    }
+  ]
+}

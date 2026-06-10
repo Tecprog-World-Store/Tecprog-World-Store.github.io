@@ -223,7 +223,7 @@ async function renderMaterialIndex() {
   try {
     const materials = await loadMaterials();
     const filtered = materials.filter((item) => {
-      if (type === "protesis") return item.linea === "TW Salud y Vida / TW Bionic";
+      if (type === "protesis") return item.linea === "TW Salud";
       if (type === "hp50g") return item.subcategoria === "HP 50G" || item.id.includes("hp-50g");
       if (type === "educativos") return item.linea === "TW Educa para Ingenieros y Científicos";
       return true;
@@ -257,4 +257,3 @@ document.addEventListener("DOMContentLoaded", () => {
   renderMaterialDetail();
   renderMaterialIndex();
 });
-

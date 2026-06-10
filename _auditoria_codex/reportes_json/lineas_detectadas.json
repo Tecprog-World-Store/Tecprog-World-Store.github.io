@@ -1,0 +1,106 @@
+[
+    {
+        "alias":  "TW Salud",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  17,
+        "files":  [
+                      "index.html",
+                      "README.md",
+                      "assets/js/catalogos-lineas.js",
+                      "assets/js/main.js",
+                      "assets/js/materiales.js",
+                      "assets/js/navigation.js",
+                      "assets/js/right-panel.js",
+                      "catalogo/catalogo-mensual.html",
+                      "catalogo/tw-salud.html",
+                      "data/catalogo-tw-salud.json",
+                      "data/materiales.json",
+                      "data/fuentes/catalogo_base_tw_salud.txt",
+                      "empresa/mapa-del-sitio.html",
+                      "lineas/tw-protesis-ortesis.html",
+                      "lineas/tw-salud-vida.html",
+                      "lineas/tw-salud.html",
+                      "servicios/protesis-y-ortesis.html"
+                  ]
+    },
+    {
+        "alias":  "TW Salud y Vida",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  6,
+        "files":  [
+                      "index.html",
+                      "assets/js/main.js",
+                      "assets/js/materiales.js",
+                      "data/materiales.json",
+                      "lineas/tw-salud-vida.html",
+                      "servicios/protesis-y-ortesis.html"
+                  ]
+    },
+    {
+        "alias":  "TW Prótesis y Órtesis",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  5,
+        "files":  [
+                      "index.html",
+                      "README.md",
+                      "assets/js/main.js",
+                      "data/lineas.json",
+                      "empresa/contacto.html"
+                  ]
+    },
+    {
+        "alias":  "TW Protesis y Ortesis",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  2,
+        "files":  [
+                      "index.html",
+                      "assets/js/navigation.js"
+                  ]
+    },
+    {
+        "alias":  "TW Bionic",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  7,
+        "files":  [
+                      "index.html",
+                      "README.md",
+                      "assets/js/main.js",
+                      "assets/js/materiales.js",
+                      "data/materiales.json",
+                      "lineas/tw-salud-vida.html",
+                      "servicios/protesis-y-ortesis.html"
+                  ]
+    },
+    {
+        "alias":  "Prótesis y Tecnología Médica",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  0,
+        "files":  [
+
+                  ]
+    },
+    {
+        "alias":  "Protesis y Tecnologia Medica",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  0,
+        "files":  [
+
+                  ]
+    },
+    {
+        "alias":  "TW Salud / TW Bionic",
+        "canonical":  "TW Salud y Vida - Prótesis y Tecnología Médica",
+        "short":  "TW Salud",
+        "occurrences":  0,
+        "files":  [
+
+                  ]
+    }
+]
