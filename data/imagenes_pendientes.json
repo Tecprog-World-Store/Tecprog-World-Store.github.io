@@ -226,10 +226,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-store-001.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para iPhone 16e 5G 128GB. Representar Celulares con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 46.2,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-store-002",
@@ -303,10 +305,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-store-008.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para JBL PartyBox Stage 320. Representar Audio con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 161.0,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-store-009",
@@ -325,10 +329,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-store-010.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para ASUS TUF Gaming F16. Representar Laptops con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 135.6,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-store-011",
@@ -369,10 +375,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-store-014.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Meta Quest 3. Representar Realidad Virtual con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 55.9,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-store-015",
@@ -380,10 +388,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-store-015.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Hub USB-C multipuerto. Representar Accesorios con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 51.9,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-disfruta-001",
@@ -391,10 +401,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-disfruta-001.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Videojuego original Tecprog World en desarrollo. Representar Videojuegos con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 137.3,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-disfruta-002",
@@ -512,10 +524,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-educa-006.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Curso Programación Python. Representar Programación con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 109.3,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-educa-007",
@@ -523,10 +537,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-educa-007.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Curso GIS aplicado. Representar GIS con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 209.8,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-educa-008",
@@ -545,10 +561,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-innova-001.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Desarrollo de sitio web corporativo. Representar Software con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 84.2,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-innova-002",
@@ -578,10 +596,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-innova-004.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Desarrollo de solución en realidad mixta. Representar Realidad mixta con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 135.8,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-innova-005",
@@ -633,10 +653,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-salud-001.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Diseño de órtesis personalizada. Representar Prótesis y órtesis con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 100.5,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-salud-002",
@@ -710,10 +732,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-interactive-002.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Modelamiento hidráulico. Representar Hidráulica con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 222.4,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-interactive-003",
@@ -765,10 +789,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-construye-001.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Remodelación de oficina. Representar Remodelación con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 143.4,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-construye-002",
@@ -831,10 +857,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-inox-001.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Baranda de acero inoxidable. Representar Acero inoxidable con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 123.9,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-inox-002",
@@ -919,10 +947,12 @@
       "archivo_esperado": "assets/img/store/productos/tw-investiga-003.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Imagen comercial para Procesamiento de datos científicos. Representar Datos científicos con estilo corporativo Tecprog World, fondo azul noche y celeste tecnol?gico, sin logos externos no autorizados.",
-      "notas": "Imagen espec?fica del item. Mantener placeholder hasta que exista este archivo.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Imagen priorizada fase 7 optimizada en WEBP 1200x1200. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 180.5,
+      "dimensiones_finales": "1200x1200 px"
     },
     {
       "id": "tw-investiga-004",

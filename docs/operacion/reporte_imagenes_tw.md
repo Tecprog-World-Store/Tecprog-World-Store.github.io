@@ -6,8 +6,8 @@ Pillow disponible: sí
 
 ## Resumen
 
-- OK: 18
-- PENDIENTE: 85
+- OK: 33
+- PENDIENTE: 70
 
 ## Detalle
 
@@ -31,22 +31,22 @@ Pillow disponible: sí
 | flyers_linea | tw-construye | `assets/img/store/flyers/tw-construye-portada.webp` | OK | 117.4 KB | 1080x1920 | Correcto. |
 | flyers_linea | tw-inox | `assets/img/store/flyers/tw-inox-portada.webp` | OK | 116.6 KB | 1080x1920 | Correcto. |
 | flyers_linea | tw-investiga | `assets/img/store/flyers/tw-investiga-portada.webp` | OK | 120.6 KB | 1080x1920 | Correcto. |
-| productos | tw-store-001 | `assets/img/store/productos/tw-store-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-store-001 | `assets/img/store/productos/tw-store-001.webp` | OK | 46.2 KB | 1200x1200 | Correcto. |
 | productos | tw-store-002 | `assets/img/store/productos/tw-store-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-003 | `assets/img/store/productos/tw-store-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-004 | `assets/img/store/productos/tw-store-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-005 | `assets/img/store/productos/tw-store-005.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-006 | `assets/img/store/productos/tw-store-006.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-007 | `assets/img/store/productos/tw-store-007.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-store-008 | `assets/img/store/productos/tw-store-008.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-store-008 | `assets/img/store/productos/tw-store-008.webp` | OK | 161.0 KB | 1200x1200 | Correcto. |
 | productos | tw-store-009 | `assets/img/store/productos/tw-store-009.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-store-010 | `assets/img/store/productos/tw-store-010.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-store-010 | `assets/img/store/productos/tw-store-010.webp` | OK | 135.6 KB | 1200x1200 | Correcto. |
 | productos | tw-store-011 | `assets/img/store/productos/tw-store-011.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-012 | `assets/img/store/productos/tw-store-012.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-013 | `assets/img/store/productos/tw-store-013.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-store-014 | `assets/img/store/productos/tw-store-014.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-store-015 | `assets/img/store/productos/tw-store-015.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-disfruta-001 | `assets/img/store/productos/tw-disfruta-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-store-014 | `assets/img/store/productos/tw-store-014.webp` | OK | 55.9 KB | 1200x1200 | Correcto. |
+| productos | tw-store-015 | `assets/img/store/productos/tw-store-015.webp` | OK | 51.9 KB | 1200x1200 | Correcto. |
+| productos | tw-disfruta-001 | `assets/img/store/productos/tw-disfruta-001.webp` | OK | 137.3 KB | 1200x1200 | Correcto. |
 | productos | tw-disfruta-002 | `assets/img/store/productos/tw-disfruta-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-disfruta-003 | `assets/img/store/productos/tw-disfruta-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-disfruta-004 | `assets/img/store/productos/tw-disfruta-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
@@ -57,36 +57,36 @@ Pillow disponible: sí
 | productos | tw-educa-003 | `assets/img/store/productos/tw-educa-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-educa-004 | `assets/img/store/productos/tw-educa-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-educa-005 | `assets/img/store/productos/tw-educa-005.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-educa-006 | `assets/img/store/productos/tw-educa-006.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-educa-007 | `assets/img/store/productos/tw-educa-007.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-educa-006 | `assets/img/store/productos/tw-educa-006.webp` | OK | 109.3 KB | 1200x1200 | Correcto. |
+| productos | tw-educa-007 | `assets/img/store/productos/tw-educa-007.webp` | OK | 209.8 KB | 1200x1200 | Correcto. |
 | productos | tw-educa-008 | `assets/img/store/productos/tw-educa-008.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-innova-001 | `assets/img/store/productos/tw-innova-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-innova-001 | `assets/img/store/productos/tw-innova-001.webp` | OK | 84.2 KB | 1200x1200 | Correcto. |
 | productos | tw-innova-002 | `assets/img/store/productos/tw-innova-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-innova-003 | `assets/img/store/productos/tw-innova-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-innova-004 | `assets/img/store/productos/tw-innova-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-innova-004 | `assets/img/store/productos/tw-innova-004.webp` | OK | 135.8 KB | 1200x1200 | Correcto. |
 | productos | tw-innova-005 | `assets/img/store/productos/tw-innova-005.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-innova-006 | `assets/img/store/productos/tw-innova-006.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-innova-007 | `assets/img/store/productos/tw-innova-007.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-innova-008 | `assets/img/store/productos/tw-innova-008.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-salud-001 | `assets/img/store/productos/tw-salud-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-salud-001 | `assets/img/store/productos/tw-salud-001.webp` | OK | 100.5 KB | 1200x1200 | Correcto. |
 | productos | tw-salud-002 | `assets/img/store/productos/tw-salud-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-salud-003 | `assets/img/store/productos/tw-salud-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-salud-004 | `assets/img/store/productos/tw-salud-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-salud-005 | `assets/img/store/productos/tw-salud-005.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-salud-006 | `assets/img/store/productos/tw-salud-006.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-interactive-001 | `assets/img/store/productos/tw-interactive-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-interactive-002 | `assets/img/store/productos/tw-interactive-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-interactive-002 | `assets/img/store/productos/tw-interactive-002.webp` | OK | 222.4 KB | 1200x1200 | Correcto. |
 | productos | tw-interactive-003 | `assets/img/store/productos/tw-interactive-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-interactive-004 | `assets/img/store/productos/tw-interactive-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-interactive-005 | `assets/img/store/productos/tw-interactive-005.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-interactive-006 | `assets/img/store/productos/tw-interactive-006.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-construye-001 | `assets/img/store/productos/tw-construye-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-construye-001 | `assets/img/store/productos/tw-construye-001.webp` | OK | 143.4 KB | 1200x1200 | Correcto. |
 | productos | tw-construye-002 | `assets/img/store/productos/tw-construye-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-construye-003 | `assets/img/store/productos/tw-construye-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-construye-004 | `assets/img/store/productos/tw-construye-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-construye-005 | `assets/img/store/productos/tw-construye-005.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-construye-006 | `assets/img/store/productos/tw-construye-006.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-inox-001 | `assets/img/store/productos/tw-inox-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-inox-001 | `assets/img/store/productos/tw-inox-001.webp` | OK | 123.9 KB | 1200x1200 | Correcto. |
 | productos | tw-inox-002 | `assets/img/store/productos/tw-inox-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-inox-003 | `assets/img/store/productos/tw-inox-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-inox-004 | `assets/img/store/productos/tw-inox-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
@@ -94,7 +94,7 @@ Pillow disponible: sí
 | productos | tw-inox-006 | `assets/img/store/productos/tw-inox-006.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-investiga-001 | `assets/img/store/productos/tw-investiga-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-investiga-002 | `assets/img/store/productos/tw-investiga-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| productos | tw-investiga-003 | `assets/img/store/productos/tw-investiga-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| productos | tw-investiga-003 | `assets/img/store/productos/tw-investiga-003.webp` | OK | 180.5 KB | 1200x1200 | Correcto. |
 | productos | tw-investiga-004 | `assets/img/store/productos/tw-investiga-004.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-investiga-005 | `assets/img/store/productos/tw-investiga-005.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-investiga-006 | `assets/img/store/productos/tw-investiga-006.webp` | PENDIENTE | - | - | Archivo pendiente. |

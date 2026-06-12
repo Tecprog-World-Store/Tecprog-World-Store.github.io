@@ -46,15 +46,16 @@ def parse_weight_limit(text: str) -> tuple[int | None, int | None]:
     return None, None
 
 
-def expected_dimensions(text: str) -> tuple[int, int] | None:
+def expected_dimensions(text: str) -> list[tuple[int, int]]:
     cleaned = text.lower().replace("px", "").replace(" ", "")
+    dimensions: list[tuple[int, int]] = []
     for token in cleaned.replace("o", "|").split("|"):
         if "x" not in token:
             continue
         left, right = token.split("x", 1)
         if left.isdigit() and right.isdigit():
-            return int(left), int(right)
-    return None
+            dimensions.append((int(left), int(right)))
+    return dimensions
 
 
 def check_record(section: str, record: dict[str, Any]) -> ImageCheck:
@@ -90,14 +91,18 @@ def check_record(section: str, record: dict[str, Any]) -> ImageCheck:
         try:
             with Image.open(path) as img:
                 dimensions = img.size
-            expected = expected_dimensions(expected_size)
-            if expected:
+            expected_options = expected_dimensions(expected_size)
+            if expected_options:
                 tolerance = 0.08
-                width_ok = abs(dimensions[0] - expected[0]) <= expected[0] * tolerance
-                height_ok = abs(dimensions[1] - expected[1]) <= expected[1] * tolerance
-                if not (width_ok and height_ok):
+                matches_expected = any(
+                    abs(dimensions[0] - expected[0]) <= expected[0] * tolerance
+                    and abs(dimensions[1] - expected[1]) <= expected[1] * tolerance
+                    for expected in expected_options
+                )
+                if not matches_expected:
                     status = "REVISAR" if status == "OK" else status
-                    details.append(f"Dimensiones {dimensions[0]}x{dimensions[1]} difieren de {expected[0]}x{expected[1]}.")
+                    expected_text = " o ".join(f"{width}x{height}" for width, height in expected_options)
+                    details.append(f"Dimensiones {dimensions[0]}x{dimensions[1]} difieren de {expected_text}.")
         except Exception as exc:
             status = "REVISAR"
             details.append(f"No se pudo leer dimensiones: {exc}")

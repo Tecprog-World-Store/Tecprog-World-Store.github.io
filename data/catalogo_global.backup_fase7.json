@@ -17,7 +17,7 @@
       "tecnología",
       "celular"
     ],
-    "imagen": "assets/img/store/productos/tw-store-001.webp",
+    "imagen": "assets/img/store/placeholders/celular.svg",
     "banner": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar el producto iPhone 16e 5G 128GB de TW Store. ¿Está disponible para envío?",
@@ -200,7 +200,7 @@
       "jbl",
       "eventos"
     ],
-    "imagen": "assets/img/store/productos/tw-store-008.webp",
+    "imagen": "assets/img/store/placeholders/audifonos.svg",
     "banner": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-008",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar JBL PartyBox Stage 320.",
@@ -253,7 +253,7 @@
       "gaming",
       "ingeniería"
     ],
-    "imagen": "assets/img/store/productos/tw-store-010.webp",
+    "imagen": "assets/img/store/placeholders/laptop.svg",
     "banner": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-010",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar ASUS TUF Gaming F16.",
@@ -358,7 +358,7 @@
       "xr",
       "meta quest"
     ],
-    "imagen": "assets/img/store/productos/tw-store-014.webp",
+    "imagen": "assets/img/store/productos/meta-quest-3.svg",
     "banner": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-014",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar Meta Quest 3.",
@@ -384,7 +384,7 @@
       "usb-c",
       "accesorio"
     ],
-    "imagen": "assets/img/store/productos/tw-store-015.webp",
+    "imagen": "assets/img/store/productos/hub-usbc.svg",
     "banner": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-015",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar un hub USB-C multipuerto.",
@@ -411,7 +411,7 @@
       "digital",
       "juego"
     ],
-    "imagen": "assets/img/store/productos/tw-disfruta-001.webp",
+    "imagen": "assets/img/store/placeholders/realidad-virtual.svg",
     "banner": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp",
     "url_detalle": "detalle/item.html?id=tw-disfruta-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre videojuegos originales de TW Disfruta.",
@@ -707,7 +707,7 @@
       "automatización",
       "datos"
     ],
-    "imagen": "assets/img/store/productos/tw-educa-006.webp",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Python00.webp",
     "banner": "assets/img/banners/tw-educa/banner-tw-educa-01.png",
     "url_detalle": "detalle/item.html?id=tw-educa-006",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el Curso Programación Python.",
@@ -734,7 +734,7 @@
       "mapas",
       "territorio"
     ],
-    "imagen": "assets/img/store/productos/tw-educa-007.webp",
+    "imagen": "assets/img/cursos/taller-innovacion-prototipado.svg",
     "banner": "assets/img/banners/tw-educa/banner-tw-educa-01.png",
     "url_detalle": "detalle/item.html?id=tw-educa-007",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el Curso GIS aplicado.",
@@ -788,7 +788,7 @@
       "empresa",
       "sitio web"
     ],
-    "imagen": "assets/img/store/productos/tw-innova-001.webp",
+    "imagen": "assets/img/software/software-comercial-dashboard.svg",
     "banner": "assets/img/banners/tw-innova/banner-tw-innova-01.png",
     "url_detalle": "detalle/item.html?id=tw-innova-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar el desarrollo de un sitio web corporativo.",
@@ -869,7 +869,7 @@
       "vr",
       "ar"
     ],
-    "imagen": "assets/img/store/productos/tw-innova-004.webp",
+    "imagen": "assets/img/store/placeholders/realidad-virtual.svg",
     "banner": "assets/img/banners/tw-innova/banner-tw-innova-01.png",
     "url_detalle": "detalle/item.html?id=tw-innova-004",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar una solución en realidad mixta.",
@@ -1005,7 +1005,7 @@
       "salud",
       "biomédico"
     ],
-    "imagen": "assets/img/store/productos/tw-salud-001.webp",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.webp",
     "banner": "assets/img/banners/tw-salud/banner-tw-salud-01.png",
     "url_detalle": "detalle/item.html?id=tw-salud-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre diseño de órtesis personalizada.",
@@ -1194,7 +1194,7 @@
       "flujo",
       "ingeniería"
     ],
-    "imagen": "assets/img/store/productos/tw-interactive-002.webp",
+    "imagen": "assets/img/banners/tw-interactive/banner-tw-interactive-01.png",
     "banner": "assets/img/banners/tw-interactive/banner-tw-interactive-01.png",
     "url_detalle": "detalle/item.html?id=tw-interactive-002",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar modelamiento hidráulico.",
@@ -1328,7 +1328,7 @@
       "oficina",
       "construcción"
     ],
-    "imagen": "assets/img/store/productos/tw-construye-001.webp",
+    "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "banner": "assets/img/banners/tw-construye/banner-tw-construye-01.png",
     "url_detalle": "detalle/item.html?id=tw-construye-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar una remodelación de oficina con TW Construye.",
@@ -1490,7 +1490,7 @@
       "baranda",
       "metalmecánica"
     ],
-    "imagen": "assets/img/store/productos/tw-inox-001.webp",
+    "imagen": "assets/img/banners/tw-inox/banner-tw-inox-01.png",
     "banner": "assets/img/banners/tw-inox/banner-tw-inox-01.png",
     "url_detalle": "detalle/item.html?id=tw-inox-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar una baranda de acero inoxidable.",
@@ -1706,7 +1706,7 @@
       "procesamiento",
       "análisis"
     ],
-    "imagen": "assets/img/store/productos/tw-investiga-003.webp",
+    "imagen": "assets/img/software/software-comercial-dashboard.svg",
     "banner": "assets/img/banners/tw-investiga/banner-tw-investiga-01.png",
     "url_detalle": "detalle/item.html?id=tw-investiga-003",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar procesamiento de datos científicos.",
