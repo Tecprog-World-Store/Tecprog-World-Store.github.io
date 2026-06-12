@@ -1,0 +1,101 @@
+[
+  {
+    "nombre": "TW Store para el Comercio Digital",
+    "slug": "tw-store",
+    "prioridad": 1,
+    "pagina": "store/index.html",
+    "descripcion": "Plataforma online tipo e-commerce que presenta principalmente venta de productos electrónicos, pero también permite buscar todos los productos o servicios pagables de todo el sitio web.",
+    "categoria_principal": "Comercio digital",
+    "banner_key": "tw-store",
+    "icono": "assets/icons/store.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Disfruta para Entretenimiento",
+    "slug": "tw-disfruta",
+    "prioridad": 3,
+    "pagina": "disfruta/index.html",
+    "descripcion": "Línea de entretenimiento digital: desarrollo y venta de videojuegos originales de Tecprog World, impresión 3D de assets, merchandising asociado, widgets, coleccionables y productos para consumidores digitales.",
+    "categoria_principal": "Entretenimiento digital",
+    "banner_key": "tw-disfruta",
+    "icono": "assets/icons/store.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Educa para Ingenieros y Científicos",
+    "slug": "tw-educa",
+    "prioridad": 4,
+    "pagina": "educa/index.html",
+    "descripcion": "Línea de capacitación profesional: ofimática, Excel I/II/III, AutoCAD I/II/III, estadística, costos y presupuestos, programación, GIS, simulaciones multifísicas, redes, software científico, software técnico y formación profesional para ingenieros, científicos y técnicos.",
+    "categoria_principal": "Educación profesional",
+    "banner_key": "tw-educa",
+    "icono": "assets/icons/education.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Innova para el Desarrollo de Software y Hardware",
+    "slug": "tw-innova",
+    "prioridad": 5,
+    "pagina": "innova/index.html",
+    "descripcion": "Línea de desarrollo de software y hardware a pedido: realidad mixta, aplicaciones móviles, portales web corporativos, sitios para pequeños negocios, electrónica, electricidad, mantenimiento preventivo multimarcas, reparación de componentes electrónicos, GPU gamer, placas de computadoras, televisores digitales, pantallas de vehículos, automatización electrónica, Alexa, Google Assistant, domótica, cámaras de seguridad, cercos eléctricos, ensamblado de vehículos eléctricos y soluciones relacionadas.",
+    "categoria_principal": "Software y hardware",
+    "banner_key": "tw-innova",
+    "icono": "assets/icons/innovation.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Salud para Tecnología Médica",
+    "slug": "tw-salud",
+    "prioridad": 6,
+    "pagina": "salud/index.html",
+    "descripcion": "Línea de soluciones de ingeniería aplicadas al campo biomédico: software y hardware inclusivo, adaptación de vehículos inclusivos, prótesis y órtesis, mantenimiento de equipos médicos, diseño y adaptación de objetos y dispositivos.",
+    "categoria_principal": "Tecnología médica",
+    "banner_key": "tw-salud",
+    "icono": "assets/icons/health.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Interactive Ingenieros Consultores",
+    "slug": "tw-interactive",
+    "prioridad": 7,
+    "pagina": "interactive/index.html",
+    "descripcion": "Línea de consultoría en ingeniería mecánica de fluidos, hidrología, hidráulica, oceanografía, minería e industria variada.",
+    "categoria_principal": "Consultoría de ingeniería",
+    "banner_key": "tw-interactive",
+    "icono": "assets/icons/innovation.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Construye para Proyectos de Construcción Civil",
+    "slug": "tw-construye",
+    "prioridad": 8,
+    "pagina": "construye/index.html",
+    "descripcion": "Línea de servicios de construcción civil, remodelación de viviendas, departamentos, oficinas y proyectos desarrollados por técnicos de construcción e ingenieros.",
+    "categoria_principal": "Construcción civil",
+    "banner_key": "tw-construye",
+    "icono": "assets/icons/build.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Inox para Proyectos en Metales",
+    "slug": "tw-inox",
+    "prioridad": 9,
+    "pagina": "inox/index.html",
+    "descripcion": "Línea técnica basada en mecánica de la producción, proyectos en metales, metalmecánica, acero inoxidable y fabricación técnica.",
+    "categoria_principal": "Metalmecánica",
+    "banner_key": "tw-inox",
+    "icono": "assets/icons/build.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Investiga para Proyectos de Investigación Científica",
+    "slug": "tw-investiga",
+    "prioridad": 10,
+    "pagina": "investiga/index.html",
+    "descripcion": "Línea de servicios de investigación científica y tecnológica donde Tecprog World pone especialistas a disposición de empresas, instituciones o profesionales para resolver problemas complejos.",
+    "categoria_principal": "Investigación científica",
+    "banner_key": "tw-investiga",
+    "icono": "assets/icons/innovation.svg",
+    "activo": true
+  }
+]

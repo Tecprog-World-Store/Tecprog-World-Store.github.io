@@ -1,0 +1,104 @@
+@startuml
+title Componentes del portal comercial Tecprog World
+
+skinparam componentStyle rectangle
+skinparam shadowing false
+
+actor Usuario
+
+package "Frontend estático" {
+  [Home / Buscador global] as Home
+  [TW Store] as Store
+  [TW Disfruta] as Disfruta
+  [TW Educa] as Educa
+  [TW Innova] as Innova
+  [TW Salud] as Salud
+  [TW Interactive] as Interactive
+  [TW Inox] as Inox
+  [TW Construye] as Construye
+  [TW Investiga] as Investiga
+}
+
+package "Módulos JS" {
+  [Módulo de búsqueda] as Busqueda
+  [Módulo de filtros] as Filtros
+  [Módulo de ordenamiento] as Ordenamiento
+  [Módulo WhatsApp] as Whatsapp
+  [Navegación superior] as Navegacion
+  [Panel derecho] as PanelDerecho
+}
+
+database "Catálogo global JSON" as CatalogoGlobal
+database "Catálogos por línea" as CatalogosLinea
+database "Líneas de negocio JSON" as Lineas
+database "Banners por línea JSON" as BannersJson
+
+folder "Banners" as Banners
+folder "Assets" as Assets
+folder "Scripts JS" as Scripts
+
+Usuario --> Home
+Usuario --> Store
+Usuario --> Educa
+Usuario --> Innova
+Usuario --> Salud
+Usuario --> Interactive
+Usuario --> Inox
+Usuario --> Construye
+Usuario --> Investiga
+Usuario --> Disfruta
+
+Home --> Busqueda
+Store --> Busqueda
+Store --> Filtros
+Store --> Ordenamiento
+
+Disfruta --> Filtros
+Educa --> Filtros
+Innova --> Filtros
+Salud --> Filtros
+Interactive --> Filtros
+Inox --> Filtros
+Construye --> Filtros
+Investiga --> Filtros
+
+Busqueda --> CatalogoGlobal
+Filtros --> CatalogoGlobal
+Ordenamiento --> CatalogoGlobal
+
+Educa --> CatalogosLinea
+Innova --> CatalogosLinea
+Salud --> CatalogosLinea
+Interactive --> CatalogosLinea
+Inox --> CatalogosLinea
+Construye --> CatalogosLinea
+Investiga --> CatalogosLinea
+Disfruta --> CatalogosLinea
+
+Home --> Lineas
+Navegacion --> Lineas
+
+Home --> BannersJson
+Store --> BannersJson
+Educa --> BannersJson
+Innova --> BannersJson
+Salud --> BannersJson
+Interactive --> BannersJson
+Inox --> BannersJson
+Construye --> BannersJson
+Investiga --> BannersJson
+Disfruta --> BannersJson
+
+BannersJson --> Banners
+Home --> Assets
+Store --> Assets
+Scripts --> Busqueda
+Scripts --> Filtros
+Scripts --> Ordenamiento
+Scripts --> Whatsapp
+
+Whatsapp --> Usuario : Cotización
+PanelDerecho --> Whatsapp
+
+@enduml
+

@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TW Store: catalogo tecnologico de Tecprog World para cotizar celulares, laptops, monitores, audio, Apple, realidad virtual y accesorios por WhatsApp.">
-    <title>TW Store | Catalogo tecnologico Tecprog World</title>
+    <meta name="description" content="Cat?logo global de productos, servicios, cursos, proyectos y soluciones cotizables de Tecprog World.">
+    <meta property="og:title" content="TW Store | Cat?logo global de Tecprog World">
+    <meta property="og:description" content="Cat?logo global de productos, servicios, cursos, proyectos y soluciones cotizables de Tecprog World.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/img/banner_horizontal_tw/figuraHorizontal01.webp">
+    <meta property="og:url" content="https://tecprog-world-store.github.io/store/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>TW Store | Cat?logo global de Tecprog World</title>
     <link rel="icon" href="../assets/img/logos/logo-tecprog-world.png" type="image/png">
     <link rel="stylesheet" href="../assets/css/styles.css">
   </head>
@@ -12,74 +18,52 @@
     <header class="site-header">
       <a class="brand" href="../index.html#inicio" aria-label="Ir al inicio de Tecprog World">
         <img src="../assets/img/logos/logo-tecprog-world.png" alt="Tecprog World" width="56" height="56">
-        <span><strong>Tecprog World</strong><small>E.I.R.L. Peru</small></span>
+        <span><strong>Tecprog World</strong><small>E.I.R.L. Perú</small></span>
       </a>
-      <nav class="site-nav is-static"></nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+      <nav id="site-nav" class="site-nav is-static" data-nav></nav>
     </header>
 
     <main class="store-page">
-      <section class="store-hero">
+      <section class="commerce-hero store-hero">
         <div class="section-shell store-hero-grid">
           <div>
-            <p class="eyebrow">Catalogo tecnologico</p>
+            <p class="eyebrow">Catálogo global comercial</p>
             <h1>TW Store</h1>
-            <p class="store-subtitle">Tecnología bajo pedido por Tecprog World</p>
-            <p>Catálogo tecnológico bajo cotización manual: celulares, laptops, monitores, audio, Apple, realidad virtual y accesorios. No procesamos pagos en línea desde esta tienda.</p>
+            <p class="store-subtitle">Productos, servicios, cursos y soluciones cotizables de Tecprog World</p>
+            <p>Busca en TW Store y en nuestras líneas de tecnología, educación, salud, ingeniería, construcción, metales, entretenimiento e investigación. No procesamos compras automáticas; confirmamos condiciones por WhatsApp.</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#catalogo">Ver productos</a>
-              <a class="btn btn-gold" data-store-whatsapp="catalogo TW Store" href="#">Cotizar por WhatsApp</a>
+              <a class="btn btn-primary" href="#catalogo">Explorar catálogo</a>
+              <a class="btn btn-gold" data-store-whatsapp="el catálogo global de TW Store" href="#">Cotizar por WhatsApp</a>
             </div>
           </div>
           <aside class="store-hero-panel" aria-label="Modelo comercial TW Store">
-            <strong>Catálogo bajo pedido</strong>
-            <p>Confirmamos proveedor, precio, garantía, disponibilidad y entrega antes de cerrar una compra.</p>
-            <span>Producto sujeto a disponibilidad, confirmación de precio, garantía y condiciones de entrega.</span>
+            <strong>Venta y cotización bajo confirmación</strong>
+            <p>El cliente ve solo información comercial pública: precio, estado, descripción y CTA de cotización.</p>
+            <span>Precios, disponibilidad, garantía y envío sujetos a confirmación.</span>
           </aside>
         </div>
       </section>
 
       <section id="catalogo" class="section">
-        <div class="section-shell">
-          <div class="section-heading">
-            <p class="eyebrow" data-store-count>Productos</p>
-            <h2>Catalogo TW Store</h2>
-            <p>Filtra por categoría o busca por nombre. Cada tarjeta abre WhatsApp con un mensaje de cotización listo.</p>
-          </div>
-
-          <div class="store-toolbar" aria-label="Filtros de productos TW Store">
-            <label class="select-filter store-search">
-              <span>Buscar</span>
-              <input type="search" data-store-search placeholder="Celular, laptop, monitor...">
-            </label>
-            <div class="store-filter-row" data-store-filters></div>
-          </div>
-
-          <div class="store-grid" data-store-grid>
-            <p class="loading">Cargando productos...</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-alt">
-        <div class="section-shell split-info">
-          <article class="detail-block">
-            <h2>Aviso comercial</h2>
-            <p>Producto sujeto a disponibilidad, confirmación de precio, garantía y condiciones de entrega.</p>
-          </article>
-          <article class="detail-block">
-            <h2>Como comprar</h2>
-            <ul class="check-list">
-              <li>Elige un producto y solicita cotización por WhatsApp.</li>
-              <li>Confirmamos disponibilidad, proveedor, garantía y entrega.</li>
-              <li>Coordinamos pago y envío solo después de validar condiciones.</li>
-            </ul>
-          </article>
-        </div>
+        <div
+          class="commerce-shell"
+          data-commerce-catalog
+          data-catalog-mode="store"
+          data-catalog-title="Catálogo global TW Store"
+          data-catalog-subtitle="Filtra por línea, categoría, precio, moneda y estado. Cada tarjeta permite cotizar por WhatsApp."
+        ></div>
       </section>
     </main>
 
+    <script src="../assets/js/catalogo-global.js"></script>
     <script src="../assets/js/store.js"></script>
     <script src="../assets/js/navigation.js"></script>
-    <script src="../assets/js/right-panel.js"></script>
+    <script src="../assets/js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,84 @@
+@startuml
+title Modelo de datos propuesto para catálogo global
+
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+
+class LineaNegocio {
+  +slug: string
+  +nombre: string
+  +prioridad: number
+  +descripcion: string
+  +pagina: string
+  +banner: string
+  +fallback: string
+}
+
+class CatalogoItem {
+  +id: string
+  +linea_negocio: string
+  +categoria: string
+  +nombre: string
+  +descripcion_corta: string
+  +descripcion_larga: string
+  +precio_soles: number
+  +precio_dolares: number
+  +moneda_principal: string
+  +tipo_item: string
+  +estado: string
+  +tags: string[]
+  +imagen: string
+  +banner: string
+  +url_detalle: string
+  +whatsapp_mensaje: string
+  +destacado: boolean
+  +oferta: boolean
+  +fecha_actualizacion: date
+  +visible_cliente: boolean
+}
+
+class PrecioPublico {
+  +precio_publico_soles: number
+  +precio_publico_dolares: number
+  +precio_anterior_soles: number
+  +precio_anterior_dolares: number
+  +precio_oferta_soles: number
+  +precio_oferta_dolares: number
+  +texto_precio: string
+}
+
+class DatosInternos {
+  +precio_interno_fuente: number
+  +margen_interno: number
+  +fuente_interna: string
+  +url_fuente_interna: string
+  +visible_cliente: false
+}
+
+class BannerLinea {
+  +slug: string
+  +titulo: string
+  +subtitulo: string
+  +banner: string
+  +fallback: string
+}
+
+class CTAWhatsApp {
+  +telefono: string
+  +mensaje: string
+  +url: string
+}
+
+LineaNegocio "1" -- "0..*" CatalogoItem : agrupa
+CatalogoItem "1" -- "1" PrecioPublico : muestra
+CatalogoItem "1" -- "0..1" DatosInternos : operación interna
+LineaNegocio "1" -- "0..1" BannerLinea : usa
+CatalogoItem "1" -- "1" CTAWhatsApp : cotiza
+
+note right of DatosInternos
+No se renderiza en frontend público.
+Solo puede usarse para operación interna.
+end note
+
+@enduml
+

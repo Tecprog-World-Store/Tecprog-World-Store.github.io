@@ -34,16 +34,17 @@ function renderStandardTopNav() {
     if (nav.dataset.skipStandardNav === "true") return;
     nav.innerHTML = `
       <a href="${twPath("index.html")}#inicio">Inicio</a>
-      <a href="${twPath("empresa/nosotros.html")}">Empresa</a>
-      <a href="${twPath("lineas/tw-investiga.html")}">TW Investiga</a>
-      <a href="${twPath("lineas/tw-innova.html")}">TW Innova</a>
-      <a href="${twPath("lineas/tw-educa.html")}">TW Educa</a>
-      <a href="${twPath("lineas/tw-interactive.html")}">TW Interactive</a>
-      <a href="${twPath("lineas/tw-construye.html")}">TW Construye</a>
-      <a href="${twPath("lineas/tw-inox.html")}">TW Inox</a>
-      <a href="${twPath("lineas/tw-salud.html")}">TW Salud</a>
       <a href="${twPath("store/index.html")}">TW Store</a>
-      <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
+      <a href="${twPath("disfruta/index.html")}">TW Disfruta</a>
+      <a href="${twPath("educa/index.html")}">TW Educa</a>
+      <a href="${twPath("innova/index.html")}">TW Innova</a>
+      <a href="${twPath("salud/index.html")}">TW Salud</a>
+      <a href="${twPath("interactive/index.html")}">TW Interactive</a>
+      <a href="${twPath("construye/index.html")}">TW Construye</a>
+      <a href="${twPath("inox/index.html")}">TW Inox</a>
+      <a href="${twPath("investiga/index.html")}">TW Investiga</a>
+      <a href="${twPath("empresa/nosotros.html")}">Empresa</a>
+      <a href="${twPath("pagos/peru.html")}">Pagos Perú</a>
       <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
     `;
   });
@@ -131,7 +132,7 @@ function renderInstitutionalFooter() {
         <a href="${twPath("store/index.html")}">TW Store tecnologia</a>
         <a href="${twPath("assets/pdf/catalogos/catalogo-lineas-negocio-tecprog-world-2026-06.pdf")}">PDF lineas de negocio</a>
         <a href="${twPath("catalogo/catalogo-mensual.html")}">Catalogo mensual</a>
-        <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
+        <a href="${twPath("pagos/peru.html")}">Pagos Perú</a>
         <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
       </div>
     </div>
