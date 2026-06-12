@@ -6,30 +6,31 @@ Pillow disponible: sí
 
 ## Resumen
 
-- PENDIENTE: 103
+- OK: 18
+- PENDIENTE: 85
 
 ## Detalle
 
 | Sección | ID/Línea | Archivo | Estado | Peso | Dimensiones | Observación |
 |---|---|---|---|---:|---|---|
-| banners_linea | tw-store | `assets/img/banners/tw-store.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-disfruta | `assets/img/banners/tw-disfruta.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-educa | `assets/img/banners/tw-educa.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-innova | `assets/img/banners/tw-innova.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-salud | `assets/img/banners/tw-salud.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-interactive | `assets/img/banners/tw-interactive.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-construye | `assets/img/banners/tw-construye.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-inox | `assets/img/banners/tw-inox.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| banners_linea | tw-investiga | `assets/img/banners/tw-investiga.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-store | `assets/img/store/flyers/tw-store-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-disfruta | `assets/img/store/flyers/tw-disfruta-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-educa | `assets/img/store/flyers/tw-educa-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-innova | `assets/img/store/flyers/tw-innova-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-salud | `assets/img/store/flyers/tw-salud-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-interactive | `assets/img/store/flyers/tw-interactive-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-construye | `assets/img/store/flyers/tw-construye-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-inox | `assets/img/store/flyers/tw-inox-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
-| flyers_linea | tw-investiga | `assets/img/store/flyers/tw-investiga-portada.webp` | PENDIENTE | - | - | Archivo pendiente. |
+| banners_linea | tw-store | `assets/img/banners/tw-store.webp` | OK | 68.3 KB | 1920x640 | Correcto. |
+| banners_linea | tw-disfruta | `assets/img/banners/tw-disfruta.webp` | OK | 77.6 KB | 1920x640 | Correcto. |
+| banners_linea | tw-educa | `assets/img/banners/tw-educa.webp` | OK | 119.8 KB | 1920x640 | Correcto. |
+| banners_linea | tw-innova | `assets/img/banners/tw-innova.webp` | OK | 106.0 KB | 1920x640 | Correcto. |
+| banners_linea | tw-salud | `assets/img/banners/tw-salud.webp` | OK | 107.8 KB | 1920x640 | Correcto. |
+| banners_linea | tw-interactive | `assets/img/banners/tw-interactive.webp` | OK | 158.0 KB | 1920x640 | Correcto. |
+| banners_linea | tw-construye | `assets/img/banners/tw-construye.webp` | OK | 86.9 KB | 1920x640 | Correcto. |
+| banners_linea | tw-inox | `assets/img/banners/tw-inox.webp` | OK | 118.4 KB | 1920x640 | Correcto. |
+| banners_linea | tw-investiga | `assets/img/banners/tw-investiga.webp` | OK | 73.1 KB | 1920x640 | Correcto. |
+| flyers_linea | tw-store | `assets/img/store/flyers/tw-store-portada.webp` | OK | 144.0 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-disfruta | `assets/img/store/flyers/tw-disfruta-portada.webp` | OK | 84.6 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-educa | `assets/img/store/flyers/tw-educa-portada.webp` | OK | 157.8 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-innova | `assets/img/store/flyers/tw-innova-portada.webp` | OK | 146.0 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-salud | `assets/img/store/flyers/tw-salud-portada.webp` | OK | 136.9 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-interactive | `assets/img/store/flyers/tw-interactive-portada.webp` | OK | 236.0 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-construye | `assets/img/store/flyers/tw-construye-portada.webp` | OK | 117.4 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-inox | `assets/img/store/flyers/tw-inox-portada.webp` | OK | 116.6 KB | 1080x1920 | Correcto. |
+| flyers_linea | tw-investiga | `assets/img/store/flyers/tw-investiga-portada.webp` | OK | 120.6 KB | 1080x1920 | Correcto. |
 | productos | tw-store-001 | `assets/img/store/productos/tw-store-001.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-002 | `assets/img/store/productos/tw-store-002.webp` | PENDIENTE | - | - | Archivo pendiente. |
 | productos | tw-store-003 | `assets/img/store/productos/tw-store-003.webp` | PENDIENTE | - | - | Archivo pendiente. |
@@ -118,12 +119,4 @@ Pillow disponible: sí
 
 ## Cruces con datos
 
-- Banner final pendiente para `tw-store`: `assets/img/banners/tw-store.webp`.
-- Banner final pendiente para `tw-disfruta`: `assets/img/banners/tw-disfruta.webp`.
-- Banner final pendiente para `tw-educa`: `assets/img/banners/tw-educa.webp`.
-- Banner final pendiente para `tw-innova`: `assets/img/banners/tw-innova.webp`.
-- Banner final pendiente para `tw-salud`: `assets/img/banners/tw-salud.webp`.
-- Banner final pendiente para `tw-interactive`: `assets/img/banners/tw-interactive.webp`.
-- Banner final pendiente para `tw-construye`: `assets/img/banners/tw-construye.webp`.
-- Banner final pendiente para `tw-inox`: `assets/img/banners/tw-inox.webp`.
-- Banner final pendiente para `tw-investiga`: `assets/img/banners/tw-investiga.webp`.
+- Sin advertencias de referencias.

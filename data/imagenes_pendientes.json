@@ -5,90 +5,108 @@
       "archivo_esperado": "assets/img/banners/tw-store.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Store para el Comercio Digital, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 68.3,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-disfruta",
       "archivo_esperado": "assets/img/banners/tw-disfruta.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Disfruta para Entretenimiento, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 77.6,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-educa",
       "archivo_esperado": "assets/img/banners/tw-educa.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Educa para Ingenieros y Científicos, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 119.8,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-innova",
       "archivo_esperado": "assets/img/banners/tw-innova.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Innova para el Desarrollo de Software y Hardware, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 106.0,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-salud",
       "archivo_esperado": "assets/img/banners/tw-salud.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Salud para Tecnología Médica, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 107.8,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-interactive",
       "archivo_esperado": "assets/img/banners/tw-interactive.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Interactive Ingenieros Consultores, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 158.0,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-construye",
       "archivo_esperado": "assets/img/banners/tw-construye.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Construye para Proyectos de Construcción Civil, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 86.9,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-inox",
       "archivo_esperado": "assets/img/banners/tw-inox.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Inox para Proyectos en Metales, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 118.4,
+      "dimensiones_finales": "1920x640 px"
     },
     {
       "linea_negocio": "tw-investiga",
       "archivo_esperado": "assets/img/banners/tw-investiga.webp",
       "dimensiones_recomendadas": "1920x640 px",
       "peso_recomendado": "150 KB a 450 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Banner horizontal corporativo 1920x640 para TW Investiga para Proyectos de Investigación Científica, estilo Tecprog World, azul noche, celeste tecnol?gico, composici?n limpia y zona segura central.",
       "notas": "Banner final de l?nea. Si no existe, el sitio usa fallback.",
-      "fecha_revision": "2026-06-12"
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 73.1,
+      "dimensiones_finales": "1920x640 px"
     }
   ],
   "flyers_linea": [
@@ -97,90 +115,108 @@
       "archivo_esperado": "assets/img/store/flyers/tw-store-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Store para el Comercio Digital, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 144.0,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-disfruta",
       "archivo_esperado": "assets/img/store/flyers/tw-disfruta-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Disfruta para Entretenimiento, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 84.6,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-educa",
       "archivo_esperado": "assets/img/store/flyers/tw-educa-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Educa para Ingenieros y Científicos, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 157.8,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-innova",
       "archivo_esperado": "assets/img/store/flyers/tw-innova-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Innova para el Desarrollo de Software y Hardware, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 146.0,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-salud",
       "archivo_esperado": "assets/img/store/flyers/tw-salud-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Salud para Tecnología Médica, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 136.9,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-interactive",
       "archivo_esperado": "assets/img/store/flyers/tw-interactive-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Interactive Ingenieros Consultores, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 236.0,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-construye",
       "archivo_esperado": "assets/img/store/flyers/tw-construye-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Construye para Proyectos de Construcción Civil, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 117.4,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-inox",
       "archivo_esperado": "assets/img/store/flyers/tw-inox-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Inox para Proyectos en Metales, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 116.6,
+      "dimensiones_finales": "1080x1920 px"
     },
     {
       "linea_negocio": "tw-investiga",
       "archivo_esperado": "assets/img/store/flyers/tw-investiga-portada.webp",
       "dimensiones_recomendadas": "1080x1920 px",
       "peso_recomendado": "200 KB a 600 KB",
-      "estado": "pendiente",
+      "estado": "optimizado",
       "prompt_sugerido": "Flyer vertical 1080x1920 para TW Investiga para Proyectos de Investigación Científica, CTA Cotizar por WhatsApp, est?tica profesional Tecprog World y sin prometer stock.",
-      "notas": "Flyer vertical por l?nea para campa?as y redes.",
-      "fecha_revision": "2026-06-12"
+      "notas": "Flyer vertical optimizado en WEBP en ruta oficial assets/img/store/flyers/. PNG fuente conservado.",
+      "fecha_revision": "2026-06-12",
+      "peso_kb": 120.6,
+      "dimensiones_finales": "1080x1920 px"
     }
   ],
   "productos": [
