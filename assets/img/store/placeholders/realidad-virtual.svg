@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Placeholder de realidad virtual">
+  <rect width="900" height="900" rx="64" fill="#07172f"/>
+  <rect x="145" y="285" width="610" height="270" rx="96" fill="#f8fbff"/>
+  <rect x="200" y="335" width="210" height="140" rx="52" fill="#0aa4d8"/>
+  <rect x="490" y="335" width="210" height="140" rx="52" fill="#0aa4d8"/>
+  <path d="M145 417H72c-24 0-44 20-44 44v26h117zM755 417h73c24 0 44 20 44 44v26H755z" fill="#d9e2ec"/>
+  <path d="M430 485h40c22 0 40 18 40 40v30H390v-30c0-22 18-40 40-40z" fill="#07172f" opacity=".82"/>
+  <text x="450" y="760" fill="#f6c445" font-family="Arial, sans-serif" font-size="46" text-anchor="middle" font-weight="700">TW Store</text>
+</svg>

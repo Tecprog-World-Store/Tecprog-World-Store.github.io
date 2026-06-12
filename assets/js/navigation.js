@@ -42,6 +42,7 @@ function renderStandardTopNav() {
       <a href="${twPath("lineas/tw-construye.html")}">TW Construye</a>
       <a href="${twPath("lineas/tw-inox.html")}">TW Inox</a>
       <a href="${twPath("lineas/tw-salud.html")}">TW Salud</a>
+      <a href="${twPath("store/index.html")}">TW Store</a>
       <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>
       <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
     `;
@@ -127,6 +128,7 @@ function renderInstitutionalFooter() {
         <a href="${twPath("catalogo/tw-interactive.html")}">Catalogo TW Interactive</a>
         <a href="${twPath("catalogo/tw-inox.html")}">Catalogo TW Inox</a>
         <a href="${twPath("catalogo/tw-construye.html")}">Catalogo TW Construye</a>
+        <a href="${twPath("store/index.html")}">TW Store tecnologia</a>
         <a href="${twPath("assets/pdf/catalogos/catalogo-lineas-negocio-tecprog-world-2026-06.pdf")}">PDF lineas de negocio</a>
         <a href="${twPath("catalogo/catalogo-mensual.html")}">Catalogo mensual</a>
         <a href="${twPath("pagos/peru.html")}">Pagos Peru</a>

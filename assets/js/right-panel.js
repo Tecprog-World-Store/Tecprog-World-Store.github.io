@@ -53,6 +53,7 @@ function renderRightPanel() {
           <a href="${twPath("catalogo/tw-interactive.html")}">Catalogo TW Interactive</a>
           <a href="${twPath("catalogo/tw-inox.html")}">Catalogo TW Inox</a>
           <a href="${twPath("catalogo/tw-construye.html")}">Catalogo TW Construye</a>
+          <a href="${twPath("store/index.html")}">TW Store tecnologia</a>
           <a href="${twPath("catalogo/catalogo-general-tw-educa-pdf.html")}">Catalogo mensual PDF</a>
           <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
           <a href="${twPath("catalogo/descargas.html")}">Zona de Descargas</a>

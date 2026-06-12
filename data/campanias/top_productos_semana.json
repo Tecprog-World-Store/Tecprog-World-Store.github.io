@@ -1,0 +1,87 @@
+[
+  {
+    "id": "tw-store-001",
+    "nombre": "iPhone 16e 5G 128GB",
+    "categoria": "Celulares",
+    "motivo_seleccion": "Producto aspiracional, visualmente fuerte y util para estudiantes, profesionales y creadores de contenido. Puede generar consultas por marca, camara y uso diario.",
+    "idea_flyer": "Producto centrado sobre fondo azul noche con brillo celeste, etiqueta Oferta, precio en bloque dorado y boton verde de WhatsApp. Enfatizar productividad, fotos y contenido.",
+    "texto_tiktok": "iPhone 16e 5G para trabajo, estudio y contenido. Cotiza en TW Store y confirma precio, stock, garantia y envio antes de comprar.",
+    "texto_facebook": "En TW Store puedes cotizar el iPhone 16e 5G 128GB bajo pedido. Ideal para productividad, redes, fotografia y uso diario. Producto sujeto a disponibilidad, confirmacion de precio, garantia y condiciones de entrega.",
+    "mensaje_whatsapp": "Hola Tecprog World, deseo cotizar el producto: iPhone 16e 5G 128GB. ¿Esta disponible para envio?",
+    "hashtags": [
+      "#TWStore",
+      "#TecprogWorld",
+      "#iPhone",
+      "#Celulares",
+      "#TecnologiaPeru"
+    ]
+  },
+  {
+    "id": "tw-store-012",
+    "nombre": "ASUS TUF Gaming F16 RTX 5050",
+    "categoria": "Laptops",
+    "motivo_seleccion": "Producto bandera para gamers, estudiantes de ingenieria, editores y usuarios que buscan alto rendimiento. Ticket alto y fuerte potencial visual.",
+    "idea_flyer": "Laptop abierta al centro con fondo tecnologico azul noche, luces celestes, etiqueta Producto bandera, precio destacado y CTA de cotizacion.",
+    "texto_tiktok": "Laptop ASUS TUF Gaming F16 con grafica RTX para gaming, estudio y creacion. Cotiza por WhatsApp con TW Store.",
+    "texto_facebook": "ASUS TUF Gaming F16 disponible para cotizacion en TW Store. Una opcion potente para gaming, edicion, ingenieria y productividad. Validamos precio, stock, garantia y entrega antes de cerrar el pedido.",
+    "mensaje_whatsapp": "Hola Tecprog World, deseo cotizar el producto: ASUS TUF Gaming F16 RTX 5050. ¿Esta disponible para envio?",
+    "hashtags": [
+      "#TWStore",
+      "#LaptopGaming",
+      "#ASUSTUF",
+      "#RTX",
+      "#TecnologiaPeru"
+    ]
+  },
+  {
+    "id": "tw-store-015",
+    "nombre": "ASUS TUF VG249Q5A 200Hz",
+    "categoria": "Monitores",
+    "motivo_seleccion": "Monitor de precio competitivo y especificacion atractiva para gaming, estudio y escritorio profesional. Facil de comunicar por tasa de refresco y utilidad.",
+    "idea_flyer": "Monitor centrado con pantalla brillante, bloque amarillo de precio, fondo azul noche y frase corta sobre fluidez para gaming y trabajo.",
+    "texto_tiktok": "Renueva tu setup con un monitor ASUS TUF 200Hz. Ideal para jugar, estudiar y trabajar con mas fluidez. Cotiza en TW Store.",
+    "texto_facebook": "El ASUS TUF VG249Q5A 200Hz es una opcion atractiva para mejorar tu escritorio gamer o profesional. Cotiza en TW Store y confirma disponibilidad, precio, garantia y envio.",
+    "mensaje_whatsapp": "Hola Tecprog World, deseo cotizar el producto: ASUS TUF VG249Q5A 200Hz. ¿Esta disponible para envio?",
+    "hashtags": [
+      "#TWStore",
+      "#MonitorGaming",
+      "#SetupGamer",
+      "#ASUSTUF",
+      "#TecnologiaPeru"
+    ]
+  },
+  {
+    "id": "tw-store-004",
+    "nombre": "AirPods Pro 2da Gen",
+    "categoria": "Audio",
+    "motivo_seleccion": "Audio premium con alta recordacion, buen atractivo visual y utilidad clara para llamadas, concentracion, estudio y trabajo remoto.",
+    "idea_flyer": "Audifonos en primer plano sobre tarjeta blanca, acento dorado de precio, etiqueta Oferta y CTA verde de WhatsApp.",
+    "texto_tiktok": "Audio premium para concentrarte, estudiar y atender llamadas. Cotiza AirPods Pro 2da Gen en TW Store.",
+    "texto_facebook": "Cotiza AirPods Pro 2da Gen en TW Store. Una alternativa premium para musica, llamadas, estudio y productividad. Precio y stock se confirman antes de la compra.",
+    "mensaje_whatsapp": "Hola Tecprog World, deseo cotizar el producto: AirPods Pro 2da Gen. ¿Esta disponible para envio?",
+    "hashtags": [
+      "#TWStore",
+      "#AirPods",
+      "#AudioPremium",
+      "#Tecnologia",
+      "#TecprogWorld"
+    ]
+  },
+  {
+    "id": "tw-store-029",
+    "nombre": "PICO 4 ULTRA 256GB + 12GB RAM",
+    "categoria": "Realidad Virtual",
+    "motivo_seleccion": "Producto diferenciador para mostrar que TW Store tambien trabaja tecnologia inmersiva. Alto impacto visual para TikTok, demos y consultas especializadas.",
+    "idea_flyer": "Visor de realidad virtual al centro, fondo inmersivo azul noche con halo celeste, etiqueta Producto bandera y mensaje de experiencia tecnologica bajo cotizacion.",
+    "texto_tiktok": "Realidad virtual para entretenimiento, experiencias inmersivas y demostraciones tecnologicas. Cotiza PICO 4 ULTRA en TW Store.",
+    "texto_facebook": "TW Store tambien trabaja productos de realidad virtual bajo cotizacion. Consulta por PICO 4 ULTRA 256GB + 12GB RAM y confirma precio, stock, garantia y envio antes de comprar.",
+    "mensaje_whatsapp": "Hola Tecprog World, deseo cotizar el producto: PICO 4 ULTRA 256GB + 12GB RAM. ¿Esta disponible para envio?",
+    "hashtags": [
+      "#TWStore",
+      "#RealidadVirtual",
+      "#PICO4Ultra",
+      "#VR",
+      "#TecnologiaPeru"
+    ]
+  }
+]

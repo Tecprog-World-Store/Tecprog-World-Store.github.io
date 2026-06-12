@@ -1,0 +1,49 @@
+# Prompts para flyers TW Store
+# Uso: copiar el prompt, reemplazar [PRODUCTO], [PRECIO] y [ETIQUETA] cuando corresponda.
+# Marca paraguas: Tecprog World. Linea comercial: TW Store.
+
+====================================================================
+FLYER GENERAL TW STORE
+====================================================================
+Flyer vertical 1080x1920 para TW Store, linea comercial de Tecprog World, catalogo tecnologico premium bajo pedido. Estilo corporativo serio, moderno y tecnologico, mezcla de realismo con bloques solidos. Fondo azul noche con degradado celeste tecnologico, blanco y gris claro. Acento amarillo/dorado para ofertas. Zona segura central 1080x1080 con todo lo importante dentro: logo textual TW Store arriba, composicion de productos tecnologicos centrados, etiqueta "Catalogo tecnologico", precio o texto "Cotiza por WhatsApp", boton visual verde "Cotizar por WhatsApp", aviso pequeno "Precio y stock sujetos a confirmacion". Sin pagos en linea, sin exceso de texto, formato limpio para TikTok y recorte cuadrado.
+
+====================================================================
+CELULARES
+====================================================================
+Flyer vertical 1080x1920 para TW Store de Tecprog World. Producto protagonista: [PRODUCTO], smartphone realista centrado dentro de zona segura 1080x1080. Fondo azul noche, bloques solidos celeste tecnologico, blanco y gris claro. Acento amarillo/dorado con etiqueta [ETIQUETA]. Mostrar precio destacado [PRECIO] en tipografia grande. Boton visual verde "Cotizar por WhatsApp". Aviso pequeno "Precio y stock sujetos a confirmacion". Estilo premium, comercial, confiable, pensado para TikTok, sin saturar, sin marcas inventadas, sin prometer stock.
+
+====================================================================
+LAPTOP GAMING
+====================================================================
+Flyer vertical 1080x1920 para TW Store, producto protagonista [PRODUCTO], laptop gaming realista abierta al centro, luces sutiles y fondo tecnologico azul noche con celeste. Mantener todo el texto principal dentro de zona segura central 1080x1080. Encabezado "TW Store", etiqueta [ETIQUETA] en dorado, precio destacado [PRECIO], beneficios cortos: "Gaming", "Ingenieria", "Edicion". Boton verde "Cotizar por WhatsApp". Aviso pequeno "Precio y stock sujetos a confirmacion". Apariencia de empresa tecnologica consolidada.
+
+====================================================================
+MONITOR GAMING
+====================================================================
+Flyer vertical 1080x1920 para TW Store de Tecprog World. Monitor gaming centrado, pantalla con visual abstracto tecnologico azul/celeste, fondo azul noche. Diseno limpio con bloques blancos y grises. Texto dentro de zona segura central: "TW Store", [PRODUCTO], [PRECIO], etiqueta [ETIQUETA]. Incluir detalles visuales de alto refresco si aplica, sin exagerar. Boton verde "Cotizar por WhatsApp". Aviso pequeno "Precio y stock sujetos a confirmacion". Ideal para flyer vertical y recorte cuadrado.
+
+====================================================================
+AUDIO PREMIUM
+====================================================================
+Flyer vertical 1080x1920 para TW Store. Producto protagonista [PRODUCTO], audifonos o parlante premium centrado, estilo realista con iluminacion de estudio. Paleta azul noche, celeste tecnologico, blanco, gris claro y dorado para oferta. Texto principal dentro de zona segura 1080x1080: "TW Store", "Audio premium", precio [PRECIO], etiqueta [ETIQUETA]. Boton visual verde "Cotizar por WhatsApp". Aviso pequeno "Precio y stock sujetos a confirmacion". Estetica elegante, moderna y comercial.
+
+====================================================================
+REALIDAD VIRTUAL
+====================================================================
+Flyer vertical 1080x1920 para TW Store, categoria realidad virtual. Producto protagonista [PRODUCTO], visor VR o accesorio VR centrado, apariencia realista, entorno tecnologico inmersivo con azul noche y celeste brillante. Zona segura central 1080x1080 con encabezado "TW Store", texto "Realidad virtual bajo pedido", precio [PRECIO], etiqueta [ETIQUETA], boton verde "Cotizar por WhatsApp". Aviso pequeno "Precio y stock sujetos a confirmacion". No prometer disponibilidad inmediata.
+
+====================================================================
+ACCESORIOS APPLE
+====================================================================
+Flyer vertical 1080x1920 para TW Store de Tecprog World. Producto protagonista [PRODUCTO], accesorio Apple o periferico premium centrado sobre fondo limpio azul noche y gris claro. Estilo minimalista, premium, tecnologico. Mantener zona segura central 1080x1080. Encabezado "TW Store", etiqueta [ETIQUETA], precio [PRECIO], boton verde "Cotizar por WhatsApp", aviso "Precio y stock sujetos a confirmacion". No usar logos oficiales de marcas si no se cuenta con permiso.
+
+====================================================================
+CARRUSEL DE 5 PIEZAS
+====================================================================
+Crear carrusel de 5 flyers verticales 1080x1920 para TW Store, linea comercial de Tecprog World. Mantener identidad visual consistente: azul noche, celeste tecnologico, blanco, gris claro, acento dorado para ofertas y boton verde de WhatsApp. Cada pieza debe funcionar tambien recortada al cuadrado central 1080x1080.
+
+Pieza 1: portada "TW Store - Tecnologia bajo pedido", collage tecnologico premium, CTA "Cotiza por WhatsApp".
+Pieza 2: celulares destacados, smartphone protagonista, precio destacado, etiqueta "Oferta".
+Pieza 3: laptops y monitores gaming, visual de setup tecnologico, etiqueta "Producto bandera".
+Pieza 4: audio, Apple y accesorios premium, estilo limpio y comercial.
+Pieza 5: realidad virtual y cierre comercial, aviso "Precio y stock sujetos a confirmacion", CTA grande "Cotizar por WhatsApp".

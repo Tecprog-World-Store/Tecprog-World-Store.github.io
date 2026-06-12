@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#061326"/>
+  <path d="M250 435a200 200 0 0 1 400 0" fill="none" stroke="#17d7ff" stroke-width="46" stroke-linecap="round"/>
+  <rect x="170" y="420" width="130" height="230" rx="50" fill="#f4f7fb"/>
+  <rect x="600" y="420" width="130" height="230" rx="50" fill="#f4f7fb"/>
+  <path d="M365 455h170M365 520h170" stroke="#d5a12f" stroke-width="22" stroke-linecap="round"/>
+  <text x="450" y="805" fill="#f3c45e" text-anchor="middle" font-family="Arial" font-size="48" font-weight="700">Audio</text>
+</svg>

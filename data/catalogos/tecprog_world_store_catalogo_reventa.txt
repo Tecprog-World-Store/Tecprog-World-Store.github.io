@@ -1,0 +1,391 @@
+CATÁLOGO BASE PARA REVENTA Y GENERACIÓN DE CONTENIDO
+Tecprog World Store
+Fecha de levantamiento: 2026-06-11
+Moneda: soles peruanos (S/)
+Uso: base comercial para flyers, posts verticales, reels, TikTok, WhatsApp Business y actualización de tienda virtual.
+
+ADVERTENCIA COMERCIAL
+Los precios fueron levantados desde páginas públicas de Coolbox, Memory Kings y Masplay.
+Antes de publicar o vender, confirmar stock, garantía, modalidad de entrega, costos de envío y cambios de precio.
+El margen sugerido es referencial y no reemplaza una negociación con proveedor o distribuidor mayorista.
+
+IDENTIDAD VISUAL RECOMENDADA PARA TECWORLD STORE
+Marca principal: Tecprog World
+Línea comercial: Tecprog World Store
+Estilo: realista + colores sólidos + estética corporativa tecnológica.
+Formato recomendado: vertical 1080x1920 px.
+Zona segura: concentrar producto, precio, logo y llamado a la acción dentro del cuadrado central 1080x1080 px.
+Colores guía: azul noche, azul tecnológico, celeste brillante, blanco, gris claro y acento amarillo/dorado para ofertas.
+Tono de campaña: empresa tecnológica seria, moderna y confiable.
+
+====================================================================
+FUENTES CONSULTADAS
+====================================================================
+Coolbox:
+- https://www.coolbox.pe/
+- https://www.coolbox.pe/celulares-y-accesorios/celulares
+- https://www.coolbox.pe/todo-audifonos
+- https://www.coolbox.pe/computo/accesorios-de-computo/parlantes-para-pc
+- https://www.coolbox.pe/audio/parlantes/parlantes-karaoke
+
+Memory Kings:
+- https://www.memorykings.pe/
+- https://www.memorykings.pe/listados/579/laptops-gaming-creators-intel
+- https://www.memorykings.pe/listados/582/monitores-gaming
+
+Masplay:
+- https://masplay.pe/
+
+====================================================================
+CRITERIO DE PRECIO TECWORLD STORE
+====================================================================
+PVP TW +8%  = precio fuente x 1.08
+PVP TW +12% = precio fuente x 1.12
+PVP TW +18% = precio fuente x 1.18
+
+Sugerencia:
+- +8% para productos de alta competencia como celulares.
+- +12% para accesorios, audio y periféricos.
+- +18% para productos con asesoría, instalación, configuración, entrega o soporte.
+
+====================================================================
+A. COOLBOX - PRODUCTOS PARA REVENTA
+====================================================================
+
+01 | Categoría: Celulares
+Producto fuente: iPhone 16e 5G 128GB, 8GB RAM, cámara trasera 48MP y frontal 12MP, 6.1", negro
+Precio fuente: S/ 2,699.00
+Precio anterior: S/ 3,599.00
+PVP TW +8%:  S/ 2,914.92
+PVP TW +12%: S/ 3,022.88
+PVP TW +18%: S/ 3,184.82
+Gancho de flyer: iPhone 16e 5G para trabajo, estudio y creación de contenido.
+
+02 | Categoría: Celulares
+Producto fuente: iPhone 15 128GB, 6GB RAM, cámara 48MP, 6.1", rosado/negro según disponibilidad
+Precio fuente: S/ 2,599.00
+Precio anterior: S/ 3,499.00
+PVP TW +8%:  S/ 2,806.92
+PVP TW +12%: S/ 2,910.88
+PVP TW +18%: S/ 3,066.82
+Gancho de flyer: iPhone confiable para fotos, redes sociales y productividad diaria.
+
+03 | Categoría: Celulares
+Producto fuente: Samsung Galaxy A16 4G 128GB, 4GB RAM, cámara trasera 50MP, 6.7", negro
+Precio fuente: S/ 529.00
+Precio anterior: S/ 699.00
+PVP TW +8%:  S/ 571.32
+PVP TW +12%: S/ 592.48
+PVP TW +18%: S/ 624.22
+Gancho de flyer: smartphone económico para estudio, comunicación y redes.
+
+04 | Categoría: Audífonos
+Producto fuente: AirPods Pro 2da Gen, cancelación de ruido, blanco
+Precio fuente: S/ 949.00
+Precio anterior: S/ 1,199.00
+PVP TW +8%:  S/ 1,024.92
+PVP TW +12%: S/ 1,062.88
+PVP TW +18%: S/ 1,119.82
+Gancho de flyer: audio premium para productividad, llamadas y concentración.
+
+05 | Categoría: Audífonos
+Producto fuente: JBL Wave Buds 2 True Wireless, cancelación de ruido, IP54, negro/blanco
+Precio fuente: S/ 199.00
+Precio anterior: S/ 279.00
+PVP TW +8%:  S/ 214.92
+PVP TW +12%: S/ 222.88
+PVP TW +18%: S/ 234.82
+Gancho de flyer: audífonos compactos para clases, trabajo y entrenamiento.
+
+06 | Categoría: Audífonos
+Producto fuente: Marshall Major V bluetooth on-ear, 100 horas, carga inalámbrica, café
+Precio fuente: S/ 599.00
+Precio anterior: S/ 999.00
+PVP TW +8%:  S/ 646.92
+PVP TW +12%: S/ 670.88
+PVP TW +18%: S/ 706.82
+Gancho de flyer: estilo premium con batería de larga duración.
+
+07 | Categoría: Parlantes PC
+Producto fuente: Parlantes para PC Coolbox Teraware, USB 2.0 y 3.5 mm, 3W x2
+Precio fuente: S/ 29.90
+Precio anterior: no indicado
+PVP TW +8%:  S/ 32.29
+PVP TW +12%: S/ 33.49
+PVP TW +18%: S/ 35.28
+Gancho de flyer: mejora rápida de audio para escritorio y laptop.
+
+08 | Categoría: Parlantes PC
+Producto fuente: Parlantes Gamer HP DHE-6005 RGB 6W
+Precio fuente: S/ 139.90
+Precio anterior: S/ 189.90
+PVP TW +8%:  S/ 151.09
+PVP TW +12%: S/ 156.69
+PVP TW +18%: S/ 165.08
+Gancho de flyer: setup gamer con iluminación RGB.
+
+09 | Categoría: Parlantes karaoke
+Producto fuente: JBL PartyBox Stage 320, 240W, IPX4, batería hasta 18 h, negro
+Precio fuente: S/ 2,299.00
+Precio anterior: S/ 2,599.00
+PVP TW +8%:  S/ 2,482.92
+PVP TW +12%: S/ 2,574.88
+PVP TW +18%: S/ 2,712.82
+Gancho de flyer: potencia JBL para eventos, reuniones y música en casa.
+
+10 | Categoría: Parlantes karaoke
+Producto fuente: JBL PartyBox Club 120, 160W, IPX4, luces, negro
+Precio fuente: S/ 1,499.00
+Precio anterior: S/ 1,699.00
+PVP TW +8%:  S/ 1,618.92
+PVP TW +12%: S/ 1,678.88
+PVP TW +18%: S/ 1,768.82
+Gancho de flyer: parlante potente para fiestas y activaciones.
+
+====================================================================
+B. MEMORY KINGS - PRODUCTOS PARA REVENTA
+====================================================================
+
+11 | Categoría: Laptop gaming
+Producto fuente: Lenovo LOQ 15IAX9 Gaming, Core i5-12450HX, 8GB/512GB/15.6", GeForce RTX 3050 6GB
+Precio fuente: S/ 3,156.00
+Precio anterior: S/ 3,295.50
+Stock fuente: > 10
+PVP TW +8%:  S/ 3,408.48
+PVP TW +12%: S/ 3,534.72
+PVP TW +18%: S/ 3,724.08
+Gancho de flyer: laptop gaming de entrada para diseño, estudio y juegos.
+
+12 | Categoría: Laptop gaming
+Producto fuente: ASUS TUF Gaming F16 FX608JH-RV010, Core i5-13450HX, 16GB/512GB/16", GeForce RTX 5050 8GB
+Precio fuente: S/ 4,819.50
+Stock fuente: 7
+PVP TW +8%:  S/ 5,205.06
+PVP TW +12%: S/ 5,397.84
+PVP TW +18%: S/ 5,687.01
+Gancho de flyer: alto rendimiento para gaming, ingeniería y edición.
+
+13 | Categoría: Laptop gaming
+Producto fuente: ASUS TUF Gaming F16 FX608JHR-RV006, Core i7-14650HX, 16GB/512GB/16", GeForce RTX 5060 8GB
+Precio fuente: S/ 5,968.00
+Stock fuente: 9
+PVP TW +8%:  S/ 6,445.44
+PVP TW +12%: S/ 6,684.16
+PVP TW +18%: S/ 7,042.24
+Gancho de flyer: laptop para creadores, CAD, simulación y gaming moderno.
+
+14 | Categoría: Laptop gaming
+Producto fuente: ASUS ROG Strix G16 G615JMR-RV017W, Core i9-14900HX, 16GB/1TB/16", GeForce RTX 5060 8GB
+Precio fuente: S/ 7,951.50
+Stock fuente: 8
+PVP TW +8%:  S/ 8,587.62
+PVP TW +12%: S/ 8,905.68
+PVP TW +18%: S/ 9,382.77
+Gancho de flyer: equipo premium para gaming, render y productividad intensiva.
+
+15 | Categoría: Monitor gaming
+Producto fuente: ASUS TUF VG249Q5A 23.8", IPS FHD, 200Hz, 1ms, parlante integrado
+Precio fuente: S/ 483.50
+Stock fuente: 9
+PVP TW +8%:  S/ 522.18
+PVP TW +12%: S/ 541.52
+PVP TW +18%: S/ 570.53
+Gancho de flyer: monitor fluido para gaming competitivo y escritorio profesional.
+
+16 | Categoría: Monitor gaming
+Producto fuente: ASUS TUF VG249Q5R 23.8", IPS FHD, 200Hz, parlante integrado
+Precio fuente: S/ 469.50
+Stock fuente: 5
+PVP TW +8%:  S/ 507.06
+PVP TW +12%: S/ 525.84
+PVP TW +18%: S/ 554.01
+Gancho de flyer: imagen fluida para juegos, clases y oficina.
+
+17 | Categoría: Monitor gaming
+Producto fuente: Samsung Odyssey G3 DG300 24", FHD, 180Hz, 1ms, pivote
+Precio fuente: S/ 459.00
+Precio anterior: S/ 539.00
+Stock fuente: > 10
+PVP TW +8%:  S/ 495.72
+PVP TW +12%: S/ 514.08
+PVP TW +18%: S/ 541.62
+Gancho de flyer: monitor Samsung para escritorio gamer y multitarea.
+
+18 | Categoría: Monitor gaming
+Producto fuente: ViewSonic VX2429 24", FHD, 200Hz, 1ms, parlante integrado
+Precio fuente: S/ 417.50
+Stock fuente: 2
+PVP TW +8%:  S/ 450.90
+PVP TW +12%: S/ 467.60
+PVP TW +18%: S/ 492.65
+Gancho de flyer: opción competitiva para alto refresco visual.
+
+19 | Categoría: Monitor gaming
+Producto fuente: Gigabyte GS25F14 24.5", IPS FHD, 144Hz, 1ms
+Precio fuente: S/ 323.50
+Precio anterior: S/ 382.50
+Stock fuente: > 10
+PVP TW +8%:  S/ 349.38
+PVP TW +12%: S/ 362.32
+PVP TW +18%: S/ 381.73
+Gancho de flyer: monitor gamer económico para renovar setup.
+
+====================================================================
+C. MASPLAY - PRODUCTOS PARA REVENTA
+====================================================================
+
+20 | Categoría: Ordenadores Apple
+Producto fuente: Mac Mini M4 256GB SSD, 16GB RAM, CPU 10, GPU 10
+Precio fuente: S/ 3,399.00
+PVP TW +8%:  S/ 3,670.92
+PVP TW +12%: S/ 3,806.88
+PVP TW +18%: S/ 4,010.82
+Gancho de flyer: potencia compacta para oficina, diseño y productividad.
+
+21 | Categoría: Ordenadores Apple
+Producto fuente: MacBook Air 13 Chip M5, 512GB, 16GB RAM, teclado inglés
+Precio fuente: S/ 4,499.00
+PVP TW +8%:  S/ 4,858.92
+PVP TW +12%: S/ 5,038.88
+PVP TW +18%: S/ 5,308.82
+Gancho de flyer: laptop ultraligera para estudio, trabajo y movilidad.
+
+22 | Categoría: Ordenadores Apple
+Producto fuente: MacBook Air 15 Chip M5, 512GB, 16GB RAM, teclado inglés
+Precio fuente: S/ 5,399.00
+PVP TW +8%:  S/ 5,830.92
+PVP TW +12%: S/ 6,046.88
+PVP TW +18%: S/ 6,370.82
+Gancho de flyer: pantalla amplia y rendimiento Apple para productividad.
+
+23 | Categoría: Ordenadores Apple
+Producto fuente: MacBook Pro 14 M5, 1TB, 24GB RAM, teclado inglés
+Precio fuente: S/ 7,990.00
+PVP TW +8%:  S/ 8,629.20
+PVP TW +12%: S/ 8,948.80
+PVP TW +18%: S/ 9,428.20
+Gancho de flyer: estación profesional portátil para edición, programación y creación.
+
+24 | Categoría: Audio Apple
+Producto fuente: AirPods 4th Gen con cancelación activa de ruido
+Precio fuente: S/ 569.00
+Precio anterior: S/ 639.00
+PVP TW +8%:  S/ 614.52
+PVP TW +12%: S/ 637.28
+PVP TW +18%: S/ 671.42
+Gancho de flyer: audio compacto para llamadas, estudio y música.
+
+25 | Categoría: Audio Apple
+Producto fuente: AirPods Pro 3 2025
+Precio fuente: S/ 869.00
+PVP TW +8%:  S/ 938.52
+PVP TW +12%: S/ 973.28
+PVP TW +18%: S/ 1,025.42
+Gancho de flyer: audio premium para concentración y productividad.
+
+26 | Categoría: Smartwatch
+Producto fuente: Apple Watch SE 2th Gen 44mm GPS
+Precio fuente: S/ 990.00
+Precio anterior: S/ 1,099.00
+PVP TW +8%:  S/ 1,069.20
+PVP TW +12%: S/ 1,108.80
+PVP TW +18%: S/ 1,168.20
+Gancho de flyer: smartwatch Apple para actividad, notificaciones y estilo.
+
+27 | Categoría: iPad/Tablets
+Producto fuente: iPad Air 11 Chip M4 256GB WiFi 2026 + Pencil Pro
+Precio fuente: S/ 3,499.00
+PVP TW +8%:  S/ 3,778.92
+PVP TW +12%: S/ 3,918.88
+PVP TW +18%: S/ 4,128.82
+Gancho de flyer: tablet premium para diseño, apuntes y productividad.
+
+28 | Categoría: iPad/Tablets
+Producto fuente: iPad Pro 13 Chip M5 256GB WiFi 2025
+Precio fuente: S/ 4,899.00
+Precio anterior: S/ 5,190.00
+PVP TW +8%:  S/ 5,290.92
+PVP TW +12%: S/ 5,486.88
+PVP TW +18%: S/ 5,780.82
+Gancho de flyer: tablet profesional para creación, edición y movilidad.
+
+29 | Categoría: Realidad virtual
+Producto fuente: PICO 4 ULTRA 256GB + 12GB RAM
+Precio fuente: S/ 3,199.00
+PVP TW +8%:  S/ 3,454.92
+PVP TW +12%: S/ 3,582.88
+PVP TW +18%: S/ 3,774.82
+Gancho de flyer: realidad virtual para entretenimiento, inmersión y demostraciones tecnológicas.
+
+30 | Categoría: Realidad virtual
+Producto fuente: BOBOVR M3 PRO para Meta Quest 3
+Precio fuente: S/ 279.00
+Precio anterior: S/ 329.00
+PVP TW +8%:  S/ 301.32
+PVP TW +12%: S/ 312.48
+PVP TW +18%: S/ 329.22
+Gancho de flyer: mejora la comodidad y autonomía de tu Meta Quest 3.
+
+31 | Categoría: Realidad virtual
+Producto fuente: BOBOVR S3 PRO para Meta Quest 3S / Quest 3
+Precio fuente: S/ 469.00
+Precio anterior: S/ 569.00
+PVP TW +8%:  S/ 506.52
+PVP TW +12%: S/ 525.28
+PVP TW +18%: S/ 553.42
+Gancho de flyer: accesorio premium para sesiones largas de realidad virtual.
+
+32 | Categoría: Accesorios premium
+Producto fuente: MX Master 3S
+Precio fuente: S/ 389.00
+PVP TW +8%:  S/ 420.12
+PVP TW +12%: S/ 435.68
+PVP TW +18%: S/ 459.02
+Gancho de flyer: mouse profesional para diseño, oficina y programación.
+
+33 | Categoría: Accesorios Apple
+Producto fuente: Apple Magic Trackpad USB-C 2024 blanco
+Precio fuente: S/ 599.00
+PVP TW +8%:  S/ 646.92
+PVP TW +12%: S/ 670.88
+PVP TW +18%: S/ 706.82
+Gancho de flyer: control premium para ecosistema Apple.
+
+====================================================================
+PRODUCTOS CON MAYOR POTENCIAL PARA FLYERS VERTICALES
+====================================================================
+1. PICO 4 ULTRA 256GB + 12GB RAM
+2. BOBOVR S3 PRO para Meta Quest 3S / Quest 3
+3. MacBook Air 13 Chip M5
+4. iPhone 16e 5G 128GB
+5. Samsung Galaxy A16 4G 128GB
+6. ASUS TUF Gaming F16 RTX 5050
+7. Lenovo LOQ RTX 3050
+8. ASUS TUF VG249Q5A 200Hz
+9. AirPods Pro 3 2025
+10. JBL PartyBox Club 120
+
+====================================================================
+PLANTILLA DE COPY PARA PUBLICACIÓN
+====================================================================
+Título:
+TECNOLOGÍA ORIGINAL PARA TU SETUP
+
+Texto corto:
+Renueva tu equipo con Tecprog World Store. Cotiza celulares, laptops, audio, monitores, accesorios Apple y realidad virtual con atención personalizada por WhatsApp.
+
+Llamado a la acción:
+Escríbenos y solicita tu cotización hoy.
+
+Hashtags:
+#TecprogWorld #TecprogWorldStore #TecnologiaPeru #GamingSetup #ApplePeru #RealidadVirtual #LaptopGaming #OfertasTecnologia #TikTokPeru
+
+====================================================================
+RECOMENDACIÓN OPERATIVA
+====================================================================
+Para reventa sostenible, conviene separar productos en tres grupos:
+A) Productos gancho: bajo precio y alta rotación, como audífonos, mouse, cables y parlantes pequeños.
+B) Productos aspiracionales: iPhone, MacBook, iPad, realidad virtual y laptops gaming.
+C) Productos de margen por servicio: instalación, configuración, asesoría, entrega, garantía extendida o soporte.
+
+FIN DEL ARCHIVO

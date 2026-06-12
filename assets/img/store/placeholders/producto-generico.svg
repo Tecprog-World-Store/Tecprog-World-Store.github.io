@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Placeholder de producto tecnologico">
+  <defs>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0aa4d8"/>
+      <stop offset="1" stop-color="#f6c445"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" rx="64" fill="#07172f"/>
+  <path d="M450 148 710 298v304L450 752 190 602V298z" fill="#f8fbff"/>
+  <path d="M450 148 710 298 450 448 190 298z" fill="url(#card)"/>
+  <path d="M450 448v304M190 298v304M710 298v304" stroke="#07172f" stroke-width="24" opacity=".25"/>
+  <text x="450" y="836" fill="#f6c445" font-family="Arial, sans-serif" font-size="46" text-anchor="middle" font-weight="700">TW Store</text>
+</svg>

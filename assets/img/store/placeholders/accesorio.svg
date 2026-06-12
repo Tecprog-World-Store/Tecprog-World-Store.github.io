@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Placeholder de accesorio tecnologico">
+  <rect width="900" height="900" rx="64" fill="#07172f"/>
+  <rect x="248" y="238" width="404" height="310" rx="78" fill="#f8fbff"/>
+  <circle cx="450" cy="392" r="84" fill="#0aa4d8"/>
+  <path d="M318 600h264c36 0 66 30 66 66v12H252v-12c0-36 30-66 66-66z" fill="#d9e2ec"/>
+  <path d="M450 310v164M368 392h164" stroke="#f8fbff" stroke-width="34" stroke-linecap="round"/>
+  <text x="450" y="792" fill="#f6c445" font-family="Arial, sans-serif" font-size="46" text-anchor="middle" font-weight="700">TW Store</text>
+</svg>

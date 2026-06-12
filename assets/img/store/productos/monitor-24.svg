@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#0b2448"/>
+  <rect x="120" y="150" width="660" height="420" rx="28" fill="#f4f7fb"/>
+  <rect x="155" y="185" width="590" height="350" rx="16" fill="#061326"/>
+  <path d="M450 570v100M320 700h260" stroke="#dff9ff" stroke-width="42" stroke-linecap="round"/>
+  <path d="M220 455h460" stroke="#17d7ff" stroke-width="20" stroke-linecap="round"/>
+  <path d="M220 390h330" stroke="#f3c45e" stroke-width="20" stroke-linecap="round"/>
+  <text x="450" y="815" fill="#f3c45e" text-anchor="middle" font-family="Arial" font-size="48" font-weight="700">Monitores</text>
+</svg>

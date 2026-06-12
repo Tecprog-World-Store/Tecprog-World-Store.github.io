@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Placeholder de audifonos">
+  <rect width="900" height="900" rx="64" fill="#07172f"/>
+  <path d="M230 455c0-134 91-242 220-242s220 108 220 242" fill="none" stroke="#f8fbff" stroke-width="56" stroke-linecap="round"/>
+  <rect x="170" y="430" width="130" height="210" rx="52" fill="#0aa4d8"/>
+  <rect x="600" y="430" width="130" height="210" rx="52" fill="#0aa4d8"/>
+  <rect x="207" y="468" width="56" height="134" rx="24" fill="#f8fbff" opacity=".95"/>
+  <rect x="637" y="468" width="56" height="134" rx="24" fill="#f8fbff" opacity=".95"/>
+  <text x="450" y="792" fill="#f6c445" font-family="Arial, sans-serif" font-size="46" text-anchor="middle" font-weight="700">TW Store</text>
+</svg>

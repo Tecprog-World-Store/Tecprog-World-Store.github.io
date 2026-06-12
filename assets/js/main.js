@@ -65,6 +65,15 @@ const businessLines = [
     description: "Diseño, prototipado, soporte técnico, accesibilidad, tecnología médica e investigación aplicada en salud.",
     url: "lineas/tw-salud.html",
     chips: ["Prótesis y órtesis", "Tecnología médica", "Accesibilidad"]
+  },
+  {
+    id: "tw-store",
+    name: "TW Store",
+    icon: "assets/icons/store.svg",
+    image: "assets/img/store/placeholders/producto-generico.svg",
+    description: "Tecnología bajo pedido por Tecprog World: celulares, laptops, monitores, audio, Apple, realidad virtual y accesorios con cotización por WhatsApp.",
+    url: "store/index.html",
+    chips: ["E-commerce", "Bajo pedido", "WhatsApp"]
   }
 ];
 
@@ -101,9 +110,9 @@ const carouselData = {
     item("impresion-3d", "Impresión 3D", "TW Salud", "Prototipado", "Prototipos físicos, pruebas de forma y fabricación por coordinación técnica.", "Desde S/ 120", "Desde USD 40 vía PayPal", "Cotización", "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.jpg", "detalle/servicio.html?id=impresion-3d")
   ],
   productos: [
-    item("plantillas-digitales", "Plantillas digitales", "Tecprog World Store", "Recurso digital", "Plantillas para organizar cursos, ventas, reportes, presupuestos y entregables.", "Desde S/ 29", "Desde USD 10 vía PayPal", "Descarga digital", "assets/img/productos/producto-solucion-digital.svg", "detalle/producto.html?id=plantillas-digitales"),
+    item("plantillas-digitales", "Plantillas digitales", "TW Store", "Recurso digital", "Plantillas para organizar cursos, ventas, reportes, presupuestos y entregables.", "Desde S/ 29", "Desde USD 10 vía PayPal", "Descarga digital", "assets/img/productos/producto-solucion-digital.svg", "detalle/producto.html?id=plantillas-digitales"),
     item("manuales-pdf", "Manuales PDF", "TW Educa", "Material educativo", "Materiales técnicos para cursos, talleres, ingeniería, programación y herramientas digitales.", "Desde S/ 29", "Desde USD 10 vía PayPal", "Descarga digital", "assets/img/descargas/descarga-manual-pdf.svg", "detalle/material.html?id=manuales-pdf"),
-    item("recursos-ingenieria", "Recursos para ingeniería", "Tecprog World Store", "Pack digital", "Archivos, guías, hojas de cálculo, scripts y recursos de apoyo técnico.", "Desde S/ 49", "Desde USD 15 vía PayPal", "Entrega digital", "assets/img/descargas/descarga-recursos-educativos.svg", "detalle/producto.html?id=recursos-ingenieria"),
+    item("recursos-ingenieria", "Recursos para ingeniería", "TW Store", "Pack digital", "Archivos, guías, hojas de cálculo, scripts y recursos de apoyo técnico.", "Desde S/ 49", "Desde USD 15 vía PayPal", "Entrega digital", "assets/img/descargas/descarga-recursos-educativos.svg", "detalle/producto.html?id=recursos-ingenieria"),
     item("packs-cursos", "Packs de cursos", "TW Educa", "Formación", "Paquetes de cursos y materiales para rutas de aprendizaje especializadas.", "Desde S/ 149", "Desde USD 45 vía PayPal", "Virtual", "assets/img/productos/producto-kit-emprendedor.svg", "detalle/producto.html?id=packs-cursos"),
     item("licencias-demos", "Licencias o demos", "TW Innova", "Software", "Acceso a versiones comerciales, demos, instaladores o soluciones configurables.", "Desde S/ 99", "Desde USD 30 vía PayPal", "Digital", "assets/img/descargas/descarga-instalador-demo.svg", "detalle/software.html?id=licencias-demos")
   ]

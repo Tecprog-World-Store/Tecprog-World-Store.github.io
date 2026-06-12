@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Placeholder de laptop">
+  <rect width="900" height="900" rx="64" fill="#07172f"/>
+  <rect x="160" y="190" width="580" height="380" rx="28" fill="#f8fbff"/>
+  <rect x="194" y="224" width="512" height="304" rx="18" fill="#0aa4d8"/>
+  <path d="M110 604h680l70 94c10 14 0 34-18 34H58c-18 0-28-20-18-34l70-94z" fill="#d9e2ec"/>
+  <path d="M365 638h170l18 34H347z" fill="#07172f" opacity=".72"/>
+  <text x="450" y="812" fill="#f6c445" font-family="Arial, sans-serif" font-size="46" text-anchor="middle" font-weight="700">TW Store</text>
+</svg>
