@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Detalle comercial de producto, servicio, curso o proyecto de Tecprog World. Precios y disponibilidad sujetos a confirmación.">
     <meta property="og:type" content="product">
-    <meta property="og:title" content="Detalle comercial | Tecprog World">
+    <meta property="og:title" content="Ficha comercial | Tecprog World">
     <meta property="og:description" content="Consulta el detalle público de un item comercial de Tecprog World y cotiza por WhatsApp.">
     <meta property="og:image" content="../assets/img/store/og/tw-store-og.png">
     <meta property="og:url" content="https://tecprog-world-store.github.io/detalle/item.html">
     <meta name="twitter:card" content="summary_large_image">
-    <title>Detalle comercial | Tecprog World</title>
+    <title>Ficha comercial | Tecprog World</title>
     <link rel="icon" href="../assets/img/logos/logo-tecprog-world.png" type="image/png">
     <link rel="stylesheet" href="../assets/css/styles.css">
   </head>
@@ -41,7 +41,7 @@
       <section class="section">
         <div class="section-shell item-detail-layout" data-item-detail>
           <article class="detail-block">
-            <h2>Cargando item</h2>
+            <h2>Cargando ficha</h2>
             <p>Si el contenido tarda demasiado, vuelve al catálogo global.</p>
             <a class="btn btn-primary" href="../store/index.html">Volver a TW Store</a>
           </article>
@@ -149,7 +149,7 @@
 
           document.title = `${item.nombre} | ${line} | Tecprog World`;
           document.querySelector("[data-item-title]").textContent = item.nombre;
-          document.querySelector("[data-item-summary]").textContent = item.descripcion_corta || "Detalle comercial de Tecprog World.";
+          document.querySelector("[data-item-summary]").textContent = item.descripcion_corta || "Ficha comercial de Tecprog World.";
           document.querySelector("[data-item-hero]").style.backgroundImage = `linear-gradient(135deg, rgba(6, 19, 38, 0.96), rgba(11, 36, 72, 0.9)), url("${banner}")`;
           setMeta('meta[name="description"]', "content", item.descripcion_corta);
           setMeta('meta[property="og:title"]', "content", `${item.nombre} | ${line}`);
@@ -180,7 +180,7 @@
                 <div class="commerce-badge-row item-detail-tags">${tags}</div>
                 <p class="commerce-notice">Precios, disponibilidad, garantía, alcance y envío sujetos a confirmación.</p>
                 <div class="catalog-actions">
-                  <a class="btn btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+                  <a class="btn btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">Solicitar cotizacion</a>
                   <a class="btn btn-primary" href="../store/index.html">Volver a TW Store</a>
                   <a class="btn btn-secondary" href="${lineUrl}">Volver a ${escapeHtml(line)}</a>
                 </div>

@@ -239,8 +239,8 @@ function renderBusinessLines() {
       <p>${safeText(line.description)}</p>
       <div class="chip-row">${line.chips.map((chip) => `<span>${safeText(chip)}</span>`).join("")}</div>
       <div class="card-actions">
-        <a class="btn btn-small btn-primary" href="${safeText(line.url)}">Explorar unidad</a>
-        <a class="btn btn-small" href="${safeText(line.url)}#ofertas">Ver ofertas</a>
+        <a class="btn btn-small btn-primary" href="${safeText(line.url)}">Ver linea</a>
+        <a class="btn btn-small" href="${safeText(line.url)}#ofertas">Ver catalogo</a>
         <a class="btn btn-small btn-gold" href="${whatsappUrl(line.name)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </div>
     </article>
@@ -283,7 +283,7 @@ function carouselCard(entry) {
         <p class="usd-price">${safeText(entry.usd)}</p>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="${safeText(entry.detailUrl)}">Ver más</a>
-          <a class="btn btn-small btn-gold" href="${whatsappUrl(entry.title)}" target="_blank" rel="noopener noreferrer">Comprar / consultar</a>
+          <a class="btn btn-small btn-gold" href="${whatsappUrl(entry.title)}" target="_blank" rel="noopener noreferrer">Consultar</a>
         </div>
       </div>
     </article>
