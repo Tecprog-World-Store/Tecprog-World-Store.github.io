@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detalle comercial de producto, servicio, curso o proyecto de Tecprog World. Precios y disponibilidad sujetos a confirmación.">
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Ficha comercial | Tecprog World">
+    <meta property="og:description" content="Consulta el detalle público de un item comercial de Tecprog World y cotiza por WhatsApp.">
+    <meta property="og:image" content="../assets/img/store/og/tw-store-og.png">
+    <meta property="og:url" content="https://tecprog-world-store.github.io/detalle/item.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Ficha comercial | Tecprog World</title>
+    <link rel="icon" href="../assets/img/logos/logo-tecprog-world.png" type="image/png">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html#inicio" aria-label="Ir al inicio de Tecprog World">
+        <img src="../assets/img/logos/logo-tecprog-world.png" alt="Tecprog World" width="56" height="56">
+        <span><strong>Tecprog World</strong><small>E.I.R.L. Perú</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+      <nav id="site-nav" class="site-nav is-static" data-nav></nav>
+    </header>
+
+    <main class="item-detail-page">
+      <section class="commerce-hero item-detail-hero" data-item-hero>
+        <div class="section-shell">
+          <p class="eyebrow">Detalle comercial</p>
+          <h1 data-item-title>Cargando detalle...</h1>
+          <p data-item-summary>Estamos preparando la información comercial pública.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-shell item-detail-layout" data-item-detail>
+          <article class="detail-block">
+            <h2>Cargando ficha</h2>
+            <p>Si el contenido tarda demasiado, vuelve al catálogo global.</p>
+            <a class="btn btn-primary" href="../store/index.html">Volver a TW Store</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script>
+      (function () {
+        const WHATSAPP_PHONE = "51952354282";
+        const DEFAULT_IMAGE = "../assets/img/store/placeholders/producto-generico.svg";
+        const FALLBACK_BANNER = "../assets/img/store/carruseles/tw-store-01.png";
+        const FALLBACK_OG = "../assets/img/store/og/tw-store-og.png";
+        const LINE_LABELS = {
+          "tw-store": "TW Store",
+          "tw-disfruta": "TW Disfruta",
+          "tw-educa": "TW Educa",
+          "tw-innova": "TW Innova",
+          "tw-salud": "TW Salud",
+          "tw-interactive": "TW Interactive",
+          "tw-construye": "TW Construye",
+          "tw-inox": "TW Inox",
+          "tw-investiga": "TW Investiga"
+        };
+        const LINE_URLS = {
+          "tw-store": "../store/index.html",
+          "tw-disfruta": "../disfruta/index.html",
+          "tw-educa": "../educa/index.html",
+          "tw-innova": "../innova/index.html",
+          "tw-salud": "../salud/index.html",
+          "tw-interactive": "../interactive/index.html",
+          "tw-construye": "../construye/index.html",
+          "tw-inox": "../inox/index.html",
+          "tw-investiga": "../investiga/index.html"
+        };
+
+        function escapeHtml(value) {
+          return String(value ?? "")
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")
+            .replaceAll('"', "&quot;");
+        }
+
+        function asset(path) {
+          if (!path) return "";
+          if (/^(https?:)?\/\//.test(path) || path.startsWith("data:")) return path;
+          if (path.startsWith("../") || path.startsWith("./")) return path;
+          return `../${path}`;
+        }
+
+        function readable(value) {
+          return String(value || "")
+            .replaceAll("_", " ")
+            .replaceAll("-", " ")
+            .replace(/\b\p{L}/gu, (letter) => letter.toUpperCase());
+        }
+
+        function money(value, currency = "PEN") {
+          if (typeof value !== "number") return "Cotizar";
+          const prefix = currency === "USD" ? "US$" : "S/";
+          return `${prefix} ${value.toLocaleString("es-PE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+        }
+
+        function whatsappHref(item) {
+          const message = item.whatsapp_mensaje || `Hola Tecprog World, deseo cotizar: ${item.nombre}.`;
+          return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+        }
+
+        function setMeta(selector, attr, value) {
+          const tag = document.querySelector(selector);
+          if (tag && value) tag.setAttribute(attr, value);
+        }
+
+        function lineOgImage(item) {
+          return item.linea_negocio
+            ? `../assets/img/store/og/${item.linea_negocio}-og.png`
+            : FALLBACK_OG;
+        }
+
+        function renderError(message) {
+          document.querySelector("[data-item-title]").textContent = "Item no encontrado";
+          document.querySelector("[data-item-summary]").textContent = message;
+          document.querySelector("[data-item-detail]").innerHTML = `
+            <article class="detail-block">
+              <h2>No encontramos este item</h2>
+              <p>${escapeHtml(message)}</p>
+              <div class="catalog-actions">
+                <a class="btn btn-primary" href="../store/index.html">Volver a TW Store</a>
+                <a class="btn btn-secondary" href="../index.html#buscador-global">Ir al buscador global</a>
+              </div>
+            </article>
+          `;
+        }
+
+        function renderItem(item) {
+          const line = LINE_LABELS[item.linea_negocio] || readable(item.linea_negocio);
+          const lineUrl = LINE_URLS[item.linea_negocio] || "../store/index.html";
+          const image = asset(item.imagen) || DEFAULT_IMAGE;
+          const banner = asset(item.banner) || FALLBACK_BANNER;
+          const dollars = typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
+          const tags = (item.tags || []).map((tag) => `<span class="commerce-badge">${escapeHtml(tag)}</span>`).join("");
+
+          document.title = `${item.nombre} | ${line} | Tecprog World`;
+          document.querySelector("[data-item-title]").textContent = item.nombre;
+          document.querySelector("[data-item-summary]").textContent = item.descripcion_corta || "Ficha comercial de Tecprog World.";
+          document.querySelector("[data-item-hero]").style.backgroundImage = `linear-gradient(135deg, rgba(6, 19, 38, 0.96), rgba(11, 36, 72, 0.9)), url("${banner}")`;
+          setMeta('meta[name="description"]', "content", item.descripcion_corta);
+          setMeta('meta[property="og:title"]', "content", `${item.nombre} | ${line}`);
+          setMeta('meta[property="og:description"]', "content", item.descripcion_corta);
+          setMeta('meta[property="og:image"]', "content", lineOgImage(item));
+          setMeta('meta[property="og:url"]', "content", location.href);
+
+          document.querySelector("[data-item-detail]").innerHTML = `
+            <article class="item-detail-card">
+              <div class="item-detail-media">
+                <img src="${image}" alt="${escapeHtml(item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${DEFAULT_IMAGE}';">
+              </div>
+              <div class="item-detail-content">
+                <p class="commerce-kicker">${escapeHtml(line)} · ${escapeHtml(item.categoria)} · ${escapeHtml(readable(item.tipo_item))}</p>
+                <h2>${escapeHtml(item.nombre)}</h2>
+                <p>${escapeHtml(item.descripcion_corta || "")}</p>
+                <p>${escapeHtml(item.descripcion_larga || "")}</p>
+                <div class="commerce-price item-detail-price">
+                  <strong>${escapeHtml(money(item.precio_soles, "PEN"))}</strong>
+                  ${dollars}
+                </div>
+                <dl class="item-detail-meta">
+                  <div><dt>Estado</dt><dd>${escapeHtml(readable(item.estado || "cotizar"))}</dd></div>
+                  <div><dt>Categoría</dt><dd>${escapeHtml(item.categoria || "Catálogo")}</dd></div>
+                  <div><dt>Tipo</dt><dd>${escapeHtml(readable(item.tipo_item || "item"))}</dd></div>
+                  ${item.fecha_actualizacion ? `<div><dt>Actualizado</dt><dd>${escapeHtml(item.fecha_actualizacion)}</dd></div>` : ""}
+                </dl>
+                <div class="commerce-badge-row item-detail-tags">${tags}</div>
+                <p class="commerce-notice">Precios, disponibilidad, garantía, alcance y envío sujetos a confirmación.</p>
+                <div class="catalog-actions">
+                  <a class="btn btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">Solicitar cotizacion</a>
+                  <a class="btn btn-primary" href="../store/index.html">Volver a TW Store</a>
+                  <a class="btn btn-secondary" href="${lineUrl}">Volver a ${escapeHtml(line)}</a>
+                </div>
+              </div>
+            </article>
+          `;
+        }
+
+        async function init() {
+          const id = new URLSearchParams(location.search).get("id");
+          if (!id) {
+            renderError("Falta el identificador del item en la URL.");
+            return;
+          }
+          const response = await fetch("../data/catalogo_global.json");
+          if (!response.ok) throw new Error("No se pudo cargar el catálogo global.");
+          const items = await response.json();
+          const item = Array.isArray(items) ? items.find((entry) => entry.id === id && entry.visible_cliente !== false) : null;
+          if (!item) {
+            renderError("Revisa el enlace o vuelve al catálogo global para buscar el item.");
+            return;
+          }
+          renderItem(item);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+          init().catch((error) => renderError(error.message));
+        });
+      })();
+    </script>
+  </body>
+</html>

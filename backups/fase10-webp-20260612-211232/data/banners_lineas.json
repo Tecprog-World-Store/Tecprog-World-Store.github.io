@@ -1,0 +1,65 @@
+{
+  "tw-store": {
+    "titulo": "TW Store",
+    "subtitulo": "E-commerce tecnologico bajo pedido y cotizacion manual",
+    "banner": "assets/img/store/carruseles/tw-store-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-store-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-disfruta": {
+    "titulo": "TW Disfruta",
+    "subtitulo": "Videojuegos, assets 3D, widgets y merchandising gamer",
+    "banner": "assets/img/store/carruseles/tw-disfruta-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-disfruta-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-educa": {
+    "titulo": "TW Educa",
+    "subtitulo": "Formacion tecnica y profesional para ingenieria y tecnologia",
+    "banner": "assets/img/store/carruseles/tw-educa-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-educa-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-innova": {
+    "titulo": "TW Innova",
+    "subtitulo": "Software, hardware, automatizacion y soluciones digitales",
+    "banner": "assets/img/store/carruseles/tw-innova-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-innova-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-salud": {
+    "titulo": "TW Salud",
+    "subtitulo": "Tecnologia medica, accesibilidad, protesis y ortesis",
+    "banner": "assets/img/store/carruseles/tw-salud-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-salud-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-interactive": {
+    "titulo": "TW Interactive",
+    "subtitulo": "Consultoria de ingenieria, simulacion y analisis computacional",
+    "banner": "assets/img/store/carruseles/tw-interactive-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-interactive-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-construye": {
+    "titulo": "TW Construye",
+    "subtitulo": "Construccion civil, remodelaciones y diseno interior",
+    "banner": "assets/img/store/carruseles/tw-construye-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-construye-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-inox": {
+    "titulo": "TW Inox",
+    "subtitulo": "Acero inoxidable, estructuras metalicas y fabricacion tecnica",
+    "banner": "assets/img/store/carruseles/tw-inox-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-inox-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  },
+  "tw-investiga": {
+    "titulo": "TW Investiga",
+    "subtitulo": "Investigacion aplicada, software cientifico y datos tecnicos",
+    "banner": "assets/img/store/carruseles/tw-investiga-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-investiga-01.png",
+    "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
+  }
+}

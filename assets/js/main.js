@@ -7,7 +7,7 @@ const businessLines = [
     id: "tw-investiga",
     name: "TW Investiga",
     icon: "assets/icons/innovation.svg",
-    image: "assets/img/store/carruseles/tw-investiga-01.png",
+    image: "assets/img/store/carruseles/tw-investiga-01.webp",
     description: "Investigación aplicada, desarrollo experimental, prototipos, estudios técnicos, documentación científica y transferencia tecnológica.",
     url: "lineas/tw-investiga.html",
     chips: ["Investigación", "Prototipos", "I+D"]
@@ -16,7 +16,7 @@ const businessLines = [
     id: "tw-innova",
     name: "TW Innova",
     icon: "assets/icons/innovation.svg",
-    image: "assets/img/store/carruseles/tw-innova-01.png",
+    image: "assets/img/store/carruseles/tw-innova-01.webp",
     description: "Desarrollo de software comercial y open-source, hardware aplicado, automatización, visión artificial, plugins y sistemas web.",
     url: "lineas/tw-innova.html",
     chips: ["Software", "Hardware", "Automatización"]
@@ -25,7 +25,7 @@ const businessLines = [
     id: "tw-educa",
     name: "TW Educa",
     icon: "assets/icons/education.svg",
-    image: "assets/img/store/carruseles/tw-educa-01.png",
+    image: "assets/img/store/carruseles/tw-educa-01.webp",
     description: "Cursos técnicos, científicos y profesionales para ingeniería, programación, GIS, CFD, métodos numéricos y herramientas aplicadas.",
     url: "lineas/tw-educa.html",
     chips: ["Cursos", "Compendios", "Ingeniería"]
@@ -34,7 +34,7 @@ const businessLines = [
     id: "tw-interactive",
     name: "TW Interactive",
     icon: "assets/icons/innovation.svg",
-    image: "assets/img/store/carruseles/tw-interactive-01.png",
+    image: "assets/img/store/carruseles/tw-interactive-01.webp",
     description: "Ingeniería mecánica de fluidos, hidrología, hidráulica, CFD, termofluidos, energía, aerodinámica y documentación técnica.",
     url: "lineas/tw-interactive.html",
     chips: ["Hidráulica", "CFD", "Python"]
@@ -43,7 +43,7 @@ const businessLines = [
     id: "tw-construye",
     name: "TW Construye",
     icon: "assets/icons/build.svg",
-    image: "assets/img/store/carruseles/tw-construye-01.png",
+    image: "assets/img/store/carruseles/tw-construye-01.webp",
     description: "Asistencia técnica para construcción civil, metrados, presupuestos, planos, modelamiento y revisión de proyectos.",
     url: "lineas/tw-construye.html",
     chips: ["Servicios", "Proyectos", "Consultoría"]
@@ -52,7 +52,7 @@ const businessLines = [
     id: "tw-inox",
     name: "TW Inox",
     icon: "assets/icons/build.svg",
-    image: "assets/img/store/carruseles/tw-inox-01.png",
+    image: "assets/img/store/carruseles/tw-inox-01.webp",
     description: "Proyectos en metales, estructuras, soportes, fabricación, pintura, automatización de procesos y prototipado.",
     url: "lineas/tw-inox.html",
     chips: ["Metalmecánica", "Fabricación", "Prototipos"]
@@ -61,7 +61,7 @@ const businessLines = [
     id: "tw-salud",
     name: "TW Salud",
     icon: "assets/icons/health.svg",
-    image: "assets/img/store/carruseles/tw-salud-01.png",
+    image: "assets/img/store/carruseles/tw-salud-01.webp",
     description: "Diseño, prototipado, soporte técnico, accesibilidad, tecnología médica e investigación aplicada en salud.",
     url: "lineas/tw-salud.html",
     chips: ["Prótesis y órtesis", "Tecnología médica", "Accesibilidad"]
@@ -70,7 +70,7 @@ const businessLines = [
     id: "tw-store",
     name: "TW Store",
     icon: "assets/icons/store.svg",
-    image: "assets/img/store/carruseles/tw-store-01.png",
+    image: "assets/img/store/carruseles/tw-store-01.webp",
     description: "Tecnología bajo pedido por Tecprog World: celulares, laptops, monitores, audio, Apple, realidad virtual y accesorios con cotización por WhatsApp.",
     url: "store/index.html",
     chips: ["E-commerce", "Bajo pedido", "WhatsApp"]

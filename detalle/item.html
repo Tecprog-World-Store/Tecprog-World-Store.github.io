@@ -7,12 +7,18 @@
     <meta property="og:type" content="product">
     <meta property="og:title" content="Ficha comercial | Tecprog World">
     <meta property="og:description" content="Consulta el detalle público de un item comercial de Tecprog World y cotiza por WhatsApp.">
-    <meta property="og:image" content="../assets/img/store/og/tw-store-og.png">
+    <meta property="og:image" content="../assets/img/store/og/tw-store-og.webp">
     <meta property="og:url" content="https://tecprog-world-store.github.io/detalle/item.html">
     <meta name="twitter:card" content="summary_large_image">
     <title>Ficha comercial | Tecprog World</title>
     <link rel="icon" href="../assets/img/logos/logo-tecprog-world.png" type="image/png">
+    <link rel="canonical" href="https://tecprog-world-store.github.io/detalle/item.html">
+    <meta name="twitter:title" content="Ficha comercial | Tecprog World">
+    <meta name="twitter:description" content="Consulta el detalle público de un item comercial de Tecprog World y cotiza por WhatsApp.">
+    <meta name="twitter:image" content="../assets/img/store/og/tw-store-og.webp">
+    <link rel="manifest" href="../site.webmanifest">
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <script id="item-jsonld" type="application/ld+json">{}</script>
   </head>
   <body>
     <header class="site-header">
@@ -55,8 +61,8 @@
       (function () {
         const WHATSAPP_PHONE = "51952354282";
         const DEFAULT_IMAGE = "../assets/img/store/placeholders/producto-generico.svg";
-        const FALLBACK_BANNER = "../assets/img/store/carruseles/tw-store-01.png";
-        const FALLBACK_OG = "../assets/img/store/og/tw-store-og.png";
+        const FALLBACK_BANNER = "../assets/img/store/carruseles/tw-store-01.webp";
+        const FALLBACK_OG = "../assets/img/store/og/tw-store-og.webp";
         const LINE_LABELS = {
           "tw-store": "TW Store",
           "tw-disfruta": "TW Disfruta",
@@ -118,9 +124,40 @@
           if (tag && value) tag.setAttribute(attr, value);
         }
 
+        function setCanonical(value) {
+          const link = document.querySelector('link[rel="canonical"]');
+          if (link && value) link.setAttribute("href", value);
+        }
+
+        function setJsonLd(item, line, image, publicUrl) {
+          const script = document.querySelector("#item-jsonld");
+          if (!script || !item) return;
+          const type = item.tipo_item === "producto" ? "Product" : "Service";
+          const data = {
+            "@context": "https://schema.org",
+            "@type": type,
+            "name": item.nombre,
+            "description": item.descripcion_corta || item.descripcion_larga || "Ficha comercial de Tecprog World.",
+            "image": new URL(image, location.href).href,
+            "url": publicUrl,
+            "brand": { "@type": "Brand", "name": line || "Tecprog World" },
+            "provider": { "@type": "Organization", "name": "Tecprog World E.I.R.L.", "url": "https://tecprog-world-store.github.io/" }
+          };
+          if (typeof item.precio_soles === "number") {
+            data.offers = {
+              "@type": "Offer",
+              "priceCurrency": "PEN",
+              "price": item.precio_soles,
+              "availability": "https://schema.org/InStock",
+              "url": publicUrl
+            };
+          }
+          script.textContent = JSON.stringify(data);
+        }
+
         function lineOgImage(item) {
           return item.linea_negocio
-            ? `../assets/img/store/og/${item.linea_negocio}-og.png`
+            ? `../assets/img/store/og/${item.linea_negocio}-og.webp`
             : FALLBACK_OG;
         }
 
@@ -155,7 +192,13 @@
           setMeta('meta[property="og:title"]', "content", `${item.nombre} | ${line}`);
           setMeta('meta[property="og:description"]', "content", item.descripcion_corta);
           setMeta('meta[property="og:image"]', "content", lineOgImage(item));
-          setMeta('meta[property="og:url"]', "content", location.href);
+          const publicUrl = `https://tecprog-world-store.github.io/detalle/item.html?id=${encodeURIComponent(item.id)}`;
+          setMeta('meta[property="og:url"]', "content", publicUrl);
+          setMeta('meta[name="twitter:title"]', "content", `${item.nombre} | ${line}`);
+          setMeta('meta[name="twitter:description"]', "content", item.descripcion_corta);
+          setMeta('meta[name="twitter:image"]', "content", lineOgImage(item));
+          setCanonical(publicUrl);
+          setJsonLd(item, line, image, publicUrl);
 
           document.querySelector("[data-item-detail]").innerHTML = `
             <article class="item-detail-card">

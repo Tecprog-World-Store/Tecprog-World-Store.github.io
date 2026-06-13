@@ -1,0 +1,19 @@
+{
+  "name": "Tecprog World Store",
+  "short_name": "TW Store",
+  "description": "Portal comercial de Tecprog World E.I.R.L. para productos tecnologicos, cursos y servicios especializados.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071426",
+  "theme_color": "#0b2f5f",
+  "lang": "es-PE",
+  "icons": [
+    {
+      "src": "assets/img/logos/logo-tecprog-world.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
