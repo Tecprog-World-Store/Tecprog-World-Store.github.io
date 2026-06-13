@@ -2,64 +2,64 @@
   "tw-store": {
     "titulo": "TW Store",
     "subtitulo": "Comercio digital y tecnología bajo pedido",
-    "banner": "assets/img/banners/tw-store.webp",
-    "banner_esperado": "assets/img/banners/tw-store.webp",
+    "banner": "assets/img/store/carruseles/tw-store-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-store-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-disfruta": {
     "titulo": "TW Disfruta",
     "subtitulo": "Videojuegos, merchandising, assets y experiencias digitales",
-    "banner": "assets/img/banners/tw-disfruta.webp",
-    "banner_esperado": "assets/img/banners/tw-disfruta.webp",
+    "banner": "assets/img/store/carruseles/tw-disfruta-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-disfruta-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-educa": {
     "titulo": "TW Educa",
     "subtitulo": "Capacitación profesional para ingeniería, ciencia y tecnología",
-    "banner": "assets/img/banners/tw-educa.webp",
-    "banner_esperado": "assets/img/banners/tw-educa.webp",
+    "banner": "assets/img/store/carruseles/tw-educa-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-educa-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-innova": {
     "titulo": "TW Innova",
     "subtitulo": "Software, hardware, automatización y soporte tecnológico",
-    "banner": "assets/img/banners/tw-innova.webp",
-    "banner_esperado": "assets/img/banners/tw-innova.webp",
+    "banner": "assets/img/store/carruseles/tw-innova-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-innova-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-salud": {
     "titulo": "TW Salud",
     "subtitulo": "Tecnología médica, accesibilidad y soluciones inclusivas",
-    "banner": "assets/img/banners/tw-salud.webp",
-    "banner_esperado": "assets/img/banners/tw-salud.webp",
+    "banner": "assets/img/store/carruseles/tw-salud-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-salud-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-interactive": {
     "titulo": "TW Interactive",
     "subtitulo": "Consultoría de ingeniería mecánica de fluidos e hidrología",
-    "banner": "assets/img/banners/tw-interactive.webp",
-    "banner_esperado": "assets/img/banners/tw-interactive.webp",
+    "banner": "assets/img/store/carruseles/tw-interactive-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-interactive-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-construye": {
     "titulo": "TW Construye",
     "subtitulo": "Construcción civil, remodelación y asistencia técnica",
-    "banner": "assets/img/banners/tw-construye.webp",
-    "banner_esperado": "assets/img/banners/tw-construye.webp",
+    "banner": "assets/img/store/carruseles/tw-construye-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-construye-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-inox": {
     "titulo": "TW Inox",
     "subtitulo": "Proyectos en metales, acero inoxidable y fabricación técnica",
-    "banner": "assets/img/banners/tw-inox.webp",
-    "banner_esperado": "assets/img/banners/tw-inox.webp",
+    "banner": "assets/img/store/carruseles/tw-inox-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-inox-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   },
   "tw-investiga": {
     "titulo": "TW Investiga",
     "subtitulo": "Investigación científica y tecnológica aplicada",
-    "banner": "assets/img/banners/tw-investiga.webp",
-    "banner_esperado": "assets/img/banners/tw-investiga.webp",
+    "banner": "assets/img/store/carruseles/tw-investiga-01.png",
+    "banner_esperado": "assets/img/store/carruseles/tw-investiga-01.png",
     "fallback": "assets/img/banner_horizontal_tw/figuraHorizontal01.webp"
   }
 }

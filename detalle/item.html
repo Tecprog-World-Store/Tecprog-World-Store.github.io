@@ -7,7 +7,7 @@
     <meta property="og:type" content="product">
     <meta property="og:title" content="Detalle comercial | Tecprog World">
     <meta property="og:description" content="Consulta el detalle público de un item comercial de Tecprog World y cotiza por WhatsApp.">
-    <meta property="og:image" content="../assets/img/banner_horizontal_tw/figuraHorizontal01.webp">
+    <meta property="og:image" content="../assets/img/store/og/tw-store-og.png">
     <meta property="og:url" content="https://tecprog-world-store.github.io/detalle/item.html">
     <meta name="twitter:card" content="summary_large_image">
     <title>Detalle comercial | Tecprog World</title>
@@ -55,7 +55,8 @@
       (function () {
         const WHATSAPP_PHONE = "51952354282";
         const DEFAULT_IMAGE = "../assets/img/store/placeholders/producto-generico.svg";
-        const FALLBACK_BANNER = "../assets/img/banner_horizontal_tw/figuraHorizontal01.webp";
+        const FALLBACK_BANNER = "../assets/img/store/carruseles/tw-store-01.png";
+        const FALLBACK_OG = "../assets/img/store/og/tw-store-og.png";
         const LINE_LABELS = {
           "tw-store": "TW Store",
           "tw-disfruta": "TW Disfruta",
@@ -117,6 +118,12 @@
           if (tag && value) tag.setAttribute(attr, value);
         }
 
+        function lineOgImage(item) {
+          return item.linea_negocio
+            ? `../assets/img/store/og/${item.linea_negocio}-og.png`
+            : FALLBACK_OG;
+        }
+
         function renderError(message) {
           document.querySelector("[data-item-title]").textContent = "Item no encontrado";
           document.querySelector("[data-item-summary]").textContent = message;
@@ -147,7 +154,7 @@
           setMeta('meta[name="description"]', "content", item.descripcion_corta);
           setMeta('meta[property="og:title"]', "content", `${item.nombre} | ${line}`);
           setMeta('meta[property="og:description"]', "content", item.descripcion_corta);
-          setMeta('meta[property="og:image"]', "content", banner);
+          setMeta('meta[property="og:image"]', "content", lineOgImage(item));
           setMeta('meta[property="og:url"]', "content", location.href);
 
           document.querySelector("[data-item-detail]").innerHTML = `

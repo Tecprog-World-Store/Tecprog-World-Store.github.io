@@ -16,7 +16,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-001.webp",
     "gancho": "iPhone 16e 5G para trabajo, estudio y creación de contenido.",
     "ultima_revision": "2026-06-11"
   },
@@ -37,7 +37,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-002.png",
     "gancho": "iPhone confiable para fotos, redes sociales y productividad diaria.",
     "ultima_revision": "2026-06-11"
   },
@@ -58,7 +58,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-003.png",
     "gancho": "smartphone económico para estudio, comunicación y redes.",
     "ultima_revision": "2026-06-11"
   },
@@ -79,7 +79,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-004.png",
     "gancho": "audio premium para productividad, llamadas y concentración.",
     "ultima_revision": "2026-06-11"
   },
@@ -100,7 +100,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-005.png",
     "gancho": "audífonos compactos para clases, trabajo y entrenamiento.",
     "ultima_revision": "2026-06-11"
   },
@@ -121,7 +121,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-006.png",
     "gancho": "estilo premium con batería de larga duración.",
     "ultima_revision": "2026-06-11"
   },
@@ -142,7 +142,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-007.png",
     "gancho": "mejora rápida de audio para escritorio y laptop.",
     "ultima_revision": "2026-06-11"
   },
@@ -163,7 +163,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-008.webp",
     "gancho": "setup gamer con iluminación RGB.",
     "ultima_revision": "2026-06-11"
   },
@@ -184,7 +184,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-009.png",
     "gancho": "potencia JBL para eventos, reuniones y música en casa.",
     "ultima_revision": "2026-06-11"
   },
@@ -205,7 +205,7 @@
       "oferta",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-010.webp",
     "gancho": "parlante potente para fiestas y activaciones.",
     "ultima_revision": "2026-06-11"
   },
@@ -226,7 +226,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-011.png",
     "gancho": "laptop gaming de entrada para diseño, estudio y juegos.",
     "ultima_revision": "2026-06-11"
   },
@@ -247,7 +247,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-012.png",
     "gancho": "alto rendimiento para gaming, ingeniería y edición.",
     "ultima_revision": "2026-06-11"
   },
@@ -268,7 +268,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-013.png",
     "gancho": "laptop para creadores, CAD, simulación y gaming moderno.",
     "ultima_revision": "2026-06-11"
   },
@@ -289,7 +289,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-014.webp",
     "gancho": "equipo premium para gaming, render y productividad intensiva.",
     "ultima_revision": "2026-06-11"
   },
@@ -309,7 +309,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/tw-store-015.webp",
     "gancho": "monitor fluido para gaming competitivo y escritorio profesional.",
     "ultima_revision": "2026-06-11"
   },
@@ -329,7 +329,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "imagen fluida para juegos, clases y oficina.",
     "ultima_revision": "2026-06-11"
   },
@@ -349,7 +349,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "monitor Samsung para escritorio gamer y multitarea.",
     "ultima_revision": "2026-06-11"
   },
@@ -369,7 +369,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "opción competitiva para alto refresco visual.",
     "ultima_revision": "2026-06-11"
   },
@@ -389,7 +389,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "monitor gamer económico para renovar setup.",
     "ultima_revision": "2026-06-11"
   },
@@ -410,7 +410,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "potencia compacta para oficina, diseño y productividad.",
     "ultima_revision": "2026-06-11"
   },
@@ -431,7 +431,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "laptop ultraligera para estudio, trabajo y movilidad.",
     "ultima_revision": "2026-06-11"
   },
@@ -452,7 +452,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "pantalla amplia y rendimiento Apple para productividad.",
     "ultima_revision": "2026-06-11"
   },
@@ -473,7 +473,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "estación profesional portátil para edición, programación y creación.",
     "ultima_revision": "2026-06-11"
   },
@@ -494,7 +494,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "audio compacto para llamadas, estudio y música.",
     "ultima_revision": "2026-06-11"
   },
@@ -515,7 +515,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "audio premium para concentración y productividad.",
     "ultima_revision": "2026-06-11"
   },
@@ -536,7 +536,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "smartwatch Apple para actividad, notificaciones y estilo.",
     "ultima_revision": "2026-06-11"
   },
@@ -557,7 +557,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "tablet premium para diseño, apuntes y productividad.",
     "ultima_revision": "2026-06-11"
   },
@@ -578,7 +578,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "tablet profesional para creación, edición y movilidad.",
     "ultima_revision": "2026-06-11"
   },
@@ -599,7 +599,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/meta-quest-3.svg",
     "gancho": "realidad virtual para entretenimiento, inmersión y demostraciones tecnológicas.",
     "ultima_revision": "2026-06-11"
   },
@@ -620,7 +620,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/meta-quest-3.svg",
     "gancho": "mejora la comodidad y autonomía de tu Meta Quest 3.",
     "ultima_revision": "2026-06-11"
   },
@@ -641,7 +641,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/meta-quest-3.svg",
     "gancho": "accesorio premium para sesiones largas de realidad virtual.",
     "ultima_revision": "2026-06-11"
   },
@@ -661,7 +661,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/hub-usbc.svg",
     "gancho": "mouse profesional para diseño, oficina y programación.",
     "ultima_revision": "2026-06-11"
   },
@@ -681,7 +681,7 @@
       "bajo_pedido",
       "stock_por_confirmar"
     ],
-    "imagen": "../assets/img/store/productos/producto-generico.webp",
+    "imagen": "../assets/img/store/productos/hub-usbc.svg",
     "gancho": "control premium para ecosistema Apple.",
     "ultima_revision": "2026-06-11"
   }
