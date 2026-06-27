@@ -10,7 +10,9 @@ const TW_OFFICIAL = {
 window.TW_OFFICIAL = TW_OFFICIAL;
 
 function twPath(path) {
-  return `/${String(path || "").replace(/^\/+/, "")}`;
+  const depth = location.pathname.split("/").filter(Boolean).length - 1;
+  const prefix = depth > 0 ? "../".repeat(depth) : "";
+  return `${prefix}${path}`;
 }
 
 function twExternalAttrs() {
@@ -20,199 +22,6 @@ function twExternalAttrs() {
       link.target = "_blank";
       link.rel = "noopener noreferrer";
     }
-  });
-}
-
-function twAppContentTarget() {
-  return document.querySelector("#app-content, [data-app-content], .page-main");
-}
-
-function twShouldBypassProgressiveNavigation(link, event) {
-  if (!link || event.defaultPrevented) return true;
-  if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return true;
-  if (link.target && link.target !== "_self") return true;
-  if (link.hasAttribute("download") || link.dataset.noSpa === "true") return true;
-
-  const rawHref = link.getAttribute("href") || "";
-  if (!rawHref || rawHref.startsWith("#")) return true;
-  if (/^(mailto:|tel:|sms:|whatsapp:|javascript:)/i.test(rawHref)) return true;
-
-  const url = new URL(rawHref, location.href);
-  if (url.origin !== location.origin) return true;
-  if (url.pathname === location.pathname && url.search === location.search && url.hash) return true;
-  if (/\.(pdf|mp3|wav|ogg|zip|rar|7z|png|jpe?g|webp|svg|gif|json|xml|txt|docx?|xlsx?|pptx?)$/i.test(url.pathname)) return true;
-  return false;
-}
-
-function twRewriteProgressiveUrls(root, url) {
-  root.querySelectorAll("a[href], img[src], source[src], video[poster]").forEach((node) => {
-    ["href", "src", "poster"].forEach((attr) => {
-      const value = node.getAttribute(attr);
-      if (!value || value.startsWith("#") || /^(https?:|mailto:|tel:|sms:|whatsapp:|javascript:|data:)/i.test(value)) return;
-      node.setAttribute(attr, new URL(value, url.href).pathname + new URL(value, url.href).search + new URL(value, url.href).hash);
-    });
-  });
-}
-
-function twExtractProgressiveContent(doc, url) {
-  const sourceMain = doc.querySelector("main");
-  if (!sourceMain) return null;
-
-  if (sourceMain.matches("[data-detail-root]")) return `<div data-detail-root></div>`;
-  if (sourceMain.matches("[data-compendio-detail]")) return `<div data-compendio-detail></div>`;
-  if (sourceMain.matches("[data-guia-detail]")) return `<div data-guia-detail></div>`;
-
-  const nestedPageMain = sourceMain.querySelector(".page-main");
-  if (nestedPageMain) {
-    const nestedClone = nestedPageMain.cloneNode(true);
-    twRewriteProgressiveUrls(nestedClone, url);
-    return nestedClone.innerHTML;
-  }
-
-  const clone = sourceMain.cloneNode(true);
-  clone.querySelectorAll(":scope > .side-nav, :scope > .side-nav-left, :scope > .side-panel-right, :scope > .side-index-toggle, :scope > .side-nav-toggle").forEach((item) => item.remove());
-  const shellPageMain = clone.querySelector(".page-main");
-  twRewriteProgressiveUrls(shellPageMain || clone, url);
-  return shellPageMain ? shellPageMain.innerHTML : clone.innerHTML;
-}
-
-function twUpdateHeadFromDocument(doc, url) {
-  const incomingTitle = doc.querySelector("title")?.textContent;
-  if (incomingTitle) document.title = incomingTitle;
-
-  const description = doc.querySelector('meta[name="description"]')?.getAttribute("content");
-  let currentDescription = document.querySelector('meta[name="description"]');
-  if (description) {
-    if (!currentDescription) {
-      currentDescription = document.createElement("meta");
-      currentDescription.name = "description";
-      document.head.appendChild(currentDescription);
-    }
-    currentDescription.setAttribute("content", description);
-  }
-
-  const canonical = doc.querySelector('link[rel="canonical"]')?.getAttribute("href") || url.href;
-  let currentCanonical = document.querySelector('link[rel="canonical"]');
-  if (!currentCanonical) {
-    currentCanonical = document.createElement("link");
-    currentCanonical.rel = "canonical";
-    document.head.appendChild(currentCanonical);
-  }
-  currentCanonical.setAttribute("href", canonical);
-}
-
-async function twLoadPageScripts(doc, url) {
-  const scripts = [...doc.querySelectorAll("script[src]")];
-  const persistentShellScripts = new Set([
-    "/assets/js/catalogo-global.js",
-    "/assets/js/navigation.js",
-    "/assets/js/right-panel.js",
-    "/assets/js/main.js"
-  ]);
-  for (const script of scripts) {
-    const src = new URL(script.getAttribute("src"), url.href);
-    if (persistentShellScripts.has(src.pathname)) continue;
-    const alreadyLoaded = [...document.scripts].some((existing) => {
-      if (!existing.src) return false;
-      const existingUrl = new URL(existing.src, location.href);
-      return existingUrl.pathname === src.pathname;
-    });
-    if (alreadyLoaded) continue;
-    await new Promise((resolve, reject) => {
-      const dynamicScript = document.createElement("script");
-      dynamicScript.src = src.href;
-      dynamicScript.onload = resolve;
-      dynamicScript.onerror = reject;
-      document.body.appendChild(dynamicScript);
-    });
-  }
-}
-
-async function twRehydrateProgressiveContent() {
-  try {
-    if (typeof renderStandardTopNav === "function") renderStandardTopNav();
-    if (typeof renderRightPanel === "function") renderRightPanel(true);
-    if (typeof setupMobileSideIndex === "function") setupMobileSideIndex();
-    if (typeof twExternalAttrs === "function") twExternalAttrs();
-    if (typeof setupPayPalButtons === "function") setupPayPalButtons();
-    if (typeof setupWhatsAppLinks === "function") setupWhatsAppLinks();
-    if (typeof setupExternalLinks === "function") setupExternalLinks();
-    if (typeof setupContextNav === "function") setupContextNav();
-    if (typeof renderBusinessLines === "function") renderBusinessLines();
-    if (typeof setupCommerceCarousels === "function") setupCommerceCarousels();
-    if (typeof observeReveals === "function") observeReveals();
-    if (window.TWCatalogoGlobal?.init) await window.TWCatalogoGlobal.init();
-    if (typeof renderCatalogGeneral === "function") await renderCatalogGeneral();
-    if (typeof renderCompendiosCatalog === "function") await renderCompendiosCatalog();
-    if (typeof renderCompendioDetail === "function") await renderCompendioDetail();
-    if (typeof renderGuiasCatalog === "function") await renderGuiasCatalog();
-    if (typeof renderGuiaDetail === "function") await renderGuiaDetail();
-    if (typeof renderDetail === "function") await renderDetail();
-  } catch (error) {
-    console.warn("La navegación progresiva cargó la página, pero un módulo no pudo rehidratarse.", error);
-  }
-}
-
-async function twNavigateProgressively(url, options = {}) {
-  const target = twAppContentTarget();
-  if (!target) {
-    location.href = url.href;
-    return;
-  }
-
-  let response;
-  try {
-    response = await fetch(url.href, { credentials: "same-origin" });
-  } catch {
-    location.href = url.href;
-    return;
-  }
-  if (!response.ok) {
-    location.href = url.href;
-    return;
-  }
-
-  const html = await response.text();
-  const doc = new DOMParser().parseFromString(html, "text/html");
-  const nextContent = twExtractProgressiveContent(doc, url);
-  if (!nextContent?.trim()) {
-    location.href = url.href;
-    return;
-  }
-
-  if (options.push !== false) history.pushState({ twProgressive: true }, "", url.href);
-  twUpdateHeadFromDocument(doc, url);
-  target.innerHTML = nextContent;
-  await twLoadPageScripts(doc, url);
-  await twRehydrateProgressiveContent();
-
-  if (url.hash) {
-    document.querySelector(url.hash)?.scrollIntoView({ behavior: "smooth", block: "start" });
-  } else {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-}
-
-function setupProgressiveNavigation() {
-  const persistentAudio = document.querySelector("[data-audio-widget]");
-  const target = twAppContentTarget();
-  if (!persistentAudio || !target || window.__twProgressiveNavigationReady) return;
-  window.__twProgressiveNavigationReady = true;
-
-  document.addEventListener("click", (event) => {
-    const link = event.target.closest("a[href]");
-    if (twShouldBypassProgressiveNavigation(link, event)) return;
-    const url = new URL(link.getAttribute("href"), location.href);
-    event.preventDefault();
-    twNavigateProgressively(url).catch(() => {
-      location.href = url.href;
-    });
-  });
-
-  window.addEventListener("popstate", () => {
-    twNavigateProgressively(new URL(location.href), { push: false }).catch(() => {
-      location.reload();
-    });
   });
 }
 
@@ -359,12 +168,10 @@ async function setupPayPalButtons() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  window.TWProgressiveNavigate = twNavigateProgressively;
   renderStandardTopNav();
   setupMobileSideIndex();
   renderFloatingWhatsApp();
   renderInstitutionalFooter();
   setupPayPalButtons();
   twExternalAttrs();
-  window.setTimeout(setupProgressiveNavigation, 0);
 });

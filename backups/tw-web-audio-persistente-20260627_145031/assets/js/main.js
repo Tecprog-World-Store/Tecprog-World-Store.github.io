@@ -2,10 +2,6 @@ const WHATSAPP_NUMBER = "51952354282";
 const CONTACT_EMAIL = "grupotecprog@gmail.com";
 const DEFAULT_PAYPAL_URL = "https://www.paypal.com/paypalme/grupotecprog";
 
-function twRootPath(path) {
-  return `/${String(path || "").replace(/^\/+/, "")}`;
-}
-
 const businessLines = [
   {
     id: "tw-investiga",
@@ -209,7 +205,7 @@ function setupContextNav() {
 
 async function loadBusinessLineData() {
   try {
-    const response = await fetch(twRootPath("data/lineas_negocio.json"));
+    const response = await fetch("data/lineas_negocio.json");
     if (!response.ok) throw new Error("No se pudo cargar data/lineas_negocio.json");
     const items = await response.json();
     return items
@@ -253,10 +249,10 @@ async function setupBannerCarousel() {
   if (lines.length && dotsBox) {
     carousel.querySelectorAll(".banner-slide").forEach((slide) => slide.remove());
     dotsBox.insertAdjacentHTML("beforebegin", lines.map((line, index) => `
-      <article class="banner-slide ${index === 0 ? "is-active" : ""}" style="background-image: linear-gradient(125deg, rgba(10, 32, 67, 0.97), rgba(12, 79, 107, 0.88) 58%, rgba(65, 44, 4, 0.82)), url('${safeText(twRootPath(lineSlideImage(line)))}');">
+      <article class="banner-slide ${index === 0 ? "is-active" : ""}" style="background-image: linear-gradient(125deg, rgba(10, 32, 67, 0.97), rgba(12, 79, 107, 0.88) 58%, rgba(65, 44, 4, 0.82)), url('${safeText(lineSlideImage(line))}');">
         <span>${safeText(line.nombre_corto || line.nombre)}</span>
         <h2>${safeText(line.subtitulo || line.descripcion || line.categoria_principal)}</h2>
-        <a href="${safeText(line.pagina ? twRootPath(line.pagina) : "#lineas")}" aria-label="Ver ${safeText(line.nombre)}">Ver sección</a>
+        <a href="${safeText(line.pagina || "#lineas")}" aria-label="Ver ${safeText(line.nombre)}">Ver sección</a>
       </article>
     `).join(""));
   }
@@ -290,19 +286,19 @@ function renderBusinessLines() {
 
   target.innerHTML = businessLines.map((line) => `
     <article class="business-card reveal">
-      <a class="business-card-link" href="${safeText(twRootPath(line.url))}" aria-label="Ver ${safeText(line.name)}"></a>
+      <a class="business-card-link" href="${safeText(line.url)}" aria-label="Ver ${safeText(line.name)}"></a>
       <div class="business-media">
-        <img src="${safeText(twRootPath(line.image))}" alt="${safeText(line.name)}" loading="lazy">
+        <img src="${safeText(line.image)}" alt="${safeText(line.name)}" loading="lazy">
       </div>
       <div class="business-head">
-        <img src="${safeText(twRootPath(line.icon))}" alt="" width="42" height="42">
+        <img src="${safeText(line.icon)}" alt="" width="42" height="42">
         <h3>${safeText(line.name)}</h3>
       </div>
       <p>${safeText(line.description)}</p>
       <div class="chip-row">${line.chips.map((chip) => `<span>${safeText(chip)}</span>`).join("")}</div>
       <div class="card-actions">
-        <a class="btn btn-small btn-primary" href="${safeText(twRootPath(line.url))}">Ver linea</a>
-        <a class="btn btn-small" href="${safeText(twRootPath(line.url))}#ofertas">Ver catalogo</a>
+        <a class="btn btn-small btn-primary" href="${safeText(line.url)}">Ver linea</a>
+        <a class="btn btn-small" href="${safeText(line.url)}#ofertas">Ver catalogo</a>
         <a class="btn btn-small btn-gold" href="${whatsappUrl(line.name)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </div>
     </article>
@@ -329,9 +325,9 @@ function renderCarousel(containerId, data, options = {}) {
 function carouselCard(entry) {
   return `
     <article class="catalog-card reveal" role="listitem">
-      <a class="catalog-card-link" href="${safeText(twRootPath(entry.detailUrl))}" aria-label="Ver más sobre ${safeText(entry.title)}"></a>
+      <a class="catalog-card-link" href="${safeText(entry.detailUrl)}" aria-label="Ver más sobre ${safeText(entry.title)}"></a>
       <div class="catalog-media">
-        <img src="${safeText(twRootPath(entry.image))}" alt="${safeText(entry.title)}" loading="lazy" onerror="this.closest('.catalog-media').classList.add('has-fallback'); this.remove();">
+        <img src="${safeText(entry.image)}" alt="${safeText(entry.title)}" loading="lazy" onerror="this.closest('.catalog-media').classList.add('has-fallback'); this.remove();">
         <span>${safeText(entry.line)}</span>
       </div>
       <div class="catalog-body">
@@ -344,7 +340,7 @@ function carouselCard(entry) {
         </div>
         <p class="usd-price">${safeText(entry.usd)}</p>
         <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="${safeText(twRootPath(entry.detailUrl))}">Ver más</a>
+          <a class="btn btn-small btn-primary" href="${safeText(entry.detailUrl)}">Ver más</a>
           <a class="btn btn-small btn-gold" href="${whatsappUrl(entry.title)}" target="_blank" rel="noopener noreferrer">Consultar</a>
         </div>
       </div>
@@ -432,7 +428,7 @@ async function setupAudioPlayer() {
   audio.volume = Number(volume?.value || 0.35);
 
   try {
-    const response = await fetch(twRootPath("assets/audio/playlist.json"), { cache: "no-store" });
+    const response = await fetch("assets/audio/playlist.json", { cache: "no-store" });
     playlist = response.ok ? await response.json() : [];
     if (!Array.isArray(playlist)) playlist = [];
     playlist = playlist.filter((track) => track?.src);

@@ -1,11 +1,11 @@
-(function () {
+﻿(function () {
   const WHATSAPP_PHONE = "51952354282";
   const DEFAULT_IMAGE = "assets/img/store/placeholders/producto-generico.svg";
   const NOTICE = "Precios, disponibilidad y alcance sujetos a confirmación.";
   const SCRIPT_SRC = document.currentScript?.getAttribute("src") || "";
-  const BASE_PREFIX = SCRIPT_SRC
-    ? new URL("../../", new URL(SCRIPT_SRC, document.baseURI)).href
-    : "/";
+  const BASE_PREFIX = SCRIPT_SRC.includes("assets/js/catalogo-global.js")
+    ? SCRIPT_SRC.replace("assets/js/catalogo-global.js", "")
+    : "";
 
   const LINE_LABELS = {
     "tw-store": "TW Store",

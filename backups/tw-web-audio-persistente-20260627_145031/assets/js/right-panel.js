@@ -7,8 +7,6 @@ function ensureThreeColumnShell(main) {
   const panel = main.querySelector(":scope > .side-panel-right");
   const pageMain = document.createElement("div");
   pageMain.className = "page-main";
-  pageMain.id = "app-content";
-  pageMain.setAttribute("data-app-content", "");
   shell = document.createElement("div");
   shell.className = "page-shell page-shell-three-columns";
 
@@ -27,10 +25,9 @@ function ensureThreeColumnShell(main) {
   return shell;
 }
 
-function renderRightPanel(force = false) {
+function renderRightPanel() {
   document.querySelectorAll(".with-side-nav").forEach((main) => {
     const shell = ensureThreeColumnShell(main);
-    if (force) shell.querySelector(".side-panel-right")?.remove();
     if (shell.querySelector(".side-panel-right")) return;
     const panel = document.createElement("aside");
     panel.className = "side-panel-right";
@@ -60,7 +57,6 @@ function renderRightPanel(force = false) {
           <a href="${twPath("store/index.html")}">TW Store tecnologia</a>
           <a href="${twPath("catalogo/catalogo-general-tw-educa-pdf.html")}">Catalogo mensual PDF</a>
           <a href="${twPath("catalogo/guias.html")}">Guias tecnicas</a>
-          <a href="${twPath("catalogo/cursos.html")}">Cursos TW Educa</a>
           <a href="${twPath("catalogo/descargas.html")}">Zona de Descargas</a>
           <a href="${twPath("lineas/tw-innova.html#opensource")}">Software open-source</a>
           <a href="${twPath("catalogo/compendios.html")}">Compendios y libros</a>
