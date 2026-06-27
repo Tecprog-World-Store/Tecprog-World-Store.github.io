@@ -8,7 +8,10 @@
     "categoria_principal": "Comercio digital",
     "banner_key": "tw-store",
     "icono": "assets/icons/store.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-store-01.webp",
+    "subtitulo": "Comercio digital",
+    "alt": "Imagen representativa de TW Store para Comercio Digital"
   },
   {
     "nombre": "TW Disfruta para Entretenimiento Digital",
@@ -19,7 +22,10 @@
     "categoria_principal": "Entretenimiento digital",
     "banner_key": "tw-disfruta",
     "icono": "assets/icons/store.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-disfruta-01.webp",
+    "subtitulo": "Entretenimiento digital",
+    "alt": "Imagen representativa de TW Disfruta para Entretenimiento Digital"
   },
   {
     "nombre": "TW Educa para Formacion Profesional",
@@ -30,7 +36,10 @@
     "categoria_principal": "Educacion profesional",
     "banner_key": "tw-educa",
     "icono": "assets/icons/education.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-educa-01.webp",
+    "subtitulo": "Educacion profesional",
+    "alt": "Imagen representativa de TW Educa para Formacion Profesional"
   },
   {
     "nombre": "TW Innova para Software y Hardware",
@@ -41,7 +50,10 @@
     "categoria_principal": "Software y hardware",
     "banner_key": "tw-innova",
     "icono": "assets/icons/innovation.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-innova-01.webp",
+    "subtitulo": "Software y hardware",
+    "alt": "Imagen representativa de TW Innova para Software y Hardware"
   },
   {
     "nombre": "TW Salud para Tecnologia Medica",
@@ -52,7 +64,10 @@
     "categoria_principal": "Tecnologia medica",
     "banner_key": "tw-salud",
     "icono": "assets/icons/health.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-salud-01.webp",
+    "subtitulo": "Tecnologia medica",
+    "alt": "Imagen representativa de TW Salud para Tecnologia Medica"
   },
   {
     "nombre": "TW Interactive para Consultoria de Ingenieria",
@@ -63,7 +78,10 @@
     "categoria_principal": "Consultoria de ingenieria",
     "banner_key": "tw-interactive",
     "icono": "assets/icons/innovation.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-interactive-01.webp",
+    "subtitulo": "Consultoria de ingenieria",
+    "alt": "Imagen representativa de TW Interactive para Consultoria de Ingenieria"
   },
   {
     "nombre": "TW Construye para Construccion Civil",
@@ -74,7 +92,10 @@
     "categoria_principal": "Construccion civil",
     "banner_key": "tw-construye",
     "icono": "assets/icons/build.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-construye-01.webp",
+    "subtitulo": "Construccion civil",
+    "alt": "Imagen representativa de TW Construye para Construccion Civil"
   },
   {
     "nombre": "TW Inox para Acero y Metalmecanica",
@@ -85,7 +106,10 @@
     "categoria_principal": "Metalmecanica",
     "banner_key": "tw-inox",
     "icono": "assets/icons/build.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-inox-01.webp",
+    "subtitulo": "Metalmecanica",
+    "alt": "Imagen representativa de TW Inox para Acero y Metalmecanica"
   },
   {
     "nombre": "TW Investiga para Investigacion Aplicada",
@@ -96,6 +120,9 @@
     "categoria_principal": "Investigacion aplicada",
     "banner_key": "tw-investiga",
     "icono": "assets/icons/innovation.svg",
-    "activo": true
+    "activo": true,
+    "imagen": "assets/img/store/carruseles/tw-investiga-01.webp",
+    "subtitulo": "Investigacion aplicada",
+    "alt": "Imagen representativa de TW Investiga para Investigacion Aplicada"
   }
 ]

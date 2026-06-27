@@ -74,6 +74,15 @@ const businessLines = [
     description: "Tecnología bajo pedido por Tecprog World: celulares, laptops, monitores, audio, Apple, realidad virtual y accesorios con cotización por WhatsApp.",
     url: "store/index.html",
     chips: ["E-commerce", "Bajo pedido", "WhatsApp"]
+  },
+  {
+    id: "tw-disfruta",
+    name: "TW Disfruta",
+    icon: "assets/icons/store.svg",
+    image: "assets/img/store/carruseles/tw-disfruta-01.webp",
+    description: "Entretenimiento digital, videojuegos, demos interactivas, assets 3D, widgets y experiencias creativas sujetas a alcance y licencia.",
+    url: "disfruta/index.html",
+    chips: ["Entretenimiento", "Demos", "Experiencias"]
   }
 ];
 
@@ -194,12 +203,61 @@ function setupContextNav() {
   sections.forEach((section) => observer.observe(section));
 }
 
-function setupBannerCarousel() {
+async function loadBusinessLineData() {
+  try {
+    const response = await fetch("data/lineas_negocio.json");
+    if (!response.ok) throw new Error("No se pudo cargar data/lineas_negocio.json");
+    const items = await response.json();
+    return items
+      .filter((line) => line.activo !== false)
+      .sort((a, b) => Number(a.prioridad || 999) - Number(b.prioridad || 999));
+  } catch {
+    return businessLines.map((line, index) => ({
+      nombre: line.name,
+      slug: line.id,
+      pagina: line.url,
+      descripcion: line.description,
+      categoria_principal: line.chips?.[0] || "Tecprog World",
+      imagen: line.image,
+      prioridad: index + 1,
+      alt: line.name
+    }));
+  }
+}
+
+function lineSlideImage(line) {
+  const fallback = {
+    "tw-store": "assets/img/store/carruseles/tw-store-01.webp",
+    "tw-disfruta": "assets/img/store/carruseles/tw-disfruta-01.webp",
+    "tw-educa": "assets/img/store/carruseles/tw-educa-01.webp",
+    "tw-innova": "assets/img/store/carruseles/tw-innova-01.webp",
+    "tw-salud": "assets/img/store/carruseles/tw-salud-01.webp",
+    "tw-interactive": "assets/img/store/carruseles/tw-interactive-01.webp",
+    "tw-construye": "assets/img/store/carruseles/tw-construye-01.webp",
+    "tw-inox": "assets/img/store/carruseles/tw-inox-01.webp",
+    "tw-investiga": "assets/img/store/carruseles/tw-investiga-01.webp"
+  };
+  return line.imagen || fallback[line.slug] || "assets/img/banners/hero-tech.svg";
+}
+
+async function setupBannerCarousel() {
   const carousel = document.querySelector("[data-carousel]");
   if (!carousel) return;
 
-  const slides = [...carousel.querySelectorAll(".banner-slide")];
   const dotsBox = carousel.querySelector("[data-carousel-dots]");
+  const lines = await loadBusinessLineData();
+  if (lines.length && dotsBox) {
+    carousel.querySelectorAll(".banner-slide").forEach((slide) => slide.remove());
+    dotsBox.insertAdjacentHTML("beforebegin", lines.map((line, index) => `
+      <article class="banner-slide ${index === 0 ? "is-active" : ""}" style="background-image: linear-gradient(125deg, rgba(10, 32, 67, 0.97), rgba(12, 79, 107, 0.88) 58%, rgba(65, 44, 4, 0.82)), url('${safeText(lineSlideImage(line))}');">
+        <span>${safeText(line.nombre_corto || line.nombre)}</span>
+        <h2>${safeText(line.subtitulo || line.descripcion || line.categoria_principal)}</h2>
+        <a href="${safeText(line.pagina || "#lineas")}" aria-label="Ver ${safeText(line.nombre)}">Ver sección</a>
+      </article>
+    `).join(""));
+  }
+
+  const slides = [...carousel.querySelectorAll(".banner-slide")];
   if (!slides.length || !dotsBox) return;
 
   let activeIndex = 0;
@@ -304,6 +362,132 @@ function setupCommerceCarousels() {
   });
 }
 
+async function setupAudioPlayer() {
+  const widget = document.querySelector("[data-audio-widget]");
+  const audio = widget?.querySelector("[data-audio-player]");
+  if (!widget || !audio) return;
+  const play = widget.querySelector("[data-audio-play]");
+  const prev = widget.querySelector("[data-audio-prev]");
+  const next = widget.querySelector("[data-audio-next]");
+  const volume = widget.querySelector("[data-audio-volume]");
+  const title = widget.querySelector("[data-audio-title]");
+  let playlist = [];
+  let currentIndex = 0;
+  let userRequestedPlayback = false;
+
+  function setStatus(text) {
+    if (title) title.textContent = text;
+  }
+
+  function updatePlayButton(isPlaying = false) {
+    if (!play) return;
+    play.textContent = isPlaying ? "Pausar" : "Reproducir";
+    play.setAttribute("aria-pressed", String(isPlaying));
+  }
+
+  function loadTrack(index) {
+    if (!playlist.length) {
+      audio.removeAttribute("src");
+      setStatus("Audio no disponible");
+      updatePlayButton(false);
+      return;
+    }
+    currentIndex = (index + playlist.length) % playlist.length;
+    const track = playlist[currentIndex];
+    audio.src = track.src;
+    audio.load();
+    setStatus(track.title || `Pista ${currentIndex + 1}`);
+  }
+
+  async function playCurrent() {
+    if (!playlist.length) {
+      setStatus("Audio no disponible");
+      updatePlayButton(false);
+      return;
+    }
+    userRequestedPlayback = true;
+    try {
+      await audio.play();
+      updatePlayButton(true);
+    } catch (error) {
+      console.warn("No se pudo reproducir la pista de audio.", playlist[currentIndex]?.src, error);
+      if (audio.error) setStatus("Audio no disponible");
+      else setStatus(playlist[currentIndex]?.title || `Pista ${currentIndex + 1}`);
+      updatePlayButton(false);
+    }
+  }
+
+  async function moveTrack(step, shouldPlay = userRequestedPlayback && !audio.paused) {
+    if (!playlist.length) return;
+    audio.pause();
+    loadTrack(currentIndex + step);
+    updatePlayButton(false);
+    if (shouldPlay) await playCurrent();
+  }
+
+  audio.volume = Number(volume?.value || 0.35);
+
+  try {
+    const response = await fetch("assets/audio/playlist.json", { cache: "no-store" });
+    playlist = response.ok ? await response.json() : [];
+    if (!Array.isArray(playlist)) playlist = [];
+    playlist = playlist.filter((track) => track?.src);
+  } catch (error) {
+    console.warn("No se pudo cargar assets/audio/playlist.json.", error);
+    playlist = [];
+  }
+
+  if (playlist.length) loadTrack(0);
+  else setStatus("Audio no disponible");
+
+  play?.addEventListener("click", async () => {
+    if (!playlist.length) {
+      setStatus("Audio no disponible");
+      return;
+    }
+    if (audio.paused) await playCurrent();
+    else {
+      audio.pause();
+      updatePlayButton(false);
+    }
+  });
+
+  next?.addEventListener("click", () => {
+    moveTrack(1);
+  });
+
+  prev?.addEventListener("click", () => {
+    moveTrack(-1);
+  });
+
+  audio.addEventListener("ended", () => {
+    moveTrack(1, userRequestedPlayback);
+  });
+
+  audio.addEventListener("error", () => {
+    if (!playlist.length) return;
+    console.warn("Pista no disponible, se intentará cargar la siguiente.", playlist[currentIndex]?.src);
+    if (playlist.length === 1) {
+      setStatus("Audio no disponible");
+      updatePlayButton(false);
+      return;
+    }
+    moveTrack(1, userRequestedPlayback);
+  });
+
+  volume?.addEventListener("input", () => {
+    audio.volume = Number(volume.value || 0.35);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest("[data-audio-focus]")) return;
+    widget.scrollIntoView({ behavior: "smooth", block: "center" });
+    widget.classList.add("is-highlighted");
+    play?.focus();
+    window.setTimeout(() => widget.classList.remove("is-highlighted"), 1200);
+  });
+}
+
 function observeReveals() {
   const elements = document.querySelectorAll(".reveal:not(.is-visible)");
   if (!("IntersectionObserver" in window)) {
@@ -331,5 +515,6 @@ document.addEventListener("DOMContentLoaded", () => {
   setupBannerCarousel();
   renderBusinessLines();
   setupCommerceCarousels();
+  setupAudioPlayer();
   observeReveals();
 });

@@ -13,12 +13,33 @@
     "paginas": "12",
     "tipo": "Guia tecnica",
     "nivel": "Intermedio",
-    "software_relacionado": ["Python", "Tkinter", "AppImage", "Linux Mint"],
+    "software_relacionado": [
+      "Python",
+      "Tkinter",
+      "AppImage",
+      "Linux Mint"
+    ],
     "sistema_operativo": "Linux Mint",
     "precio": "Gratis",
     "estado": "Publicado",
-    "keywords": ["AppImage", "launcher", "Linux Mint", "Python", "Tkinter", "software open-source"],
-    "whatsapp_message": "Hola, deseo consultar la guia AppImage Launcher Creator de Tecprog World."
+    "keywords": [
+      "AppImage",
+      "launcher",
+      "Linux Mint",
+      "Python",
+      "Tkinter",
+      "software open-source"
+    ],
+    "whatsapp_message": "Hola, deseo consultar la guia AppImage Launcher Creator de Tecprog World.",
+    "slug": "appimage-launcher-creator",
+    "thumbnail": "assets/img/guias/miniaturas/appimage-launcher-creator.svg",
+    "ogImage": "assets/img/og/guias/appimage-launcher-creator-og.svg",
+    "alt": "Miniatura de la guía técnica AppImage Launcher Creator",
+    "shareTitle": "AppImage Launcher Creator | Tecprog World",
+    "shareDescription": "Guia de usuario para crear lanzadores graficos de aplicaciones AppImage en Linux Mint mediante una herramienta desarrollada con Python y Tkinter.",
+    "repoUrl": "",
+    "pdfUrl": "assets/pdf/guias/guia_usuario_appimage_launcher_creator.pdf",
+    "demoUrl": ""
   },
   {
     "id": "appimage-launcher-uninstaller",
@@ -34,12 +55,32 @@
     "paginas": "9",
     "tipo": "Guia tecnica",
     "nivel": "Intermedio",
-    "software_relacionado": ["Python", "Tkinter", "AppImage", "Linux Mint"],
+    "software_relacionado": [
+      "Python",
+      "Tkinter",
+      "AppImage",
+      "Linux Mint"
+    ],
     "sistema_operativo": "Linux Mint",
     "precio": "Gratis",
     "estado": "Publicado",
-    "keywords": ["AppImage", "desinstalacion", "Linux Mint", ".desktop", "iconos"],
-    "whatsapp_message": "Hola, deseo consultar la guia AppImage Launcher Uninstaller de Tecprog World."
+    "keywords": [
+      "AppImage",
+      "desinstalacion",
+      "Linux Mint",
+      ".desktop",
+      "iconos"
+    ],
+    "whatsapp_message": "Hola, deseo consultar la guia AppImage Launcher Uninstaller de Tecprog World.",
+    "slug": "appimage-launcher-uninstaller",
+    "thumbnail": "assets/img/guias/miniaturas/appimage-launcher-uninstaller.svg",
+    "ogImage": "assets/img/og/guias/appimage-launcher-uninstaller-og.svg",
+    "alt": "Miniatura de la guía técnica AppImage Launcher Uninstaller",
+    "shareTitle": "AppImage Launcher Uninstaller | Tecprog World",
+    "shareDescription": "Guia para desinstalar de forma segura lanzadores AppImage, archivos .desktop, ejecutables locales e iconos asociados.",
+    "repoUrl": "",
+    "pdfUrl": "assets/pdf/guias/guia_usuario_appimage_launcher_uninstaller.pdf",
+    "demoUrl": ""
   },
   {
     "id": "immersed-appimage-linux-mint",
@@ -55,12 +96,32 @@
     "paginas": "8",
     "tipo": "Guia tecnica",
     "nivel": "Basico",
-    "software_relacionado": ["Immersed", "AppImage", "Linux Mint", "XFCE"],
+    "software_relacionado": [
+      "Immersed",
+      "AppImage",
+      "Linux Mint",
+      "XFCE"
+    ],
     "sistema_operativo": "Linux Mint 22.1 XFCE",
     "precio": "Gratis",
     "estado": "Publicado",
-    "keywords": ["Immersed", "AppImage", "Linux Mint", "XFCE", "realidad virtual"],
-    "whatsapp_message": "Hola, deseo consultar la guia Immersed AppImage en Linux Mint de Tecprog World."
+    "keywords": [
+      "Immersed",
+      "AppImage",
+      "Linux Mint",
+      "XFCE",
+      "realidad virtual"
+    ],
+    "whatsapp_message": "Hola, deseo consultar la guia Immersed AppImage en Linux Mint de Tecprog World.",
+    "slug": "immersed-appimage-linux-mint",
+    "thumbnail": "assets/img/guias/miniaturas/immersed-appimage-linux-mint.svg",
+    "ogImage": "assets/img/og/guias/immersed-appimage-linux-mint-og.svg",
+    "alt": "Miniatura de la guía técnica Immersed AppImage en Linux Mint",
+    "shareTitle": "Immersed AppImage en Linux Mint | Tecprog World",
+    "shareDescription": "Guia tecnica para integrar Immersed AppImage al menu de Linux Mint 22.1 XFCE.",
+    "repoUrl": "",
+    "pdfUrl": "assets/pdf/guias/guia_immersed_appimage_linux_mint.pdf",
+    "demoUrl": ""
   },
   {
     "id": "openshot-linux-mint-ffmpeg",
@@ -76,11 +137,31 @@
     "paginas": "12",
     "tipo": "Guia tecnica",
     "nivel": "Intermedio",
-    "software_relacionado": ["OpenShot", "FFmpeg", "Linux Mint"],
+    "software_relacionado": [
+      "OpenShot",
+      "FFmpeg",
+      "Linux Mint"
+    ],
     "sistema_operativo": "Linux Mint",
     "precio": "Gratis",
     "estado": "Publicado",
-    "keywords": ["OpenShot", "FFmpeg", "Linux Mint", "pantalla negra", "render", "produccion audiovisual"],
-    "whatsapp_message": "Hola, deseo consultar la guia OpenShot en Linux Mint con FFmpeg de Tecprog World."
+    "keywords": [
+      "OpenShot",
+      "FFmpeg",
+      "Linux Mint",
+      "pantalla negra",
+      "render",
+      "produccion audiovisual"
+    ],
+    "whatsapp_message": "Hola, deseo consultar la guia OpenShot en Linux Mint con FFmpeg de Tecprog World.",
+    "slug": "openshot-linux-mint-ffmpeg",
+    "thumbnail": "assets/img/guias/miniaturas/openshot-linux-mint-ffmpeg.svg",
+    "ogImage": "assets/img/og/guias/openshot-linux-mint-ffmpeg-og.svg",
+    "alt": "Miniatura de la guía técnica OpenShot en Linux Mint con FFmpeg",
+    "shareTitle": "OpenShot en Linux Mint con FFmpeg | Tecprog World",
+    "shareDescription": "Guia para diagnosticar pantalla negra en OpenShot, ajustar perfiles de exportacion y usar FFmpeg como alternativa de render.",
+    "repoUrl": "",
+    "pdfUrl": "assets/pdf/guias/guia_openshot_linux_mint_pantalla_negra_ffmpeg.pdf",
+    "demoUrl": ""
   }
 ]

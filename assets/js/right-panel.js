@@ -40,6 +40,7 @@ function renderRightPanel() {
           <a href="mailto:${TW_OFFICIAL.email}">Enviar correo</a>
           <button type="button" data-copy-current>Copiar enlace</button>
           <button type="button" data-share-current>Compartir pagina</button>
+          <button type="button" data-audio-focus>Música ambiental</button>
           <a href="${twWhatsappHref("Hola, deseo cotizar un proyecto con Tecprog World E.I.R.L.")}">Cotizar proyecto</a>
           <a href="${twPath("catalogo/tw-interactive.html")}">Servicios de ingenieria</a>
         </div>

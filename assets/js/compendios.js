@@ -27,7 +27,7 @@ function renderCompendioCard(item) {
   return `
     <article class="catalog-card compendio-card" data-linea="${twEscape(item.linea)}" data-categoria="${twEscape(item.categoria)}" data-nivel="${twEscape(item.nivel)}">
       <div class="catalog-media">
-        <img src="${fromSubdir(item.imagen_portada)}" alt="${twEscape(item.titulo)}" loading="lazy">
+        <img src="${fromSubdir((item.thumbnail || item.imagen_portada))}" alt="${twEscape(item.titulo)}" loading="lazy">
         <span>${twEscape(item.nivel)}</span>
       </div>
       <div class="catalog-body">
@@ -35,12 +35,12 @@ function renderCompendioCard(item) {
         <h3>${twEscape(item.titulo)}</h3>
         <p>${twEscape(item.descripcion)}</p>
         <div class="catalog-meta">
-          <span>${twEscape(item.páginas_estimadas)} páginas · ${twEscape(item.version)}</span>
+          <span>${twEscape(item.paginas_estimadas)} páginas · ${twEscape(item.version)}</span>
           <strong>${twEscape(item.precio_material_soles)}</strong>
         </div>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="../detalle/compendio.html?id=${encodeURIComponent(item.id)}">Ver PDF</a>
-          <a class="btn btn-small" href="${fromSubdir(item.archivo_pdf)}" download>Descargar PDF</a>
+          <a class="btn btn-small" href="${fromSubdir((item.pdfUrl || item.archivo_pdf))}" download>Descargar PDF</a>
           <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Inscribirme</a>
         </div>
       </div>
@@ -94,12 +94,12 @@ async function renderCompendioDetail() {
           <p>${twEscape(item.descripcion)}</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#visor-pdf">Ver PDF embebido</a>
-            <a class="btn btn-secondary" href="${fromSubdir(item.archivo_pdf)}" download>Descargar</a>
+            <a class="btn btn-secondary" href="${fromSubdir((item.pdfUrl || item.archivo_pdf))}" download>Descargar</a>
             <a class="btn btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </div>
         </div>
         <figure class="detail-media">
-          <img src="${fromSubdir(item.imagen_portada)}" alt="${twEscape(item.titulo)}">
+          <img src="${fromSubdir((item.thumbnail || item.imagen_portada))}" alt="${twEscape(item.titulo)}">
           <figcaption>${twEscape(item.version)}</figcaption>
         </figure>
       </div>
@@ -122,8 +122,8 @@ async function renderCompendioDetail() {
           </article>
           <article id="visor-pdf" class="detail-block pdf-viewer-block">
             <h2>Visor PDF</h2>
-            <iframe class="pdf-viewer" src="${fromSubdir(item.archivo_pdf)}" title="${twEscape(item.titulo)}"></iframe>
-            <p class="microcopy">Si el visor no carga, <a href="${fromSubdir(item.archivo_pdf)}" download>descarga el PDF aquí</a>.</p>
+            <iframe class="pdf-viewer" src="${fromSubdir((item.pdfUrl || item.archivo_pdf))}" title="${twEscape(item.titulo)}"></iframe>
+            <p class="microcopy">Si el visor no carga, <a href="${fromSubdir((item.pdfUrl || item.archivo_pdf))}" download>descarga el PDF aquí</a>.</p>
           </article>
         </div>
         <aside class="detail-sidebar">
@@ -131,7 +131,7 @@ async function renderCompendioDetail() {
             <h2>Datos del compendio</h2>
             <dl>
               <div><dt>Curso asociado</dt><dd>${twEscape(item.curso_relacionado)}</dd></div>
-              <div><dt>Páginas</dt><dd>${twEscape(item.páginas_estimadas)}</dd></div>
+              <div><dt>Páginas</dt><dd>${twEscape(item.paginas_estimadas)}</dd></div>
               <div><dt>Version</dt><dd>${twEscape(item.version)}</dd></div>
               <div><dt>Fecha</dt><dd>${twEscape(item.fecha_publicacion)}</dd></div>
               <div><dt>Material</dt><dd>${item.incluido_en_curso ? "Incluido en el curso según promoción o alcance" : twEscape(item.precio_material_soles)}</dd></div>

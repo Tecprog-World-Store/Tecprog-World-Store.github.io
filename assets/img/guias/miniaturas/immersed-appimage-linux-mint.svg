@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Immersed AppImage en Linux Mint</title>
+  <desc id="desc">Miniatura temporal de Tecprog World con composición tecnológica de ingeniería.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061326"/>
+      <stop offset="0.55" stop-color="#0b3d4a"/>
+      <stop offset="1" stop-color="#082033"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#17d7ff" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M0 648 C 400 504.00000000000006, 832 792, 1600 558 L 1600 900 L 0 900 Z" fill="#17d7ff" opacity="0.12"/>
+  <g fill="none" stroke="#17d7ff" stroke-opacity="0.24" stroke-width="2">
+    <path d="M128 198 H544 V414 H927.9999999999999"/>
+    <path d="M1088 135 h320 v216"/>
+    <path d="M192 738 h384 v-162 h192"/>
+  </g>
+  <g transform="translate(800 432)">
+    <rect x="-463.99999999999994" y="-207" width="927.9999999999999" height="414" rx="18" fill="url(#panel)" stroke="#17d7ff" stroke-opacity="0.42"/>
+    <circle cx="-272" cy="-18" r="103.5" fill="#ffffff" opacity="0.95"/>
+    <path d="M-352 36 L-224.00000000000003 -81 L-96 36 Z" fill="#d5a12f"/>
+    <rect x="32" y="-99" width="288" height="31.500000000000004" rx="6" fill="#17d7ff"/>
+    <rect x="32" y="-40.5" width="352" height="23.4" rx="5" fill="#ffffff" opacity="0.88"/>
+    <rect x="32" y="13.5" width="240" height="23.4" rx="5" fill="#d5a12f"/>
+  </g>
+  <text x="128" y="144" fill="#d5a12f" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">Linux / realidad virtual / AppImage</text>
+  <text x="128" y="756" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900">Immersed AppImage en Linux Mint</text>
+</svg>

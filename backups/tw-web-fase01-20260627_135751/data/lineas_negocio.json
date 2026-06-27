@@ -1,0 +1,101 @@
+[
+  {
+    "nombre": "TW Store para Comercio Digital",
+    "slug": "tw-store",
+    "prioridad": 1,
+    "pagina": "store/index.html",
+    "descripcion": "Catalogo tecnologico bajo pedido para cotizar celulares, laptops, monitores, audio, realidad virtual, accesorios y soluciones comerciales con confirmacion manual por WhatsApp.",
+    "categoria_principal": "Comercio digital",
+    "banner_key": "tw-store",
+    "icono": "assets/icons/store.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Disfruta para Entretenimiento Digital",
+    "slug": "tw-disfruta",
+    "prioridad": 3,
+    "pagina": "disfruta/index.html",
+    "descripcion": "Linea orientada a videojuegos originales, demos interactivas, assets 3D, widgets, coleccionables y merchandising gamer sujetos a alcance, licencia y disponibilidad.",
+    "categoria_principal": "Entretenimiento digital",
+    "banner_key": "tw-disfruta",
+    "icono": "assets/icons/store.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Educa para Formacion Profesional",
+    "slug": "tw-educa",
+    "prioridad": 4,
+    "pagina": "educa/index.html",
+    "descripcion": "Cursos, materiales y capacitaciones tecnicas para ingenieria, programacion, GIS, CAD, simulacion, datos y herramientas profesionales.",
+    "categoria_principal": "Educacion profesional",
+    "banner_key": "tw-educa",
+    "icono": "assets/icons/education.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Innova para Software y Hardware",
+    "slug": "tw-innova",
+    "prioridad": 5,
+    "pagina": "innova/index.html",
+    "descripcion": "Desarrollo de software, portales web, aplicaciones, hardware aplicado, automatizacion, domotica, mantenimiento preventivo y soporte tecnologico por alcance.",
+    "categoria_principal": "Software y hardware",
+    "banner_key": "tw-innova",
+    "icono": "assets/icons/innovation.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Salud para Tecnologia Medica",
+    "slug": "tw-salud",
+    "prioridad": 6,
+    "pagina": "salud/index.html",
+    "descripcion": "Servicios de tecnologia medica, accesibilidad, diseno de protesis y ortesis, software inclusivo, hardware de apoyo y mantenimiento preventivo sujeto a evaluacion.",
+    "categoria_principal": "Tecnologia medica",
+    "banner_key": "tw-salud",
+    "icono": "assets/icons/health.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Interactive para Consultoria de Ingenieria",
+    "slug": "tw-interactive",
+    "prioridad": 7,
+    "pagina": "interactive/index.html",
+    "descripcion": "Consultoria tecnica en mecanica de fluidos, hidrologia, hidraulica, CFD, oceanografia, mineria, analisis computacional y automatizacion de calculo.",
+    "categoria_principal": "Consultoria de ingenieria",
+    "banner_key": "tw-interactive",
+    "icono": "assets/icons/innovation.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Construye para Construccion Civil",
+    "slug": "tw-construye",
+    "prioridad": 8,
+    "pagina": "construye/index.html",
+    "descripcion": "Servicios de construccion civil, remodelaciones, diseno tecnico de ambientes, supervision de obra menor, instalaciones y mantenimiento en obra por alcance.",
+    "categoria_principal": "Construccion civil",
+    "banner_key": "tw-construye",
+    "icono": "assets/icons/build.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Inox para Acero y Metalmecanica",
+    "slug": "tw-inox",
+    "prioridad": 9,
+    "pagina": "inox/index.html",
+    "descripcion": "Proyectos en acero inoxidable, estructuras metalicas, muebles tecnicos, soldadura y fabricacion metalmecanica a medida.",
+    "categoria_principal": "Metalmecanica",
+    "banner_key": "tw-inox",
+    "icono": "assets/icons/build.svg",
+    "activo": true
+  },
+  {
+    "nombre": "TW Investiga para Investigacion Aplicada",
+    "slug": "tw-investiga",
+    "prioridad": 10,
+    "pagina": "investiga/index.html",
+    "descripcion": "Asesoria en investigacion cientifica, revision metodologica, procesamiento de datos, software cientifico, modelamiento numerico y visualizacion tecnica.",
+    "categoria_principal": "Investigacion aplicada",
+    "banner_key": "tw-investiga",
+    "icono": "assets/icons/innovation.svg",
+    "activo": true
+  }
+]

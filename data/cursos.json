@@ -31,7 +31,13 @@
     "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "slug": "qgis-aplicado-a-cuencas-hidrograficas",
+    "thumbnail": "assets/img/cursos/miniaturas/qgis-aplicado-a-cuencas-hidrograficas.svg",
+    "ogImage": "assets/img/og/cursos/qgis-aplicado-a-cuencas-hidrograficas-og.svg",
+    "alt": "Miniatura del curso QGIS aplicado a cuencas hidrográficas de Tecprog World",
+    "shareTitle": "QGIS aplicado a cuencas hidrográficas | TW Educa",
+    "shareDescription": "Curso práctico para analizar cuencas, preparar mapas, procesar datos geoespaciales y generar entregables técnicos."
   },
   {
     "nombre": "Python para científicos de datos",
@@ -64,7 +70,13 @@
     "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "slug": "python-para-cientificos-de-datos",
+    "thumbnail": "assets/img/cursos/miniaturas/python-para-cientificos-de-datos.svg",
+    "ogImage": "assets/img/og/cursos/python-para-cientificos-de-datos-og.svg",
+    "alt": "Miniatura del curso Python para científicos de datos de Tecprog World",
+    "shareTitle": "Python para científicos de datos | TW Educa",
+    "shareDescription": "Fundamentos de Python, análisis de datos, visualización, automatización y preparación para machine learning."
   },
   {
     "nombre": "Desarrollo web con HTML, CSS, PHP y MySQL",
@@ -97,7 +109,13 @@
     "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "slug": "desarrollo-web-con-html-css-php-y-mysql",
+    "thumbnail": "assets/img/cursos/miniaturas/desarrollo-web-con-html-css-php-y-mysql.svg",
+    "ogImage": "assets/img/og/cursos/desarrollo-web-con-html-css-php-y-mysql-og.svg",
+    "alt": "Miniatura del curso Desarrollo web con HTML, CSS, PHP y MySQL de Tecprog World",
+    "shareTitle": "Desarrollo web con HTML, CSS, PHP y MySQL | TW Educa",
+    "shareDescription": "Ruta inicial para crear sitios y aplicaciones web con fundamentos frontend, backend básico y bases de datos."
   },
   {
     "nombre": "Programación de plugins para QGIS",
@@ -130,7 +148,13 @@
     "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "slug": "programacion-de-plugins-para-qgis",
+    "thumbnail": "assets/img/cursos/miniaturas/programacion-de-plugins-para-qgis.svg",
+    "ogImage": "assets/img/og/cursos/programacion-de-plugins-para-qgis-og.svg",
+    "alt": "Miniatura del curso Programación de plugins para QGIS de Tecprog World",
+    "shareTitle": "Programación de plugins para QGIS | TW Educa",
+    "shareDescription": "Curso especializado para crear herramientas, formularios y automatizaciones dentro de QGIS con Python."
   },
   {
     "nombre": "OpenFOAM básico para simulación CFD",
@@ -165,7 +189,13 @@
     "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
     "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "programa_especializacion_desde_soles": 199
+    "programa_especializacion_desde_soles": 199,
+    "slug": "openfoam-basico-para-simulacion-cfd",
+    "thumbnail": "assets/img/cursos/miniaturas/openfoam-basico-para-simulacion-cfd.svg",
+    "ogImage": "assets/img/og/cursos/openfoam-basico-para-simulacion-cfd-og.svg",
+    "alt": "Miniatura del curso OpenFOAM básico para simulación CFD de Tecprog World",
+    "shareTitle": "OpenFOAM básico para simulación CFD | TW Educa",
+    "shareDescription": "Introducción guiada al flujo de trabajo de OpenFOAM para simulaciones preliminares y casos educativos."
   },
   {
     "nombre": "Ofimática para emprendedores",
@@ -198,6 +228,12 @@
     "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
     "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "slug": "ofimatica-para-emprendedores",
+    "thumbnail": "assets/img/cursos/miniaturas/ofimatica-para-emprendedores.svg",
+    "ogImage": "assets/img/og/cursos/ofimatica-para-emprendedores-og.svg",
+    "alt": "Miniatura del curso Ofimática para emprendedores de Tecprog World",
+    "shareTitle": "Ofimática para emprendedores | TW Educa",
+    "shareDescription": "Curso corto para organizar ventas, reportes, documentos, presupuestos y atención al cliente con herramientas accesibles."
   }
 ]

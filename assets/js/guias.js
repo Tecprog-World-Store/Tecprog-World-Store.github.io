@@ -36,7 +36,7 @@ function renderGuideCard(item) {
       data-nivel="${guiaEscape(item.nivel)}"
       data-estado="${guiaEscape(item.estado)}">
       <div class="catalog-media">
-        <img src="${guiaFromSubdir(item.imagen_portada)}" alt="${guiaEscape(item.titulo)}" loading="lazy">
+        <img src="${guiaFromSubdir((item.thumbnail || item.imagen_portada))}" alt="${guiaEscape(item.titulo)}" loading="lazy">
         <span>${guiaEscape(item.paginas)} paginas</span>
       </div>
       <div class="catalog-body">
@@ -49,7 +49,7 @@ function renderGuideCard(item) {
         </div>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="../detalle/guia.html?id=${encodeURIComponent(item.id)}">Ver guia</a>
-          <a class="btn btn-small" href="${guiaFromSubdir(item.archivo_pdf)}" download>Descargar PDF</a>
+          <a class="btn btn-small" href="${guiaFromSubdir((item.pdfUrl || item.archivo_pdf))}" download>Descargar PDF</a>
           <a class="btn btn-small btn-gold" href="${guiaWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Consultar WhatsApp</a>
         </div>
       </div>
@@ -123,12 +123,12 @@ async function renderGuiaDetail() {
           <p>${guiaEscape(item.descripcion_larga)}</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#visor-pdf">Ver PDF embebido</a>
-            <a class="btn btn-secondary" href="${guiaFromSubdir(item.archivo_pdf)}" download>Descargar PDF</a>
+            <a class="btn btn-secondary" href="${guiaFromSubdir((item.pdfUrl || item.archivo_pdf))}" download>Descargar PDF</a>
             <a class="btn btn-gold" href="${guiaWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
           </div>
         </div>
         <figure class="detail-media">
-          <img src="${guiaFromSubdir(item.imagen_portada)}" alt="${guiaEscape(item.titulo)}">
+          <img src="${guiaFromSubdir((item.thumbnail || item.imagen_portada))}" alt="${guiaEscape(item.titulo)}">
           <figcaption>${guiaEscape(item.tipo)}</figcaption>
         </figure>
       </div>
@@ -146,8 +146,8 @@ async function renderGuiaDetail() {
           </article>
           <article id="visor-pdf" class="detail-block pdf-viewer-block">
             <h2>Visor PDF</h2>
-            <iframe class="pdf-viewer" src="${guiaFromSubdir(item.archivo_pdf)}" title="${guiaEscape(item.titulo)}"></iframe>
-            <p class="microcopy">Si el visor no carga, <a href="${guiaFromSubdir(item.archivo_pdf)}" download>descargue el PDF aqui</a>.</p>
+            <iframe class="pdf-viewer" src="${guiaFromSubdir((item.pdfUrl || item.archivo_pdf))}" title="${guiaEscape(item.titulo)}"></iframe>
+            <p class="microcopy">Si el visor no carga, <a href="${guiaFromSubdir((item.pdfUrl || item.archivo_pdf))}" download>descargue el PDF aqui</a>.</p>
           </article>
         </div>
         <aside class="detail-sidebar">
@@ -167,7 +167,7 @@ async function renderGuiaDetail() {
             </dl>
             <div class="catalog-actions">
               <a class="btn btn-small btn-primary" href="../catalogo/guias.html">Volver al catalogo de guias</a>
-              <a class="btn btn-small" href="${guiaFromSubdir(item.archivo_pdf)}" download>Descargar PDF</a>
+              <a class="btn btn-small" href="${guiaFromSubdir((item.pdfUrl || item.archivo_pdf))}" download>Descargar PDF</a>
               <a class="btn btn-small btn-gold" href="${guiaWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </article>
