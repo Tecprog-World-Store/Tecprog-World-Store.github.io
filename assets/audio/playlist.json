@@ -3,4 +3,12 @@
     "title": "Pista 01",
     "src": "assets/audio/Pista01.mp3"
   }
+  {
+    "title": "Pista 02",
+    "src": "assets/audio/Pista02.mp3"
+  }
+  {
+    "title": "Pista 03",
+    "src": "assets/audio/Pista03.mp3"
+  }
 ]
