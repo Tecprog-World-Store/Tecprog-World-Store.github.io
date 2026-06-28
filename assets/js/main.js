@@ -519,6 +519,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setupBannerCarousel();
   renderBusinessLines();
   setupCommerceCarousels();
-  setupAudioPlayer();
   observeReveals();
 });

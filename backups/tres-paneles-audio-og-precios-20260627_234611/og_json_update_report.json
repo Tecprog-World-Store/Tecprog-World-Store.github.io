@@ -1,0 +1,25 @@
+{
+  "jsonUpdated": [
+    "data/cursos.json",
+    "data/compendios.json",
+    "data/guias.json"
+  ],
+  "htmlUpdated": [
+    "catalogo/cursos/desarrollo-web-con-html-css-php-y-mysql.html",
+    "catalogo/cursos/ofimatica-para-emprendedores.html",
+    "catalogo/cursos/openfoam-basico-para-simulacion-cfd.html",
+    "catalogo/cursos/programacion-de-plugins-para-qgis.html",
+    "catalogo/cursos/python-para-cientificos-de-datos.html",
+    "catalogo/cursos/qgis-aplicado-a-cuencas-hidrograficas.html",
+    "catalogo/compendios/hp-50g-programacion-ingenieria.html",
+    "catalogo/compendios/qgis-basico-ingenieria-gestion-territorial.html",
+    "catalogo/guias/appimage-launcher-creator.html",
+    "catalogo/guias/appimage-launcher-uninstaller.html",
+    "catalogo/guias/immersed-appimage-linux-mint.html",
+    "catalogo/guias/openshot-linux-mint-ffmpeg.html"
+  ],
+  "pending": [
+    "cursos:programacion-de-plugins-para-qgis: sin OG PNG final; conserva placeholder",
+    "guias:immersed-appimage-linux-mint: sin OG PNG final; conserva placeholder"
+  ]
+}

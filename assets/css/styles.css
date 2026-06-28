@@ -2031,7 +2031,7 @@ ul { margin: 0; padding-left: 1.1rem; }
   width: min(var(--layout-max-width), calc(100% - 1.5rem));
   margin: 0 auto;
   display: grid;
-  grid-template-columns: var(--tw-left-panel-width) minmax(0, 1fr) var(--tw-right-panel-width);
+  grid-template-columns: clamp(160px, 13vw, 190px) minmax(0, 1fr) clamp(120px, 9vw, 150px);
   gap: var(--tw-layout-gap);
   align-items: start;
 }
@@ -2052,6 +2052,10 @@ ul { margin: 0; padding-left: 1.1rem; }
   border: 1px solid var(--dark-line);
   border-radius: var(--radius);
   box-shadow: 0 18px 46px rgba(2, 10, 31, 0.1);
+}
+
+.commerce-left-panel {
+  align-content: start;
 }
 
 .commerce-filters h2,
@@ -2118,12 +2122,12 @@ ul { margin: 0; padding-left: 1.1rem; }
 
 .commerce-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 16px;
 }
 
 .commerce-grid.is-compact {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   margin-bottom: 12px;
 }
 
@@ -2469,16 +2473,18 @@ ul { margin: 0; padding-left: 1.1rem; }
   z-index: 68;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  max-width: min(420px, calc(100vw - 36px));
-  padding: 10px;
+  gap: 5px;
+  width: max-content;
+  max-width: min(300px, calc(100vw - 112px));
+  min-height: 38px;
+  padding: 6px 8px;
   color: var(--white);
   background: rgba(6, 19, 38, 0.92);
   border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: var(--radius);
-  box-shadow: 0 14px 34px rgba(2, 10, 31, 0.22);
+  border-radius: 999px;
+  box-shadow: 0 10px 28px rgba(2, 10, 31, 0.2);
   backdrop-filter: blur(14px);
+  font-size: 0.72rem;
 }
 
 .audio-widget.is-highlighted {
@@ -2487,39 +2493,42 @@ ul { margin: 0; padding-left: 1.1rem; }
 }
 
 .audio-widget button {
-  min-height: 34px;
-  padding: 0 10px;
-  color: var(--navy);
-  background: var(--cyan);
-  border: 0;
-  border-radius: var(--radius);
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0 8px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
   font: inherit;
-  font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 850;
   cursor: pointer;
 }
 
 .audio-track-title {
-  max-width: 140px;
+  max-width: 82px;
   overflow: hidden;
   color: rgba(255, 255, 255, 0.82);
-  font-size: 0.78rem;
-  font-weight: 850;
+  font-weight: 800;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .audio-widget input {
-  width: 88px;
+  width: 48px;
   accent-color: var(--cyan);
+}
+
+.audio-volume {
+  display: inline-flex;
 }
 
 @media (max-width: 640px) {
   .audio-widget {
     left: 14px;
-    right: 14px;
+    right: auto;
     bottom: 76px;
-    justify-content: center;
+    max-width: min(280px, calc(100vw - 96px));
   }
 
   .audio-track-title {

@@ -1,0 +1,20 @@
+{
+  "changed": [
+    "catalogo/cursos/admision-unac.html",
+    "catalogo/cursos/delft3d-wave-flow.html",
+    "catalogo/cursos/desarrollo-web-con-html-css-php-y-mysql.html",
+    "catalogo/cursos/matlab-programacion.html",
+    "catalogo/cursos/ofimatica-para-emprendedores.html",
+    "catalogo/cursos/openfoam-basico-para-simulacion-cfd.html",
+    "catalogo/cursos/programacion-de-plugins-para-qgis.html",
+    "catalogo/cursos/python-para-cientificos-de-datos.html",
+    "catalogo/cursos/qgis-aplicado-a-cuencas-hidrograficas.html",
+    "catalogo/guias/immersed-appimage-linux-mint.html"
+  ],
+  "fallbackOg": {
+    "catalogo/cursos/delft3d-wave-flow.html": "assets/img/cursos/miniaturas/delft3d-wave-flow.png",
+    "catalogo/cursos/matlab-programacion.html": "assets/img/cursos/miniaturas/matlab-programacion.png",
+    "catalogo/cursos/programacion-de-plugins-para-qgis.html": "assets/img/cursos/miniaturas/programacion-de-plugins-para-qgis.png",
+    "catalogo/guias/immersed-appimage-linux-mint.html": "assets/img/guias/miniaturas/immersed-appimage-linux-mint.png"
+  }
+}

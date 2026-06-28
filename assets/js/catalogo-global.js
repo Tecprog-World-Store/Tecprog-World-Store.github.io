@@ -2,6 +2,7 @@
   const WHATSAPP_PHONE = "51952354282";
   const DEFAULT_IMAGE = "assets/img/store/placeholders/producto-generico.svg";
   const NOTICE = "Precios, disponibilidad y alcance sujetos a confirmación.";
+  const DEFAULT_CURRENCY = "USD";
   const SCRIPT_SRC = document.currentScript?.getAttribute("src") || "";
   const BASE_PREFIX = SCRIPT_SRC
     ? new URL("../../", new URL(SCRIPT_SRC, document.baseURI)).href
@@ -65,8 +66,20 @@
     return `${prefix} ${value.toLocaleString("es-PE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   }
 
+  function itemCurrency(item) {
+    return item.moneda_principal || item.moneda || DEFAULT_CURRENCY;
+  }
+
+  function itemPrimaryPrice(item) {
+    if (typeof item.precio_soles === "number") return { value: item.precio_soles, currency: item.moneda_principal || "PEN" };
+    if (typeof item.precio_dolares === "number") return { value: item.precio_dolares, currency: "USD" };
+    if (typeof item.precio_publico === "number") return { value: item.precio_publico, currency: itemCurrency(item) };
+    return { value: null, currency: itemCurrency(item) };
+  }
+
   function itemPriceValue(item) {
-    return typeof item.precio_soles === "number" ? item.precio_soles : Number.POSITIVE_INFINITY;
+    const price = itemPrimaryPrice(item);
+    return typeof price.value === "number" ? price.value : Number.POSITIVE_INFINITY;
   }
 
   function whatsappHref(item) {
@@ -133,8 +146,9 @@
     const line = LINE_LABELS[item.linea_negocio] || readable(item.linea_negocio);
     const image = localPath(item.imagen || DEFAULT_IMAGE);
     const fallback = localPath(DEFAULT_IMAGE);
-    const priceSoles = money(item.precio_soles, "PEN");
-    const priceDollars = typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
+    const primaryPrice = itemPrimaryPrice(item);
+    const priceText = money(primaryPrice.value, primaryPrice.currency);
+    const priceDollars = primaryPrice.currency !== "USD" && typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
     const detail = item.url_detalle
       ? `<a class="btn btn-small btn-secondary" href="${localPath(item.url_detalle)}">Ver detalle</a>`
       : "";
@@ -153,7 +167,7 @@
           <h3>${escapeHtml(item.nombre)}</h3>
           <p>${escapeHtml(item.descripcion_corta || "")}</p>
           <div class="commerce-price">
-            <strong>${escapeHtml(priceSoles)}</strong>
+            <strong>${escapeHtml(priceText)}</strong>
             ${priceDollars}
           </div>
           <p class="commerce-status">${escapeHtml(readable(item.estado || "cotizar"))}</p>
@@ -173,7 +187,7 @@
       if (filters.line && item.linea_negocio !== filters.line) return false;
       if (filters.fixedLine && item.linea_negocio !== filters.fixedLine) return false;
       if (filters.category && item.categoria !== filters.category) return false;
-      if (filters.currency && item.moneda_principal !== filters.currency) return false;
+      if (filters.currency && itemCurrency(item) !== filters.currency) return false;
       if (filters.status && item.estado !== filters.status) return false;
       if (filters.minPrice && (typeof item.precio_soles !== "number" || item.precio_soles < Number(filters.minPrice))) return false;
       if (filters.maxPrice && (typeof item.precio_soles !== "number" || item.precio_soles > Number(filters.maxPrice))) return false;
@@ -244,7 +258,7 @@
     const scopedItems = fixedLine ? items.filter((item) => item.linea_negocio === fixedLine) : items;
     const categories = unique(scopedItems, "categoria");
     const statuses = unique(scopedItems, "estado");
-    const currencies = unique(scopedItems, "moneda_principal");
+    const currencies = [...new Set(scopedItems.map(itemCurrency))].filter(Boolean).sort();
     const lines = unique(items, "linea_negocio");
     const lineFilter = fixedLine ? "" : `
       <label class="select-filter">
@@ -321,9 +335,25 @@
         </div>`;
     } else if (mode === "store") {
       root.innerHTML = `
-        <aside class="commerce-filters">
-          <h2>Filtros</h2>
+        <aside class="commerce-filters commerce-left-panel">
+          <h2>Panel comercial</h2>
           ${controls(root, items)}
+          <article class="quick-panel-card">
+            <h2>Cotizaci??n</h2>
+            <p>Confirma precio, disponibilidad, garant??a y env??o antes de cerrar una compra.</p>
+            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Hola Tecprog World, deseo cotizar desde TW Store.")}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          </article>
+          <article class="quick-panel-card">
+            <h2>Pagos</h2>
+            <div class="quick-link-grid">
+              <a href="${localPath("pagos/peru.html")}">Pagos Per??</a>
+              <a href="${localPath("pagos/internacionales.html")}">Internacional</a>
+            </div>
+          </article>
+          <article class="quick-panel-card">
+            <h2>Aviso</h2>
+            <p>Precios, disponibilidad, garant??a y env??o sujetos a confirmaci??n.</p>
+          </article>
         </aside>
         <section class="commerce-results">
           <div class="commerce-section-head">
@@ -338,37 +368,36 @@
           <div class="commerce-grid is-compact" data-commerce-offers></div>
           <h3 class="commerce-subtitle">Productos y servicios destacados</h3>
           <div class="commerce-grid is-compact" data-commerce-featured></div>
-          <h3 class="commerce-subtitle">Catálogo completo</h3>
+          <h3 class="commerce-subtitle">Cat??logo completo</h3>
           <div class="commerce-grid" data-commerce-results></div>
         </section>
         <aside class="commerce-aside">
           <article class="quick-panel-card">
-            <h2>Cotización</h2>
-            <p>Confirma precio, disponibilidad, garantía y envío antes de cerrar una compra.</p>
-            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Hola Tecprog World, deseo cotizar desde TW Store.")}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-          </article>
-          <article class="quick-panel-card">
-            <h2>Pagos</h2>
+            <h2>Acciones r??pidas</h2>
             <div class="quick-link-grid">
-              <a href="${localPath("pagos/peru.html")}">Pagos Perú</a>
-              <a href="${localPath("pagos/internacionales.html")}">Pagos Internacionales</a>
+              <a href="${localPath("catalogo/cursos.html")}">Cursos</a>
+              <a href="${localPath("catalogo/compendios.html")}">Compendios</a>
+              <a href="${localPath("catalogo/guias.html")}">Gu??as</a>
             </div>
           </article>
-          <article class="quick-panel-card">
-            <h2>Aviso</h2>
-            <p>Precios, disponibilidad, garantía y envío sujetos a confirmación.</p>
-          </article>
+          <article class="quick-panel-card"><h2>Recursos</h2><p>Explora l??neas, detalle de productos y materiales publicados.</p></article>
         </aside>`;
     } else {
       root.innerHTML = `
-        <aside class="commerce-filters">
-          <h2>Filtros</h2>
+        <aside class="commerce-filters commerce-left-panel">
+          <h2>Panel comercial</h2>
           ${controls(root, visibleItems)}
+          <article class="quick-panel-card">
+            <h2>Solicitar alcance</h2>
+            <p>Cu??ntanos qu?? necesitas y validamos precio, tiempos y condiciones.</p>
+            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(`Hola Tecprog World, deseo cotizar en ${title}.`)}" target="_blank" rel="noopener noreferrer">Cotizar</a>
+          </article>
+          <article class="quick-panel-card"><h2>Aviso comercial</h2><p>${NOTICE}</p></article>
         </aside>
         <section class="commerce-results">
           <div class="commerce-section-head">
             <div>
-              <p class="eyebrow">Catálogo por línea</p>
+              <p class="eyebrow">Cat??logo por l??nea</p>
               <h2>${escapeHtml(title)}</h2>
               <p>${escapeHtml(subtitle)}</p>
             </div>
@@ -381,11 +410,14 @@
         </section>
         <aside class="commerce-aside">
           <article class="quick-panel-card">
-            <h2>Solicitar alcance</h2>
-            <p>Cuéntanos qué necesitas y validamos precio, tiempos y condiciones.</p>
-            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(`Hola Tecprog World, deseo cotizar en ${title}.`)}" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <h2>Acciones r??pidas</h2>
+            <div class="quick-link-grid">
+              <a href="${localPath("store/index.html")}">TW Store</a>
+              <a href="${localPath("catalogo/cursos.html")}">Cursos</a>
+              <a href="${localPath("catalogo/guias.html")}">Gu??as</a>
+            </div>
           </article>
-          <article class="quick-panel-card"><h2>Aviso comercial</h2><p>${NOTICE}</p></article>
+          <article class="quick-panel-card"><h2>Recursos</h2><p>Enlaces ??tiles para explorar el ecosistema Tecprog World.</p></article>
         </aside>`;
     }
 
