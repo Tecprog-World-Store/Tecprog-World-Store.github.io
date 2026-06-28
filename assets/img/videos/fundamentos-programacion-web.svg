@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Fundamentos de Programacion I</title>
+  <desc id="desc">Miniatura local estilo Tecprog World para spot de programacion web.</desc>
+  <rect width="1280" height="720" fill="#061326"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="#0f172a" stroke="#17d7ff" stroke-opacity=".42" stroke-width="4"/>
+  <rect x="770" y="160" width="330" height="260" rx="18" fill="#0b2448" stroke="#d5a12f" stroke-opacity=".58" stroke-width="4"/>
+  <text x="820" y="244" fill="#17d7ff" font-family="Consolas, monospace" font-size="38">&lt;/&gt;</text>
+  <text x="820" y="314" fill="#ffffff" font-family="Consolas, monospace" font-size="28">HTML CSS JS</text>
+  <text x="820" y="366" fill="#dff9ff" font-family="Consolas, monospace" font-size="28">PHP MySQL</text>
+  <circle cx="640" cy="344" r="92" fill="#ffffff" opacity=".96"/>
+  <path d="M616 294l82 50-82 50z" fill="#061326"/>
+  <text x="96" y="148" fill="#f3c45e" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">TW Educa</text>
+  <text x="96" y="214" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800">Programacion I</text>
+  <text x="96" y="274" fill="#dff9ff" font-family="Inter, Arial, sans-serif" font-size="32">Fundamentos web con XAMPP</text>
+  <text x="96" y="612" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">HTML | CSS | JavaScript | PHP | MySQL</text>
+</svg>

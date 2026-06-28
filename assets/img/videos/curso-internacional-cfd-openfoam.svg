@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Curso internacional de CFD con OpenFOAM</title>
+  <desc id="desc">Miniatura local estilo Tecprog World para spot de curso internacional CFD.</desc>
+  <rect width="1280" height="720" fill="#061326"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="#0b2448" stroke="#17d7ff" stroke-opacity=".5" stroke-width="4"/>
+  <path d="M110 520c210-170 400-88 540-230 132-134 304-154 520-70" fill="none" stroke="#17d7ff" stroke-opacity=".5" stroke-width="14"/>
+  <path d="M132 584c180-92 356-52 500-170 164-134 314-132 520-32" fill="none" stroke="#d5a12f" stroke-opacity=".62" stroke-width="10"/>
+  <circle cx="640" cy="344" r="92" fill="#ffffff" opacity=".96"/>
+  <path d="M616 294l82 50-82 50z" fill="#061326"/>
+  <text x="96" y="148" fill="#f3c45e" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">TW Educa</text>
+  <text x="96" y="214" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">CFD con OpenFOAM</text>
+  <text x="96" y="274" fill="#dff9ff" font-family="Inter, Arial, sans-serif" font-size="32">Curso internacional online</text>
+  <text x="96" y="612" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Biblioteca | Consultas 24/7 | Evaluaciones</text>
+</svg>

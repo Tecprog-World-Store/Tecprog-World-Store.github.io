@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Consultoria en OpenFOAM Online</title>
+  <desc id="desc">Miniatura local estilo Tecprog World para spot de consultoria CFD.</desc>
+  <rect width="1280" height="720" fill="#061326"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="#0b2448" stroke="#17d7ff" stroke-opacity=".45" stroke-width="4"/>
+  <path d="M90 570c190-170 380-120 540-250 160-130 330-145 560-55" fill="none" stroke="#17d7ff" stroke-opacity=".42" stroke-width="18"/>
+  <path d="M130 608c230-120 340-80 520-210 150-108 310-116 500-28" fill="none" stroke="#d5a12f" stroke-opacity=".55" stroke-width="10"/>
+  <circle cx="640" cy="336" r="92" fill="#ffffff" opacity=".95"/>
+  <path d="M615 286l82 50-82 50z" fill="#061326"/>
+  <text x="96" y="148" fill="#f3c45e" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">TW Innova</text>
+  <text x="96" y="214" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">OpenFOAM Online</text>
+  <text x="96" y="274" fill="#dff9ff" font-family="Inter, Arial, sans-serif" font-size="32">Consultoria CFD y soporte tecnico</text>
+  <text x="96" y="612" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Proyectos | Simulacion numerica | Ingenieria</text>
+</svg>

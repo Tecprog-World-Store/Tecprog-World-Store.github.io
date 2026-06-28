@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">TW Innova software hardware y servidor propio</title>
+  <desc id="desc">Miniatura local estilo Tecprog World para spot de software, hardware y servidor.</desc>
+  <rect width="1280" height="720" fill="#061326"/>
+  <rect x="60" y="60" width="1160" height="600" rx="28" fill="#0f172a" stroke="#d5a12f" stroke-opacity=".5" stroke-width="4"/>
+  <rect x="820" y="150" width="250" height="360" rx="20" fill="#0b2448" stroke="#17d7ff" stroke-opacity=".55" stroke-width="4"/>
+  <rect x="858" y="200" width="174" height="34" rx="8" fill="#17d7ff" opacity=".62"/>
+  <rect x="858" y="278" width="174" height="34" rx="8" fill="#d5a12f" opacity=".72"/>
+  <rect x="858" y="356" width="174" height="34" rx="8" fill="#ffffff" opacity=".5"/>
+  <circle cx="640" cy="344" r="90" fill="#ffffff" opacity=".96"/>
+  <path d="M616 294l82 50-82 50z" fill="#061326"/>
+  <text x="96" y="150" fill="#f3c45e" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">TW Innova</text>
+  <text x="96" y="214" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Software + Hardware</text>
+  <text x="96" y="274" fill="#dff9ff" font-family="Inter, Arial, sans-serif" font-size="32">Servidor propio y crecimiento tecnologico</text>
+  <text x="96" y="612" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Soluciones corporativas a medida</text>
+</svg>

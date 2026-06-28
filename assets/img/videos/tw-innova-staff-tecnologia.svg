@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Crea la tecnologia que imaginas</title>
+  <desc id="desc">Miniatura local estilo Tecprog World para spot institucional de tecnologia a medida.</desc>
+  <rect width="1280" height="720" fill="#061326"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="#0b2448" stroke="#ffffff" stroke-opacity=".22" stroke-width="4"/>
+  <g fill="none" stroke="#17d7ff" stroke-opacity=".42" stroke-width="6">
+    <path d="M210 500h220l150-230 150 180 140-110h210"/>
+    <path d="M250 552h180l160-120 150 52 160-142h130"/>
+  </g>
+  <circle cx="360" cy="430" r="42" fill="#d5a12f"/>
+  <circle cx="920" cy="300" r="42" fill="#17d7ff"/>
+  <circle cx="640" cy="346" r="92" fill="#ffffff" opacity=".96"/>
+  <path d="M616 296l82 50-82 50z" fill="#061326"/>
+  <text x="96" y="150" fill="#f3c45e" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">TW Innova</text>
+  <text x="96" y="214" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="800">Tecnologia que imaginas</text>
+  <text x="96" y="274" fill="#dff9ff" font-family="Inter, Arial, sans-serif" font-size="32">Staff profesional y soluciones a medida</text>
+  <text x="96" y="612" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Software | Hardware | Innovacion</text>
+</svg>
