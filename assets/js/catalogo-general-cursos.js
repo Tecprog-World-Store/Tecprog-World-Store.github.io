@@ -13,12 +13,16 @@ function catalogAsset(path) {
   return `../${path}`;
 }
 
+function catalogImage(item) {
+  return item.thumbnail || item.imagen_portada || item.imagen || "assets/img/cursos/capacitacion-empresarial.svg";
+}
+
 function catalogWhatsapp(message) {
   return `https://wa.me/${CATALOG_WHATSAPP}?text=${encodeURIComponent(message)}`;
 }
 
 async function loadCatalogGeneral() {
-  const response = await fetch(CATALOG_GENERAL_SOURCE);
+  const response = await fetch(`${CATALOG_GENERAL_SOURCE}?v=img-final-20260628`, { cache: "no-store" });
   if (!response.ok) throw new Error("No se pudo cargar el catalogo general");
   return response.json();
 }
@@ -86,7 +90,7 @@ function courseCard(item) {
       data-prioridad="${catalogEscape(item.prioridad_web)}"
       data-search="${catalogEscape(`${item.curso} ${item.categoria} ${item.descripcion_corta} ${item.fuente_base} ${modalityTagString(item)}`).toLowerCase()}">
       <div class="catalog-media">
-        <img src="${catalogAsset(item.imagen)}" alt="${catalogEscape(item.curso)}" loading="lazy">
+        <img src="${catalogAsset(catalogImage(item))}" alt="${catalogEscape(item.alt || item.curso)}" loading="lazy">
         <span>${catalogEscape(item.horas_certificables)} h</span>
       </div>
       <div class="catalog-body">

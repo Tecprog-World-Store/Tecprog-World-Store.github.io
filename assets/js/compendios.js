@@ -18,7 +18,7 @@ function fromSubdir(path) {
 }
 
 async function loadCompendios() {
-  const response = await fetch(COMPENDIOS_SOURCE);
+  const response = await fetch(`${COMPENDIOS_SOURCE}?v=img-final-20260628`, { cache: "no-store" });
   if (!response.ok) throw new Error("No se pudo cargar compendios");
   return response.json();
 }

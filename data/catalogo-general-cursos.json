@@ -64,7 +64,7 @@
     ],
     "certificacion": "Constancia o certificado de participacion emitido por Tecprog World E.I.R.L. segun modalidad y cumplimiento acordado.",
     "url_detalle": "detalle/curso.html?id=openfoam-cfd&catalogo=general",
-    "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
+    "imagen": "assets/img/cursos/miniaturas/cfd-introductorio-openfoam.png?v=img-final-20260628",
     "whatsapp_message": "Hola, deseo informacion sobre el curso OpenFOAM CFD del catalogo general TW Educa.",
     "origen_complementario": [
       "catalogo_base_cursos_tw_educa.txt"
@@ -103,7 +103,12 @@
     "tipo_horas_certificables": "Especializacion",
     "horas_certificables_sugeridas": "60 horas o ruta ampliable a especializacion",
     "politica_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "thumbnail": "assets/img/cursos/miniaturas/cfd-introductorio-openfoam.png?v=img-final-20260628",
+    "ogImage": "assets/img/og/cursos/cfd-introductorio-openfoam-og.png?v=img-final-20260628",
+    "alt": "Imagen final del curso OpenFOAM CFD de Tecprog World",
+    "shareTitle": "OpenFOAM CFD | TW Educa",
+    "shareDescription": "Curso aplicado de OpenFOAM CFD orientado a estudiantes, profesionales, ingenieros y equipos técnicos."
   },
   {
     "id": "analisis-de-sistemas-de-informacion",
@@ -7183,7 +7188,7 @@
     ],
     "certificacion": "Constancia o certificado de participacion emitido por Tecprog World E.I.R.L. segun modalidad y cumplimiento acordado.",
     "url_detalle": "detalle/curso.html?id=ofimatica-para-tecnicos-y-emprendedores&catalogo=general",
-    "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
+    "imagen": "assets/img/cursos/miniaturas/ofimatica-para-emprendedores.png?v=img-final-20260628",
     "whatsapp_message": "Hola, deseo informacion sobre el curso Ofimática para técnicos y emprendedores del catalogo general TW Educa.",
     "acceso_mooc_gratuito": true,
     "precio_mooc_soles": 0,
@@ -7218,7 +7223,12 @@
     "tipo_horas_certificables": "Curso corto",
     "horas_certificables_sugeridas": "16 a 24 horas",
     "politica_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "thumbnail": "assets/img/cursos/miniaturas/ofimatica-para-emprendedores.png?v=img-final-20260628",
+    "ogImage": "assets/img/og/cursos/ofimatica-para-emprendedores-og.png?v=img-final-20260628",
+    "alt": "Imagen final del curso Ofimática para técnicos y emprendedores de Tecprog World",
+    "shareTitle": "Ofimática para técnicos y emprendedores | TW Educa",
+    "shareDescription": "Curso aplicado de Ofimática para técnicos y emprendedores orientado a estudiantes, profesionales, ingenieros y equipos técnicos."
   },
   {
     "id": "proyecto-electronico-i",
@@ -8352,7 +8362,7 @@
     ],
     "certificacion": "Constancia o certificado de participacion emitido por Tecprog World E.I.R.L. segun modalidad y cumplimiento acordado.",
     "url_detalle": "detalle/curso.html?id=qgis-aplicado-a-cuencas-hidrograficas&catalogo=general",
-    "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
+    "imagen": "assets/img/cursos/miniaturas/qgis-aplicado-a-cuencas-hidrograficas.png?v=img-final-20260628",
     "whatsapp_message": "Hola, deseo informacion sobre el curso QGIS aplicado a cuencas hidrográficas del catalogo general TW Educa.",
     "origen_complementario": [
       "catalogo_base_cursos_tw_educa.txt"
@@ -8390,7 +8400,12 @@
     "tipo_horas_certificables": "Curso corto",
     "horas_certificables_sugeridas": "16 a 24 horas",
     "politica_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "thumbnail": "assets/img/cursos/miniaturas/qgis-aplicado-a-cuencas-hidrograficas.png?v=img-final-20260628",
+    "ogImage": "assets/img/og/cursos/qgis-aplicado-a-cuencas-hidrograficas-og.png?v=img-final-20260628",
+    "alt": "Imagen final del curso QGIS aplicado a cuencas hidrográficas de Tecprog World",
+    "shareTitle": "QGIS aplicado a cuencas hidrográficas | TW Educa",
+    "shareDescription": "Curso aplicado de QGIS aplicado a cuencas hidrográficas orientado a estudiantes, profesionales, ingenieros y equipos técnicos."
   },
   {
     "id": "aplicaciones-de-negocios-electronicos",
@@ -20532,7 +20547,7 @@
     ],
     "certificacion": "Constancia o certificado de participacion emitido por Tecprog World E.I.R.L. segun modalidad y cumplimiento acordado.",
     "url_detalle": "detalle/curso.html?id=delft3d-wave-and-flow&catalogo=general",
-    "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
+    "imagen": "assets/img/cursos/miniaturas/delft3d-wave-flow.png?v=img-final-20260628",
     "whatsapp_message": "Hola, deseo informacion sobre el curso Delft3D Wave and Flow del catalogo general TW Educa.",
     "acceso_mooc_gratuito": true,
     "precio_mooc_soles": 0,
@@ -20568,7 +20583,12 @@
     "tipo_horas_certificables": "Especializacion",
     "horas_certificables_sugeridas": "60 horas o ruta ampliable a especializacion",
     "politica_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "thumbnail": "assets/img/cursos/miniaturas/delft3d-wave-flow.png?v=img-final-20260628",
+    "ogImage": "assets/img/cursos/miniaturas/delft3d-wave-flow.png?v=img-final-20260628",
+    "alt": "Imagen final del curso Delft3D Wave and Flow de Tecprog World",
+    "shareTitle": "Delft3D Wave and Flow | TW Educa",
+    "shareDescription": "Curso aplicado de Delft3D Wave and Flow orientado a estudiantes, profesionales, ingenieros y equipos técnicos."
   },
   {
     "id": "metodos-numericos-con-fortran",
@@ -20941,7 +20961,7 @@
     ],
     "certificacion": "Constancia o certificado de participacion emitido por Tecprog World E.I.R.L. segun modalidad y cumplimiento acordado.",
     "url_detalle": "detalle/curso.html?id=programacion-de-matlab&catalogo=general",
-    "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
+    "imagen": "assets/img/cursos/miniaturas/matlab-programacion.png?v=img-final-20260628",
     "whatsapp_message": "Hola, deseo informacion sobre el curso Programación de MATLAB del catalogo general TW Educa.",
     "acceso_mooc_gratuito": true,
     "precio_mooc_soles": 0,
@@ -20976,7 +20996,12 @@
     "tipo_horas_certificables": "Curso corto",
     "horas_certificables_sugeridas": "16 a 24 horas",
     "politica_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "thumbnail": "assets/img/cursos/miniaturas/matlab-programacion.png?v=img-final-20260628",
+    "ogImage": "assets/img/cursos/miniaturas/matlab-programacion.png?v=img-final-20260628",
+    "alt": "Imagen final del curso Programación de MATLAB de Tecprog World",
+    "shareTitle": "Programación de MATLAB | TW Educa",
+    "shareDescription": "Curso aplicado de Programación de MATLAB orientado a estudiantes, profesionales, ingenieros y equipos técnicos."
   },
   {
     "id": "latex-para-redaccion-tecnica-y-cientifica",

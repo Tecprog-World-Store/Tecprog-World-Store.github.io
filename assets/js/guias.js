@@ -18,7 +18,7 @@ function guiaWhatsapp(message) {
 }
 
 async function loadGuias() {
-  const response = await fetch(GUIAS_SOURCE);
+  const response = await fetch(`${GUIAS_SOURCE}?v=img-final-20260628`, { cache: "no-store" });
   if (!response.ok) throw new Error("No se pudo cargar data/guias.json");
   return response.json();
 }
