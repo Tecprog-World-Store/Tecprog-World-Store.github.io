@@ -4,7 +4,7 @@ const TW_OFFICIAL = {
   web: "https://tecprog-world-store.github.io",
   ruc: "20608743252",
   address: "Mz. C Lote. 43 Urb. Los Nisperos, San Martin de Porres, Lima, Peru",
-  maps: "https://maps.app.goo.gl/NVBub1HAjNhARpsTA"
+  maps: "https://www.google.com/maps/search/?api=1&query=Mz.%20C%20Lote.%2043%20Urb.%20Los%20Nisperos%20San%20Martin%20de%20Porres%20Lima%20Peru"
 };
 
 window.TW_OFFICIAL = TW_OFFICIAL;
@@ -140,6 +140,7 @@ async function twRehydrateProgressiveContent() {
     if (typeof setupContextNav === "function") setupContextNav();
     if (typeof renderBusinessLines === "function") renderBusinessLines();
     if (typeof setupCommerceCarousels === "function") setupCommerceCarousels();
+    if (typeof observeReveals === "function") observeReveals();
     if (window.TWCatalogoGlobal?.init) await window.TWCatalogoGlobal.init();
     if (typeof renderCatalogGeneral === "function") await renderCatalogGeneral();
     if (typeof renderCompendiosCatalog === "function") await renderCompendiosCatalog();
@@ -147,8 +148,6 @@ async function twRehydrateProgressiveContent() {
     if (typeof renderGuiasCatalog === "function") await renderGuiasCatalog();
     if (typeof renderGuiaDetail === "function") await renderGuiaDetail();
     if (typeof renderDetail === "function") await renderDetail();
-    if (typeof renderCommercialLocationSection === "function") renderCommercialLocationSection();
-    if (typeof observeReveals === "function") observeReveals();
   } catch (error) {
     console.warn("La navegación progresiva cargó la página, pero un módulo no pudo rehidratarse.", error);
   }
@@ -269,45 +268,6 @@ function renderFloatingWhatsApp() {
   document.body.appendChild(link);
 }
 
-function renderCommercialLocationSection() {
-  const main = document.querySelector("main.with-side-nav, main");
-  if (!main) return;
-
-  const target = main.querySelector(".page-main") || main;
-  target.querySelector(".location-section")?.remove();
-
-  const section = document.createElement("section");
-  section.id = "ubicacion-comercial";
-  section.className = "location-section section section-anchor reveal";
-  section.setAttribute("aria-labelledby", "ubicacion-comercial-title");
-  section.innerHTML = `
-    <div class="section-shell location-card">
-      <div class="location-copy">
-        <p class="eyebrow">Ubicaci&oacute;n empresarial</p>
-        <h2 id="ubicacion-comercial-title">Ubicaci&oacute;n y atenci&oacute;n comercial</h2>
-        <p class="location-subtitle">Tecprog World E.I.R.L. atiende solicitudes comerciales, cotizaciones y coordinaci&oacute;n de servicios mediante canales digitales.</p>
-        <p>Encu&eacute;ntranos en Google Maps como <strong>Tecprog World E.I.R.L.</strong></p>
-        <p class="location-note">La atenci&oacute;n comercial, disponibilidad y coordinaci&oacute;n se confirman previamente por WhatsApp.</p>
-        <div class="location-actions">
-          <a class="btn btn-primary" href="${TW_OFFICIAL.maps}" target="_blank" rel="noopener noreferrer">Ver ubicaci&oacute;n en Google Maps</a>
-          <a class="btn btn-gold" href="${twWhatsappHref("Hola, deseo consultar la ubicacion y atencion comercial de Tecprog World E.I.R.L.")}" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>
-        </div>
-      </div>
-      <div class="location-map-placeholder" aria-label="Referencia de ubicaci&oacute;n comercial de Tecprog World E.I.R.L.">
-        <!-- Si se obtiene un iframe oficial de Google Maps, reemplazar este placeholder por el embed validado. -->
-        <div class="location-pin" aria-hidden="true">
-          <svg viewBox="0 0 32 32" focusable="false"><path d="M16 2.8c-5.1 0-9.2 4.1-9.2 9.2 0 6.9 9.2 17.2 9.2 17.2S25.2 18.9 25.2 12c0-5.1-4.1-9.2-9.2-9.2Zm0 12.7a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/></svg>
-        </div>
-        <span class="location-map-label">Tecprog World E.I.R.L.</span>
-        <p>Referencia comercial en Google Maps</p>
-        <a class="btn btn-secondary" href="${TW_OFFICIAL.maps}" target="_blank" rel="noopener noreferrer">Abrir en Google Maps</a>
-      </div>
-    </div>
-  `;
-  target.appendChild(section);
-  twExternalAttrs();
-}
-
 function renderInstitutionalFooter() {
   let footer = document.querySelector(".site-footer");
   if (!footer) {
@@ -403,7 +363,6 @@ document.addEventListener("DOMContentLoaded", () => {
   renderStandardTopNav();
   setupMobileSideIndex();
   renderFloatingWhatsApp();
-  renderCommercialLocationSection();
   renderInstitutionalFooter();
   setupPayPalButtons();
   twExternalAttrs();
