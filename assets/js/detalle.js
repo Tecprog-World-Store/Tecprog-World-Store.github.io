@@ -3,6 +3,7 @@ const PAYPAL_URL_DETAIL = "https://www.paypal.com/paypalme/grupotecprog";
 const EDUCA_PRICE_NOTE = "Puedes revisar material introductorio gratuito. La certificación, evaluación, clases en vivo o acompañamiento especializado tienen costo.";
 
 const DETAIL_SOURCES = [
+  { url: "../data/cursos_tw_educa.json", type: "tw-educa-vivo" },
   { url: "../data/catalogo-general-cursos.json", type: "general" },
   { url: "../data/cursos/2026-06.json", type: "periodo" },
   { url: "../data/cursos.json", type: "base" },
@@ -41,6 +42,50 @@ async function fetchJson(url) {
 }
 
 function normalizeCourse(item, sourceType) {
+  if (sourceType === "tw-educa-vivo") {
+    return {
+      id: item.id,
+      sourceType,
+      title: item.nombre,
+      line: item.linea_nombre || "TW Educa",
+      category: item.categoria,
+      level: item.nivel || item.estado_publico || "Inscripciones abiertas",
+      hours: item.duracion || "16 horas",
+      duration: item.duracion || "4 sesiones en vivo",
+      modality: item.modalidad || "Online",
+      pricePen: item.precio || "Consultar inversión",
+      priceUsd: "Consultar",
+      moocText: item.estado_publico || "Curso próximo",
+      moocButton: "Consultar por WhatsApp",
+      certificateText: "Certificado físico y firmado según modalidad",
+      paidText: item.precio || "Consultar inversión",
+      priceNote: item.nota_cronograma || "Inicio sujeto a confirmación de grupo mínimo.",
+      modalityTags: [item.estado_publico, item.fecha_inicio_publica, item.modalidad].filter(Boolean),
+      shortDescription: item.descripcion_corta,
+      longDescription: item.descripcion_larga,
+      syllabus: item.temario_base || buildFallbackSyllabus(item.nombre, 16),
+      audience: item.publico_objetivo || [],
+      includes: item.incluye || [],
+      certification: "Certificado físico y firmado por Tecprog World E.I.R.L., según asistencia, modalidad y cumplimiento acordado.",
+      image: item.imagen,
+      whatsappMessage: item.whatsapp_mensaje,
+      backHref: "../educa/index.html",
+      backLabel: "Volver a TW Educa",
+      startDate: item.fecha_inicio_publica,
+      schedule: item.cronograma || [],
+      scheduleNote: item.nota_cronograma,
+      requirements: item.requisitos || [],
+      learning: item.que_aprenderas || [],
+      tools: item.herramientas || [],
+      benefits: item.beneficios || [],
+      finalProject: item.proyecto_final,
+      faq: item.faq || [],
+      relatedHref: "../educa/index.html",
+      seoDescription: item.seo?.description || item.descripcion_corta,
+      ogImage: item.seo?.og_image || item.imagen,
+    };
+  }
+
   if (sourceType === "general") {
     return {
       id: item.id,
@@ -70,6 +115,13 @@ function normalizeCourse(item, sourceType) {
       whatsappMessage: item.whatsapp_message,
       backHref: "../catalogo/catalogo-general-tw-educa.html",
       backLabel: "Volver al catalogo general",
+      requirements: [],
+      learning: [],
+      tools: [],
+      benefits: [],
+      faq: [],
+      seoDescription: item.shareDescription || item.descripcion_corta,
+      ogImage: item.ogImage || item.thumbnail || item.imagen,
     };
   }
 
@@ -102,6 +154,13 @@ function normalizeCourse(item, sourceType) {
     whatsappMessage: item.whatsapp_message || `Hola, deseo informacion sobre ${title}.`,
     backHref: sourceType === "periodo" ? "../catalogo/cursos-junio-2026.html" : "../catalogo/cursos.html",
     backLabel: "Volver a cursos",
+    requirements: [],
+    learning: [],
+    tools: [],
+    benefits: [],
+    faq: [],
+    seoDescription: item.shareDescription || item.descripcion_corta || item.descripcion || "",
+    ogImage: item.ogImage || item.thumbnail || item.imagen,
   };
 }
 
@@ -157,6 +216,34 @@ function syllabusMarkup(modules) {
   `).join("");
 }
 
+function optionalList(title, items) {
+  return Array.isArray(items) && items.length
+    ? `<article class="detail-block"><h2>${esc(title)}</h2>${listItems(items)}</article>`
+    : "";
+}
+
+function optionalParagraph(title, value) {
+  return value
+    ? `<article class="detail-block"><h2>${esc(title)}</h2><p>${esc(value)}</p></article>`
+    : "";
+}
+
+function faqMarkup(items) {
+  return Array.isArray(items) && items.length
+    ? `<article class="detail-block"><h2>Preguntas frecuentes</h2>${items.map((item) => `<h3>${esc(item.pregunta)}</h3><p>${esc(item.respuesta)}</p>`).join("")}</article>`
+    : "";
+}
+
+function setMeta(selector, attr, value) {
+  const tag = document.querySelector(selector);
+  if (tag && value) tag.setAttribute(attr, value);
+}
+
+function setCanonical(value) {
+  const tag = document.querySelector('link[rel="canonical"]');
+  if (tag && value) tag.setAttribute("href", value);
+}
+
 async function renderDetail() {
   const root = document.querySelector("[data-detail-root]");
   if (!root) return;
@@ -172,6 +259,18 @@ async function renderDetail() {
   }
 
   document.title = `${current.title} | Tecprog World E.I.R.L.`;
+  const publicUrl = `https://tecprog-world-store.github.io/detalle/curso.html?id=${encodeURIComponent(current.id)}&catalogo=${encodeURIComponent(current.sourceType)}`;
+  const metaDescription = current.seoDescription || current.shortDescription;
+  const metaImage = asset(current.ogImage || current.image);
+  setMeta('meta[name="description"]', "content", metaDescription);
+  setMeta('meta[property="og:title"]', "content", `${current.title} | TW Educa`);
+  setMeta('meta[property="og:description"]', "content", metaDescription);
+  setMeta('meta[property="og:image"]', "content", metaImage);
+  setMeta('meta[property="og:url"]', "content", publicUrl);
+  setMeta('meta[name="twitter:title"]', "content", `${current.title} | TW Educa`);
+  setMeta('meta[name="twitter:description"]', "content", metaDescription);
+  setMeta('meta[name="twitter:image"]', "content", metaImage);
+  setCanonical(publicUrl);
   root.innerHTML = `
     <section class="detail-hero">
       <div class="section-shell detail-hero-grid">
@@ -200,6 +299,9 @@ async function renderDetail() {
             <h2>Descripcion</h2>
             <p>${esc(current.longDescription)}</p>
           </article>
+          ${optionalList("Que aprenderas", current.learning)}
+          ${optionalParagraph("Proyecto final", current.finalProject)}
+          ${optionalList("Herramientas y tecnologias", current.tools)}
           <article class="detail-block">
             <h2>Acceso gratuito y certificacion</h2>
             <p>${esc(current.priceNote)}</p>
@@ -214,17 +316,26 @@ async function renderDetail() {
             <p>Temario referencial sujeto a ajuste segun modalidad, nivel y alcance comercial.</p>
           </article>
           ${syllabusMarkup(current.syllabus)}
+          ${optionalList("Cronograma", current.schedule)}
           <article class="detail-block">
             <h2>Publico objetivo</h2>
             ${listItems(current.audience)}
           </article>
+          ${optionalList("Requisitos", current.requirements)}
           <article class="detail-block">
             <h2>Que incluye</h2>
             ${listItems(current.includes)}
           </article>
+          ${optionalList("Beneficios realistas", current.benefits)}
           <article class="detail-block">
             <h2>Certificacion</h2>
             <p>${esc(current.certification)}</p>
+          </article>
+          ${faqMarkup(current.faq)}
+          <article class="detail-block">
+            <h2>Cursos relacionados TW Educa</h2>
+            <p>Explora otros cursos tecnicos online en Peru sobre programacion, GIS, simulacion, inteligencia artificial y herramientas aplicadas.</p>
+            <a class="btn btn-primary" href="${current.relatedHref || "../educa/index.html"}">Ver catalogo TW Educa</a>
           </article>
         </div>
         <aside class="detail-sidebar">
@@ -236,6 +347,7 @@ async function renderDetail() {
               <div><dt>Horas certificables</dt><dd>${esc(current.hours)}</dd></div>
               <div><dt>Duracion</dt><dd>${esc(current.duration)}</dd></div>
               <div><dt>Modalidad</dt><dd>${esc(current.modality)}</dd></div>
+              ${current.startDate ? `<div><dt>Inicio</dt><dd>${esc(current.startDate)}</dd></div>` : ""}
               <div><dt>Acceso MOOC</dt><dd>${esc(current.moocText)}</dd></div>
               <div><dt>Certificado</dt><dd>${esc(current.certificateText)}</dd></div>
               <div><dt>Acceso completo</dt><dd>${esc(current.paidText)}</dd></div>

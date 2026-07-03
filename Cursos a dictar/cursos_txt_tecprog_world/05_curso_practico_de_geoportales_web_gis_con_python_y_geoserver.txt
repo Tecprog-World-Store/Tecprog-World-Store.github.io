@@ -1,0 +1,79 @@
+CURSO 05: Curso práctico de Geoportales Web GIS con Python y GeoServer
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_De_geoportales_web_gis.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 27 de agosto de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de Geoportales Web GIS con Python y GeoServer
+
+DESCRIPCIÓN CORTA
+Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales.
+
+PÚBLICO OBJETIVO
+Profesionales GIS, consultores, municipalidades, estudiantes, investigadores, catastro, ambiente, hidrología e infraestructura.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- QGIS
+- PostGIS
+- GeoServer
+- Python
+- Leaflet
+- HTML
+- CSS
+- JavaScript
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Entender la arquitectura Web GIS open-source.
+2. Publicar capas espaciales con GeoServer y PostGIS.
+3. Crear un visor web interactivo con control de capas y popups.
+4. Implementar descargas de datos mediante un backend Python.
+
+PROYECTO FINAL
+Geoportal Web GIS con capas publicadas, visor interactivo, consulta de atributos y descarga de datos.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Arquitectura Web GIS, servicios OGC y flujo de datos.
+- Sesión 2: PostGIS + GeoServer y publicación de capas.
+- Sesión 3: Visor web con Leaflet, popups y control de capas.
+- Sesión 4: Backend Python, descargas y proyecto final.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 199 | S/ 249 | S/ 349
+- Profesional: S/ 449 | S/ 599 | S/ 799
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y convierte tus capas GIS en un geoportal funcional.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

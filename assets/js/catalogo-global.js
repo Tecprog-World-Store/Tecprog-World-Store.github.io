@@ -149,6 +149,10 @@
     const primaryPrice = itemPrimaryPrice(item);
     const priceText = money(primaryPrice.value, primaryPrice.currency);
     const priceDollars = primaryPrice.currency !== "USD" && typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
+    const publicStatus = item.estado_publico || readable(item.estado || "cotizar");
+    const courseMeta = item.tipo_item === "curso"
+      ? [item.fecha_inicio_publica || item.fecha_inicio, item.modalidad].filter(Boolean).join(" · ")
+      : "";
     const detail = item.url_detalle
       ? `<a class="btn btn-small btn-secondary" href="${localPath(item.url_detalle)}">Ver detalle</a>`
       : "";
@@ -170,7 +174,8 @@
             <strong>${escapeHtml(priceText)}</strong>
             ${priceDollars}
           </div>
-          <p class="commerce-status">${escapeHtml(readable(item.estado || "cotizar"))}</p>
+          <p class="commerce-status">${escapeHtml(publicStatus)}</p>
+          ${courseMeta ? `<p class="commerce-status-meta">${escapeHtml(courseMeta)}</p>` : ""}
           <p class="commerce-notice">${NOTICE}</p>
           <div class="commerce-card-actions">
             <a class="btn btn-small btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>

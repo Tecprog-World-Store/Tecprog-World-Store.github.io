@@ -1,0 +1,78 @@
+CURSO 01: Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_de_realidad_virtual.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 16 de julio de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3
+
+DESCRIPCIÓN CORTA
+Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor.
+
+PÚBLICO OBJETIVO
+Estudiantes, profesionales, desarrolladores, docentes y emprendedores interesados en crear experiencias VR para capacitación, prototipado, educación, marketing y visualización técnica.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- Unity
+- C#
+- OpenXR
+- Meta Quest 2
+- Meta Quest 3
+- Android Build Support
+- XR Interaction Toolkit
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Configurar Unity para desarrollo VR en Windows 10/11.
+2. Preparar Meta Quest 2/3 en modo desarrollador.
+3. Crear una escena VR interactiva con objetos, cámaras y controladores.
+4. Compilar y ejecutar una experiencia VR directamente en el visor.
+
+PROYECTO FINAL
+Escena VR interactiva para Meta Quest 2/3 con navegación, interacción básica y despliegue en visor.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Instalación de Unity, módulos Android y configuración inicial XR.
+- Sesión 2: Configuración de Meta Quest, OpenXR y prueba de conexión.
+- Sesión 3: Creación de escena VR, interacción y controles.
+- Sesión 4: Compilación, ejecución en visor y presentación del proyecto final.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 199 | S/ 249 | S/ 299
+- Profesional: S/ 349 | S/ 449 | S/ 599
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo ahora y crea tu primera experiencia VR ejecutable en Meta Quest.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

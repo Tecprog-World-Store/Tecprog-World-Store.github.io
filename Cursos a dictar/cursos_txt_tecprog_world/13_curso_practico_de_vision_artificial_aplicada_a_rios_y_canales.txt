@@ -1,0 +1,81 @@
+CURSO 13: Curso práctico de Visión Artificial aplicada a Ríos y Canales
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_visión_artificial_aplicada_a_rios_y_canales.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 17 de diciembre de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de Visión Artificial aplicada a Ríos y Canales
+
+DESCRIPCIÓN CORTA
+Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python.
+
+PÚBLICO OBJETIVO
+Estudiantes, tesistas, hidrólogos, hidráulicos, oceanógrafos, investigadores y profesionales que trabajan con videos de campo o laboratorio.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- Python
+- OpenCV
+- NumPy
+- OpenPIV
+- Matplotlib
+- QGIS
+- PIV
+- LSPIV
+- PTV
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Leer videos, extraer frames y definir regiones de interés.
+2. Aplicar filtros, tracking y optical flow con OpenCV.
+3. Estimar movimiento superficial mediante PIV/LSPIV/PTV.
+4. Visualizar vectores, series temporales y exportar resultados técnicos.
+
+PROYECTO FINAL
+Análisis de velocidad superficial en un río o canal usando video, vectores de flujo y exportación CSV.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Video, escala, FPS y calibración.
+- Sesión 2: OpenCV, filtros, tracking y optical flow.
+- Sesión 3: PIV/LSPIV/PTV aplicado a ríos y canales.
+- Sesión 4: Proyecto final y visualización técnica.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 179 | S/ 249 | S/ 349
+- Profesional: S/ 399 | S/ 549 | S/ 699
+- Premium con asesoría: S/ 799 | S/ 999 | S/ 1,299
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y convierte videos de campo en información hidráulica medible.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

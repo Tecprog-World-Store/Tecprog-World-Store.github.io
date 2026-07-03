@@ -1,0 +1,81 @@
+CURSO 06: Curso práctico de LaTeX y Texmaker para Investigación Científica
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_latex_y_texmaker_para_investigación_científica.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 20 de agosto de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de LaTeX y Texmaker para Investigación Científica
+
+DESCRIPCIÓN CORTA
+Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos.
+
+PÚBLICO OBJETIVO
+Tesistas, investigadores, docentes, estudiantes de pregrado/posgrado y profesionales que preparan artículos, informes, congresos y sustentaciones.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- LaTeX
+- Texmaker
+- MiKTeX
+- TeX Live
+- BibTeX
+- Beamer
+- TikZ
+- Zotero
+- Overleaf
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Instalar LaTeX y Texmaker para compilar documentos científicos.
+2. Organizar proyectos modulares con carpetas, secciones y bibliografía.
+3. Crear artículos, reportes, ecuaciones, tablas, figuras y anexos.
+4. Diseñar presentaciones Beamer y pósters académicos.
+
+PROYECTO FINAL
+Kit académico modular con artículo, presentación Beamer, póster científico, bibliografía y PDFs compilados.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Instalación, Texmaker y estructura modular.
+- Sesión 2: Artículos, ecuaciones, figuras y bibliografía.
+- Sesión 3: Presentaciones académicas con Beamer.
+- Sesión 4: Póster científico y proyecto final.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 99 | S/ 149 | S/ 199
+- Profesional / investigador: S/ 249 | S/ 349 | S/ 499
+- Premium con asesoría: S/ 599 | S/ 799 | S/ 999
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y produce documentos científicos con estructura profesional.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

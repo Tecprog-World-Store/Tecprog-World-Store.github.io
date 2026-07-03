@@ -2428,6 +2428,12 @@ ul { margin: 0; padding-left: 1.1rem; }
   font-weight: 900;
 }
 
+.commerce-status-meta {
+  color: #1d6b80 !important;
+  font-size: 0.8rem !important;
+  font-weight: 850;
+}
+
 .commerce-notice {
   font-size: 0.78rem !important;
 }

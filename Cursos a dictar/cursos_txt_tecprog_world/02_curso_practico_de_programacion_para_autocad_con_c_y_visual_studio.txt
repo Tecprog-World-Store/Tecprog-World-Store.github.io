@@ -1,0 +1,78 @@
+CURSO 02: Curso práctico de Programación para AutoCAD con C# y Visual Studio
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_de_programación_para_autocad.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 30 de julio de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de Programación para AutoCAD con C# y Visual Studio
+
+DESCRIPCIÓN CORTA
+Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD.
+
+PÚBLICO OBJETIVO
+Estudiantes y profesionales de ingeniería, arquitectura, topografía, CAD/BIM y desarrollo de software técnico.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- AutoCAD
+- .NET API
+- C#
+- Visual Studio 2022
+- DLL
+- NETLOAD
+- CSV
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Crear un proyecto C# compatible con AutoCAD.
+2. Programar comandos personalizados mediante la API .NET de AutoCAD.
+3. Automatizar entidades, bloques, capas, textos y datos del dibujo.
+4. Compilar una DLL y cargarla en AutoCAD con NETLOAD.
+
+PROYECTO FINAL
+Plugin para AutoCAD que ejecuta comandos personalizados, automatiza una tarea CAD y genera una salida técnica.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Entorno AutoCAD + Visual Studio y primer comando C#.
+- Sesión 2: Creación y modificación de entidades DWG desde código.
+- Sesión 3: Automatización de bloques, atributos y exportación de datos.
+- Sesión 4: Plugin final, carga con NETLOAD y presentación.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 149 | S/ 199 | S/ 249
+- Profesional: S/ 299 | S/ 399 | S/ 499
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y aprende a convertir AutoCAD en una plataforma programable.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

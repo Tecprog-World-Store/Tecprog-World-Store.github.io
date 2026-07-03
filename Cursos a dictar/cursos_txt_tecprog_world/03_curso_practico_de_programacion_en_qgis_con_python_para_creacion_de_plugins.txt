@@ -1,0 +1,78 @@
+CURSO 03: Curso práctico de Programación en QGIS con Python para creación de plugins
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_de_programación_en_Qgis.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 6 de agosto de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de Programación en QGIS con Python para creación de plugins
+
+DESCRIPCIÓN CORTA
+Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS.
+
+PÚBLICO OBJETIVO
+Estudiantes, tesistas y profesionales GIS, ambientales, civiles, geógrafos, hidrólogos, consultores y usuarios de QGIS.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- QGIS
+- Python
+- PyQGIS
+- PyQt
+- Qt Designer
+- Processing Toolbox
+- GeoPackage
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Usar la consola Python de QGIS y acceder a capas, atributos y geometrías.
+2. Automatizar geoprocesos con PyQGIS.
+3. Diseñar interfaces gráficas con Qt Designer y PyQt.
+4. Empaquetar un plugin funcional para QGIS.
+
+PROYECTO FINAL
+Plugin GIS que procesa una capa, ejecuta un geoproceso, muestra resultados y exporta información.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Fundamentos de PyQGIS, capas y atributos.
+- Sesión 2: Geoprocesamiento y automatización con Processing.
+- Sesión 3: Interfaces con Qt Designer y PyQt.
+- Sesión 4: Plugin final, empaquetado y presentación.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 149 | S/ 199 | S/ 249
+- Profesional: S/ 349 | S/ 449 | S/ 599
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y transforma QGIS en una herramienta personalizada para tus proyectos.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

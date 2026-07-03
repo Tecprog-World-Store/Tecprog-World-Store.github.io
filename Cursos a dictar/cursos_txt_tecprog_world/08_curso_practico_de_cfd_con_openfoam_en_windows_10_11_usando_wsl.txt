@@ -1,0 +1,80 @@
+CURSO 08: Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_CFD_con_OpenFOAM_WSL.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 24 de septiembre de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL
+
+DESCRIPCIÓN CORTA
+Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView.
+
+PÚBLICO OBJETIVO
+Estudiantes y profesionales de ingeniería mecánica de fluidos, mecánica, civil, ambiental, hidráulica, energía y simulación.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- Windows 10/11
+- WSL2
+- Ubuntu
+- OpenFOAM
+- ParaView
+- VS Code
+- Linux Shell
+- Python opcional
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Instalar y configurar WSL2, Ubuntu, OpenFOAM y ParaView.
+2. Comprender la estructura de casos OpenFOAM.
+3. Modificar malla, condiciones de frontera y parámetros numéricos.
+4. Ejecutar un caso CFD y visualizar velocidad, presión y líneas de corriente.
+
+PROYECTO FINAL
+Simulación CFD de flujo alrededor de un cilindro 2D usando OpenFOAM y ParaView.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Instalación del entorno CFD.
+- Sesión 2: Primer caso CFD y estructura OpenFOAM.
+- Sesión 3: Malla, condiciones de frontera y solver.
+- Sesión 4: Postproceso y proyecto final.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 199 | S/ 249 | S/ 349
+- Profesional: S/ 449 | S/ 599 | S/ 799
+- Premium con asesoría: S/ 899 | S/ 1,099 | S/ 1,499
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y aprende CFD open-source desde Windows.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

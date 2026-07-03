@@ -1,0 +1,81 @@
+CURSO 14: Curso práctico de Programación GPU NVIDIA aplicada a CFD
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_programación_GPU_nvidia_aplicada_a_CFD.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 7 de enero de 2027
+
+TÍTULO COMERCIAL
+Curso práctico de Programación GPU NVIDIA aplicada a CFD
+
+DESCRIPCIÓN CORTA
+Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos.
+
+PÚBLICO OBJETIVO
+Estudiantes avanzados, programadores científicos, usuarios CFD, investigadores y profesionales con interés en HPC y aceleración GPU.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- CUDA C++
+- NVIDIA GPU
+- Visual Studio 2022
+- VS Code
+- PETSc
+- AmgX
+- cuBLAS
+- cuSPARSE
+- Python para visualización
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Entender arquitectura GPU, threads, blocks y grids.
+2. Compilar programas CUDA C++ con nvcc.
+3. Acelerar operaciones científicas y campos 1D/2D.
+4. Implementar un mini-solver CFD y comparar CPU vs GPU.
+
+PROYECTO FINAL
+Mini-solver GPU en CUDA C++ para difusión/advección 2D con comparación CPU vs GPU y visualización de resultados.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: CUDA C++ y arquitectura GPU.
+- Sesión 2: Memoria, kernels y campos numéricos.
+- Sesión 3: Stencils, difusión/advección y residuales.
+- Sesión 4: Mini-solver GPU y panorama PETSc/AmgX/OpenFOAM.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 199 | S/ 299 | S/ 399
+- Profesional: S/ 499 | S/ 699 | S/ 899
+- Premium con asesoría: S/ 999 | S/ 1,299 | S/ 1,699
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y convierte tu GPU NVIDIA en una herramienta de cómputo científico para CFD.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.

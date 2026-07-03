@@ -1,0 +1,80 @@
+CURSO 09: Curso práctico de Cloud Computing para OpenFOAM
+==========================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_práctico_Cloud_Computing_para_OpenFOAM.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan: Desarrollo de Software Inteligente
+Instructor: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Desarrollo de Software
+- Experiencia en Modelación Numérica y CFD
+- Participación en proyectos de ingeniería
+Nota: no colocar grado académico en la ficha pública del instructor.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+- Duración: 4 sesiones en vivo · 16 horas
+- Inicio del curso: 15 de octubre de 2026
+
+TÍTULO COMERCIAL
+Curso práctico de Cloud Computing para OpenFOAM
+
+DESCRIPCIÓN CORTA
+Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales.
+
+PÚBLICO OBJETIVO
+Usuarios de OpenFOAM, estudiantes avanzados, profesionales CFD, investigadores y consultores que requieren mayor capacidad de cómputo.
+
+TECNOLOGÍAS Y HERRAMIENTAS
+- OpenFOAM
+- AWS EC2
+- Azure VM
+- Ubuntu
+- SSH
+- OpenMPI
+- ParaView
+- Cloud Computing
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Entender costos, seguridad y arquitectura cloud para CFD.
+2. Lanzar una instancia cloud y ejecutar OpenFOAM.
+3. Aplicar paralelización con decomposePar, mpirun y reconstructPar.
+4. Transferir resultados, postprocesar y estimar costo-rendimiento.
+
+PROYECTO FINAL
+Simulación CFD paralela de flujo alrededor de un cilindro 2D ejecutada en infraestructura cloud.
+
+TEMARIO / CRONOGRAMA ACADÉMICO
+- Sesión 1: Fundamentos de Cloud CFD, costos y seguridad.
+- Sesión 2: OpenFOAM en la nube y acceso remoto.
+- Sesión 3: Simulaciones paralelas, monitoreo y transferencia de datos.
+- Sesión 4: Proyecto final y control de costos.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 249 | S/ 349 | S/ 449
+- Profesional: S/ 599 | S/ 799 | S/ 999
+- Premium con asesoría: S/ 1,199 | S/ 1,499 | S/ 1,999
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo y escala tus simulaciones OpenFOAM en la nube.
+
+INCLUYE
+- Clases en vivo
+- Proyecto final aplicado
+- Material de apoyo
+- Grabaciones de las sesiones
+- Acompañamiento personalizado
+- Certificado físico y firmado
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado como flyer principal.
+- Mantener el nombre del instructor sin grado académico.
+- Mantener WhatsApp y sitio web exactamente como se indican.
+- Presentar precios como referenciales o editables si se implementa panel de administración.
+- Mantener estilo corporativo: fondo claro, azul/celeste tecnológico, contenido ordenado y CTA visible.
