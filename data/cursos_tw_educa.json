@@ -8,7 +8,7 @@
     "nombre": "Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3",
     "subtitulo": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor.",
     "descripcion_corta": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor.",
-    "descripcion_larga": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -25,14 +25,14 @@
       "Sesión 4: Compilación, ejecución en visor y presentación del proyecto final."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes, profesionales, desarrolladores, docentes y emprendedores interesados en crear experiencias VR para capacitación, prototipado, educación, marketing y visualización técnica."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "Unity",
@@ -59,28 +59,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Instalación de Unity, módulos Android y configuración inicial XR."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Configuración de Meta Quest, OpenXR y prueba de conexión."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Creación de escena VR, interacción y controles."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Compilación, ejecución en visor y presentación del proyecto final."
         ]
@@ -102,21 +102,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-01&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3 | TW Educa",
       "description": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -128,7 +128,7 @@
       "con",
       "curso",
       "cursos técnicos online en Perú",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "interaction",
       "meta",
       "openxr",
@@ -168,7 +168,7 @@
     "nombre": "Curso práctico de Programación para AutoCAD con C# y Visual Studio",
     "subtitulo": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD.",
     "descripcion_corta": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD.",
-    "descripcion_larga": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -185,14 +185,14 @@
       "Sesión 4: Plugin final, carga con NETLOAD y presentación."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes y profesionales de ingeniería, arquitectura, topografía, CAD/BIM y desarrollo de software técnico."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "AutoCAD",
@@ -219,28 +219,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Entorno AutoCAD + Visual Studio y primer comando C#."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Creación y modificación de entidades DWG desde código."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Automatización de bloques, atributos y exportación de datos."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Plugin final, carga con NETLOAD y presentación."
         ]
@@ -262,21 +262,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-02&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación para AutoCAD con C# y Visual Studio. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación para AutoCAD con C# y Visual Studio. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Programación para AutoCAD con C# y Visual Studio | TW Educa",
       "description": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -292,7 +292,7 @@
       "curso",
       "cursos técnicos online en Perú",
       "dll",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "net",
       "netload",
       "para",
@@ -328,7 +328,7 @@
     "nombre": "Curso práctico de Programación en QGIS con Python para creación de plugins",
     "subtitulo": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS.",
     "descripcion_corta": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS.",
-    "descripcion_larga": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -345,14 +345,14 @@
       "Sesión 4: Plugin final, empaquetado y presentación."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes, tesistas y profesionales GIS, ambientales, civiles, geógrafos, hidrólogos, consultores y usuarios de QGIS."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "QGIS",
@@ -379,28 +379,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Fundamentos de PyQGIS, capas y atributos."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Geoprocesamiento y automatización con Processing."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Interfaces con Qt Designer y PyQt."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Plugin final, empaquetado y presentación."
         ]
@@ -422,21 +422,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-03&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación en QGIS con Python para creación de plugins. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación en QGIS con Python para creación de plugins. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Programación en QGIS con Python para creación de plugins | TW Educa",
       "description": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -448,7 +448,7 @@
       "curso",
       "cursos técnicos online en Perú",
       "designer",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "geopackage",
       "para",
       "plugins",
@@ -488,7 +488,7 @@
     "nombre": "Curso práctico de Software de IA Offline con Python, Ollama y PySide",
     "subtitulo": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio.",
     "descripcion_corta": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio.",
-    "descripcion_larga": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -505,14 +505,14 @@
       "Sesión 4: Chat offline final, exportación y empaquetado básico."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes, programadores, docentes, investigadores, profesionales y emprendedores que desean construir software de IA local."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "Python",
@@ -539,28 +539,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Instalación de Ollama, modelos locales y pruebas desde terminal."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Backend Python para consumir la API local de Ollama."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Interfaz gráfica con PySide y experiencia de usuario."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Chat offline final, exportación y empaquetado básico."
         ]
@@ -582,21 +582,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-04&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Software de IA Offline con Python, Ollama y PySide. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Software de IA Offline con Python, Ollama y PySide. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Software de IA Offline con Python, Ollama y PySide | TW Educa",
       "description": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -607,7 +607,7 @@
       "con",
       "curso",
       "cursos técnicos online en Perú",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "local",
       "locales",
       "modelos",
@@ -648,7 +648,7 @@
     "nombre": "Curso práctico de Geoportales Web GIS con Python y GeoServer",
     "subtitulo": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales.",
     "descripcion_corta": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales.",
-    "descripcion_larga": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -660,19 +660,19 @@
     "duracion": "4 sesiones en vivo · 16 horas",
     "cronograma": [
       "Sesión 1: Arquitectura Web GIS, servicios OGC y flujo de datos.",
-      "Sesión 2: PostGIS + GeoServer y publicación de capas.",
+      "Sesión 2: PostGIS + GeoServer y públicación de capas.",
       "Sesión 3: Visor web con Leaflet, popups y control de capas.",
       "Sesión 4: Backend Python, descargas y proyecto final."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Profesionales GIS, consultores, municipalidades, estudiantes, investigadores, catastro, ambiente, hidrología e infraestructura."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "QGIS",
@@ -690,38 +690,38 @@
       "Crear un visor web interactivo con control de capas y popups.",
       "Implementar descargas de datos mediante un backend Python."
     ],
-    "proyecto_final": "Geoportal Web GIS con capas publicadas, visor interactivo, consulta de atributos y descarga de datos.",
+    "proyecto_final": "Geoportal Web GIS con capas públicadas, visor interactivo, consulta de atributos y descarga de datos.",
     "temario_resumen": [
       "Sesión 1: Arquitectura Web GIS, servicios OGC y flujo de datos.",
-      "Sesión 2: PostGIS + GeoServer y publicación de capas.",
+      "Sesión 2: PostGIS + GeoServer y públicación de capas.",
       "Sesión 3: Visor web con Leaflet, popups y control de capas.",
       "Sesión 4: Backend Python, descargas y proyecto final."
     ],
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Arquitectura Web GIS, servicios OGC y flujo de datos."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
-          "Sesión 2: PostGIS + GeoServer y publicación de capas."
+          "Sesión 2: PostGIS + GeoServer y públicación de capas."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Visor web con Leaflet, popups y control de capas."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Backend Python, descargas y proyecto final."
         ]
@@ -743,21 +743,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-05&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Geoportales Web GIS con Python y GeoServer. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Geoportales Web GIS con Python y GeoServer. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Geoportales Web GIS con Python y GeoServer | TW Educa",
       "description": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -768,7 +768,7 @@
       "css",
       "curso",
       "cursos técnicos online en Perú",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "geoportales",
       "geoserver",
       "gis",
@@ -805,11 +805,11 @@
     "slug": "curso-practico-de-latex-y-texmaker-para-investigacion-cientifica",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "categoria": "Redacci?n técnica",
+    "categoria": "Redacción técnica",
     "nombre": "Curso práctico de LaTeX y Texmaker para Investigación Científica",
     "subtitulo": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos.",
     "descripcion_corta": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos.",
-    "descripcion_larga": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -826,14 +826,14 @@
       "Sesión 4: Póster científico y proyecto final."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Tesistas, investigadores, docentes, estudiantes de pregrado/posgrado y profesionales que preparan artículos, informes, congresos y sustentaciones."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "LaTeX",
@@ -862,28 +862,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Instalación, Texmaker y estructura modular."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Artículos, ecuaciones, figuras y bibliografía."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Presentaciones académicas con Beamer."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Póster científico y proyecto final."
         ]
@@ -905,21 +905,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-06&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de LaTeX y Texmaker para Investigación Científica. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de LaTeX y Texmaker para Investigación Científica. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de LaTeX y Texmaker para Investigación Científica | TW Educa",
       "description": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -931,7 +931,7 @@
       "científica",
       "curso",
       "cursos técnicos online en Perú",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "investigación",
       "latex",
       "live",
@@ -977,7 +977,7 @@
     "nombre": "Curso práctico de Machine Learning aplicado a Mecánica de Fluidos",
     "subtitulo": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python.",
     "descripcion_corta": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python.",
-    "descripcion_larga": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -994,14 +994,14 @@
       "Sesión 4: Proyecto final aplicado."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes, tesistas, investigadores y profesionales de mecánica de fluidos, hidráulica, CFD, hidrología y ciencia de datos aplicada."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "Python",
@@ -1017,7 +1017,7 @@
       "Preparar datasets técnicos de fluidos.",
       "Entrenar modelos de machine learning para predecir variables físicas.",
       "Evaluar modelos con métricas como RMSE, MAE y R².",
-      "Construir modelos sustitutos para aproximar resultados de simulaciones o experimentos."
+      "Construir modelos sustitutos para aproximar resultados de simulaciónes o experimentos."
     ],
     "proyecto_final": "Modelo predictivo aplicado a una variable de mecánica de fluidos con gráficos, métricas e interpretación técnica.",
     "temario_resumen": [
@@ -1029,28 +1029,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Datos de fluidos y Python científico."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Modelos supervisados para predicción."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Modelos sustitutos y reducción de orden."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Proyecto final aplicado."
         ]
@@ -1072,21 +1072,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-07&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Machine Learning aplicado a Mecánica de Fluidos. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Machine Learning aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Machine Learning aplicado a Mecánica de Fluidos | TW Educa",
       "description": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -1100,7 +1100,7 @@
       "curso",
       "cursos técnicos online en Perú",
       "fluidos",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "google",
       "jupyter",
       "learn",
@@ -1140,11 +1140,11 @@
     "slug": "curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "categoria": "Simulaci?n",
+    "categoria": "Simulación",
     "nombre": "Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL",
     "subtitulo": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView.",
     "descripcion_corta": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView.",
-    "descripcion_larga": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -1161,14 +1161,14 @@
       "Sesión 4: Postproceso y proyecto final."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes y profesionales de ingeniería mecánica de fluidos, mecánica, civil, ambiental, hidráulica, energía y simulación."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "Windows 10/11",
@@ -1196,28 +1196,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Instalación del entorno CFD."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Primer caso CFD y estructura OpenFOAM."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Malla, condiciones de frontera y solver."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Postproceso y proyecto final."
         ]
@@ -1239,21 +1239,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-08&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL | TW Educa",
       "description": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -1266,7 +1266,7 @@
       "con",
       "curso",
       "cursos técnicos online en Perú",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "linux",
       "opcional",
       "openfoam",
@@ -1301,11 +1301,11 @@
     "slug": "curso-practico-de-cloud-computing-para-openfoam",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "categoria": "Simulaci?n",
+    "categoria": "Simulación",
     "nombre": "Curso práctico de Cloud Computing para OpenFOAM",
     "subtitulo": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales.",
     "descripcion_corta": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales.",
-    "descripcion_larga": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -1322,14 +1322,14 @@
       "Sesión 4: Proyecto final y control de costos."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Usuarios de OpenFOAM, estudiantes avanzados, profesionales CFD, investigadores y consultores que requieren mayor capacidad de cómputo."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "OpenFOAM",
@@ -1357,28 +1357,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Fundamentos de Cloud CFD, costos y seguridad."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: OpenFOAM en la nube y acceso remoto."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Simulaciones paralelas, monitoreo y transferencia de datos."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Proyecto final y control de costos."
         ]
@@ -1400,21 +1400,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cloud-computing-para-openfoam.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-09&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Cloud Computing para OpenFOAM. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Cloud Computing para OpenFOAM. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Cloud Computing para OpenFOAM | TW Educa",
       "description": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -1428,7 +1428,7 @@
       "curso",
       "cursos técnicos online en Perú",
       "ec2",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "openfoam",
       "OpenFOAM",
       "openmpi",
@@ -1462,11 +1462,11 @@
     "slug": "curso-practico-de-datos-climaticos-y-oceanograficos-con-python",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "categoria": "Programaci?n",
+    "categoria": "Programación",
     "nombre": "Curso práctico de Datos Climáticos y Oceanográficos con Python",
     "subtitulo": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos.",
     "descripcion_corta": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos.",
-    "descripcion_larga": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -1483,14 +1483,14 @@
       "Sesión 4: Series, mapas, conversión y proyecto final oceanográfico."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Ingenieros, científicos, oceanógrafos, hidrólogos, consultores costeros, tesistas e investigadores que trabajan con datos marinos y climáticos."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "Python",
@@ -1520,28 +1520,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: GRIB2, NetCDF y fuentes globales para oceanografía."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: NOAA WAVEWATCH III, GFS y descarga con NOMADS."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Copernicus Marine, ERA5 y descarga con Python."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Series, mapas, conversión y proyecto final oceanográfico."
         ]
@@ -1563,21 +1563,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-10&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Datos Climáticos y Oceanográficos con Python. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Datos Climáticos y Oceanográficos con Python. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Datos Climáticos y Oceanográficos con Python | TW Educa",
       "description": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -1592,7 +1592,7 @@
       "cursos técnicos online en Perú",
       "datos",
       "era5",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "grib2",
       "iii",
       "marine",
@@ -1631,11 +1631,11 @@
     "slug": "curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "categoria": "Programaci?n",
+    "categoria": "Programación",
     "nombre": "Curso práctico de C++ aplicado a Mecánica de Fluidos",
     "subtitulo": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos.",
     "descripcion_corta": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos.",
-    "descripcion_larga": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -1652,14 +1652,14 @@
       "Sesión 4: Mini-solver y proyecto final."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes, tesistas, programadores científicos y profesionales interesados en CFD, modelación numérica y software técnico."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "C++",
@@ -1686,28 +1686,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: C++ moderno para ingeniería."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Mallas, campos y archivos de datos."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Advección, difusión y estabilidad."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Mini-solver y proyecto final."
         ]
@@ -1729,21 +1729,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-11&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de C++ aplicado a Mecánica de Fluidos. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de C++ aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de C++ aplicado a Mecánica de Fluidos | TW Educa",
       "description": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -1759,7 +1759,7 @@
       "curso",
       "cursos técnicos online en Perú",
       "fluidos",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "gráficos",
       "mecánica",
       "métodos",
@@ -1801,7 +1801,7 @@
     "nombre": "Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart",
     "subtitulo": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga.",
     "descripcion_corta": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga.",
-    "descripcion_larga": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -1818,14 +1818,14 @@
       "Sesión 4: APK, instalación en Android y proyecto final."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes, docentes, profesionales y desarrolladores que desean crear apps técnicas para ingeniería."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "Flutter",
@@ -1852,28 +1852,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Flutter, Dart y primera app Android."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Formularios y cálculos de mecánica de fluidos."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Diseño, resultados, gráficos e historial."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: APK, instalación en Android y proyecto final."
         ]
@@ -1895,21 +1895,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-12&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart | TW Educa",
       "description": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -1926,7 +1926,7 @@
       "firebase",
       "fluidos",
       "flutter",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "git",
       "mecánica",
       "móviles",
@@ -1963,11 +1963,11 @@
     "slug": "curso-practico-de-vision-artificial-aplicada-a-rios-y-canales",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "categoria": "Tecnolog?a",
+    "categoria": "Tecnología",
     "nombre": "Curso práctico de Visión Artificial aplicada a Ríos y Canales",
     "subtitulo": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python.",
     "descripcion_corta": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python.",
-    "descripcion_larga": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -1984,14 +1984,14 @@
       "Sesión 4: Proyecto final y visualización técnica."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes, tesistas, hidrólogos, hidráulicos, oceanógrafos, investigadores y profesionales que trabajan con videos de campo o laboratorio."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "Python",
@@ -2020,28 +2020,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: Video, escala, FPS y calibración."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: OpenCV, filtros, tracking y optical flow."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: PIV/LSPIV/PTV aplicado a ríos y canales."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Proyecto final y visualización técnica."
         ]
@@ -2063,21 +2063,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-13&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Visión Artificial aplicada a Ríos y Canales. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Visión Artificial aplicada a Ríos y Canales. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Visión Artificial aplicada a Ríos y Canales | TW Educa",
       "description": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -2089,7 +2089,7 @@
       "canales",
       "curso",
       "cursos técnicos online en Perú",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "lspiv",
       "matplotlib",
       "numpy",
@@ -2131,11 +2131,11 @@
     "slug": "curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "categoria": "Simulaci?n",
+    "categoria": "Simulación",
     "nombre": "Curso práctico de Programación GPU NVIDIA aplicada a CFD",
     "subtitulo": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos.",
     "descripcion_corta": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos.",
-    "descripcion_larga": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompa?amiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
+    "descripcion_larga": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos. Curso técnico online de Tecprog World Educa orientado a práctica guiada, proyecto aplicado y acompañamiento durante la convocatoria. La información de fecha, grupo y vacantes se confirma por WhatsApp antes de la inscripción.",
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
@@ -2152,14 +2152,14 @@
       "Sesión 4: Mini-solver GPU y panorama PETSc/AmgX/OpenFOAM."
     ],
     "horario": "Jueves, 7:00 p. m. a 9:00 p. m. hora Perú",
-    "nota_cronograma": "Inicio sujeto a confirmación de grupo m?nimo.",
+    "nota_cronograma": "Inicio sujeto a confirmación de grupo mínimo.",
     "publico_objetivo": [
       "Estudiantes avanzados, programadores científicos, usuarios CFD, investigadores y profesionales con interés en HPC y aceleración GPU."
     ],
     "requisitos": [
       "Computadora con conexión a internet.",
-      "Software o cuentas requeridas según la tecnolog?a del curso.",
-      "Conocimientos b?sicos relacionados con el ?rea técnica del curso."
+      "Software o cuentas requeridas según la tecnología del curso.",
+      "Conocimientos básicos relacionados con el área técnica del curso."
     ],
     "herramientas": [
       "CUDA C++",
@@ -2188,28 +2188,28 @@
     "temario_base": [
       {
         "modulo": 1,
-        "titulo": "Sesi?n 1",
+        "titulo": "Sesión 1",
         "contenidos": [
           "Sesión 1: CUDA C++ y arquitectura GPU."
         ]
       },
       {
         "modulo": 2,
-        "titulo": "Sesi?n 2",
+        "titulo": "Sesión 2",
         "contenidos": [
           "Sesión 2: Memoria, kernels y campos numéricos."
         ]
       },
       {
         "modulo": 3,
-        "titulo": "Sesi?n 3",
+        "titulo": "Sesión 3",
         "contenidos": [
           "Sesión 3: Stencils, difusión/advección y residuales."
         ]
       },
       {
         "modulo": 4,
-        "titulo": "Sesi?n 4",
+        "titulo": "Sesión 4",
         "contenidos": [
           "Sesión 4: Mini-solver GPU y panorama PETSc/AmgX/OpenFOAM."
         ]
@@ -2231,21 +2231,21 @@
     ],
     "faq": [
       {
-        "pregunta": "?El inicio es fijo?",
-        "respuesta": "La fecha publicada corresponde al cronograma comercial vigente y se confirma con grupo m?nimo antes de iniciar."
+        "pregunta": "¿El inicio es fijo?",
+        "respuesta": "La fecha públicada corresponde al cronograma comercial vigente y se confirma con grupo mínimo antes de iniciar."
       },
       {
-        "pregunta": "?El curso es online?",
+        "pregunta": "¿El curso es online?",
         "respuesta": "Sí. La modalidad indicada es online con sesiones en vivo y recursos de apoyo."
       },
       {
-        "pregunta": "?Incluye certificado?",
-        "respuesta": "Incluye certificado f?sico y firmado según asistencia, modalidad y cumplimiento acordado."
+        "pregunta": "¿Incluye certificado?",
+        "respuesta": "Incluye certificado físico y firmado según asistencia, modalidad y cumplimiento acordado."
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd.webp",
     "url_detalle": "detalle/curso.html?id=tw-educa-curso-14&catalogo=tw-educa-vivo",
-    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación GPU NVIDIA aplicada a CFD. ?Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
+    "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación GPU NVIDIA aplicada a CFD. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Programación GPU NVIDIA aplicada a CFD | TW Educa",
       "description": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
@@ -2265,7 +2265,7 @@
       "curso",
       "cursos técnicos online en Perú",
       "cusparse",
-      "formaci?n profesional para ingenier?a",
+      "formación profesional para ingeniería",
       "gpu",
       "nvidia",
       "para",

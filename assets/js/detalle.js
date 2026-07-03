@@ -113,8 +113,8 @@ function normalizeCourse(item, sourceType) {
       certification: item.certificacion,
       image: item.thumbnail || item.imagen_portada || item.imagen,
       whatsappMessage: item.whatsapp_message,
-      backHref: "../catalogo/catalogo-general-tw-educa.html",
-      backLabel: "Volver al catalogo general",
+      backHref: "../catalogo/catálogo-general-tw-educa.html",
+      backLabel: "Volver al catálogo general",
       requirements: [],
       learning: [],
       tools: [],
@@ -147,11 +147,11 @@ function normalizeCourse(item, sourceType) {
     shortDescription: item.descripcion_corta || item.descripcion || "",
     longDescription: item.descripcion_larga || item.descripcion || "",
     syllabus: buildFallbackSyllabus(title, item.horas_certificables || 24),
-    audience: ["Estudiantes, profesionales y equipos tecnicos interesados en formacion aplicada."],
-    includes: ["Material digital segun alcance.", "Orientacion por WhatsApp o correo.", "Acceso segun modalidad coordinada."],
-    certification: "Constancia o certificado de participacion emitido por Tecprog World E.I.R.L. segun modalidad y cumplimiento acordado.",
+    audience: ["Estudiantes, profesionales y equipos técnicos interesados en formación aplicada."],
+    includes: ["Material digital según alcance.", "Orientacion por WhatsApp o correo.", "Acceso según modalidad coordinada."],
+    certification: "Constancia o certificado de participacion emitido por Tecprog World E.I.R.L. según modalidad y cumplimiento acordado.",
     image: item.thumbnail || item.imagen_portada || item.imagen || "assets/img/cursos/capacitacion-empresarial.svg",
-    whatsappMessage: item.whatsapp_message || `Hola, deseo informacion sobre ${title}.`,
+    whatsappMessage: item.whatsapp_message || `Hola, deseo información sobre ${title}.`,
     backHref: sourceType === "periodo" ? "../catalogo/cursos-junio-2026.html" : "../catalogo/cursos.html",
     backLabel: "Volver a cursos",
     requirements: [],
@@ -179,10 +179,10 @@ function buildFallbackSyllabus(title, hours) {
     "Fundamentos y objetivos",
     "Herramientas y preparacion",
     "Ejercicios guiados",
-    "Aplicacion tecnica",
+    "Aplicación técnica",
     "Proyecto integrador",
     "Cierre y recomendaciones",
-    "Portafolio tecnico",
+    "Portafolio técnico",
     "Ruta de continuidad",
   ];
   return Array.from({ length: count }, (_, index) => ({
@@ -254,7 +254,7 @@ async function renderDetail() {
   const current = await findCourse(id, catalog);
 
   if (!current) {
-    root.innerHTML = `<section class="section"><div class="section-shell"><article class="detail-block"><h1>Curso no encontrado</h1><p>Revisa el enlace o vuelve al catalogo de cursos.</p><a class="btn btn-primary" href="../catalogo/catalogo-general-tw-educa.html">Volver al catalogo general</a></article></div></section>`;
+    root.innerHTML = `<section class="section"><div class="section-shell"><article class="detail-block"><h1>Curso no encontrado</h1><p>Revisa el enlace o vuelve al catálogo de cursos.</p><a class="btn btn-primary" href="../catalogo/catálogo-general-tw-educa.html">Volver al catálogo general</a></article></div></section>`;
     return;
   }
 
@@ -281,7 +281,7 @@ async function renderDetail() {
           <div class="hero-actions">
             <a class="btn btn-primary" href="${detailWhatsapp(current.whatsappMessage)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             <a class="btn btn-secondary" href="${detailWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${current.title}.`)}" target="_blank" rel="noopener noreferrer">${esc(current.moocButton)}</a>
-            <a class="btn btn-secondary" href="mailto:grupotecprog@gmail.com">Solicitar cotizacion</a>
+            <a class="btn btn-secondary" href="mailto:grupotecprog@gmail.com">Solicitar cotización</a>
             <a class="btn btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">Solicitar pago PayPal</a>
             <a class="btn btn-secondary" href="${current.backHref}">${current.backLabel}</a>
           </div>
@@ -308,12 +308,12 @@ async function renderDetail() {
             <ul class="check-list">
               <li>${esc(current.moocText)}: material introductorio, temario, recursos publicos o videos abiertos cuando esten disponibles.</li>
               <li>${esc(current.certificateText)}: no incluido en el acceso gratuito.</li>
-              <li>${esc(current.paidText)}: clases, evaluacion, acompanamiento o acceso completo segun modalidad.</li>
+              <li>${esc(current.paidText)}: clases, evaluación, acompanamiento o acceso completo según modalidad.</li>
             </ul>
           </article>
           <article class="detail-block">
             <h2>Temario base</h2>
-            <p>Temario referencial sujeto a ajuste segun modalidad, nivel y alcance comercial.</p>
+            <p>Temario referencial sujeto a ajuste según modalidad, nivel y alcance comercial.</p>
           </article>
           ${syllabusMarkup(current.syllabus)}
           ${optionalList("Cronograma", current.schedule)}
@@ -334,8 +334,8 @@ async function renderDetail() {
           ${faqMarkup(current.faq)}
           <article class="detail-block">
             <h2>Cursos relacionados TW Educa</h2>
-            <p>Explora otros cursos tecnicos online en Peru sobre programacion, GIS, simulacion, inteligencia artificial y herramientas aplicadas.</p>
-            <a class="btn btn-primary" href="${current.relatedHref || "../educa/index.html"}">Ver catalogo TW Educa</a>
+            <p>Explora otros cursos técnicos online en Perú sobre programación, GIS, simulación, inteligencia artificial y herramientas aplicadas.</p>
+            <a class="btn btn-primary" href="${current.relatedHref || "../educa/index.html"}">Ver catálogo TW Educa</a>
           </article>
         </div>
         <aside class="detail-sidebar">
@@ -351,14 +351,14 @@ async function renderDetail() {
               <div><dt>Acceso MOOC</dt><dd>${esc(current.moocText)}</dd></div>
               <div><dt>Certificado</dt><dd>${esc(current.certificateText)}</dd></div>
               <div><dt>Acceso completo</dt><dd>${esc(current.paidText)}</dd></div>
-              <div><dt>Precio Peru anterior/referencial</dt><dd>${esc(current.pricePen)}</dd></div>
+              <div><dt>Precio Perú anterior/referencial</dt><dd>${esc(current.pricePen)}</dd></div>
               <div><dt>Internacional</dt><dd>${esc(current.priceUsd)}</dd></div>
             </dl>
             <div class="catalog-actions">
               <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${current.title}.`)}" target="_blank" rel="noopener noreferrer">${esc(current.moocButton)}</a>
               <a class="btn btn-small btn-primary" href="${detailWhatsapp(current.whatsappMessage)}" target="_blank" rel="noopener noreferrer">Inscripcion por WhatsApp</a>
               <a class="btn btn-small btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">PayPal</a>
-              <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo una cotizacion institucional para ${current.title}.`)}" target="_blank" rel="noopener noreferrer">Cotizacion institucional</a>
+              <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo una cotización institucional para ${current.title}.`)}" target="_blank" rel="noopener noreferrer">Cotización institucional</a>
               <a class="btn btn-small" href="${current.backHref}">${current.backLabel}</a>
             </div>
             <p class="microcopy">${esc(current.priceNote)}</p>

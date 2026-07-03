@@ -20,6 +20,63 @@
     "tw-investiga": "TW Investiga"
   };
 
+  const LINE_PANEL_COPY = {
+    "tw-store": {
+      action: "Confirma precio, disponibilidad, garantía y envío antes de cerrar una compra.",
+      whatsapp: "Hola Tecprog World, deseo cotizar desde TW Store.",
+      quickTitle: "Productos",
+      resources: [["Pagos Perú", "pagos/peru.html"], ["Pagos Internacionales", "pagos/internacionales.html"], ["Catálogo global", "store/index.html"]]
+    },
+    "tw-educa": {
+      action: "Consulta cursos, cronograma, modalidad e inversión antes de inscribirte.",
+      whatsapp: "Hola Tecprog World, deseo información sobre cursos de TW Educa.",
+      quickTitle: "Cursos y recursos",
+      resources: [["Cronograma público", "docs/operacion/cursos_tw_educa_cronograma_publico.md"], ["Guías", "catalogo/guias.html"], ["Cursos", "catalogo/cursos.html"]]
+    },
+    "tw-innova": {
+      action: "Cuéntanos el alcance de software, hardware o automatización que necesitas.",
+      whatsapp: "Hola Tecprog World, deseo cotizar una solución de TW Innova.",
+      quickTitle: "Soluciones digitales",
+      resources: [["Software", "catalogo/tw-innova.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+    },
+    "tw-salud": {
+      action: "Solicita evaluación técnica sin prometer resultados clínicos.",
+      whatsapp: "Hola Tecprog World, deseo consultar una solución técnica de TW Salud.",
+      quickTitle: "Consulta técnica",
+      resources: [["TW Salud", "salud/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+    },
+    "tw-interactive": {
+      action: "Cotiza consultoría, simulación o análisis técnico según datos y alcance.",
+      whatsapp: "Hola Tecprog World, deseo cotizar consultoría de ingeniería con TW Interactive.",
+      quickTitle: "Ingeniería",
+      resources: [["Servicios", "catalogo/tw-interactive.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+    },
+    "tw-construye": {
+      action: "Solicita una cotización de obra, remodelación o asistencia técnica por alcance.",
+      whatsapp: "Hola Tecprog World, deseo cotizar un servicio de TW Construye.",
+      quickTitle: "Obra y remodelación",
+      resources: [["Servicios", "catalogo/tw-construye.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+    },
+    "tw-inox": {
+      action: "Cotiza fabricación, soldadura o proyecto metalmecánico según medidas y material.",
+      whatsapp: "Hola Tecprog World, deseo cotizar un proyecto de TW Inox.",
+      quickTitle: "Metalmecánica",
+      resources: [["Servicios", "catalogo/tw-inox.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+    },
+    "tw-investiga": {
+      action: "Consulta asesoría científica, datos, metodología o software por alcance.",
+      whatsapp: "Hola Tecprog World, deseo cotizar un servicio de TW Investiga.",
+      quickTitle: "Investigación",
+      resources: [["Servicios", "investiga/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+    },
+    "tw-disfruta": {
+      action: "Cotiza videojuegos, demos, assets digitales o merchandising según alcance.",
+      whatsapp: "Hola Tecprog World, deseo cotizar una experiencia de TW Disfruta.",
+      quickTitle: "Entretenimiento",
+      resources: [["Videojuegos", "disfruta/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+    }
+  };
+
   const state = {
     items: [],
     banners: null,
@@ -227,7 +284,7 @@
       status: root.querySelector("[data-commerce-status]")?.value || "",
       minPrice: root.querySelector("[data-commerce-min]")?.value || "",
       maxPrice: root.querySelector("[data-commerce-max]")?.value || "",
-      search: root.querySelector("[data-commerce-search]")?.value || "",
+      search: root.querySelector("[data-commerce-search-main]")?.value || root.querySelector("[data-commerce-search]")?.value || "",
       sort: root.querySelector("[data-commerce-sort]")?.value || "destacados"
     };
   }
@@ -312,6 +369,26 @@
     `;
   }
 
+  function centralSearch(title, subtitle, fixedLine) {
+    return `
+      <div class="commerce-central-search">
+        <p class="eyebrow">${fixedLine ? "Catálogo por línea" : "Buscador comercial"}</p>
+        <h2>${escapeHtml(title)}</h2>
+        <p>${escapeHtml(subtitle)}</p>
+        <label class="select-filter commerce-search-main">
+          <span>Buscar</span>
+          <input type="search" data-commerce-search-main placeholder="Producto, servicio, curso, tema o herramienta...">
+        </label>
+      </div>`;
+  }
+
+  function resourceLinks(slug) {
+    const copy = LINE_PANEL_COPY[slug] || LINE_PANEL_COPY["tw-store"];
+    return copy.resources
+      .map(([label, href]) => `<a href="${localPath(href)}">${escapeHtml(label)}</a>`)
+      .join("");
+  }
+
   async function render(root) {
     const items = await loadItems();
     const mode = root.dataset.catalogMode || "full";
@@ -339,75 +416,63 @@
           <div class="commerce-grid is-compact" data-commerce-results></div>
         </div>`;
     } else if (mode === "store") {
+      const copy = LINE_PANEL_COPY["tw-store"];
       root.innerHTML = `
         <aside class="commerce-filters commerce-left-panel">
           <h2>Panel comercial</h2>
           ${controls(root, items)}
           <article class="quick-panel-card">
-            <h2>Cotizaci??n</h2>
-            <p>Confirma precio, disponibilidad, garant??a y env??o antes de cerrar una compra.</p>
-            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Hola Tecprog World, deseo cotizar desde TW Store.")}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <h2>Cotización</h2>
+            <p>${escapeHtml(copy.action)}</p>
+            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </article>
           <article class="quick-panel-card">
             <h2>Pagos</h2>
             <div class="quick-link-grid">
-              <a href="${localPath("pagos/peru.html")}">Pagos Per??</a>
+              <a href="${localPath("pagos/peru.html")}">Pagos Perú</a>
               <a href="${localPath("pagos/internacionales.html")}">Internacional</a>
             </div>
           </article>
           <article class="quick-panel-card">
             <h2>Aviso</h2>
-            <p>Precios, disponibilidad, garant??a y env??o sujetos a confirmaci??n.</p>
+            <p>Precios, disponibilidad, garantía y envío sujetos a confirmación.</p>
           </article>
         </aside>
         <section class="commerce-results">
-          <div class="commerce-section-head">
-            <div>
-              <p class="eyebrow">TW Store global</p>
-              <h2>${escapeHtml(title)}</h2>
-              <p>${escapeHtml(subtitle)}</p>
-            </div>
-            <strong data-commerce-count></strong>
-          </div>
+          ${centralSearch(title, subtitle, fixedLine)}
+          <div class="commerce-section-head"><strong data-commerce-count></strong></div>
           <h3 class="commerce-subtitle">Ofertas destacadas</h3>
           <div class="commerce-grid is-compact" data-commerce-offers></div>
           <h3 class="commerce-subtitle">Productos y servicios destacados</h3>
           <div class="commerce-grid is-compact" data-commerce-featured></div>
-          <h3 class="commerce-subtitle">Cat??logo completo</h3>
+          <h3 class="commerce-subtitle">Catálogo completo</h3>
           <div class="commerce-grid" data-commerce-results></div>
         </section>
         <aside class="commerce-aside">
           <article class="quick-panel-card">
-            <h2>Acciones r??pidas</h2>
+            <h2>Acciones rápidas</h2>
             <div class="quick-link-grid">
-              <a href="${localPath("catalogo/cursos.html")}">Cursos</a>
-              <a href="${localPath("catalogo/compendios.html")}">Compendios</a>
-              <a href="${localPath("catalogo/guias.html")}">Gu??as</a>
+              ${resourceLinks("tw-store")}
             </div>
           </article>
-          <article class="quick-panel-card"><h2>Recursos</h2><p>Explora l??neas, detalle de productos y materiales publicados.</p></article>
+          <article class="quick-panel-card"><h2>Aviso comercial</h2><p>Precios, disponibilidad, garantía, alcance y envío sujetos a confirmación.</p></article>
         </aside>`;
     } else {
+      const copy = LINE_PANEL_COPY[fixedLine] || LINE_PANEL_COPY["tw-store"];
       root.innerHTML = `
         <aside class="commerce-filters commerce-left-panel">
           <h2>Panel comercial</h2>
           ${controls(root, visibleItems)}
           <article class="quick-panel-card">
             <h2>Solicitar alcance</h2>
-            <p>Cu??ntanos qu?? necesitas y validamos precio, tiempos y condiciones.</p>
-            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(`Hola Tecprog World, deseo cotizar en ${title}.`)}" target="_blank" rel="noopener noreferrer">Cotizar</a>
+            <p>${escapeHtml(copy.action)}</p>
+            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">Cotizar</a>
           </article>
           <article class="quick-panel-card"><h2>Aviso comercial</h2><p>${NOTICE}</p></article>
         </aside>
         <section class="commerce-results">
-          <div class="commerce-section-head">
-            <div>
-              <p class="eyebrow">Cat??logo por l??nea</p>
-              <h2>${escapeHtml(title)}</h2>
-              <p>${escapeHtml(subtitle)}</p>
-            </div>
-            <strong data-commerce-count></strong>
-          </div>
+          ${centralSearch(title, subtitle, fixedLine)}
+          <div class="commerce-section-head"><strong data-commerce-count></strong></div>
           <h3 class="commerce-subtitle">Destacados</h3>
           <div class="commerce-grid is-compact" data-commerce-featured></div>
           <h3 class="commerce-subtitle">Resultados</h3>
@@ -415,14 +480,14 @@
         </section>
         <aside class="commerce-aside">
           <article class="quick-panel-card">
-            <h2>Acciones r??pidas</h2>
+            <h2>${escapeHtml(copy.quickTitle)}</h2>
             <div class="quick-link-grid">
-              <a href="${localPath("store/index.html")}">TW Store</a>
-              <a href="${localPath("catalogo/cursos.html")}">Cursos</a>
-              <a href="${localPath("catalogo/guias.html")}">Gu??as</a>
+              <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a href="mailto:grupotecprog@gmail.com">Enviar correo</a>
+              ${resourceLinks(fixedLine)}
             </div>
           </article>
-          <article class="quick-panel-card"><h2>Recursos</h2><p>Enlaces ??tiles para explorar el ecosistema Tecprog World.</p></article>
+          <article class="quick-panel-card"><h2>Confianza comercial</h2><p>Coordinamos alcance, precio, disponibilidad y condiciones antes de cualquier pago.</p></article>
         </aside>`;
     }
 
