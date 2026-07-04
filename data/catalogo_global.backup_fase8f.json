@@ -1863,7 +1863,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -1933,7 +1933,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación para AutoCAD con C# y Visual Studio. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2003,7 +2003,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación en QGIS con Python para creación de plugins. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2073,7 +2073,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Software de IA Offline con Python, Ollama y PySide. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2143,7 +2143,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Geoportales Web GIS con Python y GeoServer. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2213,7 +2213,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de LaTeX y Texmaker para Investigación Científica. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2228,8 +2228,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 179 IGV incluido",
-    "precio_soles": 179,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "precio_dolares": null,
     "moneda": "PEN",
     "moneda_principal": "PEN",
@@ -2283,7 +2283,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Machine Learning aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2353,7 +2353,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2423,7 +2423,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Cloud Computing para OpenFOAM. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2438,8 +2438,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 179 IGV incluido",
-    "precio_soles": 179,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "precio_dolares": null,
     "moneda": "PEN",
     "moneda_principal": "PEN",
@@ -2493,7 +2493,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Datos Climáticos y Oceanográficos con Python. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2508,8 +2508,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 149 IGV incluido",
-    "precio_soles": 149,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "precio_dolares": null,
     "moneda": "PEN",
     "moneda_principal": "PEN",
@@ -2563,7 +2563,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de C++ aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2578,8 +2578,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 149 IGV incluido",
-    "precio_soles": 149,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "precio_dolares": null,
     "moneda": "PEN",
     "moneda_principal": "PEN",
@@ -2633,7 +2633,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2648,8 +2648,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 179 IGV incluido",
-    "precio_soles": 179,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "precio_dolares": null,
     "moneda": "PEN",
     "moneda_principal": "PEN",
@@ -2703,7 +2703,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Visión Artificial aplicada a Ríos y Canales. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2773,7 +2773,7 @@
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación GPU NVIDIA aplicada a CFD. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   }
 ]

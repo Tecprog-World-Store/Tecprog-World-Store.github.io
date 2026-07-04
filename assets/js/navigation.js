@@ -276,6 +276,7 @@ function renderFloatingWhatsApp() {
 }
 
 function renderCommercialLocationSection() {
+  if (document.body?.dataset.disableCommercialLocation === "true") return;
   const main = document.querySelector("main.with-side-nav, main");
   if (!main) return;
 

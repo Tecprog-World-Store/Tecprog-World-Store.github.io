@@ -156,7 +156,7 @@
         "regular": 599
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -316,7 +316,7 @@
         "regular": 499
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -476,7 +476,7 @@
         "regular": 599
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -636,7 +636,7 @@
         "regular": 699
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -797,7 +797,7 @@
         "regular": 799
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -965,7 +965,7 @@
         "regular": 999
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -981,8 +981,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 179 IGV incluido",
-    "precio_soles": 179,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "moneda": "PEN",
     "fecha_inicio": "2026-09-10",
     "fecha_inicio_publica": "10/09/2026",
@@ -1129,10 +1129,10 @@
         "segmento": "Premium con asesoría",
         "precio_inicio": 799,
         "lanzamiento": 999,
-        "regular": 1299
+        "regular": 1
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -1291,15 +1291,9 @@
         "precio_inicio": 449,
         "lanzamiento": 599,
         "regular": 799
-      },
-      {
-        "segmento": "Premium con asesoría",
-        "precio_inicio": 899,
-        "lanzamiento": 1099,
-        "regular": 1499
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -1458,15 +1452,9 @@
         "precio_inicio": 599,
         "lanzamiento": 799,
         "regular": 999
-      },
-      {
-        "segmento": "Premium con asesoría",
-        "precio_inicio": 1199,
-        "lanzamiento": 1499,
-        "regular": 1999
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -1482,8 +1470,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 179 IGV incluido",
-    "precio_soles": 179,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "moneda": "PEN",
     "fecha_inicio": "2026-11-05",
     "fecha_inicio_publica": "05/11/2026",
@@ -1632,10 +1620,10 @@
         "segmento": "Premium con asesoría",
         "precio_inicio": 799,
         "lanzamiento": 999,
-        "regular": 1299
+        "regular": 1
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -1651,8 +1639,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 149 IGV incluido",
-    "precio_soles": 149,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "moneda": "PEN",
     "fecha_inicio": "2026-11-26",
     "fecha_inicio_publica": "26/11/2026",
@@ -1798,10 +1786,10 @@
         "segmento": "Premium con asesoría",
         "precio_inicio": 799,
         "lanzamiento": 999,
-        "regular": 1299
+        "regular": 1
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -1817,8 +1805,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 149 IGV incluido",
-    "precio_soles": 149,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "moneda": "PEN",
     "fecha_inicio": "2026-12-10",
     "fecha_inicio_publica": "10/12/2026",
@@ -1964,10 +1952,10 @@
         "segmento": "Premium con asesoría",
         "precio_inicio": 799,
         "lanzamiento": 999,
-        "regular": 1299
+        "regular": 1
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -1983,8 +1971,8 @@
     "modalidad": "Online",
     "estado": "inscripciones_abiertas",
     "estado_publico": "Inscripciones abiertas",
-    "precio": "Desde S/ 179 IGV incluido",
-    "precio_soles": 179,
+    "precio": "Desde S/ 1 IGV incluido",
+    "precio_soles": 1,
     "moneda": "PEN",
     "fecha_inicio": "2026-12-17",
     "fecha_inicio_publica": "17/12/2026",
@@ -2132,10 +2120,10 @@
         "segmento": "Premium con asesoría",
         "precio_inicio": 799,
         "lanzamiento": 999,
-        "regular": 1299
+        "regular": 1
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   },
   {
@@ -2295,15 +2283,9 @@
         "precio_inicio": 499,
         "lanzamiento": 699,
         "regular": 899
-      },
-      {
-        "segmento": "Premium con asesoría",
-        "precio_inicio": 999,
-        "lanzamiento": 1299,
-        "regular": 1699
       }
     ],
-    "fecha_actualizacion": "2026-07-04",
+    "fecha_actualizacion": "2026-07-03",
     "visible_cliente": true
   }
 ]

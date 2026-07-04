@@ -308,12 +308,7 @@
   function update(root) {
     const filters = readFilters(root);
     const filtered = sortItems(applyFilters(state.items, filters), filters.sort);
-    const hasActiveFilter = Boolean(filters.search || filters.line || filters.category || filters.currency || filters.status || filters.minPrice || filters.maxPrice);
-    const results = root.dataset.catalogMode === "home" && !hasActiveFilter ? filtered.slice(0, 12) : filtered;
-    renderResults(root, results);
-    if (root.dataset.catalogMode === "home") {
-      renderHighlights(root, applyFilters(state.items, { fixedLine: filters.fixedLine }));
-    }
+    renderResults(root, filtered);
   }
 
   function controls(root, items) {
@@ -466,18 +461,8 @@
     if (mode === "home") {
       root.innerHTML = `
         <div class="section-shell">
-          <div class="section-heading">
-            <p class="eyebrow">Buscador comercial</p>
-            <h2>${escapeHtml(title)}</h2>
-            <p>${escapeHtml(subtitle)}</p>
-          </div>
           ${centralSearch(title, subtitle, fixedLine)}
           ${controls(root, items)}
-          <h3 class="commerce-subtitle">Ofertas destacadas</h3>
-          <div class="commerce-grid is-compact" data-commerce-offers></div>
-          <h3 class="commerce-subtitle">Productos y servicios destacados</h3>
-          <div class="commerce-grid is-compact" data-commerce-featured></div>
-          <h3 class="commerce-subtitle">Explorar catálogo</h3>
           <div class="commerce-section-head"><strong data-commerce-count></strong></div>
           <div class="commerce-grid is-compact" data-commerce-results></div>
         </div>`;

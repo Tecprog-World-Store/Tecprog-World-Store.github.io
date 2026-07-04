@@ -376,6 +376,13 @@ ul { margin: 0; padding-left: 1.1rem; }
     url("../img/banners/hero-tech.svg") center / cover no-repeat;
 }
 
+.hero-frontis {
+  min-height: min(760px, 88vh);
+  background:
+    linear-gradient(90deg, rgba(6, 19, 38, 0.92) 0%, rgba(6, 19, 38, 0.72) 44%, rgba(6, 19, 38, 0.18) 100%),
+    url("../img/banner_horizontal_tw/figuraHorizontal01.webp") center / cover no-repeat;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
@@ -630,12 +637,13 @@ ul { margin: 0; padding-left: 1.1rem; }
 .banner-section {
   position: relative;
   z-index: 2;
-  margin-top: -36px;
+  margin-top: 0;
+  padding: clamp(18px, 3vw, 32px) 0 0;
 }
 
 .banner-carousel {
   position: relative;
-  min-height: 230px;
+  min-height: clamp(180px, 22vw, 230px);
   overflow: hidden;
   color: var(--white);
   background:
@@ -2529,6 +2537,10 @@ ul { margin: 0; padding-left: 1.1rem; }
   border: 1px solid var(--dark-line);
   border-radius: var(--radius);
   box-shadow: 0 14px 36px rgba(2, 10, 31, 0.08);
+}
+
+.official-video {
+  margin-top: 24px;
 }
 
 .commerce-central-search h2 {
