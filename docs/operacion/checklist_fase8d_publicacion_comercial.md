@@ -1,0 +1,28 @@
+# Checklist Fase 8D - Publicacion comercial
+
+- [x] Backup creado antes de modificar JS, CSS y HTML.
+- [x] Auditoria documentada en `docs/operacion/reporte_fase8d_auditoria_paneles_duplicados.md`.
+- [x] `catalogo-global.js` reduce paginas de linea/store a maximo tres paneles.
+- [x] Panel izquierdo convertido en navegacion comercial contextual.
+- [x] Filtros movidos al panel central.
+- [x] Se conserva un solo buscador principal.
+- [x] Se conserva un solo bloque de filtros.
+- [x] Se conserva un solo panel derecho fusionado.
+- [x] Se elimina render duplicado de destacados/ofertas en paginas de linea/store.
+- [x] Se conserva una sola grilla de resultados.
+- [x] Cards mantienen media 1:1.
+- [x] No se modifican precios, monedas, fechas, imagenes ni datos comerciales.
+- [x] No se modifican metadatos SEO.
+- [x] CSS ajustado para evitar cinco columnas visuales.
+- [x] Versionado de CSS y JS aplicado en paginas de alcance para GitHub Pages.
+- [x] Validado en 390x844.
+- [x] Validado en 768x1024.
+- [x] Validado en 1366x768.
+- [x] Validado en 1920x1080.
+- [x] Validacion especifica TW Educa: OpenFOAM, QGIS, Realidad Virtual, AutoCAD y Python.
+- [x] Validacion de categoria, rango de precio y ordenamiento.
+- [x] Enlaces de detalle y WhatsApp presentes.
+- [x] Sin errores de consola detectados.
+- [x] Servidor local usado para validar.
+- [ ] Revision visual humana final.
+- [ ] Commit y push, solo si el usuario lo solicita.

@@ -284,7 +284,7 @@
       status: root.querySelector("[data-commerce-status]")?.value || "",
       minPrice: root.querySelector("[data-commerce-min]")?.value || "",
       maxPrice: root.querySelector("[data-commerce-max]")?.value || "",
-      search: root.querySelector("[data-commerce-search-main]")?.value || "",
+      search: root.querySelector("[data-commerce-search-main]")?.value || root.querySelector("[data-commerce-search]")?.value || "",
       sort: root.querySelector("[data-commerce-sort]")?.value || "destacados"
     };
   }
@@ -312,9 +312,7 @@
     const hasActiveFilter = Boolean(filters.search || filters.line || filters.category || filters.currency || filters.status || filters.minPrice || filters.maxPrice);
     const results = root.dataset.catalogMode === "home" && !hasActiveFilter ? filtered.slice(0, 12) : filtered;
     renderResults(root, results);
-    if (root.dataset.catalogMode === "home") {
-      renderHighlights(root, applyFilters(state.items, { fixedLine: filters.fixedLine }));
-    }
+    renderHighlights(root, applyFilters(state.items, { fixedLine: filters.fixedLine }));
   }
 
   function controls(root, items) {
@@ -332,6 +330,10 @@
 
     return `
       <div class="commerce-toolbar" data-commerce-controls>
+        <label class="select-filter commerce-search">
+          <span>Buscar</span>
+          <input type="search" data-commerce-search placeholder="Producto, servicio, curso, proyecto...">
+        </label>
         ${lineFilter}
         <label class="select-filter">
           <span>Categoría</span>
@@ -356,7 +358,7 @@
         <label class="select-filter">
           <span>Ordenar</span>
           <select data-commerce-sort>
-            <option value="destacados">Prioridad comercial</option>
+            <option value="destacados">Destacados primero</option>
             <option value="ofertas">Ofertas primero</option>
             <option value="precio-asc">Precio menor a mayor</option>
             <option value="precio-desc">Precio mayor a menor</option>
@@ -387,74 +389,6 @@
       .join("");
   }
 
-  function leftPanel(fixedLine, mode) {
-    const current = fixedLine || "tw-store";
-    const links = [
-      ["Inicio comercial", "store/index.html"],
-      ["Buscador global", "index.html#buscador-global"],
-      ["Lineas de negocio", "index.html#lineas"],
-      ["Cursos/productos", "catalogo/cursos.html"],
-      ["Software", "innova/index.html"],
-      ["Servicios", "interactive/index.html"],
-      ["Materiales", "catalogo/materiales-educativos.html"],
-      ["Compendios", "catalogo/compendios.html"],
-      ["Contacto", "index.html#contacto"]
-    ];
-    const title = mode === "store" ? "Navegacion" : LINE_LABELS[current] || "Navegacion";
-    return `
-      <nav class="commerce-nav-panel" aria-label="Navegacion comercial de la linea">
-        <h2>${escapeHtml(title)}</h2>
-        ${links.map(([label, href]) => `<a href="${localPath(href)}">${escapeHtml(label)}</a>`).join("")}
-      </nav>`;
-  }
-
-  function commerceActions() {
-    return `
-      <button type="button" data-commerce-copy>Copiar enlace</button>
-      <button type="button" data-commerce-share>Compartir pagina</button>`;
-  }
-
-  function rightPanel(slug, mode) {
-    const current = slug || "tw-store";
-    const copy = LINE_PANEL_COPY[current] || LINE_PANEL_COPY["tw-store"];
-    const resourceSlug = mode === "store" ? "tw-store" : current;
-    return `
-      <aside class="commerce-aside">
-        <article class="quick-panel-card">
-          <h2>Acciones comerciales</h2>
-          <p>${escapeHtml(copy.action)}</p>
-          <div class="quick-link-grid">
-            <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            <a href="mailto:grupotecprog@gmail.com">Enviar correo</a>
-            ${commerceActions()}
-            <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">Cotizar</a>
-          </div>
-        </article>
-        <article class="quick-panel-card">
-          <h2>${escapeHtml(copy.quickTitle)}</h2>
-          <div class="quick-link-grid">
-            ${resourceLinks(resourceSlug)}
-            <a href="${localPath("pagos/peru.html")}">Pagos Peru</a>
-            <a href="${localPath("pagos/internacionales.html")}">Pagos Internacionales</a>
-          </div>
-        </article>
-        <article class="quick-panel-card">
-          <h2>Confianza comercial</h2>
-          <p>Coordinamos alcance, precio, disponibilidad y condiciones antes de cualquier pago.</p>
-        </article>
-      </aside>`;
-  }
-
-  function resultsPanel(root, title, subtitle, fixedLine, items) {
-    return `
-      <section class="commerce-results">
-        ${centralSearch(title, subtitle, fixedLine)}
-        ${controls(root, items)}
-        <div class="commerce-section-head"><strong data-commerce-count></strong></div>
-        <div class="commerce-grid" data-commerce-results></div>
-      </section>`;
-  }
-
   async function render(root) {
     const items = await loadItems();
     const mode = root.dataset.catalogMode || "full";
@@ -472,7 +406,6 @@
             <h2>${escapeHtml(title)}</h2>
             <p>${escapeHtml(subtitle)}</p>
           </div>
-          ${centralSearch(title, subtitle, fixedLine)}
           ${controls(root, items)}
           <h3 class="commerce-subtitle">Ofertas destacadas</h3>
           <div class="commerce-grid is-compact" data-commerce-offers></div>
@@ -483,36 +416,83 @@
           <div class="commerce-grid is-compact" data-commerce-results></div>
         </div>`;
     } else if (mode === "store") {
+      const copy = LINE_PANEL_COPY["tw-store"];
       root.innerHTML = `
-        ${leftPanel("", mode)}
-        ${resultsPanel(root, title, subtitle, fixedLine, items)}
-        ${rightPanel("tw-store", mode)}`;
+        <aside class="commerce-filters commerce-left-panel">
+          <h2>Panel comercial</h2>
+          ${controls(root, items)}
+          <article class="quick-panel-card">
+            <h2>Cotización</h2>
+            <p>${escapeHtml(copy.action)}</p>
+            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          </article>
+          <article class="quick-panel-card">
+            <h2>Pagos</h2>
+            <div class="quick-link-grid">
+              <a href="${localPath("pagos/peru.html")}">Pagos Perú</a>
+              <a href="${localPath("pagos/internacionales.html")}">Internacional</a>
+            </div>
+          </article>
+          <article class="quick-panel-card">
+            <h2>Aviso</h2>
+            <p>Precios, disponibilidad, garantía y envío sujetos a confirmación.</p>
+          </article>
+        </aside>
+        <section class="commerce-results">
+          ${centralSearch(title, subtitle, fixedLine)}
+          <div class="commerce-section-head"><strong data-commerce-count></strong></div>
+          <h3 class="commerce-subtitle">Ofertas destacadas</h3>
+          <div class="commerce-grid is-compact" data-commerce-offers></div>
+          <h3 class="commerce-subtitle">Productos y servicios destacados</h3>
+          <div class="commerce-grid is-compact" data-commerce-featured></div>
+          <h3 class="commerce-subtitle">Catálogo completo</h3>
+          <div class="commerce-grid" data-commerce-results></div>
+        </section>
+        <aside class="commerce-aside">
+          <article class="quick-panel-card">
+            <h2>Acciones rápidas</h2>
+            <div class="quick-link-grid">
+              ${resourceLinks("tw-store")}
+            </div>
+          </article>
+          <article class="quick-panel-card"><h2>Aviso comercial</h2><p>Precios, disponibilidad, garantía, alcance y envío sujetos a confirmación.</p></article>
+        </aside>`;
     } else {
+      const copy = LINE_PANEL_COPY[fixedLine] || LINE_PANEL_COPY["tw-store"];
       root.innerHTML = `
-        ${leftPanel(fixedLine, mode)}
-        ${resultsPanel(root, title, subtitle, fixedLine, visibleItems)}
-        ${rightPanel(fixedLine, mode)}`;
+        <aside class="commerce-filters commerce-left-panel">
+          <h2>Panel comercial</h2>
+          ${controls(root, visibleItems)}
+          <article class="quick-panel-card">
+            <h2>Solicitar alcance</h2>
+            <p>${escapeHtml(copy.action)}</p>
+            <a class="btn btn-gold" href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">Cotizar</a>
+          </article>
+          <article class="quick-panel-card"><h2>Aviso comercial</h2><p>${NOTICE}</p></article>
+        </aside>
+        <section class="commerce-results">
+          ${centralSearch(title, subtitle, fixedLine)}
+          <div class="commerce-section-head"><strong data-commerce-count></strong></div>
+          <h3 class="commerce-subtitle">Destacados</h3>
+          <div class="commerce-grid is-compact" data-commerce-featured></div>
+          <h3 class="commerce-subtitle">Resultados</h3>
+          <div class="commerce-grid" data-commerce-results></div>
+        </section>
+        <aside class="commerce-aside">
+          <article class="quick-panel-card">
+            <h2>${escapeHtml(copy.quickTitle)}</h2>
+            <div class="quick-link-grid">
+              <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a href="mailto:grupotecprog@gmail.com">Enviar correo</a>
+              ${resourceLinks(fixedLine)}
+            </div>
+          </article>
+          <article class="quick-panel-card"><h2>Confianza comercial</h2><p>Coordinamos alcance, precio, disponibilidad y condiciones antes de cualquier pago.</p></article>
+        </aside>`;
     }
 
     root.addEventListener("input", () => update(root));
     root.addEventListener("change", () => update(root));
-    root.addEventListener("click", async (event) => {
-      const copyButton = event.target.closest("[data-commerce-copy]");
-      if (copyButton) {
-        await navigator.clipboard.writeText(location.href);
-        copyButton.textContent = "Enlace copiado";
-      }
-
-      const shareButton = event.target.closest("[data-commerce-share]");
-      if (shareButton) {
-        if (navigator.share) {
-          await navigator.share({ title: document.title, url: location.href });
-        } else {
-          await navigator.clipboard.writeText(location.href);
-          shareButton.textContent = "Enlace copiado";
-        }
-      }
-    });
     update(root);
   }
 
