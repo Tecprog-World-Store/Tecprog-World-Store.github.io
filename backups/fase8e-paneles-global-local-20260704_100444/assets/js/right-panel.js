@@ -1,9 +1,3 @@
-function globalSidebarsDisabled() {
-  return document.body?.dataset.disableGlobalSidebars === "true" ||
-    document.body?.dataset.layoutMode === "commercial-local-panels" ||
-    document.querySelector("[data-disable-global-sidebars='true'], [data-commerce-panel-strategy='local']");
-}
-
 function ensureThreeColumnShell(main) {
   let shell = main.querySelector(":scope > .page-shell-three-columns");
   if (shell) return shell;
@@ -34,10 +28,6 @@ function ensureThreeColumnShell(main) {
 }
 
 function renderRightPanel(force = false) {
-  if (globalSidebarsDisabled()) {
-    document.querySelectorAll(".side-panel-right").forEach((panel) => panel.remove());
-    return;
-  }
   document.querySelectorAll(".with-side-nav").forEach((main) => {
     const shell = ensureThreeColumnShell(main);
     if (force) shell.querySelector(".side-panel-right")?.remove();

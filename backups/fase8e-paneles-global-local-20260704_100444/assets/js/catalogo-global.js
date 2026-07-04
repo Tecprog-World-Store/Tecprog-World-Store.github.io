@@ -220,6 +220,7 @@
           <img src="${image}" alt="${escapeHtml(item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';">
           <div class="commerce-badge-row">
             ${item.oferta ? '<span class="commerce-badge is-offer">Oferta</span>' : ""}
+            ${item.destacado ? '<span class="commerce-badge is-featured">Destacado</span>' : ""}
           </div>
         </div>
         <div class="commerce-card-body">

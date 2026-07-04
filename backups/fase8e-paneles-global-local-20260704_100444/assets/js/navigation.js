@@ -27,12 +27,6 @@ function twAppContentTarget() {
   return document.querySelector("#app-content, [data-app-content], .page-main");
 }
 
-function twGlobalSidebarsDisabled() {
-  return document.body?.dataset.disableGlobalSidebars === "true" ||
-    document.body?.dataset.layoutMode === "commercial-local-panels" ||
-    document.querySelector("[data-disable-global-sidebars='true'], [data-commerce-panel-strategy='local']");
-}
-
 function twShouldBypassProgressiveNavigation(link, event) {
   if (!link || event.defaultPrevented) return true;
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return true;
@@ -137,7 +131,7 @@ async function twLoadPageScripts(doc, url) {
 async function twRehydrateProgressiveContent() {
   try {
     if (typeof renderStandardTopNav === "function") renderStandardTopNav();
-    if (!twGlobalSidebarsDisabled() && typeof renderRightPanel === "function") renderRightPanel(true);
+    if (typeof renderRightPanel === "function") renderRightPanel(true);
     if (typeof setupMobileSideIndex === "function") setupMobileSideIndex();
     if (typeof twExternalAttrs === "function") twExternalAttrs();
     if (typeof setupPayPalButtons === "function") setupPayPalButtons();
