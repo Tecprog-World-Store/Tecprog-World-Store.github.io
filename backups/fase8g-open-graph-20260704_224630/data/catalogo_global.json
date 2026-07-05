@@ -1859,15 +1859,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/realidad-virtual-unity-meta-quest/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-01&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "realidad-virtual-unity-meta-quest",
-    "url_publica": "cursos/realidad-virtual-unity-meta-quest/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-02",
@@ -1932,15 +1929,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/programacion-autocad-csharp/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-02&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación para AutoCAD con C# y Visual Studio. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "programacion-autocad-csharp",
-    "url_publica": "cursos/programacion-autocad-csharp/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-03",
@@ -2005,15 +1999,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/qgis-python-plugins/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-03&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación en QGIS con Python para creación de plugins. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "qgis-python-plugins",
-    "url_publica": "cursos/qgis-python-plugins/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-04",
@@ -2078,15 +2069,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/ia-offline-python-ollama-pyside/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-04&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Software de IA Offline con Python, Ollama y PySide. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "ia-offline-python-ollama-pyside",
-    "url_publica": "cursos/ia-offline-python-ollama-pyside/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-05",
@@ -2151,15 +2139,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/geoportales-web-gis-python-geoserver/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-05&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Geoportales Web GIS con Python y GeoServer. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "geoportales-web-gis-python-geoserver",
-    "url_publica": "cursos/geoportales-web-gis-python-geoserver/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-06",
@@ -2224,15 +2209,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/latex-texmaker-investigacion/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-06&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de LaTeX y Texmaker para Investigación Científica. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "latex-texmaker-investigacion",
-    "url_publica": "cursos/latex-texmaker-investigacion/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-07",
@@ -2297,15 +2279,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/machine-learning-mecanica-fluidos/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-07&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Machine Learning aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "machine-learning-mecanica-fluidos",
-    "url_publica": "cursos/machine-learning-mecanica-fluidos/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-08",
@@ -2370,15 +2349,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/cfd-openfoam-wsl/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-08&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "cfd-openfoam-wsl",
-    "url_publica": "cursos/cfd-openfoam-wsl/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-09",
@@ -2443,15 +2419,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cloud-computing-para-openfoam.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/cloud-computing-openfoam/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-09&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Cloud Computing para OpenFOAM. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "cloud-computing-openfoam",
-    "url_publica": "cursos/cloud-computing-openfoam/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-cloud-computing-para-openfoam.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-10",
@@ -2516,15 +2489,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/datos-climaticos-oceanograficos-python/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-10&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Datos Climáticos y Oceanográficos con Python. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "datos-climaticos-oceanograficos-python",
-    "url_publica": "cursos/datos-climaticos-oceanograficos-python/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-11",
@@ -2589,15 +2559,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/cpp-mecanica-fluidos/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-11&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de C++ aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "cpp-mecanica-fluidos",
-    "url_publica": "cursos/cpp-mecanica-fluidos/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-12",
@@ -2662,15 +2629,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/apps-moviles-flutter-mecanica-fluidos/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-12&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "apps-moviles-flutter-mecanica-fluidos",
-    "url_publica": "cursos/apps-moviles-flutter-mecanica-fluidos/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-13",
@@ -2735,15 +2699,12 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/vision-artificial-rios-canales/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-13&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Visión Artificial aplicada a Ríos y Canales. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "vision-artificial-rios-canales",
-    "url_publica": "cursos/vision-artificial-rios-canales/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales.webp"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-14",
@@ -2808,14 +2769,11 @@
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
-    "url_detalle": "cursos/programacion-gpu-nvidia-cfd/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-14&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación GPU NVIDIA aplicada a CFD. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "slug": "programacion-gpu-nvidia-cfd",
-    "url_publica": "cursos/programacion-gpu-nvidia-cfd/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd.webp"
+    "visible_cliente": true
   }
 ]

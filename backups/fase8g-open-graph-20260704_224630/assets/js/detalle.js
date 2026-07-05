@@ -3,10 +3,10 @@ const PAYPAL_URL_DETAIL = "https://www.paypal.com/paypalme/grupotecprog";
 const EDUCA_PRICE_NOTE = "Puedes revisar material introductorio gratuito. La certificación, evaluación, clases en vivo o acompañamiento especializado tienen costo.";
 
 const DETAIL_SOURCES = [
-  { url: "/data/cursos_tw_educa.json", type: "tw-educa-vivo" },
-  { url: "/data/catalogo-general-cursos.json", type: "general" },
-  { url: "/data/cursos/2026-06.json", type: "periodo" },
-  { url: "/data/cursos.json", type: "base" },
+  { url: "../data/cursos_tw_educa.json", type: "tw-educa-vivo" },
+  { url: "../data/catalogo-general-cursos.json", type: "general" },
+  { url: "../data/cursos/2026-06.json", type: "periodo" },
+  { url: "../data/cursos.json", type: "base" },
 ];
 
 function esc(value) {
@@ -27,9 +27,8 @@ function slugifyDetail(text) {
 }
 
 function asset(path) {
-  if (!path) return "/assets/img/cursos/capacitacion-empresarial.svg";
-  if (/^(https?:)?\/\//.test(path) || path.startsWith("/")) return path;
-  return `/${path.replace(/^(\.\.\/)+/, "")}`;
+  if (!path) return "../assets/img/cursos/capacitacion-empresarial.svg";
+  return path.startsWith("../") ? path : `../${path}`;
 }
 
 function detailWhatsapp(message) {
@@ -69,9 +68,8 @@ function normalizeCourse(item, sourceType) {
       includes: item.incluye || [],
       certification: "Certificado físico y firmado por Tecprog World E.I.R.L., según asistencia, modalidad y cumplimiento acordado.",
       image: item.imagen,
-      urlPublica: item.url_publica,
       whatsappMessage: item.whatsapp_mensaje,
-      backHref: "/educa/index.html",
+      backHref: "../educa/index.html",
       backLabel: "Volver a TW Educa",
       startDate: item.fecha_inicio_publica,
       schedule: item.cronograma || [],
@@ -82,7 +80,7 @@ function normalizeCourse(item, sourceType) {
       benefits: item.beneficios || [],
       finalProject: item.proyecto_final,
       faq: item.faq || [],
-      relatedHref: "/educa/index.html",
+      relatedHref: "../educa/index.html",
       seoDescription: item.seo?.description || item.descripcion_corta,
       ogImage: item.seo?.og_image || item.imagen,
     };
@@ -251,8 +249,8 @@ async function renderDetail() {
   if (!root) return;
 
   const params = new URLSearchParams(window.location.search);
-  const id = root.dataset.courseId || params.get("id") || "qgis-basico";
-  const catalog = root.dataset.catalog || params.get("catalogo") || "";
+  const id = params.get("id") || "qgis-basico";
+  const catalog = params.get("catalogo") || "";
   const current = await findCourse(id, catalog);
 
   if (!current) {
@@ -262,20 +260,17 @@ async function renderDetail() {
 
   document.title = `${current.title} | Tecprog World E.I.R.L.`;
   const publicUrl = `https://tecprog-world-store.github.io/detalle/curso.html?id=${encodeURIComponent(current.id)}&catalogo=${encodeURIComponent(current.sourceType)}`;
-  const canonicalUrl = current.urlPublica
-    ? `https://tecprog-world-store.github.io/${current.urlPublica.replace(/^\/+/, "")}`
-    : publicUrl;
   const metaDescription = current.seoDescription || current.shortDescription;
   const metaImage = asset(current.ogImage || current.image);
   setMeta('meta[name="description"]', "content", metaDescription);
   setMeta('meta[property="og:title"]', "content", `${current.title} | TW Educa`);
   setMeta('meta[property="og:description"]', "content", metaDescription);
   setMeta('meta[property="og:image"]', "content", metaImage);
-  setMeta('meta[property="og:url"]', "content", canonicalUrl);
+  setMeta('meta[property="og:url"]', "content", publicUrl);
   setMeta('meta[name="twitter:title"]', "content", `${current.title} | TW Educa`);
   setMeta('meta[name="twitter:description"]', "content", metaDescription);
   setMeta('meta[name="twitter:image"]', "content", metaImage);
-  setCanonical(canonicalUrl);
+  setCanonical(publicUrl);
   root.innerHTML = `
     <section class="detail-hero">
       <div class="section-shell detail-hero-grid">

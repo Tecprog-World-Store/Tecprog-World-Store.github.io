@@ -1,15 +1,93 @@
 [
   {
-    "titulo": "Inicio",
-    "ruta": "index.html",
-    "descripcion": "Home comercial con buscador global de Tecprog World.",
-    "tipo": "home"
+    "titulo": "TW Construye",
+    "ruta": "construye/index.html",
+    "descripcion": "Construcción civil, remodelaciones y asistencia técnica.",
+    "tipo": "línea"
   },
   {
-    "titulo": "TW Store",
-    "ruta": "store/index.html",
-    "descripcion": "Catálogo global de productos, servicios, cursos y proyectos cotizables.",
-    "tipo": "catálogo"
+    "titulo": "Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart",
+    "ruta": "cursos/apps-moviles-flutter-mecanica-fluidos/",
+    "descripcion": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL",
+    "ruta": "cursos/cfd-openfoam-wsl/",
+    "descripcion": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Cloud Computing para OpenFOAM",
+    "ruta": "cursos/cloud-computing-openfoam/",
+    "descripcion": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de C++ aplicado a Mecánica de Fluidos",
+    "ruta": "cursos/cpp-mecanica-fluidos/",
+    "descripcion": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Datos Climáticos y Oceanográficos con Python",
+    "ruta": "cursos/datos-climaticos-oceanograficos-python/",
+    "descripcion": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Geoportales Web GIS con Python y GeoServer",
+    "ruta": "cursos/geoportales-web-gis-python-geoserver/",
+    "descripcion": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Software de IA Offline con Python, Ollama y PySide",
+    "ruta": "cursos/ia-offline-python-ollama-pyside/",
+    "descripcion": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de LaTeX y Texmaker para Investigación Científica",
+    "ruta": "cursos/latex-texmaker-investigacion/",
+    "descripcion": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Machine Learning aplicado a Mecánica de Fluidos",
+    "ruta": "cursos/machine-learning-mecanica-fluidos/",
+    "descripcion": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Programación para AutoCAD con C# y Visual Studio",
+    "ruta": "cursos/programacion-autocad-csharp/",
+    "descripcion": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Programación GPU NVIDIA aplicada a CFD",
+    "ruta": "cursos/programacion-gpu-nvidia-cfd/",
+    "descripcion": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Programación en QGIS con Python para creación de plugins",
+    "ruta": "cursos/qgis-python-plugins/",
+    "descripcion": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3",
+    "ruta": "cursos/realidad-virtual-unity-meta-quest/",
+    "descripcion": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
+  },
+  {
+    "titulo": "Curso práctico de Visión Artificial aplicada a Ríos y Canales",
+    "ruta": "cursos/vision-artificial-rios-canales/",
+    "descripcion": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
+    "tipo": "curso"
   },
   {
     "titulo": "TW Disfruta",
@@ -24,54 +102,6 @@
     "tipo": "línea"
   },
   {
-    "titulo": "TW Innova",
-    "ruta": "innova/index.html",
-    "descripcion": "Software, hardware, automatización, domótica y soporte tecnológico.",
-    "tipo": "línea"
-  },
-  {
-    "titulo": "TW Salud",
-    "ruta": "salud/index.html",
-    "descripcion": "Tecnología médica, accesibilidad y soluciones biomédicas.",
-    "tipo": "línea"
-  },
-  {
-    "titulo": "TW Interactive",
-    "ruta": "interactive/index.html",
-    "descripcion": "Ingeniería, hidrología, hidráulica, CFD y consultoría técnica.",
-    "tipo": "línea"
-  },
-  {
-    "titulo": "TW Construye",
-    "ruta": "construye/index.html",
-    "descripcion": "Construcción civil, remodelaciones y asistencia técnica.",
-    "tipo": "línea"
-  },
-  {
-    "titulo": "TW Inox",
-    "ruta": "inox/index.html",
-    "descripcion": "Metales, acero inoxidable, estructuras y metalmecánica.",
-    "tipo": "línea"
-  },
-  {
-    "titulo": "TW Investiga",
-    "ruta": "investiga/index.html",
-    "descripcion": "Investigación científica y tecnológica aplicada.",
-    "tipo": "línea"
-  },
-  {
-    "titulo": "Pagos Perú",
-    "ruta": "pagos/peru.html",
-    "descripcion": "Medios de pago nacionales.",
-    "tipo": "pagos"
-  },
-  {
-    "titulo": "Pagos Internacionales",
-    "ruta": "pagos/internacionales.html",
-    "descripcion": "Medios de pago para clientes internacionales.",
-    "tipo": "pagos"
-  },
-  {
     "titulo": "Contacto",
     "ruta": "empresa/contacto.html",
     "descripcion": "Canales oficiales de contacto de Tecprog World.",
@@ -82,5 +112,59 @@
     "ruta": "empresa/nosotros.html",
     "descripcion": "Información institucional de Tecprog World E.I.R.L.",
     "tipo": "empresa"
+  },
+  {
+    "titulo": "Inicio",
+    "ruta": "index.html",
+    "descripcion": "Home comercial con buscador global de Tecprog World.",
+    "tipo": "home"
+  },
+  {
+    "titulo": "TW Innova",
+    "ruta": "innova/index.html",
+    "descripcion": "Software, hardware, automatización, domótica y soporte tecnológico.",
+    "tipo": "línea"
+  },
+  {
+    "titulo": "TW Inox",
+    "ruta": "inox/index.html",
+    "descripcion": "Metales, acero inoxidable, estructuras y metalmecánica.",
+    "tipo": "línea"
+  },
+  {
+    "titulo": "TW Interactive",
+    "ruta": "interactive/index.html",
+    "descripcion": "Ingeniería, hidrología, hidráulica, CFD y consultoría técnica.",
+    "tipo": "línea"
+  },
+  {
+    "titulo": "TW Investiga",
+    "ruta": "investiga/index.html",
+    "descripcion": "Investigación científica y tecnológica aplicada.",
+    "tipo": "línea"
+  },
+  {
+    "titulo": "Pagos Internacionales",
+    "ruta": "pagos/internacionales.html",
+    "descripcion": "Medios de pago para clientes internacionales.",
+    "tipo": "pagos"
+  },
+  {
+    "titulo": "Pagos Perú",
+    "ruta": "pagos/peru.html",
+    "descripcion": "Medios de pago nacionales.",
+    "tipo": "pagos"
+  },
+  {
+    "titulo": "TW Salud",
+    "ruta": "salud/index.html",
+    "descripcion": "Tecnología médica, accesibilidad y soluciones biomédicas.",
+    "tipo": "línea"
+  },
+  {
+    "titulo": "TW Store",
+    "ruta": "store/index.html",
+    "descripcion": "Catálogo global de productos, servicios, cursos y proyectos cotizables.",
+    "tipo": "catálogo"
   }
 ]

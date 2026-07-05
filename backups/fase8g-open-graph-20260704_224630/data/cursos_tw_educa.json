@@ -1,7 +1,7 @@
 [
   {
     "id": "tw-educa-curso-01",
-    "slug": "realidad-virtual-unity-meta-quest",
+    "slug": "curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Realidad Virtual",
@@ -115,13 +115,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3.webp",
-    "url_detalle": "cursos/realidad-virtual-unity-meta-quest/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-01&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3 | TW Educa",
       "description": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/realidad-virtual-unity-meta-quest/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3.webp"
     },
     "tags": [
       "android",
@@ -158,17 +157,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/realidad-virtual-unity-meta-quest/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-02",
-    "slug": "programacion-autocad-csharp",
+    "slug": "curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "AutoCAD",
@@ -282,13 +275,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio.webp",
-    "url_detalle": "cursos/programacion-autocad-csharp/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-02&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación para AutoCAD con C# y Visual Studio. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Programación para AutoCAD con C# y Visual Studio | TW Educa",
       "description": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/programacion-autocad-csharp/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio.webp"
     },
     "tags": [
       "2022",
@@ -325,17 +317,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/programacion-autocad-csharp/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-para-autocad-con-csharp-y-visual-studio.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-03",
-    "slug": "qgis-python-plugins",
+    "slug": "curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "GIS",
@@ -449,13 +435,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins.webp",
-    "url_detalle": "cursos/qgis-python-plugins/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-03&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación en QGIS con Python para creación de plugins. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Programación en QGIS con Python para creación de plugins | TW Educa",
       "description": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/qgis-python-plugins/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins.webp"
     },
     "tags": [
       "con",
@@ -492,17 +477,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/qgis-python-plugins/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-04",
-    "slug": "ia-offline-python-ollama-pyside",
+    "slug": "curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Inteligencia Artificial",
@@ -616,13 +595,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside.webp",
-    "url_detalle": "cursos/ia-offline-python-ollama-pyside/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-04&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Software de IA Offline con Python, Ollama y PySide. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Software de IA Offline con Python, Ollama y PySide | TW Educa",
       "description": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/ia-offline-python-ollama-pyside/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside.webp"
     },
     "tags": [
       "api",
@@ -659,17 +637,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/ia-offline-python-ollama-pyside/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-05",
-    "slug": "geoportales-web-gis-python-geoserver",
+    "slug": "curso-practico-de-geoportales-web-gis-con-python-y-geoserver",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "GIS",
@@ -784,13 +756,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver.webp",
-    "url_detalle": "cursos/geoportales-web-gis-python-geoserver/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-05&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Geoportales Web GIS con Python y GeoServer. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Geoportales Web GIS con Python y GeoServer | TW Educa",
       "description": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/geoportales-web-gis-python-geoserver/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver.webp"
     },
     "tags": [
       "con",
@@ -827,17 +798,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/geoportales-web-gis-python-geoserver/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-06",
-    "slug": "latex-texmaker-investigacion",
+    "slug": "curso-practico-de-latex-y-texmaker-para-investigacion-cientifica",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Redacción técnica",
@@ -953,13 +918,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica.webp",
-    "url_detalle": "cursos/latex-texmaker-investigacion/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-06&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de LaTeX y Texmaker para Investigación Científica. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de LaTeX y Texmaker para Investigación Científica | TW Educa",
       "description": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/latex-texmaker-investigacion/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica.webp"
     },
     "tags": [
       "beamer",
@@ -1002,17 +966,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/latex-texmaker-investigacion/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-07",
-    "slug": "machine-learning-mecanica-fluidos",
+    "slug": "curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Inteligencia Artificial",
@@ -1127,13 +1085,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos.webp",
-    "url_detalle": "cursos/machine-learning-mecanica-fluidos/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-07&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Machine Learning aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Machine Learning aplicado a Mecánica de Fluidos | TW Educa",
       "description": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/machine-learning-mecanica-fluidos/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos.webp"
     },
     "tags": [
       "aplicado",
@@ -1176,17 +1133,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/machine-learning-mecanica-fluidos/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-08",
-    "slug": "cfd-openfoam-wsl",
+    "slug": "curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Simulación",
@@ -1301,13 +1252,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl.webp",
-    "url_detalle": "cursos/cfd-openfoam-wsl/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-08&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL | TW Educa",
       "description": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/cfd-openfoam-wsl/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl.webp"
     },
     "tags": [
       "cfd",
@@ -1350,17 +1300,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/cfd-openfoam-wsl/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-09",
-    "slug": "cloud-computing-openfoam",
+    "slug": "curso-practico-de-cloud-computing-para-openfoam",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Simulación",
@@ -1475,13 +1419,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cloud-computing-para-openfoam.webp",
-    "url_detalle": "cursos/cloud-computing-openfoam/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-09&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Cloud Computing para OpenFOAM. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Cloud Computing para OpenFOAM | TW Educa",
       "description": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-cloud-computing-para-openfoam.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/cloud-computing-openfoam/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-cloud-computing-para-openfoam.webp"
     },
     "tags": [
       "aws",
@@ -1524,17 +1467,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/cloud-computing-openfoam/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-cloud-computing-para-openfoam.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-10",
-    "slug": "datos-climaticos-oceanograficos-python",
+    "slug": "curso-practico-de-datos-climaticos-y-oceanograficos-con-python",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Programación",
@@ -1651,13 +1588,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python.webp",
-    "url_detalle": "cursos/datos-climaticos-oceanograficos-python/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-10&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Datos Climáticos y Oceanográficos con Python. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Datos Climáticos y Oceanográficos con Python | TW Educa",
       "description": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/datos-climaticos-oceanograficos-python/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python.webp"
     },
     "tags": [
       "cfgrib",
@@ -1700,17 +1636,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/datos-climaticos-oceanograficos-python/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-11",
-    "slug": "cpp-mecanica-fluidos",
+    "slug": "curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Programación",
@@ -1824,13 +1754,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos.webp",
-    "url_detalle": "cursos/cpp-mecanica-fluidos/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-11&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de C++ aplicado a Mecánica de Fluidos. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de C++ aplicado a Mecánica de Fluidos | TW Educa",
       "description": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/cpp-mecanica-fluidos/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos.webp"
     },
     "tags": [
       "2022",
@@ -1873,17 +1802,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/cpp-mecanica-fluidos/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-cpp-aplicado-a-mecanica-de-fluidos.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-12",
-    "slug": "apps-moviles-flutter-mecanica-fluidos",
+    "slug": "curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Desarrollo móvil",
@@ -1997,13 +1920,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart.webp",
-    "url_detalle": "cursos/apps-moviles-flutter-mecanica-fluidos/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-12&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart | TW Educa",
       "description": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/apps-moviles-flutter-mecanica-fluidos/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart.webp"
     },
     "tags": [
       "android",
@@ -2046,17 +1968,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/apps-moviles-flutter-mecanica-fluidos/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-13",
-    "slug": "vision-artificial-rios-canales",
+    "slug": "curso-practico-de-vision-artificial-aplicada-a-rios-y-canales",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Tecnología",
@@ -2172,13 +2088,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales.webp",
-    "url_detalle": "cursos/vision-artificial-rios-canales/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-13&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Visión Artificial aplicada a Ríos y Canales. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Visión Artificial aplicada a Ríos y Canales | TW Educa",
       "description": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/vision-artificial-rios-canales/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales.webp"
     },
     "tags": [
       "aplicada",
@@ -2221,17 +2136,11 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/vision-artificial-rios-canales/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   },
   {
     "id": "tw-educa-curso-14",
-    "slug": "programacion-gpu-nvidia-cfd",
+    "slug": "curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
     "categoria": "Simulación",
@@ -2347,13 +2256,12 @@
       }
     ],
     "imagen": "assets/img/educa/cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd.webp",
-    "url_detalle": "cursos/programacion-gpu-nvidia-cfd/",
+    "url_detalle": "detalle/curso.html?id=tw-educa-curso-14&catalogo=tw-educa-vivo",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el curso Curso práctico de Programación GPU NVIDIA aplicada a CFD. ¿Me pueden confirmar fecha de inicio, costo, modalidad y cronograma?",
     "seo": {
       "title": "Curso práctico de Programación GPU NVIDIA aplicada a CFD | TW Educa",
       "description": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos. Curso técnico online en Perú con cronograma, temario y consulta por WhatsApp.",
-      "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd.webp",
-      "canonical_url": "https://tecprog-world-store.github.io/cursos/programacion-gpu-nvidia-cfd/"
+      "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd.webp"
     },
     "tags": [
       "2022",
@@ -2396,12 +2304,6 @@
       }
     ],
     "fecha_actualizacion": "2026-07-04",
-    "visible_cliente": true,
-    "url_publica": "cursos/programacion-gpu-nvidia-cfd/",
-    "og_image": "assets/img/educa/cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd.webp",
-    "og_image_width": 1200,
-    "og_image_height": 1200,
-    "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "visible_cliente": true
   }
 ]
