@@ -32,6 +32,12 @@ function asset(path) {
   return `/${path.replace(/^(\.\.\/)+/, "")}`;
 }
 
+function absoluteDetailUrl(path) {
+  if (!path) return "";
+  if (/^https?:\/\//.test(path)) return path;
+  return `https://tecprog-world-store.github.io${asset(path)}`;
+}
+
 function detailWhatsapp(message) {
   return `https://wa.me/${WHATSAPP_NUMBER_DETAIL}?text=${encodeURIComponent(message)}`;
 }
@@ -65,9 +71,10 @@ function normalizeCourse(item, sourceType) {
       shortDescription: item.descripcion_corta,
       longDescription: item.descripcion_larga,
       syllabus: item.temario_base || buildFallbackSyllabus(item.nombre, 16),
+      sessionSyllabus: item.temario_por_sesion || item.temario_base || [],
       audience: item.publico_objetivo || [],
       includes: item.incluye || [],
-      certification: "Certificado físico y firmado por Tecprog World E.I.R.L., según asistencia, modalidad y cumplimiento acordado.",
+      certification: item.certificacion || "Certificado físico y firmado por Tecprog World E.I.R.L., según asistencia, modalidad y cumplimiento acordado.",
       image: item.imagen,
       urlPublica: item.url_publica,
       whatsappMessage: item.whatsapp_mensaje,
@@ -76,9 +83,16 @@ function normalizeCourse(item, sourceType) {
       startDate: item.fecha_inicio_publica,
       schedule: item.cronograma || [],
       scheduleNote: item.nota_cronograma,
+      sessionCount: item.numero_sesiones,
+      scheduleText: item.horario,
       requirements: item.requisitos || [],
       learning: item.que_aprenderas || [],
+      outcomes: item.resultados_aprendizaje || [],
       tools: item.herramientas || [],
+      methodology: item.metodologia || [],
+      deliverables: item.entregables || [],
+      prices: item.precios || [],
+      legalNotice: item.marca_legal,
       benefits: item.beneficios || [],
       finalProject: item.proyecto_final,
       faq: item.faq || [],
@@ -236,6 +250,32 @@ function faqMarkup(items) {
     : "";
 }
 
+function investmentMarkup(items) {
+  if (!Array.isArray(items) || !items.length) return "";
+  return `
+    <article class="detail-block">
+      <h2>Inversion referencial</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Publico</th><th>Preventa</th><th>Lanzamiento</th><th>Regular</th></tr>
+          </thead>
+          <tbody>
+            ${items.map((item) => `
+              <tr>
+                <td>${esc(item.publico)}</td>
+                <td>S/ ${esc(item.preventa_soles)}</td>
+                <td>S/ ${esc(item.lanzamiento_soles)}</td>
+                <td>S/ ${esc(item.regular_soles)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    </article>
+  `;
+}
+
 function setMeta(selector, attr, value) {
   const tag = document.querySelector(selector);
   if (tag && value) tag.setAttribute(attr, value);
@@ -266,7 +306,7 @@ async function renderDetail() {
     ? `https://tecprog-world-store.github.io/${current.urlPublica.replace(/^\/+/, "")}`
     : publicUrl;
   const metaDescription = current.seoDescription || current.shortDescription;
-  const metaImage = asset(current.ogImage || current.image);
+  const metaImage = absoluteDetailUrl(current.ogImage || current.image);
   setMeta('meta[name="description"]', "content", metaDescription);
   setMeta('meta[property="og:title"]', "content", `${current.title} | TW Educa`);
   setMeta('meta[property="og:description"]', "content", metaDescription);
@@ -305,8 +345,12 @@ async function renderDetail() {
             <p>${esc(current.longDescription)}</p>
           </article>
           ${optionalList("Que aprenderas", current.learning)}
+          ${optionalList("Resultados de aprendizaje", current.outcomes)}
           ${optionalParagraph("Proyecto final", current.finalProject)}
+          ${optionalList("Entregables", current.deliverables)}
           ${optionalList("Herramientas y tecnologias", current.tools)}
+          ${optionalList("Metodologia", current.methodology)}
+          ${investmentMarkup(current.prices)}
           <article class="detail-block">
             <h2>Acceso gratuito y certificacion</h2>
             <p>${esc(current.priceNote)}</p>
@@ -337,6 +381,7 @@ async function renderDetail() {
             <p>${esc(current.certification)}</p>
           </article>
           ${faqMarkup(current.faq)}
+          ${optionalParagraph("Aviso sobre marcas y software", current.legalNotice)}
           <article class="detail-block">
             <h2>Cursos relacionados TW Educa</h2>
             <p>Explora otros cursos técnicos online en Perú sobre programación, GIS, simulación, inteligencia artificial y herramientas aplicadas.</p>
@@ -351,8 +396,10 @@ async function renderDetail() {
               <div><dt>Nivel</dt><dd>${esc(current.level)}</dd></div>
               <div><dt>Horas certificables</dt><dd>${esc(current.hours)}</dd></div>
               <div><dt>Duracion</dt><dd>${esc(current.duration)}</dd></div>
+              ${current.sessionCount ? `<div><dt>Sesiones</dt><dd>${esc(current.sessionCount)}</dd></div>` : ""}
               <div><dt>Modalidad</dt><dd>${esc(current.modality)}</dd></div>
               ${current.startDate ? `<div><dt>Inicio</dt><dd>${esc(current.startDate)}</dd></div>` : ""}
+              ${current.scheduleText ? `<div><dt>Horario</dt><dd>${esc(current.scheduleText)}</dd></div>` : ""}
               <div><dt>Acceso MOOC</dt><dd>${esc(current.moocText)}</dd></div>
               <div><dt>Certificado</dt><dd>${esc(current.certificateText)}</dd></div>
               <div><dt>Acceso completo</dt><dd>${esc(current.paidText)}</dd></div>

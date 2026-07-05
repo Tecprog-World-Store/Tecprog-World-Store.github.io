@@ -1,0 +1,27 @@
+MANIFIESTO DEL PAQUETE TECPROG WORLD
+================================================================================
+
+00_indice_cursos_tecprog_world.txt | 158 líneas | 6876 bytes
+15_curso_practico_de_costos_y_presupuestos_con_s10.txt | 214 líneas | 11826 bytes
+16_curso_practico_de_sap2000_para_analisis_estructural.txt | 214 líneas | 11370 bytes
+17_curso_practico_de_modelado_y_analisis_estructural_con_etabs.txt | 214 líneas | 11017 bytes
+18_curso_practico_de_autodesk_inventor_para_diseno_mecanico.txt | 214 líneas | 10844 bytes
+19_curso_practico_de_revit_para_modelado_bim.txt | 214 líneas | 10614 bytes
+20_curso_practico_de_excel_nivel_i.txt | 213 líneas | 10533 bytes
+21_curso_practico_de_excel_nivel_ii.txt | 213 líneas | 10457 bytes
+22_curso_practico_de_excel_nivel_iii.txt | 214 líneas | 10805 bytes
+23_curso_practico_de_autocad_nivel_i.txt | 214 líneas | 10057 bytes
+24_curso_practico_de_autocad_nivel_ii.txt | 214 líneas | 10346 bytes
+25_curso_practico_de_autocad_nivel_iii.txt | 214 líneas | 10429 bytes
+26_curso_practico_de_solidworks_para_diseno_3d.txt | 213 líneas | 10027 bytes
+27_curso_practico_de_freecad_para_diseno_3d.txt | 214 líneas | 10222 bytes
+28_curso_practico_de_matlab_y_octave_para_ingenieria.txt | 215 líneas | 10426 bytes
+29_curso_practico_de_python_basico.txt | 214 líneas | 10054 bytes
+30_curso_practico_de_python_poo.txt | 214 líneas | 10285 bytes
+31_curso_practico_de_python_web.txt | 216 líneas | 10068 bytes
+32_curso_practico_de_frontend_web.txt | 215 líneas | 10011 bytes
+33_curso_practico_de_informatica_basica.txt | 215 líneas | 10229 bytes
+34_curso_practico_de_gnu_linux.txt | 215 líneas | 10102 bytes
+35_preparacion_para_admision_unmsm.txt | 255 líneas | 12434 bytes
+36_preparacion_para_admision_uni.txt | 255 líneas | 12132 bytes
+37_preparacion_para_admision_unac.txt | 257 líneas | 12562 bytes

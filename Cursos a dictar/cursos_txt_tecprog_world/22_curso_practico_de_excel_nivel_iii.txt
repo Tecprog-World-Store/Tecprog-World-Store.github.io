@@ -1,0 +1,214 @@
+CURSO 22: Curso práctico de Excel Nivel III
+====================================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_Práctico_Excel_Nivel_III.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan o lema para esta página: Desarrollo de Software Inteligente
+Instructor / responsable académico: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Bachiller en Ingeniería Mecánica de Fluidos.
+- Desarrollo de software y soluciones técnicas.
+- Experiencia en modelación numérica, análisis de datos y aplicaciones de ingeniería.
+- Participación en proyectos académicos y de ingeniería.
+Nota editorial: no presentar al instructor como ingeniero titulado si no corresponde.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+Duración: 4 sesiones en vivo · 16 horas
+Fecha de inicio: Por definir en el calendario comercial.
+
+IDENTIFICACIÓN PARA LA PÁGINA WEB
+Título H1: Curso práctico de Excel Nivel III
+Slug sugerido: curso_practico_de_excel_nivel_iii
+Nombre de archivo TXT: 22_curso_practico_de_excel_nivel_iii.txt
+Nivel: Intermedio a avanzado
+Meta title sugerido: Curso práctico de Excel Nivel III | Tecprog World
+Meta description sugerida: Dashboards, análisis de datos y automatización para uso profesional. Formación online con clases en vivo, proyecto aplicado y acompañamiento.
+Palabras clave SEO: Excel avanzado, dashboard, tabla dinámica, Power Query, macros
+
+TÍTULO COMERCIAL
+Curso práctico de Excel Nivel III
+
+SUBTÍTULO
+Dashboards, análisis de datos y automatización para uso profesional.
+
+DESCRIPCIÓN CORTA
+Dashboards, análisis de datos y automatización para uso profesional. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.
+
+DESCRIPCIÓN AMPLIADA
+Curso práctico de Excel Nivel III es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.
+
+PÚBLICO OBJETIVO
+Analistas, administrativos, profesionales y estudiantes que ya dominan funciones intermedias y desean crear indicadores y tableros.
+
+NIVEL Y REQUISITOS PREVIOS
+Nivel: Intermedio a avanzado
+- Excel Nivel II o conocimientos equivalentes.
+- Manejo de tablas y funciones de búsqueda.
+- Disponer de una versión moderna de Excel; algunas funciones dependen de la versión.
+
+TECNOLOGÍAS / HERRAMIENTAS / EJES DE TRABAJO
+- Microsoft Excel
+- Tablas dinámicas
+- Dashboards
+- Power Query introductorio
+- Automatización inicial
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Construir tablas dinámicas y campos calculados básicos.
+2. Usar segmentadores y líneas de tiempo.
+3. Limpiar y transformar datos con herramientas nativas y Power Query introductorio.
+4. Aplicar funciones avanzadas y matrices dinámicas cuando estén disponibles.
+5. Diseñar dashboards legibles con indicadores y gráficos.
+6. Automatizar tareas repetitivas con grabadora de macros a nivel inicial.
+
+RESULTADOS DE APRENDIZAJE ESPERADOS
+- Reconocer y explicar los conceptos esenciales del programa.
+- Ejecutar procedimientos con orden, trazabilidad y criterio técnico.
+- Resolver ejercicios de dificultad progresiva.
+- Detectar errores frecuentes y proponer correcciones.
+- Documentar el trabajo mediante archivos, capturas, tablas o reportes.
+- Presentar el proyecto final y justificar las decisiones adoptadas.
+
+PROYECTO FINAL / VALOR DEL PROGRAMA
+Dashboard funcional para indicadores de ventas, operaciones o gestión, alimentado por una base depurada y controles interactivos.
+
+ENTREGABLES DEL PARTICIPANTE
+- Archivos de práctica desarrollados durante las sesiones.
+- Guía o cuaderno de ejercicios.
+- Proyecto final completo.
+- Evidencias de resultados y breve memoria técnica o académica.
+- Lista personal de errores frecuentes y acciones de mejora.
+
+METODOLOGÍA
+- Clases en vivo con demostración en pantalla.
+- Explicación de fundamentos antes de ejecutar procedimientos.
+- Ejercicios progresivos: guiados, semiguiados y autónomos.
+- Casos adaptados al perfil del grupo.
+- Retroalimentación durante el desarrollo del proyecto.
+- Grabaciones disponibles según las condiciones comerciales de la edición.
+- Material descargable y lista de verificación final.
+
+TEMARIO / CRONOGRAMA ACADÉMICO DETALLADO
+
+Sesión 1 — Preparación y limpieza de datos
+- Estructura tabular adecuada y errores frecuentes.
+- Texto en columnas, relleno rápido y eliminación de duplicados.
+- Funciones de texto y fecha para normalizar.
+- Introducción a Power Query: importar, tipar, filtrar y combinar.
+- Modelo de datos de una sola tabla.
+- Práctica: base limpia para análisis.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 2 — Tablas dinámicas y segmentación
+- Creación y configuración de tabla dinámica.
+- Agrupación de fechas y campos.
+- Cálculos como porcentaje del total y diferencias.
+- Segmentadores y línea de tiempo.
+- Actualización de datos y conservación del formato.
+- Práctica: análisis multidimensional.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 3 — Dashboard e indicadores
+- Definición de KPI y preguntas de negocio.
+- Gráficos dinámicos y gráficos combinados.
+- Tarjetas de indicadores mediante fórmulas.
+- Diseño visual, jerarquía y uso responsable del color.
+- Controles interactivos y distribución del tablero.
+- Práctica: prototipo de dashboard.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 4 — Funciones avanzadas y automatización inicial
+- BUSCARX, FILTRAR, ORDENAR y UNICOS según versión.
+- LET y funciones de matriz dinámica como introducción.
+- Grabadora de macros y seguridad de archivos.
+- Asignación de macro a un botón.
+- Cierre y validación del dashboard.
+- Presentación del proyecto final.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+EVALUACIÓN Y SEGUIMIENTO
+- Diagnóstico inicial no calificable.
+- Ejercicios de aplicación en cada sesión o semana.
+- Revisión de avances del proyecto.
+- Evaluación del entregable final mediante criterios transparentes.
+- Participación y cumplimiento de actividades.
+
+CRITERIOS SUGERIDOS PARA EL PROYECTO FINAL
+- Exactitud técnica o académica: 35 %.
+- Organización y claridad del procedimiento: 25 %.
+- Aplicación de buenas prácticas: 20 %.
+- Presentación, documentación y capacidad de explicación: 20 %.
+
+INCLUYE
+- Clases en vivo.
+- Material de apoyo y archivos de ejemplo.
+- Grabaciones de las sesiones, cuando se indique en la convocatoria.
+- Proyecto final aplicado.
+- Acompañamiento durante el programa.
+- Certificado físico y firmado.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 119 | S/ 149 | S/ 199
+- Profesional: S/ 199 | S/ 249 | S/ 349
+
+POLÍTICA COMERCIAL SUGERIDA
+- Los precios son referenciales y pueden editarse antes de publicar cada convocatoria.
+- La preventa debe tener fecha límite y cupos definidos.
+- La reserva puede confirmarse mediante el canal oficial de WhatsApp.
+- Publicar claramente condiciones de pago, reprogramación, devolución y emisión de comprobante.
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo ahora y solicita el cronograma de la próxima edición.
+WhatsApp: +51 952 354 282
+Web: https://tecprog-world-store.github.io/
+
+PREGUNTAS FRECUENTES
+1. ¿Las clases son en vivo?
+Sí. La propuesta considera sesiones online en vivo y actividades prácticas.
+2. ¿Recibiré materiales?
+Sí. Se consideran guías, archivos de ejemplo y recursos de práctica.
+3. ¿Qué ocurre si no puedo asistir a una sesión?
+La disponibilidad de grabaciones y recuperación debe indicarse en las condiciones de cada edición.
+4. ¿El curso entrega certificado?
+Sí, se contempla certificado físico y firmado, sujeto al cumplimiento de las condiciones de participación.
+5. ¿Necesito conocimientos previos?
+Revisar la sección de requisitos. Cuando el programa es introductorio, se parte desde fundamentos.
+6. ¿El software está incluido?
+No se debe prometer licencias comerciales. El participante debe usar una licencia válida, versión educativa, prueba oficial o alternativa libre, según corresponda.
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado: Curso_Práctico_Excel_Nivel_III.png.
+- Mantener WhatsApp y URL exactamente como aparecen en este archivo.
+- La fecha de inicio debe administrarse como dato editable.
+- Los precios deben almacenarse como datos editables y no quedar incrustados en imágenes de la página.
+- Crear botones de WhatsApp con mensaje prellenado que incluya el nombre del programa.
+- Incluir secciones: hero, beneficios, temario, proyecto, requisitos, inversión, preguntas frecuentes y CTA.
+- Mantener diseño responsive y accesible.
+- Agregar texto alternativo descriptivo al flyer.
+- No afirmar certificación, alianza o respaldo de fabricantes o universidades sin autorización expresa.
+
+AVISO SOBRE MARCAS Y SOFTWARE
+- Las marcas y nombres de productos pertenecen a sus respectivos titulares.
+- Este programa es independiente y no implica autorización, patrocinio ni certificación del fabricante.
+- Verificar requisitos del sistema, licencias y compatibilidad antes de cada edición.
+
+FUENTES DE REFERENCIA PARA ACTUALIZACIÓN Y VALIDACIÓN
+- Microsoft Support – Excel: https://support.microsoft.com/excel
+- Microsoft Learn – Power Query: https://learn.microsoft.com/power-query/
+- Microsoft Support – tablas dinámicas: https://support.microsoft.com/office/create-a-pivottable
+
+NOTA DE ACTUALIZACIÓN
+Este archivo fue preparado como base editorial para una página comercial. Antes de publicar una nueva edición, Tecprog World debe revisar versiones de software, requisitos del sistema, cambios normativos, reglamentos de admisión, fechas, precios y disponibilidad del instructor.
+
+FIN DEL ARCHIVO

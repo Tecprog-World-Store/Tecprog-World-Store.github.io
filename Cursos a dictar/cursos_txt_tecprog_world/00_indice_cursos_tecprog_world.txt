@@ -1,4 +1,4 @@
-ÍNDICE DE ARCHIVOS TXT - CURSOS TECPOG WORLD
+ÍNDICE DE ARCHIVOS TXT - CURSOS TECPROG WORLD
 ==========================================================================================
 
 01. Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3
@@ -56,3 +56,103 @@
 14. Curso práctico de Programación GPU NVIDIA aplicada a CFD
    TXT: 14_curso_practico_de_programacion_gpu_nvidia_aplicada_a_cfd.txt
    FLYER: Curso_práctico_programación_GPU_nvidia_aplicada_a_CFD.png
+
+
+NUEVOS ARCHIVOS INCORPORADOS
+==========================================================================================
+
+15. Curso práctico de Costos y Presupuestos con S10
+   TXT: 15_curso_practico_de_costos_y_presupuestos_con_s10.txt
+   FLYER: Curso_Práctico_Costos_y_Presupuestos_con_S10.png
+
+16. Curso práctico de SAP2000 para Análisis Estructural
+   TXT: 16_curso_practico_de_sap2000_para_analisis_estructural.txt
+   FLYER: Curso_Práctico_SAP2000_para_Análisis_Estructural.png
+
+17. Curso práctico de ETABS para Modelado Estructural
+   TXT: 17_curso_practico_de_modelado_y_analisis_estructural_con_etabs.txt
+   FLYER: Curso_Práctico_Modelado_y_Análisis_Estructural_con_ETABS.png
+
+18. Curso práctico de Autodesk Inventor para Diseño Mecánico
+   TXT: 18_curso_practico_de_autodesk_inventor_para_diseno_mecanico.txt
+   FLYER: Curso_Práctico_Autodesk Inventor para Diseño Mecánico.png
+
+19. Curso práctico de Revit para Modelado BIM
+   TXT: 19_curso_practico_de_revit_para_modelado_bim.txt
+   FLYER: Curso_Práctico_Revit_para_Modelado_BIM.png
+
+20. Curso práctico de Excel Nivel I
+   TXT: 20_curso_practico_de_excel_nivel_i.txt
+   FLYER: Curso_Práctico_Excel_Nivel_I.png
+
+21. Curso práctico de Excel Nivel II
+   TXT: 21_curso_practico_de_excel_nivel_ii.txt
+   FLYER: Curso_Práctico_Excel_Nivel_II.png
+
+22. Curso práctico de Excel Nivel III
+   TXT: 22_curso_practico_de_excel_nivel_iii.txt
+   FLYER: Curso_Práctico_Excel_Nivel_III.png
+
+23. Curso práctico de AutoCAD Nivel I
+   TXT: 23_curso_practico_de_autocad_nivel_i.txt
+   FLYER: Curso_Práctico_AutoCAD_Nivel_I.png
+
+24. Curso práctico de AutoCAD Nivel II
+   TXT: 24_curso_practico_de_autocad_nivel_ii.txt
+   FLYER: Curso_Práctico_AutoCAD_Nivel_II.png
+
+25. Curso práctico de AutoCAD Nivel III
+   TXT: 25_curso_practico_de_autocad_nivel_iii.txt
+   FLYER: Curso_Práctico_AutoCAD_Nivel_III.png
+
+26. Curso práctico de SolidWorks para Diseño 3D
+   TXT: 26_curso_practico_de_solidworks_para_diseno_3d.txt
+   FLYER: Curso_Práctico_Solidworks_para_Diseño_3D.png
+
+27. Curso práctico de FreeCAD para Diseño 3D
+   TXT: 27_curso_practico_de_freecad_para_diseno_3d.txt
+   FLYER: Curso_Práctico_FreeCAD_para_Diseño_3D.png
+
+28. Curso práctico de MATLAB y Octave para Ingeniería
+   TXT: 28_curso_practico_de_matlab_y_octave_para_ingenieria.txt
+   FLYER: Curso_Práctico_Matlab_y_Octave_para_Ingeniería.png
+
+29. Curso práctico de Python Básico
+   TXT: 29_curso_practico_de_python_basico.txt
+   FLYER: Curso_Práctico_Python_Básico.png
+
+30. Curso práctico de Python POO
+   TXT: 30_curso_practico_de_python_poo.txt
+   FLYER: Curso_Práctico_Python_POO.png
+
+31. Curso práctico de Python Web
+   TXT: 31_curso_practico_de_python_web.txt
+   FLYER: Curso_Práctico_Python_Web.png
+
+32. Curso práctico de Frontend Web
+   TXT: 32_curso_practico_de_frontend_web.txt
+   FLYER: Curso_Práctico_Frontend_Web.png
+
+33. Curso práctico de Informática Básica
+   TXT: 33_curso_practico_de_informatica_basica.txt
+   FLYER: Curso_Práctico_Informática_Básica.png
+
+34. Curso práctico de GNU/Linux
+   TXT: 34_curso_practico_de_gnu_linux.txt
+   FLYER: Curso_Práctico_GNU_Linux.png
+
+35. Preparación para Admisión UNMSM
+   TXT: 35_preparacion_para_admision_unmsm.txt
+   FLYER: Preparación_Admisión_UNMSM.png
+
+36. Preparación para Admisión UNI
+   TXT: 36_preparacion_para_admision_uni.txt
+   FLYER: Preparación_Admisión_UNI.png
+
+37. Preparación para Admisión UNAC
+   TXT: 37_preparacion_para_admision_unac.txt
+   FLYER: Preparación_Admisión_UNAC.png
+
+TOTAL DE PROGRAMAS EN EL ÍNDICE: 37
+RANGO NUEVO INCORPORADO: 15 al 37
+NOTA: Los cursos de admisión son programas privados e independientes; no implican afiliación con las universidades mencionadas.

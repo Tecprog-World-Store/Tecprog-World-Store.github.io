@@ -1,0 +1,215 @@
+CURSO 34: Curso práctico de GNU/Linux
+====================================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_Práctico_GNU_Linux.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan o lema para esta página: Desarrollo de Software Inteligente
+Instructor / responsable académico: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Bachiller en Ingeniería Mecánica de Fluidos.
+- Desarrollo de software y soluciones técnicas.
+- Experiencia en modelación numérica, análisis de datos y aplicaciones de ingeniería.
+- Participación en proyectos académicos y de ingeniería.
+Nota editorial: no presentar al instructor como ingeniero titulado si no corresponde.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+Duración: 4 sesiones en vivo · 16 horas
+Fecha de inicio: Por definir en el calendario comercial.
+
+IDENTIFICACIÓN PARA LA PÁGINA WEB
+Título H1: Curso práctico de GNU/Linux
+Slug sugerido: curso_practico_de_gnu_linux
+Nombre de archivo TXT: 34_curso_practico_de_gnu_linux.txt
+Nivel: Básico
+Meta title sugerido: Curso práctico de GNU/Linux | Tecprog World
+Meta description sugerida: Aprende terminal, archivos, usuarios y herramientas esenciales. Formación online con clases en vivo, proyecto aplicado y acompañamiento.
+Palabras clave SEO: GNU/Linux, terminal, Bash, software libre, Ubuntu
+
+TÍTULO COMERCIAL
+Curso práctico de GNU/Linux
+
+SUBTÍTULO
+Aprende terminal, archivos, usuarios y herramientas esenciales.
+
+DESCRIPCIÓN CORTA
+Aprende terminal, archivos, usuarios y herramientas esenciales. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.
+
+DESCRIPCIÓN AMPLIADA
+Curso práctico de GNU/Linux es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.
+
+PÚBLICO OBJETIVO
+Estudiantes, desarrolladores, técnicos y profesionales que desean desenvolverse en un entorno GNU/Linux.
+
+NIVEL Y REQUISITOS PREVIOS
+Nivel: Básico
+- Manejo básico de computadora.
+- Equipo físico o máquina virtual compatible.
+- No se requiere experiencia previa con terminal.
+
+TECNOLOGÍAS / HERRAMIENTAS / EJES DE TRABAJO
+- GNU/Linux
+- Ubuntu o Debian
+- Bash
+- Coreutils
+- Software libre
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Comprender la estructura del sistema de archivos.
+2. Navegar y gestionar archivos desde terminal.
+3. Usar tuberías, redirecciones y filtros.
+4. Administrar permisos y propietarios.
+5. Crear usuarios y entender privilegios.
+6. Instalar software y construir un flujo de trabajo productivo.
+
+RESULTADOS DE APRENDIZAJE ESPERADOS
+- Reconocer y explicar los conceptos esenciales del programa.
+- Ejecutar procedimientos con orden, trazabilidad y criterio técnico.
+- Resolver ejercicios de dificultad progresiva.
+- Detectar errores frecuentes y proponer correcciones.
+- Documentar el trabajo mediante archivos, capturas, tablas o reportes.
+- Presentar el proyecto final y justificar las decisiones adoptadas.
+
+PROYECTO FINAL / VALOR DEL PROGRAMA
+Entorno Linux configurado con estructura de carpetas, usuarios, permisos, paquetes y ejercicios documentados en terminal.
+
+ENTREGABLES DEL PARTICIPANTE
+- Archivos de práctica desarrollados durante las sesiones.
+- Guía o cuaderno de ejercicios.
+- Proyecto final completo.
+- Evidencias de resultados y breve memoria técnica o académica.
+- Lista personal de errores frecuentes y acciones de mejora.
+
+METODOLOGÍA
+- Clases en vivo con demostración en pantalla.
+- Explicación de fundamentos antes de ejecutar procedimientos.
+- Ejercicios progresivos: guiados, semiguiados y autónomos.
+- Casos adaptados al perfil del grupo.
+- Retroalimentación durante el desarrollo del proyecto.
+- Grabaciones disponibles según las condiciones comerciales de la edición.
+- Material descargable y lista de verificación final.
+
+TEMARIO / CRONOGRAMA ACADÉMICO DETALLADO
+
+Sesión 1 — Instalación y sistema de archivos
+- Distribuciones, kernel y espacio de usuario.
+- Opciones: instalación, máquina virtual o WSL.
+- Jerarquía /, /home, /etc, /var y /usr.
+- pwd, ls, cd, mkdir, cp, mv, rm y touch.
+- Rutas absolutas y relativas.
+- Práctica: árbol de trabajo.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 2 — Terminal productiva
+- cat, less, head, tail y file.
+- grep, sort, uniq, wc y find.
+- Tuberías y redirecciones.
+- Comodines y expansión.
+- Historial, alias y ayuda man.
+- Práctica: procesamiento de texto.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 3 — Usuarios y permisos
+- Usuarios, grupos y UID/GID.
+- Permisos rwx.
+- chmod simbólico y octal.
+- chown y chgrp.
+- sudo y principio de mínimo privilegio.
+- Práctica: carpeta compartida controlada.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 4 — Paquetes, procesos y proyecto
+- apt y repositorios en Debian/Ubuntu.
+- Procesos: ps, top, kill y jobs.
+- Servicios con systemd como panorama.
+- Variables de entorno y PATH.
+- Script Bash sencillo.
+- Presentación del proyecto final.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+EVALUACIÓN Y SEGUIMIENTO
+- Diagnóstico inicial no calificable.
+- Ejercicios de aplicación en cada sesión o semana.
+- Revisión de avances del proyecto.
+- Evaluación del entregable final mediante criterios transparentes.
+- Participación y cumplimiento de actividades.
+
+CRITERIOS SUGERIDOS PARA EL PROYECTO FINAL
+- Exactitud técnica o académica: 35 %.
+- Organización y claridad del procedimiento: 25 %.
+- Aplicación de buenas prácticas: 20 %.
+- Presentación, documentación y capacidad de explicación: 20 %.
+
+INCLUYE
+- Clases en vivo.
+- Material de apoyo y archivos de ejemplo.
+- Grabaciones de las sesiones, cuando se indique en la convocatoria.
+- Proyecto final aplicado.
+- Acompañamiento durante el programa.
+- Certificado físico y firmado.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 89 | S/ 119 | S/ 169
+- Profesional: S/ 169 | S/ 229 | S/ 299
+
+POLÍTICA COMERCIAL SUGERIDA
+- Los precios son referenciales y pueden editarse antes de publicar cada convocatoria.
+- La preventa debe tener fecha límite y cupos definidos.
+- La reserva puede confirmarse mediante el canal oficial de WhatsApp.
+- Publicar claramente condiciones de pago, reprogramación, devolución y emisión de comprobante.
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo ahora y solicita el cronograma de la próxima edición.
+WhatsApp: +51 952 354 282
+Web: https://tecprog-world-store.github.io/
+
+PREGUNTAS FRECUENTES
+1. ¿Las clases son en vivo?
+Sí. La propuesta considera sesiones online en vivo y actividades prácticas.
+2. ¿Recibiré materiales?
+Sí. Se consideran guías, archivos de ejemplo y recursos de práctica.
+3. ¿Qué ocurre si no puedo asistir a una sesión?
+La disponibilidad de grabaciones y recuperación debe indicarse en las condiciones de cada edición.
+4. ¿El curso entrega certificado?
+Sí, se contempla certificado físico y firmado, sujeto al cumplimiento de las condiciones de participación.
+5. ¿Necesito conocimientos previos?
+Revisar la sección de requisitos. Cuando el programa es introductorio, se parte desde fundamentos.
+6. ¿El software está incluido?
+No se debe prometer licencias comerciales. El participante debe usar una licencia válida, versión educativa, prueba oficial o alternativa libre, según corresponda.
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado: Curso_Práctico_GNU_Linux.png.
+- Mantener WhatsApp y URL exactamente como aparecen en este archivo.
+- La fecha de inicio debe administrarse como dato editable.
+- Los precios deben almacenarse como datos editables y no quedar incrustados en imágenes de la página.
+- Crear botones de WhatsApp con mensaje prellenado que incluya el nombre del programa.
+- Incluir secciones: hero, beneficios, temario, proyecto, requisitos, inversión, preguntas frecuentes y CTA.
+- Mantener diseño responsive y accesible.
+- Agregar texto alternativo descriptivo al flyer.
+- No afirmar certificación, alianza o respaldo de fabricantes o universidades sin autorización expresa.
+
+AVISO SOBRE MARCAS Y SOFTWARE
+- Las marcas y nombres de productos pertenecen a sus respectivos titulares.
+- Este programa es independiente y no implica autorización, patrocinio ni certificación del fabricante.
+- Verificar requisitos del sistema, licencias y compatibilidad antes de cada edición.
+
+FUENTES DE REFERENCIA PARA ACTUALIZACIÓN Y VALIDACIÓN
+- GNU – Coreutils Manual: https://www.gnu.org/software/coreutils/manual/
+- GNU Bash Manual: https://www.gnu.org/software/bash/manual/
+- Ubuntu Documentation: https://help.ubuntu.com/
+- Debian Administrator's Handbook: https://debian-handbook.info/
+
+NOTA DE ACTUALIZACIÓN
+Este archivo fue preparado como base editorial para una página comercial. Antes de publicar una nueva edición, Tecprog World debe revisar versiones de software, requisitos del sistema, cambios normativos, reglamentos de admisión, fechas, precios y disponibilidad del instructor.
+
+FIN DEL ARCHIVO

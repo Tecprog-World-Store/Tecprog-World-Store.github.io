@@ -1,0 +1,214 @@
+CURSO 15: Curso práctico de Costos y Presupuestos con S10
+====================================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_Práctico_Costos_y_Presupuestos_con_S10.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan o lema para esta página: Desarrollo de Software Inteligente
+Instructor / responsable académico: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Bachiller en Ingeniería Mecánica de Fluidos.
+- Desarrollo de software y soluciones técnicas.
+- Experiencia en modelación numérica, análisis de datos y aplicaciones de ingeniería.
+- Participación en proyectos académicos y de ingeniería.
+Nota editorial: no presentar al instructor como ingeniero titulado si no corresponde.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+Duración: 4 sesiones en vivo · 16 horas
+Fecha de inicio: Por definir en el calendario comercial.
+
+IDENTIFICACIÓN PARA LA PÁGINA WEB
+Título H1: Curso práctico de Costos y Presupuestos con S10
+Slug sugerido: curso_practico_de_costos_y_presupuestos_con_s10
+Nombre de archivo TXT: 15_curso_practico_de_costos_y_presupuestos_con_s10.txt
+Nivel: Básico a intermedio
+Meta title sugerido: Curso práctico de Costos y Presupuestos con S10 | Tecprog World
+Meta description sugerida: Aprende metrados, presupuestos, análisis de precios unitarios y control de obra. Formación online con clases en vivo, proyecto aplicado y acompañamiento.
+Palabras clave SEO: S10, costos y presupuestos, APU, metrados, presupuesto de obra, ingeniería civil
+
+TÍTULO COMERCIAL
+Curso práctico de Costos y Presupuestos con S10
+
+SUBTÍTULO
+Aprende metrados, presupuestos, análisis de precios unitarios y control de obra.
+
+DESCRIPCIÓN CORTA
+Aprende metrados, presupuestos, análisis de precios unitarios y control de obra. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.
+
+DESCRIPCIÓN AMPLIADA
+Curso práctico de Costos y Presupuestos con S10 es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.
+
+PÚBLICO OBJETIVO
+Estudiantes de ingeniería civil, arquitectura y carreras afines; asistentes de oficina técnica; técnicos de construcción; bachilleres y profesionales que desean iniciarse en presupuestos de obra.
+
+NIVEL Y REQUISITOS PREVIOS
+Nivel: Básico a intermedio
+- Manejo básico de Windows y archivos.
+- Conocimientos elementales de lectura de planos y unidades de medida.
+- No se exige experiencia previa con S10.
+
+TECNOLOGÍAS / HERRAMIENTAS / EJES DE TRABAJO
+- S10 Costos y Presupuestos
+- Microsoft Excel
+- Criterios de metrados
+- Análisis de precios unitarios (APU)
+- Presupuestos de obra
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Organizar partidas, títulos y subtítulos de un presupuesto.
+2. Registrar metrados y relacionarlos con las partidas.
+3. Construir análisis de precios unitarios con materiales, mano de obra, equipos y subcontratos.
+4. Definir rendimientos, cuadrillas, precios y unidades de medida.
+5. Diferenciar costos directos, gastos generales, utilidad e impuestos.
+6. Generar reportes, hojas de presupuesto y exportaciones para revisión.
+
+RESULTADOS DE APRENDIZAJE ESPERADOS
+- Reconocer y explicar los conceptos esenciales del programa.
+- Ejecutar procedimientos con orden, trazabilidad y criterio técnico.
+- Resolver ejercicios de dificultad progresiva.
+- Detectar errores frecuentes y proponer correcciones.
+- Documentar el trabajo mediante archivos, capturas, tablas o reportes.
+- Presentar el proyecto final y justificar las decisiones adoptadas.
+
+PROYECTO FINAL / VALOR DEL PROGRAMA
+Armado completo de un presupuesto básico de obra, con estructura de partidas, metrados, APU, costos directos e indirectos y reportes para revisión.
+
+ENTREGABLES DEL PARTICIPANTE
+- Archivos de práctica desarrollados durante las sesiones.
+- Guía o cuaderno de ejercicios.
+- Proyecto final completo.
+- Evidencias de resultados y breve memoria técnica o académica.
+- Lista personal de errores frecuentes y acciones de mejora.
+
+METODOLOGÍA
+- Clases en vivo con demostración en pantalla.
+- Explicación de fundamentos antes de ejecutar procedimientos.
+- Ejercicios progresivos: guiados, semiguiados y autónomos.
+- Casos adaptados al perfil del grupo.
+- Retroalimentación durante el desarrollo del proyecto.
+- Grabaciones disponibles según las condiciones comerciales de la edición.
+- Material descargable y lista de verificación final.
+
+TEMARIO / CRONOGRAMA ACADÉMICO DETALLADO
+
+Sesión 1 — Fundamentos, entorno S10 y estructura del presupuesto
+- Conceptos de expediente técnico, presupuesto, partida, metrado, recurso, rendimiento y precio unitario.
+- Reconocimiento del entorno de trabajo: catálogos, proyectos, presupuestos, hojas y vistas.
+- Creación de un presupuesto desde cero: datos generales, moneda, fecha base y estructura jerárquica.
+- Organización por especialidades, títulos, subtítulos y partidas.
+- Unidades de medida y criterios básicos de codificación.
+- Práctica guiada: estructura inicial de un presupuesto de edificación pequeña.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 2 — Metrados, recursos y análisis de precios unitarios
+- Criterios básicos de metrado para movimiento de tierras, concreto, encofrado, acero y acabados.
+- Ingreso de cantidades y revisión de coherencia dimensional.
+- Catálogo de insumos: materiales, mano de obra, equipos, herramientas y subcontratos.
+- Definición de cuadrillas, rendimientos y aportes unitarios.
+- Construcción y lectura de un APU.
+- Práctica guiada: APU de concreto, encofrado y acero.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 3 — Costos directos, indirectos y control del presupuesto
+- Consolidación de costos directos por partida y especialidad.
+- Gastos generales fijos y variables; utilidad; impuestos y presupuesto total.
+- Actualización y revisión de precios de recursos.
+- Detección de duplicados, unidades inconsistentes y rendimientos no realistas.
+- Comparación de escenarios y sensibilidad básica de costos.
+- Práctica guiada: cierre económico y revisión del presupuesto.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 4 — Reportes, exportación y proyecto final
+- Reportes de presupuesto, análisis de precios unitarios, insumos y cantidades.
+- Exportación a Excel y preparación de información para revisión técnica.
+- Buenas prácticas de nomenclatura, trazabilidad y respaldo de archivos.
+- Revisión integral del proyecto final.
+- Presentación del presupuesto, criterios adoptados y observaciones.
+- Lista de verificación para entregar un presupuesto básico ordenado.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+EVALUACIÓN Y SEGUIMIENTO
+- Diagnóstico inicial no calificable.
+- Ejercicios de aplicación en cada sesión o semana.
+- Revisión de avances del proyecto.
+- Evaluación del entregable final mediante criterios transparentes.
+- Participación y cumplimiento de actividades.
+
+CRITERIOS SUGERIDOS PARA EL PROYECTO FINAL
+- Exactitud técnica o académica: 35 %.
+- Organización y claridad del procedimiento: 25 %.
+- Aplicación de buenas prácticas: 20 %.
+- Presentación, documentación y capacidad de explicación: 20 %.
+
+INCLUYE
+- Clases en vivo.
+- Material de apoyo y archivos de ejemplo.
+- Grabaciones de las sesiones, cuando se indique en la convocatoria.
+- Proyecto final aplicado.
+- Acompañamiento durante el programa.
+- Certificado físico y firmado.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 149 | S/ 199 | S/ 249
+- Profesional: S/ 299 | S/ 399 | S/ 499
+
+POLÍTICA COMERCIAL SUGERIDA
+- Los precios son referenciales y pueden editarse antes de publicar cada convocatoria.
+- La preventa debe tener fecha límite y cupos definidos.
+- La reserva puede confirmarse mediante el canal oficial de WhatsApp.
+- Publicar claramente condiciones de pago, reprogramación, devolución y emisión de comprobante.
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo ahora y solicita el cronograma de la próxima edición.
+WhatsApp: +51 952 354 282
+Web: https://tecprog-world-store.github.io/
+
+PREGUNTAS FRECUENTES
+1. ¿Las clases son en vivo?
+Sí. La propuesta considera sesiones online en vivo y actividades prácticas.
+2. ¿Recibiré materiales?
+Sí. Se consideran guías, archivos de ejemplo y recursos de práctica.
+3. ¿Qué ocurre si no puedo asistir a una sesión?
+La disponibilidad de grabaciones y recuperación debe indicarse en las condiciones de cada edición.
+4. ¿El curso entrega certificado?
+Sí, se contempla certificado físico y firmado, sujeto al cumplimiento de las condiciones de participación.
+5. ¿Necesito conocimientos previos?
+Revisar la sección de requisitos. Cuando el programa es introductorio, se parte desde fundamentos.
+6. ¿El software está incluido?
+No se debe prometer licencias comerciales. El participante debe usar una licencia válida, versión educativa, prueba oficial o alternativa libre, según corresponda.
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado: Curso_Práctico_Costos_y_Presupuestos_con_S10.png.
+- Mantener WhatsApp y URL exactamente como aparecen en este archivo.
+- La fecha de inicio debe administrarse como dato editable.
+- Los precios deben almacenarse como datos editables y no quedar incrustados en imágenes de la página.
+- Crear botones de WhatsApp con mensaje prellenado que incluya el nombre del programa.
+- Incluir secciones: hero, beneficios, temario, proyecto, requisitos, inversión, preguntas frecuentes y CTA.
+- Mantener diseño responsive y accesible.
+- Agregar texto alternativo descriptivo al flyer.
+- No afirmar certificación, alianza o respaldo de fabricantes o universidades sin autorización expresa.
+
+AVISO SOBRE MARCAS Y SOFTWARE
+- Las marcas y nombres de productos pertenecen a sus respectivos titulares.
+- Este programa es independiente y no implica autorización, patrocinio ni certificación del fabricante.
+- Verificar requisitos del sistema, licencias y compatibilidad antes de cada edición.
+
+FUENTES DE REFERENCIA PARA ACTUALIZACIÓN Y VALIDACIÓN
+- S10 Perú – portal del software y soluciones para construcción: https://www.s10peru.com/
+- Norma Técnica de Metrados para Obras de Edificación y Habilitaciones Urbanas – MVCS: https://www.gob.pe/vivienda
+- OSCE – normativa y recursos sobre contratación pública: https://www.gob.pe/osce
+
+NOTA DE ACTUALIZACIÓN
+Este archivo fue preparado como base editorial para una página comercial. Antes de publicar una nueva edición, Tecprog World debe revisar versiones de software, requisitos del sistema, cambios normativos, reglamentos de admisión, fechas, precios y disponibilidad del instructor.
+
+FIN DEL ARCHIVO

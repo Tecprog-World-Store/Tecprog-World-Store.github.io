@@ -1,0 +1,257 @@
+CURSO 37: Preparación para Admisión UNAC
+====================================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Preparación_Admisión_UNAC.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan o lema para esta página: Preparación académica para tu ingreso universitario
+Instructor / responsable académico: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Bachiller en Ingeniería Mecánica de Fluidos.
+- Desarrollo de software y soluciones técnicas.
+- Experiencia en modelación numérica, análisis de datos y aplicaciones de ingeniería.
+- Participación en proyectos académicos y de ingeniería.
+Nota editorial: no presentar al instructor como ingeniero titulado si no corresponde.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+Duración: 8 semanas · 2 meses · aproximadamente 64 horas en vivo
+Fecha de inicio: Por definir en el calendario comercial.
+
+IDENTIFICACIÓN PARA LA PÁGINA WEB
+Título H1: Preparación para Admisión UNAC
+Slug sugerido: preparacion_para_admision_unac
+Nombre de archivo TXT: 37_preparacion_para_admision_unac.txt
+Nivel: Preuniversitario intensivo
+Meta title sugerido: Preparación para Admisión UNAC | Tecprog World
+Meta description sugerida: Prepárate con enfoque real para el examen de la Universidad del Callao. Formación online con clases en vivo, proyecto aplicado y acompañamiento.
+Palabras clave SEO: admisión UNAC, examen por bloques, aptitud académica, simulacro, Callao
+
+TÍTULO COMERCIAL
+Preparación para Admisión UNAC
+
+SUBTÍTULO
+Prepárate con enfoque real para el examen de la Universidad del Callao.
+
+DESCRIPCIÓN CORTA
+Prepárate con enfoque real para el examen de la Universidad del Callao. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.
+
+DESCRIPCIÓN AMPLIADA
+Preparación para Admisión UNAC es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.
+
+PÚBLICO OBJETIVO
+Escolares de 5.º de secundaria, egresados y postulantes a las carreras organizadas en los bloques de admisión de la UNAC.
+
+NIVEL Y REQUISITOS PREVIOS
+Nivel: Preuniversitario intensivo
+- Elegir bloque y carrera objetivo.
+- Rendir diagnóstico inicial.
+- Contar con acceso a internet y materiales de estudio.
+
+TECNOLOGÍAS / HERRAMIENTAS / EJES DE TRABAJO
+- Aptitud lógico-matemática
+- Comunicación verbal y escrita
+- Conocimientos por bloque
+- Banco de preguntas
+- Simulacros y seguimiento
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Comprender la estructura de aptitud académica y conocimientos.
+2. Resolver razonamiento lógico-matemático, numérico, geométrico y espacial.
+3. Fortalecer comprensión lectora, redacción y relaciones semánticas.
+4. Priorizar contenidos según Bloque I, II o III.
+5. Aplicar estrategias de tiempo y doble opción cuando corresponda al proceso vigente.
+6. Medir avance mediante simulacros y retroalimentación.
+
+RESULTADOS DE APRENDIZAJE ESPERADOS
+- Reconocer y explicar los conceptos esenciales del programa.
+- Ejecutar procedimientos con orden, trazabilidad y criterio técnico.
+- Resolver ejercicios de dificultad progresiva.
+- Detectar errores frecuentes y proponer correcciones.
+- Documentar el trabajo mediante archivos, capturas, tablas o reportes.
+- Presentar el proyecto final y justificar las decisiones adoptadas.
+
+PROYECTO FINAL / VALOR DEL PROGRAMA
+Plan por bloque, banco de preguntas, bitácora de errores, acompañamiento y simulacro completo guiado.
+
+ENTREGABLES DEL PARTICIPANTE
+- Archivos de práctica desarrollados durante las sesiones.
+- Guía o cuaderno de ejercicios.
+- Proyecto final completo.
+- Evidencias de resultados y breve memoria técnica o académica.
+- Lista personal de errores frecuentes y acciones de mejora.
+
+METODOLOGÍA
+- Clases en vivo con demostración en pantalla.
+- Explicación de fundamentos antes de ejecutar procedimientos.
+- Ejercicios progresivos: guiados, semiguiados y autónomos.
+- Casos adaptados al perfil del grupo.
+- Retroalimentación durante el desarrollo del proyecto.
+- Grabaciones disponibles según las condiciones comerciales de la edición.
+- Material descargable y lista de verificación final.
+
+TEMARIO / CRONOGRAMA ACADÉMICO DETALLADO
+
+Semana 1 — Diagnóstico y elección de bloque
+- Revisión del proceso y reglamento vigente.
+- Bloque I: Ciencias e Ingenierías.
+- Bloque II: Ciencias Empresariales.
+- Bloque III: Ciencias de la Salud y Educación.
+- Diagnóstico de aptitud y conocimientos.
+- Plan de estudio por bloque.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Semana 2 — Aptitud lógico-matemática
+- Ordenamiento de información.
+- Razonamiento numérico.
+- Ecuaciones y problemas.
+- Cronometría, edades y móviles.
+- Gráficos estadísticos.
+- Práctica cronometrada.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Semana 3 — Razonamiento geométrico y espacial
+- Rotación, traslación, reflexión y simetría.
+- Conteo de figuras.
+- Rutas y posicionamiento.
+- Perímetros, áreas, congruencia y semejanza.
+- Poleas, ruedas y engranajes a nivel de aptitud.
+- Control parcial.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Semana 4 — Comunicación verbal y escrita
+- Comprensión de lectura.
+- Plan de redacción.
+- Analogías.
+- Eliminación de oraciones.
+- Oraciones incompletas, series y conectores.
+- Práctica por tiempos.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Semana 5 — Conocimientos comunes
+- Aritmética y álgebra.
+- Geometría y estadística.
+- Temas comunes del prospecto vigente.
+- Resolución por niveles.
+- Registro de errores.
+- Evaluación acumulativa.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Semana 6 — Especialización por bloque
+- Bloque I: matemática, física, química y ciencias según temario.
+- Bloque II: contenidos empresariales y sociales según temario.
+- Bloque III: ciencias de salud, biología y educación según temario.
+- Preguntas específicas.
+- Asesoría por carrera.
+- Control de bloque.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Semana 7 — Simulacros y estrategia
+- Simulacro parcial por bloque.
+- Gestión del tiempo.
+- Técnicas de descarte.
+- Revisión de errores.
+- Plan de refuerzo.
+- Acompañamiento individual.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Semana 8 — Simulacro integral y cierre
+- Simulacro completo.
+- Corrección guiada.
+- Indicadores de progreso.
+- Estrategia final.
+- Revisión logística y documental.
+- Plan posterior hasta el examen.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+EVALUACIÓN Y SEGUIMIENTO
+- Diagnóstico inicial no calificable.
+- Ejercicios de aplicación en cada sesión o semana.
+- Revisión de avances del proyecto.
+- Evaluación del entregable final mediante criterios transparentes.
+- Participación y cumplimiento de actividades.
+
+CRITERIOS SUGERIDOS PARA EL PROYECTO FINAL
+- Exactitud técnica o académica: 35 %.
+- Organización y claridad del procedimiento: 25 %.
+- Aplicación de buenas prácticas: 20 %.
+- Presentación, documentación y capacidad de explicación: 20 %.
+
+INCLUYE
+- Clases en vivo.
+- Material de apoyo y archivos de ejemplo.
+- Grabaciones de las sesiones, cuando se indique en la convocatoria.
+- Proyecto final aplicado.
+- Acompañamiento durante el programa.
+- Certificado físico y firmado.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Escolar / egresado: S/ 159 | S/ 229 | S/ 329
+- General: S/ 229 | S/ 329 | S/ 429
+
+POLÍTICA COMERCIAL SUGERIDA
+- Los precios son referenciales y pueden editarse antes de publicar cada convocatoria.
+- La preventa debe tener fecha límite y cupos definidos.
+- La reserva puede confirmarse mediante el canal oficial de WhatsApp.
+- Publicar claramente condiciones de pago, reprogramación, devolución y emisión de comprobante.
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo ahora y solicita el cronograma de la próxima edición.
+WhatsApp: +51 952 354 282
+Web: https://tecprog-world-store.github.io/
+
+PREGUNTAS FRECUENTES
+1. ¿Las clases son en vivo?
+Sí. La propuesta considera sesiones online en vivo y actividades prácticas.
+2. ¿Recibiré materiales?
+Sí. Se consideran guías, archivos de ejemplo y recursos de práctica.
+3. ¿Qué ocurre si no puedo asistir a una sesión?
+La disponibilidad de grabaciones y recuperación debe indicarse en las condiciones de cada edición.
+4. ¿El curso entrega certificado?
+Sí, se contempla certificado físico y firmado, sujeto al cumplimiento de las condiciones de participación.
+5. ¿Necesito conocimientos previos?
+Revisar la sección de requisitos. Cuando el programa es introductorio, se parte desde fundamentos.
+6. ¿El software está incluido?
+No se debe prometer licencias comerciales. El participante debe usar una licencia válida, versión educativa, prueba oficial o alternativa libre, según corresponda.
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado: Preparación_Admisión_UNAC.png.
+- Mantener WhatsApp y URL exactamente como aparecen en este archivo.
+- La fecha de inicio debe administrarse como dato editable.
+- Los precios deben almacenarse como datos editables y no quedar incrustados en imágenes de la página.
+- Crear botones de WhatsApp con mensaje prellenado que incluya el nombre del programa.
+- Incluir secciones: hero, beneficios, temario, proyecto, requisitos, inversión, preguntas frecuentes y CTA.
+- Mantener diseño responsive y accesible.
+- Agregar texto alternativo descriptivo al flyer.
+- No afirmar certificación, alianza o respaldo de fabricantes o universidades sin autorización expresa.
+
+AVISO DE INDEPENDENCIA INSTITUCIONAL
+Programa privado e independiente de Tecprog World. No está afiliado, patrocinado, autorizado ni organizado por la Universidad Nacional del Callao.
+- No usar el logotipo, escudo, sello, edificio institucional estilizado como marca ni piezas que simulen comunicación oficial.
+- El nombre de la universidad se utiliza únicamente para identificar de manera descriptiva el examen objetivo.
+- Verificar el reglamento, temario, cronograma y modalidades oficiales antes de cada nueva convocatoria.
+
+FUENTES DE REFERENCIA PARA ACTUALIZACIÓN Y VALIDACIÓN
+- Dirección de Admisión UNAC: https://admision.unac.edu.pe/
+- Temario oficial del examen UNAC: https://admision.unac.edu.pe/temario-examen-de-admision/
+- Bloque I – Ciencias e Ingenierías: https://admision.unac.edu.pe/bloque-i-ciencias-e-ingenierias/
+- Bloque II – Ciencias Empresariales: https://admision.unac.edu.pe/bloque-ii-ciencias-empresariales/
+- Bloque III – Ciencias de la Salud y Educación: https://admision.unac.edu.pe/bloque-iii-ciencias-de-la-salud/
+
+NOTA DE ACTUALIZACIÓN
+Este archivo fue preparado como base editorial para una página comercial. Antes de publicar una nueva edición, Tecprog World debe revisar versiones de software, requisitos del sistema, cambios normativos, reglamentos de admisión, fechas, precios y disponibilidad del instructor.
+
+FIN DEL ARCHIVO

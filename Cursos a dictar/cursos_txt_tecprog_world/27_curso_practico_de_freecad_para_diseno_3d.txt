@@ -1,0 +1,214 @@
+CURSO 27: Curso práctico de FreeCAD para Diseño 3D
+====================================================================================================
+
+ARCHIVO DE IMAGEN DEL FLYER
+- Curso_Práctico_FreeCAD_para_Diseño_3D.png
+
+DATOS GENERALES
+Empresa: Tecprog World
+Slogan o lema para esta página: Desarrollo de Software Inteligente
+Instructor / responsable académico: Jhon Gesell Villanueva Portella
+Perfil público del instructor:
+- Bachiller en Ingeniería Mecánica de Fluidos.
+- Desarrollo de software y soluciones técnicas.
+- Experiencia en modelación numérica, análisis de datos y aplicaciones de ingeniería.
+- Participación en proyectos académicos y de ingeniería.
+Nota editorial: no presentar al instructor como ingeniero titulado si no corresponde.
+WhatsApp: +51 952 354 282
+WhatsApp internacional: +51952354282
+Sitio web: https://tecprog-world-store.github.io/
+Modalidad: Online
+Certificación: Certificado físico y firmado
+Duración: 4 sesiones en vivo · 16 horas
+Fecha de inicio: Por definir en el calendario comercial.
+
+IDENTIFICACIÓN PARA LA PÁGINA WEB
+Título H1: Curso práctico de FreeCAD para Diseño 3D
+Slug sugerido: curso_practico_de_freecad_para_diseno_3d
+Nombre de archivo TXT: 27_curso_practico_de_freecad_para_diseno_3d.txt
+Nivel: Básico
+Meta title sugerido: Curso práctico de FreeCAD para Diseño 3D | Tecprog World
+Meta description sugerida: Modelado paramétrico open-source para estudiantes y profesionales. Formación online con clases en vivo, proyecto aplicado y acompañamiento.
+Palabras clave SEO: FreeCAD, open source CAD, modelado paramétrico, TechDraw
+
+TÍTULO COMERCIAL
+Curso práctico de FreeCAD para Diseño 3D
+
+SUBTÍTULO
+Modelado paramétrico open-source para estudiantes y profesionales.
+
+DESCRIPCIÓN CORTA
+Modelado paramétrico open-source para estudiantes y profesionales. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.
+
+DESCRIPCIÓN AMPLIADA
+Curso práctico de FreeCAD para Diseño 3D es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.
+
+PÚBLICO OBJETIVO
+Estudiantes, makers, técnicos y profesionales que buscan una alternativa libre para diseño mecánico 3D.
+
+NIVEL Y REQUISITOS PREVIOS
+Nivel: Básico
+- Dibujo técnico básico recomendado.
+- Manejo de archivos y carpetas.
+- Instalar una versión estable de FreeCAD.
+
+TECNOLOGÍAS / HERRAMIENTAS / EJES DE TRABAJO
+- FreeCAD
+- Sketcher
+- Part Design
+- TechDraw
+- Software libre
+
+¿QUÉ APRENDERÁ EL PARTICIPANTE?
+1. Configurar el entorno y comprender documentos, objetos y cuerpos.
+2. Crear croquis restringidos en Sketcher.
+3. Modelar piezas paramétricas con Part Design.
+4. Aplicar operaciones de detalle, patrones y transformaciones.
+5. Introducir ensamblajes según el banco de trabajo disponible.
+6. Generar vistas y documentación con TechDraw y exportar formatos.
+
+RESULTADOS DE APRENDIZAJE ESPERADOS
+- Reconocer y explicar los conceptos esenciales del programa.
+- Ejecutar procedimientos con orden, trazabilidad y criterio técnico.
+- Resolver ejercicios de dificultad progresiva.
+- Detectar errores frecuentes y proponer correcciones.
+- Documentar el trabajo mediante archivos, capturas, tablas o reportes.
+- Presentar el proyecto final y justificar las decisiones adoptadas.
+
+PROYECTO FINAL / VALOR DEL PROGRAMA
+Pieza o mini conjunto 3D paramétrico con plano técnico y archivos de intercambio.
+
+ENTREGABLES DEL PARTICIPANTE
+- Archivos de práctica desarrollados durante las sesiones.
+- Guía o cuaderno de ejercicios.
+- Proyecto final completo.
+- Evidencias de resultados y breve memoria técnica o académica.
+- Lista personal de errores frecuentes y acciones de mejora.
+
+METODOLOGÍA
+- Clases en vivo con demostración en pantalla.
+- Explicación de fundamentos antes de ejecutar procedimientos.
+- Ejercicios progresivos: guiados, semiguiados y autónomos.
+- Casos adaptados al perfil del grupo.
+- Retroalimentación durante el desarrollo del proyecto.
+- Grabaciones disponibles según las condiciones comerciales de la edición.
+- Material descargable y lista de verificación final.
+
+TEMARIO / CRONOGRAMA ACADÉMICO DETALLADO
+
+Sesión 1 — Entorno y Sketcher
+- Interfaz y bancos de trabajo.
+- Documentos, objetos, cuerpos y árbol del modelo.
+- Croquis, geometría y restricciones.
+- Grados de libertad.
+- Cotas y expresiones básicas.
+- Práctica: perfil completamente restringido.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 2 — Part Design
+- Pad, Pocket y revolución.
+- Planos de referencia y soporte de croquis.
+- Fillet, chamfer y hole.
+- Patrones y simetrías.
+- Parámetros y recomputación.
+- Práctica: pieza mecánica.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 3 — Ensamblaje y organización
+- Estrategias de múltiples cuerpos.
+- Importación STEP.
+- Introducción al banco de ensamblaje disponible en la versión.
+- Restricciones y posición de componentes.
+- Explosión manual y vistas.
+- Práctica: mini conjunto.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+Sesión 4 — TechDraw, exportación y proyecto
+- Plantillas y páginas TechDraw.
+- Vistas, secciones, cotas y anotaciones.
+- Exportación PDF, DXF, STEP y STL.
+- Preparación para impresión 3D como panorama.
+- Revisión del proyecto final.
+- Buenas prácticas de software libre.
+- Producto parcial: evidencia práctica correspondiente a esta sesión o semana.
+- Verificación: lista breve de criterios para confirmar que el ejercicio fue resuelto correctamente.
+
+EVALUACIÓN Y SEGUIMIENTO
+- Diagnóstico inicial no calificable.
+- Ejercicios de aplicación en cada sesión o semana.
+- Revisión de avances del proyecto.
+- Evaluación del entregable final mediante criterios transparentes.
+- Participación y cumplimiento de actividades.
+
+CRITERIOS SUGERIDOS PARA EL PROYECTO FINAL
+- Exactitud técnica o académica: 35 %.
+- Organización y claridad del procedimiento: 25 %.
+- Aplicación de buenas prácticas: 20 %.
+- Presentación, documentación y capacidad de explicación: 20 %.
+
+INCLUYE
+- Clases en vivo.
+- Material de apoyo y archivos de ejemplo.
+- Grabaciones de las sesiones, cuando se indique en la convocatoria.
+- Proyecto final aplicado.
+- Acompañamiento durante el programa.
+- Certificado físico y firmado.
+
+INVERSIÓN REFERENCIAL (IGV INCLUIDO)
+Formato: Preventa | Lanzamiento | Regular
+- Estudiante con carné: S/ 99 | S/ 149 | S/ 199
+- Profesional: S/ 199 | S/ 249 | S/ 349
+
+POLÍTICA COMERCIAL SUGERIDA
+- Los precios son referenciales y pueden editarse antes de publicar cada convocatoria.
+- La preventa debe tener fecha límite y cupos definidos.
+- La reserva puede confirmarse mediante el canal oficial de WhatsApp.
+- Publicar claramente condiciones de pago, reprogramación, devolución y emisión de comprobante.
+
+LLAMADO A LA ACCIÓN
+Reserva tu cupo ahora y solicita el cronograma de la próxima edición.
+WhatsApp: +51 952 354 282
+Web: https://tecprog-world-store.github.io/
+
+PREGUNTAS FRECUENTES
+1. ¿Las clases son en vivo?
+Sí. La propuesta considera sesiones online en vivo y actividades prácticas.
+2. ¿Recibiré materiales?
+Sí. Se consideran guías, archivos de ejemplo y recursos de práctica.
+3. ¿Qué ocurre si no puedo asistir a una sesión?
+La disponibilidad de grabaciones y recuperación debe indicarse en las condiciones de cada edición.
+4. ¿El curso entrega certificado?
+Sí, se contempla certificado físico y firmado, sujeto al cumplimiento de las condiciones de participación.
+5. ¿Necesito conocimientos previos?
+Revisar la sección de requisitos. Cuando el programa es introductorio, se parte desde fundamentos.
+6. ¿El software está incluido?
+No se debe prometer licencias comerciales. El participante debe usar una licencia válida, versión educativa, prueba oficial o alternativa libre, según corresponda.
+
+OBSERVACIONES PARA CODEX / PÁGINA WEB
+- Usar el archivo de imagen indicado: Curso_Práctico_FreeCAD_para_Diseño_3D.png.
+- Mantener WhatsApp y URL exactamente como aparecen en este archivo.
+- La fecha de inicio debe administrarse como dato editable.
+- Los precios deben almacenarse como datos editables y no quedar incrustados en imágenes de la página.
+- Crear botones de WhatsApp con mensaje prellenado que incluya el nombre del programa.
+- Incluir secciones: hero, beneficios, temario, proyecto, requisitos, inversión, preguntas frecuentes y CTA.
+- Mantener diseño responsive y accesible.
+- Agregar texto alternativo descriptivo al flyer.
+- No afirmar certificación, alianza o respaldo de fabricantes o universidades sin autorización expresa.
+
+AVISO SOBRE MARCAS Y SOFTWARE
+- Las marcas y nombres de productos pertenecen a sus respectivos titulares.
+- Este programa es independiente y no implica autorización, patrocinio ni certificación del fabricante.
+- Verificar requisitos del sistema, licencias y compatibilidad antes de cada edición.
+
+FUENTES DE REFERENCIA PARA ACTUALIZACIÓN Y VALIDACIÓN
+- FreeCAD – sitio oficial: https://www.freecad.org/
+- FreeCAD Documentation: https://wiki.freecad.org/
+- FreeCAD Manual: https://wiki.freecad.org/Manual:Introduction
+
+NOTA DE ACTUALIZACIÓN
+Este archivo fue preparado como base editorial para una página comercial. Antes de publicar una nueva edición, Tecprog World debe revisar versiones de software, requisitos del sistema, cambios normativos, reglamentos de admisión, fechas, precios y disponibilidad del instructor.
+
+FIN DEL ARCHIVO
