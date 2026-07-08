@@ -52,7 +52,7 @@ function priceBucket(price) {
 }
 
 function moocText(item) {
-  return item.mooc_texto || (item.acceso_mooc_gratuito ? "Acceso MOOC: Gratis" : "Acceso MOOC: Consultar");
+  return item.mooc_texto || "Consulta de inscripcion";
 }
 
 function certificateText(item) {
@@ -74,7 +74,8 @@ function hoursBucket(hours) {
 function courseCard(item) {
   const detailHref = `../detalle/curso.html?id=${encodeURIComponent(item.id)}&catalogo=general`;
   const monthlyMessage = `Hola, deseo agregar el curso ${item.curso} al catalogo mensual de Tecprog World.`;
-  const institutionalMessage = `Hola, deseo una cotizacion institucional para el curso ${item.curso}.`;
+  const institutionalMessage = `Hola, deseo informacion institucional para inscribir a un equipo en el curso ${item.curso}.`;
+  const inquiryMessage = `Hola, deseo informacion para inscribirme en el curso ${item.curso}. Por favor, confirmen disponibilidad, fecha de inicio, modalidad, horario y medios de pago.`;
   return `
     <article class="catalog-card course-general-card"
       data-categoria="${catalogEscape(item.categoria)}"
@@ -82,7 +83,7 @@ function courseCard(item) {
       data-horas="${catalogEscape(hoursBucket(item.horas_certificables))}"
       data-fuente="${catalogEscape(item.fuente_base)}"
       data-precio="${catalogEscape(priceBucket(item.precio_peru_igv_soles))}"
-      data-mooc="${item.acceso_mooc_gratuito ? "MOOC gratuito" : ""}"
+      data-mooc="${item.precio_peru_igv_soles ? "Inscripcion con precio" : "Consultar inscripcion"}"
       data-certificado="${item.certificado_desde_soles ? "Certificado pagado" : ""}"
       data-en-vivo="${(item.modalidad_tags || []).includes("En vivo") ? "En vivo" : ""}"
       data-grabado="${(item.modalidad_tags || []).includes("Grabado") ? "Grabado" : ""}"
@@ -109,9 +110,9 @@ function courseCard(item) {
         <p class="microcopy">${catalogEscape(item.nota_precio_mooc || "")}</p>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="${detailHref}">Ver detalle</a>
-          <a class="btn btn-small" href="${catalogWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${item.curso}.`)}" target="_blank" rel="noopener noreferrer">${catalogEscape(item.boton_mooc || "Acceder gratis")}</a>
+          <a class="btn btn-small" href="${catalogWhatsapp(inquiryMessage)}" target="_blank" rel="noopener noreferrer">${catalogEscape(item.boton_mooc || "Consultar inscripcion")}</a>
           <a class="btn btn-small btn-gold" href="${catalogWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Solicitar inscripcion por WhatsApp</a>
-          <a class="btn btn-small" href="${catalogWhatsapp(institutionalMessage)}" target="_blank" rel="noopener noreferrer">Cotizacion institucional</a>
+          <a class="btn btn-small" href="${catalogWhatsapp(institutionalMessage)}" target="_blank" rel="noopener noreferrer">Inscripcion institucional</a>
           <a class="btn btn-small" href="${catalogWhatsapp(monthlyMessage)}" target="_blank" rel="noopener noreferrer">Agregar al catalogo mensual</a>
         </div>
       </div>
@@ -142,7 +143,8 @@ function renderCatalogFilters(items) {
       <span>Oferta</span>
       <select data-course-filter="oferta_mooc">
         <option value="">Todos</option>
-        <option value="MOOC gratuito">MOOC gratuito</option>
+        <option value="Inscripcion con precio">Inscripcion con precio</option>
+        <option value="Consultar inscripcion">Consultar inscripcion</option>
         <option value="Certificado pagado">Certificado pagado</option>
         <option value="En vivo">En vivo</option>
         <option value="Grabado">Grabado</option>

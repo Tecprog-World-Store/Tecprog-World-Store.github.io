@@ -1,6 +1,6 @@
 const WHATSAPP_NUMBER_DETAIL = "51952354282";
 const PAYPAL_URL_DETAIL = "https://www.paypal.com/paypalme/grupotecprog";
-const EDUCA_PRICE_NOTE = "Puedes revisar material introductorio gratuito. La certificación, evaluación, clases en vivo o acompañamiento especializado tienen costo.";
+const EDUCA_PRICE_NOTE = "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.";
 
 const DETAIL_SOURCES = [
   { url: "/data/cursos_tw_educa.json", type: "tw-educa-vivo" },
@@ -42,6 +42,19 @@ function detailWhatsapp(message) {
   return `https://wa.me/${WHATSAPP_NUMBER_DETAIL}?text=${encodeURIComponent(message)}`;
 }
 
+function commercialInquiryMessage(course) {
+  return `Hola, deseo información para inscribirme en el curso "${course.title}".\n\nDeseo conocer disponibilidad de vacantes, próxima fecha de inicio, modalidad, horario, forma de pago y requisitos para reservar mi vacante.\n\nGracias.`;
+}
+
+function modalityInquiryMessage(course, price) {
+  const values = [
+    price.preventa_soles ? `preventa S/ ${price.preventa_soles}` : "",
+    price.lanzamiento_soles ? `lanzamiento S/ ${price.lanzamiento_soles}` : "",
+    price.regular_soles ? `regular S/ ${price.regular_soles}` : "",
+  ].filter(Boolean).join(", ");
+  return `Hola, deseo inscribirme en el curso "${course.title}" con la modalidad "${price.publico}".\n\nPrecios publicados: ${values || "consultar inversión"}.\n\nPor favor, confirmen disponibilidad, fecha de inicio y medios de pago.`;
+}
+
 async function fetchJson(url) {
   const response = await fetch(url);
   if (!response.ok) return [];
@@ -63,7 +76,7 @@ function normalizeCourse(item, sourceType) {
       pricePen: item.precio || "Consultar inversión",
       priceUsd: "Consultar",
       moocText: item.estado_publico || "Curso próximo",
-      moocButton: "Consultar por WhatsApp",
+      moocButton: "Consultar vacantes",
       certificateText: "Certificado físico y firmado según modalidad",
       paidText: item.precio || "Consultar inversión",
       priceNote: item.nota_cronograma || "Inicio sujeto a confirmación de grupo mínimo.",
@@ -115,8 +128,8 @@ function normalizeCourse(item, sourceType) {
       modality: item.modalidad,
       pricePen: item.precio_peru_igv_soles ? `S/ ${item.precio_peru_igv_soles} IGV incluido` : "Consultar",
       priceUsd: item.precio_internacional_usd ? `USD ${item.precio_internacional_usd}` : "Consultar",
-      moocText: item.mooc_texto || (item.acceso_mooc_gratuito ? "Acceso MOOC: Gratis" : "Acceso MOOC: consultar"),
-      moocButton: item.boton_mooc || "Acceder gratis",
+      moocText: item.mooc_texto || "Consulta de inscripción",
+      moocButton: item.boton_mooc || "Consultar inscripción",
       certificateText: item.certificado_texto || (item.certificado_desde_soles ? `Certificado desde S/ ${item.certificado_desde_soles}` : "Certificado: consultar"),
       paidText: item.precio_pago_texto || (item.precio_peru_igv_soles ? `Acceso completo desde S/ ${item.precio_peru_igv_soles}` : "Acceso completo: consultar"),
       priceNote: item.nota_precio_mooc || item.politica_precio || EDUCA_PRICE_NOTE,
@@ -154,8 +167,8 @@ function normalizeCourse(item, sourceType) {
     modality: item.modalidad || "Virtual",
     pricePen: item.precio_desde || item.precio || "Consultar",
     priceUsd: item.precio_usd || "Consultar",
-    moocText: item.mooc_texto || (item.acceso_mooc_gratuito ? "Acceso MOOC: Gratis" : "Acceso MOOC: consultar"),
-    moocButton: item.boton_mooc || "Acceder gratis",
+    moocText: item.mooc_texto || "Consulta de inscripción",
+    moocButton: item.boton_mooc || "Consultar inscripción",
     certificateText: item.certificado_texto || (item.certificado_desde_soles ? `Certificado desde S/ ${item.certificado_desde_soles}` : "Certificado: consultar"),
     paidText: item.precio_pago_texto || item.precio_desde || item.precio || "Acceso completo: consultar",
     priceNote: item.nota_precio_mooc || EDUCA_PRICE_NOTE,
@@ -227,7 +240,11 @@ function syllabusMarkup(modules) {
   return modules.map((module) => `
     <article class="detail-block">
       <h3>Modulo ${esc(module.modulo)}: ${esc(module.titulo)}</h3>
+      ${module.proposito ? `<p>${esc(module.proposito)}</p>` : ""}
       ${listItems(module.contenidos || [])}
+      ${module.practica ? `<p><strong>Práctica:</strong> ${esc(module.practica)}</p>` : ""}
+      ${module.resultado ? `<p><strong>Resultado:</strong> ${esc(module.resultado)}</p>` : ""}
+      ${module.tarea ? `<p><strong>Tarea o avance:</strong> ${esc(module.tarea)}</p>` : ""}
     </article>
   `).join("");
 }
@@ -272,8 +289,18 @@ function investmentMarkup(items) {
           </tbody>
         </table>
       </div>
+      <p>Precios referenciales en PEN${items.some((item) => item.incluye_igv) ? ", IGV incluido cuando se indique en la convocatoria" : ""}. Confirma la etapa vigente antes de pagar.</p>
     </article>
   `;
+}
+
+function modalityButtons(course) {
+  if (!Array.isArray(course.prices) || !course.prices.length) {
+    return `<a class="btn btn-small btn-primary" href="${detailWhatsapp(course.whatsappMessage || commercialInquiryMessage(course))}" target="_blank" rel="noopener noreferrer">Consultar inversión y próxima convocatoria</a>`;
+  }
+  return course.prices.map((price) => `
+    <a class="btn btn-small btn-primary" href="${detailWhatsapp(modalityInquiryMessage(course, price))}" target="_blank" rel="noopener noreferrer">${esc(price.publico)}</a>
+  `).join("");
 }
 
 function setMeta(selector, attr, value) {
@@ -325,8 +352,8 @@ async function renderDetail() {
           <p>${esc(current.shortDescription)}</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="${detailWhatsapp(current.whatsappMessage)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            <a class="btn btn-secondary" href="${detailWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${current.title}.`)}" target="_blank" rel="noopener noreferrer">${esc(current.moocButton)}</a>
-            <a class="btn btn-secondary" href="mailto:grupotecprog@gmail.com">Solicitar cotización</a>
+            <a class="btn btn-secondary" href="${detailWhatsapp(commercialInquiryMessage(current))}" target="_blank" rel="noopener noreferrer">${esc(current.moocButton)}</a>
+            <a class="btn btn-secondary" href="mailto:grupotecprog@gmail.com">Consultar inscripción</a>
             <a class="btn btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">Solicitar pago PayPal</a>
             <a class="btn btn-secondary" href="${current.backHref}">${current.backLabel}</a>
           </div>
@@ -352,12 +379,12 @@ async function renderDetail() {
           ${optionalList("Metodologia", current.methodology)}
           ${investmentMarkup(current.prices)}
           <article class="detail-block">
-            <h2>Acceso gratuito y certificacion</h2>
+            <h2>Inscripcion y certificacion</h2>
             <p>${esc(current.priceNote)}</p>
             <ul class="check-list">
-              <li>${esc(current.moocText)}: material introductorio, temario, recursos publicos o videos abiertos cuando esten disponibles.</li>
-              <li>${esc(current.certificateText)}: no incluido en el acceso gratuito.</li>
-              <li>${esc(current.paidText)}: clases, evaluación, acompanamiento o acceso completo según modalidad.</li>
+              <li>${esc(current.moocText)}: confirma vacantes, fecha de inicio y etapa comercial vigente.</li>
+              <li>${esc(current.certificateText)}: sujeto a asistencia, participacion y condiciones de la convocatoria.</li>
+              <li>${esc(current.paidText)}: clases, evaluación, acompañamiento o acceso completo según modalidad.</li>
             </ul>
           </article>
           <article class="detail-block">
@@ -400,17 +427,17 @@ async function renderDetail() {
               <div><dt>Modalidad</dt><dd>${esc(current.modality)}</dd></div>
               ${current.startDate ? `<div><dt>Inicio</dt><dd>${esc(current.startDate)}</dd></div>` : ""}
               ${current.scheduleText ? `<div><dt>Horario</dt><dd>${esc(current.scheduleText)}</dd></div>` : ""}
-              <div><dt>Acceso MOOC</dt><dd>${esc(current.moocText)}</dd></div>
+              <div><dt>Inscripcion</dt><dd>${esc(current.moocText)}</dd></div>
               <div><dt>Certificado</dt><dd>${esc(current.certificateText)}</dd></div>
               <div><dt>Acceso completo</dt><dd>${esc(current.paidText)}</dd></div>
-              <div><dt>Precio Perú anterior/referencial</dt><dd>${esc(current.pricePen)}</dd></div>
+              <div><dt>Inversion publicada</dt><dd>${esc(current.pricePen)}</dd></div>
               <div><dt>Internacional</dt><dd>${esc(current.priceUsd)}</dd></div>
             </dl>
             <div class="catalog-actions">
-              <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo acceder gratis al material introductorio del curso ${current.title}.`)}" target="_blank" rel="noopener noreferrer">${esc(current.moocButton)}</a>
+              ${modalityButtons(current)}
               <a class="btn btn-small btn-primary" href="${detailWhatsapp(current.whatsappMessage)}" target="_blank" rel="noopener noreferrer">Inscripcion por WhatsApp</a>
               <a class="btn btn-small btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">PayPal</a>
-              <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo una cotización institucional para ${current.title}.`)}" target="_blank" rel="noopener noreferrer">Cotización institucional</a>
+              <a class="btn btn-small" href="${detailWhatsapp(`Hola, deseo información institucional para inscribir a un equipo en el curso ${current.title}.`)}" target="_blank" rel="noopener noreferrer">Inscripción institucional</a>
               <a class="btn btn-small" href="${current.backHref}">${current.backLabel}</a>
             </div>
             <p class="microcopy">${esc(current.priceNote)}</p>

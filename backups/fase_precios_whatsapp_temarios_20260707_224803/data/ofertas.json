@@ -1,0 +1,125 @@
+[
+  {
+    "id": "curso-hp-50g",
+    "nombre": "Programacion HP 50G",
+    "tipo": "curso",
+    "linea": "TW Educa",
+    "categoria": "Calculadoras cientificas",
+    "descripcion_corta": "Curso de programacion aplicada en HP 50G para ingenieria.",
+    "descripcion_larga": "Formacion para automatizar calculos, trabajar con variables, matrices, ecuaciones y rutinas User RPL introductorias.",
+    "modalidad": "Virtual",
+    "entregables": [
+      "Sesiones guiadas",
+      "Compendio PDF",
+      "Ejercicios practicos"
+    ],
+    "publico_objetivo": [
+      "Estudiantes de ingenieria",
+      "Profesionales tecnicos"
+    ],
+    "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
+    "precio_internacional_usd": "Desde USD 30",
+    "paypal_link": "",
+    "url_detalle": "detalle/curso.html?id=hp50g&periodo=2026-06",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Programacion_HP50G.JPG",
+    "estado": "vigente",
+    "periodo": "2026-06",
+    "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "acceso_mooc_gratuito": true,
+    "precio_mooc_soles": 0,
+    "mooc_texto": "Acceso MOOC: Gratis",
+    "boton_mooc": "Acceder gratis",
+    "certificado_desde_soles": 49,
+    "certificado_texto": "Certificado desde S/ 49",
+    "certificado_digital_basico_desde_soles": 19,
+    "certificado_con_evaluacion_desde_soles": 49,
+    "curso_en_vivo_desde_soles": 99,
+    "curso_tecnico_especializado_desde_soles": 99,
+    "capacitacion_institucional_desde_soles": 500,
+    "modalidad_tags": [
+      "MOOC gratuito",
+      "Certificado pagado",
+      "Grabado"
+    ],
+    "tipo_horas_certificables": "Curso corto",
+    "horas_certificables_sugeridas": "16 a 24 horas",
+    "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+  },
+  {
+    "id": "curso-qgis-basico",
+    "nombre": "QGIS Basico",
+    "tipo": "curso",
+    "linea": "TW Educa",
+    "categoria": "GIS e ingenieria",
+    "descripcion_corta": "Curso introductorio de QGIS para mapas, capas y geoprocesamiento.",
+    "descripcion_larga": "Ruta aplicada para comprender SIG, sistemas de coordenadas, capas vectoriales y raster, simbologia y diseno de mapas.",
+    "modalidad": "Virtual",
+    "entregables": [
+      "Sesiones guiadas",
+      "Compendio PDF",
+      "Proyecto final"
+    ],
+    "publico_objetivo": [
+      "Ingenieros",
+      "Estudiantes",
+      "Tecnicos GIS"
+    ],
+    "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
+    "precio_internacional_usd": "Desde USD 45",
+    "paypal_link": "",
+    "url_detalle": "detalle/curso.html?id=qgis-basico&periodo=2026-06",
+    "imagen": "assets/img/cursos/curso-tecnologia-negocios.svg",
+    "estado": "vigente",
+    "periodo": "2026-06",
+    "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "acceso_mooc_gratuito": true,
+    "precio_mooc_soles": 0,
+    "mooc_texto": "Acceso MOOC: Gratis",
+    "boton_mooc": "Acceder gratis",
+    "certificado_desde_soles": 49,
+    "certificado_texto": "Certificado desde S/ 49",
+    "certificado_digital_basico_desde_soles": 19,
+    "certificado_con_evaluacion_desde_soles": 49,
+    "curso_en_vivo_desde_soles": 99,
+    "curso_tecnico_especializado_desde_soles": 99,
+    "capacitacion_institucional_desde_soles": 500,
+    "modalidad_tags": [
+      "MOOC gratuito",
+      "Certificado pagado",
+      "Grabado"
+    ],
+    "tipo_horas_certificables": "Curso corto",
+    "horas_certificables_sugeridas": "16 a 24 horas",
+    "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
+    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+  },
+  {
+    "id": "software-medida",
+    "nombre": "Desarrollo de software a medida",
+    "tipo": "servicio",
+    "linea": "TW Innova",
+    "categoria": "Software empresarial",
+    "descripcion_corta": "Sistemas web, dashboards, automatizacion y herramientas internas por alcance.",
+    "descripcion_larga": "Servicio de levantamiento, diseno, desarrollo incremental, documentacion y soporte segun cotizacion.",
+    "modalidad": "Proyecto por alcance",
+    "entregables": [
+      "Propuesta tecnica",
+      "Version funcional",
+      "Documentacion"
+    ],
+    "publico_objetivo": [
+      "Empresas",
+      "Instituciones",
+      "Emprendedores"
+    ],
+    "precio_peru_soles_igv": "Desde S/ 1200",
+    "precio_internacional_usd": "Desde USD 360",
+    "paypal_link": "",
+    "url_detalle": "detalle/software.html?id=software-medida",
+    "imagen": "assets/img/software/software-comercial-dashboard.svg",
+    "estado": "vigente",
+    "periodo": "2026-06",
+    "nota_precio": "Servicio a medida; solicitar cotizacion y enlace PayPal si corresponde."
+  }
+]

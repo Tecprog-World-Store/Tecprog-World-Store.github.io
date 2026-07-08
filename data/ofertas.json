@@ -17,18 +17,18 @@
       "Estudiantes de ingenieria",
       "Profesionales tecnicos"
     ],
-    "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
+    "precio_peru_soles_igv": "Consulta de inscripcion / Certificado desde S/ 49",
     "precio_internacional_usd": "Desde USD 30",
     "paypal_link": "",
     "url_detalle": "detalle/curso.html?id=hp50g&periodo=2026-06",
     "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Programacion_HP50G.JPG",
     "estado": "vigente",
     "periodo": "2026-06",
-    "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "nota_precio": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.",
     "acceso_mooc_gratuito": true,
     "precio_mooc_soles": 0,
-    "mooc_texto": "Acceso MOOC: Gratis",
-    "boton_mooc": "Acceder gratis",
+    "mooc_texto": "Consulta de inscripcion",
+    "boton_mooc": "Consultar inscripcion",
     "certificado_desde_soles": 49,
     "certificado_texto": "Certificado desde S/ 49",
     "certificado_digital_basico_desde_soles": 19,
@@ -37,14 +37,14 @@
     "curso_tecnico_especializado_desde_soles": 99,
     "capacitacion_institucional_desde_soles": 500,
     "modalidad_tags": [
-      "MOOC gratuito",
+      "Consulta de inscripcion",
       "Certificado pagado",
       "Grabado"
     ],
     "tipo_horas_certificables": "Curso corto",
     "horas_certificables_sugeridas": "16 a 24 horas",
-    "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "precio_desde": "Consulta de inscripcion / Certificado desde S/ 49",
+    "nota_precio_mooc": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante."
   },
   {
     "id": "curso-qgis-basico",
@@ -65,18 +65,18 @@
       "Estudiantes",
       "Tecnicos GIS"
     ],
-    "precio_peru_soles_igv": "Acceso MOOC: Gratis / Certificado desde S/ 49",
+    "precio_peru_soles_igv": "Consulta de inscripcion / Certificado desde S/ 49",
     "precio_internacional_usd": "Desde USD 45",
     "paypal_link": "",
     "url_detalle": "detalle/curso.html?id=qgis-basico&periodo=2026-06",
     "imagen": "assets/img/cursos/curso-tecnologia-negocios.svg",
     "estado": "vigente",
     "periodo": "2026-06",
-    "nota_precio": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+    "nota_precio": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.",
     "acceso_mooc_gratuito": true,
     "precio_mooc_soles": 0,
-    "mooc_texto": "Acceso MOOC: Gratis",
-    "boton_mooc": "Acceder gratis",
+    "mooc_texto": "Consulta de inscripcion",
+    "boton_mooc": "Consultar inscripcion",
     "certificado_desde_soles": 49,
     "certificado_texto": "Certificado desde S/ 49",
     "certificado_digital_basico_desde_soles": 19,
@@ -85,14 +85,14 @@
     "curso_tecnico_especializado_desde_soles": 99,
     "capacitacion_institucional_desde_soles": 500,
     "modalidad_tags": [
-      "MOOC gratuito",
+      "Consulta de inscripcion",
       "Certificado pagado",
       "Grabado"
     ],
     "tipo_horas_certificables": "Curso corto",
     "horas_certificables_sugeridas": "16 a 24 horas",
-    "precio_desde": "Acceso MOOC: Gratis / Certificado desde S/ 49",
-    "nota_precio_mooc": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo."
+    "precio_desde": "Consulta de inscripcion / Certificado desde S/ 49",
+    "nota_precio_mooc": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante."
   },
   {
     "id": "software-medida",

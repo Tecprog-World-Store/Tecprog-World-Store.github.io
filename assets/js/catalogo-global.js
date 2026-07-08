@@ -140,7 +140,10 @@
   }
 
   function whatsappHref(item) {
-    const message = item.whatsapp_mensaje || `Hola Tecprog World, deseo cotizar: ${item.nombre}.`;
+    const isCourse = item.linea_negocio === "tw-educa" || item.linea === "tw-educa" || item.tipo_item === "curso";
+    const message = item.whatsapp_mensaje || (isCourse
+      ? `Hola, deseo información para inscribirme en el curso "${item.nombre}". Deseo conocer disponibilidad, próxima fecha de inicio, modalidad, horario y forma de pago.`
+      : `Hola Tecprog World, deseo cotizar: ${item.nombre}.`);
     return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
   }
 
@@ -204,9 +207,11 @@
     const image = localPath(item.imagen || DEFAULT_IMAGE);
     const fallback = localPath(DEFAULT_IMAGE);
     const primaryPrice = itemPrimaryPrice(item);
-    const priceText = money(primaryPrice.value, primaryPrice.currency);
+    const isCourse = item.linea_negocio === "tw-educa" || item.linea === "tw-educa" || item.tipo_item === "curso";
+    const priceText = isCourse && item.precio ? item.precio : money(primaryPrice.value, primaryPrice.currency);
     const priceDollars = primaryPrice.currency !== "USD" && typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
     const publicStatus = item.estado_publico || readable(item.estado || "cotizar");
+    const actionLabel = isCourse ? "Inscribirme por WhatsApp" : "Cotizar por WhatsApp";
     const courseMeta = item.tipo_item === "curso"
       ? [item.fecha_inicio_publica || item.fecha_inicio, item.modalidad].filter(Boolean).join(" · ")
       : "";
@@ -234,7 +239,7 @@
           ${courseMeta ? `<p class="commerce-status-meta">${escapeHtml(courseMeta)}</p>` : ""}
           <p class="commerce-notice">${NOTICE}</p>
           <div class="commerce-card-actions">
-            <a class="btn btn-small btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+            <a class="btn btn-small btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">${actionLabel}</a>
             ${detail}
           </div>
         </div>

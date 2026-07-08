@@ -38,25 +38,25 @@
   {
     "titulo": "Curso práctico de AutoCAD Nivel I",
     "ruta": "cursos/curso-practico-de-autocad-nivel-i/",
-    "descripcion": "Dibuja, organiza y presenta planos desde cero. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Dibuja, organiza y presenta planos desde cero. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de AutoCAD Nivel II",
     "ruta": "cursos/curso-practico-de-autocad-nivel-ii/",
-    "descripcion": "Capas, bloques, anotaciones y flujo de trabajo más eficiente. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Capas, bloques, anotaciones y flujo de trabajo más eficiente. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de AutoCAD Nivel III",
     "ruta": "cursos/curso-practico-de-autocad-nivel-iii/",
-    "descripcion": "Productividad avanzada, estándares y documentación profesional. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Productividad avanzada, estándares y documentación profesional. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de Autodesk Inventor para Diseño Mecánico",
     "ruta": "cursos/curso-practico-de-autodesk-inventor-para-diseno-mecanico/",
-    "descripcion": "Modela piezas, ensamblajes y planos técnicos con flujo profesional. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Modela piezas, ensamblajes y planos técnicos con flujo profesional. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -80,7 +80,7 @@
   {
     "titulo": "Curso práctico de Costos y Presupuestos con S10",
     "ruta": "cursos/curso-practico-de-costos-y-presupuestos-con-s10/",
-    "descripcion": "Aprende metrados, presupuestos, análisis de precios unitarios y control de obra. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Aprende metrados, presupuestos, análisis de precios unitarios y control de obra. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -92,31 +92,31 @@
   {
     "titulo": "Curso práctico de Excel Nivel I",
     "ruta": "cursos/curso-practico-de-excel-nivel-i/",
-    "descripcion": "Aprende desde cero hojas de cálculo, fórmulas y formato profesional. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Aprende desde cero hojas de cálculo, fórmulas y formato profesional. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de Excel Nivel II",
     "ruta": "cursos/curso-practico-de-excel-nivel-ii/",
-    "descripcion": "Funciones intermedias, tablas, filtros y reportes para trabajo real. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Funciones intermedias, tablas, filtros y reportes para trabajo real. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de Excel Nivel III",
     "ruta": "cursos/curso-practico-de-excel-nivel-iii/",
-    "descripcion": "Dashboards, análisis de datos y automatización para uso profesional. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Dashboards, análisis de datos y automatización para uso profesional. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de FreeCAD para Diseño 3D",
     "ruta": "cursos/curso-practico-de-freecad-para-diseno-3d/",
-    "descripcion": "Modelado paramétrico open-source para estudiantes y profesionales. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Modelado paramétrico open-source para estudiantes y profesionales. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de Frontend Web",
     "ruta": "cursos/curso-practico-de-frontend-web/",
-    "descripcion": "Aprende HTML, CSS y JavaScript para crear interfaces modernas. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Aprende HTML, CSS y JavaScript para crear interfaces modernas. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -128,13 +128,13 @@
   {
     "titulo": "Curso práctico de GNU/Linux",
     "ruta": "cursos/curso-practico-de-gnu-linux/",
-    "descripcion": "Aprende terminal, archivos, usuarios y herramientas esenciales. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Aprende terminal, archivos, usuarios y herramientas esenciales. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de Informática Básica",
     "ruta": "cursos/curso-practico-de-informatica-basica/",
-    "descripcion": "Windows, Word, Excel y PowerPoint para estudio y trabajo. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Windows, Word, Excel y PowerPoint para estudio y trabajo. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -152,13 +152,13 @@
   {
     "titulo": "Curso práctico de MATLAB y Octave para Ingeniería",
     "ruta": "cursos/curso-practico-de-matlab-y-octave-para-ingenieria/",
-    "descripcion": "Programa, grafica y resuelve problemas numéricos paso a paso. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Programa, grafica y resuelve problemas numéricos paso a paso. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de ETABS para Modelado Estructural",
     "ruta": "cursos/curso-practico-de-modelado-y-analisis-estructural-con-etabs/",
-    "descripcion": "Aprende a modelar edificaciones, cargas, análisis e interpretación de resultados. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Aprende a modelar edificaciones, cargas, análisis e interpretación de resultados. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -182,19 +182,19 @@
   {
     "titulo": "Curso práctico de Python Básico",
     "ruta": "cursos/curso-practico-de-python-basico/",
-    "descripcion": "Lógica, lenguaje estructurado, módulos y funciones desde cero. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Lógica, lenguaje estructurado, módulos y funciones desde cero. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de Python POO",
     "ruta": "cursos/curso-practico-de-python-poo/",
-    "descripcion": "Clases, objetos, encapsulamiento y diseño orientado a objetos. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Clases, objetos, encapsulamiento y diseño orientado a objetos. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de Python Web",
     "ruta": "cursos/curso-practico-de-python-web/",
-    "descripcion": "Construye aplicaciones web con backend en Python. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Construye aplicaciones web con backend en Python. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -206,13 +206,13 @@
   {
     "titulo": "Curso práctico de Revit para Modelado BIM",
     "ruta": "cursos/curso-practico-de-revit-para-modelado-bim/",
-    "descripcion": "Aprende modelado BIM, documentación y flujo de trabajo para proyectos. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Aprende modelado BIM, documentación y flujo de trabajo para proyectos. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Curso práctico de SAP2000 para Análisis Estructural",
     "ruta": "cursos/curso-practico-de-sap2000-para-analisis-estructural/",
-    "descripcion": "Modela, analiza e interpreta estructuras de manera profesional. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Modela, analiza e interpreta estructuras de manera profesional. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -224,7 +224,7 @@
   {
     "titulo": "Curso práctico de SolidWorks para Diseño 3D",
     "ruta": "cursos/curso-practico-de-solidworks-para-diseno-3d/",
-    "descripcion": "Aprende piezas, ensamblajes y documentación técnica. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Aprende piezas, ensamblajes y documentación técnica. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
@@ -266,19 +266,19 @@
   {
     "titulo": "Preparación para Admisión UNAC",
     "ruta": "cursos/preparacion-para-admision-unac/",
-    "descripcion": "Prepárate con enfoque real para el examen de la Universidad del Callao. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Prepárate con enfoque real para el examen de la Universidad del Callao. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Preparación para Admisión UNI",
     "ruta": "cursos/preparacion-para-admision-uni/",
-    "descripcion": "Entrena con fuerte base matemática, física y razonamiento. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Entrena con fuerte base matemática, física y razonamiento. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {
     "titulo": "Preparación para Admisión UNMSM",
     "ruta": "cursos/preparacion-para-admision-unmsm/",
-    "descripcion": "Entrena con enfoque real para el examen de San Marcos. El programa está organizado para que el participante avance desde los fundamentos hasta una aplicación verificable, con ejercicios guiados, material de apoyo y retroalimentación.",
+    "descripcion": "Entrena con enfoque real para el examen de San Marcos. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
     "tipo": "curso"
   },
   {

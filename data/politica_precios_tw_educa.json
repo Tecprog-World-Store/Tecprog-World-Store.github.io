@@ -2,20 +2,20 @@
   "linea": "TW Educa",
   "version": "2026-06",
   "moneda_base": "PEN",
-  "frase_obligatoria": "Puedes revisar material introductorio gratuito. La certificaci?n, evaluaci?n, clases en vivo o acompa?amiento especializado tienen costo.",
+  "frase_obligatoria": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.",
   "reglas_generales": [
-    "Todo curso debe mostrar Acceso MOOC: Gratis si aplica.",
+    "Todo curso debe mostrar Consulta de inscripcion si aplica.",
     "Todo curso debe mostrar Certificado desde S/ ...",
-    "El material introductorio gratuito no incluye certificado.",
+    "El informacion de inscripcion no incluye certificado.",
     "La certificacion, evaluacion, clases en vivo o acompanamiento especializado tienen costo."
   ],
   "niveles": [
     {
       "id": "mooc-gratuito",
-      "nombre": "MOOC gratuito",
+      "nombre": "Consulta de inscripcion",
       "precio_soles": 0,
       "incluye": [
-        "Acceso a material introductorio",
+        "Consulta de inscripcion",
         "Temario",
         "Recursos publicos o videos abiertos"
       ],
@@ -24,7 +24,7 @@
         "Evaluacion personalizada",
         "Acompanamiento especializado"
       ],
-      "boton": "Acceder gratis"
+      "boton": "Consultar inscripcion"
     },
     {
       "id": "certificado-digital-basico",
@@ -124,7 +124,7 @@
     }
   ],
   "filtros_catalogo": [
-    "MOOC gratuito",
+    "Consulta de inscripcion",
     "Certificado pagado",
     "En vivo",
     "Grabado",

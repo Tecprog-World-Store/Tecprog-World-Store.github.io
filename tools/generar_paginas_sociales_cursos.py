@@ -74,6 +74,53 @@ def image_type(path: str) -> str:
     }.get(suffix, "image/webp")
 
 
+def list_html(items: list[str]) -> str:
+    clean_items = [item for item in items if item]
+    return "<ul>" + "".join(f"<li>{esc(item)}</li>" for item in clean_items) + "</ul>" if clean_items else "<p>Consultar en la convocatoria.</p>"
+
+
+def investment_html(course: dict) -> str:
+    prices = course.get("precios") or []
+    if not prices:
+        return "<p>Inversion: consultar proxima convocatoria.</p>"
+    rows = []
+    for item in prices:
+        rows.append(
+            "<tr>"
+            f"<td>{esc(item.get('publico'))}</td>"
+            f"<td>S/ {esc(item.get('preventa_soles'))}</td>"
+            f"<td>S/ {esc(item.get('lanzamiento_soles'))}</td>"
+            f"<td>S/ {esc(item.get('regular_soles'))}</td>"
+            "</tr>"
+        )
+    return (
+        "<table><thead><tr><th>Modalidad</th><th>Preventa</th><th>Lanzamiento</th><th>Regular</th></tr></thead>"
+        f"<tbody>{''.join(rows)}</tbody></table>"
+        "<p>Precios referenciales en PEN. Confirma vacantes, etapa vigente y forma de pago por WhatsApp.</p>"
+    )
+
+
+def syllabus_html(course: dict) -> str:
+    modules = course.get("temario_por_sesion") or course.get("temario_base") or []
+    if not modules:
+        return "<p>Temario sujeto a confirmacion academica.</p>"
+    blocks = []
+    for module in modules:
+        proposito = f"<p>{esc(module.get('proposito'))}</p>" if module.get("proposito") else ""
+        practica = f"<p><strong>Practica:</strong> {esc(module.get('practica'))}</p>" if module.get("practica") else ""
+        resultado = f"<p><strong>Resultado:</strong> {esc(module.get('resultado'))}</p>" if module.get("resultado") else ""
+        blocks.append(
+            "<article class=\"detail-block\">"
+            f"<h3>Sesion {esc(module.get('modulo'))}: {esc(module.get('titulo'))}</h3>"
+            f"{proposito}"
+            f"{list_html(module.get('contenidos') or [])}"
+            f"{practica}"
+            f"{resultado}"
+            "</article>"
+        )
+    return "".join(blocks)
+
+
 def webp_size(path: Path) -> tuple[int, int] | tuple[None, None]:
     data = path.read_bytes()
     if len(data) < 30 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
@@ -130,6 +177,11 @@ def page_html(course: dict, meta: dict) -> str:
     desc = meta["description"]
     image_alt = f"Flyer del curso {title}"
     whatsapp = quote(course.get("whatsapp_mensaje") or f"Hola, deseo información sobre {title}.")
+    learning = list_html(course.get("resultados_aprendizaje") or course.get("que_aprenderas") or [])
+    requirements = list_html(course.get("requisitos") or [])
+    tools = list_html(course.get("herramientas") or course.get("software") or [])
+    deliverables = list_html(course.get("entregables") or [])
+    methodology = list_html(course.get("metodologia") or [])
     return f"""<!doctype html>
 <html lang="es">
   <head>
@@ -186,6 +238,58 @@ def page_html(course: dict, meta: dict) -> str:
             <img src="/{esc(meta['og_image'])}" alt="{esc(image_alt)}" loading="eager">
             <figcaption>{esc(course.get('modalidad') or 'Curso online')}</figcaption>
           </figure>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-shell detail-layout">
+          <div class="detail-content">
+            <article class="detail-block">
+              <h2>Inversion publicada</h2>
+              {investment_html(course)}
+            </article>
+            <article class="detail-block">
+              <h2>Temario por sesion</h2>
+            </article>
+            {syllabus_html(course)}
+            <article class="detail-block">
+              <h2>Resultados de aprendizaje</h2>
+              {learning}
+            </article>
+            <article class="detail-block">
+              <h2>Proyecto final</h2>
+              <p>{esc(course.get('proyecto_final') or 'Proyecto aplicado integrador.')}</p>
+            </article>
+            <article class="detail-block">
+              <h2>Entregables</h2>
+              {deliverables}
+            </article>
+            <article class="detail-block">
+              <h2>Herramientas</h2>
+              {tools}
+            </article>
+            <article class="detail-block">
+              <h2>Metodologia</h2>
+              {methodology}
+            </article>
+            <article class="detail-block">
+              <h2>Requisitos</h2>
+              {requirements}
+            </article>
+            <article class="detail-block">
+              <h2>Certificacion</h2>
+              <p>{esc(course.get('certificacion') or 'Certificado fisico y firmado segun condiciones de la convocatoria.')}</p>
+            </article>
+          </div>
+          <aside class="detail-sidebar">
+            <article class="price-panel">
+              <h2>Inscripcion</h2>
+              <p>{esc(course.get('precio') or 'Consultar inversion')}</p>
+              <div class="catalog-actions">
+                <a class="btn btn-small btn-primary" href="https://wa.me/51952354282?text={whatsapp}" target="_blank" rel="noopener noreferrer">Inscribirme por WhatsApp</a>
+                <a class="btn btn-small" href="/educa/index.html">Ver catalogo TW Educa</a>
+              </div>
+            </article>
+          </aside>
         </div>
       </section>
     </main>
