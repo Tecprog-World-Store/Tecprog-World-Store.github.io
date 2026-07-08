@@ -455,6 +455,10 @@
   }
 
   async function render(root) {
+    if (root.dataset.twCatalogoGlobalReady === "true") {
+      update(root);
+      return;
+    }
     const items = await loadItems();
     const mode = root.dataset.catalogMode || "full";
     const fixedLine = root.dataset.catalogLine || "";
@@ -502,6 +506,7 @@
         }
       }
     });
+    root.dataset.twCatalogoGlobalReady = "true";
     update(root);
   }
 

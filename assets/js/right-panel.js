@@ -6,7 +6,17 @@ function globalSidebarsDisabled() {
 
 function ensureThreeColumnShell(main) {
   let shell = main.querySelector(":scope > .page-shell-three-columns");
-  if (shell) return shell;
+  if (shell) {
+    const pageMain = shell.querySelector(":scope > .page-main");
+    shell.querySelectorAll(":scope > .side-nav").forEach((nav, index) => {
+      if (index > 0) nav.remove();
+    });
+    shell.querySelectorAll(":scope > .side-panel-right").forEach((panel, index) => {
+      if (index > 0) panel.remove();
+    });
+    if (pageMain) pageMain.id = "app-content";
+    return shell;
+  }
 
   const toggle = main.querySelector(":scope > .side-index-toggle, :scope > .side-nav-toggle");
   const sideNav = main.querySelector(":scope > .side-nav");
@@ -36,6 +46,13 @@ function ensureThreeColumnShell(main) {
 function renderRightPanel(force = false) {
   if (globalSidebarsDisabled()) {
     document.querySelectorAll(".side-panel-right").forEach((panel) => panel.remove());
+    document.querySelectorAll(".page-shell-three-columns").forEach((shell) => {
+      const pageMain = shell.querySelector(":scope > .page-main");
+      if (!pageMain) return;
+      [...shell.children].forEach((child) => {
+        if (child !== pageMain) child.remove();
+      });
+    });
     return;
   }
   document.querySelectorAll(".with-side-nav").forEach((main) => {
