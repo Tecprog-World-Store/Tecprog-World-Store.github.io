@@ -77,7 +77,7 @@ function courseCard(item) {
   const institutionalMessage = `Hola, deseo informacion institucional para inscribir a un equipo en el curso ${item.curso}.`;
   const inquiryMessage = `Hola, deseo informacion para inscribirme en el curso ${item.curso}. Por favor, confirmen disponibilidad, fecha de inicio, modalidad, horario y medios de pago.`;
   return `
-    <article class="catalog-card course-general-card"
+    <article class="catalog-card course-general-card" data-course-card-id="${catalogEscape(item.id)}"
       data-categoria="${catalogEscape(item.categoria)}"
       data-nivel="${catalogEscape(item.nivel)}"
       data-horas="${catalogEscape(hoursBucket(item.horas_certificables))}"
@@ -195,6 +195,9 @@ async function renderCatalogGeneral() {
   const items = await loadCatalogGeneral();
   renderCatalogFilters(items);
   grid.innerHTML = items.map(courseCard).join("");
+  if (window.TWCursoSchedule) {
+    void window.TWCursoSchedule.enhanceCards(grid);
+  }
   document.querySelector("[data-course-count]").textContent = `${items.length} cursos`;
   document.querySelector("[data-general-course-filters]").addEventListener("input", applyCourseFilters);
   document.querySelector("[data-general-course-filters]").addEventListener("change", applyCourseFilters);

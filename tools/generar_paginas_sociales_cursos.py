@@ -208,7 +208,7 @@ def page_html(course: dict, meta: dict) -> str:
     <meta name="twitter:image" content="{esc(meta['og_image_url'])}">
     <link rel="icon" href="/assets/img/logos/logo-tecprog-world.png" type="image/png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="/assets/css/styles.css?v=20260729-04">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20260729-06">
   </head>
   <body>
     <header class="site-header">
@@ -216,11 +216,8 @@ def page_html(course: dict, meta: dict) -> str:
         <img src="/assets/img/logos/logo-tecprog-world.png" alt="Logo Tecprog World" width="56" height="56">
         <span><strong>Tecprog World</strong><small>E.I.R.L. Perú</small></span>
       </a>
-      <nav class="site-nav is-static" data-nav>
-        <a href="/index.html">Inicio</a>
-        <a href="/educa/index.html">TW Educa</a>
-        <a href="/empresa/contacto.html">Contacto</a>
-      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span></span><span></span><span></span><span class="sr-only">Abrir menu</span></button>
+      <nav id="site-nav" class="site-nav" data-nav></nav>
     </header>
     <main class="detail-main" data-detail-root data-course-id="{esc(course['id'])}" data-catalog="tw-educa-vivo">
       <section class="detail-hero">
@@ -239,6 +236,9 @@ def page_html(course: dict, meta: dict) -> str:
             <figcaption>{esc(course.get('modalidad') or 'Curso online')}</figcaption>
           </figure>
         </div>
+      </section>
+      <section class="section section-alt">
+        <div class="section-shell" data-course-schedule data-course-id="{esc(course['id'])}"></div>
       </section>
       <section class="section">
         <div class="section-shell detail-layout">
@@ -293,9 +293,10 @@ def page_html(course: dict, meta: dict) -> str:
         </div>
       </section>
     </main>
-    <script src="/assets/js/detalle.js?v=20260729-04"></script>
-    <script src="/assets/js/navigation.js?v=20260729-04"></script>
-    <script src="/assets/js/audio-player.js?v=20260729-04"></script>
+    <script src="/assets/js/cronograma-tw-educa.js?v=20260729-06"></script>
+    <script src="/assets/js/detalle.js?v=20260729-06"></script>
+    <script src="/assets/js/navigation.js?v=20260729-06"></script>
+    <script src="/assets/js/audio-player.js?v=20260729-06"></script>
   </body>
 </html>
 """

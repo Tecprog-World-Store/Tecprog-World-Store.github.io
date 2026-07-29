@@ -1,5 +1,11 @@
 [
   {
+    "titulo": "Cronograma anual de cursos TW Educa 2026–2027",
+    "ruta": "catalogo/cronograma-anual-tw-educa.html",
+    "descripcion": "Convocatorias mensuales proyectadas desde agosto de 2026 hasta julio de 2027.",
+    "tipo": "catálogo"
+  },
+  {
     "titulo": "TW Construye",
     "ruta": "construye/index.html",
     "descripcion": "Construcción civil, remodelaciones y asistencia técnica.",

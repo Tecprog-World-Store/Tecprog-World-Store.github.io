@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2026-07-29",
+  "periodo_vigente": "2026-08",
+  "periodo_final": "2027-07",
+  "periodos_disponibles": [
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11",
+    "2026-12",
+    "2027-01",
+    "2027-02",
+    "2027-03",
+    "2027-04",
+    "2027-05",
+    "2027-06",
+    "2027-07"
+  ],
+  "zona_horaria": "America/Lima",
+  "utc": "UTC-05:00",
+  "total_cursos": 243,
+  "total_convocatorias": 2916
+}

@@ -310,7 +310,7 @@ function renderCarousel(containerId, data, options = {}) {
 
 function carouselCard(entry) {
   return `
-    <article class="catalog-card reveal" role="listitem">
+    <article class="catalog-card reveal" role="listitem" data-course-card-id="${safeText(entry.id)}">
       <a class="catalog-card-link" href="${safeText(twRootPath(entry.detailUrl))}" aria-label="Ver más sobre ${safeText(entry.title)}"></a>
       <div class="catalog-media">
         <img src="${safeText(twRootPath(entry.image))}" alt="${safeText(entry.title)}" loading="lazy" onerror="this.closest('.catalog-media').classList.add('has-fallback'); this.remove();">
@@ -336,6 +336,9 @@ function carouselCard(entry) {
 
 function setupCommerceCarousels() {
   Object.entries(carouselData).forEach(([key, data]) => renderCarousel(key, data, { title: key }));
+  if (window.TWCursoSchedule) {
+    void window.TWCursoSchedule.enhanceCards(document);
+  }
 
   document.querySelectorAll("[data-carousel-prev], [data-carousel-next]").forEach((button) => {
     button.addEventListener("click", () => {

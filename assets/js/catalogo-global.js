@@ -301,6 +301,9 @@
     results.innerHTML = items.length
       ? items.map(card).join("")
       : '<article class="commerce-empty"><h3>No encontramos resultados</h3><p>Prueba con otra búsqueda o solicita una cotización personalizada por WhatsApp.</p></article>';
+    if (window.TWCursoSchedule) {
+      void window.TWCursoSchedule.enhanceCards(results);
+    }
   }
 
   function renderHighlights(root, items) {

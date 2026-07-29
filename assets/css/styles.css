@@ -1571,6 +1571,200 @@ select:focus-visible {
   }
 }
 
+/* Cronograma canónico TW Educa */
+.schedule-month-grid,
+.annual-schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+  gap: 18px;
+}
+
+.schedule-card,
+.course-card-schedule,
+.schedule-policy {
+  padding: 20px;
+  border: 1px solid rgba(20, 83, 145, 0.18);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  box-shadow: 0 12px 34px rgba(5, 30, 66, 0.08);
+}
+
+.schedule-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.schedule-card p,
+.course-card-schedule p,
+.schedule-policy p {
+  margin: 0;
+}
+
+.schedule-card-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.schedule-card-heading > div {
+  min-width: 0;
+}
+
+.schedule-card-heading h3 {
+  margin: 4px 0 0;
+  font-size: 1.05rem;
+}
+
+.schedule-status {
+  flex: 0 0 auto;
+  max-width: 100%;
+  padding: 5px 9px;
+  color: #075b42;
+  background: #dff8ed;
+  border: 1px solid #a6e6d0;
+  border-radius: 999px;
+  font-size: 0.73rem;
+  font-weight: 850;
+}
+
+.schedule-price {
+  color: var(--blue-900);
+  font-size: 1.02rem;
+}
+
+.schedule-note,
+.schedule-timezones {
+  color: var(--text-muted);
+  font-size: 0.84rem;
+}
+
+.schedule-timezones {
+  display: grid;
+  gap: 5px;
+  padding: 12px;
+  background: var(--surface-soft);
+  border-radius: var(--radius-md);
+}
+
+.schedule-policy {
+  display: grid;
+  gap: 8px;
+  margin-top: 22px;
+  border-left: 4px solid var(--gold);
+  background: #fffaf0;
+}
+
+.course-card-schedule {
+  display: grid;
+  gap: 8px;
+  margin-top: auto;
+  padding: 14px;
+  background: var(--surface-soft);
+  border-radius: var(--radius-md);
+  box-shadow: none;
+}
+
+.course-card-schedule details {
+  border-top: 1px solid rgba(20, 83, 145, 0.16);
+  border-bottom: 1px solid rgba(20, 83, 145, 0.16);
+  padding: 8px 0;
+}
+
+.course-card-schedule summary {
+  color: var(--blue-800);
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.course-card-schedule-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.annual-schedule-controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+  padding: 18px;
+  border: 1px solid rgba(20, 83, 145, 0.16);
+  border-radius: var(--radius-lg);
+  background: var(--surface-soft);
+}
+
+.annual-schedule-controls label {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  color: var(--blue-900);
+  font-size: 0.8rem;
+  font-weight: 850;
+}
+
+.annual-schedule-controls input,
+.annual-schedule-controls select {
+  width: 100%;
+  min-height: 42px;
+  padding: 8px 10px;
+  border: 1px solid rgba(20, 83, 145, 0.26);
+  border-radius: 10px;
+  background: var(--white);
+  color: var(--text);
+  font: inherit;
+}
+
+.annual-schedule-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: var(--text-muted);
+}
+
+.annual-schedule-summary strong {
+  color: var(--blue-900);
+}
+
+[data-course-schedule] {
+  margin: 24px 0;
+}
+
+@media (max-width: 1024px) {
+  .annual-schedule-controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .schedule-month-grid,
+  .annual-schedule-grid,
+  .annual-schedule-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-card,
+  .schedule-policy {
+    padding: 16px;
+  }
+
+  .schedule-card-heading,
+  .annual-schedule-summary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .schedule-status {
+    white-space: normal;
+  }
+}
+
 .subpage-hero,
 .detail-hero {
   padding: 142px 0 76px;

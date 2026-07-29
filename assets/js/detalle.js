@@ -364,6 +364,9 @@ async function renderDetail() {
         </figure>
       </div>
     </section>
+    <section class="section section-alt">
+      <div class="section-shell" data-course-schedule data-course-id="${esc(current.id)}"></div>
+    </section>
     <section class="section">
       <div class="section-shell detail-layout">
         <div class="detail-content">
@@ -446,6 +449,12 @@ async function renderDetail() {
       </div>
     </section>
   `;
+  if (window.TWCursoSchedule) {
+    await window.TWCursoSchedule.renderDetail(
+      root.querySelector("[data-course-schedule]"),
+      current.id
+    );
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {

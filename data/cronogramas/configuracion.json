@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "fecha_actualizacion": "2026-07-29",
+  "zona_horaria": "America/Lima",
+  "utc": "UTC-05:00",
+  "pais_referencia": "Perú",
+  "modalidad_predeterminada": "Online en vivo",
+  "minimo_general_inscritos": 5,
+  "estado_inicial": "Inscripciones abiertas",
+  "condicion_inicial": "Sujeto a mínimo de inscritos",
+  "politica_confirmacion": "No se declara inicio confirmado sin alcanzar y verificar el mínimo de inscritos.",
+  "politica_reprogramacion": "Si no se alcanza el mínimo, la reserva puede trasladarse a la siguiente convocatoria o coordinar una alternativa conforme a las condiciones comerciales vigentes.",
+  "nota_fechas": "Las fechas y horarios son tentativos. La fecha exacta puede coordinarse con el grupo inscrito.",
+  "nota_zona_horaria": "Los horarios se presentan en la hora oficial de Lima, Perú (UTC-05:00). Los participantes internacionales deben verificar la equivalencia con su zona horaria.",
+  "whatsapp": "51952354282",
+  "correo_comercial": "grupotecprog@gmail.com",
+  "moneda_local": "PEN",
+  "moneda_internacional": "USD",
+  "equivalencia_internacional": {
+    "pen_por_usd": 3.411,
+    "fecha_referencia": "2026-07-24",
+    "fuente": "SBS Perú, cotización de venta del dólar de N.A.; fuente de mercado BCRP",
+    "url_fuente": "https://www.sbs.gob.pe/app/pp/SISTIP_PORTAL/Paginas/Publicacion/TipoCambioPromedio.aspx",
+    "criterio_redondeo": "Redondeo comercial hacia arriba al dólar entero para cursos sin precio USD oficial.",
+    "nota": "El importe internacional es referencial y puede variar por conversión de moneda, comisión de PayPal o entidad financiera. No se agregan comisiones al cálculo mostrado."
+  },
+  "grupos": {
+    "A": {
+      "nombre": "Cursos introductorios",
+      "dias": "Martes y jueves",
+      "preferred_weekdays": [
+        1,
+        3
+      ],
+      "times": [
+        [
+          "19:00",
+          "21:00"
+        ],
+        [
+          "18:30",
+          "20:30"
+        ],
+        [
+          "20:00",
+          "22:00"
+        ]
+      ]
+    },
+    "B": {
+      "nombre": "Programación y software",
+      "dias": "Lunes y miércoles",
+      "preferred_weekdays": [
+        0,
+        2
+      ],
+      "times": [
+        [
+          "19:00",
+          "21:00"
+        ],
+        [
+          "18:30",
+          "20:30"
+        ],
+        [
+          "20:00",
+          "22:00"
+        ]
+      ]
+    },
+    "C": {
+      "nombre": "Ingeniería y modelación",
+      "dias": "Martes y jueves",
+      "preferred_weekdays": [
+        1,
+        3,
+        5
+      ],
+      "times": [
+        [
+          "20:00",
+          "22:00"
+        ],
+        [
+          "19:00",
+          "21:00"
+        ],
+        [
+          "15:00",
+          "18:00"
+        ]
+      ]
+    },
+    "D": {
+      "nombre": "Realidad virtual y cursos prácticos intensivos",
+      "dias": "Sábados",
+      "preferred_weekdays": [
+        5
+      ],
+      "times": [
+        [
+          "15:00",
+          "18:00"
+        ],
+        [
+          "09:00",
+          "12:00"
+        ],
+        [
+          "18:00",
+          "21:00"
+        ]
+      ]
+    },
+    "E": {
+      "nombre": "Cursos especializados de apertura mensual",
+      "dias": "Sábados",
+      "preferred_weekdays": [
+        5,
+        4
+      ],
+      "times": [
+        [
+          "09:00",
+          "12:00"
+        ],
+        [
+          "15:00",
+          "18:00"
+        ],
+        [
+          "19:00",
+          "21:00"
+        ]
+      ]
+    }
+  }
+}
