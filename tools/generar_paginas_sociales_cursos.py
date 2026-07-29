@@ -15,6 +15,7 @@ CATALOGO_JSON = ROOT / "data" / "catalogo_global.json"
 SITEMAP_JSON = ROOT / "data" / "sitemap_comercial.json"
 SITEMAP_XML = ROOT / "sitemap.xml"
 REPORT = ROOT / "docs" / "operacion" / "reporte_generacion_paginas_sociales_cursos.md"
+USD_PRICES_JSON = ROOT / "data" / "precios_internacionales_tw_educa.json"
 
 SLUGS = {
     "tw-educa-curso-01": "realidad-virtual-unity-meta-quest",
@@ -97,6 +98,37 @@ def investment_html(course: dict) -> str:
         "<table><thead><tr><th>Modalidad</th><th>Preventa</th><th>Lanzamiento</th><th>Regular</th></tr></thead>"
         f"<tbody>{''.join(rows)}</tbody></table>"
         "<p>Precios referenciales en PEN. Confirma vacantes, etapa vigente y forma de pago por WhatsApp.</p>"
+    )
+
+
+def investment_usd_html(course: dict) -> str:
+    data = read_json(USD_PRICES_JSON)
+    pricing = next((item for item in data.get("cursos", []) if item.get("curso_id") == course["id"]), None)
+    profiles = pricing.get("perfiles", []) if pricing else []
+    if not profiles:
+        return ""
+    rows = []
+    for item in profiles:
+        rows.append(
+            "<tr>"
+            f"<td>{esc(item.get('publico'))}</td>"
+            f"<td>USD {esc(item.get('preventa_usd'))}</td>"
+            f"<td>USD {esc(item.get('lanzamiento_usd'))}</td>"
+            f"<td>USD {esc(item.get('regular_usd'))}</td>"
+            "</tr>"
+        )
+    return (
+        "<article class=\"detail-block international-price-card\">"
+        "<h2>Precios internacionales — USD</h2>"
+        "<div class=\"table-scroll\"><table><thead><tr><th>Publico</th><th>Preventa</th><th>Lanzamiento</th><th>Regular</th></tr></thead>"
+        f"<tbody>{''.join(rows)}</tbody></table></div>"
+        "<p>Equivalencia internacional referencial. Confirma la etapa y el importe final antes de pagar.</p>"
+        "</article>"
+        "<article class=\"detail-block international-payment-card\">"
+        "<h2>Pagos internacionales</h2>"
+        "<ul><li>PayPal.</li><li>Enlace de pago coordinado.</li><li>Conversión y comisión según PayPal o entidad financiera.</li><li>Confirmación comercial antes del pago.</li></ul>"
+        "<a class=\"btn btn-small btn-gold\" href=\"https://www.paypal.com/paypalme/grupotecprog\" target=\"_blank\" rel=\"noopener noreferrer\">Solicitar pago PayPal</a>"
+        "</article>"
     )
 
 
@@ -208,7 +240,7 @@ def page_html(course: dict, meta: dict) -> str:
     <meta name="twitter:image" content="{esc(meta['og_image_url'])}">
     <link rel="icon" href="/assets/img/logos/logo-tecprog-world.png" type="image/png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="/assets/css/styles.css?v=20260729-06">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20260729-07">
   </head>
   <body>
     <header class="site-header">
@@ -247,6 +279,7 @@ def page_html(course: dict, meta: dict) -> str:
               <h2>Inversion publicada</h2>
               {investment_html(course)}
             </article>
+            {investment_usd_html(course)}
             <article class="detail-block">
               <h2>Temario por sesion</h2>
             </article>
@@ -293,10 +326,10 @@ def page_html(course: dict, meta: dict) -> str:
         </div>
       </section>
     </main>
-    <script src="/assets/js/cronograma-tw-educa.js?v=20260729-06"></script>
-    <script src="/assets/js/detalle.js?v=20260729-06"></script>
-    <script src="/assets/js/navigation.js?v=20260729-06"></script>
-    <script src="/assets/js/audio-player.js?v=20260729-06"></script>
+    <script src="/assets/js/cronograma-tw-educa.js?v=20260729-07"></script>
+    <script src="/assets/js/detalle.js?v=20260729-07"></script>
+    <script src="/assets/js/navigation.js?v=20260729-07"></script>
+    <script src="/assets/js/audio-player.js?v=20260729-07"></script>
   </body>
 </html>
 """
@@ -352,8 +385,8 @@ def update_sitemaps(courses: list[dict], metas: list[dict]) -> None:
         entries = []
         for loc in sorted(locs):
             priority = "0.7" if "/cursos/" in loc else "0.6"
-            entries.append(f"  <url>\\n    <loc>{esc(loc)}</loc>\\n    <lastmod>{date.today().isoformat()}</lastmod>\\n    <priority>{priority}</priority>\\n  </url>")
-        xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n" + "\\n".join(entries) + "\\n</urlset>\\n"
+            entries.append(f"  <url>\n    <loc>{esc(loc)}</loc>\n    <lastmod>{date.today().isoformat()}</lastmod>\n    <priority>{priority}</priority>\n  </url>")
+        xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n" + "\n".join(entries) + "\n</urlset>\n"
         SITEMAP_XML.write_text(xml, encoding="utf-8")
 
 
@@ -394,6 +427,7 @@ def write_report(courses: list[dict], metas: list[dict]) -> None:
         "El generador deja separadas las funciones de lectura de datos, metadatos, plantilla HTML y sitemap. Para productos y servicios se debe crear un mapeo equivalente desde `data/catalogo_global.json`, definir `productos/<slug>/` o `servicios/<slug>/`, y reutilizar la misma regla: metadatos absolutos en HTML inicial, no por JavaScript.",
         "",
     ])
+    REPORT.parent.mkdir(parents=True, exist_ok=True)
     REPORT.write_text("\n".join(lines), encoding="utf-8")
 
 

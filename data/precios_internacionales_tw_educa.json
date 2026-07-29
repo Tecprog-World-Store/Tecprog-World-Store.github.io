@@ -1,0 +1,976 @@
+{
+  "schema_version": "2.0.0",
+  "fecha_actualizacion": "2026-07-29",
+  "configuracion": {
+    "pen_por_usd": 3.411,
+    "fecha_referencia": "2026-07-24",
+    "fecha_revision": "2026-07-29",
+    "fuente": "SBS Perú, cotización de venta del dólar de N.A.; referencia de mercado BCRP",
+    "url_fuente": "https://www.sbs.gob.pe/app/pp/SISTIP_PORTAL/Paginas/Publicacion/TipoCambioPromedio.aspx",
+    "criterio_redondeo": "Redondeo comercial hacia arriba al dólar entero.",
+    "nota": "El importe internacional es referencial. PayPal o la entidad financiera pueden aplicar conversión o comisión."
+  },
+  "total_cursos": 37,
+  "cursos": [
+    {
+      "curso_id": "tw-educa-curso-01",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-02",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-03",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-04",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-05",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 132,
+          "lanzamiento_usd": 176,
+          "regular_usd": 235,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-06",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional / investigador",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 103,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 176,
+          "lanzamiento_usd": 235,
+          "regular_usd": 293,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-07",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-08",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 132,
+          "lanzamiento_usd": 176,
+          "regular_usd": 235,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 264,
+          "lanzamiento_usd": 323,
+          "regular_usd": 440,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-09",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 103,
+          "regular_usd": 132,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 176,
+          "lanzamiento_usd": 235,
+          "regular_usd": 293,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 352,
+          "lanzamiento_usd": 440,
+          "regular_usd": 587,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-10",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-11",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-12",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-13",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-14",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 88,
+          "regular_usd": 117,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 147,
+          "lanzamiento_usd": 205,
+          "regular_usd": 264,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 293,
+          "lanzamiento_usd": 381,
+          "regular_usd": 499,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-15",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-16",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-17",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-18",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-19",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-20",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 24,
+          "lanzamiento_usd": 30,
+          "regular_usd": 44,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-21",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 38,
+          "regular_usd": 53,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 68,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-22",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-23",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-24",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 50,
+          "regular_usd": 68,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 65,
+          "lanzamiento_usd": 88,
+          "regular_usd": 117,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-25",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 38,
+          "lanzamiento_usd": 53,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 97,
+          "regular_usd": 132,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-26",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-27",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-28",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-29",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-30",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 50,
+          "regular_usd": 68,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 68,
+          "lanzamiento_usd": 88,
+          "regular_usd": 117,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-31",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-32",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-33",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante",
+          "preventa_usd": 21,
+          "lanzamiento_usd": 27,
+          "regular_usd": 38,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-34",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 27,
+          "lanzamiento_usd": 35,
+          "regular_usd": 50,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 50,
+          "lanzamiento_usd": 68,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-35",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 103,
+          "regular_usd": 132,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-36",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 82,
+          "regular_usd": 112,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 82,
+          "lanzamiento_usd": 112,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    },
+    {
+      "curso_id": "tw-educa-curso-37",
+      "moneda": "USD",
+      "perfiles": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_usd": 47,
+          "lanzamiento_usd": 68,
+          "regular_usd": 97,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 68,
+          "lanzamiento_usd": 97,
+          "regular_usd": 126,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "criterio": "conversion_configurada",
+      "fecha_referencia": "2026-07-24"
+    }
+  ]
+}

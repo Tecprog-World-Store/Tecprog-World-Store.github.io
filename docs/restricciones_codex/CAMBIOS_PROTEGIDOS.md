@@ -8,7 +8,7 @@ Cambios aprobados:
 - Navegacion superior global y navegacion local horizontal.
 - Catalogos comerciales con filtros y busqueda dentro del panel central.
 - Eliminacion de paneles laterales duplicados.
-- Versionado uniforme de CSS y JS con `v=20260729-06`.
+- Versionado uniforme de CSS y JS con `v=20260729-07`.
 - Idempotencia en `assets/js/catalogo-global.js` para evitar re-render del mismo root.
 - Eliminacion del generador `assets/js/right-panel.js`.
 

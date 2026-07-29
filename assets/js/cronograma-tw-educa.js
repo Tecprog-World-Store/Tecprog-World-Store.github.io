@@ -6,6 +6,7 @@
     ? new URL("../../", new URL(SCRIPT_SRC, document.baseURI)).href
     : "/";
   const DATA_ROOT = new URL("data/cronogramas/", BASE_PREFIX);
+  const LIMA_ZONE = "America/Lima";
   const state = {
     ready: null,
     configuration: null,
@@ -71,17 +72,27 @@
     return state.ready;
   }
 
-  function officialDate(convocation) {
+  function startDate(convocation) {
     return new Date(`${convocation.fecha_inicio}T${convocation.hora_inicio}:00-05:00`);
   }
 
   function endDate(convocation) {
-    const start = officialDate(convocation);
+    const start = startDate(convocation);
     const [startHour, startMinute] = convocation.hora_inicio.split(":").map(Number);
     const [endHour, endMinute] = convocation.hora_fin.split(":").map(Number);
     let minutes = (endHour * 60 + endMinute) - (startHour * 60 + startMinute);
-    if (minutes <= 0) minutes += 24 * 60;
-    return new Date(start.getTime() + minutes * 60 * 1000);
+    if (minutes <= 0) minutes += 1440;
+    return new Date(start.getTime() + minutes * 60000);
+  }
+
+  function formatDate(value, timeZone, includeYear = true) {
+    return new Intl.DateTimeFormat("es-PE", {
+      timeZone,
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      ...(includeYear ? { year: "numeric" } : {})
+    }).format(value);
   }
 
   function formatDateTime(value, timeZone) {
@@ -107,7 +118,7 @@
   }
 
   function localTimezone() {
-    return Intl.DateTimeFormat().resolvedOptions().timeZone || "Zona local";
+    return Intl.DateTimeFormat().resolvedOptions().timeZone || LIMA_ZONE;
   }
 
   function periodLabel(period) {
@@ -120,112 +131,57 @@
     return label.charAt(0).toUpperCase() + label.slice(1);
   }
 
-  function officialText(convocation) {
-    return `${formatDateTime(officialDate(convocation), "America/Lima")}–${formatTime(endDate(convocation), "America/Lima")}`;
+  function officialDateText(convocation) {
+    return formatDate(startDate(convocation), LIMA_ZONE);
   }
 
-  function localText(convocation) {
+  function localEquivalent(convocation) {
     const zone = localTimezone();
-    return `${formatDateTime(officialDate(convocation), zone)}–${formatTime(endDate(convocation), zone)}`;
+    if (zone === LIMA_ZONE) return "";
+    return `${formatDateTime(startDate(convocation), zone)}–${formatTime(endDate(convocation), zone)}`;
   }
 
-  function priceText(convocation) {
-    return `S/ ${convocation.precio_pen} PEN | USD ${convocation.precio_usd}`;
+  function timeBucket(time) {
+    const hour = Number(String(time).slice(0, 2));
+    if (hour < 12) return "Mañana";
+    if (hour < 18) return "Tarde";
+    return "Noche";
   }
 
-  function timezoneBlock(convocation) {
+  function nextDateMarkup(item) {
     return `
-      <div class="schedule-timezones">
-        <p><strong>Hora oficial:</strong> ${escapeHtml(officialText(convocation))}, Lima, Perú.</p>
-        <p><strong>En tu zona horaria:</strong> ${escapeHtml(localText(convocation))}.</p>
-        <p><strong>Zona detectada:</strong> ${escapeHtml(localTimezone())}. Conversión referencial.</p>
-      </div>`;
+      <p><strong>${escapeHtml(officialDateText(item))}</strong></p>
+      <p><strong>Horario:</strong><br>${escapeHtml(item.dias_clase)}, ${escapeHtml(item.hora_inicio)}–${escapeHtml(item.hora_fin)}</p>
+      <p><strong>Hora de referencia:</strong><br>Lima, Perú — UTC-05:00</p>
+      <p><strong>Grupo:</strong><br>Mínimo ${escapeHtml(item.minimo_inscritos)} participantes</p>
+      <p><strong>Estado:</strong><br>${escapeHtml(item.estado)}</p>`;
   }
 
-  function convocationCard(convocation, course, options = {}) {
-    const compact = options.compact === true;
-    return `
-      <article class="schedule-card${compact ? " is-compact" : ""}"
-        data-schedule-period="${escapeHtml(convocation.periodo)}"
-        data-schedule-course="${escapeHtml(convocation.curso_id)}"
-        data-schedule-category="${escapeHtml(course.categoria)}"
-        data-schedule-day="${escapeHtml(convocation.dias_clase)}"
-        data-schedule-modality="${escapeHtml(convocation.modalidad)}"
-        data-schedule-status="${escapeHtml(convocation.estado)}"
-        data-schedule-time="${escapeHtml(timeBucket(convocation.hora_inicio))}">
-        <div class="schedule-card-heading">
-          <div>
-            <p class="eyebrow">${escapeHtml(periodLabel(convocation.periodo))}</p>
-            ${compact ? "" : `<h3>${escapeHtml(course.nombre)}</h3>`}
-          </div>
-          <span class="schedule-status">${escapeHtml(convocation.estado)}</span>
-        </div>
-        <p><strong>Inicio tentativo:</strong> ${escapeHtml(officialText(convocation))}.</p>
-        <p><strong>Días:</strong> ${escapeHtml(convocation.dias_clase)} · <strong>Modalidad:</strong> ${escapeHtml(convocation.modalidad)}.</p>
-        <p><strong>Hora de Lima:</strong> America/Lima · UTC-05:00.</p>
-        <p><strong>Mínimo:</strong> ${escapeHtml(convocation.minimo_inscritos)} participantes. ${escapeHtml(convocation.condicion)}.</p>
-        <p class="schedule-price"><strong>${escapeHtml(priceText(convocation))}</strong></p>
-        ${compact ? "" : timezoneBlock(convocation)}
-        <p class="schedule-note">${escapeHtml(convocation.nota_confirmacion)}</p>
-        <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="${escapeHtml(convocation.enlace_inscripcion)}" target="_blank" rel="noopener noreferrer">Inscribirme por WhatsApp</a>
-          ${options.detailLink ? `<a class="btn btn-small btn-secondary" href="${escapeHtml(localPath(course.url_detalle))}">Ver curso</a>` : ""}
-        </div>
-      </article>`;
+  function dateList(items) {
+    return items.map((item) => `
+      <p>
+        <strong>${escapeHtml(periodLabel(item.periodo))}</strong><br>
+        ${escapeHtml(officialDateText(item))}<br>
+        ${escapeHtml(item.dias_clase)}, ${escapeHtml(item.hora_inicio)}–${escapeHtml(item.hora_fin)}
+      </p>
+    `).join("");
   }
 
-  function schedulePolicy() {
-    return `
-      <aside class="schedule-policy">
-        <p><strong>Fechas tentativas:</strong> Las fechas y horarios son tentativos. La apertura de cada grupo está sujeta al mínimo de participantes indicado. Cuando no se alcance el mínimo, el estudiante podrá trasladar su reserva a la siguiente convocatoria o coordinar una alternativa, de acuerdo con las condiciones comerciales vigentes.</p>
-        <p>Los horarios se presentan en la hora oficial de Lima, Perú (UTC-05:00). Los participantes internacionales deben verificar la equivalencia con su zona horaria.</p>
-        <p>El importe internacional es referencial y puede variar por conversión de moneda, comisión de PayPal o entidad financiera.</p>
-      </aside>`;
-  }
-
-  async function renderDetail(root, requestedId) {
-    await load();
-    if (!root) return;
-    const courseId = requestedId || root.dataset.courseId;
-    const course = state.courseMap.get(courseId);
-    const items = state.byCourse.get(courseId) || [];
-    if (!course || !items.length) {
-      root.innerHTML = `<article class="detail-block"><h2>Próximas convocatorias</h2><p>Solicita el cronograma vigente por WhatsApp.</p></article>`;
-      return;
-    }
-    root.dataset.courseScheduleReady = "true";
-    root.innerHTML = `
-      <div class="section-heading">
-        <p class="eyebrow">Programación agosto 2026–julio 2027</p>
-        <h2>Próximas convocatorias</h2>
-        <p>Doce oportunidades de inicio con fechas y horarios tentativos.</p>
-      </div>
-      <div class="schedule-month-grid">
-        ${items.map((item) => convocationCard(item, course)).join("")}
-      </div>
-      ${schedulePolicy()}`;
-  }
-
-  function compactSchedule(items, course) {
+  function compactSchedule(items) {
     const next = items[0];
-    const following = items.slice(0, 3);
     return `
-      <section class="course-card-schedule" aria-label="Próximas convocatorias">
+      <section class="course-card-schedule" aria-label="Próximas fechas de inicio">
         <p class="eyebrow">Próximo inicio</p>
-        <p><strong>${escapeHtml(periodLabel(next.periodo))}:</strong> ${escapeHtml(next.dias_clase)}, ${escapeHtml(next.hora_inicio)}–${escapeHtml(next.hora_fin)}.</p>
-        <p>Hora de Lima · UTC-05:00 · ${escapeHtml(next.modalidad)}.</p>
-        <p>Mínimo ${escapeHtml(next.minimo_inscritos)} · ${escapeHtml(next.estado)} · sujeto a mínimo.</p>
-        <p class="schedule-price"><strong>${escapeHtml(priceText(next))}</strong></p>
+        ${nextDateMarkup(next)}
+        <div class="catalog-actions">
+          <a class="btn btn-small btn-primary" href="${escapeHtml(next.enlace_inscripcion)}" target="_blank" rel="noopener noreferrer">Inscribirme por WhatsApp</a>
+        </div>
         <details>
           <summary>Ver próximas fechas</summary>
           <div class="course-card-schedule-list">
-            ${following.map((item) => `
-              <p><strong>${escapeHtml(periodLabel(item.periodo))}</strong><br>
-              ${escapeHtml(item.fecha_inicio)} · ${escapeHtml(item.hora_inicio)}–${escapeHtml(item.hora_fin)}</p>
-            `).join("")}
+            ${dateList(items)}
           </div>
         </details>
-        <a class="btn btn-small btn-primary" href="${escapeHtml(next.enlace_inscripcion)}" target="_blank" rel="noopener noreferrer">Inscribirme por WhatsApp</a>
       </section>`;
   }
 
@@ -239,22 +195,72 @@
       const items = state.byCourse.get(courseId);
       if (!course || !items?.length) return;
       const body = card.querySelector(".commerce-card-body, .catalog-body") || card;
-      body.insertAdjacentHTML("beforeend", compactSchedule(items, course));
+      body.insertAdjacentHTML("beforeend", compactSchedule(items));
       card.dataset.courseScheduleCardReady = "true";
     });
   }
 
-  function timeBucket(time) {
-    const hour = Number(String(time).slice(0, 2));
-    if (hour < 12) return "Mañana";
-    if (hour < 18) return "Tarde";
-    return "Noche";
+  function detailRow(item, includeLocal) {
+    const local = includeLocal ? localEquivalent(item) : "";
+    return `
+      <tr>
+        <td>${escapeHtml(periodLabel(item.periodo))}</td>
+        <td>
+          ${escapeHtml(officialDateText(item))}
+          ${local ? `<small class="schedule-local-time"><strong>En tu zona:</strong> ${escapeHtml(local)}</small>` : ""}
+        </td>
+        <td>${escapeHtml(item.dias_clase)}</td>
+        <td>${escapeHtml(item.hora_inicio)}–${escapeHtml(item.hora_fin)}</td>
+        <td><span class="schedule-status">${escapeHtml(item.estado)}</span></td>
+        <td><a class="btn btn-small btn-primary" href="${escapeHtml(item.enlace_inscripcion)}" target="_blank" rel="noopener noreferrer">WhatsApp</a></td>
+      </tr>`;
   }
 
-  function optionList(values, labelAll, formatter = (value) => value) {
-    return `<option value="">${escapeHtml(labelAll)}</option>${values
-      .map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(formatter(value))}</option>`)
-      .join("")}`;
+  function detailTable(items, label, includeLocal) {
+    return `
+      <div class="schedule-table-wrap" role="region" aria-label="${escapeHtml(label)}" tabindex="0">
+        <table class="schedule-table">
+          <thead>
+            <tr><th>Mes</th><th>Fecha de inicio</th><th>Días</th><th>Horario</th><th>Estado</th><th>Inscripción</th></tr>
+          </thead>
+          <tbody>${items.map((item) => detailRow(item, includeLocal)).join("")}</tbody>
+        </table>
+      </div>`;
+  }
+
+  function schedulePolicy() {
+    return `
+      <div class="schedule-policy">
+        <p>Las fechas y horarios son tentativos. La apertura de cada grupo está sujeta al mínimo de participantes indicado. Cuando no se alcance el mínimo, el estudiante podrá trasladar su reserva a la siguiente convocatoria o coordinar una alternativa, de acuerdo con las condiciones comerciales vigentes.</p>
+        <p>Los horarios se expresan en la hora de Lima, Perú (UTC-05:00). Si visitas la página desde otra zona horaria, se mostrará una equivalencia local orientativa.</p>
+      </div>`;
+  }
+
+  async function renderDetail(root, requestedId) {
+    await load();
+    if (!root) return;
+    const courseId = requestedId || root.dataset.courseId;
+    const course = state.courseMap.get(courseId);
+    const items = state.byCourse.get(courseId) || [];
+    if (!course || items.length !== 12) {
+      root.innerHTML = "";
+      const wrapper = root.closest(".section");
+      if (wrapper) wrapper.hidden = true;
+      return;
+    }
+    root.dataset.courseScheduleReady = "true";
+    root.innerHTML = `
+      <div class="section-heading">
+        <p class="eyebrow">Agosto 2026–julio 2027</p>
+        <h2>Próximas fechas de inicio</h2>
+        <p>Modalidad: ${escapeHtml(course.modalidad)} · Hora de referencia: Lima, Perú — UTC-05:00 · Apertura: mínimo ${escapeHtml(course.minimo_inscritos)} participantes.</p>
+      </div>
+      ${detailTable(items.slice(0, 4), "Primeras cuatro fechas de inicio", true)}
+      <details class="schedule-all-dates">
+        <summary>Mostrar las 12 fechas</summary>
+        ${detailTable(items.slice(4), "Ocho fechas de inicio adicionales", true)}
+      </details>
+      ${schedulePolicy()}`;
   }
 
   function unique(values) {
@@ -264,48 +270,55 @@
   function annualControls() {
     const periods = state.metadata.periodos_disponibles;
     const categories = unique(state.courses.map((course) => course.categoria));
-    const days = unique(state.convocations.map((item) => item.dias_clase));
-    const modalities = unique(state.convocations.map((item) => item.modalidad));
-    const statuses = unique(state.convocations.map((item) => item.estado));
     return `
       <div class="annual-schedule-controls" data-annual-controls>
         <label><span>Mes</span><select data-annual-filter="periodo">${periods.map((period) => `<option value="${period}">${escapeHtml(periodLabel(period))}</option>`).join("")}<option value="">Todos los meses</option></select></label>
         <label><span>Curso</span><input type="search" data-annual-search placeholder="Nombre del curso"></label>
-        <label><span>Categoría</span><select data-annual-filter="categoria">${optionList(categories, "Todas")}</select></label>
-        <label><span>Día</span><select data-annual-filter="dias">${optionList(days, "Todos")}</select></label>
-        <label><span>Modalidad</span><select data-annual-filter="modalidad">${optionList(modalities, "Todas")}</select></label>
-        <label><span>Estado</span><select data-annual-filter="estado">${optionList(statuses, "Todos")}</select></label>
-        <label><span>Rango horario</span><select data-annual-filter="horario">${optionList(["Mañana", "Tarde", "Noche"], "Todos")}</select></label>
+        <label><span>Categoría</span><select data-annual-filter="categoria"><option value="">Todas</option>${categories.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join("")}</select></label>
       </div>`;
   }
 
   function annualFiltered(root) {
     const controls = root.querySelector("[data-annual-controls]");
-    const values = Object.fromEntries(
-      [...controls.querySelectorAll("[data-annual-filter]")].map((element) => [element.dataset.annualFilter, element.value])
-    );
+    const period = controls.querySelector('[data-annual-filter="periodo"]').value;
+    const category = controls.querySelector('[data-annual-filter="categoria"]').value;
     const search = normalize(controls.querySelector("[data-annual-search]").value);
     return state.convocations.filter((item) => {
       const course = state.courseMap.get(item.curso_id);
-      if (!course) return false;
-      if (values.periodo && item.periodo !== values.periodo) return false;
-      if (values.categoria && course.categoria !== values.categoria) return false;
-      if (values.dias && item.dias_clase !== values.dias) return false;
-      if (values.modalidad && item.modalidad !== values.modalidad) return false;
-      if (values.estado && item.estado !== values.estado) return false;
-      if (values.horario && timeBucket(item.hora_inicio) !== values.horario) return false;
+      if (!course || (period && item.periodo !== period) || (category && course.categoria !== category)) return false;
       return !search || normalize(`${course.nombre} ${course.categoria}`).includes(search);
     });
   }
 
+  function annualCard(item) {
+    const course = state.courseMap.get(item.curso_id);
+    return `
+      <article class="schedule-card"
+        data-schedule-period="${escapeHtml(item.periodo)}"
+        data-schedule-course="${escapeHtml(item.curso_id)}"
+        data-schedule-category="${escapeHtml(course.categoria)}"
+        data-schedule-time="${escapeHtml(timeBucket(item.hora_inicio))}">
+        <div class="schedule-card-heading">
+          <div><p class="eyebrow">${escapeHtml(periodLabel(item.periodo))}</p><h3>${escapeHtml(course.nombre)}</h3></div>
+          <span class="schedule-status">${escapeHtml(item.estado)}</span>
+        </div>
+        <p><strong>Fecha y horario:</strong><br>${escapeHtml(officialDateText(item))}, ${escapeHtml(item.hora_inicio)}–${escapeHtml(item.hora_fin)}</p>
+        <p><strong>Días:</strong> ${escapeHtml(item.dias_clase)}</p>
+        <p><strong>Referencia horaria:</strong> Lima, Perú — UTC-05:00</p>
+        <p><strong>Apertura:</strong> mínimo ${escapeHtml(item.minimo_inscritos)} participantes</p>
+        <div class="catalog-actions">
+          <a class="btn btn-small btn-primary" href="${escapeHtml(item.enlace_inscripcion)}" target="_blank" rel="noopener noreferrer">Inscribirme por WhatsApp</a>
+          <a class="btn btn-small btn-secondary" href="${escapeHtml(localPath(course.url_detalle))}">Ver curso</a>
+        </div>
+      </article>`;
+  }
+
   function updateAnnual(root) {
-    const results = root.querySelector("[data-annual-results]");
-    const count = root.querySelector("[data-annual-count]");
     const items = annualFiltered(root);
-    count.textContent = `${items.length} convocatoria${items.length === 1 ? "" : "s"}`;
-    results.innerHTML = items.length
-      ? items.map((item) => convocationCard(item, state.courseMap.get(item.curso_id), { detailLink: true })).join("")
-      : `<article class="detail-block"><h2>Sin resultados</h2><p>Ajusta los filtros o consulta por WhatsApp.</p></article>`;
+    root.querySelector("[data-annual-count]").textContent = `${items.length} convocatoria${items.length === 1 ? "" : "s"}`;
+    root.querySelector("[data-annual-results]").innerHTML = items.length
+      ? items.map(annualCard).join("")
+      : `<article class="detail-block"><h2>Sin resultados</h2><p>Ajusta los filtros.</p></article>`;
   }
 
   async function renderAnnual(root) {
@@ -315,9 +328,9 @@
       ${annualControls()}
       <div class="annual-schedule-summary">
         <strong data-annual-count></strong>
-        <span>${state.courses.length} cursos · ${state.metadata.periodos_disponibles.length} meses · Hora de Lima UTC-05:00</span>
+        <span>37 cursos publicados · 444 convocatorias · Lima UTC-05:00</span>
       </div>
-      <div class="schedule-month-grid annual-schedule-grid" data-annual-results></div>
+      <div class="annual-schedule-grid" data-annual-results></div>
       ${schedulePolicy()}`;
     root.addEventListener("input", () => updateAnnual(root));
     root.addEventListener("change", () => updateAnnual(root));
@@ -334,13 +347,7 @@
     await enhanceCards(document);
   }
 
-  window.TWCursoSchedule = {
-    load,
-    initAll,
-    renderDetail,
-    renderAnnual,
-    enhanceCards
-  };
+  window.TWCursoSchedule = { load, initAll, renderDetail, renderAnnual, enhanceCards };
 
   document.addEventListener("DOMContentLoaded", () => {
     initAll().catch((error) => {

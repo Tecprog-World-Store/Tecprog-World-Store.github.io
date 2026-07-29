@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 
-DEFAULT_VERSION = "20260729-06"
+DEFAULT_VERSION = "20260729-07"
 SKIP_DIRS = {"backups", "build", "_auditoria_codex", ".git", ".idea", "__pycache__"}
 ASSET_RE = re.compile(
     r'(?P<prefix><(?:link|script)\b[^>]*(?:href|src)=["\'])(?P<url>[^"\']*assets/(?:css|js)/[^"\']+\.(?:css|js)(?:\?[^"\']*)?)(?P<suffix>["\'])',

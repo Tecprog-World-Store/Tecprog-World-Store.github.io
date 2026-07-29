@@ -1,6 +1,8 @@
 const WHATSAPP_NUMBER_DETAIL = "51952354282";
 const PAYPAL_URL_DETAIL = "https://www.paypal.com/paypalme/grupotecprog";
 const EDUCA_PRICE_NOTE = "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.";
+const INTERNATIONAL_PRICES_URL = "/data/precios_internacionales_tw_educa.json";
+let internationalPricesPromise;
 
 const DETAIL_SOURCES = [
   { url: "/data/cursos_tw_educa.json", type: "tw-educa-vivo" },
@@ -61,6 +63,13 @@ async function fetchJson(url) {
   return response.json();
 }
 
+async function internationalPrices() {
+  if (!internationalPricesPromise) {
+    internationalPricesPromise = fetchJson(INTERNATIONAL_PRICES_URL);
+  }
+  return internationalPricesPromise;
+}
+
 function normalizeCourse(item, sourceType) {
   if (sourceType === "tw-educa-vivo") {
     return {
@@ -74,7 +83,7 @@ function normalizeCourse(item, sourceType) {
       duration: item.duracion || "4 sesiones en vivo",
       modality: item.modalidad || "Online",
       pricePen: item.precio || "Consultar inversión",
-      priceUsd: "Consultar",
+      priceUsd: "Ver tabla USD por perfil y etapa",
       moocText: item.estado_publico || "Curso próximo",
       moocButton: "Consultar vacantes",
       certificateText: "Certificado físico y firmado según modalidad",
@@ -294,6 +303,46 @@ function investmentMarkup(items) {
   `;
 }
 
+function investmentUsdMarkup(coursePricing) {
+  const profiles = coursePricing?.perfiles || [];
+  if (!profiles.length) return "";
+  return `
+    <article class="detail-block international-price-card">
+      <h2>Precios internacionales — USD</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Publico</th><th>Preventa</th><th>Lanzamiento</th><th>Regular</th></tr>
+          </thead>
+          <tbody>
+            ${profiles.map((item) => `
+              <tr>
+                <td>${esc(item.publico)}</td>
+                <td>USD ${esc(item.preventa_usd)}</td>
+                <td>USD ${esc(item.lanzamiento_usd)}</td>
+                <td>USD ${esc(item.regular_usd)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+      <p>Equivalencia internacional referencial, calculada centralmente y redondeada al dólar entero. Confirma la etapa y el importe final antes de pagar.</p>
+    </article>
+    <article class="detail-block international-payment-card">
+      <h2>Pagos internacionales</h2>
+      <ul class="check-list">
+        <li>PayPal.</li>
+        <li>Enlace de pago coordinado.</li>
+        <li>Conversión y comisión aplicable según PayPal o entidad financiera.</li>
+        <li>Confirmación comercial antes del pago.</li>
+      </ul>
+      <div class="catalog-actions">
+        <a class="btn btn-small btn-gold" href="${PAYPAL_URL_DETAIL}" target="_blank" rel="noopener noreferrer">Solicitar pago PayPal</a>
+        <a class="btn btn-small btn-primary" href="${detailWhatsapp("Hola, deseo confirmar mi tarifa internacional en USD y solicitar un enlace de pago para un curso TW Educa.")}" target="_blank" rel="noopener noreferrer">Confirmar importe</a>
+      </div>
+    </article>`;
+}
+
 function modalityButtons(course) {
   if (!Array.isArray(course.prices) || !course.prices.length) {
     return `<a class="btn btn-small btn-primary" href="${detailWhatsapp(course.whatsappMessage || commercialInquiryMessage(course))}" target="_blank" rel="noopener noreferrer">Consultar inversión y próxima convocatoria</a>`;
@@ -320,12 +369,18 @@ async function renderDetail() {
   const params = new URLSearchParams(window.location.search);
   const id = root.dataset.courseId || params.get("id") || "qgis-basico";
   const catalog = root.dataset.catalog || params.get("catalogo") || "";
-  const current = await findCourse(id, catalog);
+  const [current, internationalData] = await Promise.all([
+    findCourse(id, catalog),
+    internationalPrices(),
+  ]);
 
   if (!current) {
     root.innerHTML = `<section class="section"><div class="section-shell"><article class="detail-block"><h1>Curso no encontrado</h1><p>Revisa el enlace o vuelve al catálogo de cursos.</p><a class="btn btn-primary" href="../catalogo/catalogo-general-tw-educa.html">Volver al catálogo general</a></article></div></section>`;
     return;
   }
+  const internationalCourse = Array.isArray(internationalData?.cursos)
+    ? internationalData.cursos.find((item) => item.curso_id === current.id)
+    : null;
 
   document.title = `${current.title} | Tecprog World E.I.R.L.`;
   const publicUrl = `https://tecprog-world-store.github.io/detalle/curso.html?id=${encodeURIComponent(current.id)}&catalogo=${encodeURIComponent(current.sourceType)}`;
@@ -381,6 +436,7 @@ async function renderDetail() {
           ${optionalList("Herramientas y tecnologias", current.tools)}
           ${optionalList("Metodologia", current.methodology)}
           ${investmentMarkup(current.prices)}
+          ${investmentUsdMarkup(internationalCourse)}
           <article class="detail-block">
             <h2>Inscripcion y certificacion</h2>
             <p>${esc(current.priceNote)}</p>
