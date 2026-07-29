@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420">
-  <rect width="700" height="420" fill="#061326"/>
-  <path d="M350 84v196M270 202l80 80 80-80" fill="none" stroke="#18d4ff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="184" y="300" width="332" height="38" rx="18" fill="#f4c95d"/>
-  <text x="94" y="376" fill="#fff" font-family="Arial" font-size="34" font-weight="700">Open tools pack</text>
-</svg>

@@ -236,7 +236,7 @@
     {
       "id": "tw-store-002",
       "linea_negocio": "tw-store",
-      "archivo_esperado": "assets/img/store/productos/tw-store-002.png",
+      "archivo_esperado": "assets/img/store/productos/tw-store-002.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -249,7 +249,7 @@
     {
       "id": "tw-store-003",
       "linea_negocio": "tw-store",
-      "archivo_esperado": "assets/img/store/productos/tw-store-003.png",
+      "archivo_esperado": "assets/img/store/productos/tw-store-003.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -262,7 +262,7 @@
     {
       "id": "tw-store-004",
       "linea_negocio": "tw-store",
-      "archivo_esperado": "assets/img/store/productos/tw-store-004.png",
+      "archivo_esperado": "assets/img/store/productos/tw-store-004.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -275,7 +275,7 @@
     {
       "id": "tw-store-005",
       "linea_negocio": "tw-store",
-      "archivo_esperado": "assets/img/store/productos/tw-store-005.png",
+      "archivo_esperado": "assets/img/store/productos/tw-store-005.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -303,7 +303,7 @@
     {
       "id": "tw-store-007",
       "linea_negocio": "tw-store",
-      "archivo_esperado": "assets/img/store/productos/tw-store-007.png",
+      "archivo_esperado": "assets/img/store/productos/tw-store-007.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -471,7 +471,7 @@
     {
       "id": "tw-disfruta-004",
       "linea_negocio": "tw-disfruta",
-      "archivo_esperado": "assets/img/store/productos/tw-disfruta-004.png",
+      "archivo_esperado": "assets/img/store/productos/tw-disfruta-004.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -514,7 +514,7 @@
     {
       "id": "tw-educa-001",
       "linea_negocio": "tw-educa",
-      "archivo_esperado": "assets/img/store/productos/tw-educa-001.png",
+      "archivo_esperado": "assets/img/store/productos/tw-educa-001.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -527,7 +527,7 @@
     {
       "id": "tw-educa-002",
       "linea_negocio": "tw-educa",
-      "archivo_esperado": "assets/img/store/productos/tw-educa-002.png",
+      "archivo_esperado": "assets/img/store/productos/tw-educa-002.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -555,7 +555,7 @@
     {
       "id": "tw-educa-004",
       "linea_negocio": "tw-educa",
-      "archivo_esperado": "assets/img/store/productos/tw-educa-004.png",
+      "archivo_esperado": "assets/img/store/productos/tw-educa-004.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -637,7 +637,7 @@
     {
       "id": "tw-innova-002",
       "linea_negocio": "tw-innova",
-      "archivo_esperado": "assets/img/store/productos/tw-innova-002.png",
+      "archivo_esperado": "assets/img/store/productos/tw-innova-002.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -708,7 +708,7 @@
     {
       "id": "tw-innova-007",
       "linea_negocio": "tw-innova",
-      "archivo_esperado": "assets/img/store/productos/tw-innova-007.png",
+      "archivo_esperado": "assets/img/store/productos/tw-innova-007.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",
@@ -721,7 +721,7 @@
     {
       "id": "tw-innova-008",
       "linea_negocio": "tw-innova",
-      "archivo_esperado": "assets/img/store/productos/tw-innova-008.png",
+      "archivo_esperado": "assets/img/store/productos/tw-innova-008.webp",
       "dimensiones_recomendadas": "900x900 px o 1200x1200 px",
       "peso_recomendado": "80 KB a 250 KB",
       "estado": "disponible_png",

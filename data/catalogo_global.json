@@ -43,7 +43,7 @@
       "apple",
       "oferta"
     ],
-    "imagen": "assets/img/store/productos/tw-store-002.png",
+    "imagen": "assets/img/store/productos/tw-store-002.webp",
     "banner": "assets/img/store/carruseles/tw-store-01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-002",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar el iPhone 15 128GB de TW Store.",
@@ -69,7 +69,7 @@
       "celular",
       "android"
     ],
-    "imagen": "assets/img/store/productos/tw-store-003.png",
+    "imagen": "assets/img/store/productos/tw-store-003.webp",
     "banner": "assets/img/store/carruseles/tw-store-01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-003",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar el Samsung Galaxy A16 4G 128GB.",
@@ -95,7 +95,7 @@
       "apple",
       "audífonos"
     ],
-    "imagen": "assets/img/store/productos/tw-store-004.png",
+    "imagen": "assets/img/store/productos/tw-store-004.webp",
     "banner": "assets/img/store/carruseles/tw-store-01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-004",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar AirPods Pro 2da Gen.",
@@ -122,7 +122,7 @@
       "audífonos",
       "oferta"
     ],
-    "imagen": "assets/img/store/productos/tw-store-005.png",
+    "imagen": "assets/img/store/productos/tw-store-005.webp",
     "banner": "assets/img/store/carruseles/tw-store-01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-005",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar JBL Wave Buds 2 True Wireless.",
@@ -174,7 +174,7 @@
       "parlantes",
       "pc"
     ],
-    "imagen": "assets/img/store/productos/tw-store-007.png",
+    "imagen": "assets/img/store/productos/tw-store-007.webp",
     "banner": "assets/img/store/carruseles/tw-store-01.webp",
     "url_detalle": "detalle/item.html?id=tw-store-007",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar parlantes para PC Teraware USB.",
@@ -492,7 +492,7 @@
       "merchandising",
       "videojuego"
     ],
-    "imagen": "assets/img/store/productos/tw-disfruta-004.png",
+    "imagen": "assets/img/store/productos/tw-disfruta-004.webp",
     "banner": "assets/img/store/carruseles/tw-disfruta-01.webp",
     "url_detalle": "detalle/item.html?id=tw-disfruta-004",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar una figura 3D coleccionable de videojuego.",
@@ -572,7 +572,7 @@
       "curso",
       "hojas de cálculo"
     ],
-    "imagen": "assets/img/store/productos/tw-educa-001.png",
+    "imagen": "assets/img/store/productos/tw-educa-001.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
     "url_detalle": "detalle/item.html?id=tw-educa-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el Curso Excel Nivel I de TW Educa.",
@@ -601,7 +601,7 @@
       "ofimática",
       "reportes"
     ],
-    "imagen": "assets/img/store/productos/tw-educa-002.png",
+    "imagen": "assets/img/store/productos/tw-educa-002.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
     "url_detalle": "detalle/item.html?id=tw-educa-002",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el Curso Excel Nivel II.",
@@ -659,7 +659,7 @@
       "dibujo técnico",
       "curso"
     ],
-    "imagen": "assets/img/store/productos/tw-educa-004.png",
+    "imagen": "assets/img/store/productos/tw-educa-004.webp",
     "banner": "assets/img/store/carruseles/tw-educa-01.webp",
     "url_detalle": "detalle/item.html?id=tw-educa-004",
     "whatsapp_mensaje": "Hola Tecprog World, deseo información sobre el Curso AutoCAD Nivel I.",
@@ -831,7 +831,7 @@
       "institucional",
       "software"
     ],
-    "imagen": "assets/img/store/productos/tw-innova-002.png",
+    "imagen": "assets/img/store/productos/tw-innova-002.webp",
     "banner": "assets/img/store/carruseles/tw-innova-01.webp",
     "url_detalle": "detalle/item.html?id=tw-innova-002",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar un portal institucional.",
@@ -966,7 +966,7 @@
       "soporte",
       "equipos"
     ],
-    "imagen": "assets/img/store/productos/tw-innova-007.png",
+    "imagen": "assets/img/store/productos/tw-innova-007.webp",
     "banner": "assets/img/store/carruseles/tw-innova-01.webp",
     "url_detalle": "detalle/item.html?id=tw-innova-007",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar mantenimiento preventivo de equipos electrónicos.",
@@ -994,7 +994,7 @@
       "diagnóstico",
       "gamer"
     ],
-    "imagen": "assets/img/store/productos/tw-innova-008.png",
+    "imagen": "assets/img/store/productos/tw-innova-008.webp",
     "banner": "assets/img/store/carruseles/tw-innova-01.webp",
     "url_detalle": "detalle/item.html?id=tw-innova-008",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar diagnóstico de GPU gamer o placa electrónica.",
@@ -1587,7 +1587,7 @@
       "acero",
       "medida"
     ],
-    "imagen": "assets/img/banners/tw-inox/banner-tw-inox-01.png",
+    "imagen": "assets/img/banners/tw-inox/banner-tw-inox-01.webp",
     "banner": "assets/img/store/carruseles/tw-inox-01.webp",
     "url_detalle": "detalle/item.html?id=tw-inox-004",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar un mueble metálico a medida.",
@@ -1614,7 +1614,7 @@
       "fabricación",
       "acero"
     ],
-    "imagen": "assets/img/banners/tw-inox/banner-tw-inox-01.png",
+    "imagen": "assets/img/banners/tw-inox/banner-tw-inox-01.webp",
     "banner": "assets/img/store/carruseles/tw-inox-01.webp",
     "url_detalle": "detalle/item.html?id=tw-inox-005",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar un proyecto metalmecánico.",
@@ -1641,7 +1641,7 @@
       "metal",
       "reparación"
     ],
-    "imagen": "assets/img/banners/tw-inox/banner-tw-inox-01.png",
+    "imagen": "assets/img/banners/tw-inox/banner-tw-inox-01.webp",
     "banner": "assets/img/store/carruseles/tw-inox-01.webp",
     "url_detalle": "detalle/item.html?id=tw-inox-006",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar un servicio de soldadura técnica.",
@@ -1668,7 +1668,7 @@
       "asesoría",
       "proyecto"
     ],
-    "imagen": "assets/img/banners/tw-investiga/banner-tw-investiga-01.png",
+    "imagen": "assets/img/banners/tw-investiga/banner-tw-investiga-01.webp",
     "banner": "assets/img/store/carruseles/tw-investiga-01.webp",
     "url_detalle": "detalle/item.html?id=tw-investiga-001",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar asesoría en un proyecto de investigación científica.",
@@ -1695,7 +1695,7 @@
       "revisión",
       "tesis"
     ],
-    "imagen": "assets/img/banners/tw-investiga/banner-tw-investiga-01.png",
+    "imagen": "assets/img/banners/tw-investiga/banner-tw-investiga-01.webp",
     "banner": "assets/img/store/carruseles/tw-investiga-01.webp",
     "url_detalle": "detalle/item.html?id=tw-investiga-002",
     "whatsapp_mensaje": "Hola Tecprog World, deseo cotizar una revisión metodológica.",

@@ -8,7 +8,7 @@
     "subcategoria": "Prótesis de mano y miembro superior",
     "descripcion_corta": "Servicio de desarrollo tecnológico, diseño, prototipado y soporte de ingeniería para soluciones de asistencia y salud.",
     "descripcion_larga": "Tecprog World E.I.R.L. acompaña iniciativas de tecnología de asistencia mediante diseño conceptual, modelado CAD, prototipado, documentación técnica y revisión de ingeniería. El enfoque combina criterios de ergonomía, resistencia, fabricación digital, iteración de prototipos y comunicación clara con el cliente. El servicio está orientado a explorar soluciones funcionales, piezas de apoyo, dispositivos de asistencia, componentes personalizados o mantenimiento técnico relacionado con entornos de salud. La adaptación clínica, prescripción, evaluación médica y validación final deben realizarse con profesionales de salud competentes cuando corresponda.",
-    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.jpg",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_prtesis_manos.webp",
     "archivo_fuente": "TW_Salud_prtesis_manos.jpg",
     "publico_objetivo": [
       "Profesionales de salud que requieren soporte técnico",
@@ -71,7 +71,7 @@
     "subcategoria": "Mantenimiento e instrumentación de salud",
     "descripcion_corta": "Servicio de desarrollo tecnológico, diseño, prototipado y soporte de ingeniería para soluciones de asistencia y salud.",
     "descripcion_larga": "Tecprog World E.I.R.L. acompaña iniciativas de tecnología de asistencia mediante diseño conceptual, modelado CAD, prototipado, documentación técnica y revisión de ingeniería. El enfoque combina criterios de ergonomía, resistencia, fabricación digital, iteración de prototipos y comunicación clara con el cliente. El servicio está orientado a explorar soluciones funcionales, piezas de apoyo, dispositivos de asistencia, componentes personalizados o mantenimiento técnico relacionado con entornos de salud. La adaptación clínica, prescripción, evaluación médica y validación final deben realizarse con profesionales de salud competentes cuando corresponda.",
-    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.jpg",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.webp",
     "archivo_fuente": "TW_Salud_y_Vida_Mantenimiento_Unidad_Dental.jpg",
     "publico_objetivo": [
       "Profesionales de salud que requieren soporte técnico",
@@ -134,7 +134,7 @@
     "subcategoria": "Prótesis de miembro inferior",
     "descripcion_corta": "Servicio de desarrollo tecnológico, diseño, prototipado y soporte de ingeniería para soluciones de asistencia y salud.",
     "descripcion_larga": "Tecprog World E.I.R.L. acompaña iniciativas de tecnología de asistencia mediante diseño conceptual, modelado CAD, prototipado, documentación técnica y revisión de ingeniería. El enfoque combina criterios de ergonomía, resistencia, fabricación digital, iteración de prototipos y comunicación clara con el cliente. El servicio está orientado a explorar soluciones funcionales, piezas de apoyo, dispositivos de asistencia, componentes personalizados o mantenimiento técnico relacionado con entornos de salud. La adaptación clínica, prescripción, evaluación médica y validación final deben realizarse con profesionales de salud competentes cuando corresponda.",
-    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Prtesis_de_Pierna01.jpg",
+    "imagen": "assets/img/servicios/protesis_y_ortesis/TW_Salud_y_Vida_Prtesis_de_Pierna01.webp",
     "archivo_fuente": "TW_Salud_y_Vida_Prtesis_de_Pierna01.jpg",
     "publico_objetivo": [
       "Profesionales de salud que requieren soporte técnico",
@@ -260,7 +260,7 @@
     "subcategoria": "Teledetección costera y CoastSAT",
     "descripcion_corta": "Curso o recurso técnico para fortalecer capacidades de ingeniería, ciencia aplicada, programación y análisis numérico.",
     "descripcion_larga": "Programa de formación independiente orientado a estudiantes, profesionales y equipos técnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programación científica, análisis de datos, GIS, modelamiento numérico, CFD, documentación técnica con LaTeX, automatización y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formación técnica independiente, sin representación oficial de marcas o instituciones.",
-    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_de_CoastSAT.jpg",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_de_CoastSAT.webp",
     "archivo_fuente": "Curso_de_CoastSAT.jpg",
     "publico_objetivo": [
       "Estudiantes de ingeniería y ciencias",
@@ -325,7 +325,7 @@
     "subcategoria": "Modelamiento numérico y Delft3D",
     "descripcion_corta": "Curso o recurso técnico para fortalecer capacidades de ingeniería, ciencia aplicada, programación y análisis numérico.",
     "descripcion_larga": "Programa de formación independiente orientado a estudiantes, profesionales y equipos técnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programación científica, análisis de datos, GIS, modelamiento numérico, CFD, documentación técnica con LaTeX, automatización y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formación técnica independiente, sin representación oficial de marcas o instituciones.",
-    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Delft3D_TransporteDeParticulas.jpg",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Delft3D_TransporteDeParticulas.webp",
     "archivo_fuente": "Curso_Delft3D_TransporteDeParticulas.jpg",
     "publico_objetivo": [
       "Estudiantes de ingeniería y ciencias",
@@ -523,7 +523,7 @@
     "subcategoria": "Python científico",
     "descripcion_corta": "Curso o recurso técnico para fortalecer capacidades de ingeniería, ciencia aplicada, programación y análisis numérico.",
     "descripcion_larga": "Programa de formación independiente orientado a estudiantes, profesionales y equipos técnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programación científica, análisis de datos, GIS, modelamiento numérico, CFD, documentación técnica con LaTeX, automatización y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formación técnica independiente, sin representación oficial de marcas o instituciones.",
-    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Python01.png",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/Curso_Python01.webp",
     "archivo_fuente": "Curso_Python01.png",
     "publico_objetivo": [
       "Estudiantes de ingeniería y ciencias",
@@ -653,7 +653,7 @@
     "subcategoria": "Modelamiento numérico y Delft3D",
     "descripcion_corta": "Curso o recurso técnico para fortalecer capacidades de ingeniería, ciencia aplicada, programación y análisis numérico.",
     "descripcion_larga": "Programa de formación independiente orientado a estudiantes, profesionales y equipos técnicos que necesitan aplicar herramientas digitales en problemas reales. La propuesta puede integrar programación científica, análisis de datos, GIS, modelamiento numérico, CFD, documentación técnica con LaTeX, automatización y flujos de trabajo con software especializado. Cuando se mencionan herramientas como QGIS, Python, MATLAB, Fortran, OpenFOAM, Delft3D, CoastSAT o HP 50G, se hace como formación técnica independiente, sin representación oficial de marcas o instituciones.",
-    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/TW_EDUCA_MOOC_DELFT3D.jpg",
+    "imagen": "assets/img/servicios/cursos_ingenieros_y_cientificos/TW_EDUCA_MOOC_DELFT3D.webp",
     "archivo_fuente": "TW_EDUCA_MOOC_DELFT3D.jpg",
     "publico_objetivo": [
       "Estudiantes de ingeniería y ciencias",

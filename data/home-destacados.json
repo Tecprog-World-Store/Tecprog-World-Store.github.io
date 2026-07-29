@@ -1,8 +1,0 @@
-{
-  "cursos_destacados": ["delft3d-wave-flow", "admision-unac", "matlab-programacion", "openfoam-cfd", "python-poo", "hp50g", "latex", "odoo-erp", "qgis-basico"],
-  "software_destacado": ["software-medida", "sistemas-web", "plugins-qgis", "plugins-autocad", "dashboards"],
-  "servicios_destacados": ["simulaciones-cfd", "modelamiento-hidraulico", "estudios-gis", "procesamiento-datos", "expedientes-tecnicos"],
-  "productos_destacados": ["plantillas-digitales", "manuales-pdf", "recursos-ingenieria", "packs-cursos", "licencias-demos"],
-  "materiales_destacados": ["manuales-pdf", "recursos-ingenieria"],
-  "proyectos_destacados": ["software-medida", "simulaciones-cfd", "protesis"]
-}
