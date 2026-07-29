@@ -37,7 +37,7 @@ Usa esta lista antes de publicar cambios en GitHub Pages.
 
 - [ ] Revisar menu superior.
 - [ ] Revisar footer institucional.
-- [ ] Revisar panel lateral derecho.
+- [ ] Confirmar ausencia de paneles laterales.
 - [ ] Revisar boton flotante de WhatsApp.
 - [ ] Revisar navegacion movil.
 
@@ -71,7 +71,7 @@ Usa esta lista antes de publicar cambios en GitHub Pages.
 - [ ] Revisar movil.
 - [ ] Revisar tablets o ancho intermedio.
 - [ ] Revisar que no se monten textos sobre botones.
-- [ ] Revisar panel lateral y menu movil.
+- [ ] Revisar columna central, navegacion local horizontal y menu movil.
 
 ## Consola
 

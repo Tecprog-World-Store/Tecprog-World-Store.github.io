@@ -1,45 +1,43 @@
 from __future__ import annotations
 
 import re
-import sys
-from collections import Counter, defaultdict
+from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 
 
 SKIP_DIRS = {"backups", "build", "_auditoria_codex", ".git", ".idea", "__pycache__"}
-STRUCTURAL_CLASSES = {
-    "side-nav",
-    "side-nav-left",
-    "side-panel-right",
-    "commerce-nav-panel",
-    "commerce-aside",
+CENTRAL_CLASSES = {
+    "central-page",
+    "central-page-shell",
+    "central-catalog-layout",
     "commerce-results",
-    "page-shell-three-columns",
+    "local-nav",
+    "commerce-local-nav",
+    "commerce-related",
+    "detail-summary",
 }
-LEGACY_RE = re.compile(r"(legacy-panel|old-panel|panel-antiguo|layout-legacy|sidebar-legacy)", re.I)
+LEGACY_RE = re.compile(
+    r"(legacy-panel|old-panel|panel-antiguo|layout-legacy|sidebar-legacy|"
+    r"side-panel-right|side-nav-left|page-shell-three-columns|commerce-aside)",
+    re.I,
+)
 
 
 class PageParser(HTMLParser):
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__()
         self.ids: Counter[str] = Counter()
         self.classes: Counter[str] = Counter()
         self.scripts: Counter[str] = Counter()
         self.styles: Counter[str] = Counter()
-        self.body_attrs: dict[str, str] = {}
-        self.main_attrs: list[dict[str, str]] = []
 
-    def handle_starttag(self, tag, attrs):
+    def handle_starttag(self, tag, attrs) -> None:
         attrs_dict = dict(attrs)
-        if tag == "body":
-            self.body_attrs.update(attrs_dict)
-        if tag == "main":
-            self.main_attrs.append(attrs_dict)
         if "id" in attrs_dict:
             self.ids[attrs_dict["id"]] += 1
         for cls in attrs_dict.get("class", "").split():
-            if cls in STRUCTURAL_CLASSES:
+            if cls in CENTRAL_CLASSES:
                 self.classes[cls] += 1
         if tag == "script" and attrs_dict.get("src"):
             self.scripts[attrs_dict["src"].split("?", 1)[0].replace("\\", "/")] += 1
@@ -67,8 +65,8 @@ def main() -> int:
             if count > 1:
                 errors.append(f"{rel}: id duplicado #{item_id} ({count})")
         for cls, count in parser.classes.items():
-            if count > 1:
-                errors.append(f"{rel}: clase estructural duplicada .{cls} ({count})")
+            if cls in {"central-page", "central-page-shell", "central-catalog-layout"} and count > 1:
+                errors.append(f"{rel}: contenedor estructural duplicado .{cls} ({count})")
         for src, count in parser.scripts.items():
             if count > 1:
                 errors.append(f"{rel}: JS duplicado {src} ({count})")
@@ -76,26 +74,20 @@ def main() -> int:
             if count > 1:
                 errors.append(f"{rel}: CSS duplicado {href} ({count})")
         if LEGACY_RE.search(text):
-            errors.append(f"{rel}: referencia legacy de panel/layout")
+            errors.append(f"{rel}: referencia de panel lateral obsoleto")
 
-        is_commerce = "data-commerce-catalog" in text and 'data-catalog-mode="home"' not in text
-        local_strategy = "data-commerce-panel-strategy=\"local\"" in text
-        disabled = "data-disable-global-sidebars=\"true\"" in text
-        if is_commerce and not (local_strategy and disabled):
-            errors.append(f"{rel}: catalogo comercial sin estrategia local y bloqueo de sidebars globales")
-
-    js_text = Path("assets/js/catalogo-global.js").read_text(encoding="utf-8")
-    if js_text.count("function leftPanel") != 1 or js_text.count("function rightPanel") != 1:
-        errors.append("assets/js/catalogo-global.js: debe existir un solo generador local leftPanel/rightPanel")
-    right_panel_text = Path("assets/js/right-panel.js").read_text(encoding="utf-8")
-    if "globalSidebarsDisabled()" not in right_panel_text:
-        errors.append("assets/js/right-panel.js: falta bloqueo de sidebars globales")
+    catalog_js = (root / "assets/js/catalogo-global.js").read_text(encoding="utf-8")
+    for generator in ("function localNavigation", "function relatedResources", "function resultsPanel"):
+        if catalog_js.count(generator) != 1:
+            errors.append(f"assets/js/catalogo-global.js: generador inconsistente {generator}")
+    if "<aside" in catalog_js:
+        errors.append("assets/js/catalogo-global.js: no debe generar aside comercial")
 
     if errors:
         print("REGRESIONES DE PANELES:")
         print("\n".join(errors))
         return 1
-    print("OK: no hay paneles estructurales duplicados ni referencias legacy en HTML publico.")
+    print("OK: no hay paneles laterales, contenedores centrales duplicados ni referencias legacy.")
     return 0
 
 

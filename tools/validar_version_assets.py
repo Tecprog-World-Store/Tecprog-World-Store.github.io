@@ -6,7 +6,7 @@ from collections import defaultdict
 from pathlib import Path
 
 
-EXPECTED_VERSION = "20260708-01"
+EXPECTED_VERSION = "20260729-04"
 SKIP_DIRS = {"backups", "build", "_auditoria_codex", ".git", ".idea", "__pycache__"}
 ASSET_RE = re.compile(r'<(?:link|script)\b[^>]*(?:href|src)=["\'](?P<url>[^"\']*assets/(?:css|js)/[^"\']+\.(?:css|js)(?:\?[^"\']*)?)["\']', re.I)
 

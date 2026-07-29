@@ -386,7 +386,7 @@
       .join("");
   }
 
-  function leftPanel(fixedLine, mode) {
+  function localNavigation(fixedLine, mode) {
     const current = fixedLine || "tw-store";
     const links = [
       ["Inicio comercial", "store/index.html"],
@@ -401,7 +401,7 @@
     ];
     const title = mode === "store" ? "Navegacion" : LINE_LABELS[current] || "Navegacion";
     return `
-      <nav class="commerce-nav-panel" aria-label="Navegacion comercial de la linea">
+      <nav class="commerce-local-nav" aria-label="Navegacion comercial de la linea">
         <h2>${escapeHtml(title)}</h2>
         ${links.map(([label, href]) => `<a href="${localPath(href)}">${escapeHtml(label)}</a>`).join("")}
       </nav>`;
@@ -413,35 +413,35 @@
       <button type="button" data-commerce-share>Compartir pagina</button>`;
   }
 
-  function rightPanel(slug, mode) {
+  function relatedResources(slug, mode) {
     const current = slug || "tw-store";
     const copy = LINE_PANEL_COPY[current] || LINE_PANEL_COPY["tw-store"];
     const resourceSlug = mode === "store" ? "tw-store" : current;
     return `
-      <aside class="commerce-aside">
-        <article class="quick-panel-card">
+      <section class="commerce-related" aria-label="Acciones y recursos relacionados">
+        <article>
           <h2>Acciones comerciales</h2>
           <p>${escapeHtml(copy.action)}</p>
-          <div class="quick-link-grid">
+          <div class="commerce-action-row">
             <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             <a href="mailto:grupotecprog@gmail.com">Enviar correo</a>
             ${commerceActions()}
             <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">Cotizar</a>
           </div>
         </article>
-        <article class="quick-panel-card">
+        <article>
           <h2>${escapeHtml(copy.quickTitle)}</h2>
-          <div class="quick-link-grid">
+          <div class="commerce-related-grid">
             ${resourceLinks(resourceSlug)}
             <a href="${localPath("pagos/peru.html")}">Pagos Peru</a>
             <a href="${localPath("pagos/internacionales.html")}">Pagos Internacionales</a>
           </div>
         </article>
-        <article class="quick-panel-card">
+        <article>
           <h2>Confianza comercial</h2>
           <p>Coordinamos alcance, precio, disponibilidad y condiciones antes de cualquier pago.</p>
         </article>
-      </aside>`;
+      </section>`;
   }
 
   function resultsPanel(root, title, subtitle, fixedLine, items) {
@@ -477,14 +477,14 @@
         </div>`;
     } else if (mode === "store") {
       root.innerHTML = `
-        ${leftPanel("", mode)}
+        ${localNavigation("", mode)}
         ${resultsPanel(root, title, subtitle, fixedLine, items)}
-        ${rightPanel("tw-store", mode)}`;
+        ${relatedResources("tw-store", mode)}`;
     } else {
       root.innerHTML = `
-        ${leftPanel(fixedLine, mode)}
+        ${localNavigation(fixedLine, mode)}
         ${resultsPanel(root, title, subtitle, fixedLine, visibleItems)}
-        ${rightPanel(fixedLine, mode)}`;
+        ${relatedResources(fixedLine, mode)}`;
     }
 
     root.addEventListener("input", () => update(root));

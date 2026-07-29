@@ -124,11 +124,11 @@ async function renderLineCatalog() {
   const items = await loadLineCatalog(slug);
   document.title = `${config.title} | Tecprog World E.I.R.L.`;
   root.innerHTML = `
-    <aside class="side-nav" data-side-nav aria-label="Navegacion ${offerEscape(config.title)}">
+    <nav class=\"local-nav\" data-local-nav aria-label="Navegacion ${offerEscape(config.title)}">
       <a href="#presentacion">Presentacion</a>
       <a href="#catalogo">Ofertas</a>
       <a href="#condiciones">Condiciones</a>
-    </aside>
+    </nav>
     <section id="presentacion" class="subpage-hero section-anchor">
       <div class="section-shell">
         <p class="eyebrow">Tecprog World E.I.R.L.</p>
@@ -169,8 +169,6 @@ async function renderLineCatalog() {
   `;
   document.querySelector("[data-line-offer-filters]").addEventListener("input", applyOfferFilters);
   document.querySelector("[data-line-offer-filters]").addEventListener("change", applyOfferFilters);
-  if (typeof setupMobileSideIndex === "function") setupMobileSideIndex();
-  if (typeof renderRightPanel === "function") renderRightPanel();
   if (typeof twExternalAttrs === "function") twExternalAttrs();
 }
 

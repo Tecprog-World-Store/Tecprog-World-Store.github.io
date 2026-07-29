@@ -171,7 +171,7 @@ async function renderMaterialDetail() {
               <p>Tecprog World E.I.R.L. desarrolla formación, servicios y materiales de manera independiente. Las marcas, softwares o instituciones mencionadas pertenecen a sus respectivos titulares y se emplean únicamente como referencia técnica o académica.</p>
             </section>
           </div>
-          <aside class="detail-sidebar">
+          <section class=\"detail-summary\">
             <div class="price-panel">
               <h2>Información comercial</h2>
               <dl>
@@ -183,7 +183,7 @@ async function renderMaterialDetail() {
               <p>${escapeHtml(item.nota_comercial)}</p>
             </div>
             ${renderQrBlock()}
-          </aside>
+          </section>
         </div>
       </section>
     `;

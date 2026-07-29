@@ -43,21 +43,20 @@ Enlaces oficiales:
 
 Los enlaces externos deben abrir con `target="_blank"` y `rel="noopener noreferrer"`.
 
-## Navegación
+## Navegacion
 
-La plataforma usa tres niveles:
+La plataforma usa una sola columna estructural central:
 
-- Menú superior: navegación global entre áreas principales.
-- Índice izquierdo: navegación dentro de la página actual.
-- Panel derecho: acciones rápidas, recursos, redes, video destacado y compartición.
+- Menu superior: navegacion global entre areas principales.
+- Barra horizontal local: navegacion dentro de la pagina actual.
+- Contenido central: catalogos, detalles y secciones relacionadas inferiores.
 
-Los componentes reutilizables están en:
+Los componentes reutilizables estan en:
 
-- `assets/js/navigation.js`: menú global, footer institucional, botón flotante de WhatsApp e índice móvil.
-- `assets/js/right-panel.js`: panel derecho, copiar enlace, compartir página y recursos destacados.
+- `assets/js/navigation.js`: menu global adaptable, footer institucional y boton flotante de WhatsApp.
+- `assets/js/catalogo-global.js`: navegacion comercial horizontal, filtros, resultados y recursos relacionados.
 
-Las páginas internas que requieran índice deben usar `main.with-side-nav` y un `aside.side-nav`.
-
+Las paginas internas que requieran indice deben usar `nav.local-nav` con `data-local-nav`.
 ## Cursos
 
 Los cursos se administran en:
@@ -242,10 +241,9 @@ detalle/guia.html?id=appimage-launcher-creator
 
 Confirmar que el iframe PDF carga y que el enlace de fallback permite descargar el documento.
 
-## Panel Lateral Derecho
+## Columna central
 
-Las paginas con `main.with-side-nav` reciben el panel lateral derecho desde `assets/js/right-panel.js`. El panel forma parte del grid principal, usa `position: sticky`, respeta la altura del header y pasa debajo del contenido en pantallas pequenas.
-
+Todas las paginas publicas utilizan una sola columna estructural central. Las acciones comerciales y los recursos relacionados aparecen como secciones horizontales dentro o al final del contenido.
 ## Catalogo General TW Educa
 
 El insumo base esta en:
@@ -306,27 +304,25 @@ assets/pdf/catalogos/catalogo-general-tw-educa-2026-06.pdf
 
 En Texmaker, abrir `main.tex` desde la carpeta externa y compilar con pdfLaTeX. No copiar auxiliares `.aux`, `.log`, `.out`, `.toc`, `.fls`, `.fdb_latexmk` ni carpetas temporales al repositorio web.
 
-## Validar Panel Sticky
+## Validar columna central
 
-Abrir una pagina con `main.with-side-nav`, por ejemplo:
+Abrir una pagina con navegacion local, por ejemplo:
 
 ```text
 lineas/tw-educa.html
 catalogo/catalogo-general-tw-educa.html
 ```
 
-Confirmar que `assets/js/right-panel.js` cree:
+Confirmar que la estructura sea:
 
 ```html
-<div class="page-shell page-shell-three-columns">
-  <aside class="side-nav"></aside>
-  <div class="page-main"></div>
-  <aside class="side-panel-right"></aside>
-</div>
+<main class="central-page">
+  <nav class="local-nav" data-local-nav></nav>
+  <section>Contenido principal</section>
+</main>
 ```
 
-El panel derecho debe estar visible desde la parte superior del contenido, usar `position: sticky` en escritorio y pasar debajo del contenido en pantallas pequenas.
-
+Ejecutar `python tools/validar_layout_columna_central.py` y confirmar que no existan paneles laterales ni scroll horizontal.
 ## Publicar Catalogo General En GitHub Pages
 
 1. Actualizar `data/fuentes/catalogo_base_cursos_tw_educa.txt`.

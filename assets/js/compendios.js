@@ -126,7 +126,7 @@ async function renderCompendioDetail() {
             <p class="microcopy">Si el visor no carga, <a href="${fromSubdir((item.pdfUrl || item.archivo_pdf))}" download>descarga el PDF aquí</a>.</p>
           </article>
         </div>
-        <aside class="detail-sidebar">
+        <section class=\"detail-summary\">
           <article class="price-panel">
             <h2>Datos del compendio</h2>
             <dl>
@@ -141,7 +141,7 @@ async function renderCompendioDetail() {
               <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Solicitar material completo</a>
             </div>
           </article>
-        </aside>
+        </section>
       </div>
     </section>
   `;

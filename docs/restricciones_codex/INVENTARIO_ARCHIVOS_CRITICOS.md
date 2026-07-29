@@ -8,7 +8,6 @@ JS principal:
 
 - `assets/js/navigation.js`
 - `assets/js/catalogo-global.js`
-- `assets/js/right-panel.js`
 - `assets/js/main.js`
 - `assets/js/audio-player.js`
 

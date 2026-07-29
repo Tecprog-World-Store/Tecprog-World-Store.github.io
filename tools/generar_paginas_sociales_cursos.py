@@ -208,7 +208,7 @@ def page_html(course: dict, meta: dict) -> str:
     <meta name="twitter:image" content="{esc(meta['og_image_url'])}">
     <link rel="icon" href="/assets/img/logos/logo-tecprog-world.png" type="image/png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="/assets/css/styles.css?v=fase8g-20260704">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20260729-04">
   </head>
   <body>
     <header class="site-header">
@@ -280,7 +280,7 @@ def page_html(course: dict, meta: dict) -> str:
               <p>{esc(course.get('certificacion') or 'Certificado fisico y firmado segun condiciones de la convocatoria.')}</p>
             </article>
           </div>
-          <aside class="detail-sidebar">
+          <section class=\"detail-summary\">
             <article class="price-panel">
               <h2>Inscripcion</h2>
               <p>{esc(course.get('precio') or 'Consultar inversion')}</p>
@@ -289,13 +289,13 @@ def page_html(course: dict, meta: dict) -> str:
                 <a class="btn btn-small" href="/educa/index.html">Ver catalogo TW Educa</a>
               </div>
             </article>
-          </aside>
+          </section>
         </div>
       </section>
     </main>
-    <script src="/assets/js/detalle.js?v=fase8g-20260704"></script>
-    <script src="/assets/js/navigation.js?v=fase8e-20260704"></script>
-    <script src="/assets/js/audio-player.js?v=tres-paneles-20260627"></script>
+    <script src="/assets/js/detalle.js?v=20260729-04"></script>
+    <script src="/assets/js/navigation.js?v=20260729-04"></script>
+    <script src="/assets/js/audio-player.js?v=20260729-04"></script>
   </body>
 </html>
 """

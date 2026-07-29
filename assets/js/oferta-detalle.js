@@ -70,7 +70,7 @@ async function renderOfferDetail() {
           <article class="detail-block"><h2>Incluye</h2>${detailOfferList(item.incluye)}</article>
           <article class="detail-block"><h2>Condiciones</h2>${detailOfferList(item.condiciones)}</article>
         </div>
-        <aside class="detail-sidebar">
+        <section class=\"detail-summary\">
           <article class="price-panel">
             <h2>Ficha comercial</h2>
             <dl>
@@ -86,7 +86,7 @@ async function renderOfferDetail() {
               <a class="btn btn-small" href="../catalogo/${detailOfferEscape(item.linea_slug)}.html">Catalogo</a>
             </div>
           </article>
-        </aside>
+        </section>
       </div>
     </section>
   `;

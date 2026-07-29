@@ -27,12 +27,6 @@ function twAppContentTarget() {
   return document.querySelector("#app-content, [data-app-content], .page-main");
 }
 
-function twGlobalSidebarsDisabled() {
-  return document.body?.dataset.disableGlobalSidebars === "true" ||
-    document.body?.dataset.layoutMode === "commercial-local-panels" ||
-    document.querySelector("[data-disable-global-sidebars='true'], [data-commerce-panel-strategy='local']");
-}
-
 function twShouldBypassProgressiveNavigation(link, event) {
   if (!link || event.defaultPrevented) return true;
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return true;
@@ -76,7 +70,6 @@ function twExtractProgressiveContent(doc, url) {
   }
 
   const clone = sourceMain.cloneNode(true);
-  clone.querySelectorAll(":scope > .side-nav, :scope > .side-nav-left, :scope > .side-panel-right, :scope > .side-index-toggle, :scope > .side-nav-toggle").forEach((item) => item.remove());
   const shellPageMain = clone.querySelector(".page-main");
   twRewriteProgressiveUrls(shellPageMain || clone, url);
   return shellPageMain ? shellPageMain.innerHTML : clone.innerHTML;
@@ -112,7 +105,6 @@ async function twLoadPageScripts(doc, url) {
   const persistentShellScripts = new Set([
     "/assets/js/catalogo-global.js",
     "/assets/js/navigation.js",
-    "/assets/js/right-panel.js",
     "/assets/js/main.js"
   ]);
   for (const script of scripts) {
@@ -137,8 +129,7 @@ async function twLoadPageScripts(doc, url) {
 async function twRehydrateProgressiveContent() {
   try {
     if (typeof renderStandardTopNav === "function") renderStandardTopNav();
-    if (!twGlobalSidebarsDisabled() && typeof renderRightPanel === "function") renderRightPanel(true);
-    if (typeof setupMobileSideIndex === "function") setupMobileSideIndex();
+    if (typeof setupTopNavigation === "function") setupTopNavigation();
     if (typeof twExternalAttrs === "function") twExternalAttrs();
     if (typeof setupPayPalButtons === "function") setupPayPalButtons();
     if (typeof setupWhatsAppLinks === "function") setupWhatsAppLinks();
@@ -230,6 +221,9 @@ function twWhatsappHref(text = "Hola, deseo informacion desde la web de Tecprog 
 function renderStandardTopNav() {
   document.querySelectorAll(".site-nav").forEach((nav) => {
     if (nav.dataset.skipStandardNav === "true") return;
+    nav.classList.remove("is-static");
+    nav.id ||= "site-nav";
+    nav.setAttribute("data-nav", "");
     nav.innerHTML = `
       <a href="${twPath("index.html")}#inicio">Inicio</a>
       <a href="${twPath("store/index.html")}">TW Store</a>
@@ -245,18 +239,44 @@ function renderStandardTopNav() {
       <a href="${twPath("pagos/peru.html")}">Pagos Perú</a>
       <a href="${twPath("pagos/internacionales.html")}">Pagos Internacionales</a>
     `;
+    nav.querySelectorAll("a").forEach((link) => {
+      const target = new URL(link.href, location.href);
+      const active = target.pathname === location.pathname ||
+        (location.pathname === "/" && target.pathname === "/index.html");
+      link.classList.toggle("is-active", active);
+      if (active) link.setAttribute("aria-current", "page");
+    });
   });
 }
 
-function setupMobileSideIndex() {
-  document.querySelectorAll(".with-side-nav > .side-nav").forEach((nav) => {
-    if (nav.previousElementSibling?.classList.contains("side-index-toggle")) return;
-    const button = document.createElement("button");
-    button.className = "side-index-toggle side-nav-toggle";
-    button.type = "button";
-    button.textContent = "Indice de esta pagina";
-    button.addEventListener("click", () => nav.classList.toggle("is-open"));
-    nav.before(button);
+function setupTopNavigation() {
+  document.querySelectorAll(".site-header").forEach((header) => {
+    const nav = header.querySelector(".site-nav");
+    if (!nav) return;
+    let toggle = header.querySelector("[data-nav-toggle]");
+    if (!toggle) {
+      toggle = document.createElement("button");
+      toggle.className = "nav-toggle";
+      toggle.type = "button";
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.setAttribute("aria-controls", nav.id || "site-nav");
+      toggle.setAttribute("aria-label", "Abrir menu principal");
+      toggle.setAttribute("data-nav-toggle", "");
+      toggle.innerHTML = '<span></span><span></span><span></span><span class="sr-only">Abrir menu</span>';
+      nav.before(toggle);
+    }
+    if (toggle.dataset.navReady === "true") return;
+    toggle.dataset.navReady = "true";
+    toggle.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+    nav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("is-open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
   });
 }
 
@@ -277,7 +297,7 @@ function renderFloatingWhatsApp() {
 
 function renderCommercialLocationSection() {
   if (document.body?.dataset.disableCommercialLocation === "true") return;
-  const main = document.querySelector("main.with-side-nav, main");
+  const main = document.querySelector("main.central-page, main");
   if (!main) return;
 
   const target = main.querySelector(".page-main") || main;
@@ -408,7 +428,7 @@ async function setupPayPalButtons() {
 document.addEventListener("DOMContentLoaded", () => {
   window.TWProgressiveNavigate = twNavigateProgressively;
   renderStandardTopNav();
-  setupMobileSideIndex();
+  setupTopNavigation();
   renderFloatingWhatsApp();
   renderCommercialLocationSection();
   renderInstitutionalFooter();

@@ -150,7 +150,7 @@ async function renderGuiaDetail() {
             <p class="microcopy">Si el visor no carga, <a href="${guiaFromSubdir((item.pdfUrl || item.archivo_pdf))}" download>descargue el PDF aqui</a>.</p>
           </article>
         </div>
-        <aside class="detail-sidebar">
+        <section class=\"detail-summary\">
           <article class="price-panel">
             <h2>Ficha tecnica</h2>
             <dl>
@@ -171,7 +171,7 @@ async function renderGuiaDetail() {
               <a class="btn btn-small btn-gold" href="${guiaWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </article>
-        </aside>
+        </section>
       </div>
     </section>
   `;

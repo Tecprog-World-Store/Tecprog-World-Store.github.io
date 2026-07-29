@@ -415,7 +415,7 @@ async function renderDetail() {
             <a class="btn btn-primary" href="${current.relatedHref || "../educa/index.html"}">Ver catálogo TW Educa</a>
           </article>
         </div>
-        <aside class="detail-sidebar">
+        <section class=\"detail-summary\">
           <article class="price-panel">
             <h2>Ficha del curso</h2>
             <dl>
@@ -442,7 +442,7 @@ async function renderDetail() {
             </div>
             <p class="microcopy">${esc(current.priceNote)}</p>
           </article>
-        </aside>
+        </section>
       </div>
     </section>
   `;
