@@ -30,12 +30,6 @@
     "tipo": "curso"
   },
   {
-    "titulo": "Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart",
-    "ruta": "cursos/curso-practico-de-apps-moviles-para-mecanica-de-fluidos-con-flutter-y-dart/",
-    "descripcion": "Crea aplicaciones Android para cálculos técnicos de Reynolds, caudal, velocidad y pérdida de carga.",
-    "tipo": "curso"
-  },
-  {
     "titulo": "Curso práctico de AutoCAD Nivel I",
     "ruta": "cursos/curso-practico-de-autocad-nivel-i/",
     "descripcion": "Dibuja, organiza y presenta planos desde cero. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
@@ -60,33 +54,9 @@
     "tipo": "curso"
   },
   {
-    "titulo": "Curso práctico de C++ aplicado a Mecánica de Fluidos",
-    "ruta": "cursos/curso-practico-de-c-plus-plus-aplicado-a-mecanica-de-fluidos/",
-    "descripcion": "Programa métodos numéricos y construye tu primer mini-solver para problemas de fluidos.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL",
-    "ruta": "cursos/curso-practico-de-cfd-con-openfoam-en-windows-10-11-usando-wsl/",
-    "descripcion": "Instala OpenFOAM en Windows con WSL, ejecuta casos CFD y postprocesa resultados en ParaView.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de Cloud Computing para OpenFOAM",
-    "ruta": "cursos/curso-practico-de-cloud-computing-para-openfoam/",
-    "descripcion": "Ejecuta CFD en la nube con AWS/Azure, escala tus casos y controla costos computacionales.",
-    "tipo": "curso"
-  },
-  {
     "titulo": "Curso práctico de Costos y Presupuestos con S10",
     "ruta": "cursos/curso-practico-de-costos-y-presupuestos-con-s10/",
     "descripcion": "Aprende metrados, presupuestos, análisis de precios unitarios y control de obra. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de Datos Climáticos y Oceanográficos con Python",
-    "ruta": "cursos/curso-practico-de-datos-climaticos-y-oceanograficos-con-python/",
-    "descripcion": "Descarga, procesa y visualiza datos globales GRIB2 y NetCDF para estudios hidro-oceanográficos.",
     "tipo": "curso"
   },
   {
@@ -120,12 +90,6 @@
     "tipo": "curso"
   },
   {
-    "titulo": "Curso práctico de Geoportales Web GIS con Python y GeoServer",
-    "ruta": "cursos/curso-practico-de-geoportales-web-gis-con-python-y-geoserver/",
-    "descripcion": "Publica capas, crea visores interactivos y habilita descarga de datos para usuarios finales.",
-    "tipo": "curso"
-  },
-  {
     "titulo": "Curso práctico de GNU/Linux",
     "ruta": "cursos/curso-practico-de-gnu-linux/",
     "descripcion": "Aprende terminal, archivos, usuarios y herramientas esenciales. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
@@ -138,18 +102,6 @@
     "tipo": "curso"
   },
   {
-    "titulo": "Curso práctico de LaTeX y Texmaker para Investigación Científica",
-    "ruta": "cursos/curso-practico-de-latex-y-texmaker-para-investigacion-cientifica/",
-    "descripcion": "Crea documentos modulares, artículos, presentaciones Beamer y pósters académicos.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de Machine Learning aplicado a Mecánica de Fluidos",
-    "ruta": "cursos/curso-practico-de-machine-learning-aplicado-a-mecanica-de-fluidos/",
-    "descripcion": "Predice, analiza y optimiza datos CFD, experimentales e hidrológicos con Python.",
-    "tipo": "curso"
-  },
-  {
     "titulo": "Curso práctico de MATLAB y Octave para Ingeniería",
     "ruta": "cursos/curso-practico-de-matlab-y-octave-para-ingenieria/",
     "descripcion": "Programa, grafica y resuelve problemas numéricos paso a paso. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
@@ -159,24 +111,6 @@
     "titulo": "Curso práctico de ETABS para Modelado Estructural",
     "ruta": "cursos/curso-practico-de-modelado-y-analisis-estructural-con-etabs/",
     "descripcion": "Aprende a modelar edificaciones, cargas, análisis e interpretación de resultados. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de Programación en QGIS con Python para creación de plugins",
-    "ruta": "cursos/curso-practico-de-programacion-en-qgis-con-python-para-creacion-de-plugins/",
-    "descripcion": "Crea tu primer plugin para QGIS, diseña interfaces con Qt Designer y automatiza geoprocesos con PyQGIS.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de Programación GPU NVIDIA aplicada a CFD",
-    "ruta": "cursos/curso-practico-de-programacion-gpu-nvidia-aplicada-a-cfd/",
-    "descripcion": "Acelera cálculos de mecánica de fluidos con CUDA C++, librerías científicas y mini-solvers numéricos.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de Programación para AutoCAD con C# y Visual Studio",
-    "ruta": "cursos/curso-practico-de-programacion-para-autocad-con-c-y-visual-studio/",
-    "descripcion": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD.",
     "tipo": "curso"
   },
   {
@@ -198,12 +132,6 @@
     "tipo": "curso"
   },
   {
-    "titulo": "Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3",
-    "ruta": "cursos/curso-practico-de-realidad-virtual-con-unity-para-meta-quest-2-y-3/",
-    "descripcion": "Instala Unity, configura Meta Quest, crea una escena VR interactiva y ejecútala en el visor.",
-    "tipo": "curso"
-  },
-  {
     "titulo": "Curso práctico de Revit para Modelado BIM",
     "ruta": "cursos/curso-practico-de-revit-para-modelado-bim/",
     "descripcion": "Aprende modelado BIM, documentación y flujo de trabajo para proyectos. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
@@ -216,21 +144,9 @@
     "tipo": "curso"
   },
   {
-    "titulo": "Curso práctico de Software de IA Offline con Python, Ollama y PySide",
-    "ruta": "cursos/curso-practico-de-software-de-ia-offline-con-python-ollama-y-pyside/",
-    "descripcion": "Crea tu propio chat local con IA, sin tokens, sin dependencia de la nube y con interfaz de escritorio.",
-    "tipo": "curso"
-  },
-  {
     "titulo": "Curso práctico de SolidWorks para Diseño 3D",
     "ruta": "cursos/curso-practico-de-solidworks-para-diseno-3d/",
     "descripcion": "Aprende piezas, ensamblajes y documentación técnica. Formación online con clases en vivo, proyecto aplicado y acompañamiento.",
-    "tipo": "curso"
-  },
-  {
-    "titulo": "Curso práctico de Visión Artificial aplicada a Ríos y Canales",
-    "ruta": "cursos/curso-practico-de-vision-artificial-aplicada-a-rios-y-canales/",
-    "descripcion": "Procesa videos, estima velocidades superficiales y visualiza patrones de flujo con Python.",
     "tipo": "curso"
   },
   {
