@@ -142,7 +142,7 @@ function normalizeCourse(item, sourceType) {
       certification: item.certificacion,
       image: item.thumbnail || item.imagen_portada || item.imagen,
       whatsappMessage: item.whatsapp_message,
-      backHref: "../catalogo/catálogo-general-tw-educa.html",
+      backHref: "../catalogo/catalogo-general-tw-educa.html",
       backLabel: "Volver al catálogo general",
       requirements: [],
       learning: [],
@@ -323,7 +323,7 @@ async function renderDetail() {
   const current = await findCourse(id, catalog);
 
   if (!current) {
-    root.innerHTML = `<section class="section"><div class="section-shell"><article class="detail-block"><h1>Curso no encontrado</h1><p>Revisa el enlace o vuelve al catálogo de cursos.</p><a class="btn btn-primary" href="../catalogo/catálogo-general-tw-educa.html">Volver al catálogo general</a></article></div></section>`;
+    root.innerHTML = `<section class="section"><div class="section-shell"><article class="detail-block"><h1>Curso no encontrado</h1><p>Revisa el enlace o vuelve al catálogo de cursos.</p><a class="btn btn-primary" href="../catalogo/catalogo-general-tw-educa.html">Volver al catálogo general</a></article></div></section>`;
     return;
   }
 
