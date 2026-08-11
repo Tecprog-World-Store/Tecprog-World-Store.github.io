@@ -842,10 +842,10 @@
     "precio_desde_soles_igv": 0,
     "precio_internacional_usd": 0,
     "precio_soles_texto": "Gratis durante la etapa alfa",
-    "precio_usd_texto": "Descarga externa aún no publicada",
+    "precio_usd_texto": "Instalador alfa disponible",
     "prioridad": "alta",
     "descripcion_corta": "Asistente local en español con texto y visión para Windows. Requiere Python 3.11+, Ollama y un modelo local instalados por separado.",
-    "descripcion_larga": "CORVUS AI v4 es una versión alfa gratuita para posicionamiento. El instalador actual no está firmado y puede generar advertencias de Windows SmartScreen. La descarga pública se habilitará únicamente cuando exista una URL externa autorizada.",
+    "descripcion_larga": "CORVUS AI v4 es una versión alfa gratuita para posicionamiento. El instalador actual no está firmado y puede generar advertencias de Windows SmartScreen. La descarga pública se ofrece desde la ficha del producto junto con su hash SHA-256.",
     "incluye": [
       "Interfaz gráfica en español.",
       "Trabajo local con texto y visión mediante Ollama.",
@@ -857,9 +857,10 @@
       "El instalador sin firma puede activar SmartScreen; no se promete evitar esa advertencia.",
       "Se contempla una futura versión de pago, sin fecha, funciones ni precio anunciados."
     ],
-    "imagen": "assets/img/software/software-open-source-tools.svg",
+    "imagen": "assets/img/software/corvus-ai-v4-card.png",
+    "imagen_alt": "Ilustración comercial de la interfaz de CORVUS AI v4 alpha",
     "url_detalle": "innova/corvus-ai-v4/index.html",
-    "whatsapp_message": "Hola Tecprog World, deseo consultar cuándo estará disponible la descarga gratuita de CORVUS AI v4 alpha.",
-    "accion_whatsapp": "Consultar disponibilidad"
+    "whatsapp_message": "Hola Tecprog World, deseo consultar sobre CORVUS AI v4 alpha.",
+    "accion_whatsapp": "Consultar sobre CORVUS"
   }
 ]

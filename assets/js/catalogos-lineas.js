@@ -85,7 +85,7 @@ function offerCard(item) {
       data-prioridad="${offerEscape(item.prioridad)}"
       data-search="${offerEscape(`${item.oferta} ${item.categoria} ${item.tipo} ${item.descripcion_corta}`).toLowerCase()}">
       <div class="catalog-media">
-        <img src="${offerAsset(item.imagen)}" alt="${offerEscape(item.oferta)}" loading="lazy">
+        <img src="${offerAsset(item.imagen)}" alt="${offerEscape(item.imagen_alt || item.oferta)}" loading="lazy">
         <span>${offerEscape(item.tipo)}</span>
       </div>
       <div class="catalog-body">

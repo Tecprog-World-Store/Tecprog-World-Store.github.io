@@ -222,7 +222,7 @@
     return `
       <article class="commerce-card" data-commerce-item="${escapeHtml(item.id)}">
         <div class="commerce-card-media">
-          <img src="${image}" alt="${escapeHtml(item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';">
+          <img src="${image}" alt="${escapeHtml(item.imagen_alt || item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';">
           <div class="commerce-badge-row">
             ${item.oferta ? '<span class="commerce-badge is-offer">Oferta</span>' : ""}
           </div>
