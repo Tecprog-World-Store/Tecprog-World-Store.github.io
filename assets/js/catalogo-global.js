@@ -208,10 +208,10 @@
     const fallback = localPath(DEFAULT_IMAGE);
     const primaryPrice = itemPrimaryPrice(item);
     const isCourse = item.linea_negocio === "tw-educa" || item.linea === "tw-educa" || item.tipo_item === "curso";
-    const priceText = isCourse && item.precio ? item.precio : money(primaryPrice.value, primaryPrice.currency);
+    const priceText = item.precio_texto || (isCourse && item.precio ? item.precio : money(primaryPrice.value, primaryPrice.currency));
     const priceDollars = primaryPrice.currency !== "USD" && typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
     const publicStatus = item.estado_publico || readable(item.estado || "cotizar");
-    const actionLabel = isCourse ? "Inscribirme por WhatsApp" : "Cotizar por WhatsApp";
+    const actionLabel = item.accion_whatsapp || (isCourse ? "Inscribirme por WhatsApp" : "Cotizar por WhatsApp");
     const courseMeta = item.tipo_item === "curso"
       ? [item.fecha_inicio_publica || item.fecha_inicio, item.modalidad].filter(Boolean).join(" · ")
       : "";
@@ -237,7 +237,7 @@
           </div>
           <p class="commerce-status">${escapeHtml(publicStatus)}</p>
           ${courseMeta ? `<p class="commerce-status-meta">${escapeHtml(courseMeta)}</p>` : ""}
-          <p class="commerce-notice">${NOTICE}</p>
+          <p class="commerce-notice">${escapeHtml(item.aviso_publico || NOTICE)}</p>
           <div class="commerce-card-actions">
             <a class="btn btn-small btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">${actionLabel}</a>
             ${detail}

@@ -391,6 +391,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tecprog-world-store.github.io/innova/corvus-ai-v4/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tecprog-world-store.github.io/innova/corvus-ai-v4/manual.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://tecprog-world-store.github.io/inox/index.html</loc>
     <lastmod>2026-07-07</lastmod>
     <priority>0.6</priority>

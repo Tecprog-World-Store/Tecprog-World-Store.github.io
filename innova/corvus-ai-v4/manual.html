@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manual de usuario de CORVUS AI v4 alpha: requisitos, instalación, Ollama, uso, privacidad, límites y verificación del instalador.">
+    <meta property="og:title" content="Manual de CORVUS AI v4 alpha | TW Innova">
+    <meta property="og:description" content="Guía en español para preparar y usar CORVUS AI v4 alpha con Python, Ollama y un modelo local.">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="../../assets/img/store/og/tw-innova-og.webp">
+    <meta property="og:url" content="https://tecprog-world-store.github.io/innova/corvus-ai-v4/manual.html">
+    <title>Manual de CORVUS AI v4 alpha | TW Innova</title>
+    <link rel="icon" href="../../assets/img/logos/logo-tecprog-world.png" type="image/png">
+    <link rel="canonical" href="https://tecprog-world-store.github.io/innova/corvus-ai-v4/manual.html">
+    <link rel="manifest" href="../../site.webmanifest">
+    <link rel="stylesheet" href="../../assets/css/styles.css?v=20260729-07">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../index.html#inicio"><img src="../../assets/img/logos/logo-tecprog-world.png" alt="Tecprog World" width="56" height="56"><span><strong>Tecprog World</strong><small>E.I.R.L. Perú</small></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span></span><span></span><span></span><span class="sr-only">Abrir menú</span></button>
+      <nav id="site-nav" class="site-nav" data-nav></nav>
+    </header>
+    <main class="central-page">
+      <nav class="local-nav" data-local-nav aria-label="Secciones del manual">
+        <a href="#instala">Qué instala</a><a href="#requisitos">Requisitos</a><a href="#ollama">Ollama</a><a href="#uso">Uso</a><a href="#limites">Límites</a><a href="#problemas">Problemas</a><a href="#firma">Firma y hash</a>
+      </nav>
+      <section class="subpage-hero section-anchor">
+        <div class="section-shell"><p class="eyebrow">TW Innova · Documentación</p><h1>Manual de usuario — CORVUS AI v4</h1><p>Guía de la versión 4.0.0-alpha. El instalador todavía no está disponible públicamente.</p><div class="hero-actions"><a class="btn btn-secondary" href="index.html">Volver a la ficha</a></div></div>
+      </section>
+      <section id="instala" class="section section-anchor"><div class="section-shell"><article class="detail-block"><h2>1. Qué instala esta versión</h2><p>CORVUS v4 es un agente local de productividad con interfaz gráfica en español, modo Guiado y modo Avanzado. El instalador copia la aplicación, configuración, logo, manual y accesos directos. La versión alfa actual requiere Python 3.11 o posterior instalado en Windows.</p><p>Ollama y los modelos no forman parte del instalador: son componentes externos con tamaño, actualización y licencias propias.</p></article></div></section>
+      <section id="requisitos" class="section section-alt section-anchor"><div class="section-shell"><article class="detail-block"><h2>2. Requisitos</h2><ul class="check-list"><li>Windows 10/11 de 64 bits.</li><li>Python 3.11 o posterior, con Tkinter.</li><li>Para IA local: Ollama activo en <code>http://127.0.0.1:11434</code>.</li><li>8 GB de RAM como mínimo para texto pequeño; 12–16 GB recomendados para visión de 4B.</li><li>1 GB libre para CORVUS y temporales, más el tamaño de cada modelo.</li></ul><p>En un Intel Core i5-1035G1, 11.6 GB de RAM y NVIDIA MX330 de 2 GB, <code>qwen3.5:4b</code> funciona con visión, pero casi todo el cálculo recae en CPU. Una respuesta visual breve tardó 95 segundos; no se promete respuesta interactiva rápida en ese hardware.</p></article></div></section>
+      <section class="section section-anchor"><div class="section-shell"><article class="detail-block"><h2>3. Instalar CORVUS</h2><ol><li>Ejecuta <code>CORVUS_v4_Instalador_4.0.0-alpha.exe</code> solo cuando se publique desde un canal autorizado.</li><li>El asistente está en español y no requiere privilegios administrativos.</li><li>Opcionalmente, crea el acceso directo del escritorio.</li><li>Abre <strong>CORVUS v4</strong> desde Inicio.</li></ol><p>Si falta Python, instala Python 3.11+ desde su fuente oficial, incluye <code>python</code> en PATH y vuelve a ejecutar el instalador. Esta edición no incluye un runtime independiente.</p></article></div></section>
+      <section id="ollama" class="section section-alt section-anchor"><div class="section-shell"><article class="detail-block"><h2>4. Instalar Ollama y el modelo</h2><ol><li>Instala Ollama para Windows desde su sitio oficial y abre el servicio.</li><li>En una terminal ejecuta <code>ollama pull qwen3.5:4b</code>.</li><li>Comprueba con <code>ollama list</code> que aparece <code>qwen3.5:4b</code>.</li><li>En <code>config/corvus.toml</code>, configura <code>text = "qwen3.5:4b"</code> y <code>vision = "qwen3.5:4b"</code>.</li><li>Abre CORVUS y comprueba que Texto y Visión figuren disponibles.</li></ol><p>La descarga del modelo ronda 3.4 GB. CORVUS no la inicia automáticamente; el usuario controla la descarga y debe revisar la licencia del modelo.</p></article></div></section>
+      <section id="uso" class="section section-anchor"><div class="section-shell"><article class="detail-block"><h2>5. Uso</h2><p>En <strong>Modo Guiado</strong>, escribe una solicitud, elige un artefacto como <code>resultados/informe.md</code> y pulsa <strong>Crear resultado</strong>. Puedes adjuntar texto o una fotografía PNG/JPEG. Con una imagen, CORVUS utiliza el modelo de visión para describir escenas y razonar sobre ellas; no se limita a OCR.</p><p>Usa <strong>Cambiar carpeta…</strong> para elegir o crear el proyecto activo. Cada proyecto guarda conversaciones separadas en <code>.corvus/conversations</code>. El estado combina texto y color: verde significa LISTO; ámbar, EN PROCESO; rojo, ATENCIÓN. El Modo Avanzado permite solicitar supuestos, variables y criterios de verificación.</p></article></div></section>
+      <section id="limites" class="section section-alt section-anchor"><div class="section-shell"><article class="detail-block"><h2>6. Privacidad y límites</h2><p>Los archivos se escriben dentro del espacio de trabajo y no se sobrescriben por defecto. La ejecución de scripts permanece deshabilitada. Los modelos pueden equivocarse: revisa cálculos, decisiones de ingeniería y material profesional.</p><p>CORVUS puede crear fuentes Python, C, C++, C#, Fortran y R, además de archivos de proyecto y documentación. Esto no instala ni ejecuta compiladores. Audio aún no está integrado.</p></article></div></section>
+      <section id="problemas" class="section section-anchor"><div class="section-shell"><article class="detail-block"><h2>7. Solución de problemas</h2><ul><li><strong>Ollama no responde:</strong> abre Ollama y vuelve a iniciar CORVUS.</li><li><strong>Visión no disponible:</strong> confirma <code>ollama list</code> y que <code>models.vision</code> coincide exactamente.</li><li><strong>Respuesta lenta:</strong> cierra aplicaciones para liberar RAM y evita modelos mayores en equipos modestos.</li><li><strong>El artefacto existe:</strong> elige otro nombre; CORVUS no sobrescribe por defecto.</li></ul></article></div></section>
+      <section id="firma" class="section section-alt section-anchor"><div class="section-shell"><article class="detail-block"><h2>8. Firma, hash y SmartScreen</h2><p class="notice">El instalador alfa actual no tiene firma digital. Windows SmartScreen puede mostrar una advertencia y no se promete evitarla.</p><p>Para una futura descarga autorizada, verifica el hash con <code>Get-FileHash .\CORVUS_v4_Instalador_4.0.0-alpha.exe -Algorithm SHA256</code> y el estado de firma con <code>Get-AuthenticodeSignature .\CORVUS_v4_Instalador_4.0.0-alpha.exe</code>.</p><p>SHA-256 actual: <code>B0911629ECA6F2E8D6D242938617C4B248316553E5720DE8F5220BEFC339D6E2</code>.</p><p>Si el archivo se firma o reconstruye, el hash cambiará. Una versión pública futura debería firmarse con Authenticode mediante un certificado válido o Microsoft Artifact Signing, usar sellado de tiempo e identidad editorial constante.</p></article></div></section>
+    </main>
+    <script src="../../assets/js/navigation.js?v=20260729-07"></script>
+    <script src="../../assets/js/audio-player.js?v=20260729-07"></script>
+    <script src="../../assets/js/main.js?v=20260729-07"></script>
+  </body>
+</html>
