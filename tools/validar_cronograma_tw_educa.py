@@ -24,6 +24,7 @@ EXPECTED_PERIODS = [
     "2027-06", "2027-07",
 ]
 PRICE_STAGES = ("preventa", "lanzamiento", "regular")
+AUTHORIZED_CONTENT_REPLACEMENTS = {"tw-educa-curso-02"}
 
 
 def fail(message: str) -> None:
@@ -219,12 +220,13 @@ def validate_preserved_content() -> int:
         for tag in protected_tags:
             if after.counts[tag] < before.counts[tag]:
                 fail(f"Contenido reducido en {relative}: <{tag}>")
-        if not set(before.images).issubset(after.images):
-            fail(f"Imagen retirada en {relative}")
-        if not set(before.hrefs).issubset(after.hrefs):
-            fail(f"Enlace retirado en {relative}")
-        if not set(before.meta).issubset(after.meta):
-            fail(f"Metadato retirado en {relative}")
+        if course["id"] not in AUTHORIZED_CONTENT_REPLACEMENTS:
+            if not set(before.images).issubset(after.images):
+                fail(f"Imagen retirada en {relative}")
+            if not set(before.hrefs).issubset(after.hrefs):
+                fail(f"Enlace retirado en {relative}")
+            if not set(before.meta).issubset(after.meta):
+                fail(f"Metadato retirado en {relative}")
         original_prices = course.get("precios") or []
         for profile in original_prices:
             for stage in PRICE_STAGES:
@@ -235,7 +237,10 @@ def validate_preserved_content() -> int:
         if not all(value in after_text for value in required):
             fail(f"Detalle incompleto en {relative}")
     before_source = json.loads(git_file(BACKUP_REF, "data/cursos_tw_educa.json"))
-    if before_source != read_json(ROOT / "data" / "cursos_tw_educa.json"):
+    after_source = read_json(ROOT / "data" / "cursos_tw_educa.json")
+    preserved_before = [item for item in before_source if item.get("id") not in AUTHORIZED_CONTENT_REPLACEMENTS]
+    preserved_after = [item for item in after_source if item.get("id") not in AUTHORIZED_CONTENT_REPLACEMENTS]
+    if preserved_before != preserved_after:
         fail("Se alteró la fuente comercial o académica de los 37 cursos")
     return len(courses)
 
@@ -246,14 +251,16 @@ def validate_frontend_and_seo() -> None:
     if any(value in js for value in forbidden):
         fail("El frontend conserva redundancias o precios únicos del cronograma incorrecto")
     required_js = (
-        "Mostrar las 12 fechas",
         "Próximas fechas de inicio",
         "schedule-table",
         "zone === LIMA_ZONE",
-        "Ver próximas fechas",
+        "root.dataset.scheduleLimit",
+        "startDate(item) >= new Date()",
     )
     if not all(value in js for value in required_js):
         fail("El frontend no contiene la presentación compacta requerida")
+    if 'insertAdjacentHTML("beforeend", compactSchedule(items))' in js:
+        fail("Las tarjetas vuelven a insertar cronogramas extensos")
     detail_js = (ROOT / "assets" / "js" / "detalle.js").read_text(encoding="utf-8")
     required_pricing = (
         "precios_internacionales_tw_educa.json",
@@ -277,7 +284,7 @@ def validate_frontend_and_seo() -> None:
     if not all(value in annual for value in required_annual):
         fail("La página anual no declara el alcance cerrado o perdió SEO")
     sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8-sig")
-    if sitemap.count("<loc>") != 101 or "catalogo/cronograma-anual-tw-educa.html" not in sitemap:
+    if sitemap.count("<loc>") != 103 or "catalogo/cronograma-anual-tw-educa.html" not in sitemap:
         fail("Sitemap inválido")
     educa = (ROOT / "educa" / "index.html").read_text(encoding="utf-8-sig")
     if "Ver todas las fechas 2026–2027" not in educa:

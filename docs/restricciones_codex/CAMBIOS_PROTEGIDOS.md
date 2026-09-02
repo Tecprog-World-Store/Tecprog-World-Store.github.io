@@ -1,6 +1,6 @@
 # Cambios Protegidos
 
-Fecha: 2026-07-08.
+Fecha: 2026-07-08. Actualizacion autorizada: 2026-09-02.
 
 Cambios aprobados:
 
@@ -8,7 +8,7 @@ Cambios aprobados:
 - Navegacion superior global y navegacion local horizontal.
 - Catalogos comerciales con filtros y busqueda dentro del panel central.
 - Eliminacion de paneles laterales duplicados.
-- Versionado uniforme de CSS y JS con `v=20260729-07`.
+- Versionado uniforme de CSS y JS con `v=20260902-01`.
 - Idempotencia en `assets/js/catalogo-global.js` para evitar re-render del mismo root.
 - Eliminacion del generador `assets/js/right-panel.js`.
 

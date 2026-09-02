@@ -190,12 +190,7 @@
     const cards = [...root.querySelectorAll("[data-commerce-item], [data-course-card-id]")];
     cards.forEach((card) => {
       if (card.dataset.courseScheduleCardReady === "true") return;
-      const courseId = card.dataset.commerceItem || card.dataset.courseCardId;
-      const course = state.courseMap.get(courseId);
-      const items = state.byCourse.get(courseId);
-      if (!course || !items?.length) return;
-      const body = card.querySelector(".commerce-card-body, .catalog-body") || card;
-      body.insertAdjacentHTML("beforeend", compactSchedule(items));
+      card.querySelectorAll(".course-card-schedule").forEach((schedule) => schedule.remove());
       card.dataset.courseScheduleCardReady = "true";
     });
   }
@@ -241,25 +236,24 @@
     if (!root) return;
     const courseId = requestedId || root.dataset.courseId;
     const course = state.courseMap.get(courseId);
-    const items = state.byCourse.get(courseId) || [];
-    if (!course || items.length !== 12) {
+    const items = (state.byCourse.get(courseId) || []).filter((item) => startDate(item) >= new Date());
+    if (!course || !items.length) {
       root.innerHTML = "";
       const wrapper = root.closest(".section");
       if (wrapper) wrapper.hidden = true;
       return;
     }
     root.dataset.courseScheduleReady = "true";
+    const requestedLimit = Number.parseInt(root.dataset.scheduleLimit || "4", 10);
+    const limit = Number.isFinite(requestedLimit) ? Math.max(1, requestedLimit) : 4;
+    const visibleItems = items.slice(0, limit);
     root.innerHTML = `
       <div class="section-heading">
-        <p class="eyebrow">Agosto 2026–julio 2027</p>
+        <p class="eyebrow">Convocatorias futuras</p>
         <h2>Próximas fechas de inicio</h2>
         <p>Modalidad: ${escapeHtml(course.modalidad)} · Hora de referencia: Lima, Perú — UTC-05:00 · Apertura: mínimo ${escapeHtml(course.minimo_inscritos)} participantes.</p>
       </div>
-      ${detailTable(items.slice(0, 4), "Primeras cuatro fechas de inicio", true)}
-      <details class="schedule-all-dates">
-        <summary>Mostrar las 12 fechas</summary>
-        ${detailTable(items.slice(4), "Ocho fechas de inicio adicionales", true)}
-      </details>
+      ${detailTable(visibleItems, "Próximas fechas de inicio", true)}
       ${schedulePolicy()}`;
   }
 

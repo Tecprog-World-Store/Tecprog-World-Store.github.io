@@ -204,9 +204,9 @@
     "tipo": "curso"
   },
   {
-    "titulo": "Curso práctico de Programación para AutoCAD con C# y Visual Studio",
+    "titulo": "Curso Práctico de Programación de Plugins GUI para AutoCAD 2027",
     "ruta": "cursos/programacion-autocad-csharp/",
-    "descripcion": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD.",
+    "descripcion": "Aprende C# y la API .NET de AutoCAD creando plugins con GUI, Ribbon, PaletteSet, automatización y geometría 2D/3D.",
     "tipo": "curso"
   },
   {

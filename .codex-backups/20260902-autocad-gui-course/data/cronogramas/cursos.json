@@ -1,0 +1,2001 @@
+{
+  "schema_version": "2.0.0",
+  "fecha_actualizacion": "2026-07-29",
+  "total_cursos": 37,
+  "cursos": [
+    {
+      "id": "tw-educa-curso-01",
+      "slug": "realidad-virtual-unity-meta-quest",
+      "nombre": "Curso práctico de Realidad Virtual con Unity para Meta Quest 2 y 3",
+      "categoria": "Realidad Virtual",
+      "imagen": "assets/img/educa/cursos/realidad-virtual-unity-meta-quest.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/realidad-virtual-unity-meta-quest/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 349,
+          "lanzamiento_soles": 449,
+          "regular_soles": 599,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "D"
+    },
+    {
+      "id": "tw-educa-curso-02",
+      "slug": "programacion-autocad-csharp",
+      "nombre": "Curso práctico de Programación para AutoCAD con C# y Visual Studio",
+      "categoria": "Diseño técnico",
+      "imagen": "assets/img/educa/cursos/programacion-autocad-csharp.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/programacion-autocad-csharp/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 249,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 299,
+          "lanzamiento_soles": 399,
+          "regular_soles": 499,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-03",
+      "slug": "qgis-python-plugins",
+      "nombre": "Curso práctico de Programación en QGIS con Python para creación de plugins",
+      "categoria": "GIS",
+      "imagen": "assets/img/educa/cursos/qgis-python-plugins.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/qgis-python-plugins/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 249,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 349,
+          "lanzamiento_soles": 449,
+          "regular_soles": 599,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-04",
+      "slug": "ia-offline-python-ollama-pyside",
+      "nombre": "Curso práctico de Software de IA Offline con Python, Ollama y PySide",
+      "categoria": "Inteligencia Artificial",
+      "imagen": "assets/img/educa/cursos/ia-offline-python-ollama-pyside.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/ia-offline-python-ollama-pyside/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 249,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 399,
+          "lanzamiento_soles": 499,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-05",
+      "slug": "geoportales-web-gis-python-geoserver",
+      "nombre": "Curso práctico de Geoportales Web GIS con Python y GeoServer",
+      "categoria": "GIS",
+      "imagen": "assets/img/educa/cursos/geoportales-web-gis-python-geoserver.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/geoportales-web-gis-python-geoserver/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 449,
+          "lanzamiento_soles": 599,
+          "regular_soles": 799,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 132,
+          "lanzamiento_usd": 176,
+          "regular_usd": 235,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-06",
+      "slug": "latex-texmaker-investigacion",
+      "nombre": "Curso práctico de LaTeX y Texmaker para Investigación Científica",
+      "categoria": "Redacción técnica",
+      "imagen": "assets/img/educa/cursos/latex-texmaker-investigacion.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/latex-texmaker-investigacion/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 99,
+          "lanzamiento_soles": 149,
+          "regular_soles": 199,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional / investigador",
+          "preventa_soles": 249,
+          "lanzamiento_soles": 349,
+          "regular_soles": 499,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 599,
+          "lanzamiento_soles": 799,
+          "regular_soles": 999,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional / investigador",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 103,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 176,
+          "lanzamiento_usd": 235,
+          "regular_usd": 293,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-07",
+      "slug": "machine-learning-mecanica-fluidos",
+      "nombre": "Curso práctico de Machine Learning aplicado a Mecánica de Fluidos",
+      "categoria": "Inteligencia Artificial",
+      "imagen": "assets/img/educa/cursos/machine-learning-mecanica-fluidos.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/machine-learning-mecanica-fluidos/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 399,
+          "lanzamiento_soles": 549,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 799,
+          "lanzamiento_soles": 999,
+          "regular_soles": 1299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-08",
+      "slug": "cfd-openfoam-wsl",
+      "nombre": "Curso práctico de CFD con OpenFOAM en Windows 10/11 usando WSL",
+      "categoria": "Simulación",
+      "imagen": "assets/img/educa/cursos/cfd-openfoam-wsl.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/cfd-openfoam-wsl/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 449,
+          "lanzamiento_soles": 599,
+          "regular_soles": 799,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 899,
+          "lanzamiento_soles": 1099,
+          "regular_soles": 1499,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 132,
+          "lanzamiento_usd": 176,
+          "regular_usd": 235,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 264,
+          "lanzamiento_usd": 323,
+          "regular_usd": 440,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-09",
+      "slug": "cloud-computing-openfoam",
+      "nombre": "Curso práctico de Cloud Computing para OpenFOAM",
+      "categoria": "Simulación",
+      "imagen": "assets/img/educa/cursos/cloud-computing-openfoam.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/cloud-computing-openfoam/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 249,
+          "lanzamiento_soles": 349,
+          "regular_soles": 449,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 599,
+          "lanzamiento_soles": 799,
+          "regular_soles": 999,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 1199,
+          "lanzamiento_soles": 1499,
+          "regular_soles": 1999,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 103,
+          "regular_usd": 132,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 176,
+          "lanzamiento_usd": 235,
+          "regular_usd": 293,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 352,
+          "lanzamiento_usd": 440,
+          "regular_usd": 587,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-10",
+      "slug": "datos-climaticos-oceanograficos-python",
+      "nombre": "Curso práctico de Datos Climáticos y Oceanográficos con Python",
+      "categoria": "Curso técnico",
+      "imagen": "assets/img/educa/cursos/datos-climaticos-oceanograficos-python.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/datos-climaticos-oceanograficos-python/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 399,
+          "lanzamiento_soles": 549,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 799,
+          "lanzamiento_soles": 999,
+          "regular_soles": 1299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-11",
+      "slug": "cpp-mecanica-fluidos",
+      "nombre": "Curso práctico de C++ aplicado a Mecánica de Fluidos",
+      "categoria": "Programación",
+      "imagen": "assets/img/educa/cursos/cpp-mecanica-fluidos.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/cpp-mecanica-fluidos/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 349,
+          "lanzamiento_soles": 499,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 799,
+          "lanzamiento_soles": 999,
+          "regular_soles": 1299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-12",
+      "slug": "apps-moviles-flutter-mecanica-fluidos",
+      "nombre": "Curso práctico de Apps Móviles para Mecánica de Fluidos con Flutter y Dart",
+      "categoria": "Desarrollo móvil",
+      "imagen": "assets/img/educa/cursos/apps-moviles-flutter-mecanica-fluidos.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/apps-moviles-flutter-mecanica-fluidos/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 349,
+          "lanzamiento_soles": 499,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 799,
+          "lanzamiento_soles": 999,
+          "regular_soles": 1299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-13",
+      "slug": "vision-artificial-rios-canales",
+      "nombre": "Curso práctico de Visión Artificial aplicada a Ríos y Canales",
+      "categoria": "Tecnología",
+      "imagen": "assets/img/educa/cursos/vision-artificial-rios-canales.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/vision-artificial-rios-canales/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 399,
+          "lanzamiento_soles": 549,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 799,
+          "lanzamiento_soles": 999,
+          "regular_soles": 1299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 235,
+          "lanzamiento_usd": 293,
+          "regular_usd": 381,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "D"
+    },
+    {
+      "id": "tw-educa-curso-14",
+      "slug": "programacion-gpu-nvidia-cfd",
+      "nombre": "Curso práctico de Programación GPU NVIDIA aplicada a CFD",
+      "categoria": "Simulación",
+      "imagen": "assets/img/educa/cursos/programacion-gpu-nvidia-cfd.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/programacion-gpu-nvidia-cfd/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 299,
+          "regular_soles": 399,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 499,
+          "lanzamiento_soles": 699,
+          "regular_soles": 899,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_soles": 999,
+          "lanzamiento_soles": 1299,
+          "regular_soles": 1699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 88,
+          "regular_usd": 117,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 147,
+          "lanzamiento_usd": 205,
+          "regular_usd": 264,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Premium con asesoría",
+          "preventa_usd": 293,
+          "lanzamiento_usd": 381,
+          "regular_usd": 499,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-15",
+      "slug": "curso-practico-de-costos-y-presupuestos-con-s10",
+      "nombre": "Curso práctico de Costos y Presupuestos con S10",
+      "categoria": "Construcción",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-costos-y-presupuestos-con-s10.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-costos-y-presupuestos-con-s10/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 249,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 299,
+          "lanzamiento_soles": 399,
+          "regular_soles": 499,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-16",
+      "slug": "curso-practico-de-sap2000-para-analisis-estructural",
+      "nombre": "Curso práctico de SAP2000 para Análisis Estructural",
+      "categoria": "Ingeniería estructural",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-sap2000-para-analisis-estructural.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-sap2000-para-analisis-estructural/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 399,
+          "lanzamiento_soles": 549,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-17",
+      "slug": "curso-practico-de-modelado-y-analisis-estructural-con-etabs",
+      "nombre": "Curso práctico de ETABS para Modelado Estructural",
+      "categoria": "Ingeniería estructural",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-modelado-y-analisis-estructural-con-etabs.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-modelado-y-analisis-estructural-con-etabs/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 399,
+          "lanzamiento_soles": 549,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 117,
+          "lanzamiento_usd": 161,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-18",
+      "slug": "curso-practico-de-autodesk-inventor-para-diseno-mecanico",
+      "nombre": "Curso práctico de Autodesk Inventor para Diseño Mecánico",
+      "categoria": "Diseño mecánico",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-autodesk-inventor-para-diseno-mecanico.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-autodesk-inventor-para-diseno-mecanico/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 349,
+          "lanzamiento_soles": 449,
+          "regular_soles": 599,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-19",
+      "slug": "curso-practico-de-revit-para-modelado-bim",
+      "nombre": "Curso práctico de Revit para Modelado BIM",
+      "categoria": "BIM",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-revit-para-modelado-bim.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-revit-para-modelado-bim/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 349,
+          "lanzamiento_soles": 499,
+          "regular_soles": 699,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 147,
+          "regular_usd": 205,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-20",
+      "slug": "curso-practico-de-excel-nivel-i",
+      "nombre": "Curso práctico de Excel Nivel I",
+      "categoria": "Ofimática",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-excel-nivel-i.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 12 a 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-excel-nivel-i/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 79,
+          "lanzamiento_soles": 99,
+          "regular_soles": 149,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 249,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 24,
+          "lanzamiento_usd": 30,
+          "regular_usd": 44,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-21",
+      "slug": "curso-practico-de-excel-nivel-ii",
+      "nombre": "Curso práctico de Excel Nivel II",
+      "categoria": "Ofimática",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-excel-nivel-ii.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-excel-nivel-ii/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 99,
+          "lanzamiento_soles": 129,
+          "regular_soles": 179,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 229,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 38,
+          "regular_usd": 53,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 68,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-22",
+      "slug": "curso-practico-de-excel-nivel-iii",
+      "nombre": "Curso práctico de Excel Nivel III",
+      "categoria": "Ofimática",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-excel-nivel-iii.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-excel-nivel-iii/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 119,
+          "lanzamiento_soles": 149,
+          "regular_soles": 199,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-23",
+      "slug": "curso-practico-de-autocad-nivel-i",
+      "nombre": "Curso práctico de AutoCAD Nivel I",
+      "categoria": "Diseño técnico",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-autocad-nivel-i.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-autocad-nivel-i/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 99,
+          "lanzamiento_soles": 149,
+          "regular_soles": 199,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-24",
+      "slug": "curso-practico-de-autocad-nivel-ii",
+      "nombre": "Curso práctico de AutoCAD Nivel II",
+      "categoria": "Diseño técnico",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-autocad-nivel-ii.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-autocad-nivel-ii/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 119,
+          "lanzamiento_soles": 169,
+          "regular_soles": 229,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 219,
+          "lanzamiento_soles": 299,
+          "regular_soles": 399,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 50,
+          "regular_usd": 68,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 65,
+          "lanzamiento_usd": 88,
+          "regular_usd": 117,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-25",
+      "slug": "curso-practico-de-autocad-nivel-iii",
+      "nombre": "Curso práctico de AutoCAD Nivel III",
+      "categoria": "Diseño técnico",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-autocad-nivel-iii.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-autocad-nivel-iii/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 129,
+          "lanzamiento_soles": 179,
+          "regular_soles": 249,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 249,
+          "lanzamiento_soles": 329,
+          "regular_soles": 449,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 38,
+          "lanzamiento_usd": 53,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 97,
+          "regular_usd": 132,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-26",
+      "slug": "curso-practico-de-solidworks-para-diseno-3d",
+      "nombre": "Curso práctico de SolidWorks para Diseño 3D",
+      "categoria": "Diseño 3D",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-solidworks-para-diseno-3d.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-solidworks-para-diseno-3d/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 349,
+          "lanzamiento_soles": 449,
+          "regular_soles": 599,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 103,
+          "lanzamiento_usd": 132,
+          "regular_usd": 176,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-27",
+      "slug": "curso-practico-de-freecad-para-diseno-3d",
+      "nombre": "Curso práctico de FreeCAD para Diseño 3D",
+      "categoria": "Diseño 3D",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-freecad-para-diseno-3d.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-freecad-para-diseno-3d/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 99,
+          "lanzamiento_soles": 149,
+          "regular_soles": 199,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-28",
+      "slug": "curso-practico-de-matlab-y-octave-para-ingenieria",
+      "nombre": "Curso práctico de MATLAB y Octave para Ingeniería",
+      "categoria": "Software científico",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-matlab-y-octave-para-ingenieria.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-matlab-y-octave-para-ingenieria/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 249,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 299,
+          "lanzamiento_soles": 399,
+          "regular_soles": 499,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "C"
+    },
+    {
+      "id": "tw-educa-curso-29",
+      "slug": "curso-practico-de-python-basico",
+      "nombre": "Curso práctico de Python Básico",
+      "categoria": "Programación",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-python-basico.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-python-basico/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 99,
+          "lanzamiento_soles": 149,
+          "regular_soles": 199,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-30",
+      "slug": "curso-practico-de-python-poo",
+      "nombre": "Curso práctico de Python POO",
+      "categoria": "Programación",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-python-poo.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-python-poo/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 119,
+          "lanzamiento_soles": 169,
+          "regular_soles": 229,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 229,
+          "lanzamiento_soles": 299,
+          "regular_soles": 399,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 50,
+          "regular_usd": 68,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 68,
+          "lanzamiento_usd": 88,
+          "regular_usd": 117,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-31",
+      "slug": "curso-practico-de-python-web",
+      "nombre": "Curso práctico de Python Web",
+      "categoria": "Programación",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-python-web.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-python-web/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 149,
+          "lanzamiento_soles": 199,
+          "regular_soles": 249,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 299,
+          "lanzamiento_soles": 399,
+          "regular_soles": 499,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 44,
+          "lanzamiento_usd": 59,
+          "regular_usd": 73,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 88,
+          "lanzamiento_usd": 117,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-32",
+      "slug": "curso-practico-de-frontend-web",
+      "nombre": "Curso práctico de Frontend Web",
+      "categoria": "Desarrollo web",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-frontend-web.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-frontend-web/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 99,
+          "lanzamiento_soles": 149,
+          "regular_soles": 199,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 30,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-33",
+      "slug": "curso-practico-de-informatica-basica",
+      "nombre": "Curso práctico de Informática Básica",
+      "categoria": "Informática",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-informatica-basica.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 12 a 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-informatica-basica/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante",
+          "preventa_soles": 69,
+          "lanzamiento_soles": 89,
+          "regular_soles": 129,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "General",
+          "preventa_soles": 119,
+          "lanzamiento_soles": 149,
+          "regular_soles": 199,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante",
+          "preventa_usd": 21,
+          "lanzamiento_usd": 27,
+          "regular_usd": 38,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 35,
+          "lanzamiento_usd": 44,
+          "regular_usd": 59,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "A"
+    },
+    {
+      "id": "tw-educa-curso-34",
+      "slug": "curso-practico-de-gnu-linux",
+      "nombre": "Curso práctico de GNU/Linux",
+      "categoria": "Sistemas",
+      "imagen": "assets/img/educa/cursos/curso-practico-de-gnu-linux.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "4 sesiones en vivo · 16 horas",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/curso-practico-de-gnu-linux/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_soles": 89,
+          "lanzamiento_soles": 119,
+          "regular_soles": 169,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "Profesional",
+          "preventa_soles": 169,
+          "lanzamiento_soles": 229,
+          "regular_soles": 299,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Estudiante con carné",
+          "preventa_usd": 27,
+          "lanzamiento_usd": 35,
+          "regular_usd": 50,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "Profesional",
+          "preventa_usd": 50,
+          "lanzamiento_usd": 68,
+          "regular_usd": 88,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "B"
+    },
+    {
+      "id": "tw-educa-curso-35",
+      "slug": "preparacion-para-admision-unmsm",
+      "nombre": "Preparación para Admisión UNMSM",
+      "categoria": "Preparación académica",
+      "imagen": "assets/img/educa/cursos/preparacion-para-admision-unmsm.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "8 semanas · 2 meses · aproximadamente 64 horas en vivo",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/preparacion-para-admision-unmsm/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_soles": 179,
+          "lanzamiento_soles": 249,
+          "regular_soles": 349,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "General",
+          "preventa_soles": 249,
+          "lanzamiento_soles": 349,
+          "regular_soles": 449,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_usd": 53,
+          "lanzamiento_usd": 73,
+          "regular_usd": 103,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 73,
+          "lanzamiento_usd": 103,
+          "regular_usd": 132,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "E"
+    },
+    {
+      "id": "tw-educa-curso-36",
+      "slug": "preparacion-para-admision-uni",
+      "nombre": "Preparación para Admisión UNI",
+      "categoria": "Preparación académica",
+      "imagen": "assets/img/educa/cursos/preparacion-para-admision-uni.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "8 semanas · 2 meses · aproximadamente 64 horas en vivo",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/preparacion-para-admision-uni/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_soles": 199,
+          "lanzamiento_soles": 279,
+          "regular_soles": 379,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "General",
+          "preventa_soles": 279,
+          "lanzamiento_soles": 379,
+          "regular_soles": 499,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_usd": 59,
+          "lanzamiento_usd": 82,
+          "regular_usd": 112,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 82,
+          "lanzamiento_usd": 112,
+          "regular_usd": 147,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "E"
+    },
+    {
+      "id": "tw-educa-curso-37",
+      "slug": "preparacion-para-admision-unac",
+      "nombre": "Preparación para Admisión UNAC",
+      "categoria": "Preparación académica",
+      "imagen": "assets/img/educa/cursos/preparacion-para-admision-unac.webp",
+      "modalidad": "Online en vivo",
+      "estado_comercial": "Próxima convocatoria",
+      "duracion": "8 semanas · 2 meses · aproximadamente 64 horas en vivo",
+      "minimo_inscritos": 5,
+      "url_detalle": "cursos/preparacion-para-admision-unac/",
+      "fuente_canonica_contenido": "data/cursos_tw_educa.json",
+      "precios_pen": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_soles": 159,
+          "lanzamiento_soles": 229,
+          "regular_soles": 329,
+          "moneda": "PEN",
+          "incluye_igv": true
+        },
+        {
+          "publico": "General",
+          "preventa_soles": 229,
+          "lanzamiento_soles": 329,
+          "regular_soles": 429,
+          "moneda": "PEN",
+          "incluye_igv": true
+        }
+      ],
+      "precios_usd": [
+        {
+          "publico": "Escolar / egresado",
+          "preventa_usd": 47,
+          "lanzamiento_usd": 68,
+          "regular_usd": 97,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        },
+        {
+          "publico": "General",
+          "preventa_usd": 68,
+          "lanzamiento_usd": 97,
+          "regular_usd": 126,
+          "criterio": "conversion_configurada",
+          "fecha_referencia": "2026-07-24"
+        }
+      ],
+      "grupo_cronograma": "E"
+    }
+  ]
+}

@@ -2601,6 +2601,7 @@ select:focus-visible {
 .commerce-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: stretch;
   gap: 16px;
 }
 
@@ -2611,6 +2612,8 @@ select:focus-visible {
 
 .commerce-card {
   display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
   overflow: hidden;
   background: var(--white);
   border: 1px solid var(--dark-line);
@@ -2665,10 +2668,17 @@ select:focus-visible {
 }
 
 .commerce-card-body {
-  display: grid;
-  grid-template-rows: auto auto minmax(3.2em, auto) auto auto auto 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
   padding: 16px;
+}
+
+.commerce-card.is-course .commerce-card-body > p:not(.commerce-kicker):not(.commerce-status):not(.commerce-status-meta) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .commerce-kicker {
@@ -2733,6 +2743,97 @@ select:focus-visible {
   flex-wrap: wrap;
   gap: 8px;
   align-self: end;
+  margin-top: auto;
+}
+
+/* Página del curso AutoCAD GUI 2027 */
+.autocad-course .course-lead,
+.autocad-course .course-feature-grid,
+.autocad-course .course-project-grid,
+.autocad-course .course-related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 16px;
+}
+
+.autocad-course .course-feature,
+.autocad-course .course-project,
+.autocad-course .course-related-card {
+  padding: 20px;
+  border: 1px solid var(--dark-line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.autocad-course .course-feature h3,
+.autocad-course .course-project h3,
+.autocad-course .course-related-card h3 {
+  margin: 0 0 8px;
+  color: var(--navy);
+}
+
+.autocad-course .course-badges,
+.autocad-course .course-method {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.autocad-course .course-badges span,
+.autocad-course .course-method span {
+  padding: 7px 11px;
+  color: var(--navy);
+  background: var(--cyan-soft);
+  border: 1px solid rgba(23, 215, 255, 0.35);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 850;
+}
+
+.autocad-course .course-method span:not(:last-child)::after {
+  content: " →";
+  color: var(--gold);
+}
+
+.autocad-course .curriculum-grid,
+.autocad-course .faq-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.autocad-course .curriculum-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.autocad-course .curriculum-grid details,
+.autocad-course .faq-grid details {
+  min-width: 0;
+  padding: 16px 18px;
+  border: 1px solid var(--dark-line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.autocad-course details summary {
+  color: var(--navy);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.autocad-course details[open] summary {
+  margin-bottom: 12px;
+}
+
+.autocad-course .course-callout {
+  border-left: 5px solid var(--gold);
+  background: #fffaf0;
+}
+
+@media (max-width: 760px) {
+  .autocad-course .curriculum-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .commerce-card-actions .btn {

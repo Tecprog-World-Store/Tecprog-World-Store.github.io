@@ -213,14 +213,15 @@
     const publicStatus = item.estado_publico || readable(item.estado || "cotizar");
     const actionLabel = item.accion_whatsapp || (isCourse ? "Inscribirme por WhatsApp" : "Cotizar por WhatsApp");
     const courseMeta = item.tipo_item === "curso"
-      ? [item.fecha_inicio_publica || item.fecha_inicio, item.modalidad].filter(Boolean).join(" · ")
+      ? [item.modalidad].filter(Boolean).join(" · ")
       : "";
     const detail = item.url_detalle
-      ? `<a class="btn btn-small btn-secondary" href="${localPath(item.url_detalle)}">Ver detalle</a>`
+      ? `<a class="btn btn-small ${isCourse ? "btn-primary" : "btn-secondary"}" href="${localPath(item.url_detalle)}">Ver detalle</a>`
       : "";
+    const notice = isCourse ? "" : `<p class="commerce-notice">${escapeHtml(item.aviso_publico || NOTICE)}</p>`;
 
     return `
-      <article class="commerce-card" data-commerce-item="${escapeHtml(item.id)}">
+      <article class="commerce-card${isCourse ? " is-course" : ""}" data-commerce-item="${escapeHtml(item.id)}">
         <div class="commerce-card-media">
           <img src="${image}" alt="${escapeHtml(item.imagen_alt || item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';">
           <div class="commerce-badge-row">
@@ -237,10 +238,10 @@
           </div>
           <p class="commerce-status">${escapeHtml(publicStatus)}</p>
           ${courseMeta ? `<p class="commerce-status-meta">${escapeHtml(courseMeta)}</p>` : ""}
-          <p class="commerce-notice">${escapeHtml(item.aviso_publico || NOTICE)}</p>
+          ${notice}
           <div class="commerce-card-actions">
-            <a class="btn btn-small btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">${actionLabel}</a>
             ${detail}
+            <a class="btn btn-small btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">${actionLabel}</a>
           </div>
         </div>
       </article>

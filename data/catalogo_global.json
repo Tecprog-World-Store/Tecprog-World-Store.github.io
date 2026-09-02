@@ -2074,8 +2074,8 @@
     "id": "tw-educa-curso-02",
     "linea_negocio": "tw-educa",
     "categoria": "Diseño técnico",
-    "nombre": "Curso práctico de Programación para AutoCAD con C# y Visual Studio",
-    "descripcion_corta": "Crea comandos personalizados, automatiza tareas repetitivas y desarrolla tu primer plugin cargable con NETLOAD.",
+    "nombre": "Curso Práctico de Programación de Plugins GUI para AutoCAD 2027",
+    "descripcion_corta": "Aprende C# y la API .NET de AutoCAD creando plugins con GUI, Ribbon, PaletteSet, automatización y geometría 2D/3D.",
     "descripcion_larga": "",
     "precio_soles": 149,
     "precio_dolares": null,
@@ -2102,101 +2102,308 @@
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
     "estado_publico": "Próxima convocatoria",
-    "fecha_inicio": null,
-    "fecha_inicio_publica": "",
+    "fecha_inicio": "2026-09-07",
+    "fecha_inicio_publica": "7 de septiembre de 2026",
     "modalidad": "Online",
-    "nivel": "Consultar",
-    "herramientas": [],
-    "tags": [
-      "Consultar",
-      "Diseño técnico"
+    "nivel": "Práctico progresivo",
+    "herramientas": [
+      "AutoCAD 2027",
+      "C#",
+      ".NET",
+      "WPF",
+      "Ribbon",
+      "PaletteSet"
     ],
-    "imagen": "assets/img/educa/cursos/programacion-autocad-csharp.webp",
-    "og_image": "assets/img/educa/cursos/programacion-autocad-csharp.webp",
+    "tags": [
+      "TW Innova",
+      "Automatización CAD",
+      "Plugins GUI",
+      "AutoCAD 2027"
+    ],
+    "imagen": "assets/img/educa/cursos/curso-programacion-plugins-gui-autocad-2027.png",
+    "og_image": "assets/img/educa/cursos/curso-programacion-plugins-gui-autocad-2027.png",
     "url_detalle": "cursos/programacion-autocad-csharp/",
     "url_publica": "cursos/programacion-autocad-csharp/",
-    "whatsapp_mensaje": "Hola, deseo información para inscribirme en el curso \"Curso práctico de Programación para AutoCAD con C# y Visual Studio\".\n\nHe visto las modalidades y precios publicados:\n- Estudiante con carné: preventa S/ 149, lanzamiento S/ 199, regular S/ 249.\n- Profesional: preventa S/ 299, lanzamiento S/ 399, regular S/ 499.\n\nDeseo conocer:\n1. Disponibilidad de vacantes.\n2. Próxima fecha de inicio.\n3. Modalidad y horario.\n4. Forma de pago.\n5. Requisitos para reservar mi vacante.\n\nGracias.",
+    "whatsapp_mensaje": "Hola, deseo información para inscribirme en el curso \"Curso Práctico de Programación de Plugins GUI para AutoCAD 2027\".\n\nHe visto las modalidades y precios publicados:\n- Estudiante con carné: preventa S/ 149, lanzamiento S/ 199, regular S/ 249.\n- Profesional: preventa S/ 299, lanzamiento S/ 399, regular S/ 499.\n\nDeseo confirmar vacantes, próxima fecha de inicio, modalidad, horario y forma de pago. Gracias.",
     "destacado": false,
     "oferta": false,
-    "fecha_actualizacion": "2026-07-05",
+    "fecha_actualizacion": "2026-09-02",
     "visible_cliente": true,
     "moneda": "PEN",
-    "numero_sesiones": 4,
+    "numero_sesiones": 18,
     "duracion_total_horas": "",
     "temario_general": [
-      "Sesión 1: Entorno AutoCAD .NET y primer comando C#.",
-      "Sesión 2: Dibujo y modificacion de entidades.",
-      "Sesión 3: Datos, bloques y automatizacion CAD.",
-      "Sesión 4: Empaquetado y proyecto final."
+      "Módulo 01: Entorno de desarrollo.",
+      "Módulo 02: Primeros comandos.",
+      "Módulo 03: Database y Transactions.",
+      "Módulo 04: Selección y manipulación.",
+      "Módulo 05: Layers, Blocks y atributos.",
+      "Módulo 06: Anotaciones y tablas.",
+      "Módulo 07: Interfaces GUI.",
+      "Módulo 08: PaletteSet.",
+      "Módulo 09: Ribbon personalizado.",
+      "Módulo 10: Datos y archivos.",
+      "Módulo 11: Geometría 2D.",
+      "Módulo 12: AutoCAD 3D desde .NET.",
+      "Módulo 13: Automatización para ingeniería.",
+      "Módulo 14: Caso aplicado: Water Engineering Suite.",
+      "Módulo 15: Arquitectura de un plugin profesional.",
+      "Módulo 16: Distribución.",
+      "Módulo 17: Instalador Windows.",
+      "Módulo 18: Licenciamiento y comercialización."
     ],
     "temario_por_sesion": [
       {
         "modulo": 1,
-        "titulo": "Entorno AutoCAD .NET y primer comando C#",
-        "proposito": "Objetivo: preparar Visual Studio para programar comandos de AutoCAD.",
+        "titulo": "Entorno de desarrollo",
+        "proposito": "Aprender haciendo: entorno de desarrollo.",
         "contenidos": [
-          "Objetivo: preparar Visual Studio para programar comandos de AutoCAD.",
-          "Conceptos de API .NET, ensamblados, referencias y version compatible de AutoCAD.",
-          "Creacion de Class Library, configuracion de plataforma y carga con NETLOAD.",
-          "Estructura de un comando C#: atributos, Document, Editor y Database.",
-          "Mensajes en consola, seleccion de entidades y lectura de propiedades.",
-          "Practica: comando de diagnostico que selecciona objetos y muestra informacion.",
-          "Resultado: primer plugin cargable en AutoCAD con comando propio."
+          "Arquitectura de un plugin .NET para AutoCAD",
+          "Visual Studio 2026, AutoCAD 2027, C# y .NET",
+          "Class Library, referencias, Debug/Release, NETLOAD y autoload",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
         ],
-        "practica": "Practica: comando de diagnostico que selecciona objetos y muestra informacion.",
-        "resultado": "Resultado: primer plugin cargable en AutoCAD con comando propio.",
-        "tarea": "Avance del proyecto final o evidencia práctica de la sesión."
+        "practica": "Primer plugin funcional",
+        "resultado": "Primer plugin funcional",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
       },
       {
         "modulo": 2,
-        "titulo": "Dibujo y modificacion de entidades",
-        "proposito": "Objetivo: crear geometria 2D desde codigo con transacciones seguras.",
+        "titulo": "Primeros comandos",
+        "proposito": "Aprender haciendo: primeros comandos.",
         "contenidos": [
-          "Objetivo: crear geometria 2D desde codigo con transacciones seguras.",
-          "Lineas, polilineas, circulos, textos, capas y estilos basicos.",
-          "Uso de Transaction, BlockTableRecord y manejo de errores.",
-          "Lectura de puntos del usuario y parametros por consola.",
-          "Automatizacion de rutinas repetitivas de dibujo tecnico.",
-          "Practica: generar una plantilla de dibujo parametrica.",
-          "Resultado: comando que crea entidades organizadas por capa."
+          "CommandMethod y Hello AutoCAD",
+          "Puntos, líneas, círculos, arcos, polilíneas y texto",
+          "Áreas, pendientes y edición de objetos",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
         ],
-        "practica": "Practica: generar una plantilla de dibujo parametrica.",
-        "resultado": "Resultado: comando que crea entidades organizadas por capa.",
-        "tarea": "Avance del proyecto final o evidencia práctica de la sesión."
+        "practica": "Colección inicial de comandos personalizados",
+        "resultado": "Colección inicial de comandos personalizados",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
       },
       {
         "modulo": 3,
-        "titulo": "Datos, bloques y automatizacion CAD",
-        "proposito": "Objetivo: trabajar con bloques, atributos y datos de dibujo.",
+        "titulo": "Database y Transactions",
+        "proposito": "Aprender haciendo: database y transactions.",
         "contenidos": [
-          "Objetivo: trabajar con bloques, atributos y datos de dibujo.",
-          "Insercion de bloques, atributos, escalas y unidades.",
-          "Extraccion de informacion para reportes simples.",
-          "Validacion de nombres de capas, colores y convenciones CAD.",
-          "Conexion con archivos CSV o tablas basicas cuando aplique.",
-          "Practica: rutina para insertar y listar elementos tecnicos.",
-          "Resultado: automatizacion CAD con datos reutilizables."
+          "Document, Database, Editor y Transaction",
+          "BlockTable, BlockTableRecord y Model Space",
+          "Lectura y escritura segura de entidades",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
         ],
-        "practica": "Practica: rutina para insertar y listar elementos tecnicos.",
-        "resultado": "Resultado: automatizacion CAD con datos reutilizables.",
-        "tarea": "Avance del proyecto final o evidencia práctica de la sesión."
+        "practica": "Generador paramétrico de geometría",
+        "resultado": "Generador paramétrico de geometría",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
       },
       {
         "modulo": 4,
-        "titulo": "Empaquetado y proyecto final",
-        "proposito": "Objetivo: entregar una herramienta CAD pequena pero usable.",
+        "titulo": "Selección y manipulación",
+        "proposito": "Aprender haciendo: selección y manipulación.",
         "contenidos": [
-          "Objetivo: entregar una herramienta CAD pequena pero usable.",
-          "Organizacion del codigo, nombres de comandos y mensajes claros.",
-          "Pruebas en dibujos de ejemplo y depuracion de excepciones comunes.",
-          "Documentacion de instalacion, carga y uso del plugin.",
-          "Criterios de compatibilidad con versiones de AutoCAD.",
-          "Practica: cierre del plugin final y demostracion guiada.",
-          "Resultado: plugin C# documentado para automatizar una tarea CAD."
+          "PromptEntityOptions, SelectionSet y filtros",
+          "Selección múltiple y modificación de entidades",
+          "Layers, colores y tipos de línea",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
         ],
-        "practica": "Practica: cierre del plugin final y demostracion guiada.",
-        "resultado": "Resultado: plugin C# documentado para automatizar una tarea CAD.",
-        "tarea": "Avance del proyecto final o evidencia práctica de la sesión."
+        "practica": "Herramientas de edición automatizada",
+        "resultado": "Herramientas de edición automatizada",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 5,
+        "titulo": "Layers, Blocks y atributos",
+        "proposito": "Aprender haciendo: layers, blocks y atributos.",
+        "contenidos": [
+          "Creación y administración de layers",
+          "Bloques, inserción y atributos",
+          "Reutilización de componentes CAD",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Biblioteca técnica reutilizable",
+        "resultado": "Biblioteca técnica reutilizable",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 6,
+        "titulo": "Anotaciones y tablas",
+        "proposito": "Aprender haciendo: anotaciones y tablas.",
+        "contenidos": [
+          "DBText, MText, dimensiones y etiquetas",
+          "Tablas y reportes sobre el drawing",
+          "Información técnica automatizada",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Plano anotado automáticamente",
+        "resultado": "Plano anotado automáticamente",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 7,
+        "titulo": "Interfaces GUI",
+        "proposito": "Aprender haciendo: interfaces gui.",
+        "contenidos": [
+          "Ventanas, formularios y WPF",
+          "Inputs, ComboBox, botones y valores predeterminados",
+          "Validación, resultados y experiencia del usuario",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Calculadora técnica integrada con AutoCAD",
+        "resultado": "Calculadora técnica integrada con AutoCAD",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 8,
+        "titulo": "PaletteSet",
+        "proposito": "Aprender haciendo: paletteset.",
+        "contenidos": [
+          "PaletteSet modeless",
+          "Comunicación GUI ↔ AutoCAD",
+          "Navegación, estado compartido y arquitectura reusable",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Panel profesional de herramientas",
+        "resultado": "Panel profesional de herramientas",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 9,
+        "titulo": "Ribbon personalizado",
+        "proposito": "Aprender haciendo: ribbon personalizado.",
+        "contenidos": [
+          "Ribbon Tab, panels, botones y comandos",
+          "Iconos y comandos hacia PaletteSet",
+          "Branding técnico",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Pestaña completa integrada en AutoCAD",
+        "resultado": "Pestaña completa integrada en AutoCAD",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 10,
+        "titulo": "Datos y archivos",
+        "proposito": "Aprender haciendo: datos y archivos.",
+        "contenidos": [
+          "Lectura y escritura de TXT, CSV y JSON",
+          "Importación y exportación de datasets",
+          "Configuración persistente y proyectos editables",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Herramienta CAD basada en datos externos",
+        "resultado": "Herramienta CAD basada en datos externos",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 11,
+        "titulo": "Geometría 2D",
+        "proposito": "Aprender haciendo: geometría 2d.",
+        "contenidos": [
+          "Geometría calculada desde C#",
+          "Perfiles, secciones, plantas y anotaciones",
+          "Escalas y layers por resultado",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Generador automático de vistas técnicas",
+        "resultado": "Generador automático de vistas técnicas",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 12,
+        "titulo": "AutoCAD 3D desde .NET",
+        "proposito": "Aprender haciendo: autocad 3d desde .net.",
+        "contenidos": [
+          "Point3d, Vector3d, Polyline3d y regiones",
+          "Superficies, sólidos, extrusión y geometría paramétrica cuando corresponda",
+          "FRONT, TOP, SIDE e ISOMETRIC",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Objeto técnico tridimensional editable",
+        "resultado": "Objeto técnico tridimensional editable",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 13,
+        "titulo": "Automatización para ingeniería",
+        "proposito": "Aprender haciendo: automatización para ingeniería.",
+        "contenidos": [
+          "Fórmulas, unidades y parámetros",
+          "Cálculo numérico y resultados",
+          "Geometría vinculada a resultados de ingeniería",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Ejercicio original de ingeniería aplicada",
+        "resultado": "Ejercicio original de ingeniería aplicada",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 14,
+        "titulo": "Caso aplicado: Water Engineering Suite",
+        "proposito": "Aprender haciendo: caso aplicado: water engineering suite.",
+        "contenidos": [
+          "Open Channel Designer, Pipe Hydraulics, Hydrology y Wave Designer",
+          "CALCULATE, DRAW 2D, CREATE 3D y GENERATE VIEWS",
+          "ANNOTATE, IMPORT y EXPORT",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Proyecto didáctico y de referencia basado en el prototipo verificado",
+        "resultado": "Proyecto didáctico y de referencia basado en el prototipo verificado",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 15,
+        "titulo": "Arquitectura de un plugin profesional",
+        "proposito": "Aprender haciendo: arquitectura de un plugin profesional.",
+        "contenidos": [
+          "Separación Core / AutoCAD UI",
+          "Servicios, commands y ViewModels",
+          "Estado, configuración y estructura mantenible",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Refactor hacia arquitectura profesional",
+        "resultado": "Refactor hacia arquitectura profesional",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 16,
+        "titulo": "Distribución",
+        "proposito": "Aprender haciendo: distribución.",
+        "contenidos": [
+          "Release x64, ApplicationPlugins y .bundle",
+          "PackageContents.xml, autoload, rutas y compatibilidad",
+          "CODE → BUILD → CLOSE AUTOCAD → INSTALL → START AUTOCAD → AUTOLOAD",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Bundle instalable",
+        "resultado": "Bundle instalable",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 17,
+        "titulo": "Instalador Windows",
+        "proposito": "Aprender haciendo: instalador windows.",
+        "contenidos": [
+          "Empaquetado, instalación y desinstalación",
+          "Actualización con Inno Setup o herramienta vigente",
+          "Assets, iconos y versionado",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Setup.exe funcional",
+        "resultado": "Setup.exe funcional",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
+      },
+      {
+        "modulo": 18,
+        "titulo": "Licenciamiento y comercialización",
+        "proposito": "Aprender haciendo: licenciamiento y comercialización.",
+        "contenidos": [
+          "Machine ID, licencia y activación",
+          "Trial, firma y validación conceptuales",
+          "Protección razonable, distribución y mantenimiento",
+          "Ejemplo original: código, compilación, carga, ejecución, resultado visible y reto de modificación."
+        ],
+        "practica": "Flujo de activación de referencia",
+        "resultado": "Flujo de activación de referencia",
+        "tarea": "Modificar el ejemplo y documentar el resultado visible."
       }
     ],
     "temario_base": [
