@@ -12,7 +12,12 @@
       "Documentacion cientifica",
       "Proyectos de innovacion"
     ],
-    "categorias": ["Investigacion", "I+D", "Prototipos", "Transferencia tecnologica"],
+    "categorias": [
+      "Investigacion",
+      "I+D",
+      "Prototipos",
+      "Transferencia tecnologica"
+    ],
     "pagina": "lineas/tw-investiga.html",
     "facebook": "https://www.facebook.com/tecprogworld",
     "imagen": "assets/img/banners/hero-tech.svg",
@@ -32,7 +37,13 @@
       "Dashboards e integracion tecnologica",
       "Hardware aplicado y automatizacion"
     ],
-    "categorias": ["Software", "Hardware", "Automatizacion", "Dashboards", "Open-source"],
+    "categorias": [
+      "Software",
+      "Hardware",
+      "Automatizacion",
+      "Dashboards",
+      "Open-source"
+    ],
     "pagina": "lineas/tw-innova.html",
     "facebook": "https://www.facebook.com/tecprogworld.innova",
     "imagen": "assets/img/software/software-comercial-dashboard.svg",
@@ -52,7 +63,13 @@
       "Talleres de programacion e ingenieria",
       "Rutas de aprendizaje aplicadas"
     ],
-    "categorias": ["Cursos", "Ingenieria", "Ciencia", "Programacion", "Compendios"],
+    "categorias": [
+      "Cursos",
+      "Ingenieria",
+      "Ciencia",
+      "Programacion",
+      "Compendios"
+    ],
     "pagina": "lineas/tw-educa.html",
     "facebook": "https://www.facebook.com/tecprogworld.educa",
     "imagen": "assets/img/cursos/capacitacion-empresarial.svg",
@@ -63,18 +80,26 @@
     "id": "tw-interactive",
     "nombre": "TW Interactive - Ingenieros Consultores",
     "nombre_corto": "TW Interactive",
-    "descripcion_corta": "Servicios de ingenieria mecanica de fluidos, hidrologia, hidraulica, CFD, termofluidos, energia y documentacion tecnica.",
-    "descripcion_larga": "Unidad de servicios tecnicos de ingenieria mecanica de fluidos, consultoria, simulacion, modelamiento, automatizacion de calculos y documentacion tecnica para aplicaciones en Peru.",
+    "descripcion_corta": "Servicios de hidrología, hidrometría, geomática, oceanografía, modelación, ingeniería portuaria, gestión ambiental y soluciones digitales.",
+    "descripcion_larga": "Unidad de consultoría y servicios técnicos para recursos hídricos, levantamientos geoespaciales e hidrográficos, medio marino, infraestructura portuaria, gestión ambiental, riesgos, evaluación de proyectos y transformación digital en el Perú.",
     "servicios_principales": [
-      "Hidraulica e hidrologia",
-      "Hidraulica fluvial",
-      "CFD y simulacion",
-      "Termofluidos",
-      "Turbomaquinas y energia",
-      "Aerodinamica",
-      "Documentacion tecnica y Python"
+      "Hidrología e hidrometría",
+      "Geodesia, topografía y batimetría",
+      "Oceanografía e ingeniería portuaria",
+      "Modelación hidráulica, hidrológica y CFD",
+      "Gestión ambiental, permisos y riesgos",
+      "Factibilidad y evaluación técnico-económica",
+      "Digitalización y operaciones logísticas"
     ],
-    "categorias": ["Hidrologia", "Hidraulica", "CFD", "Termofluidos", "Energia", "Aerodinamica", "Python"],
+    "categorias": [
+      "Recursos hídricos",
+      "Hidrometría",
+      "Geomática",
+      "Oceanografía",
+      "Modelación",
+      "Ingeniería portuaria",
+      "Gestión ambiental"
+    ],
     "pagina": "lineas/tw-interactive.html",
     "facebook": "https://www.facebook.com/tecprogworld",
     "imagen": "assets/img/banners/card-pattern.svg",
@@ -94,7 +119,12 @@
       "Expedientes y documentacion",
       "Proyectos de arquitectura e ingenieria"
     ],
-    "categorias": ["Construccion", "Ingenieria civil", "Presupuestos", "Planos"],
+    "categorias": [
+      "Construccion",
+      "Ingenieria civil",
+      "Presupuestos",
+      "Planos"
+    ],
     "pagina": "lineas/tw-construye.html",
     "facebook": "https://www.facebook.com/tecprogworld.construye",
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
@@ -114,7 +144,12 @@
       "Automatizacion de procesos",
       "Prototipado metalmecanico"
     ],
-    "categorias": ["Metalmecanica", "Fabricacion", "Estructuras", "Prototipado"],
+    "categorias": [
+      "Metalmecanica",
+      "Fabricacion",
+      "Estructuras",
+      "Prototipado"
+    ],
     "pagina": "lineas/tw-inox.html",
     "facebook": "https://www.facebook.com/tecprogworld",
     "imagen": "assets/img/banners/card-pattern.svg",

@@ -56,7 +56,7 @@ async function renderOfferDetail() {
           </div>
         </div>
         <figure class="detail-media">
-          <img src="${detailOfferAsset(item.imagen)}" alt="${detailOfferEscape(item.oferta)}">
+          <img src="${detailOfferAsset(item.imagen)}" alt="${detailOfferEscape(item.imagen_alt || item.oferta)}">
           <figcaption>${detailOfferEscape(item.tipo)}</figcaption>
         </figure>
       </div>
@@ -64,8 +64,9 @@ async function renderOfferDetail() {
     <section class="section">
       <div class="section-shell detail-layout">
         <div class="detail-content">
-          <article class="detail-block"><h2>Descripcion</h2><p>${detailOfferEscape(item.descripcion_larga)}</p></article>
-          <article class="detail-block"><h2>Publico objetivo</h2>${detailOfferList(item.publico_objetivo)}</article>
+          <article class="detail-block"><h2>Descripción</h2><p>${detailOfferEscape(item.descripcion_larga)}</p>${item.nota_tecnica ? `<p class="microcopy">${detailOfferEscape(item.nota_tecnica)}</p>` : ""}</article>
+          ${(item.capacidades || []).length ? `<article class="detail-block"><h2>Capacidades principales</h2>${detailOfferList(item.capacidades)}</article>` : ""}
+          <article class="detail-block"><h2>Público objetivo</h2>${detailOfferList(item.publico_objetivo)}</article>
           <article class="detail-block"><h2>Entregables</h2>${detailOfferList(item.entregables)}</article>
           <article class="detail-block"><h2>Incluye</h2>${detailOfferList(item.incluye)}</article>
           <article class="detail-block"><h2>Condiciones</h2>${detailOfferList(item.condiciones)}</article>

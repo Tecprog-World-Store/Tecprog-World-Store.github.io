@@ -13,9 +13,12 @@ const LINE_CATALOGS = {
   },
   "tw-interactive": {
     data: "../data/catalogo-tw-interactive.json",
-    title: "Catalogo TW Interactive",
-    subtitle: "Servicios de ingenieria mecanica de fluidos, hidrologia, hidraulica, CFD, termofluidos, energia, aerodinamica, automatizacion de calculos y documentacion tecnica.",
-    legal: "Servicio tecnico de ingenieria y consultoria. Los resultados son referenciales segun datos disponibles, alcance contratado, supuestos de calculo, normativa aplicable y revision profesional competente cuando corresponda.",
+    title: "Catálogo TW Interactive",
+    catalogLabel: "Servicios",
+    catalogTitle: "Servicios disponibles",
+    catalogNoun: "servicios",
+    subtitle: "Catorce servicios de ingeniería para recursos hídricos, territorio, medio marino, puertos, ambiente, riesgos, evaluación de proyectos y transformación digital.",
+    legal: "Servicios sujetos a alcance, información disponible, normativa aplicable y participación de profesionales o aliados habilitados cuando corresponda. No se garantiza la aprobación de autoridades.",
   },
   "tw-inox": {
     data: "../data/catalogo-tw-inox.json",
@@ -126,11 +129,14 @@ async function renderLineCatalog() {
   const slug = root.dataset.lineCatalog;
   const config = LINE_CATALOGS[slug];
   const items = await loadLineCatalog(slug);
+  const catalogLabel = config.catalogLabel || "Ofertas";
+  const catalogTitle = config.catalogTitle || "Ofertas disponibles";
+  const catalogNoun = config.catalogNoun || "ofertas";
   document.title = `${config.title} | Tecprog World E.I.R.L.`;
   root.innerHTML = `
     <nav class=\"local-nav\" data-local-nav aria-label="Navegacion ${offerEscape(config.title)}">
       <a href="#presentacion">Presentacion</a>
-      <a href="#catalogo">Ofertas</a>
+      <a href="#catalogo">${offerEscape(catalogLabel)}</a>
       <a href="#condiciones">Condiciones</a>
     </nav>
     <section id="presentacion" class="subpage-hero section-anchor">
@@ -147,8 +153,8 @@ async function renderLineCatalog() {
     <section id="catalogo" class="section section-anchor">
       <div class="section-shell">
         <div class="section-heading">
-          <p class="eyebrow">${items.length} ofertas</p>
-          <h2>Ofertas disponibles</h2>
+          <p class="eyebrow">${items.length} ${offerEscape(catalogNoun)}</p>
+          <h2>${offerEscape(catalogTitle)}</h2>
           <p>Precios referenciales desde, sujetos a alcance, disponibilidad, ubicacion, modalidad y validacion tecnica.</p>
         </div>
         <div class="filter-panel" data-line-offer-filters>

@@ -39,9 +39,9 @@ const businessLines = [
     name: "TW Interactive",
     icon: "assets/icons/innovation.svg",
     image: "assets/img/store/carruseles/tw-interactive-01.webp",
-    description: "Ingeniería mecánica de fluidos, hidrología, hidráulica, CFD, termofluidos, energía, aerodinámica y documentación técnica.",
+    description: "Ingeniería para recursos hídricos, geomática, medio marino, puertos, ambiente, riesgos, evaluación de proyectos y transformación digital.",
     url: "lineas/tw-interactive.html",
-    chips: ["Hidráulica", "CFD", "Python"]
+    chips: ["Agua", "Puertos", "Ingeniería digital"]
   },
   {
     id: "tw-construye",

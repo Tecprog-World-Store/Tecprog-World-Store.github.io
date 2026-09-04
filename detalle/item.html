@@ -184,6 +184,9 @@
           const banner = asset(item.banner) || FALLBACK_BANNER;
           const dollars = typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
           const tags = (item.tags || []).map((tag) => `<span class="commerce-badge">${escapeHtml(tag)}</span>`).join("");
+          const capabilities = (item.capacidades || []).length
+            ? `<section class="detail-block"><h3>Capacidades principales</h3><ul class="check-list">${item.capacidades.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul></section>`
+            : "";
 
           document.title = `${item.nombre} | ${line} | Tecprog World`;
           document.querySelector("[data-item-title]").textContent = item.nombre;
@@ -204,13 +207,15 @@
           document.querySelector("[data-item-detail]").innerHTML = `
             <article class="item-detail-card">
               <div class="item-detail-media">
-                <img src="${image}" alt="${escapeHtml(item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${DEFAULT_IMAGE}';">
+                <img src="${image}" alt="${escapeHtml(item.imagen_alt || item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${DEFAULT_IMAGE}';">
               </div>
               <div class="item-detail-content">
                 <p class="commerce-kicker">${escapeHtml(line)} · ${escapeHtml(item.categoria)} · ${escapeHtml(readable(item.tipo_item))}</p>
                 <h2>${escapeHtml(item.nombre)}</h2>
                 <p>${escapeHtml(item.descripcion_corta || "")}</p>
                 <p>${escapeHtml(item.descripcion_larga || "")}</p>
+                ${capabilities}
+                ${item.nota_tecnica ? `<p class="commerce-notice">${escapeHtml(item.nota_tecnica)}</p>` : ""}
                 <div class="commerce-price item-detail-price">
                   <strong>${escapeHtml(money(item.precio_soles, "PEN"))}</strong>
                   ${dollars}
