@@ -28,52 +28,29 @@
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span></span><span></span><span></span><span class="sr-only">Abrir menu</span></button>
       <nav id="site-nav" class="site-nav" data-nav></nav>
     </header>
-    <main class="central-page">
-      <nav class="local-nav" data-local-nav aria-label="Indice de pagos en Peru">
-        <a href="#presentacion">Pagos en Peru</a>
-        <a href="#qr">QR Yape</a>
-        <a href="#medios">Medios nacionales</a>
-        <a href="#comprobantes">Comprobantes</a>
-      </nav>
-      <section id="presentacion" class="subpage-hero section-anchor">
-        <div class="section-shell">
-          <p class="eyebrow">Pagos nacionales</p>
-          <h1>Pagos en Peru</h1>
-          <p>Medios de pago nacionales para cursos, servicios, productos, materiales y proyectos.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="https://wa.me/51952354282?text=Hola%2C%20deseo%20confirmar%20un%20pago%20nacional%20a%20Tecprog%20World%20E.I.R.L." target="_blank" rel="noopener noreferrer">Confirmar pago por WhatsApp</a>
-          </div>
-        </div>
-      </section>
-      <section id="qr" class="section section-anchor">
-        <div class="section-shell split-info">
-          <article class="detail-block">
-            <h2>Pago nacional por QR</h2>
-            <p>Use el QR visible para pagos nacionales por Yape previa confirmacion de disponibilidad, concepto y monto.</p>
-            <p class="notice">Los precios publicados en soles incluyen IGV cuando corresponda. Confirmar disponibilidad del medio de pago antes de realizar la operacion.</p>
-          </article>
-          <aside class="payment-box">
-            <div class="payment-qr-card">
-              <div class="payment-qr-frame"><img class="payment-qr-image" src="../assets/img/qr/QR_Yape.png" alt="QR Yape Tecprog World" width="360" height="360"></div>
-              <p class="payment-qr-label">Pago nacional por QR</p>
-            </div>
-          </aside>
-        </div>
-      </section>
-      <section id="medios" class="section section-alt section-anchor">
-        <div class="section-shell process-grid">
-          <article><strong>Yape / QR</strong><h3>Pago rapido</h3><p>Disponible previa confirmacion del concepto y monto.</p></article>
-          <article><strong>Transferencia</strong><h3>Coordinacion previa</h3><p>Se coordina por WhatsApp o correo antes de realizar la operacion.</p></article>
-          <article><strong>Proyectos</strong><h3>Pagos parciales</h3><p>Aplicable para desarrollo de software, consultoria, prototipado y proyectos por alcance.</p></article>
-          <article><strong>Hitos</strong><h3>Inicio, avance y entrega</h3><p>Para proyectos grandes se puede acordar pago por hitos y soporte.</p></article>
-        </div>
-      </section>
-      <section id="comprobantes" class="section section-anchor">
-        <div class="section-shell detail-block">
-          <h2>Comprobantes</h2>
-          <p>Tecprog World E.I.R.L. puede emitir comprobantes electronicos segun la naturaleza de la operacion y los datos proporcionados por el cliente.</p>
-        </div>
-      </section>
+    <main class="central-page payments-page">
+      <section id="presentacion" class="subpage-hero section-anchor"><div class="section-shell">
+        <h1>Pagos en Perú</h1><p>Medios de pago para productos, cursos, servicios y proyectos.</p>
+      </div></section>
+      <section id="medios" class="section section-anchor"><div class="section-shell payment-method-grid">
+        <article id="qr" class="detail-block section-anchor">
+          <h2>Yape</h2><p>Pago mediante Yape. Confirma el concepto y el monto de tu pedido antes de pagar.</p>
+          <div class="payment-qr-frame"><img class="payment-qr-image" src="../assets/img/qr/QR_Yape.png" alt="QR Yape Tecprog World" width="360" height="360"></div>
+          <a class="btn btn-primary" href="https://wa.me/51952354282?text=Hola%2C%20deseo%20confirmar%20el%20concepto%20y%20monto%20de%20mi%20pago%20por%20Yape.">Confirmar pago</a>
+        </article>
+        <article class="detail-block">
+          <h2>Transferencia BCP en soles</h2><p>Realiza tu transferencia con los siguientes datos:</p>
+          <dl class="bank-details"><dt>Número de cuenta</dt><dd>19105494299095</dd><dt>CCI</dt><dd>00219110549429909559</dd></dl>
+          <p>Confirma el concepto y monto antes de transferir. Envía tu constancia para verificar el pago y coordinar la atención de tu pedido.</p>
+          <p>Los precios publicados en soles incluyen IGV cuando corresponda.</p>
+          <a class="btn btn-primary" href="https://wa.me/51952354282?text=Hola%2C%20deseo%20confirmar%20mi%20transferencia%20BCP.">Confirmar transferencia</a>
+          <h3>Pagos por hitos</h3><p>Para proyectos se pueden acordar pagos de inicio, avance y entrega según el alcance contratado.</p>
+        </article>
+      </div></section>
+      <section class="section section-alt"><div class="section-shell payment-method-grid">
+        <article id="comprobantes" class="detail-block section-anchor"><h2>Comprobantes</h2><p>Tecprog World E.I.R.L. emite el comprobante electrónico correspondiente de acuerdo con la naturaleza de la operación y los datos proporcionados.</p></article>
+        <article class="detail-block"><h2>Envíos a nivel nacional</h2><p>La entrega física de productos se realiza mediante Shalom según destino, dimensiones, peso, cobertura y condiciones aplicables.</p><a class="btn btn-secondary" href="https://shalom.com.pe/">Consultar envío</a></article>
+      </div></section>
     </main>
     <script src="../assets/js/navigation.js?v=20260902-01"></script>
 

@@ -225,8 +225,8 @@ function renderStandardTopNav() {
     nav.id ||= "site-nav";
     nav.setAttribute("data-nav", "");
     nav.innerHTML = `
-      <a href="${twPath("index.html")}#inicio">Inicio</a>
-      <a href="${twPath("store/index.html")}">TW Store</a>
+      <a href="${twPath("index.html")}#inicio">TW Store</a>
+      <a href="${twPath("store/index.html")}">Catálogo</a>
       <a href="${twPath("disfruta/index.html")}">TW Disfruta</a>
       <a href="${twPath("educa/index.html")}">TW Educa</a>
       <a href="${twPath("innova/index.html")}">TW Innova</a>

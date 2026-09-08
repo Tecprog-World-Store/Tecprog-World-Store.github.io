@@ -110,14 +110,14 @@
         }
 
         function money(value, currency = "PEN") {
-          if (typeof value !== "number") return "Cotizar";
+          if (typeof value !== "number") return "Precio a consultar";
           const prefix = currency === "USD" ? "US$" : "S/";
           return `${prefix} ${value.toLocaleString("es-PE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
         }
 
         function whatsappHref(item) {
-          const message = item.whatsapp_mensaje || `Hola Tecprog World, deseo cotizar: ${item.nombre}.`;
-          return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+          const message = item.whatsapp_mensaje || `Hola Tecprog World, deseo consultar: ${item.nombre}.`;
+          return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message.replace(/cotizar/gi, "consultar"))}`;
         }
 
         function setMeta(selector, attr, value) {
@@ -221,7 +221,7 @@
                   ${dollars}
                 </div>
                 <dl class="item-detail-meta">
-                  <div><dt>Estado</dt><dd>${escapeHtml(readable(item.estado || "cotizar"))}</dd></div>
+                  <div><dt>Estado</dt><dd>${escapeHtml(readable(item.estado || "Por confirmar").replace(/cotizar/gi, "Por confirmar"))}</dd></div>
                   <div><dt>Categoría</dt><dd>${escapeHtml(item.categoria || "Catálogo")}</dd></div>
                   <div><dt>Tipo</dt><dd>${escapeHtml(readable(item.tipo_item || "item"))}</dd></div>
                   ${item.fecha_actualizacion ? `<div><dt>Actualizado</dt><dd>${escapeHtml(item.fecha_actualizacion)}</dd></div>` : ""}
@@ -229,7 +229,7 @@
                 <div class="commerce-badge-row item-detail-tags">${tags}</div>
                 <p class="commerce-notice">Precios, disponibilidad, garantía, alcance y envío sujetos a confirmación.</p>
                 <div class="catalog-actions">
-                  <a class="btn btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">Solicitar cotizacion</a>
+                  <a class="btn btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">Consultar disponibilidad</a>
                   <a class="btn btn-primary" href="../store/index.html">Volver a TW Store</a>
                   <a class="btn btn-secondary" href="${lineUrl}">Volver a ${escapeHtml(line)}</a>
                 </div>

@@ -104,7 +104,7 @@
         <p>${escapeHtml(video.subtitulo)}</p>
         <div class="video-card__actions">
           <button class="btn btn-small btn-primary" type="button">${escapeHtml(video.cta)}</button>
-          ${video.secondaryUrl ? `<a class="btn btn-small" href="${escapeHtml(video.secondaryUrl)}">${escapeHtml(video.secondaryCta || "Consultar")}</a>` : ""}
+          ${video.secondaryUrl ? `<a class="btn btn-small" href="${escapeHtml(video.secondaryUrl)}">${escapeHtml(/cotizar/i.test(video.secondaryCta || "") ? "Solicitar" : (video.secondaryCta || "Consultar"))}</a>` : ""}
         </div>
       </div>`;
     article.querySelectorAll("button").forEach((button) => {

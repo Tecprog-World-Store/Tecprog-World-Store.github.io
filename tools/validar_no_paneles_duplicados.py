@@ -75,13 +75,17 @@ def main() -> int:
                 errors.append(f"{rel}: CSS duplicado {href} ({count})")
         if LEGACY_RE.search(text):
             errors.append(f"{rel}: referencia de panel lateral obsoleto")
+        if parser.classes["local-nav"] or parser.classes["commerce-local-nav"]:
+            errors.append(f"{rel}: navegacion secundaria eliminada en fase 1")
 
     catalog_js = (root / "assets/js/catalogo-global.js").read_text(encoding="utf-8")
-    for generator in ("function localNavigation", "function relatedResources", "function resultsPanel"):
+    for generator in ("function relatedResources", "function resultsPanel"):
         if catalog_js.count(generator) != 1:
             errors.append(f"assets/js/catalogo-global.js: generador inconsistente {generator}")
     if "<aside" in catalog_js:
         errors.append("assets/js/catalogo-global.js: no debe generar aside comercial")
+    if "localNavigation(" in catalog_js or 'class="commerce-local-nav"' in catalog_js:
+        errors.append("assets/js/catalogo-global.js: no debe generar navegacion secundaria")
 
     if errors:
         print("REGRESIONES DE PANELES:")

@@ -23,7 +23,7 @@
   const LINE_PANEL_COPY = {
     "tw-store": {
       action: "Confirma precio, disponibilidad, garantía y envío antes de cerrar una compra.",
-      whatsapp: "Hola Tecprog World, deseo cotizar desde TW Store.",
+      whatsapp: "Hola Tecprog World, deseo consultar desde TW Store.",
       quickTitle: "Productos",
       resources: [["Pagos Perú", "pagos/peru.html"], ["Pagos Internacionales", "pagos/internacionales.html"], ["Catálogo global", "store/index.html"]]
     },
@@ -31,49 +31,49 @@
       action: "Consulta cursos, cronograma, modalidad e inversión antes de inscribirte.",
       whatsapp: "Hola Tecprog World, deseo información sobre cursos de TW Educa.",
       quickTitle: "Cursos y recursos",
-      resources: [["Cronograma público", "docs/operacion/cursos_tw_educa_cronograma_publico.md"], ["Guías", "catalogo/guias.html"], ["Cursos", "catalogo/cursos.html"]]
+      resources: [["Fechas de cursos", "catalogo/cronograma-anual-tw-educa.html"], ["Guías", "catalogo/guias.html"], ["Cursos", "catalogo/cursos.html"]]
     },
     "tw-innova": {
       action: "Cuéntanos el alcance de software, hardware o automatización que necesitas.",
-      whatsapp: "Hola Tecprog World, deseo cotizar una solución de TW Innova.",
+      whatsapp: "Hola Tecprog World, deseo consultar una solución de TW Innova.",
       quickTitle: "Soluciones digitales",
-      resources: [["Software", "catalogo/tw-innova.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+      resources: [["Software", "catalogo/tw-innova.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "empresa/contacto.html"]]
     },
     "tw-salud": {
-      action: "Solicita evaluación técnica sin prometer resultados clínicos.",
+      action: "Solicita una evaluación técnica de tu proyecto biomédico.",
       whatsapp: "Hola Tecprog World, deseo consultar una solución técnica de TW Salud.",
       quickTitle: "Consulta técnica",
-      resources: [["TW Salud", "salud/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+      resources: [["TW Salud", "salud/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "empresa/contacto.html"]]
     },
     "tw-interactive": {
-      action: "Cotiza consultoría, simulación o análisis técnico según datos y alcance.",
-      whatsapp: "Hola Tecprog World, deseo cotizar consultoría de ingeniería con TW Interactive.",
+      action: "Consulta consultoría, simulación o análisis técnico según datos y alcance.",
+      whatsapp: "Hola Tecprog World, deseo consultar consultoría de ingeniería con TW Interactive.",
       quickTitle: "Ingeniería",
-      resources: [["Servicios", "catalogo/tw-interactive.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+      resources: [["Servicios", "catalogo/tw-interactive.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "empresa/contacto.html"]]
     },
     "tw-construye": {
       action: "Solicita una cotización de obra, remodelación o asistencia técnica por alcance.",
-      whatsapp: "Hola Tecprog World, deseo cotizar un servicio de TW Construye.",
+      whatsapp: "Hola Tecprog World, deseo consultar un servicio de TW Construye.",
       quickTitle: "Obra y remodelación",
-      resources: [["Servicios", "catalogo/tw-construye.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+      resources: [["Servicios", "catalogo/tw-construye.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "empresa/contacto.html"]]
     },
     "tw-inox": {
-      action: "Cotiza fabricación, soldadura o proyecto metalmecánico según medidas y material.",
-      whatsapp: "Hola Tecprog World, deseo cotizar un proyecto de TW Inox.",
+      action: "Consulta fabricación, soldadura o proyecto metalmecánico según medidas y material.",
+      whatsapp: "Hola Tecprog World, deseo consultar un proyecto de TW Inox.",
       quickTitle: "Metalmecánica",
-      resources: [["Servicios", "catalogo/tw-inox.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+      resources: [["Servicios", "catalogo/tw-inox.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "empresa/contacto.html"]]
     },
     "tw-investiga": {
       action: "Consulta asesoría científica, datos, metodología o software por alcance.",
-      whatsapp: "Hola Tecprog World, deseo cotizar un servicio de TW Investiga.",
+      whatsapp: "Hola Tecprog World, deseo consultar un servicio de TW Investiga.",
       quickTitle: "Investigación",
-      resources: [["Servicios", "investiga/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+      resources: [["Servicios", "investiga/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "empresa/contacto.html"]]
     },
     "tw-disfruta": {
-      action: "Cotiza videojuegos, demos, assets digitales o merchandising según alcance.",
-      whatsapp: "Hola Tecprog World, deseo cotizar una experiencia de TW Disfruta.",
+      action: "Consulta videojuegos, demos, assets digitales o merchandising según alcance.",
+      whatsapp: "Hola Tecprog World, deseo consultar una experiencia de TW Disfruta.",
       quickTitle: "Entretenimiento",
-      resources: [["Videojuegos", "disfruta/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "index.html#contacto"]]
+      resources: [["Videojuegos", "disfruta/index.html"], ["Pagos Perú", "pagos/peru.html"], ["Contacto", "empresa/contacto.html"]]
     }
   };
 
@@ -117,8 +117,12 @@
       .replace(/\b\p{L}/gu, (letter) => letter.toUpperCase());
   }
 
+  function commercialText(value) {
+    return String(value ?? "").replace(/cotizar/gi, "Precio a consultar");
+  }
+
   function money(value, currency = "PEN") {
-    if (typeof value !== "number") return "Cotizar";
+    if (typeof value !== "number") return "Precio a consultar";
     const prefix = currency === "USD" ? "US$" : "S/";
     return `${prefix} ${value.toLocaleString("es-PE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   }
@@ -143,8 +147,8 @@
     const isCourse = item.linea_negocio === "tw-educa" || item.linea === "tw-educa" || item.tipo_item === "curso";
     const message = item.whatsapp_mensaje || (isCourse
       ? `Hola, deseo información para inscribirme en el curso "${item.nombre}". Deseo conocer disponibilidad, próxima fecha de inicio, modalidad, horario y forma de pago.`
-      : `Hola Tecprog World, deseo cotizar: ${item.nombre}.`);
-    return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+      : `Hola Tecprog World, deseo consultar: ${item.nombre}.`);
+    return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message.replace(/cotizar/gi, "consultar"))}`;
   }
 
   async function loadItems() {
@@ -198,7 +202,7 @@
 
   function optionList(values, labelAll) {
     return `<option value="">${escapeHtml(labelAll)}</option>${values
-      .map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(LINE_LABELS[value] || value)}</option>`)
+      .map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(commercialText(LINE_LABELS[value] || value))}</option>`)
       .join("")}`;
   }
 
@@ -210,8 +214,8 @@
     const isCourse = item.linea_negocio === "tw-educa" || item.linea === "tw-educa" || item.tipo_item === "curso";
     const priceText = item.precio_texto || (isCourse && item.precio ? item.precio : money(primaryPrice.value, primaryPrice.currency));
     const priceDollars = primaryPrice.currency !== "USD" && typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
-    const publicStatus = item.estado_publico || readable(item.estado || "cotizar");
-    const actionLabel = item.accion_whatsapp || (isCourse ? "Inscribirme por WhatsApp" : "Cotizar por WhatsApp");
+    const publicStatus = commercialText(item.estado_publico || readable(item.estado || "Por confirmar"));
+    const actionLabel = item.tipo_item === "curso" ? "Reservar" : /servicio|proyecto|software/.test(item.tipo_item || "") ? "Solicitar" : "Consultar disponibilidad";
     const courseMeta = item.tipo_item === "curso"
       ? [item.modalidad].filter(Boolean).join(" · ")
       : "";
@@ -233,10 +237,10 @@
           <h3>${escapeHtml(item.nombre)}</h3>
           <p>${escapeHtml(item.descripcion_corta || "")}</p>
           <div class="commerce-price">
-            <strong>${escapeHtml(priceText)}</strong>
+            <strong>${escapeHtml(commercialText(priceText))}</strong>
             ${priceDollars}
           </div>
-          <p class="commerce-status">${escapeHtml(publicStatus)}</p>
+          ${normalizeText(publicStatus) !== normalizeText(commercialText(priceText)) ? `<p class="commerce-status">${escapeHtml(publicStatus)}</p>` : ""}
           ${courseMeta ? `<p class="commerce-status-meta">${escapeHtml(courseMeta)}</p>` : ""}
           ${notice}
           <div class="commerce-card-actions">
@@ -390,27 +394,6 @@
       .join("");
   }
 
-  function localNavigation(fixedLine, mode) {
-    const current = fixedLine || "tw-store";
-    const links = [
-      ["Inicio comercial", "store/index.html"],
-      ["Buscador global", "index.html#buscador-global"],
-      ["Lineas de negocio", "index.html#lineas"],
-      ["Cursos/productos", "catalogo/cursos.html"],
-      ["Software", "innova/index.html"],
-      ["Servicios", "interactive/index.html"],
-      ["Materiales", "catalogo/materiales-educativos.html"],
-      ["Compendios", "catalogo/compendios.html"],
-      ["Contacto", "index.html#contacto"]
-    ];
-    const title = mode === "store" ? "Navegacion" : LINE_LABELS[current] || "Navegacion";
-    return `
-      <nav class="commerce-local-nav" aria-label="Navegacion comercial de la linea">
-        <h2>${escapeHtml(title)}</h2>
-        ${links.map(([label, href]) => `<a href="${localPath(href)}">${escapeHtml(label)}</a>`).join("")}
-      </nav>`;
-  }
-
   function commerceActions() {
     return `
       <button type="button" data-commerce-copy>Copiar enlace</button>
@@ -424,25 +407,22 @@
     return `
       <section class="commerce-related" aria-label="Acciones y recursos relacionados">
         <article>
-          <h2>Acciones comerciales</h2>
+          <h2>Hablemos de tu pedido</h2>
           <p>${escapeHtml(copy.action)}</p>
           <div class="commerce-action-row">
             <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             <a href="mailto:grupotecprog@gmail.com">Enviar correo</a>
             ${commerceActions()}
-            <a href="https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(copy.whatsapp)}" target="_blank" rel="noopener noreferrer">Cotizar</a>
           </div>
         </article>
         <article>
           <h2>${escapeHtml(copy.quickTitle)}</h2>
           <div class="commerce-related-grid">
             ${resourceLinks(resourceSlug)}
-            <a href="${localPath("pagos/peru.html")}">Pagos Peru</a>
-            <a href="${localPath("pagos/internacionales.html")}">Pagos Internacionales</a>
           </div>
         </article>
         <article>
-          <h2>Confianza comercial</h2>
+          <h2>Condiciones de compra</h2>
           <p>Coordinamos alcance, precio, disponibilidad y condiciones antes de cualquier pago.</p>
         </article>
       </section>`;
@@ -481,12 +461,10 @@
         </div>`;
     } else if (mode === "store") {
       root.innerHTML = `
-        ${localNavigation("", mode)}
         ${resultsPanel(root, title, subtitle, fixedLine, items)}
         ${relatedResources("tw-store", mode)}`;
     } else {
       root.innerHTML = `
-        ${localNavigation(fixedLine, mode)}
         ${resultsPanel(root, title, subtitle, fixedLine, visibleItems)}
         ${relatedResources(fixedLine, mode)}`;
     }

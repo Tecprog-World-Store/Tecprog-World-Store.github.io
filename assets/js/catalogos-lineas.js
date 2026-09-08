@@ -134,11 +134,6 @@ async function renderLineCatalog() {
   const catalogNoun = config.catalogNoun || "ofertas";
   document.title = `${config.title} | Tecprog World E.I.R.L.`;
   root.innerHTML = `
-    <nav class=\"local-nav\" data-local-nav aria-label="Navegacion ${offerEscape(config.title)}">
-      <a href="#presentacion">Presentacion</a>
-      <a href="#catalogo">${offerEscape(catalogLabel)}</a>
-      <a href="#condiciones">Condiciones</a>
-    </nav>
     <section id="presentacion" class="subpage-hero section-anchor">
       <div class="section-shell">
         <p class="eyebrow">Tecprog World E.I.R.L.</p>

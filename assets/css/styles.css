@@ -3374,3 +3374,35 @@ select:focus-visible {
     max-width: 96px;
   }
 }
+
+/* Fase 1: cabeceras compactas y pagos, sin navegación secundaria. */
+.home-page,
+.payments-page { padding-top: 81px; }
+.hero-frontis { min-height: 0; padding: 46px 0; }
+.hero-frontis .hero-grid { grid-template-columns: minmax(0, 1fr); }
+.hero-frontis .hero-actions { margin-top: 24px; }
+.home-page > .section { padding-block: 28px; }
+.commerce-hero { min-height: 0; padding: 116px 0 30px; }
+.commerce-hero h1 { font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 12px; }
+.commerce-page .commerce-first-section,
+.store-page .commerce-first-section { padding-top: 28px; }
+.payments-page .subpage-hero { padding: 32px 0; }
+.payments-page .section { padding-block: 28px; }
+.payment-method-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+.payment-method-grid .detail-block { min-width: 0; }
+.payments-page .payment-qr-frame { width: min(100%, 250px); margin: 20px auto; }
+.bank-details { padding: 20px; background: var(--soft); border-radius: var(--radius); }
+.bank-details dt { color: var(--muted); }
+.bank-details dd { margin: 4px 0 18px; font-size: clamp(1rem, 2vw, 1.4rem); font-weight: 750; overflow-wrap: anywhere; user-select: all; }
+.bank-details dd:last-child { margin-bottom: 0; }
+.paypal-logo { display: inline-block; margin-bottom: 16px; }
+.business-lines-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.business-lines-grid h3 { margin-top: 0; }
+.business-lines-grid p { margin-bottom: 0; }
+.business-lines-grid a:hover { border-color: var(--navy-2); }
+@media (max-width: 640px) {
+  .home-page, .payments-page { padding-top: 71px; }
+  .hero-frontis { padding-block: 30px; }
+  .commerce-hero { padding: 108px 0 24px; }
+  .payment-method-grid, .business-lines-grid { grid-template-columns: minmax(0, 1fr); }
+}
