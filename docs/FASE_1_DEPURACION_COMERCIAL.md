@@ -1,6 +1,6 @@
 # Fase 1 de depuración comercial y visual
 
-Fecha: 2026-09-07. Estado: completado localmente. Sin commit ni push.
+Fecha: 2026-09-07. Estado original: completado localmente; posteriormente incorporado en 407b1ba (ver cierre).
 
 ## Cambios
 
@@ -83,3 +83,14 @@ Logo obtenido del [centro oficial de PayPal](https://www.paypal.com/pe/webapps/m
 ## Pendiente para fase 2
 
 Investigación y normalización de precios.
+
+## Cierre de fase 1 — 2026-09-08
+
+- Estado inicial real: 0 archivos pendientes. Los 45 archivos enumerados ya pertenecen al commit 407b1ba; la cifra aproximada de la interfaz no representa el estado Git actual. No se cuentan temporales externos.
+- Diff de aquella fase revisado: catálogos Educa y página legal solo pierden navegación secundaria; detalles, líneas, Inicio y pagos contienen la depuración descrita. Sin modificaciones accidentales identificadas ni rollback.
+- Este cierre modifica 5 archivos: index.html, store/index.html, data/catalogo_global.json, data/cursos_tw_educa.json y este informe. Solo distingue el catálogo global de la portada y elimina la frase prohibida de datos públicos, sin cambiar precios ni estructura.
+- BCP 19105494299095 y CCI 00219110549429909559 comprobados literalmente. QR Yape idéntico al anterior a fase 1. Shalom enlaza a https://shalom.com.pe/. Sin Interbank activo.
+- Pagos internacionales mantiene PayPal, enlace solicitado por WhatsApp, hitos y comprobante separado.
+- PayPal permanece remoto: el centro oficial https://www.paypal.com/pe/webapps/mpp/logo-center ofrece el mismo recurso mediante HTML remoto. Es técnicamente descargable, pero no se confirmó autorización explícita para realojar ese recurso; se conserva según la instrucción del usuario.
+- Búsqueda de textos: coincidencias residuales en identificadores de código, reglas de sustitución y briefs internos no son texto renderizado. Los estados y mensajes cotizar se transforman al mostrarse; los botones de vídeos también.
+- Tres validadores obligatorios y git diff --check correctos. Commit local de cierre; sin push.
