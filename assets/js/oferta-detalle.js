@@ -79,8 +79,8 @@ async function renderOfferDetail() {
               <div><dt>Categoria</dt><dd>${detailOfferEscape(item.categoria)}</dd></div>
               <div><dt>Tipo</dt><dd>${detailOfferEscape(item.tipo)}</dd></div>
               <div><dt>Madurez</dt><dd>${detailOfferEscape(item.madurez)}</dd></div>
-              <div><dt>Peru</dt><dd>${detailOfferEscape(item.precio_soles_texto)} · referencial</dd></div>
-              <div><dt>Internacional</dt><dd>${detailOfferEscape(item.precio_usd_texto)} · referencial</dd></div>
+              <div><dt>Precio</dt><dd>${detailOfferEscape(window.TWPrecio(item))}</dd></div>
+              <div><dt>Alcance inicial</dt><dd>${detailOfferEscape(item.alcance_precio_desde || "Revisa los entregables de esta ficha.")}</dd></div>
             </dl>
             <div class="catalog-actions">
               <a class="btn btn-small btn-primary" href="${detailOfferWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>

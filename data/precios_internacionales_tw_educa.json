@@ -22,7 +22,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         },
         {
           "publico": "Profesional",
@@ -30,7 +36,13 @@
           "lanzamiento_usd": 132,
           "regular_usd": 176,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 103,
+          "preventa_venta_usd": 119,
+          "lanzamiento_base_usd": 132,
+          "lanzamiento_venta_usd": 149,
+          "regular_base_usd": 176,
+          "regular_venta_usd": 189
         }
       ],
       "criterio": "conversion_configurada",
@@ -46,7 +58,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 73,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 73,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -54,7 +72,13 @@
           "lanzamiento_usd": 117,
           "regular_usd": 147,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 88,
+          "preventa_venta_usd": 99,
+          "lanzamiento_base_usd": 117,
+          "lanzamiento_venta_usd": 129,
+          "regular_base_usd": 147,
+          "regular_venta_usd": 159
         }
       ],
       "criterio": "conversion_configurada",
@@ -70,7 +94,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 73,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 73,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -78,7 +108,13 @@
           "lanzamiento_usd": 132,
           "regular_usd": 176,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 103,
+          "preventa_venta_usd": 119,
+          "lanzamiento_base_usd": 132,
+          "lanzamiento_venta_usd": 149,
+          "regular_base_usd": 176,
+          "regular_venta_usd": 189
         }
       ],
       "criterio": "conversion_configurada",
@@ -94,7 +130,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         },
         {
           "publico": "Profesional",
@@ -102,7 +144,13 @@
           "lanzamiento_usd": 147,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 117,
+          "preventa_venta_usd": 129,
+          "lanzamiento_base_usd": 147,
+          "lanzamiento_venta_usd": 159,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         }
       ],
       "criterio": "conversion_configurada",
@@ -118,7 +166,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -126,7 +180,13 @@
           "lanzamiento_usd": 176,
           "regular_usd": 235,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 132,
+          "preventa_venta_usd": 149,
+          "lanzamiento_base_usd": 176,
+          "lanzamiento_venta_usd": 189,
+          "regular_base_usd": 235,
+          "regular_venta_usd": 249
         }
       ],
       "criterio": "conversion_configurada",
@@ -142,7 +202,13 @@
           "lanzamiento_usd": 44,
           "regular_usd": 59,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 30,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 44,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 59,
+          "regular_venta_usd": 69
         },
         {
           "publico": "Profesional / investigador",
@@ -150,7 +216,13 @@
           "lanzamiento_usd": 103,
           "regular_usd": 147,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 73,
+          "preventa_venta_usd": 79,
+          "lanzamiento_base_usd": 103,
+          "lanzamiento_venta_usd": 119,
+          "regular_base_usd": 147,
+          "regular_venta_usd": 159
         },
         {
           "publico": "Premium con asesoría",
@@ -158,7 +230,13 @@
           "lanzamiento_usd": 235,
           "regular_usd": 293,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 176,
+          "preventa_venta_usd": 189,
+          "lanzamiento_base_usd": 235,
+          "lanzamiento_venta_usd": 249,
+          "regular_base_usd": 293,
+          "regular_venta_usd": 319
         }
       ],
       "criterio": "conversion_configurada",
@@ -174,7 +252,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -182,7 +266,13 @@
           "lanzamiento_usd": 161,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 117,
+          "preventa_venta_usd": 129,
+          "lanzamiento_base_usd": 161,
+          "lanzamiento_venta_usd": 179,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         },
         {
           "publico": "Premium con asesoría",
@@ -190,7 +280,13 @@
           "lanzamiento_usd": 293,
           "regular_usd": 381,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 235,
+          "preventa_venta_usd": 249,
+          "lanzamiento_base_usd": 293,
+          "lanzamiento_venta_usd": 319,
+          "regular_base_usd": 381,
+          "regular_venta_usd": 409
         }
       ],
       "criterio": "conversion_configurada",
@@ -206,7 +302,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -214,7 +316,13 @@
           "lanzamiento_usd": 176,
           "regular_usd": 235,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 132,
+          "preventa_venta_usd": 149,
+          "lanzamiento_base_usd": 176,
+          "lanzamiento_venta_usd": 189,
+          "regular_base_usd": 235,
+          "regular_venta_usd": 249
         },
         {
           "publico": "Premium con asesoría",
@@ -222,7 +330,13 @@
           "lanzamiento_usd": 323,
           "regular_usd": 440,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 264,
+          "preventa_venta_usd": 289,
+          "lanzamiento_base_usd": 323,
+          "lanzamiento_venta_usd": 349,
+          "regular_base_usd": 440,
+          "regular_venta_usd": 469
         }
       ],
       "criterio": "conversion_configurada",
@@ -238,7 +352,13 @@
           "lanzamiento_usd": 103,
           "regular_usd": 132,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 73,
+          "preventa_venta_usd": 79,
+          "lanzamiento_base_usd": 103,
+          "lanzamiento_venta_usd": 119,
+          "regular_base_usd": 132,
+          "regular_venta_usd": 149
         },
         {
           "publico": "Profesional",
@@ -246,7 +366,13 @@
           "lanzamiento_usd": 235,
           "regular_usd": 293,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 176,
+          "preventa_venta_usd": 189,
+          "lanzamiento_base_usd": 235,
+          "lanzamiento_venta_usd": 249,
+          "regular_base_usd": 293,
+          "regular_venta_usd": 319
         },
         {
           "publico": "Premium con asesoría",
@@ -254,7 +380,13 @@
           "lanzamiento_usd": 440,
           "regular_usd": 587,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 352,
+          "preventa_venta_usd": 379,
+          "lanzamiento_base_usd": 440,
+          "lanzamiento_venta_usd": 469,
+          "regular_base_usd": 587,
+          "regular_venta_usd": 629
         }
       ],
       "criterio": "conversion_configurada",
@@ -270,7 +402,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -278,7 +416,13 @@
           "lanzamiento_usd": 161,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 117,
+          "preventa_venta_usd": 129,
+          "lanzamiento_base_usd": 161,
+          "lanzamiento_venta_usd": 179,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         },
         {
           "publico": "Premium con asesoría",
@@ -286,7 +430,13 @@
           "lanzamiento_usd": 293,
           "regular_usd": 381,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 235,
+          "preventa_venta_usd": 249,
+          "lanzamiento_base_usd": 293,
+          "lanzamiento_venta_usd": 319,
+          "regular_base_usd": 381,
+          "regular_venta_usd": 409
         }
       ],
       "criterio": "conversion_configurada",
@@ -302,7 +452,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         },
         {
           "publico": "Profesional",
@@ -310,7 +466,13 @@
           "lanzamiento_usd": 147,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 103,
+          "preventa_venta_usd": 119,
+          "lanzamiento_base_usd": 147,
+          "lanzamiento_venta_usd": 159,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         },
         {
           "publico": "Premium con asesoría",
@@ -318,7 +480,13 @@
           "lanzamiento_usd": 293,
           "regular_usd": 381,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 235,
+          "preventa_venta_usd": 249,
+          "lanzamiento_base_usd": 293,
+          "lanzamiento_venta_usd": 319,
+          "regular_base_usd": 381,
+          "regular_venta_usd": 409
         }
       ],
       "criterio": "conversion_configurada",
@@ -334,7 +502,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         },
         {
           "publico": "Profesional",
@@ -342,7 +516,13 @@
           "lanzamiento_usd": 147,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 103,
+          "preventa_venta_usd": 119,
+          "lanzamiento_base_usd": 147,
+          "lanzamiento_venta_usd": 159,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         },
         {
           "publico": "Premium con asesoría",
@@ -350,7 +530,13 @@
           "lanzamiento_usd": 293,
           "regular_usd": 381,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 235,
+          "preventa_venta_usd": 249,
+          "lanzamiento_base_usd": 293,
+          "lanzamiento_venta_usd": 319,
+          "regular_base_usd": 381,
+          "regular_venta_usd": 409
         }
       ],
       "criterio": "conversion_configurada",
@@ -366,7 +552,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -374,7 +566,13 @@
           "lanzamiento_usd": 161,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 117,
+          "preventa_venta_usd": 129,
+          "lanzamiento_base_usd": 161,
+          "lanzamiento_venta_usd": 179,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         },
         {
           "publico": "Premium con asesoría",
@@ -382,7 +580,13 @@
           "lanzamiento_usd": 293,
           "regular_usd": 381,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 235,
+          "preventa_venta_usd": 249,
+          "lanzamiento_base_usd": 293,
+          "lanzamiento_venta_usd": 319,
+          "regular_base_usd": 381,
+          "regular_venta_usd": 409
         }
       ],
       "criterio": "conversion_configurada",
@@ -398,7 +602,13 @@
           "lanzamiento_usd": 88,
           "regular_usd": 117,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 88,
+          "lanzamiento_venta_usd": 99,
+          "regular_base_usd": 117,
+          "regular_venta_usd": 129
         },
         {
           "publico": "Profesional",
@@ -406,7 +616,13 @@
           "lanzamiento_usd": 205,
           "regular_usd": 264,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 147,
+          "preventa_venta_usd": 159,
+          "lanzamiento_base_usd": 205,
+          "lanzamiento_venta_usd": 219,
+          "regular_base_usd": 264,
+          "regular_venta_usd": 289
         },
         {
           "publico": "Premium con asesoría",
@@ -414,7 +630,13 @@
           "lanzamiento_usd": 381,
           "regular_usd": 499,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 293,
+          "preventa_venta_usd": 319,
+          "lanzamiento_base_usd": 381,
+          "lanzamiento_venta_usd": 409,
+          "regular_base_usd": 499,
+          "regular_venta_usd": 529
         }
       ],
       "criterio": "conversion_configurada",
@@ -430,7 +652,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 73,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 73,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -438,7 +666,13 @@
           "lanzamiento_usd": 117,
           "regular_usd": 147,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 88,
+          "preventa_venta_usd": 99,
+          "lanzamiento_base_usd": 117,
+          "lanzamiento_venta_usd": 129,
+          "regular_base_usd": 147,
+          "regular_venta_usd": 159
         }
       ],
       "criterio": "conversion_configurada",
@@ -454,7 +688,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -462,7 +702,13 @@
           "lanzamiento_usd": 161,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 117,
+          "preventa_venta_usd": 129,
+          "lanzamiento_base_usd": 161,
+          "lanzamiento_venta_usd": 179,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         }
       ],
       "criterio": "conversion_configurada",
@@ -478,7 +724,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -486,7 +738,13 @@
           "lanzamiento_usd": 161,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 117,
+          "preventa_venta_usd": 129,
+          "lanzamiento_base_usd": 161,
+          "lanzamiento_venta_usd": 179,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         }
       ],
       "criterio": "conversion_configurada",
@@ -502,7 +760,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         },
         {
           "publico": "Profesional",
@@ -510,7 +774,13 @@
           "lanzamiento_usd": 132,
           "regular_usd": 176,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 103,
+          "preventa_venta_usd": 119,
+          "lanzamiento_base_usd": 132,
+          "lanzamiento_venta_usd": 149,
+          "regular_base_usd": 176,
+          "regular_venta_usd": 189
         }
       ],
       "criterio": "conversion_configurada",
@@ -526,7 +796,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "Profesional",
@@ -534,7 +810,13 @@
           "lanzamiento_usd": 147,
           "regular_usd": 205,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 103,
+          "preventa_venta_usd": 119,
+          "lanzamiento_base_usd": 147,
+          "lanzamiento_venta_usd": 159,
+          "regular_base_usd": 205,
+          "regular_venta_usd": 219
         }
       ],
       "criterio": "conversion_configurada",
@@ -550,7 +832,13 @@
           "lanzamiento_usd": 30,
           "regular_usd": 44,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 24,
+          "preventa_venta_usd": 29,
+          "lanzamiento_base_usd": 30,
+          "lanzamiento_venta_usd": 39,
+          "regular_base_usd": 44,
+          "regular_venta_usd": 49
         },
         {
           "publico": "Profesional",
@@ -558,7 +846,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 73,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 73,
+          "regular_venta_usd": 79
         }
       ],
       "criterio": "conversion_configurada",
@@ -574,7 +868,13 @@
           "lanzamiento_usd": 38,
           "regular_usd": 53,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 30,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 38,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 53,
+          "regular_venta_usd": 59
         },
         {
           "publico": "Profesional",
@@ -582,7 +882,13 @@
           "lanzamiento_usd": 68,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 68,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         }
       ],
       "criterio": "conversion_configurada",
@@ -598,7 +904,13 @@
           "lanzamiento_usd": 44,
           "regular_usd": 59,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 35,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 44,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 59,
+          "regular_venta_usd": 69
         },
         {
           "publico": "Profesional",
@@ -606,7 +918,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         }
       ],
       "criterio": "conversion_configurada",
@@ -622,7 +940,13 @@
           "lanzamiento_usd": 44,
           "regular_usd": 59,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 30,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 44,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 59,
+          "regular_venta_usd": 69
         },
         {
           "publico": "Profesional",
@@ -630,7 +954,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         }
       ],
       "criterio": "conversion_configurada",
@@ -646,7 +976,13 @@
           "lanzamiento_usd": 50,
           "regular_usd": 68,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 35,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 50,
+          "lanzamiento_venta_usd": 59,
+          "regular_base_usd": 68,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -654,7 +990,13 @@
           "lanzamiento_usd": 88,
           "regular_usd": 117,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 65,
+          "preventa_venta_usd": 79,
+          "lanzamiento_base_usd": 88,
+          "lanzamiento_venta_usd": 99,
+          "regular_base_usd": 117,
+          "regular_venta_usd": 129
         }
       ],
       "criterio": "conversion_configurada",
@@ -670,7 +1012,13 @@
           "lanzamiento_usd": 53,
           "regular_usd": 73,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 38,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 53,
+          "lanzamiento_venta_usd": 59,
+          "regular_base_usd": 73,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -678,7 +1026,13 @@
           "lanzamiento_usd": 97,
           "regular_usd": 132,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 73,
+          "preventa_venta_usd": 79,
+          "lanzamiento_base_usd": 97,
+          "lanzamiento_venta_usd": 109,
+          "regular_base_usd": 132,
+          "regular_venta_usd": 149
         }
       ],
       "criterio": "conversion_configurada",
@@ -694,7 +1048,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         },
         {
           "publico": "Profesional",
@@ -702,7 +1062,13 @@
           "lanzamiento_usd": 132,
           "regular_usd": 176,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 103,
+          "preventa_venta_usd": 119,
+          "lanzamiento_base_usd": 132,
+          "lanzamiento_venta_usd": 149,
+          "regular_base_usd": 176,
+          "regular_venta_usd": 189
         }
       ],
       "criterio": "conversion_configurada",
@@ -718,7 +1084,13 @@
           "lanzamiento_usd": 44,
           "regular_usd": 59,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 30,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 44,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 59,
+          "regular_venta_usd": 69
         },
         {
           "publico": "Profesional",
@@ -726,7 +1098,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         }
       ],
       "criterio": "conversion_configurada",
@@ -742,7 +1120,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 73,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 73,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -750,7 +1134,13 @@
           "lanzamiento_usd": 117,
           "regular_usd": 147,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 88,
+          "preventa_venta_usd": 99,
+          "lanzamiento_base_usd": 117,
+          "lanzamiento_venta_usd": 129,
+          "regular_base_usd": 147,
+          "regular_venta_usd": 159
         }
       ],
       "criterio": "conversion_configurada",
@@ -766,7 +1156,13 @@
           "lanzamiento_usd": 44,
           "regular_usd": 59,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 30,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 44,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 59,
+          "regular_venta_usd": 69
         },
         {
           "publico": "Profesional",
@@ -774,7 +1170,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         }
       ],
       "criterio": "conversion_configurada",
@@ -790,7 +1192,13 @@
           "lanzamiento_usd": 50,
           "regular_usd": 68,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 35,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 50,
+          "lanzamiento_venta_usd": 59,
+          "regular_base_usd": 68,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -798,7 +1206,13 @@
           "lanzamiento_usd": 88,
           "regular_usd": 117,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 68,
+          "preventa_venta_usd": 79,
+          "lanzamiento_base_usd": 88,
+          "lanzamiento_venta_usd": 99,
+          "regular_base_usd": 117,
+          "regular_venta_usd": 129
         }
       ],
       "criterio": "conversion_configurada",
@@ -814,7 +1228,13 @@
           "lanzamiento_usd": 59,
           "regular_usd": 73,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 44,
+          "preventa_venta_usd": 49,
+          "lanzamiento_base_usd": 59,
+          "lanzamiento_venta_usd": 69,
+          "regular_base_usd": 73,
+          "regular_venta_usd": 79
         },
         {
           "publico": "Profesional",
@@ -822,7 +1242,13 @@
           "lanzamiento_usd": 117,
           "regular_usd": 147,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 88,
+          "preventa_venta_usd": 99,
+          "lanzamiento_base_usd": 117,
+          "lanzamiento_venta_usd": 129,
+          "regular_base_usd": 147,
+          "regular_venta_usd": 159
         }
       ],
       "criterio": "conversion_configurada",
@@ -838,7 +1264,13 @@
           "lanzamiento_usd": 44,
           "regular_usd": 59,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 30,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 44,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 59,
+          "regular_venta_usd": 69
         },
         {
           "publico": "Profesional",
@@ -846,7 +1278,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         }
       ],
       "criterio": "conversion_configurada",
@@ -862,7 +1300,13 @@
           "lanzamiento_usd": 27,
           "regular_usd": 38,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 21,
+          "preventa_venta_usd": 29,
+          "lanzamiento_base_usd": 27,
+          "lanzamiento_venta_usd": 29,
+          "regular_base_usd": 38,
+          "regular_venta_usd": 49
         },
         {
           "publico": "General",
@@ -870,7 +1314,13 @@
           "lanzamiento_usd": 44,
           "regular_usd": 59,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 35,
+          "preventa_venta_usd": 39,
+          "lanzamiento_base_usd": 44,
+          "lanzamiento_venta_usd": 49,
+          "regular_base_usd": 59,
+          "regular_venta_usd": 69
         }
       ],
       "criterio": "conversion_configurada",
@@ -886,7 +1336,13 @@
           "lanzamiento_usd": 35,
           "regular_usd": 50,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 27,
+          "preventa_venta_usd": 29,
+          "lanzamiento_base_usd": 35,
+          "lanzamiento_venta_usd": 39,
+          "regular_base_usd": 50,
+          "regular_venta_usd": 59
         },
         {
           "publico": "Profesional",
@@ -894,7 +1350,13 @@
           "lanzamiento_usd": 68,
           "regular_usd": 88,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 50,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 68,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 88,
+          "regular_venta_usd": 99
         }
       ],
       "criterio": "conversion_configurada",
@@ -910,7 +1372,13 @@
           "lanzamiento_usd": 73,
           "regular_usd": 103,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 53,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 73,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 103,
+          "regular_venta_usd": 119
         },
         {
           "publico": "General",
@@ -918,7 +1386,13 @@
           "lanzamiento_usd": 103,
           "regular_usd": 132,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 73,
+          "preventa_venta_usd": 79,
+          "lanzamiento_base_usd": 103,
+          "lanzamiento_venta_usd": 119,
+          "regular_base_usd": 132,
+          "regular_venta_usd": 149
         }
       ],
       "criterio": "conversion_configurada",
@@ -934,7 +1408,13 @@
           "lanzamiento_usd": 82,
           "regular_usd": 112,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 59,
+          "preventa_venta_usd": 69,
+          "lanzamiento_base_usd": 82,
+          "lanzamiento_venta_usd": 89,
+          "regular_base_usd": 112,
+          "regular_venta_usd": 119
         },
         {
           "publico": "General",
@@ -942,7 +1422,13 @@
           "lanzamiento_usd": 112,
           "regular_usd": 147,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 82,
+          "preventa_venta_usd": 89,
+          "lanzamiento_base_usd": 112,
+          "lanzamiento_venta_usd": 119,
+          "regular_base_usd": 147,
+          "regular_venta_usd": 159
         }
       ],
       "criterio": "conversion_configurada",
@@ -958,7 +1444,13 @@
           "lanzamiento_usd": 68,
           "regular_usd": 97,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 47,
+          "preventa_venta_usd": 59,
+          "lanzamiento_base_usd": 68,
+          "lanzamiento_venta_usd": 79,
+          "regular_base_usd": 97,
+          "regular_venta_usd": 109
         },
         {
           "publico": "General",
@@ -966,7 +1458,13 @@
           "lanzamiento_usd": 97,
           "regular_usd": 126,
           "criterio": "conversion_configurada",
-          "fecha_referencia": "2026-07-24"
+          "fecha_referencia": "2026-07-24",
+          "preventa_base_usd": 68,
+          "preventa_venta_usd": 79,
+          "lanzamiento_base_usd": 97,
+          "lanzamiento_venta_usd": 109,
+          "regular_base_usd": 126,
+          "regular_venta_usd": 139
         }
       ],
       "criterio": "conversion_configurada",

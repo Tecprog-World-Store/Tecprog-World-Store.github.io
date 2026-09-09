@@ -36,7 +36,7 @@ function renderCompendioCard(item) {
         <p>${twEscape(item.descripcion)}</p>
         <div class="catalog-meta">
           <span>${twEscape(item.paginas_estimadas)} páginas · ${twEscape(item.version)}</span>
-          <strong>${twEscape(item.precio_material_soles)}</strong>
+          <strong>${twEscape(window.TWPrecio(item))}</strong>
         </div>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="../detalle/compendio.html?id=${encodeURIComponent(item.id)}">Ver más</a>
@@ -132,7 +132,7 @@ async function renderCompendioDetail() {
               <div><dt>Páginas</dt><dd>${twEscape(item.paginas_estimadas)}</dd></div>
               <div><dt>Version</dt><dd>${twEscape(item.version)}</dd></div>
               <div><dt>Fecha</dt><dd>${twEscape(item.fecha_publicacion)}</dd></div>
-              <div><dt>Material</dt><dd>${item.incluido_en_curso ? "Incluido en el curso según promoción o alcance" : twEscape(item.precio_material_soles)}</dd></div>
+              <div><dt>Material</dt><dd>${item.incluido_en_curso ? "Incluido en el curso según promoción o alcance" : twEscape(window.TWPrecio(item))}</dd></div>
             </dl>
             <div class="catalog-actions">
               <a class="btn btn-small btn-primary" href="../catalogo/compendios.html">Volver al catálogo</a>

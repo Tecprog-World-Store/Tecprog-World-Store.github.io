@@ -118,24 +118,17 @@
   }
 
   function commercialText(value) {
-    return String(value ?? "").replace(/cotizar/gi, "Precio a consultar");
+    return String(value ?? "").replace(/cotizar/gi, "Bajo pedido").replace(/proxima convocatoria/gi, "Matrícula abierta");
   }
 
-  function money(value, currency = "PEN") {
-    if (typeof value !== "number") return "Precio a consultar";
-    const prefix = currency === "USD" ? "US$" : "S/";
-    return `${prefix} ${value.toLocaleString("es-PE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+  function money(value) {
+    return value === 0 ? "Gratis" : `USD ${value}`;
   }
 
-  function itemCurrency(item) {
-    return item.moneda_principal || item.moneda || DEFAULT_CURRENCY;
-  }
+  function itemCurrency() { return "USD"; }
 
   function itemPrimaryPrice(item) {
-    if (typeof item.precio_soles === "number") return { value: item.precio_soles, currency: item.moneda_principal || "PEN" };
-    if (typeof item.precio_dolares === "number") return { value: item.precio_dolares, currency: "USD" };
-    if (typeof item.precio_publico === "number") return { value: item.precio_publico, currency: itemCurrency(item) };
-    return { value: null, currency: itemCurrency(item) };
+    return { value: item.precio_venta_usd, currency: "USD" };
   }
 
   function itemPriceValue(item) {
@@ -212,16 +205,16 @@
     const fallback = localPath(DEFAULT_IMAGE);
     const primaryPrice = itemPrimaryPrice(item);
     const isCourse = item.linea_negocio === "tw-educa" || item.linea === "tw-educa" || item.tipo_item === "curso";
-    const priceText = item.precio_texto || (isCourse && item.precio ? item.precio : money(primaryPrice.value, primaryPrice.currency));
-    const priceDollars = primaryPrice.currency !== "USD" && typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
-    const publicStatus = commercialText(item.estado_publico || readable(item.estado || "Por confirmar"));
+    const priceText = window.TWPrecio(item);
+    const priceDollars = "";
+    const publicStatus = isCourse ? "Matrícula abierta" : "";
     const courseMeta = item.tipo_item === "curso"
       ? [item.modalidad].filter(Boolean).join(" · ")
       : "";
     const detail = item.url_detalle
       ? `<a class="btn btn-small ${isCourse ? "btn-primary" : "btn-secondary"}" href="${localPath(item.url_detalle)}">Ver más</a>`
       : "";
-    const notice = isCourse ? "" : `<p class="commerce-notice">${escapeHtml(item.aviso_publico || NOTICE)}</p>`;
+    const notice = "";
 
     return `
       <article class="commerce-card${isCourse ? " is-course" : ""}" data-commerce-item="${escapeHtml(item.id)}">
@@ -239,7 +232,7 @@
             <strong>${escapeHtml(commercialText(priceText))}</strong>
             ${priceDollars}
           </div>
-          ${normalizeText(publicStatus) !== normalizeText(commercialText(priceText)) ? `<p class="commerce-status">${escapeHtml(publicStatus)}</p>` : ""}
+          ${publicStatus ? `<p class="commerce-status">${escapeHtml(publicStatus)}</p>` : ""}
           ${courseMeta ? `<p class="commerce-status-meta">${escapeHtml(courseMeta)}</p>` : ""}
           ${notice}
           <div class="commerce-card-actions">
@@ -258,8 +251,8 @@
       if (filters.category && item.categoria !== filters.category) return false;
       if (filters.currency && itemCurrency(item) !== filters.currency) return false;
       if (filters.status && item.estado !== filters.status) return false;
-      if (filters.minPrice && (typeof item.precio_soles !== "number" || item.precio_soles < Number(filters.minPrice))) return false;
-      if (filters.maxPrice && (typeof item.precio_soles !== "number" || item.precio_soles > Number(filters.maxPrice))) return false;
+      if (filters.minPrice && (typeof item.precio_venta_usd !== "number" || item.precio_venta_usd < Number(filters.minPrice))) return false;
+      if (filters.maxPrice && (typeof item.precio_venta_usd !== "number" || item.precio_venta_usd > Number(filters.maxPrice))) return false;
       if (!search) return true;
       const haystack = normalizeText([
         item.nombre,
@@ -351,11 +344,11 @@
           <select data-commerce-status>${optionList(statuses, "Todos")}</select>
         </label>
         <label class="select-filter">
-          <span>Mín. S/</span>
+          <span>Mín. USD</span>
           <input type="number" min="0" step="1" data-commerce-min placeholder="0">
         </label>
         <label class="select-filter">
-          <span>Máx. S/</span>
+          <span>Máx. USD</span>
           <input type="number" min="0" step="1" data-commerce-max placeholder="5000">
         </label>
         <label class="select-filter">

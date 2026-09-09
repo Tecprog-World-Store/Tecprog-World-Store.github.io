@@ -24,7 +24,16 @@
     "destacado": true,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "899.6666666666666666666666667",
+    "precio_base_usd": 899.67,
+    "precio_paypal_calculado_usd": 951.342495,
+    "precio_venta_usd": 959,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 959",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-002",
@@ -50,7 +59,16 @@
     "destacado": true,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "866.3333333333333333333333333",
+    "precio_base_usd": 866.34,
+    "precio_paypal_calculado_usd": 916.109937,
+    "precio_venta_usd": 919,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 919",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-003",
@@ -76,7 +94,16 @@
     "destacado": false,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "176.3333333333333333333333333",
+    "precio_base_usd": 176.34,
+    "precio_paypal_calculado_usd": 186.723045,
+    "precio_venta_usd": 189,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 189",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-004",
@@ -102,7 +129,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "316.3333333333333333333333333",
+    "precio_base_usd": 316.34,
+    "precio_paypal_calculado_usd": 334.714588,
+    "precio_venta_usd": 339,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 339",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-005",
@@ -129,7 +165,16 @@
     "destacado": false,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "66.33333333333333333333333333",
+    "precio_base_usd": 66.34,
+    "precio_paypal_calculado_usd": 70.443975,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 79",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-006",
@@ -155,7 +200,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "199.6666666666666666666666667",
+    "precio_base_usd": 199.67,
+    "precio_paypal_calculado_usd": 211.384779,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 219",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-007",
@@ -181,7 +235,16 @@
     "destacado": false,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "9.967261904761904761904761905",
+    "precio_base_usd": 9.97,
+    "precio_paypal_calculado_usd": 10.856237,
+    "precio_venta_usd": 11,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 11",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-008",
@@ -207,7 +270,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "766.3333333333333333333333333",
+    "precio_base_usd": 766.34,
+    "precio_paypal_calculado_usd": 810.401692,
+    "precio_venta_usd": 819,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 819",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-009",
@@ -233,7 +305,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "1052",
+    "precio_base_usd": 1052.0,
+    "precio_paypal_calculado_usd": 1112.367865,
+    "precio_venta_usd": 1119,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1119",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-010",
@@ -260,7 +341,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "1606.5",
+    "precio_base_usd": 1606.5,
+    "precio_paypal_calculado_usd": 1698.520085,
+    "precio_venta_usd": 1699,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1699",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-011",
@@ -287,7 +377,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "2650.5",
+    "precio_base_usd": 2650.5,
+    "precio_paypal_calculado_usd": 2802.114165,
+    "precio_venta_usd": 2809,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 2809",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-012",
@@ -313,7 +412,16 @@
     "destacado": false,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "161.1666666666666666666666667",
+    "precio_base_usd": 161.17,
+    "precio_paypal_calculado_usd": 170.687104,
+    "precio_venta_usd": 179,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 179",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-013",
@@ -339,13 +447,22 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "153",
+    "precio_base_usd": 153.0,
+    "precio_paypal_calculado_usd": 162.05074,
+    "precio_venta_usd": 169,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 169",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-014",
     "linea_negocio": "tw-store",
     "categoria": "Realidad Virtual",
-    "nombre": "Meta Quest 3",
+    "nombre": "Meta Quest 3 512GB",
     "descripcion_corta": "Visor de realidad mixta para entretenimiento, capacitación y prototipos.",
     "descripcion_larga": "Producto bajo pedido. Precio, disponibilidad, garantia, forma de entrega y condiciones de pago se confirman antes de cerrar la compra.",
     "precio_soles": null,
@@ -365,7 +482,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 1190.18,
+    "precio_paypal_calculado_usd": 1258.435518,
+    "precio_venta_usd": 1259,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1259",
+    "precio_origen": "Krear3D: PEN 3999; contraste Storeplay PEN 2590",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Equipo de 512GB bajo pedido; entrega y garantía se coordinan antes del pago."
   },
   {
     "id": "tw-store-015",
@@ -391,7 +517,16 @@
     "destacado": false,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "26.48809523809523809523809524",
+    "precio_base_usd": 26.49,
+    "precio_paypal_calculado_usd": 28.319239,
+    "precio_venta_usd": 29,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 29",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-disfruta-001",
@@ -418,7 +553,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 200.0,
+    "precio_paypal_calculado_usd": 211.733616,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 219",
+    "precio_origen": "Estimación: 4 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para videojuego original tecprog world: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-disfruta-002",
@@ -445,7 +589,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 200.0,
+    "precio_paypal_calculado_usd": 211.733616,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 219",
+    "precio_origen": "Estimación: 4 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para demo jugable bajo pedido: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-disfruta-003",
@@ -472,7 +625,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Una pieza digital inicial personalizada, con una revisión y entrega del archivo; complejidad básica."
   },
   {
     "id": "tw-disfruta-004",
@@ -499,7 +661,16 @@
     "destacado": false,
     "oferta": true,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 29.77,
+    "precio_paypal_calculado_usd": 31.78647,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Referencia impresión 3D POLYTEC: piezas PEN 10–100+",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Figura pequeña en PLA, un color, desde archivo listo para imprimir; sin modelado ni pintura."
   },
   {
     "id": "tw-disfruta-005",
@@ -525,7 +696,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 32.45,
+    "precio_paypal_calculado_usd": 34.619451,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Referencia Zalo: polo personalizado PEN 89–109",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Un polo con impresión de diseño suministrado; no incluye creación de marca."
   },
   {
     "id": "tw-disfruta-006",
@@ -552,7 +732,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Una pieza digital inicial personalizada, con una revisión y entrega del archivo; complejidad básica."
   },
   {
     "id": "tw-educa-001",
@@ -580,8 +769,16 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Reemplazado por tw-educa-curso-20"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Reemplazado por tw-educa-curso-20",
+    "precio_base_usd": 24.0,
+    "precio_paypal_calculado_usd": 25.687104,
+    "precio_venta_usd": 29,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 29",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-002",
@@ -609,8 +806,16 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Reemplazado por tw-educa-curso-21"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Reemplazado por tw-educa-curso-21",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-003",
@@ -638,8 +843,16 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Reemplazado por tw-educa-curso-22"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Reemplazado por tw-educa-curso-22",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-004",
@@ -667,8 +880,16 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Reemplazado por tw-educa-curso-23"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Reemplazado por tw-educa-curso-23",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-005",
@@ -696,8 +917,16 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Reemplazado por tw-educa-curso-24"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Reemplazado por tw-educa-curso-24",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-006",
@@ -725,8 +954,16 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Reemplazado por tw-educa-curso-29"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Reemplazado por tw-educa-curso-29",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-007",
@@ -754,8 +991,17 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Relacionado con tw-educa-curso-03 y tw-educa-curso-05"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Relacionado con tw-educa-curso-03 y tw-educa-curso-05",
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Paquete formativo inicial: 2 h × USD 50/h; referencia WPE",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Dos horas de tutoría inicial y ejercicio guiado."
   },
   {
     "id": "tw-educa-008",
@@ -783,8 +1029,16 @@
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
     "visible_cliente": false,
-    "estado_publico": "Reemplazado",
-    "nota_legacy": "Relacionado con tw-educa-curso-08, tw-educa-curso-09 y tw-educa-curso-14"
+    "estado_publico": "Matrícula abierta",
+    "nota_legacy": "Relacionado con tw-educa-curso-08, tw-educa-curso-09 y tw-educa-curso-14",
+    "precio_base_usd": 85.0,
+    "precio_paypal_calculado_usd": 90.169134,
+    "precio_venta_usd": 99,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 99",
+    "precio_origen": "Tarifa histórica de formación equivalente: openfoam-cfd",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-innova-001",
@@ -811,7 +1065,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para desarrollo de sitio web corporativo: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-innova-002",
@@ -838,7 +1101,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 200.0,
+    "precio_paypal_calculado_usd": 211.733616,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 219",
+    "precio_origen": "Estimación: 4 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para desarrollo de portal institucional: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-innova-003",
@@ -865,7 +1137,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 200.0,
+    "precio_paypal_calculado_usd": 211.733616,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 219",
+    "precio_origen": "Estimación: 4 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para desarrollo de app móvil: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-innova-004",
@@ -892,7 +1173,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 200.0,
+    "precio_paypal_calculado_usd": 211.733616,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 219",
+    "precio_origen": "Estimación: 4 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para desarrollo de solución en realidad mixta: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-innova-005",
@@ -919,7 +1209,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para instalación de cámaras de seguridad: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-innova-006",
@@ -946,7 +1245,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para domótica con alexa o google assistant: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-innova-007",
@@ -973,7 +1281,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para mantenimiento preventivo de equipos electrónicos: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-innova-008",
@@ -1001,7 +1318,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para diagnóstico de gpu gamer o placa electrónica: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "corvus-ai-v4-alpha",
@@ -1035,7 +1361,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-08-11",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_conversion_usd_sin_redondear": "0E+3",
+    "precio_base_usd": 0.0,
+    "precio_paypal_calculado_usd": 0.0,
+    "precio_venta_usd": 0,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "Gratis",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-salud-001",
@@ -1062,7 +1397,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para diseño de órtesis personalizada: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-salud-002",
@@ -1089,7 +1433,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para diseño de prótesis funcional: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-salud-003",
@@ -1116,7 +1469,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para adaptación de vehículo inclusivo: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-salud-004",
@@ -1143,7 +1505,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para desarrollo de hardware inclusivo: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-salud-005",
@@ -1170,7 +1541,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para desarrollo de software inclusivo: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-salud-006",
@@ -1197,7 +1577,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para mantenimiento preventivo de equipo médico: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-interactive-hidrologia-recursos-hidricos",
@@ -1238,7 +1627,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 150.0,
+    "precio_paypal_calculado_usd": 158.879493,
+    "precio_venta_usd": 159,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 159",
+    "precio_origen": "Estimación: 2 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-hidrometria-aforos",
@@ -1279,7 +1682,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-geodesia-topografia-geomatica",
@@ -1320,7 +1737,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-batimetria-hidrografia",
@@ -1360,7 +1791,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 300.0,
+    "precio_paypal_calculado_usd": 317.441861,
+    "precio_venta_usd": 319,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 319",
+    "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-oceanografia-estudios-marino-costeros",
@@ -1401,7 +1846,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 300.0,
+    "precio_paypal_calculado_usd": 317.441861,
+    "precio_venta_usd": 319,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 319",
+    "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-modelacion-hidraulica-hidrologica-cfd",
@@ -1442,7 +1901,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 300.0,
+    "precio_paypal_calculado_usd": 317.441861,
+    "precio_venta_usd": 319,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 319",
+    "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-ingenieria-maritima-portuaria-costera",
@@ -1483,7 +1956,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 300.0,
+    "precio_paypal_calculado_usd": 317.441861,
+    "precio_venta_usd": 319,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 319",
+    "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-inspeccion-subacuatica",
@@ -1523,7 +2010,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-gestion-ambiental",
@@ -1564,7 +2065,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-permisos-concesiones-licencias",
@@ -1605,7 +2120,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-riesgos-contingencias-resiliencia",
@@ -1646,7 +2175,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-factibilidad-viabilidad-evaluacion",
@@ -1687,7 +2230,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 300.0,
+    "precio_paypal_calculado_usd": 317.441861,
+    "precio_venta_usd": 319,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 319",
+    "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-digitalizacion-gemelos-digitales",
@@ -1728,7 +2285,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 300.0,
+    "precio_paypal_calculado_usd": 317.441861,
+    "precio_venta_usd": 319,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 319",
+    "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-interactive-operaciones-portuarias-logistica",
@@ -1769,7 +2340,21 @@
     "oferta": false,
     "fecha_actualizacion": "2026-09-04",
     "visible_cliente": true,
-    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda."
+    "aviso_publico": "Servicio sujeto a alcance, información disponible, normativa aplicable y participación profesional competente cuando corresponda.",
+    "precio_peru_desde_soles": null,
+    "precio_internacional_desde_usd": null,
+    "precio_desde_soles_igv": null,
+    "precio_internacional_usd": null,
+    "precio_soles_texto": "Cotizar según alcance",
+    "precio_usd_texto": "Cotizar según alcance",
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-construye-001",
@@ -1795,7 +2380,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para remodelación de oficina: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-construye-002",
@@ -1822,7 +2416,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para remodelación de departamento: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-construye-003",
@@ -1849,7 +2452,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para remodelación de vivienda: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-construye-004",
@@ -1876,7 +2488,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para diseño técnico de ambiente comercial: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-construye-005",
@@ -1903,7 +2524,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para supervisión de obra menor: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-construye-006",
@@ -1930,7 +2560,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para instalación o mantenimiento técnico en obra: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-inox-001",
@@ -1957,7 +2596,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para baranda de acero inoxidable: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-inox-002",
@@ -1984,7 +2632,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para mesa de acero inoxidable: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-inox-003",
@@ -2011,7 +2668,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para estructura metálica ligera: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-inox-004",
@@ -2038,7 +2704,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para mueble metálico a medida: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-inox-005",
@@ -2065,7 +2740,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para proyecto metalmecánico: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-inox-006",
@@ -2092,7 +2776,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para servicio de soldadura técnica: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-investiga-001",
@@ -2119,7 +2812,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para asesoría en proyecto de investigación científica: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-investiga-002",
@@ -2146,7 +2848,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para revisión metodológica: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-investiga-003",
@@ -2173,7 +2884,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para procesamiento de datos científicos: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-investiga-004",
@@ -2200,7 +2920,16 @@
     "destacado": true,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para desarrollo de software científico: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-investiga-005",
@@ -2227,7 +2956,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para modelamiento numérico: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-investiga-006",
@@ -2254,7 +2992,16 @@
     "destacado": false,
     "oferta": false,
     "fecha_actualizacion": "2026-06-12",
-    "visible_cliente": true
+    "visible_cliente": true,
+    "precio_base_usd": 225.0,
+    "precio_paypal_calculado_usd": 238.160677,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "Estimación: 3 h × USD 75/h; WPE/BCP Consulting",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Paquete inicial para automatización de flujo de investigación: revisión del requerimiento, sesión técnica y documento de propuesta o primer esquema. No incluye fabricación, equipos, instalación ni ejecución integral."
   },
   {
     "id": "tw-educa-curso-01",
@@ -2287,7 +3034,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -2478,7 +3225,15 @@
     "imagen_og": "assets/img/educa/cursos/realidad-virtual-unity-meta-quest.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "realidad-virtual-unity-meta-quest"
+    "slug": "realidad-virtual-unity-meta-quest",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-02",
@@ -2511,7 +3266,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": "2026-09-07",
     "fecha_inicio_publica": "7 de septiembre de 2026",
     "modalidad": "Online",
@@ -2909,7 +3664,15 @@
     "imagen_og": "assets/img/educa/cursos/programacion-autocad-csharp.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "programacion-autocad-csharp"
+    "slug": "programacion-autocad-csharp",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-03",
@@ -2942,7 +3705,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -3133,7 +3896,15 @@
     "imagen_og": "assets/img/educa/cursos/qgis-python-plugins.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "qgis-python-plugins"
+    "slug": "qgis-python-plugins",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-04",
@@ -3166,7 +3937,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -3357,7 +4128,15 @@
     "imagen_og": "assets/img/educa/cursos/ia-offline-python-ollama-pyside.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "ia-offline-python-ollama-pyside"
+    "slug": "ia-offline-python-ollama-pyside",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-05",
@@ -3390,7 +4169,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -3581,7 +4360,15 @@
     "imagen_og": "assets/img/educa/cursos/geoportales-web-gis-python-geoserver.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "geoportales-web-gis-python-geoserver"
+    "slug": "geoportales-web-gis-python-geoserver",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-06",
@@ -3622,7 +4409,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -3813,7 +4600,15 @@
     "imagen_og": "assets/img/educa/cursos/latex-texmaker-investigacion.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "latex-texmaker-investigacion"
+    "slug": "latex-texmaker-investigacion",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-07",
@@ -3854,7 +4649,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -4045,7 +4840,15 @@
     "imagen_og": "assets/img/educa/cursos/machine-learning-mecanica-fluidos.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "machine-learning-mecanica-fluidos"
+    "slug": "machine-learning-mecanica-fluidos",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-08",
@@ -4086,7 +4889,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -4277,7 +5080,15 @@
     "imagen_og": "assets/img/educa/cursos/cfd-openfoam-wsl.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "cfd-openfoam-wsl"
+    "slug": "cfd-openfoam-wsl",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-09",
@@ -4318,7 +5129,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -4509,7 +5320,15 @@
     "imagen_og": "assets/img/educa/cursos/cloud-computing-openfoam.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "cloud-computing-openfoam"
+    "slug": "cloud-computing-openfoam",
+    "precio_base_usd": 73.0,
+    "precio_paypal_calculado_usd": 77.484144,
+    "precio_venta_usd": 79,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 79",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-10",
@@ -4550,7 +5369,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -4741,7 +5560,15 @@
     "imagen_og": "assets/img/educa/cursos/datos-climaticos-oceanograficos-python.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "datos-climaticos-oceanograficos-python"
+    "slug": "datos-climaticos-oceanograficos-python",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-11",
@@ -4782,7 +5609,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -4973,7 +5800,15 @@
     "imagen_og": "assets/img/educa/cursos/cpp-mecanica-fluidos.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "cpp-mecanica-fluidos"
+    "slug": "cpp-mecanica-fluidos",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-12",
@@ -5014,7 +5849,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -5205,7 +6040,15 @@
     "imagen_og": "assets/img/educa/cursos/apps-moviles-flutter-mecanica-fluidos.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "apps-moviles-flutter-mecanica-fluidos"
+    "slug": "apps-moviles-flutter-mecanica-fluidos",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-13",
@@ -5246,7 +6089,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -5437,7 +6280,15 @@
     "imagen_og": "assets/img/educa/cursos/vision-artificial-rios-canales.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "vision-artificial-rios-canales"
+    "slug": "vision-artificial-rios-canales",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-14",
@@ -5478,7 +6329,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "",
     "modalidad": "Online",
@@ -5669,7 +6520,15 @@
     "imagen_og": "assets/img/educa/cursos/programacion-gpu-nvidia-cfd.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "programacion-gpu-nvidia-cfd"
+    "slug": "programacion-gpu-nvidia-cfd",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-15",
@@ -5702,7 +6561,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -5963,7 +6822,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-costos-y-presupuestos-con-s10.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-costos-y-presupuestos-con-s10"
+    "slug": "curso-practico-de-costos-y-presupuestos-con-s10",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-16",
@@ -5996,7 +6863,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -6255,7 +7122,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-sap2000-para-analisis-estructural.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-sap2000-para-analisis-estructural"
+    "slug": "curso-practico-de-sap2000-para-analisis-estructural",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-17",
@@ -6288,7 +7163,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -6547,7 +7422,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-modelado-y-analisis-estructural-con-etabs.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-modelado-y-analisis-estructural-con-etabs"
+    "slug": "curso-practico-de-modelado-y-analisis-estructural-con-etabs",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-18",
@@ -6580,7 +7463,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -6839,7 +7722,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-autodesk-inventor-para-diseno-mecanico.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-autodesk-inventor-para-diseno-mecanico"
+    "slug": "curso-practico-de-autodesk-inventor-para-diseno-mecanico",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-19",
@@ -6872,7 +7763,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -7130,7 +8021,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-revit-para-modelado-bim.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-revit-para-modelado-bim"
+    "slug": "curso-practico-de-revit-para-modelado-bim",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-20",
@@ -7163,7 +8062,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -7422,7 +8321,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-excel-nivel-i.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-excel-nivel-i"
+    "slug": "curso-practico-de-excel-nivel-i",
+    "precio_base_usd": 24.0,
+    "precio_paypal_calculado_usd": 25.687104,
+    "precio_venta_usd": 29,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 29",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-21",
@@ -7455,7 +8362,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -7715,7 +8622,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-excel-nivel-ii.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-excel-nivel-ii"
+    "slug": "curso-practico-de-excel-nivel-ii",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-22",
@@ -7748,7 +8663,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -8008,7 +8923,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-excel-nivel-iii.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-excel-nivel-iii"
+    "slug": "curso-practico-de-excel-nivel-iii",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-23",
@@ -8041,7 +8964,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -8301,7 +9224,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-autocad-nivel-i.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-autocad-nivel-i"
+    "slug": "curso-practico-de-autocad-nivel-i",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-24",
@@ -8334,7 +9265,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -8594,7 +9525,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-autocad-nivel-ii.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-autocad-nivel-ii"
+    "slug": "curso-practico-de-autocad-nivel-ii",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-25",
@@ -8627,7 +9566,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -8887,7 +9826,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-autocad-nivel-iii.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-autocad-nivel-iii"
+    "slug": "curso-practico-de-autocad-nivel-iii",
+    "precio_base_usd": 38.0,
+    "precio_paypal_calculado_usd": 40.486258,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-26",
@@ -8920,7 +9867,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -9180,7 +10127,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-solidworks-para-diseno-3d.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-solidworks-para-diseno-3d"
+    "slug": "curso-practico-de-solidworks-para-diseno-3d",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-27",
@@ -9213,7 +10168,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -9470,7 +10425,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-freecad-para-diseno-3d.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-freecad-para-diseno-3d"
+    "slug": "curso-practico-de-freecad-para-diseno-3d",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-28",
@@ -9503,7 +10466,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -9761,7 +10724,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-matlab-y-octave-para-ingenieria.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-matlab-y-octave-para-ingenieria"
+    "slug": "curso-practico-de-matlab-y-octave-para-ingenieria",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-29",
@@ -9794,7 +10765,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -10053,7 +11024,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-python-basico.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-python-basico"
+    "slug": "curso-practico-de-python-basico",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-30",
@@ -10086,7 +11065,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -10346,7 +11325,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-python-poo.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-python-poo"
+    "slug": "curso-practico-de-python-poo",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-31",
@@ -10379,7 +11366,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -10638,7 +11625,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-python-web.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-python-web"
+    "slug": "curso-practico-de-python-web",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-32",
@@ -10671,7 +11666,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -10930,7 +11925,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-frontend-web.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-frontend-web"
+    "slug": "curso-practico-de-frontend-web",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-33",
@@ -10963,7 +11966,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -11222,7 +12225,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-informatica-basica.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-informatica-basica"
+    "slug": "curso-practico-de-informatica-basica",
+    "precio_base_usd": 21.0,
+    "precio_paypal_calculado_usd": 22.515857,
+    "precio_venta_usd": 29,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 29",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-34",
@@ -11255,7 +12266,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -11513,7 +12524,15 @@
     "imagen_og": "assets/img/educa/cursos/curso-practico-de-gnu-linux.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "curso-practico-de-gnu-linux"
+    "slug": "curso-practico-de-gnu-linux",
+    "precio_base_usd": 27.0,
+    "precio_paypal_calculado_usd": 28.858351,
+    "precio_venta_usd": 29,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 29",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-35",
@@ -11546,7 +12565,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -11954,7 +12973,15 @@
     "imagen_og": "assets/img/educa/cursos/preparacion-para-admision-unmsm.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "preparacion-para-admision-unmsm"
+    "slug": "preparacion-para-admision-unmsm",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-36",
@@ -11987,7 +13014,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -12395,7 +13422,15 @@
     "imagen_og": "assets/img/educa/cursos/preparacion-para-admision-uni.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "preparacion-para-admision-uni"
+    "slug": "preparacion-para-admision-uni",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   },
   {
     "id": "tw-educa-curso-37",
@@ -12428,7 +13463,7 @@
     "moneda_principal": "PEN",
     "tipo_item": "curso",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "fecha_inicio": null,
     "fecha_inicio_publica": "Por definir",
     "modalidad": "Online",
@@ -12836,6 +13871,14 @@
     "imagen_og": "assets/img/educa/cursos/preparacion-para-admision-unac.webp",
     "linea": "tw-educa",
     "linea_nombre": "TW Educa",
-    "slug": "preparacion-para-admision-unac"
+    "slug": "preparacion-para-admision-unac",
+    "precio_base_usd": 47.0,
+    "precio_paypal_calculado_usd": 50.0,
+    "precio_venta_usd": 59,
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b",
+    "moneda_publica": "USD"
   }
 ]

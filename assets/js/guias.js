@@ -45,7 +45,7 @@ function renderGuideCard(item) {
         <p>${guiaEscape(item.descripcion_corta)}</p>
         <div class="catalog-meta">
           <span>${guiaEscape(item.tipo)} · ${guiaEscape(item.nivel)}</span>
-          <strong>${guiaEscape(item.precio)}</strong>
+          <strong>${guiaEscape(window.TWPrecio(item))}</strong>
         </div>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="../detalle/guia.html?id=${encodeURIComponent(item.id)}">Ver más</a>
@@ -160,7 +160,7 @@ async function renderGuiaDetail() {
               <div><dt>Fecha</dt><dd>${guiaEscape(item.fecha)}</dd></div>
               <div><dt>Version</dt><dd>${guiaEscape(item.version)}</dd></div>
               <div><dt>Paginas</dt><dd>${guiaEscape(item.paginas)}</dd></div>
-              <div><dt>Precio</dt><dd>${guiaEscape(item.precio)}</dd></div>
+              <div><dt>Precio</dt><dd>${guiaEscape(window.TWPrecio(item))}</dd></div>
               <div><dt>Estado</dt><dd>${guiaEscape(item.estado)}</dd></div>
             </dl>
             <div class="catalog-actions">

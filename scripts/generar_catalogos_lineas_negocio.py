@@ -110,6 +110,20 @@ def parse_source(path: Path, slug: str, config: dict) -> list[dict]:
 
 
 def main() -> int:
+    import sys
+    if '--precios-usd' in sys.argv:
+        sys.path.insert(0, str(ROOT / 'tools'))
+        from normalizar_precios_usd import load, save, normalize
+        for slug in SOURCES:
+            name = 'catalogo-' + slug
+            rows = load(name)
+            canonical = {r['id']: r for r in load(slug)['servicios']} if slug in ('tw-salud', 'tw-interactive') else {}
+            for row in rows:
+                if row['id'] in canonical:
+                    row.update({k: v for k, v in canonical[row['id']].items() if k.startswith('precio_') and k not in ('precio_peru_desde_soles', 'precio_internacional_desde_usd') or k in ('moneda_publica', 'alcance_precio_desde')})
+                normalize(row, name)
+            save(name, rows)
+        return 0
     for slug, config in SOURCES.items():
         src = ROOT / "data" / "fuentes" / config["txt"]
         if not src.exists():

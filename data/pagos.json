@@ -9,7 +9,15 @@
     "paypal_link": "",
     "paypal_qr": "",
     "estado": "pendiente",
-    "nota": "Solicitar enlace PayPal para cliente internacional."
+    "nota": "Solicitar enlace PayPal para cliente internacional.",
+    "precio_base_usd": 10.0,
+    "precio_paypal_calculado_usd": 10.88795,
+    "precio_venta_usd": 11,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 11",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "qgis-basico-compendio",
@@ -21,7 +29,15 @@
     "paypal_link": "",
     "paypal_qr": "",
     "estado": "pendiente",
-    "nota": "Solicitar enlace PayPal para cliente internacional."
+    "nota": "Solicitar enlace PayPal para cliente internacional.",
+    "precio_base_usd": 10.0,
+    "precio_paypal_calculado_usd": 10.88795,
+    "precio_venta_usd": 11,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 11",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "reserva-proyecto-software",
@@ -33,6 +49,15 @@
     "paypal_link": "",
     "paypal_qr": "",
     "estado": "pendiente",
-    "nota": "No usar enlace fijo para servicios a medida."
+    "nota": "No usar enlace fijo para servicios a medida.",
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "Estimación: 2 h × USD 50/h; WPE",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Sesión de requisitos y resumen funcional inicial. No incluye desarrollo."
   }
 ]

@@ -38,7 +38,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-metrados&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Metrados de obra civil y arquitectura de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Metrados de obra civil y arquitectura de TW Construye.",
+    "precio_base_usd": 90.0,
+    "precio_paypal_calculado_usd": 95.454546,
+    "precio_venta_usd": 99,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 99",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-presupuesto",
@@ -79,7 +88,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-presupuesto&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Presupuesto de obra y análisis de costos unitarios de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Presupuesto de obra y análisis de costos unitarios de TW Construye.",
+    "precio_base_usd": 120.0,
+    "precio_paypal_calculado_usd": 127.16702,
+    "precio_venta_usd": 129,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 129",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-planos-basicos",
@@ -120,7 +138,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-planos-basicos&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Dibujo y digitalización de planos en CAD de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Dibujo y digitalización de planos en CAD de TW Construye.",
+    "precio_base_usd": 65.0,
+    "precio_paypal_calculado_usd": 69.027485,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 79",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-modelado-3d",
@@ -159,7 +186,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-modelado-3d&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Modelado 3D arquitectónico básico de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Modelado 3D arquitectónico básico de TW Construye.",
+    "precio_base_usd": 150.0,
+    "precio_paypal_calculado_usd": 158.879493,
+    "precio_venta_usd": 159,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 159",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-remodelacion",
@@ -200,7 +236,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-remodelacion&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Remodelaciones y adecuaciones de espacios de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Remodelaciones y adecuaciones de espacios de TW Construye.",
+    "precio_base_usd": 360.0,
+    "precio_paypal_calculado_usd": 380.866808,
+    "precio_venta_usd": 389,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 389",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-supervision",
@@ -240,7 +285,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-supervision&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Asistencia técnica y supervisión de obra menor de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Asistencia técnica y supervisión de obra menor de TW Construye.",
+    "precio_base_usd": 100.0,
+    "precio_paypal_calculado_usd": 106.02537,
+    "precio_venta_usd": 109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 109",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-instalaciones-electricas",
@@ -280,7 +334,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-instalaciones-electricas&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Revisión y mejora de instalaciones eléctricas básicas de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Revisión y mejora de instalaciones eléctricas básicas de TW Construye.",
+    "precio_base_usd": 70.0,
+    "precio_paypal_calculado_usd": 74.312897,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 79",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-instalaciones-sanitarias",
@@ -320,7 +383,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-instalaciones-sanitarias&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Revisión y mejora de instalaciones sanitarias básicas de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Revisión y mejora de instalaciones sanitarias básicas de TW Construye.",
+    "precio_base_usd": 70.0,
+    "precio_paypal_calculado_usd": 74.312897,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 79",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-expediente-menor",
@@ -360,7 +432,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-expediente-menor&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Expediente técnico simplificado para obra menor de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Expediente técnico simplificado para obra menor de TW Construye.",
+    "precio_base_usd": 280.0,
+    "precio_paypal_calculado_usd": 296.300212,
+    "precio_venta_usd": 299,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 299",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-seguridad-obra",
@@ -400,7 +481,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-seguridad-obra&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Checklist de seguridad para obra menor de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Checklist de seguridad para obra menor de TW Construye.",
+    "precio_base_usd": 90.0,
+    "precio_paypal_calculado_usd": 95.454546,
+    "precio_venta_usd": 99,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 99",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-bim-basico",
@@ -440,7 +530,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-bim-basico&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Modelado BIM básico y coordinación visual de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Modelado BIM básico y coordinación visual de TW Construye.",
+    "precio_base_usd": 220.0,
+    "precio_paypal_calculado_usd": 232.875265,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-gestion-proyecto",
@@ -480,7 +579,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-gestion-proyecto&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Gestión básica de proyecto de construcción de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Gestión básica de proyecto de construcción de TW Construye.",
+    "precio_base_usd": 190.0,
+    "precio_paypal_calculado_usd": 201.162791,
+    "precio_venta_usd": 209,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 209",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-tasacion-referencial",
@@ -519,7 +627,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-tasacion-referencial&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Evaluación referencial de costos de mejora o remodelación de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Evaluación referencial de costos de mejora o remodelación de TW Construye.",
+    "precio_base_usd": 80.0,
+    "precio_paypal_calculado_usd": 84.883721,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-construye-capacitacion-costos",
@@ -560,7 +677,17 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-capacitacion-costos&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Curso de metrados, costos y presupuestos de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Curso de metrados, costos y presupuestos de TW Construye.",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "tw-construye-capacitacion-autocad",
@@ -600,6 +727,16 @@
     ],
     "imagen": "assets/img/servicios/servicio-implementacion-tecnologica.svg",
     "url_detalle": "detalle/oferta.html?id=tw-construye-capacitacion-autocad&linea=tw-construye",
-    "whatsapp_message": "Hola, deseo cotizar Curso de AutoCAD aplicado a planos técnicos de TW Construye."
+    "whatsapp_message": "Hola, deseo cotizar Curso de AutoCAD aplicado a planos técnicos de TW Construye.",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   }
 ]

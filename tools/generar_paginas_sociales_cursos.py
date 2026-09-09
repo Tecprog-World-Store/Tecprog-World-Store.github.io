@@ -433,6 +433,22 @@ def write_report(courses: list[dict], metas: list[dict]) -> None:
 
 def main() -> None:
     courses = read_json(COURSES_JSON)
+    import sys
+    if '--precios-usd' in sys.argv:
+        # Actualización monetaria de páginas existentes, sin regenerar SEO ni layout.
+        for course in courses:
+            path = ROOT / 'cursos' / course['slug'] / 'index.html'
+            text = path.read_text(encoding='utf-8')
+            rows = ''.join('<tr><td>' + esc(p['publico']) + '</td>' + ''.join(f'<td>USD {p[s + "_venta_usd"]}</td>' for s in ('preventa', 'lanzamiento', 'regular')) + '</tr>' for p in course['precios'])
+            table = '<table><thead><tr><th>Modalidad</th><th>Preventa</th><th>Lanzamiento</th><th>Regular</th></tr></thead><tbody>' + rows + '</tbody></table>'
+            text = re.sub(r'<table>.*?</table>', lambda m: table if 'Preventa' in m.group() else m.group(), text, flags=re.S)
+            text = text.replace('Precios referenciales en PEN.', 'Precios publicados en USD.')
+            text = text.replace(esc(course.get('precio') or ''), esc(course['precio_texto_usd']))
+            text = re.sub(r'https://wa.me/51952354282\?text=[^"<>]+', 'https://wa.me/51952354282?text=' + quote('Hola, deseo matricularme en ' + course['nombre'] + '. Precio publicado: ' + course['precio_texto_usd']), text)
+            text = text.replace('Próxima convocatoria', 'Matrícula abierta')
+            path.write_text(text, encoding='utf-8')
+        print(f'Precios USD actualizados en {len(courses)} fichas; SEO y estructura conservados.')
+        return
     metas = [course_meta(course) for course in courses]
     update_data(courses, metas)
     generate_pages(courses, metas)

@@ -37,7 +37,18 @@
     "ogImage": "assets/img/og/cursos/qgis-aplicado-a-cuencas-hidrograficas-og.png?v=img-final-20260628",
     "alt": "Imagen final de QGIS aplicado a cuencas hidrográficas de Tecprog World",
     "shareTitle": "QGIS aplicado a cuencas hidrográficas | TW Educa",
-    "shareDescription": "Curso práctico para analizar cuencas, preparar mapas, procesar datos geoespaciales y generar entregables técnicos."
+    "shareDescription": "Curso práctico para analizar cuencas, preparar mapas, procesar datos geoespaciales y generar entregables técnicos.",
+    "precio_conversion_usd_sin_redondear": "14.58333333333333333333333333",
+    "precio_base_usd": 14.59,
+    "precio_paypal_calculado_usd": 15.739958,
+    "precio_venta_usd": 16,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 16",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "nombre": "Python para científicos de datos",
@@ -76,7 +87,18 @@
     "ogImage": "assets/img/og/cursos/python-para-cientificos-de-datos-og.png?v=img-final-20260628",
     "alt": "Imagen final de Python para científicos de datos de Tecprog World",
     "shareTitle": "Python para científicos de datos | TW Educa",
-    "shareDescription": "Fundamentos de Python, análisis de datos, visualización, automatización y preparación para machine learning."
+    "shareDescription": "Fundamentos de Python, análisis de datos, visualización, automatización y preparación para machine learning.",
+    "precio_conversion_usd_sin_redondear": "14.58333333333333333333333333",
+    "precio_base_usd": 14.59,
+    "precio_paypal_calculado_usd": 15.739958,
+    "precio_venta_usd": 16,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 16",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "nombre": "Desarrollo web con HTML, CSS, PHP y MySQL",
@@ -115,7 +137,18 @@
     "ogImage": "assets/img/og/cursos/desarrollo-web-con-html-css-php-y-mysql-og.png?v=img-final-20260628",
     "alt": "Imagen final de Desarrollo web con HTML, CSS, PHP y MySQL de Tecprog World",
     "shareTitle": "Desarrollo web con HTML, CSS, PHP y MySQL | TW Educa",
-    "shareDescription": "Ruta inicial para crear sitios y aplicaciones web con fundamentos frontend, backend básico y bases de datos."
+    "shareDescription": "Ruta inicial para crear sitios y aplicaciones web con fundamentos frontend, backend básico y bases de datos.",
+    "precio_conversion_usd_sin_redondear": "14.58333333333333333333333333",
+    "precio_base_usd": 14.59,
+    "precio_paypal_calculado_usd": 15.739958,
+    "precio_venta_usd": 16,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 16",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "nombre": "Programación de plugins para QGIS",
@@ -154,7 +187,18 @@
     "ogImage": "assets/img/cursos/miniaturas/programacion-de-plugins-para-qgis.webp?v=img-final-20260628",
     "alt": "Imagen final de Programación de plugins para QGIS de Tecprog World",
     "shareTitle": "Programación de plugins para QGIS | TW Educa",
-    "shareDescription": "Curso especializado para crear herramientas, formularios y automatizaciones dentro de QGIS con Python."
+    "shareDescription": "Curso especializado para crear herramientas, formularios y automatizaciones dentro de QGIS con Python.",
+    "precio_conversion_usd_sin_redondear": "14.58333333333333333333333333",
+    "precio_base_usd": 14.59,
+    "precio_paypal_calculado_usd": 15.739958,
+    "precio_venta_usd": 16,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 16",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "nombre": "OpenFOAM básico para simulación CFD",
@@ -195,7 +239,18 @@
     "ogImage": "assets/img/og/cursos/openfoam-basico-para-simulacion-cfd-og.png?v=img-final-20260628",
     "alt": "Imagen final de OpenFOAM básico para simulación CFD de Tecprog World",
     "shareTitle": "OpenFOAM básico para simulación CFD | TW Educa",
-    "shareDescription": "Introducción guiada al flujo de trabajo de OpenFOAM para simulaciones preliminares y casos educativos."
+    "shareDescription": "Introducción guiada al flujo de trabajo de OpenFOAM para simulaciones preliminares y casos educativos.",
+    "precio_conversion_usd_sin_redondear": "14.58333333333333333333333333",
+    "precio_base_usd": 14.59,
+    "precio_paypal_calculado_usd": 15.739958,
+    "precio_venta_usd": 16,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 16",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "nombre": "Ofimática para emprendedores",
@@ -234,6 +289,17 @@
     "ogImage": "assets/img/og/cursos/ofimatica-para-emprendedores-og.png?v=img-final-20260628",
     "alt": "Imagen final de Ofimática para emprendedores de Tecprog World",
     "shareTitle": "Ofimática para emprendedores | TW Educa",
-    "shareDescription": "Curso corto para organizar ventas, reportes, documentos, presupuestos y atención al cliente con herramientas accesibles."
+    "shareDescription": "Curso corto para organizar ventas, reportes, documentos, presupuestos y atención al cliente con herramientas accesibles.",
+    "precio_conversion_usd_sin_redondear": "14.58333333333333333333333333",
+    "precio_base_usd": 14.59,
+    "precio_paypal_calculado_usd": 15.739958,
+    "precio_venta_usd": 16,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 16",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   }
 ]

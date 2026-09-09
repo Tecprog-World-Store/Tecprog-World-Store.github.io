@@ -78,7 +78,16 @@
       "imagen": "assets/img/servicios/tw-interactive/hidrologia-recursos-hidricos.png",
       "imagen_alt": "Estudio hidrológico y gestión de recursos hídricos en una cuenca andina del Perú",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-hidrologia-recursos-hidricos&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Hidrología aplicada y gestión de recursos hídricos de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Hidrología aplicada y gestión de recursos hídricos de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 150.0,
+      "precio_paypal_calculado_usd": 158.879493,
+      "precio_venta_usd": 159,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 159",
+      "precio_origen": "Estimación: 2 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de una cuenca y de hasta tres series aportadas; nota de diagnóstico hidrológico."
     },
     {
       "id": "tw-interactive-hidrometria-aforos",
@@ -138,7 +147,16 @@
       "imagen": "assets/img/servicios/tw-interactive/hidrometria-aforos.png",
       "imagen_alt": "Medición hidrométrica de caudal mediante ADCP en un río del Perú",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-hidrometria-aforos&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Hidrometría y aforos de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Hidrometría y aforos de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 225.0,
+      "precio_paypal_calculado_usd": 238.160677,
+      "precio_venta_usd": 239,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 239",
+      "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Plan de aforo para una sección y revisión de un registro aportado; sin campaña de campo."
     },
     {
       "id": "tw-interactive-geodesia-topografia-geomatica",
@@ -198,7 +216,16 @@
       "imagen": "assets/img/servicios/tw-interactive/geodesia-topografia-geomatica.png",
       "imagen_alt": "Levantamiento topográfico con GNSS, estación total y dron para un proyecto de ingeniería",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-geodesia-topografia-geomatica&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Geodesia, topografía y geomática de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Geodesia, topografía y geomática de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 225.0,
+      "precio_paypal_calculado_usd": 238.160677,
+      "precio_venta_usd": 239,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 239",
+      "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de un levantamiento aportado, sistema de referencia y control básico de coordenadas."
     },
     {
       "id": "tw-interactive-batimetria-hidrografia",
@@ -257,7 +284,16 @@
       "imagen": "assets/img/servicios/tw-interactive/batimetria-hidrografia.png",
       "imagen_alt": "Levantamiento batimétrico e hidrográfico desde una embarcación de trabajo",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-batimetria-hidrografia&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Batimetría y levantamientos hidrográficos de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Batimetría y levantamientos hidrográficos de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 300.0,
+      "precio_paypal_calculado_usd": 317.441861,
+      "precio_venta_usd": 319,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 319",
+      "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de una nube batimétrica aportada y plan de control de calidad; sin embarcación ni medición."
     },
     {
       "id": "tw-interactive-oceanografia-estudios-marino-costeros",
@@ -317,7 +353,16 @@
       "imagen": "assets/img/servicios/tw-interactive/oceanografia-estudios-marino-costeros.png",
       "imagen_alt": "Monitoreo oceanográfico de oleaje, corrientes y mareas en la costa peruana",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-oceanografia-estudios-marino-costeros&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Oceanografía física y estudios marino-costeros de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Oceanografía física y estudios marino-costeros de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 300.0,
+      "precio_paypal_calculado_usd": 317.441861,
+      "precio_venta_usd": 319,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 319",
+      "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión preliminar de una serie marina aportada y nota de criterios de análisis."
     },
     {
       "id": "tw-interactive-modelacion-hidraulica-hidrologica-cfd",
@@ -377,7 +422,16 @@
       "imagen": "assets/img/servicios/tw-interactive/modelacion-hidraulica-hidrologica-cfd.png",
       "imagen_alt": "Modelación hidráulica e hidrológica con resultados CFD y simulación ambiental",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-modelacion-hidraulica-hidrologica-cfd&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Modelación hidráulica, hidrológica, CFD y simulación ambiental de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Modelación hidráulica, hidrológica, CFD y simulación ambiental de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 300.0,
+      "precio_paypal_calculado_usd": 317.441861,
+      "precio_venta_usd": 319,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 319",
+      "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de un modelo existente y diagnóstico de configuración de un escenario; sin estudio integral."
     },
     {
       "id": "tw-interactive-ingenieria-maritima-portuaria-costera",
@@ -437,7 +491,16 @@
       "imagen": "assets/img/servicios/tw-interactive/ingenieria-maritima-portuaria-costera.png",
       "imagen_alt": "Ingeniería marítima y portuaria aplicada a infraestructura costera",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-ingenieria-maritima-portuaria-costera&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Ingeniería marítima, portuaria y costera de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Ingeniería marítima, portuaria y costera de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 300.0,
+      "precio_paypal_calculado_usd": 317.441861,
+      "precio_venta_usd": 319,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 319",
+      "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión documental preliminar de una estructura costera y nota de criterios de diseño."
     },
     {
       "id": "tw-interactive-inspeccion-subacuatica",
@@ -497,7 +560,16 @@
       "imagen": "assets/img/servicios/tw-interactive/inspeccion-subacuatica.png",
       "imagen_alt": "Inspección técnica subacuática de infraestructura portuaria sumergida",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-inspeccion-subacuatica&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Inspección subacuática e infraestructura sumergida de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Inspección subacuática e infraestructura sumergida de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 225.0,
+      "precio_paypal_calculado_usd": 238.160677,
+      "precio_venta_usd": 239,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 239",
+      "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de un registro visual subacuático aportado y plan de inspección; sin buceo ni movilización."
     },
     {
       "id": "tw-interactive-gestion-ambiental",
@@ -558,7 +630,16 @@
       "imagen": "assets/img/servicios/tw-interactive/gestion-ambiental.png",
       "imagen_alt": "Evaluación de línea base y gestión ambiental para un proyecto de ingeniería en el Perú",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-gestion-ambiental&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Gestión ambiental e instrumentos de gestión ambiental de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Gestión ambiental e instrumentos de gestión ambiental de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 225.0,
+      "precio_paypal_calculado_usd": 238.160677,
+      "precio_venta_usd": 239,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 239",
+      "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de un expediente ambiental y lista de información necesaria para su siguiente etapa."
     },
     {
       "id": "tw-interactive-permisos-concesiones-licencias",
@@ -619,7 +700,16 @@
       "imagen": "assets/img/servicios/tw-interactive/permisos-concesiones-licencias.png",
       "imagen_alt": "Preparación técnica de expedientes para permisos, concesiones y licencias sectoriales",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-permisos-concesiones-licencias&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Permisos, concesiones y licencias técnicas sectoriales de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Permisos, concesiones y licencias técnicas sectoriales de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 225.0,
+      "precio_paypal_calculado_usd": 238.160677,
+      "precio_venta_usd": 239,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 239",
+      "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Diagnóstico documental de un trámite sectorial y lista de requisitos; sin tasas ni representación."
     },
     {
       "id": "tw-interactive-riesgos-contingencias-resiliencia",
@@ -679,7 +769,16 @@
       "imagen": "assets/img/servicios/tw-interactive/riesgos-contingencias-resiliencia.png",
       "imagen_alt": "Evaluación de riesgos y resiliencia climática para infraestructura expuesta a inundaciones",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-riesgos-contingencias-resiliencia&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Gestión de riesgos, contingencias y resiliencia climática de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Gestión de riesgos, contingencias y resiliencia climática de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 225.0,
+      "precio_paypal_calculado_usd": 238.160677,
+      "precio_venta_usd": 239,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 239",
+      "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Identificación preliminar de riesgos de un sitio a partir de información aportada."
     },
     {
       "id": "tw-interactive-factibilidad-viabilidad-evaluacion",
@@ -739,7 +838,16 @@
       "imagen": "assets/img/servicios/tw-interactive/factibilidad-viabilidad-evaluacion.png",
       "imagen_alt": "Evaluación técnico-económica y estudio de factibilidad de alternativas de ingeniería",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-factibilidad-viabilidad-evaluacion&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Estudios de factibilidad, viabilidad y evaluación técnico-económica de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Estudios de factibilidad, viabilidad y evaluación técnico-económica de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 300.0,
+      "precio_paypal_calculado_usd": 317.441861,
+      "precio_venta_usd": 319,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 319",
+      "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de supuestos de inversión y esquema preliminar de evaluación de un proyecto."
     },
     {
       "id": "tw-interactive-digitalizacion-gemelos-digitales",
@@ -799,7 +907,16 @@
       "imagen": "assets/img/servicios/tw-interactive/digitalizacion-gemelos-digitales.png",
       "imagen_alt": "Gemelo digital y tablero de monitoreo para automatización de procesos de ingeniería",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-digitalizacion-gemelos-digitales&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Digitalización, automatización y gemelos digitales para ingeniería de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Digitalización, automatización y gemelos digitales para ingeniería de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 300.0,
+      "precio_paypal_calculado_usd": 317.441861,
+      "precio_venta_usd": 319,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 319",
+      "precio_origen": "Estimación: 4 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Diagnóstico de un flujo de datos y diseño de una prueba de integración digital."
     },
     {
       "id": "tw-interactive-operaciones-portuarias-logistica",
@@ -859,7 +976,16 @@
       "imagen": "assets/img/servicios/tw-interactive/operaciones-portuarias-logistica.png",
       "imagen_alt": "Análisis de operaciones portuarias, patios, accesos y conectividad logística",
       "url_detalle": "detalle/oferta.html?id=tw-interactive-operaciones-portuarias-logistica&linea=tw-interactive",
-      "whatsapp_message": "Hola, deseo cotizar Operaciones portuarias, logística e intermodalidad de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L."
+      "whatsapp_message": "Hola, deseo cotizar Operaciones portuarias, logística e intermodalidad de TW Interactive. Vengo desde la web de Tecprog World E.I.R.L.",
+      "precio_base_usd": 225.0,
+      "precio_paypal_calculado_usd": 238.160677,
+      "precio_venta_usd": 239,
+      "moneda_publica": "USD",
+      "precio_desde_usd": true,
+      "precio_texto_usd": "Desde USD 239",
+      "precio_origen": "Estimación: 3 h × USD 75/h; referencias WPE/BCP Consulting",
+      "precio_version": "20260909-2b",
+      "alcance_precio_desde": "Revisión de un proceso logístico y propuesta preliminar de indicadores y mejoras."
     }
   ]
 }

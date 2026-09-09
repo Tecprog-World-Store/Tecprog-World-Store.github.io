@@ -186,6 +186,12 @@ def parse_catalog(source: Path) -> list[dict]:
 
 
 def main() -> int:
+    import sys
+    if '--precios-usd' in sys.argv:
+        sys.path.insert(0, str(ROOT / 'tools'))
+        from normalizar_precios_usd import normalize_file
+        normalize_file('catalogo-general-cursos')
+        return 0
     source = read_source()
     catalog = parse_catalog(source)
     OUTPUT.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

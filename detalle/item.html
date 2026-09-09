@@ -144,11 +144,11 @@
             "brand": { "@type": "Brand", "name": line || "Tecprog World" },
             "provider": { "@type": "Organization", "name": "Tecprog World E.I.R.L.", "url": "https://tecprog-world-store.github.io/" }
           };
-          if (typeof item.precio_soles === "number") {
+          if (typeof item.precio_venta_usd === "number") {
             data.offers = {
               "@type": "Offer",
-              "priceCurrency": "PEN",
-              "price": item.precio_soles,
+              "priceCurrency": "USD",
+              "price": item.precio_venta_usd,
               "availability": "https://schema.org/InStock",
               "url": publicUrl
             };
@@ -217,11 +217,11 @@
                 ${capabilities}
                 ${item.nota_tecnica ? `<p class="commerce-notice">${escapeHtml(item.nota_tecnica)}</p>` : ""}
                 <div class="commerce-price item-detail-price">
-                  <strong>${escapeHtml(money(item.precio_soles, "PEN"))}</strong>
-                  ${dollars}
+                  <strong>${escapeHtml(window.TWPrecio(item))}</strong>
+
                 </div>
                 <dl class="item-detail-meta">
-                  <div><dt>Estado</dt><dd>${escapeHtml(readable(item.estado || "Por confirmar").replace(/cotizar/gi, "Por confirmar"))}</dd></div>
+                  <div><dt>Alcance inicial</dt><dd>${escapeHtml(item.alcance_precio_desde || "Producto según la descripción de esta ficha.")}</dd></div><div><dt>Estado</dt><dd>${escapeHtml(readable(item.estado || "Por confirmar").replace(/cotizar/gi, "Por confirmar"))}</dd></div>
                   <div><dt>Categoría</dt><dd>${escapeHtml(item.categoria || "Catálogo")}</dd></div>
                   <div><dt>Tipo</dt><dd>${escapeHtml(readable(item.tipo_item || "item"))}</dd></div>
                   ${item.fecha_actualizacion ? `<div><dt>Actualizado</dt><dd>${escapeHtml(item.fecha_actualizacion)}</dd></div>` : ""}

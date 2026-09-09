@@ -39,7 +39,15 @@
     "shareDescription": "Guia de usuario para crear lanzadores graficos de aplicaciones AppImage en Linux Mint mediante una herramienta desarrollada con Python y Tkinter.",
     "repoUrl": "",
     "pdfUrl": "assets/pdf/guias/guia_usuario_appimage_launcher_creator.pdf",
-    "demoUrl": ""
+    "demoUrl": "",
+    "precio_base_usd": 0.0,
+    "precio_paypal_calculado_usd": 0.0,
+    "precio_venta_usd": 0,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "Gratis",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "appimage-launcher-uninstaller",
@@ -80,7 +88,15 @@
     "shareDescription": "Guia para desinstalar de forma segura lanzadores AppImage, archivos .desktop, ejecutables locales e iconos asociados.",
     "repoUrl": "",
     "pdfUrl": "assets/pdf/guias/guia_usuario_appimage_launcher_uninstaller.pdf",
-    "demoUrl": ""
+    "demoUrl": "",
+    "precio_base_usd": 0.0,
+    "precio_paypal_calculado_usd": 0.0,
+    "precio_venta_usd": 0,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "Gratis",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "immersed-appimage-linux-mint",
@@ -121,7 +137,15 @@
     "shareDescription": "Guia tecnica para integrar Immersed AppImage al menu de Linux Mint 22.1 XFCE.",
     "repoUrl": "",
     "pdfUrl": "assets/pdf/guias/guia_immersed_appimage_linux_mint.pdf",
-    "demoUrl": ""
+    "demoUrl": "",
+    "precio_base_usd": 0.0,
+    "precio_paypal_calculado_usd": 0.0,
+    "precio_venta_usd": 0,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "Gratis",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "openshot-linux-mint-ffmpeg",
@@ -162,6 +186,14 @@
     "shareDescription": "Guia para diagnosticar pantalla negra en OpenShot, ajustar perfiles de exportacion y usar FFmpeg como alternativa de render.",
     "repoUrl": "",
     "pdfUrl": "assets/pdf/guias/guia_openshot_linux_mint_pantalla_negra_ffmpeg.pdf",
-    "demoUrl": ""
+    "demoUrl": "",
+    "precio_base_usd": 0.0,
+    "precio_paypal_calculado_usd": 0.0,
+    "precio_venta_usd": 0,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "Gratis",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   }
 ]

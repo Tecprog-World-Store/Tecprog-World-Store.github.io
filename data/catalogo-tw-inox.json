@@ -39,7 +39,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-barandas&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Barandas y pasamanos en acero inoxidable de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Barandas y pasamanos en acero inoxidable de TW Inox.",
+    "precio_base_usd": 120.0,
+    "precio_paypal_calculado_usd": 127.16702,
+    "precio_venta_usd": 129,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 129",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-mesas-trabajo",
@@ -81,7 +90,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-mesas-trabajo&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Mesas de trabajo en acero inoxidable de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Mesas de trabajo en acero inoxidable de TW Inox.",
+    "precio_base_usd": 190.0,
+    "precio_paypal_calculado_usd": 201.162791,
+    "precio_venta_usd": 209,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 209",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-racks-estanterias",
@@ -121,7 +139,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-racks-estanterias&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Racks, repisas y estanterías inoxidables de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Racks, repisas y estanterías inoxidables de TW Inox.",
+    "precio_base_usd": 150.0,
+    "precio_paypal_calculado_usd": 158.879493,
+    "precio_venta_usd": 159,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 159",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-campanas-extraccion",
@@ -162,7 +189,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-campanas-extraccion&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Campanas de extracción y ductos inoxidables de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Campanas de extracción y ductos inoxidables de TW Inox.",
+    "precio_base_usd": 360.0,
+    "precio_paypal_calculado_usd": 380.866808,
+    "precio_venta_usd": 389,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 389",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-lavaderos",
@@ -203,7 +239,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-lavaderos&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Lavaderos y módulos inoxidables a medida de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Lavaderos y módulos inoxidables a medida de TW Inox.",
+    "precio_base_usd": 200.0,
+    "precio_paypal_calculado_usd": 211.733616,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 219",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-carros-bandejas",
@@ -244,7 +289,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-carros-bandejas&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Carros, bandejas y soportes inoxidables de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Carros, bandejas y soportes inoxidables de TW Inox.",
+    "precio_base_usd": 140.0,
+    "precio_paypal_calculado_usd": 148.308669,
+    "precio_venta_usd": 149,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 149",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-protecciones",
@@ -284,7 +338,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-protecciones&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Rejas, protecciones y cerramientos metálicos de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Rejas, protecciones y cerramientos metálicos de TW Inox.",
+    "precio_base_usd": 150.0,
+    "precio_paypal_calculado_usd": 158.879493,
+    "precio_venta_usd": 159,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 159",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-estructuras-ligeras",
@@ -325,7 +388,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-estructuras-ligeras&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Estructuras metálicas ligeras de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Estructuras metálicas ligeras de TW Inox.",
+    "precio_base_usd": 280.0,
+    "precio_paypal_calculado_usd": 296.300212,
+    "precio_venta_usd": 299,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 299",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-soldadura-tig",
@@ -366,7 +438,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-soldadura-tig&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Soldadura TIG/MIG para piezas inoxidables de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Soldadura TIG/MIG para piezas inoxidables de TW Inox.",
+    "precio_base_usd": 50.0,
+    "precio_paypal_calculado_usd": 53.171248,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-mantenimiento",
@@ -407,7 +488,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-mantenimiento&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Mantenimiento y pulido de acero inoxidable de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Mantenimiento y pulido de acero inoxidable de TW Inox.",
+    "precio_base_usd": 65.0,
+    "precio_paypal_calculado_usd": 69.027485,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 79",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-prototipos",
@@ -447,7 +537,16 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-prototipos&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Prototipos metálicos para ingeniería y hardware de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Prototipos metálicos para ingeniería y hardware de TW Inox.",
+    "precio_base_usd": 280.0,
+    "precio_paypal_calculado_usd": 296.300212,
+    "precio_venta_usd": 299,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 299",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-inox-equipos-medicos-soportes",
@@ -487,6 +586,15 @@
     ],
     "imagen": "assets/img/banners/card-pattern.svg",
     "url_detalle": "detalle/oferta.html?id=tw-inox-equipos-medicos-soportes&linea=tw-inox",
-    "whatsapp_message": "Hola, deseo cotizar Soportes inoxidables para equipos y accesorios médicos no críticos de TW Inox."
+    "whatsapp_message": "Hola, deseo cotizar Soportes inoxidables para equipos y accesorios médicos no críticos de TW Inox.",
+    "precio_base_usd": 160.0,
+    "precio_paypal_calculado_usd": 169.450318,
+    "precio_venta_usd": 179,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 179",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   }
 ]

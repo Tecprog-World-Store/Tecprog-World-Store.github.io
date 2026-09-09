@@ -60,7 +60,16 @@
       "impresión 3D",
       "Tecprog World Perú"
     ],
-    "whatsapp_message": "Hola, deseo información sobre TW Salud Prótesis Manos. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre TW Salud Prótesis Manos. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 80.0,
+    "precio_paypal_calculado_usd": 84.883721,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "bionic-tw-salud-y-vida-mantenimiento-unidad-dental",
@@ -123,7 +132,16 @@
       "impresión 3D",
       "Tecprog World Perú"
     ],
-    "whatsapp_message": "Hola, deseo información sobre TW Salud Y Vida Mantenimiento Unidad Dental. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre TW Salud Y Vida Mantenimiento Unidad Dental. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 80.0,
+    "precio_paypal_calculado_usd": 84.883721,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "bionic-tw-salud-y-vida-prtesis-de-pierna01",
@@ -186,7 +204,16 @@
       "impresión 3D",
       "Tecprog World Perú"
     ],
-    "whatsapp_message": "Hola, deseo información sobre TW Salud Y Vida Prótesis De Pierna01. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre TW Salud Y Vida Prótesis De Pierna01. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 80.0,
+    "precio_paypal_calculado_usd": 84.883721,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "bionic-tw-salud-y-vida-servicio-de-mantenimiento",
@@ -249,7 +276,16 @@
       "impresión 3D",
       "Tecprog World Perú"
     ],
-    "whatsapp_message": "Hola, deseo información sobre TW Salud Y Vida Servicio De Mantenimiento. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre TW Salud Y Vida Servicio De Mantenimiento. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 80.0,
+    "precio_paypal_calculado_usd": 84.883721,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "curso-curso-de-coastsat",
@@ -314,7 +350,17 @@
       "CFD",
       "Tecprog World"
     ],
-    "whatsapp_message": "Hola, deseo información sobre Curso De CoastSAT. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre Curso De CoastSAT. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "curso-curso-delft3d-transportedeparticulas",
@@ -379,7 +425,17 @@
       "CFD",
       "Tecprog World"
     ],
-    "whatsapp_message": "Hola, deseo información sobre Curso Delft3D TransporteDeParticulas. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre Curso Delft3D TransporteDeParticulas. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "curso-curso-programacion-hp50g",
@@ -447,7 +503,17 @@
       "User RPL",
       "calculadora científica"
     ],
-    "whatsapp_message": "Hola, deseo información sobre Curso Programacion HP 50G. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre Curso Programacion HP 50G. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "curso-curso-python00",
@@ -512,7 +578,17 @@
       "CFD",
       "Tecprog World"
     ],
-    "whatsapp_message": "Hola, deseo información sobre Curso Python00. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre Curso Python00. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "curso-curso-python01",
@@ -577,7 +653,17 @@
       "CFD",
       "Tecprog World"
     ],
-    "whatsapp_message": "Hola, deseo información sobre Curso Python01. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre Curso Python01. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "curso-servicio-desarrollo-de-software-01",
@@ -642,7 +728,17 @@
       "CFD",
       "Tecprog World"
     ],
-    "whatsapp_message": "Hola, deseo información sobre Servicio Desarrollo De Software 01. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre Servicio Desarrollo De Software 01. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "curso-tw-educa-mooc-delft3d",
@@ -707,7 +803,17 @@
       "CFD",
       "Tecprog World"
     ],
-    "whatsapp_message": "Hola, deseo información sobre TW EDUCA MOOC Delft3D. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre TW EDUCA MOOC Delft3D. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "temario-programacion-hp-50g",
@@ -771,7 +877,16 @@
       "RPN",
       "Tecprog World"
     ],
-    "whatsapp_message": "Hola, deseo información sobre Temario de programación en calculadora HP 50G. Vengo desde la web de Tecprog World E.I.R.L."
+    "whatsapp_message": "Hola, deseo información sobre Temario de programación en calculadora HP 50G. Vengo desde la web de Tecprog World E.I.R.L.",
+    "precio_base_usd": 39.0,
+    "precio_paypal_calculado_usd": 41.543341,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   }
 ]
-

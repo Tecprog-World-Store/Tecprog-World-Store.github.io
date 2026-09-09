@@ -65,7 +65,7 @@ function listMarkup(items) {
         <p class="catalog-category">${escapeHtml(item.linea)} ? ${escapeHtml(item.subcategoria || item.categoria)}</p>
         <h3>${escapeHtml(item.titulo)}</h3>
         <p>${escapeHtml(item.descripcion_corta)}</p>
-        <strong>${escapeHtml(item.precio_desde_soles_igv || "Precio a consultar")}</strong>
+        <strong>${escapeHtml(window.TWPrecio(item))}</strong>
         <div class="catalog-actions">
           <a class="btn btn-small btn-gold" href="${materialUrl(item.id)}">Ver más</a>
         </div>
@@ -176,8 +176,8 @@ async function renderMaterialDetail() {
               <dl>
                 <div><dt>Duración</dt><dd>${escapeHtml(item.duracion_referencial)}</dd></div>
                 <div><dt>Modalidad</dt><dd>${escapeHtml(item.modalidad)}</dd></div>
-                <div><dt>Precio Perú</dt><dd>${escapeHtml(item.precio_desde_soles_igv)}</dd></div>
-                <div><dt>Exterior</dt><dd>${escapeHtml(item.precio_exterior_usd)}</dd></div>
+                <div><dt>Precio</dt><dd>${escapeHtml(window.TWPrecio(item))}</dd></div>
+
               </dl>
               <p>${escapeHtml(item.nota_comercial)}</p>
             </div>

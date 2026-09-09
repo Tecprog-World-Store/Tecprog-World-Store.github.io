@@ -46,9 +46,9 @@ function selectFilter(items, key, label) {
 function priceBucket(price) {
   const value = Number(price || 0);
   if (value <= 0) return "Sin precio";
-  if (value <= 199) return "Hasta S/ 199";
-  if (value <= 299) return "S/ 200 a S/ 299";
-  return "S/ 300 o mas";
+  if (value <= 199) return "Hasta USD 199";
+  if (value <= 299) return "USD 200 a USD 299";
+  return "USD 300 o más";
 }
 
 function moocText(item) {
@@ -79,7 +79,7 @@ function courseCard(item) {
       data-nivel="${catalogEscape(item.nivel)}"
       data-horas="${catalogEscape(hoursBucket(item.horas_certificables))}"
       data-fuente="${catalogEscape(item.fuente_base)}"
-      data-precio="${catalogEscape(priceBucket(item.precio_peru_igv_soles))}"
+      data-precio="${catalogEscape(priceBucket(item.precio_venta_usd))}"
       data-mooc="${item.precio_peru_igv_soles ? "Inscripcion con precio" : "Consultar inscripcion"}"
       data-certificado="${item.certificado_desde_soles ? "Certificado pagado" : ""}"
       data-en-vivo="${(item.modalidad_tags || []).includes("En vivo") ? "En vivo" : ""}"
@@ -95,16 +95,8 @@ function courseCard(item) {
         <p class="catalog-category">${catalogEscape(item.categoria)} · ${catalogEscape(item.nivel)}</p>
         <h3>${catalogEscape(item.curso)}</h3>
         <p>${catalogEscape(item.descripcion_corta)}</p>
-        <div class="catalog-meta">
-          <span>${catalogEscape(moocText(item))}</span>
-          <strong>${catalogEscape(certificateText(item))}</strong>
-        </div>
-        <div class="catalog-meta">
-          <span>${catalogEscape(item.modalidad)} · ${catalogEscape(item.duracion_referencial)}</span>
-          <strong>${catalogEscape(item.precio_pago_texto || `Curso desde S/ ${item.precio_peru_igv_soles}`)}</strong>
-        </div>
-        <p class="usd-price">Internacional: USD ${catalogEscape(item.precio_internacional_usd)}</p>
-        <p class="microcopy">${catalogEscape(item.nota_precio_mooc || "")}</p>
+        <p>Matrícula abierta · ${catalogEscape(item.modalidad)}</p>
+        <strong>${catalogEscape(window.TWPrecio(item))}</strong>
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="${detailHref}">Ver más</a>
         </div>
@@ -119,7 +111,7 @@ function renderCatalogFilters(items) {
   const withBuckets = items.map((item) => ({
     ...item,
     horas_bucket: hoursBucket(item.horas_certificables),
-    precio_bucket: priceBucket(item.precio_peru_igv_soles),
+    precio_bucket: priceBucket(item.precio_venta_usd),
   }));
   target.innerHTML = `
     <label class="select-filter search-filter">

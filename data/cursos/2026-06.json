@@ -35,7 +35,17 @@
     "precio_peru_soles_igv": "Consulta de inscripcion / Certificado desde S/ 49",
     "nota_precio": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.",
     "nota_precio_mooc": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.",
-    "programa_especializacion_desde_soles": 199
+    "programa_especializacion_desde_soles": 199,
+    "precio_base_usd": 75.0,
+    "precio_paypal_calculado_usd": 79.598309,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "openfoam-cfd",
@@ -73,6 +83,16 @@
     "precio_peru_soles_igv": "Consulta de inscripcion / Certificado desde S/ 49",
     "nota_precio": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.",
     "nota_precio_mooc": "Consulta disponibilidad, fecha de inicio, modalidad, horario y forma de pago antes de reservar tu vacante.",
-    "programa_especializacion_desde_soles": 199
+    "programa_especializacion_desde_soles": 199,
+    "precio_base_usd": 75.0,
+    "precio_paypal_calculado_usd": 79.598309,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   }
 ]

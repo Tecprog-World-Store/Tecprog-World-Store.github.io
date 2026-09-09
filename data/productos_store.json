@@ -18,7 +18,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-001.webp",
     "gancho": "Equipo movil bajo pedido para comunicacion, productividad y uso diario; disponibilidad por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "899.6666666666666666666666667",
+    "precio_base_usd": 899.67,
+    "precio_paypal_calculado_usd": 951.342495,
+    "precio_venta_usd": 959,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 959",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-002",
@@ -39,7 +48,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-002.webp",
     "gancho": "Equipo movil bajo pedido para comunicacion, productividad y uso diario; disponibilidad por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "866.3333333333333333333333333",
+    "precio_base_usd": 866.34,
+    "precio_paypal_calculado_usd": 916.109937,
+    "precio_venta_usd": 919,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 919",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-003",
@@ -60,7 +78,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-003.webp",
     "gancho": "Equipo movil bajo pedido para comunicacion, productividad y uso diario; disponibilidad por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "176.3333333333333333333333333",
+    "precio_base_usd": 176.34,
+    "precio_paypal_calculado_usd": 186.723045,
+    "precio_venta_usd": 189,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 189",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-004",
@@ -81,7 +108,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-004.webp",
     "gancho": "Producto de audio bajo pedido para trabajo, estudio o entretenimiento; precio y stock por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "316.3333333333333333333333333",
+    "precio_base_usd": 316.34,
+    "precio_paypal_calculado_usd": 334.714588,
+    "precio_venta_usd": 339,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 339",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-005",
@@ -102,7 +138,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-005.webp",
     "gancho": "Producto de audio bajo pedido para trabajo, estudio o entretenimiento; precio y stock por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "66.33333333333333333333333333",
+    "precio_base_usd": 66.34,
+    "precio_paypal_calculado_usd": 70.443975,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 79",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-006",
@@ -123,7 +168,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-006.webp",
     "gancho": "Producto de audio bajo pedido para trabajo, estudio o entretenimiento; precio y stock por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "199.6666666666666666666666667",
+    "precio_base_usd": 199.67,
+    "precio_paypal_calculado_usd": 211.384779,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 219",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-007",
@@ -144,7 +198,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-007.webp",
     "gancho": "Producto de audio bajo pedido para trabajo, estudio o entretenimiento; precio y stock por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "9.967261904761904761904761905",
+    "precio_base_usd": 9.97,
+    "precio_paypal_calculado_usd": 10.856237,
+    "precio_venta_usd": 11,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 11",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-008",
@@ -165,7 +228,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-008.webp",
     "gancho": "Producto de audio bajo pedido para trabajo, estudio o entretenimiento; precio y stock por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "46.63392857142857142857142857",
+    "precio_base_usd": 46.64,
+    "precio_paypal_calculado_usd": 49.619451,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 59",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-009",
@@ -186,7 +258,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-009.webp",
     "gancho": "Producto de audio bajo pedido para trabajo, estudio o entretenimiento; precio y stock por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "766.3333333333333333333333333",
+    "precio_base_usd": 766.34,
+    "precio_paypal_calculado_usd": 810.401692,
+    "precio_venta_usd": 819,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 819",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-010",
@@ -207,7 +288,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-010.webp",
     "gancho": "Producto de audio bajo pedido para trabajo, estudio o entretenimiento; precio y stock por confirmar.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "499.6666666666666666666666667",
+    "precio_base_usd": 499.67,
+    "precio_paypal_calculado_usd": 528.509514,
+    "precio_venta_usd": 529,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 529",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-011",
@@ -228,7 +318,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-011.webp",
     "gancho": "Laptop bajo pedido para estudio, trabajo tecnico, creacion o gaming segun configuracion disponible.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1052",
+    "precio_base_usd": 1052.0,
+    "precio_paypal_calculado_usd": 1112.367865,
+    "precio_venta_usd": 1119,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1119",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-012",
@@ -249,7 +348,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-012.webp",
     "gancho": "Laptop bajo pedido para estudio, trabajo tecnico, creacion o gaming segun configuracion disponible.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1606.5",
+    "precio_base_usd": 1606.5,
+    "precio_paypal_calculado_usd": 1698.520085,
+    "precio_venta_usd": 1699,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1699",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-013",
@@ -270,7 +378,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-013.webp",
     "gancho": "Laptop bajo pedido para estudio, trabajo tecnico, creacion o gaming segun configuracion disponible.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1989.333333333333333333333333",
+    "precio_base_usd": 1989.34,
+    "precio_paypal_calculado_usd": 2103.213531,
+    "precio_venta_usd": 2109,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 2109",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-014",
@@ -291,7 +408,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-014.webp",
     "gancho": "Laptop bajo pedido para estudio, trabajo tecnico, creacion o gaming segun configuracion disponible.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "2650.5",
+    "precio_base_usd": 2650.5,
+    "precio_paypal_calculado_usd": 2802.114165,
+    "precio_venta_usd": 2809,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 2809",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-015",
@@ -311,7 +437,16 @@
     ],
     "imagen": "../assets/img/store/productos/tw-store-015.webp",
     "gancho": "Monitor bajo pedido para escritorio, clases, productividad o gaming; condiciones sujetas a disponibilidad.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "161.1666666666666666666666667",
+    "precio_base_usd": 161.17,
+    "precio_paypal_calculado_usd": 170.687104,
+    "precio_venta_usd": 179,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 179",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-016",
@@ -331,7 +466,16 @@
     ],
     "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "Monitor bajo pedido para escritorio, clases, productividad o gaming; condiciones sujetas a disponibilidad.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "156.5",
+    "precio_base_usd": 156.5,
+    "precio_paypal_calculado_usd": 165.750529,
+    "precio_venta_usd": 169,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 169",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-017",
@@ -351,7 +495,16 @@
     ],
     "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "Monitor bajo pedido para escritorio, clases, productividad o gaming; condiciones sujetas a disponibilidad.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "153",
+    "precio_base_usd": 153.0,
+    "precio_paypal_calculado_usd": 162.05074,
+    "precio_venta_usd": 169,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 169",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-018",
@@ -371,7 +524,16 @@
     ],
     "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "Monitor bajo pedido para escritorio, clases, productividad o gaming; condiciones sujetas a disponibilidad.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "139.1666666666666666666666667",
+    "precio_base_usd": 139.17,
+    "precio_paypal_calculado_usd": 147.43129,
+    "precio_venta_usd": 149,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 149",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-019",
@@ -391,7 +553,16 @@
     ],
     "imagen": "../assets/img/store/productos/monitor-24.svg",
     "gancho": "Monitor bajo pedido para escritorio, clases, productividad o gaming; condiciones sujetas a disponibilidad.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "107.8333333333333333333333333",
+    "precio_base_usd": 107.84,
+    "precio_paypal_calculado_usd": 114.312897,
+    "precio_venta_usd": 119,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 119",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-020",
@@ -412,7 +583,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1133",
+    "precio_base_usd": 1133.0,
+    "precio_paypal_calculado_usd": 1197.991544,
+    "precio_venta_usd": 1199,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1199",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-021",
@@ -433,7 +613,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1499.666666666666666666666667",
+    "precio_base_usd": 1499.67,
+    "precio_paypal_calculado_usd": 1585.591967,
+    "precio_venta_usd": 1589,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1589",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-022",
@@ -454,7 +643,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1799.666666666666666666666667",
+    "precio_base_usd": 1799.67,
+    "precio_paypal_calculado_usd": 1902.716702,
+    "precio_venta_usd": 1909,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1909",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-023",
@@ -475,7 +673,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "2663.333333333333333333333333",
+    "precio_base_usd": 2663.34,
+    "precio_paypal_calculado_usd": 2815.687104,
+    "precio_venta_usd": 2819,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 2819",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-024",
@@ -496,7 +703,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "189.6666666666666666666666667",
+    "precio_base_usd": 189.67,
+    "precio_paypal_calculado_usd": 200.813954,
+    "precio_venta_usd": 209,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 209",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-025",
@@ -517,7 +733,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "289.6666666666666666666666667",
+    "precio_base_usd": 289.67,
+    "precio_paypal_calculado_usd": 306.522199,
+    "precio_venta_usd": 309,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 309",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-026",
@@ -538,7 +763,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "3.3E+2",
+    "precio_base_usd": 330.0,
+    "precio_paypal_calculado_usd": 349.154335,
+    "precio_venta_usd": 359,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 359",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-027",
@@ -559,7 +793,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1166.333333333333333333333333",
+    "precio_base_usd": 1166.34,
+    "precio_paypal_calculado_usd": 1233.234673,
+    "precio_venta_usd": 1239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1239",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-028",
@@ -580,7 +823,16 @@
     ],
     "imagen": "../assets/img/store/productos/ipad-10.svg",
     "gancho": "Producto Apple bajo pedido con disponibilidad, garantia y entrega por confirmar antes del pago.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1633",
+    "precio_base_usd": 1633.0,
+    "precio_paypal_calculado_usd": 1726.53277,
+    "precio_venta_usd": 1729,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1729",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-029",
@@ -601,7 +853,16 @@
     ],
     "imagen": "../assets/img/store/productos/meta-quest-3.svg",
     "gancho": "Producto de realidad virtual bajo pedido para entretenimiento, demostracion o experiencia inmersiva.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "1066.333333333333333333333333",
+    "precio_base_usd": 1066.34,
+    "precio_paypal_calculado_usd": 1127.526428,
+    "precio_venta_usd": 1129,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 1129",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-030",
@@ -622,7 +883,16 @@
     ],
     "imagen": "../assets/img/store/productos/meta-quest-3.svg",
     "gancho": "Producto de realidad virtual bajo pedido para entretenimiento, demostracion o experiencia inmersiva.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "93",
+    "precio_base_usd": 93.0,
+    "precio_paypal_calculado_usd": 98.625793,
+    "precio_venta_usd": 99,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 99",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-031",
@@ -643,7 +913,16 @@
     ],
     "imagen": "../assets/img/store/productos/meta-quest-3.svg",
     "gancho": "Producto de realidad virtual bajo pedido para entretenimiento, demostracion o experiencia inmersiva.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "156.3333333333333333333333333",
+    "precio_base_usd": 156.34,
+    "precio_paypal_calculado_usd": 165.581396,
+    "precio_venta_usd": 169,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 169",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-032",
@@ -663,7 +942,16 @@
     ],
     "imagen": "../assets/img/store/productos/hub-usbc.svg",
     "gancho": "Accesorio tecnologico bajo pedido para mejorar productividad, conexion o control del equipo.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "129.6666666666666666666666667",
+    "precio_base_usd": 129.67,
+    "precio_paypal_calculado_usd": 137.389007,
+    "precio_venta_usd": 139,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 139",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-store-033",
@@ -683,6 +971,15 @@
     ],
     "imagen": "../assets/img/store/productos/hub-usbc.svg",
     "gancho": "Accesorio tecnologico bajo pedido para mejorar productividad, conexion o control del equipo.",
-    "ultima_revision": "2026-06-11"
+    "ultima_revision": "2026-06-11",
+    "precio_conversion_usd_sin_redondear": "199.6666666666666666666666667",
+    "precio_base_usd": 199.67,
+    "precio_paypal_calculado_usd": 211.384779,
+    "precio_venta_usd": 219,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 219",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   }
 ]

@@ -39,7 +39,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-software-medida&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Desarrollo de software a medida de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Desarrollo de software a medida de TW Innova.",
+    "precio_base_usd": 520.0,
+    "precio_paypal_calculado_usd": 550.0,
+    "precio_venta_usd": 559,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 559",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-web-empresarial",
@@ -80,7 +89,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-web-empresarial&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Sitio web empresarial en GitHub Pages de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Sitio web empresarial en GitHub Pages de TW Innova.",
+    "precio_base_usd": 280.0,
+    "precio_paypal_calculado_usd": 296.300212,
+    "precio_venta_usd": 299,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 299",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-catalogo-whatsapp",
@@ -122,7 +140,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-catalogo-whatsapp&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Catálogo web con flujo de compra por WhatsApp de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Catálogo web con flujo de compra por WhatsApp de TW Innova.",
+    "precio_base_usd": 350.0,
+    "precio_paypal_calculado_usd": 370.295984,
+    "precio_venta_usd": 379,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 379",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-dashboard-datos",
@@ -163,7 +190,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-dashboard-datos&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Dashboard interactivo con datos JSON/CSV de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Dashboard interactivo con datos JSON/CSV de TW Innova.",
+    "precio_base_usd": 450.0,
+    "precio_paypal_calculado_usd": 476.004229,
+    "precio_venta_usd": 479,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 479",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-qgis-plugin",
@@ -204,7 +240,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-qgis-plugin&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Desarrollo de plugin QGIS de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Desarrollo de plugin QGIS de TW Innova.",
+    "precio_base_usd": 720.0,
+    "precio_paypal_calculado_usd": 761.416491,
+    "precio_venta_usd": 769,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 769",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-python-automatizacion",
@@ -245,7 +290,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-python-automatizacion&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Automatización con Python de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Automatización con Python de TW Innova.",
+    "precio_base_usd": 170.0,
+    "precio_paypal_calculado_usd": 180.021142,
+    "precio_venta_usd": 189,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 189",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-ia-aplicada",
@@ -286,7 +340,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-ia-aplicada&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Prototipos de IA aplicada de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Prototipos de IA aplicada de TW Innova.",
+    "precio_base_usd": 650.0,
+    "precio_paypal_calculado_usd": 687.420719,
+    "precio_venta_usd": 689,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 689",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-huggingface-space",
@@ -327,7 +390,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-huggingface-space&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Despliegue de demo en Hugging Face Spaces de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Despliegue de demo en Hugging Face Spaces de TW Innova.",
+    "precio_base_usd": 280.0,
+    "precio_paypal_calculado_usd": 296.300212,
+    "precio_venta_usd": 299,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 299",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-metaquest-mantenimiento",
@@ -368,7 +440,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-metaquest-mantenimiento&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Diagnóstico y mantenimiento preventivo Meta Quest 2, 3S y 3 de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Diagnóstico y mantenimiento preventivo Meta Quest 2, 3S y 3 de TW Innova.",
+    "precio_base_usd": 45.0,
+    "precio_paypal_calculado_usd": 47.885836,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-metaquest-capacitacion",
@@ -409,7 +490,17 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-metaquest-capacitacion&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Capacitación Meta Quest para educación y empresa de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Capacitación Meta Quest para educación y empresa de TW Innova.",
+    "precio_base_usd": 60.0,
+    "precio_paypal_calculado_usd": 63.742072,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "tw-innova-gpu-mantenimiento",
@@ -451,7 +542,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-gpu-mantenimiento&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Diagnóstico y mantenimiento preventivo de GPU de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Diagnóstico y mantenimiento preventivo de GPU de TW Innova.",
+    "precio_base_usd": 55.0,
+    "precio_paypal_calculado_usd": 58.45666,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-estacion-ia",
@@ -491,7 +591,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-estacion-ia&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Armado y optimización de estación de trabajo para IA de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Armado y optimización de estación de trabajo para IA de TW Innova.",
+    "precio_base_usd": 150.0,
+    "precio_paypal_calculado_usd": 158.879493,
+    "precio_venta_usd": 159,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 159",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-arduino-robotica-basica",
@@ -532,7 +641,17 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-arduino-robotica-basica&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Robótica con Arduino UNO/Nano/Mega de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Robótica con Arduino UNO/Nano/Mega de TW Innova.",
+    "precio_base_usd": 69.0,
+    "precio_paypal_calculado_usd": 73.255814,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 79",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "tw-innova-arduino-line-follower",
@@ -574,7 +693,17 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-arduino-line-follower&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Robot seguidor de línea con PID y sensor ultrasónico de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Robot seguidor de línea con PID y sensor ultrasónico de TW Innova.",
+    "precio_base_usd": 79.0,
+    "precio_paypal_calculado_usd": 83.826639,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "tw-innova-iot-sensores",
@@ -616,7 +745,17 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-iot-sensores&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Prototipos IoT con sensores y dashboard de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Prototipos IoT con sensores y dashboard de TW Innova.",
+    "precio_base_usd": 250.0,
+    "precio_paypal_calculado_usd": 264.587738,
+    "precio_venta_usd": 269,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 269",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "tw-innova-vision-opencv",
@@ -657,7 +796,17 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-vision-opencv&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Visión por computadora con OpenCV de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Visión por computadora con OpenCV de TW Innova.",
+    "precio_base_usd": 79.0,
+    "precio_paypal_calculado_usd": 83.826639,
+    "precio_venta_usd": 89,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 89",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "tw-innova-open-source-pack",
@@ -698,7 +847,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-open-source-pack&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Publicación de software open-source con manual PDF de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Publicación de software open-source con manual PDF de TW Innova.",
+    "precio_base_usd": 220.0,
+    "precio_paypal_calculado_usd": 232.875265,
+    "precio_venta_usd": 239,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 239",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-appimage-launcher",
@@ -738,7 +896,15 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-appimage-launcher&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar AppImage Launcher Creator y Uninstaller de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar AppImage Launcher Creator y Uninstaller de TW Innova.",
+    "precio_base_usd": 0.0,
+    "precio_paypal_calculado_usd": 0.0,
+    "precio_venta_usd": 0,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Gratis",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-innova-ciberseguridad-basica",
@@ -778,7 +944,16 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-ciberseguridad-basica&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Auditoría técnica básica de sitio web estático de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Auditoría técnica básica de sitio web estático de TW Innova.",
+    "precio_base_usd": 120.0,
+    "precio_paypal_calculado_usd": 127.16702,
+    "precio_venta_usd": 129,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 129",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha."
   },
   {
     "id": "tw-innova-git-github",
@@ -818,7 +993,17 @@
     ],
     "imagen": "assets/img/software/software-open-source-tools.svg",
     "url_detalle": "detalle/oferta.html?id=tw-innova-git-github&linea=tw-innova",
-    "whatsapp_message": "Hola, deseo cotizar Git, GitHub y GitHub Pages para proyectos profesionales de TW Innova."
+    "whatsapp_message": "Hola, deseo cotizar Git, GitHub y GitHub Pages para proyectos profesionales de TW Innova.",
+    "precio_base_usd": 49.0,
+    "precio_paypal_calculado_usd": 52.114165,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b",
+    "alcance_precio_desde": "Modalidad inicial publicada; revisa los entregables y condiciones de esta ficha.",
+    "estado_publico": "Matrícula abierta"
   },
   {
     "id": "corvus-ai-v4-alpha",
@@ -861,6 +1046,14 @@
     "imagen_alt": "Ilustración comercial de la interfaz de CORVUS AI v4 alpha",
     "url_detalle": "innova/corvus-ai-v4/index.html",
     "whatsapp_message": "Hola Tecprog World, deseo consultar sobre CORVUS AI v4 alpha.",
-    "accion_whatsapp": "Consultar sobre CORVUS"
+    "accion_whatsapp": "Consultar sobre CORVUS",
+    "precio_base_usd": 0.0,
+    "precio_paypal_calculado_usd": 0.0,
+    "precio_venta_usd": 0,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Gratis",
+    "precio_origen": "USD histórico",
+    "precio_version": "20260909-2b"
   }
 ]

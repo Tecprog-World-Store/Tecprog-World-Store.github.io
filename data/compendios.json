@@ -23,7 +23,16 @@
     "shareDescription": "Compendio técnico de apoyo para aprender modos de operación, variables, matrices, ecuaciones y rutinas User RPL introductorias aplicadas a ingeniería.",
     "repoUrl": "",
     "pdfUrl": "assets/pdf/compendios/hp-50g-programacion-ingenieria.pdf",
-    "demoUrl": ""
+    "demoUrl": "",
+    "precio_conversion_usd_sin_redondear": "8.630952380952380952380952381",
+    "precio_base_usd": 8.64,
+    "precio_paypal_calculado_usd": 9.450318,
+    "precio_venta_usd": 10,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 10",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "qgis-basico-ingenieria-gestion-territorial",
@@ -49,6 +58,15 @@
     "shareDescription": "Guía técnica de apoyo para introducir SIG, interfaz QGIS, sistemas de coordenadas, capas, simbología, tablas, geoprocesamiento y diseño de mapas.",
     "repoUrl": "",
     "pdfUrl": "assets/pdf/compendios/qgis-basico-ingenieria-gestion-territorial.pdf",
-    "demoUrl": ""
+    "demoUrl": "",
+    "precio_conversion_usd_sin_redondear": "8.630952380952380952380952381",
+    "precio_base_usd": 8.64,
+    "precio_paypal_calculado_usd": 9.450318,
+    "precio_venta_usd": 10,
+    "moneda_publica": "USD",
+    "precio_desde_usd": false,
+    "precio_texto_usd": "USD 10",
+    "precio_origen": "PEN / 3.360; SBS venta 2026-09-08 vía BCRP",
+    "precio_version": "20260909-2b"
   }
 ]

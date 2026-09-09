@@ -13,7 +13,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 199 IGV incluido",
     "precio_soles": 199,
@@ -24,7 +24,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 99
       },
       {
         "publico": "Profesional",
@@ -32,7 +35,10 @@
         "lanzamiento_soles": 449,
         "regular_soles": 599,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 119,
+        "lanzamiento_venta_usd": 149,
+        "regular_venta_usd": 189
       }
     ],
     "moneda": "PEN",
@@ -286,7 +292,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-02",
@@ -302,7 +316,7 @@
     "descripcion_larga": "Curso práctico con enfoque TW Innova para construir software extensible: comandos, interfaces WPF, Ribbon, PaletteSet, automatización, datos, geometría 2D/3D, bundle e instalador.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -313,7 +327,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 249,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -321,7 +338,10 @@
         "lanzamiento_soles": 399,
         "regular_soles": 499,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 99,
+        "lanzamiento_venta_usd": 129,
+        "regular_venta_usd": 159
       }
     ],
     "moneda": "PEN",
@@ -1014,7 +1034,15 @@
       "Automatización CAD",
       "Plugins GUI",
       "AutoCAD 2027"
-    ]
+    ],
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-03",
@@ -1030,7 +1058,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -1041,7 +1069,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 249,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -1049,7 +1080,10 @@
         "lanzamiento_soles": 449,
         "regular_soles": 599,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 119,
+        "lanzamiento_venta_usd": 149,
+        "regular_venta_usd": 189
       }
     ],
     "moneda": "PEN",
@@ -1303,7 +1337,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-04",
@@ -1319,7 +1361,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 179 IGV incluido",
     "precio_soles": 179,
@@ -1330,7 +1372,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 99
       },
       {
         "publico": "Profesional",
@@ -1338,7 +1383,10 @@
         "lanzamiento_soles": 499,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 129,
+        "lanzamiento_venta_usd": 159,
+        "regular_venta_usd": 219
       }
     ],
     "moneda": "PEN",
@@ -1592,7 +1640,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-05",
@@ -1608,7 +1664,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 199 IGV incluido",
     "precio_soles": 199,
@@ -1619,7 +1675,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -1627,7 +1686,10 @@
         "lanzamiento_soles": 599,
         "regular_soles": 799,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 149,
+        "lanzamiento_venta_usd": 189,
+        "regular_venta_usd": 249
       }
     ],
     "moneda": "PEN",
@@ -1881,7 +1943,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-06",
@@ -1897,7 +1967,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 99 IGV incluido",
     "precio_soles": 99,
@@ -1908,7 +1978,10 @@
         "lanzamiento_soles": 149,
         "regular_soles": 199,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 69
       },
       {
         "publico": "Profesional / investigador",
@@ -1916,7 +1989,10 @@
         "lanzamiento_soles": 349,
         "regular_soles": 499,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 79,
+        "lanzamiento_venta_usd": 119,
+        "regular_venta_usd": 159
       },
       {
         "publico": "Premium con asesoría",
@@ -1924,7 +2000,10 @@
         "lanzamiento_soles": 799,
         "regular_soles": 999,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 189,
+        "lanzamiento_venta_usd": 249,
+        "regular_venta_usd": 319
       }
     ],
     "moneda": "PEN",
@@ -2178,7 +2257,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-07",
@@ -2194,7 +2281,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 179 IGV incluido",
     "precio_soles": 179,
@@ -2205,7 +2292,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -2213,7 +2303,10 @@
         "lanzamiento_soles": 549,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 129,
+        "lanzamiento_venta_usd": 179,
+        "regular_venta_usd": 219
       },
       {
         "publico": "Premium con asesoría",
@@ -2221,7 +2314,10 @@
         "lanzamiento_soles": 999,
         "regular_soles": 1299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 249,
+        "lanzamiento_venta_usd": 319,
+        "regular_venta_usd": 409
       }
     ],
     "moneda": "PEN",
@@ -2475,7 +2571,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-08",
@@ -2491,7 +2595,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 199 IGV incluido",
     "precio_soles": 199,
@@ -2502,7 +2606,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -2510,7 +2617,10 @@
         "lanzamiento_soles": 599,
         "regular_soles": 799,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 149,
+        "lanzamiento_venta_usd": 189,
+        "regular_venta_usd": 249
       },
       {
         "publico": "Premium con asesoría",
@@ -2518,7 +2628,10 @@
         "lanzamiento_soles": 1099,
         "regular_soles": 1499,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 289,
+        "lanzamiento_venta_usd": 349,
+        "regular_venta_usd": 469
       }
     ],
     "moneda": "PEN",
@@ -2772,7 +2885,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-09",
@@ -2788,7 +2909,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 249 IGV incluido",
     "precio_soles": 249,
@@ -2799,7 +2920,10 @@
         "lanzamiento_soles": 349,
         "regular_soles": 449,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 79,
+        "lanzamiento_venta_usd": 119,
+        "regular_venta_usd": 149
       },
       {
         "publico": "Profesional",
@@ -2807,7 +2931,10 @@
         "lanzamiento_soles": 799,
         "regular_soles": 999,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 189,
+        "lanzamiento_venta_usd": 249,
+        "regular_venta_usd": 319
       },
       {
         "publico": "Premium con asesoría",
@@ -2815,7 +2942,10 @@
         "lanzamiento_soles": 1499,
         "regular_soles": 1999,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 379,
+        "lanzamiento_venta_usd": 469,
+        "regular_venta_usd": 629
       }
     ],
     "moneda": "PEN",
@@ -3069,7 +3199,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 73.0,
+    "precio_paypal_calculado_usd": 77.484144,
+    "precio_venta_usd": 79,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 79",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-10",
@@ -3085,7 +3223,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 179 IGV incluido",
     "precio_soles": 179,
@@ -3096,7 +3234,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -3104,7 +3245,10 @@
         "lanzamiento_soles": 549,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 129,
+        "lanzamiento_venta_usd": 179,
+        "regular_venta_usd": 219
       },
       {
         "publico": "Premium con asesoría",
@@ -3112,7 +3256,10 @@
         "lanzamiento_soles": 999,
         "regular_soles": 1299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 249,
+        "lanzamiento_venta_usd": 319,
+        "regular_venta_usd": 409
       }
     ],
     "moneda": "PEN",
@@ -3366,7 +3513,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-11",
@@ -3382,7 +3537,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -3393,7 +3548,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 99
       },
       {
         "publico": "Profesional",
@@ -3401,7 +3559,10 @@
         "lanzamiento_soles": 499,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 119,
+        "lanzamiento_venta_usd": 159,
+        "regular_venta_usd": 219
       },
       {
         "publico": "Premium con asesoría",
@@ -3409,7 +3570,10 @@
         "lanzamiento_soles": 999,
         "regular_soles": 1299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 249,
+        "lanzamiento_venta_usd": 319,
+        "regular_venta_usd": 409
       }
     ],
     "moneda": "PEN",
@@ -3663,7 +3827,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-12",
@@ -3679,7 +3851,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -3690,7 +3862,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 99
       },
       {
         "publico": "Profesional",
@@ -3698,7 +3873,10 @@
         "lanzamiento_soles": 499,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 119,
+        "lanzamiento_venta_usd": 159,
+        "regular_venta_usd": 219
       },
       {
         "publico": "Premium con asesoría",
@@ -3706,7 +3884,10 @@
         "lanzamiento_soles": 999,
         "regular_soles": 1299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 249,
+        "lanzamiento_venta_usd": 319,
+        "regular_venta_usd": 409
       }
     ],
     "moneda": "PEN",
@@ -3960,7 +4141,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-13",
@@ -3976,7 +4165,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 179 IGV incluido",
     "precio_soles": 179,
@@ -3987,7 +4176,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -3995,7 +4187,10 @@
         "lanzamiento_soles": 549,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 129,
+        "lanzamiento_venta_usd": 179,
+        "regular_venta_usd": 219
       },
       {
         "publico": "Premium con asesoría",
@@ -4003,7 +4198,10 @@
         "lanzamiento_soles": 999,
         "regular_soles": 1299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 249,
+        "lanzamiento_venta_usd": 319,
+        "regular_venta_usd": 409
       }
     ],
     "moneda": "PEN",
@@ -4257,7 +4455,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-14",
@@ -4273,7 +4479,7 @@
     "descripcion_larga": "",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Consultar",
     "precio": "Desde S/ 199 IGV incluido",
     "precio_soles": 199,
@@ -4284,7 +4490,10 @@
         "lanzamiento_soles": 299,
         "regular_soles": 399,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 99,
+        "regular_venta_usd": 129
       },
       {
         "publico": "Profesional",
@@ -4292,7 +4501,10 @@
         "lanzamiento_soles": 699,
         "regular_soles": 899,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 159,
+        "lanzamiento_venta_usd": 219,
+        "regular_venta_usd": 289
       },
       {
         "publico": "Premium con asesoría",
@@ -4300,7 +4512,10 @@
         "lanzamiento_soles": 1299,
         "regular_soles": 1699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 319,
+        "lanzamiento_venta_usd": 409,
+        "regular_venta_usd": 529
       }
     ],
     "moneda": "PEN",
@@ -4554,7 +4769,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-15",
@@ -4570,7 +4793,7 @@
     "descripcion_larga": "Curso práctico de Costos y Presupuestos con S10 es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico a intermedio",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -4581,7 +4804,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 249,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -4589,7 +4815,10 @@
         "lanzamiento_soles": 399,
         "regular_soles": 499,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 99,
+        "lanzamiento_venta_usd": 129,
+        "regular_venta_usd": 159
       }
     ],
     "moneda": "PEN",
@@ -4936,7 +5165,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-16",
@@ -4952,7 +5189,7 @@
     "descripcion_larga": "Curso práctico de SAP2000 para Análisis Estructural es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico a intermedio",
     "precio": "Desde S/ 179 IGV incluido",
     "precio_soles": 179,
@@ -4963,7 +5200,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -4971,7 +5211,10 @@
         "lanzamiento_soles": 549,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 129,
+        "lanzamiento_venta_usd": 179,
+        "regular_venta_usd": 219
       }
     ],
     "moneda": "PEN",
@@ -5317,7 +5560,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-17",
@@ -5333,7 +5584,7 @@
     "descripcion_larga": "Curso práctico de ETABS para Modelado Estructural es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico a intermedio",
     "precio": "Desde S/ 179 IGV incluido",
     "precio_soles": 179,
@@ -5344,7 +5595,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -5352,7 +5606,10 @@
         "lanzamiento_soles": 549,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 129,
+        "lanzamiento_venta_usd": 179,
+        "regular_venta_usd": 219
       }
     ],
     "moneda": "PEN",
@@ -5698,7 +5955,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-18",
@@ -5714,7 +5979,7 @@
     "descripcion_larga": "Curso práctico de Autodesk Inventor para Diseño Mecánico es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico a intermedio",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -5725,7 +5990,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 99
       },
       {
         "publico": "Profesional",
@@ -5733,7 +6001,10 @@
         "lanzamiento_soles": 449,
         "regular_soles": 599,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 119,
+        "lanzamiento_venta_usd": 149,
+        "regular_venta_usd": 189
       }
     ],
     "moneda": "PEN",
@@ -6079,7 +6350,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-19",
@@ -6095,7 +6374,7 @@
     "descripcion_larga": "Curso práctico de Revit para Modelado BIM es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -6106,7 +6385,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "Profesional",
@@ -6114,7 +6396,10 @@
         "lanzamiento_soles": 499,
         "regular_soles": 699,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 119,
+        "lanzamiento_venta_usd": 159,
+        "regular_venta_usd": 219
       }
     ],
     "moneda": "PEN",
@@ -6460,7 +6745,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-20",
@@ -6476,7 +6769,7 @@
     "descripcion_larga": "Curso práctico de Excel Nivel I es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 79 IGV incluido",
     "precio_soles": 79,
@@ -6487,7 +6780,10 @@
         "lanzamiento_soles": 99,
         "regular_soles": 149,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 29,
+        "lanzamiento_venta_usd": 39,
+        "regular_venta_usd": 49
       },
       {
         "publico": "Profesional",
@@ -6495,7 +6791,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 249,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 79
       }
     ],
     "moneda": "PEN",
@@ -6840,7 +7139,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 24.0,
+    "precio_paypal_calculado_usd": 25.687104,
+    "precio_venta_usd": 29,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 29",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-21",
@@ -6856,7 +7163,7 @@
     "descripcion_larga": "Curso práctico de Excel Nivel II es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Intermedio",
     "precio": "Desde S/ 99 IGV incluido",
     "precio_soles": 99,
@@ -6867,7 +7174,10 @@
         "lanzamiento_soles": 129,
         "regular_soles": 179,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 59
       },
       {
         "publico": "Profesional",
@@ -6875,7 +7185,10 @@
         "lanzamiento_soles": 229,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 99
       }
     ],
     "moneda": "PEN",
@@ -7221,7 +7534,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-22",
@@ -7237,7 +7558,7 @@
     "descripcion_larga": "Curso práctico de Excel Nivel III es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Intermedio a avanzado",
     "precio": "Desde S/ 119 IGV incluido",
     "precio_soles": 119,
@@ -7248,7 +7569,10 @@
         "lanzamiento_soles": 149,
         "regular_soles": 199,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 69
       },
       {
         "publico": "Profesional",
@@ -7256,7 +7580,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       }
     ],
     "moneda": "PEN",
@@ -7602,7 +7929,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-23",
@@ -7618,7 +7953,7 @@
     "descripcion_larga": "Curso práctico de AutoCAD Nivel I es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 99 IGV incluido",
     "precio_soles": 99,
@@ -7629,7 +7964,10 @@
         "lanzamiento_soles": 149,
         "regular_soles": 199,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 69
       },
       {
         "publico": "Profesional",
@@ -7637,7 +7975,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       }
     ],
     "moneda": "PEN",
@@ -7983,7 +8324,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-24",
@@ -7999,7 +8348,7 @@
     "descripcion_larga": "Curso práctico de AutoCAD Nivel II es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Intermedio",
     "precio": "Desde S/ 119 IGV incluido",
     "precio_soles": 119,
@@ -8010,7 +8359,10 @@
         "lanzamiento_soles": 169,
         "regular_soles": 229,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 59,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -8018,7 +8370,10 @@
         "lanzamiento_soles": 299,
         "regular_soles": 399,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 79,
+        "lanzamiento_venta_usd": 99,
+        "regular_venta_usd": 129
       }
     ],
     "moneda": "PEN",
@@ -8364,7 +8719,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-25",
@@ -8380,7 +8743,7 @@
     "descripcion_larga": "Curso práctico de AutoCAD Nivel III es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Avanzado",
     "precio": "Desde S/ 129 IGV incluido",
     "precio_soles": 129,
@@ -8391,7 +8754,10 @@
         "lanzamiento_soles": 179,
         "regular_soles": 249,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 59,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -8399,7 +8765,10 @@
         "lanzamiento_soles": 329,
         "regular_soles": 449,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 79,
+        "lanzamiento_venta_usd": 109,
+        "regular_venta_usd": 149
       }
     ],
     "moneda": "PEN",
@@ -8745,7 +9114,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 38.0,
+    "precio_paypal_calculado_usd": 40.486258,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-26",
@@ -8761,7 +9138,7 @@
     "descripcion_larga": "Curso práctico de SolidWorks para Diseño 3D es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico a intermedio",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -8772,7 +9149,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 99
       },
       {
         "publico": "Profesional",
@@ -8780,7 +9160,10 @@
         "lanzamiento_soles": 449,
         "regular_soles": 599,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 119,
+        "lanzamiento_venta_usd": 149,
+        "regular_venta_usd": 189
       }
     ],
     "moneda": "PEN",
@@ -9126,7 +9509,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-27",
@@ -9142,7 +9533,7 @@
     "descripcion_larga": "Curso práctico de FreeCAD para Diseño 3D es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 99 IGV incluido",
     "precio_soles": 99,
@@ -9153,7 +9544,10 @@
         "lanzamiento_soles": 149,
         "regular_soles": 199,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 69
       },
       {
         "publico": "Profesional",
@@ -9161,7 +9555,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       }
     ],
     "moneda": "PEN",
@@ -9506,7 +9903,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-28",
@@ -9522,7 +9927,7 @@
     "descripcion_larga": "Curso práctico de MATLAB y Octave para Ingeniería es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico a intermedio",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -9533,7 +9938,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 249,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -9541,7 +9949,10 @@
         "lanzamiento_soles": 399,
         "regular_soles": 499,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 99,
+        "lanzamiento_venta_usd": 129,
+        "regular_venta_usd": 159
       }
     ],
     "moneda": "PEN",
@@ -9887,7 +10298,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-29",
@@ -9903,7 +10322,7 @@
     "descripcion_larga": "Curso práctico de Python Básico es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 99 IGV incluido",
     "precio_soles": 99,
@@ -9914,7 +10333,10 @@
         "lanzamiento_soles": 149,
         "regular_soles": 199,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 69
       },
       {
         "publico": "Profesional",
@@ -9922,7 +10344,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       }
     ],
     "moneda": "PEN",
@@ -10268,7 +10693,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-30",
@@ -10284,7 +10717,7 @@
     "descripcion_larga": "Curso práctico de Python POO es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Intermedio",
     "precio": "Desde S/ 119 IGV incluido",
     "precio_soles": 119,
@@ -10295,7 +10728,10 @@
         "lanzamiento_soles": 169,
         "regular_soles": 229,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 59,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -10303,7 +10739,10 @@
         "lanzamiento_soles": 299,
         "regular_soles": 399,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 79,
+        "lanzamiento_venta_usd": 99,
+        "regular_venta_usd": 129
       }
     ],
     "moneda": "PEN",
@@ -10649,7 +11088,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 35.0,
+    "precio_paypal_calculado_usd": 37.315011,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-31",
@@ -10665,7 +11112,7 @@
     "descripcion_larga": "Curso práctico de Python Web es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Intermedio",
     "precio": "Desde S/ 149 IGV incluido",
     "precio_soles": 149,
@@ -10676,7 +11123,10 @@
         "lanzamiento_soles": 199,
         "regular_soles": 249,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 49,
+        "lanzamiento_venta_usd": 69,
+        "regular_venta_usd": 79
       },
       {
         "publico": "Profesional",
@@ -10684,7 +11134,10 @@
         "lanzamiento_soles": 399,
         "regular_soles": 499,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 99,
+        "lanzamiento_venta_usd": 129,
+        "regular_venta_usd": 159
       }
     ],
     "moneda": "PEN",
@@ -11032,7 +11485,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 44.0,
+    "precio_paypal_calculado_usd": 46.828753,
+    "precio_venta_usd": 49,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 49",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-32",
@@ -11048,7 +11509,7 @@
     "descripcion_larga": "Curso práctico de Frontend Web es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 99 IGV incluido",
     "precio_soles": 99,
@@ -11059,7 +11520,10 @@
         "lanzamiento_soles": 149,
         "regular_soles": 199,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 69
       },
       {
         "publico": "Profesional",
@@ -11067,7 +11531,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       }
     ],
     "moneda": "PEN",
@@ -11413,7 +11880,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 30.0,
+    "precio_paypal_calculado_usd": 32.029599,
+    "precio_venta_usd": 39,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 39",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-33",
@@ -11429,7 +11904,7 @@
     "descripcion_larga": "Curso práctico de Informática Básica es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 69 IGV incluido",
     "precio_soles": 69,
@@ -11440,7 +11915,10 @@
         "lanzamiento_soles": 89,
         "regular_soles": 129,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 29,
+        "lanzamiento_venta_usd": 29,
+        "regular_venta_usd": 49
       },
       {
         "publico": "General",
@@ -11448,7 +11926,10 @@
         "lanzamiento_soles": 149,
         "regular_soles": 199,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 39,
+        "lanzamiento_venta_usd": 49,
+        "regular_venta_usd": 69
       }
     ],
     "moneda": "PEN",
@@ -11794,7 +12275,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 21.0,
+    "precio_paypal_calculado_usd": 22.515857,
+    "precio_venta_usd": 29,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 29",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-34",
@@ -11810,7 +12299,7 @@
     "descripcion_larga": "Curso práctico de GNU/Linux es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Básico",
     "precio": "Desde S/ 89 IGV incluido",
     "precio_soles": 89,
@@ -11821,7 +12310,10 @@
         "lanzamiento_soles": 119,
         "regular_soles": 169,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 29,
+        "lanzamiento_venta_usd": 39,
+        "regular_venta_usd": 59
       },
       {
         "publico": "Profesional",
@@ -11829,7 +12321,10 @@
         "lanzamiento_soles": 229,
         "regular_soles": 299,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 99
       }
     ],
     "moneda": "PEN",
@@ -12175,7 +12670,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 27.0,
+    "precio_paypal_calculado_usd": 28.858351,
+    "precio_venta_usd": 29,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 29",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-35",
@@ -12191,7 +12694,7 @@
     "descripcion_larga": "Preparación para Admisión UNMSM es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Preuniversitario intensivo",
     "precio": "Desde S/ 179 IGV incluido",
     "precio_soles": 179,
@@ -12202,7 +12705,10 @@
         "lanzamiento_soles": 249,
         "regular_soles": 349,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 119
       },
       {
         "publico": "General",
@@ -12210,7 +12716,10 @@
         "lanzamiento_soles": 349,
         "regular_soles": 449,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 79,
+        "lanzamiento_venta_usd": 119,
+        "regular_venta_usd": 149
       }
     ],
     "moneda": "PEN",
@@ -12708,7 +13217,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 53.0,
+    "precio_paypal_calculado_usd": 56.342495,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-36",
@@ -12724,7 +13241,7 @@
     "descripcion_larga": "Preparación para Admisión UNI es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Preuniversitario intensivo",
     "precio": "Desde S/ 199 IGV incluido",
     "precio_soles": 199,
@@ -12735,7 +13252,10 @@
         "lanzamiento_soles": 279,
         "regular_soles": 379,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 69,
+        "lanzamiento_venta_usd": 89,
+        "regular_venta_usd": 119
       },
       {
         "publico": "General",
@@ -12743,7 +13263,10 @@
         "lanzamiento_soles": 379,
         "regular_soles": 499,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 89,
+        "lanzamiento_venta_usd": 119,
+        "regular_venta_usd": 159
       }
     ],
     "moneda": "PEN",
@@ -13241,7 +13764,15 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 59.0,
+    "precio_paypal_calculado_usd": 62.68499,
+    "precio_venta_usd": 69,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 69",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   },
   {
     "id": "tw-educa-curso-37",
@@ -13257,7 +13788,7 @@
     "descripcion_larga": "Preparación para Admisión UNAC es una propuesta formativa online de Tecprog World orientada a desarrollar competencias aplicables y medibles. La metodología combina explicación conceptual, demostración paso a paso, práctica supervisada y construcción de un entregable final. El contenido debe actualizarse antes de cada edición para mantener compatibilidad con las versiones del software, la normativa o el proceso de admisión correspondiente.",
     "modalidad": "Online",
     "estado": "proxima_convocatoria",
-    "estado_publico": "Próxima convocatoria",
+    "estado_publico": "Matrícula abierta",
     "nivel": "Preuniversitario intensivo",
     "precio": "Desde S/ 159 IGV incluido",
     "precio_soles": 159,
@@ -13268,7 +13799,10 @@
         "lanzamiento_soles": 229,
         "regular_soles": 329,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 59,
+        "lanzamiento_venta_usd": 79,
+        "regular_venta_usd": 109
       },
       {
         "publico": "General",
@@ -13276,7 +13810,10 @@
         "lanzamiento_soles": 329,
         "regular_soles": 429,
         "moneda": "PEN",
-        "incluye_igv": true
+        "incluye_igv": true,
+        "preventa_venta_usd": 79,
+        "lanzamiento_venta_usd": 109,
+        "regular_venta_usd": 139
       }
     ],
     "moneda": "PEN",
@@ -13774,6 +14311,14 @@
       "confianza": "alta"
     },
     "og_type": "website",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "precio_base_usd": 47.0,
+    "precio_paypal_calculado_usd": 50.0,
+    "precio_venta_usd": 59,
+    "moneda_publica": "USD",
+    "precio_desde_usd": true,
+    "precio_texto_usd": "Desde USD 59",
+    "precio_origen": "Mínimo USD histórico por perfil/etapa",
+    "precio_version": "20260909-2b"
   }
 ]

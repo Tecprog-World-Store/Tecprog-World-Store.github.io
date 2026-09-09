@@ -95,10 +95,10 @@ function offerCard(item) {
         <h3>${offerEscape(item.oferta)}</h3>
         <p>${offerEscape(item.descripcion_corta)}</p>
         <div class="catalog-meta">
-          <span>${offerEscape(item.madurez)} · ${offerEscape(item.prioridad)}</span>
-          <strong>${offerEscape(item.precio_soles_texto)}</strong>
+
+          <strong>${offerEscape(window.TWPrecio(item))}</strong>
         </div>
-        <p class="usd-price">${offerEscape(item.precio_usd_texto)}</p>
+
         <div class="catalog-actions">
           <a class="btn btn-small btn-primary" href="${detailHref}">Ver más</a>
         </div>

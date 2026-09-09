@@ -435,3 +435,5 @@ document.addEventListener("DOMContentLoaded", () => {
   twExternalAttrs();
   window.setTimeout(setupProgressiveNavigation, 0);
 });
+// Precio público ya calculado en la fuente canónica; no convierte ni aplica cargos en el navegador.
+window.TWPrecio = (item) => item.precio_texto_usd || (item.precio_venta_usd === 0 ? 'Gratis' : `${item.precio_desde_usd ? 'Desde ' : ''}USD ${item.precio_venta_usd}`);

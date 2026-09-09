@@ -50,9 +50,9 @@ function commercialInquiryMessage(course) {
 
 function modalityInquiryMessage(course, price) {
   const values = [
-    price.preventa_soles ? `preventa S/ ${price.preventa_soles}` : "",
-    price.lanzamiento_soles ? `lanzamiento S/ ${price.lanzamiento_soles}` : "",
-    price.regular_soles ? `regular S/ ${price.regular_soles}` : "",
+    price.preventa_venta_usd ? `preventa USD ${price.preventa_venta_usd}` : "",
+    price.lanzamiento_venta_usd ? `lanzamiento USD ${price.lanzamiento_venta_usd}` : "",
+    price.regular_venta_usd ? `regular USD ${price.regular_venta_usd}` : "",
   ].filter(Boolean).join(", ");
   return `Hola, deseo inscribirme en el curso "${course.title}" con la modalidad "${price.publico}".\n\nPrecios publicados: ${values || "consultar inversión"}.\n\nPor favor, confirmen disponibilidad, fecha de inicio y medios de pago.`;
 }
@@ -82,12 +82,12 @@ function normalizeCourse(item, sourceType) {
       hours: item.duracion || "16 horas",
       duration: item.duracion || "4 sesiones en vivo",
       modality: item.modalidad || "Online",
-      pricePen: item.precio || "Consultar inversión",
-      priceUsd: "Ver tabla USD por perfil y etapa",
+      pricePen: window.TWPrecio(item),
+      priceUsd: window.TWPrecio(item),
       moocText: item.estado_publico || "Curso próximo",
       moocButton: "Consultar vacantes",
-      certificateText: "Certificado físico y firmado según modalidad",
-      paidText: item.precio || "Consultar inversión",
+      certificateText: "Certificación según modalidad",
+      paidText: window.TWPrecio(item),
       priceNote: item.nota_cronograma || "Inicio sujeto a confirmación de grupo mínimo.",
       modalityTags: [item.estado_publico, item.fecha_inicio_publica, item.modalidad].filter(Boolean),
       shortDescription: item.descripcion_corta,
@@ -135,12 +135,12 @@ function normalizeCourse(item, sourceType) {
       hours: item.horas_certificables,
       duration: item.duracion_referencial,
       modality: item.modalidad,
-      pricePen: item.precio_peru_igv_soles ? `S/ ${item.precio_peru_igv_soles} IGV incluido` : "Consultar",
-      priceUsd: item.precio_internacional_usd ? `USD ${item.precio_internacional_usd}` : "Consultar",
+      pricePen: window.TWPrecio(item),
+      priceUsd: window.TWPrecio(item),
       moocText: item.mooc_texto || "Consulta de inscripción",
       moocButton: item.boton_mooc || "Consultar inscripción",
-      certificateText: item.certificado_texto || (item.certificado_desde_soles ? `Certificado desde S/ ${item.certificado_desde_soles}` : "Certificado: consultar"),
-      paidText: item.precio_pago_texto || (item.precio_peru_igv_soles ? `Acceso completo desde S/ ${item.precio_peru_igv_soles}` : "Acceso completo: consultar"),
+      certificateText: "Certificación según modalidad",
+      paidText: window.TWPrecio(item),
       priceNote: item.nota_precio_mooc || item.politica_precio || EDUCA_PRICE_NOTE,
       modalityTags: item.modalidad_tags || [],
       shortDescription: item.descripcion_corta,
@@ -174,12 +174,12 @@ function normalizeCourse(item, sourceType) {
     hours: item.horas_certificables || "Consultar",
     duration: item.duracion_referencial || "Consultar",
     modality: item.modalidad || "Virtual",
-    pricePen: item.precio_desde || item.precio || "Consultar",
-    priceUsd: item.precio_usd || "Consultar",
+    pricePen: window.TWPrecio(item),
+    priceUsd: window.TWPrecio(item),
     moocText: item.mooc_texto || "Consulta de inscripción",
     moocButton: item.boton_mooc || "Consultar inscripción",
-    certificateText: item.certificado_texto || (item.certificado_desde_soles ? `Certificado desde S/ ${item.certificado_desde_soles}` : "Certificado: consultar"),
-    paidText: item.precio_pago_texto || item.precio_desde || item.precio || "Acceso completo: consultar",
+    certificateText: "Certificación según modalidad",
+    paidText: window.TWPrecio(item),
     priceNote: item.nota_precio_mooc || EDUCA_PRICE_NOTE,
     modalityTags: item.modalidad_tags || [],
     shortDescription: item.descripcion_corta || item.descripcion || "",
@@ -318,15 +318,15 @@ function investmentUsdMarkup(coursePricing) {
             ${profiles.map((item) => `
               <tr>
                 <td>${esc(item.publico)}</td>
-                <td>USD ${esc(item.preventa_usd)}</td>
-                <td>USD ${esc(item.lanzamiento_usd)}</td>
-                <td>USD ${esc(item.regular_usd)}</td>
+                <td>USD ${esc(item.preventa_venta_usd)}</td>
+                <td>USD ${esc(item.lanzamiento_venta_usd)}</td>
+                <td>USD ${esc(item.regular_venta_usd)}</td>
               </tr>
             `).join("")}
           </tbody>
         </table>
       </div>
-      <p>Equivalencia internacional referencial, calculada centralmente y redondeada al dólar entero. Confirma la etapa y el importe final antes de pagar.</p>
+      <p>Precios en USD por perfil y etapa. Selecciona tu modalidad de matrícula.</p>
     </article>
     <article class="detail-block international-payment-card">
       <h2>Pagos internacionales</h2>
@@ -435,7 +435,7 @@ async function renderDetail() {
           ${optionalList("Entregables", current.deliverables)}
           ${optionalList("Herramientas y tecnologias", current.tools)}
           ${optionalList("Metodologia", current.methodology)}
-          ${investmentMarkup(current.prices)}
+
           ${investmentUsdMarkup(internationalCourse)}
           <article class="detail-block">
             <h2>Inscripcion y certificacion</h2>
@@ -490,7 +490,7 @@ async function renderDetail() {
               <div><dt>Certificado</dt><dd>${esc(current.certificateText)}</dd></div>
               <div><dt>Acceso completo</dt><dd>${esc(current.paidText)}</dd></div>
               <div><dt>Inversion publicada</dt><dd>${esc(current.pricePen)}</dd></div>
-              <div><dt>Internacional</dt><dd>${esc(current.priceUsd)}</dd></div>
+
             </dl>
             <div class="catalog-actions">
               ${modalityButtons(current)}
