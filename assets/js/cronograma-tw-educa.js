@@ -173,9 +173,6 @@
       <section class="course-card-schedule" aria-label="Próximas fechas de inicio">
         <p class="eyebrow">Próximo inicio</p>
         ${nextDateMarkup(next)}
-        <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="${escapeHtml(next.enlace_inscripcion)}" target="_blank" rel="noopener noreferrer">Inscribirme por WhatsApp</a>
-        </div>
         <details>
           <summary>Ver próximas fechas</summary>
           <div class="course-card-schedule-list">
@@ -301,8 +298,7 @@
         <p><strong>Referencia horaria:</strong> Lima, Perú — UTC-05:00</p>
         <p><strong>Apertura:</strong> mínimo ${escapeHtml(item.minimo_inscritos)} participantes</p>
         <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="${escapeHtml(item.enlace_inscripcion)}" target="_blank" rel="noopener noreferrer">Inscribirme por WhatsApp</a>
-          <a class="btn btn-small btn-secondary" href="${escapeHtml(localPath(course.url_detalle))}">Ver curso</a>
+          <a class="btn btn-small btn-secondary" href="${escapeHtml(localPath(course.url_detalle))}">Ver más</a>
         </div>
       </article>`;
   }

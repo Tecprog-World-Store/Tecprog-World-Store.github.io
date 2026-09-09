@@ -73,9 +73,6 @@ function hoursBucket(hours) {
 
 function courseCard(item) {
   const detailHref = `../detalle/curso.html?id=${encodeURIComponent(item.id)}&catalogo=general`;
-  const monthlyMessage = `Hola, deseo agregar el curso ${item.curso} al catalogo mensual de Tecprog World.`;
-  const institutionalMessage = `Hola, deseo informacion institucional para inscribir a un equipo en el curso ${item.curso}.`;
-  const inquiryMessage = `Hola, deseo informacion para inscribirme en el curso ${item.curso}. Por favor, confirmen disponibilidad, fecha de inicio, modalidad, horario y medios de pago.`;
   return `
     <article class="catalog-card course-general-card" data-course-card-id="${catalogEscape(item.id)}"
       data-categoria="${catalogEscape(item.categoria)}"
@@ -109,11 +106,7 @@ function courseCard(item) {
         <p class="usd-price">Internacional: USD ${catalogEscape(item.precio_internacional_usd)}</p>
         <p class="microcopy">${catalogEscape(item.nota_precio_mooc || "")}</p>
         <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="${detailHref}">Ver detalle</a>
-          <a class="btn btn-small" href="${catalogWhatsapp(inquiryMessage)}" target="_blank" rel="noopener noreferrer">${catalogEscape(item.boton_mooc || "Consultar inscripcion")}</a>
-          <a class="btn btn-small btn-gold" href="${catalogWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Solicitar inscripcion por WhatsApp</a>
-          <a class="btn btn-small" href="${catalogWhatsapp(institutionalMessage)}" target="_blank" rel="noopener noreferrer">Inscripcion institucional</a>
-          <a class="btn btn-small" href="${catalogWhatsapp(monthlyMessage)}" target="_blank" rel="noopener noreferrer">Agregar al catalogo mensual</a>
+          <a class="btn btn-small btn-primary" href="${detailHref}">Ver más</a>
         </div>
       </div>
     </article>

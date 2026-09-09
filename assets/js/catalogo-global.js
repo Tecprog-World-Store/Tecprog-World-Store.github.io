@@ -215,12 +215,11 @@
     const priceText = item.precio_texto || (isCourse && item.precio ? item.precio : money(primaryPrice.value, primaryPrice.currency));
     const priceDollars = primaryPrice.currency !== "USD" && typeof item.precio_dolares === "number" ? `<span>${money(item.precio_dolares, "USD")}</span>` : "";
     const publicStatus = commercialText(item.estado_publico || readable(item.estado || "Por confirmar"));
-    const actionLabel = item.tipo_item === "curso" ? "Reservar" : /servicio|proyecto|software/.test(item.tipo_item || "") ? "Solicitar" : "Consultar disponibilidad";
     const courseMeta = item.tipo_item === "curso"
       ? [item.modalidad].filter(Boolean).join(" · ")
       : "";
     const detail = item.url_detalle
-      ? `<a class="btn btn-small ${isCourse ? "btn-primary" : "btn-secondary"}" href="${localPath(item.url_detalle)}">Ver detalle</a>`
+      ? `<a class="btn btn-small ${isCourse ? "btn-primary" : "btn-secondary"}" href="${localPath(item.url_detalle)}">Ver más</a>`
       : "";
     const notice = isCourse ? "" : `<p class="commerce-notice">${escapeHtml(item.aviso_publico || NOTICE)}</p>`;
 
@@ -245,7 +244,6 @@
           ${notice}
           <div class="commerce-card-actions">
             ${detail}
-            <a class="btn btn-small btn-gold" href="${whatsappHref(item)}" target="_blank" rel="noopener noreferrer">${actionLabel}</a>
           </div>
         </div>
       </article>

@@ -48,9 +48,7 @@ function renderGuideCard(item) {
           <strong>${guiaEscape(item.precio)}</strong>
         </div>
         <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="../detalle/guia.html?id=${encodeURIComponent(item.id)}">Ver guia</a>
-          <a class="btn btn-small" href="${guiaFromSubdir((item.pdfUrl || item.archivo_pdf))}" download>Descargar PDF</a>
-          <a class="btn btn-small btn-gold" href="${guiaWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Consultar WhatsApp</a>
+          <a class="btn btn-small btn-primary" href="../detalle/guia.html?id=${encodeURIComponent(item.id)}">Ver más</a>
         </div>
       </div>
     </article>

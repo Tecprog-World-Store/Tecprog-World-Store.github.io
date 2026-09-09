@@ -67,8 +67,7 @@ function listMarkup(items) {
         <p>${escapeHtml(item.descripcion_corta)}</p>
         <strong>${escapeHtml(item.precio_desde_soles_igv || "Precio a consultar")}</strong>
         <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="${whatsappUrl(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-          <a class="btn btn-small btn-gold" href="${materialUrl(item.id)}">Ver detalle</a>
+          <a class="btn btn-small btn-gold" href="${materialUrl(item.id)}">Ver más</a>
         </div>
       </div>
     </article>

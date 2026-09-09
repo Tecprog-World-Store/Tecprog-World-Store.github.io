@@ -39,9 +39,7 @@ function renderCompendioCard(item) {
           <strong>${twEscape(item.precio_material_soles)}</strong>
         </div>
         <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="../detalle/compendio.html?id=${encodeURIComponent(item.id)}">Ver PDF</a>
-          <a class="btn btn-small" href="${fromSubdir((item.pdfUrl || item.archivo_pdf))}" download>Descargar PDF</a>
-          <a class="btn btn-small btn-gold" href="${twWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">Inscribirme</a>
+          <a class="btn btn-small btn-primary" href="../detalle/compendio.html?id=${encodeURIComponent(item.id)}">Ver más</a>
         </div>
       </div>
     </article>

@@ -79,7 +79,6 @@ function offerCard(item) {
   const detailHref = item.url_detalle
     ? offerAsset(item.url_detalle)
     : `../detalle/oferta.html?id=${encodeURIComponent(item.id)}&linea=${encodeURIComponent(item.linea_slug)}`;
-  const actionLabel = item.accion_whatsapp || "Solicitar cotizacion por WhatsApp";
   return `
     <article class="catalog-card line-offer-card"
       data-categoria="${offerEscape(item.categoria)}"
@@ -101,8 +100,7 @@ function offerCard(item) {
         </div>
         <p class="usd-price">${offerEscape(item.precio_usd_texto)}</p>
         <div class="catalog-actions">
-          <a class="btn btn-small btn-primary" href="${detailHref}">Ver detalle</a>
-          <a class="btn btn-small btn-gold" href="${offerWhatsapp(item.whatsapp_message)}" target="_blank" rel="noopener noreferrer">${offerEscape(actionLabel)}</a>
+          <a class="btn btn-small btn-primary" href="${detailHref}">Ver más</a>
         </div>
       </div>
     </article>
