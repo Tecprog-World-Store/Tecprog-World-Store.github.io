@@ -201,7 +201,9 @@
 
   function card(item) {
     const line = LINE_LABELS[item.linea_negocio] || readable(item.linea_negocio);
-    const image = localPath(item.imagen || DEFAULT_IMAGE);
+    // Los flyers históricos de cursos contienen tarifas PEN incrustadas.
+    const cardImage = item.tipo_item === "curso" ? "assets/img/cursos/capacitacion-empresarial.svg" : item.imagen;
+    const image = localPath(cardImage || DEFAULT_IMAGE);
     const fallback = localPath(DEFAULT_IMAGE);
     const primaryPrice = itemPrimaryPrice(item);
     const isCourse = item.linea_negocio === "tw-educa" || item.linea === "tw-educa" || item.tipo_item === "curso";
@@ -219,7 +221,7 @@
     return `
       <article class="commerce-card${isCourse ? " is-course" : ""}" data-commerce-item="${escapeHtml(item.id)}">
         <div class="commerce-card-media">
-          <img src="${image}" alt="${escapeHtml(item.imagen_alt || item.nombre)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';">
+          <img src="${image}" alt="${escapeHtml(item.imagen_alt || item.nombre)}" style="${isCourse ? 'object-fit: contain;' : ''}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';">
           <div class="commerce-badge-row">
             ${item.oferta ? '<span class="commerce-badge is-offer">Oferta</span>' : ""}
           </div>
